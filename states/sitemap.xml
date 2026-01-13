@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+  <!-- Example: Florida state subdomain -->
+  <sitemap>
+    <loc>https://florida.mydripnurse.com/sitemap.xml</loc>
+    <lastmod>2026-01-12</lastmod>
+  </sitemap>
+
+  <!-- Example: Arizona state subdomain -->
+  <sitemap>
+    <loc>https://arizona.mydripnurse.com/sitemap.xml</loc>
+    <lastmod>2026-01-12</lastmod>
+  </sitemap>
+
+  <!-- Example: Texas state subdomain -->
+  <sitemap>
+    <loc>https://texas.mydripnurse.com/sitemap.xml</loc>
+    <lastmod>2026-01-12</lastmod>
+  </sitemap>
+
+</sitemapindex>
