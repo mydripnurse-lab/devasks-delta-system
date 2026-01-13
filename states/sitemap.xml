@@ -1,309 +1,309 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
-  <!-- Alabama state subdomain -->
+  <!-- Alabama geographic hierarchy -->
   <sitemap>
-    <loc>https://alabama.mydripnurse.com/sitemap.xml</loc>
+    <loc>https://sitemaps.mydripnurse.com/states/alabama/sitemap.xml</loc>
     <lastmod>2026-01-12</lastmod>
   </sitemap>
 
-  <!-- Alaska state subdomain -->
+  <!-- Alaska geographic hierarchy -->
   <sitemap>
-    <loc>https://alaska.mydripnurse.com/sitemap.xml</loc>
+    <loc>https://sitemaps.mydripnurse.com/states/alaska/sitemap.xml</loc>
     <lastmod>2026-01-12</lastmod>
   </sitemap>
 
-  <!-- Arizona state subdomain -->
+  <!-- Arizona geographic hierarchy -->
   <sitemap>
-    <loc>https://arizona.mydripnurse.com/sitemap.xml</loc>
+    <loc>https://sitemaps.mydripnurse.com/states/arizona/sitemap.xml</loc>
     <lastmod>2026-01-12</lastmod>
   </sitemap>
 
-  <!-- Arkansas state subdomain -->
+  <!-- Arkansas geographic hierarchy -->
   <sitemap>
-    <loc>https://arkansas.mydripnurse.com/sitemap.xml</loc>
+    <loc>https://sitemaps.mydripnurse.com/states/arkansas/sitemap.xml</loc>
     <lastmod>2026-01-12</lastmod>
   </sitemap>
 
-  <!-- California state subdomain -->
+  <!-- California geographic hierarchy -->
   <sitemap>
-    <loc>https://california.mydripnurse.com/sitemap.xml</loc>
+    <loc>https://sitemaps.mydripnurse.com/states/california/sitemap.xml</loc>
     <lastmod>2026-01-12</lastmod>
   </sitemap>
 
-  <!-- Colorado state subdomain -->
+  <!-- Colorado geographic hierarchy -->
   <sitemap>
-    <loc>https://colorado.mydripnurse.com/sitemap.xml</loc>
+    <loc>https://sitemaps.mydripnurse.com/states/colorado/sitemap.xml</loc>
     <lastmod>2026-01-12</lastmod>
   </sitemap>
 
-  <!-- Connecticut state subdomain -->
+  <!-- Connecticut geographic hierarchy -->
   <sitemap>
-    <loc>https://connecticut.mydripnurse.com/sitemap.xml</loc>
+    <loc>https://sitemaps.mydripnurse.com/states/connecticut/sitemap.xml</loc>
     <lastmod>2026-01-12</lastmod>
   </sitemap>
 
-  <!-- Delaware state subdomain -->
+  <!-- Delaware geographic hierarchy -->
   <sitemap>
-    <loc>https://delaware.mydripnurse.com/sitemap.xml</loc>
+    <loc>https://sitemaps.mydripnurse.com/states/delaware/sitemap.xml</loc>
     <lastmod>2026-01-12</lastmod>
   </sitemap>
 
-  <!-- Florida state subdomain -->
+  <!-- Florida geographic hierarchy -->
   <sitemap>
-    <loc>https://florida.mydripnurse.com/sitemap.xml</loc>
+    <loc>https://sitemaps.mydripnurse.com/states/florida/sitemap.xml</loc>
     <lastmod>2026-01-12</lastmod>
   </sitemap>
 
-  <!-- Georgia state subdomain -->
+  <!-- Georgia geographic hierarchy -->
   <sitemap>
-    <loc>https://georgia.mydripnurse.com/sitemap.xml</loc>
+    <loc>https://sitemaps.mydripnurse.com/states/georgia/sitemap.xml</loc>
     <lastmod>2026-01-12</lastmod>
   </sitemap>
 
-  <!-- Hawaii state subdomain -->
+  <!-- Hawaii geographic hierarchy -->
   <sitemap>
-    <loc>https://hawaii.mydripnurse.com/sitemap.xml</loc>
+    <loc>https://sitemaps.mydripnurse.com/states/hawaii/sitemap.xml</loc>
     <lastmod>2026-01-12</lastmod>
   </sitemap>
 
-  <!-- Idaho state subdomain -->
+  <!-- Idaho geographic hierarchy -->
   <sitemap>
-    <loc>https://idaho.mydripnurse.com/sitemap.xml</loc>
+    <loc>https://sitemaps.mydripnurse.com/states/idaho/sitemap.xml</loc>
     <lastmod>2026-01-12</lastmod>
   </sitemap>
 
-  <!-- Illinois state subdomain -->
+  <!-- Illinois geographic hierarchy -->
   <sitemap>
-    <loc>https://illinois.mydripnurse.com/sitemap.xml</loc>
+    <loc>https://sitemaps.mydripnurse.com/states/illinois/sitemap.xml</loc>
     <lastmod>2026-01-12</lastmod>
   </sitemap>
 
-  <!-- Indiana state subdomain -->
+  <!-- Indiana geographic hierarchy -->
   <sitemap>
-    <loc>https://indiana.mydripnurse.com/sitemap.xml</loc>
+    <loc>https://sitemaps.mydripnurse.com/states/indiana/sitemap.xml</loc>
     <lastmod>2026-01-12</lastmod>
   </sitemap>
 
-  <!-- Iowa state subdomain -->
+  <!-- Iowa geographic hierarchy -->
   <sitemap>
-    <loc>https://iowa.mydripnurse.com/sitemap.xml</loc>
+    <loc>https://sitemaps.mydripnurse.com/states/iowa/sitemap.xml</loc>
     <lastmod>2026-01-12</lastmod>
   </sitemap>
 
-  <!-- Kansas state subdomain -->
+  <!-- Kansas geographic hierarchy -->
   <sitemap>
-    <loc>https://kansas.mydripnurse.com/sitemap.xml</loc>
+    <loc>https://sitemaps.mydripnurse.com/states/kansas/sitemap.xml</loc>
     <lastmod>2026-01-12</lastmod>
   </sitemap>
 
-  <!-- Kentucky state subdomain -->
+  <!-- Kentucky geographic hierarchy -->
   <sitemap>
-    <loc>https://kentucky.mydripnurse.com/sitemap.xml</loc>
+    <loc>https://sitemaps.mydripnurse.com/states/kentucky/sitemap.xml</loc>
     <lastmod>2026-01-12</lastmod>
   </sitemap>
 
-  <!-- Louisiana state subdomain -->
+  <!-- Louisiana geographic hierarchy -->
   <sitemap>
-    <loc>https://louisiana.mydripnurse.com/sitemap.xml</loc>
+    <loc>https://sitemaps.mydripnurse.com/states/louisiana/sitemap.xml</loc>
     <lastmod>2026-01-12</lastmod>
   </sitemap>
 
-  <!-- Maine state subdomain -->
+  <!-- Maine geographic hierarchy -->
   <sitemap>
-    <loc>https://maine.mydripnurse.com/sitemap.xml</loc>
+    <loc>https://sitemaps.mydripnurse.com/states/maine/sitemap.xml</loc>
     <lastmod>2026-01-12</lastmod>
   </sitemap>
 
-  <!-- Maryland state subdomain -->
+  <!-- Maryland geographic hierarchy -->
   <sitemap>
-    <loc>https://maryland.mydripnurse.com/sitemap.xml</loc>
+    <loc>https://sitemaps.mydripnurse.com/states/maryland/sitemap.xml</loc>
     <lastmod>2026-01-12</lastmod>
   </sitemap>
 
-  <!-- Massachusetts state subdomain -->
+  <!-- Massachusetts geographic hierarchy -->
   <sitemap>
-    <loc>https://massachusetts.mydripnurse.com/sitemap.xml</loc>
+    <loc>https://sitemaps.mydripnurse.com/states/massachusetts/sitemap.xml</loc>
     <lastmod>2026-01-12</lastmod>
   </sitemap>
 
-  <!-- Michigan state subdomain -->
+  <!-- Michigan geographic hierarchy -->
   <sitemap>
-    <loc>https://michigan.mydripnurse.com/sitemap.xml</loc>
+    <loc>https://sitemaps.mydripnurse.com/states/michigan/sitemap.xml</loc>
     <lastmod>2026-01-12</lastmod>
   </sitemap>
 
-  <!-- Minnesota state subdomain -->
+  <!-- Minnesota geographic hierarchy -->
   <sitemap>
-    <loc>https://minnesota.mydripnurse.com/sitemap.xml</loc>
+    <loc>https://sitemaps.mydripnurse.com/states/minnesota/sitemap.xml</loc>
     <lastmod>2026-01-12</lastmod>
   </sitemap>
 
-  <!-- Mississippi state subdomain -->
+  <!-- Mississippi geographic hierarchy -->
   <sitemap>
-    <loc>https://mississippi.mydripnurse.com/sitemap.xml</loc>
+    <loc>https://sitemaps.mydripnurse.com/states/mississippi/sitemap.xml</loc>
     <lastmod>2026-01-12</lastmod>
   </sitemap>
 
-  <!-- Missouri state subdomain -->
+  <!-- Missouri geographic hierarchy -->
   <sitemap>
-    <loc>https://missouri.mydripnurse.com/sitemap.xml</loc>
+    <loc>https://sitemaps.mydripnurse.com/states/missouri/sitemap.xml</loc>
     <lastmod>2026-01-12</lastmod>
   </sitemap>
 
-  <!-- Montana state subdomain -->
+  <!-- Montana geographic hierarchy -->
   <sitemap>
-    <loc>https://montana.mydripnurse.com/sitemap.xml</loc>
+    <loc>https://sitemaps.mydripnurse.com/states/montana/sitemap.xml</loc>
     <lastmod>2026-01-12</lastmod>
   </sitemap>
 
-  <!-- Nebraska state subdomain -->
+  <!-- Nebraska geographic hierarchy -->
   <sitemap>
-    <loc>https://nebraska.mydripnurse.com/sitemap.xml</loc>
+    <loc>https://sitemaps.mydripnurse.com/states/nebraska/sitemap.xml</loc>
     <lastmod>2026-01-12</lastmod>
   </sitemap>
 
-  <!-- Nevada state subdomain -->
+  <!-- Nevada geographic hierarchy -->
   <sitemap>
-    <loc>https://nevada.mydripnurse.com/sitemap.xml</loc>
+    <loc>https://sitemaps.mydripnurse.com/states/nevada/sitemap.xml</loc>
     <lastmod>2026-01-12</lastmod>
   </sitemap>
 
-  <!-- New Hampshire state subdomain -->
+  <!-- New Hampshire geographic hierarchy -->
   <sitemap>
-    <loc>https://newhampshire.mydripnurse.com/sitemap.xml</loc>
+    <loc>https://sitemaps.mydripnurse.com/states/new-hampshire/sitemap.xml</loc>
     <lastmod>2026-01-12</lastmod>
   </sitemap>
 
-  <!-- New Jersey state subdomain -->
+  <!-- New Jersey geographic hierarchy -->
   <sitemap>
-    <loc>https://newjersey.mydripnurse.com/sitemap.xml</loc>
+    <loc>https://sitemaps.mydripnurse.com/states/new-jersey/sitemap.xml</loc>
     <lastmod>2026-01-12</lastmod>
   </sitemap>
 
-  <!-- New Mexico state subdomain -->
+  <!-- New Mexico geographic hierarchy -->
   <sitemap>
-    <loc>https://newmexico.mydripnurse.com/sitemap.xml</loc>
+    <loc>https://sitemaps.mydripnurse.com/states/new-mexico/sitemap.xml</loc>
     <lastmod>2026-01-12</lastmod>
   </sitemap>
 
-  <!-- New York state subdomain -->
+  <!-- New York geographic hierarchy -->
   <sitemap>
-    <loc>https://newyork.mydripnurse.com/sitemap.xml</loc>
+    <loc>https://sitemaps.mydripnurse.com/states/new-york/sitemap.xml</loc>
     <lastmod>2026-01-12</lastmod>
   </sitemap>
 
-  <!-- North Carolina state subdomain -->
+  <!-- North Carolina geographic hierarchy -->
   <sitemap>
-    <loc>https://northcarolina.mydripnurse.com/sitemap.xml</loc>
+    <loc>https://sitemaps.mydripnurse.com/states/north-carolina/sitemap.xml</loc>
     <lastmod>2026-01-12</lastmod>
   </sitemap>
 
-  <!-- North Dakota state subdomain -->
+  <!-- North Dakota geographic hierarchy -->
   <sitemap>
-    <loc>https://northdakota.mydripnurse.com/sitemap.xml</loc>
+    <loc>https://sitemaps.mydripnurse.com/states/north-dakota/sitemap.xml</loc>
     <lastmod>2026-01-12</lastmod>
   </sitemap>
 
-  <!-- Ohio state subdomain -->
+  <!-- Ohio geographic hierarchy -->
   <sitemap>
-    <loc>https://ohio.mydripnurse.com/sitemap.xml</loc>
+    <loc>https://sitemaps.mydripnurse.com/states/ohio/sitemap.xml</loc>
     <lastmod>2026-01-12</lastmod>
   </sitemap>
 
-  <!-- Oklahoma state subdomain -->
+  <!-- Oklahoma geographic hierarchy -->
   <sitemap>
-    <loc>https://oklahoma.mydripnurse.com/sitemap.xml</loc>
+    <loc>https://sitemaps.mydripnurse.com/states/oklahoma/sitemap.xml</loc>
     <lastmod>2026-01-12</lastmod>
   </sitemap>
 
-  <!-- Oregon state subdomain -->
+  <!-- Oregon geographic hierarchy -->
   <sitemap>
-    <loc>https://oregon.mydripnurse.com/sitemap.xml</loc>
+    <loc>https://sitemaps.mydripnurse.com/states/oregon/sitemap.xml</loc>
     <lastmod>2026-01-12</lastmod>
   </sitemap>
 
-  <!-- Pennsylvania state subdomain -->
+  <!-- Pennsylvania geographic hierarchy -->
   <sitemap>
-    <loc>https://pennsylvania.mydripnurse.com/sitemap.xml</loc>
+    <loc>https://sitemaps.mydripnurse.com/states/pennsylvania/sitemap.xml</loc>
     <lastmod>2026-01-12</lastmod>
   </sitemap>
 
-  <!-- Puerto Rico state subdomain -->
+  <!-- Puerto Rico -->
   <sitemap>
-    <loc>https://puerto-rico.mydripnurse.com/sitemap.xml</loc>
+    <loc>https://sitemaps.mydripnurse.com/states/puerto-rico/sitemap.xml</loc>
     <lastmod>2026-01-12</lastmod>
   </sitemap>
 
-  <!-- Rhode Island state subdomain -->
+  <!-- Rhode Island geographic hierarchy -->
   <sitemap>
-    <loc>https://rhodeisland.mydripnurse.com/sitemap.xml</loc>
+    <loc>https://sitemaps.mydripnurse.com/states/rhode-island/sitemap.xml</loc>
     <lastmod>2026-01-12</lastmod>
   </sitemap>
 
-  <!-- South Carolina state subdomain -->
+  <!-- South Carolina geographic hierarchy -->
   <sitemap>
-    <loc>https://southcarolina.mydripnurse.com/sitemap.xml</loc>
+    <loc>https://sitemaps.mydripnurse.com/states/south-carolina/sitemap.xml</loc>
     <lastmod>2026-01-12</lastmod>
   </sitemap>
 
-  <!-- South Dakota state subdomain -->
+  <!-- South Dakota geographic hierarchy -->
   <sitemap>
-    <loc>https://southdakota.mydripnurse.com/sitemap.xml</loc>
+    <loc>https://sitemaps.mydripnurse.com/states/south-dakota/sitemap.xml</loc>
     <lastmod>2026-01-12</lastmod>
   </sitemap>
 
-  <!-- Tennessee state subdomain -->
+  <!-- Tennessee geographic hierarchy -->
   <sitemap>
-    <loc>https://tennessee.mydripnurse.com/sitemap.xml</loc>
+    <loc>https://sitemaps.mydripnurse.com/states/tennessee/sitemap.xml</loc>
     <lastmod>2026-01-12</lastmod>
   </sitemap>
 
-  <!-- Texas state subdomain -->
+  <!-- Texas geographic hierarchy -->
   <sitemap>
-    <loc>https://texas.mydripnurse.com/sitemap.xml</loc>
+    <loc>https://sitemaps.mydripnurse.com/states/texas/sitemap.xml</loc>
     <lastmod>2026-01-12</lastmod>
   </sitemap>
 
-  <!-- Utah state subdomain -->
+  <!-- Utah geographic hierarchy -->
   <sitemap>
-    <loc>https://utah.mydripnurse.com/sitemap.xml</loc>
+    <loc>https://sitemaps.mydripnurse.com/states/utah/sitemap.xml</loc>
     <lastmod>2026-01-12</lastmod>
   </sitemap>
 
-  <!-- Vermont state subdomain -->
+  <!-- Vermont geographic hierarchy -->
   <sitemap>
-    <loc>https://vermont.mydripnurse.com/sitemap.xml</loc>
+    <loc>https://sitemaps.mydripnurse.com/states/vermont/sitemap.xml</loc>
     <lastmod>2026-01-12</lastmod>
   </sitemap>
 
-  <!-- Virginia state subdomain -->
+  <!-- Virginia geographic hierarchy -->
   <sitemap>
-    <loc>https://virginia.mydripnurse.com/sitemap.xml</loc>
+    <loc>https://sitemaps.mydripnurse.com/states/virginia/sitemap.xml</loc>
     <lastmod>2026-01-12</lastmod>
   </sitemap>
 
-  <!-- Washington state subdomain -->
+  <!-- Washington geographic hierarchy -->
   <sitemap>
-    <loc>https://washington.mydripnurse.com/sitemap.xml</loc>
+    <loc>https://sitemaps.mydripnurse.com/states/washington/sitemap.xml</loc>
     <lastmod>2026-01-12</lastmod>
   </sitemap>
 
-  <!-- West Virginia state subdomain -->
+  <!-- West Virginia geographic hierarchy -->
   <sitemap>
-    <loc>https://westvirginia.mydripnurse.com/sitemap.xml</loc>
+    <loc>https://sitemaps.mydripnurse.com/states/west-virginia/sitemap.xml</loc>
     <lastmod>2026-01-12</lastmod>
   </sitemap>
 
-  <!-- Wisconsin state subdomain -->
+  <!-- Wisconsin geographic hierarchy -->
   <sitemap>
-    <loc>https://wisconsin.mydripnurse.com/sitemap.xml</loc>
+    <loc>https://sitemaps.mydripnurse.com/states/wisconsin/sitemap.xml</loc>
     <lastmod>2026-01-12</lastmod>
   </sitemap>
 
-  <!-- Wyoming state subdomain -->
+  <!-- Wyoming geographic hierarchy -->
   <sitemap>
-    <loc>https://wyoming.mydripnurse.com/sitemap.xml</loc>
+    <loc>https://sitemaps.mydripnurse.com/states/wyoming/sitemap.xml</loc>
     <lastmod>2026-01-12</lastmod>
   </sitemap>
 

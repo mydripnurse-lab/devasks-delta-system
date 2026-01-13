@@ -1,15 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
-  <!-- Florida Main Page -->
+  <!-- Florida, Baker County Main Page -->
   <sitemap>
     <loc>https://florida.mydripnurse.com/sitemap.xml</loc>
     <lastmod>2026-01-12</lastmod>
   </sitemap>
   
-  <!-- Florida counties -->
+  <!-- Florida, Baker cities -->
   <sitemap>
-    <loc>https://sitemaps.mydripnurse.com/states/florida/counties/sitemap.xml</loc>
+    <loc>https://glenstmary-city.mydripnurse.com/sitemap.xml</loc>
+    <lastmod>2026-01-12</lastmod>
+  </sitemap>
+
+  <sitemap>
+    <loc>https://macclenny-city.mydripnurse.com/sitemap.xml</loc>
     <lastmod>2026-01-12</lastmod>
   </sitemap>
 
