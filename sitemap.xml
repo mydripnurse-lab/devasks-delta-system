@@ -1,15 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-
-  <!-- CORE PAGES -->
+  <!-- Main domain pages (GHL) -->
   <sitemap>
-    <loc>https://mydripnurse.com/sitemaps.xml</loc>
+    <loc>https://mydripnurse.com/sitemap.xml</loc>
+    <lastmod>2026-01-12</lastmod>
   </sitemap>
 
-  <!-- STATES -->
+  <!-- States index (this file will list ALL state subdomains) -->
   <sitemap>
-    <loc>https://mydripnurse.com/sitemaps/states.xml</loc>
+    <loc>https://sitemaps.mydripnurse.com/states/sitemap.xml</loc>
+    <lastmod>2026-01-12</lastmod>
   </sitemap>
-
 </sitemapindex>
-
-
