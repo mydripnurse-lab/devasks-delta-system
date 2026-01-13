@@ -10,8 +10,8 @@
 
   <style>
     :root{
-      --bg1:#0b1220;
-      --bg2:#0f1a33;
+      --bg1:#000000; /* black */
+      --bg2:#000000; /* black */
       --card:rgba(255,255,255,.06);
       --card2:rgba(255,255,255,.10);
       --text:rgba(255,255,255,.92);
@@ -33,10 +33,7 @@
       margin:0;
       font-family: var(--sans);
       color: var(--text);
-      background:
-        radial-gradient(1200px 600px at 20% 10%, rgba(0,227,238,.18), transparent 60%),
-        radial-gradient(900px 500px at 90% 30%, rgba(242,150,63,.14), transparent 55%),
-        linear-gradient(160deg, var(--bg1), var(--bg2));
+      background: #000; /* ✅ solid black background */
     }
 
     .wrap{
@@ -146,10 +143,56 @@
       line-height:1.4;
     }
 
+    /* ✅ Search toolbar (like counties) */
+    .tools{
+      padding: 12px 18px;
+      display:flex;
+      gap:10px;
+      flex-wrap: wrap;
+      border-bottom:1px solid var(--stroke);
+      background: rgba(255,255,255,.03);
+    }
+    .search{
+      flex: 1 1 280px;
+      display:flex;
+      align-items:center;
+      gap:10px;
+      border:1px solid var(--stroke);
+      background: rgba(0,0,0,.18);
+      border-radius: 999px;
+      padding: 10px 12px;
+    }
+    .search input{
+      width:100%;
+      border:0;
+      outline:0;
+      background: transparent;
+      color: var(--text);
+      font-size: 13px;
+    }
+    .search input::placeholder{color: rgba(255,255,255,.45)}
+    .chip{
+      display:inline-flex;
+      align-items:center;
+      gap:8px;
+      font-size:12px;
+      color: var(--muted);
+      border:1px solid var(--stroke);
+      background: rgba(255,255,255,.03);
+      padding:8px 10px;
+      border-radius:999px;
+      white-space:nowrap;
+    }
+
+    /* ✅ Long list handling: scroll inside the card */
     .list{
       padding: 12px 12px 16px;
       display:grid;
       gap:10px;
+
+      max-height: 62vh;       /* adjust if you want */
+      overflow: auto;         /* scroll */
+      overscroll-behavior: contain;
     }
 
     .item{
@@ -174,6 +217,7 @@
       display:flex;
       gap:12px;
       align-items:flex-start;
+      min-width:0;
     }
 
     .badge{
@@ -309,9 +353,19 @@
             <p>Use these URLs inside Google Search Console / Bing Webmaster Tools to speed up discovery across subdomains.</p>
           </div>
 
-          <div class="list">
+          <!-- ✅ Search + counters -->
+          <div class="tools">
+            <div class="search" role="search">
+              <span aria-hidden="true">🔎</span>
+              <input id="q" type="search" placeholder="Search (e.g., Florida, States, Main)..." />
+            </div>
+            <div class="chip"><span id="countShown">0</span> shown</div>
+            <div class="chip"><span id="countTotal">0</span> total</div>
+          </div>
 
-            <div class="item">
+          <div class="list" id="list">
+
+            <div class="item" data-title="main sitemap /sitemap.xml">
               <div class="itemLeft">
                 <div class="badge" aria-hidden="true">
                   <svg width="18" height="18" viewBox="0 0 24 24" fill="none">
@@ -331,7 +385,7 @@
               </a>
             </div>
 
-            <div class="item">
+            <div class="item" data-title="states sitemap /states/sitemap.xml">
               <div class="itemLeft">
                 <div class="badge" aria-hidden="true">
                   <svg width="18" height="18" viewBox="0 0 24 24" fill="none">
@@ -351,27 +405,7 @@
               </a>
             </div>
 
-            <!-- <div class="item">
-              <div class="itemLeft">
-                <div class="badge" aria-hidden="true">
-                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none">
-                    <path d="M4 4h16v16H4z" stroke="rgba(255,255,255,.9)" stroke-width="1.6" opacity=".8"/>
-                    <path d="M7 9h10M7 13h10M7 17h6" stroke="rgba(0,227,238,.9)" stroke-width="1.6" stroke-linecap="round"/>
-                  </svg>
-                </div>
-                <div class="meta">
-                  <div class="title">Florida sitemap</div>
-                  <div class="url">/states/florida/sitemap.xml</div>
-                </div>
-              </div>
-
-              <a class="btn" href="/states/florida/sitemap.xml">
-                Open
-                <span aria-hidden="true">↗</span>
-              </a>
-            </div> -->
-
-            <div class="item">
+            <div class="item" data-title="florida /states/florida">
               <div class="itemLeft">
                 <div class="badge" aria-hidden="true">
                   <svg width="18" height="18" viewBox="0 0 24 24" fill="none">
@@ -390,16 +424,6 @@
                 <span aria-hidden="true">↗</span>
               </a>
             </div>
-
-            <!-- When we add more sitemaps, just duplicate another .item -->
-            <!-- Example:
-            <div class="item">
-              ...
-              <div class="title">Florida (states index)</div>
-              <div class="url">/states/fl/sitemap.xml</div>
-              ...
-            </div>
-            -->
 
           </div>
         </section>
@@ -433,7 +457,33 @@
   </div>
 
   <script>
+    // Year
     document.getElementById('year').textContent = new Date().getFullYear();
+
+    // ✅ Search logic
+    const items = Array.from(document.querySelectorAll('#list .item'));
+    const totalEl = document.getElementById('countTotal');
+    const shownEl = document.getElementById('countShown');
+    const q = document.getElementById('q');
+
+    totalEl.textContent = String(items.length);
+
+    function render(){
+      const query = q.value.trim().toLowerCase();
+      let shown = 0;
+
+      items.forEach(el => {
+        const hay = (el.getAttribute('data-title') || '').toLowerCase();
+        const ok = !query || hay.includes(query);
+        el.style.display = ok ? '' : 'none';
+        if(ok) shown++;
+      });
+
+      shownEl.textContent = String(shown);
+    }
+
+    q.addEventListener('input', render);
+    render();
   </script>
 </body>
 </html>
