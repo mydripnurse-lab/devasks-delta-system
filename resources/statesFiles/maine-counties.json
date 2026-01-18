@@ -1,493 +1,1841 @@
 {
-    "Counties": [
+    "counties": [
         {
-            "County Name": "Androscoggin",
-            "Cities": [
-                "Auburn",
-                "Lewiston",
-                "Lisbon",
-                "Mechanic Falls",
-                "Poland",
-                "Sabattus",
-                "Turner"
+            "countyName": "Androscoggin",
+            "cities": [
+                {
+                    "cityName": "Auburn",
+                    "cityDomain": "https://auburn-city-me.mydripnurse.com",
+                    "citySitemap": "https://auburn-city-me.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Lewiston",
+                    "cityDomain": "https://lewiston-city-me.mydripnurse.com",
+                    "citySitemap": "https://lewiston-city-me.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Lisbon",
+                    "cityDomain": "https://lisbon-city-me.mydripnurse.com",
+                    "citySitemap": "https://lisbon-city-me.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Mechanic Falls",
+                    "cityDomain": "https://mechanic-falls-city-me.mydripnurse.com",
+                    "citySitemap": "https://mechanic-falls-city-me.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Poland",
+                    "cityDomain": "https://poland-city-me.mydripnurse.com",
+                    "citySitemap": "https://poland-city-me.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Sabattus",
+                    "cityDomain": "https://sabattus-city-me.mydripnurse.com",
+                    "citySitemap": "https://sabattus-city-me.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Turner",
+                    "cityDomain": "https://turner-city-me.mydripnurse.com",
+                    "citySitemap": "https://turner-city-me.mydripnurse.com/sitemap.xml"
+                }
             ],
             "Timezone": {
                 "Name": "Eastern",
                 "Zone": "US/Eastern",
                 "UTC_Offset": "-05:00"
-            }
+            },
+            "countyDomain": "https://androscoggin-county-me.mydripnurse.com",
+            "countySitemap": "https://androscoggin-county-me.mydripnurse.com/sitemap.xml"
         },
         {
-            "County Name": "Aroostook",
-            "Cities": [
-                "Ashland",
-                "Blaine",
-                "Bridgewater",
-                "Caribou",
-                "Fort Fairfield",
-                "Fort Kent",
-                "Houlton",
-                "Island Falls",
-                "Limestone",
-                "Madawaska",
-                "Mars Hill",
-                "Oakfield",
-                "Presque Isle",
-                "Sherman",
-                "Van Buren",
-                "Washburn"
+            "countyName": "Aroostook",
+            "cities": [
+                {
+                    "cityName": "Ashland",
+                    "cityDomain": "https://ashland-city-me.mydripnurse.com",
+                    "citySitemap": "https://ashland-city-me.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Blaine",
+                    "cityDomain": "https://blaine-city-me.mydripnurse.com",
+                    "citySitemap": "https://blaine-city-me.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Bridgewater",
+                    "cityDomain": "https://bridgewater-city-me.mydripnurse.com",
+                    "citySitemap": "https://bridgewater-city-me.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Caribou",
+                    "cityDomain": "https://caribou-city-me.mydripnurse.com",
+                    "citySitemap": "https://caribou-city-me.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Fort Fairfield",
+                    "cityDomain": "https://fort-fairfield-city-me.mydripnurse.com",
+                    "citySitemap": "https://fort-fairfield-city-me.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Fort Kent",
+                    "cityDomain": "https://fort-kent-city-me.mydripnurse.com",
+                    "citySitemap": "https://fort-kent-city-me.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Houlton",
+                    "cityDomain": "https://houlton-city-me.mydripnurse.com",
+                    "citySitemap": "https://houlton-city-me.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Island Falls",
+                    "cityDomain": "https://island-falls-city-me.mydripnurse.com",
+                    "citySitemap": "https://island-falls-city-me.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Limestone",
+                    "cityDomain": "https://limestone-city-me.mydripnurse.com",
+                    "citySitemap": "https://limestone-city-me.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Madawaska",
+                    "cityDomain": "https://madawaska-city-me.mydripnurse.com",
+                    "citySitemap": "https://madawaska-city-me.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Mars Hill",
+                    "cityDomain": "https://mars-hill-city-me.mydripnurse.com",
+                    "citySitemap": "https://mars-hill-city-me.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Oakfield",
+                    "cityDomain": "https://oakfield-city-me.mydripnurse.com",
+                    "citySitemap": "https://oakfield-city-me.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Presque Isle",
+                    "cityDomain": "https://presque-isle-city-me.mydripnurse.com",
+                    "citySitemap": "https://presque-isle-city-me.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Sherman",
+                    "cityDomain": "https://sherman-city-me.mydripnurse.com",
+                    "citySitemap": "https://sherman-city-me.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Van Buren",
+                    "cityDomain": "https://van-buren-city-me.mydripnurse.com",
+                    "citySitemap": "https://van-buren-city-me.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Washburn",
+                    "cityDomain": "https://washburn-city-me.mydripnurse.com",
+                    "citySitemap": "https://washburn-city-me.mydripnurse.com/sitemap.xml"
+                }
             ],
             "Timezone": {
                 "Name": "Eastern",
                 "Zone": "US/Eastern",
                 "UTC_Offset": "-05:00"
-            }
+            },
+            "countyDomain": "https://aroostook-county-me.mydripnurse.com",
+            "countySitemap": "https://aroostook-county-me.mydripnurse.com/sitemap.xml"
         },
         {
-            "County Name": "Cumberland",
-            "Cities": [
-                "Brunswick",
-                "Cape Elizabeth",
-                "Casco",
-                "Chebeague Island",
-                "Cumberland",
-                "Falmouth",
-                "Freeport",
-                "Gorham",
-                "Gray",
-                "Harpswell",
-                "Long Island",
-                "New Gloucester",
-                "North Yarmouth",
-                "Portland",
-                "Pownal",
-                "Raymond",
-                "Scarborough",
-                "South Portland",
-                "Standish",
-                "Westbrook",
-                "Windham",
-                "Yarmouth"
+            "countyName": "Cumberland",
+            "cities": [
+                {
+                    "cityName": "Brunswick",
+                    "cityDomain": "https://brunswick-city-me.mydripnurse.com",
+                    "citySitemap": "https://brunswick-city-me.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Cape Elizabeth",
+                    "cityDomain": "https://cape-elizabeth-city-me.mydripnurse.com",
+                    "citySitemap": "https://cape-elizabeth-city-me.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Casco",
+                    "cityDomain": "https://casco-city-me.mydripnurse.com",
+                    "citySitemap": "https://casco-city-me.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Chebeague Island",
+                    "cityDomain": "https://chebeague-island-city-me.mydripnurse.com",
+                    "citySitemap": "https://chebeague-island-city-me.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Cumberland",
+                    "cityDomain": "https://cumberland-city-me.mydripnurse.com",
+                    "citySitemap": "https://cumberland-city-me.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Falmouth",
+                    "cityDomain": "https://falmouth-city-me.mydripnurse.com",
+                    "citySitemap": "https://falmouth-city-me.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Freeport",
+                    "cityDomain": "https://freeport-city-me.mydripnurse.com",
+                    "citySitemap": "https://freeport-city-me.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Gorham",
+                    "cityDomain": "https://gorham-city-me.mydripnurse.com",
+                    "citySitemap": "https://gorham-city-me.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Gray",
+                    "cityDomain": "https://gray-city-me.mydripnurse.com",
+                    "citySitemap": "https://gray-city-me.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Harpswell",
+                    "cityDomain": "https://harpswell-city-me.mydripnurse.com",
+                    "citySitemap": "https://harpswell-city-me.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Long Island",
+                    "cityDomain": "https://long-island-city-me.mydripnurse.com",
+                    "citySitemap": "https://long-island-city-me.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "New Gloucester",
+                    "cityDomain": "https://new-gloucester-city-me.mydripnurse.com",
+                    "citySitemap": "https://new-gloucester-city-me.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "North Yarmouth",
+                    "cityDomain": "https://north-yarmouth-city-me.mydripnurse.com",
+                    "citySitemap": "https://north-yarmouth-city-me.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Portland",
+                    "cityDomain": "https://portland-city-me.mydripnurse.com",
+                    "citySitemap": "https://portland-city-me.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Pownal",
+                    "cityDomain": "https://pownal-city-me.mydripnurse.com",
+                    "citySitemap": "https://pownal-city-me.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Raymond",
+                    "cityDomain": "https://raymond-city-me.mydripnurse.com",
+                    "citySitemap": "https://raymond-city-me.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Scarborough",
+                    "cityDomain": "https://scarborough-city-me.mydripnurse.com",
+                    "citySitemap": "https://scarborough-city-me.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "South Portland",
+                    "cityDomain": "https://south-portland-city-me.mydripnurse.com",
+                    "citySitemap": "https://south-portland-city-me.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Standish",
+                    "cityDomain": "https://standish-city-me.mydripnurse.com",
+                    "citySitemap": "https://standish-city-me.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Westbrook",
+                    "cityDomain": "https://westbrook-city-me.mydripnurse.com",
+                    "citySitemap": "https://westbrook-city-me.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Windham",
+                    "cityDomain": "https://windham-city-me.mydripnurse.com",
+                    "citySitemap": "https://windham-city-me.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Yarmouth",
+                    "cityDomain": "https://yarmouth-city-me.mydripnurse.com",
+                    "citySitemap": "https://yarmouth-city-me.mydripnurse.com/sitemap.xml"
+                }
             ],
             "Timezone": {
                 "Name": "Eastern",
                 "Zone": "US/Eastern",
                 "UTC_Offset": "-05:00"
-            }
+            },
+            "countyDomain": "https://cumberland-county-me.mydripnurse.com",
+            "countySitemap": "https://cumberland-county-me.mydripnurse.com/sitemap.xml"
         },
         {
-            "County Name": "Franklin",
-            "Cities": [
-                "Farmington",
-                "Jay",
-                "Kingfield",
-                "Phillips",
-                "Rangeley",
-                "Wilton"
+            "countyName": "Franklin",
+            "cities": [
+                {
+                    "cityName": "Farmington",
+                    "cityDomain": "https://farmington-city-me.mydripnurse.com",
+                    "citySitemap": "https://farmington-city-me.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Jay",
+                    "cityDomain": "https://jay-city-me.mydripnurse.com",
+                    "citySitemap": "https://jay-city-me.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Kingfield",
+                    "cityDomain": "https://kingfield-city-me.mydripnurse.com",
+                    "citySitemap": "https://kingfield-city-me.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Phillips",
+                    "cityDomain": "https://phillips-city-me.mydripnurse.com",
+                    "citySitemap": "https://phillips-city-me.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Rangeley",
+                    "cityDomain": "https://rangeley-city-me.mydripnurse.com",
+                    "citySitemap": "https://rangeley-city-me.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Wilton",
+                    "cityDomain": "https://wilton-city-me.mydripnurse.com",
+                    "citySitemap": "https://wilton-city-me.mydripnurse.com/sitemap.xml"
+                }
             ],
             "Timezone": {
                 "Name": "Eastern",
                 "Zone": "US/Eastern",
                 "UTC_Offset": "-05:00"
-            }
+            },
+            "countyDomain": "https://franklin-county-me.mydripnurse.com",
+            "countySitemap": "https://franklin-county-me.mydripnurse.com/sitemap.xml"
         },
         {
-            "County Name": "Hancock",
-            "Cities": [
-                "Bar Harbor",
-                "Blue Hill",
-                "Brooklin",
-                "Brooksville",
-                "Castine",
-                "Deer Isle",
-                "Ellsworth",
-                "Gouldsboro",
-                "Mount Desert",
-                "Southwest Harbor",
-                "Surry",
-                "Tremont"
+            "countyName": "Hancock",
+            "cities": [
+                {
+                    "cityName": "Bar Harbor",
+                    "cityDomain": "https://bar-harbor-city-me.mydripnurse.com",
+                    "citySitemap": "https://bar-harbor-city-me.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Blue Hill",
+                    "cityDomain": "https://blue-hill-city-me.mydripnurse.com",
+                    "citySitemap": "https://blue-hill-city-me.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Brooklin",
+                    "cityDomain": "https://brooklin-city-me.mydripnurse.com",
+                    "citySitemap": "https://brooklin-city-me.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Brooksville",
+                    "cityDomain": "https://brooksville-city-me.mydripnurse.com",
+                    "citySitemap": "https://brooksville-city-me.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Castine",
+                    "cityDomain": "https://castine-city-me.mydripnurse.com",
+                    "citySitemap": "https://castine-city-me.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Deer Isle",
+                    "cityDomain": "https://deer-isle-city-me.mydripnurse.com",
+                    "citySitemap": "https://deer-isle-city-me.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Ellsworth",
+                    "cityDomain": "https://ellsworth-city-me.mydripnurse.com",
+                    "citySitemap": "https://ellsworth-city-me.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Gouldsboro",
+                    "cityDomain": "https://gouldsboro-city-me.mydripnurse.com",
+                    "citySitemap": "https://gouldsboro-city-me.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Mount Desert",
+                    "cityDomain": "https://mount-desert-city-me.mydripnurse.com",
+                    "citySitemap": "https://mount-desert-city-me.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Southwest Harbor",
+                    "cityDomain": "https://southwest-harbor-city-me.mydripnurse.com",
+                    "citySitemap": "https://southwest-harbor-city-me.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Surry",
+                    "cityDomain": "https://surry-city-me.mydripnurse.com",
+                    "citySitemap": "https://surry-city-me.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Tremont",
+                    "cityDomain": "https://tremont-city-me.mydripnurse.com",
+                    "citySitemap": "https://tremont-city-me.mydripnurse.com/sitemap.xml"
+                }
             ],
             "Timezone": {
                 "Name": "Eastern",
                 "Zone": "US/Eastern",
                 "UTC_Offset": "-05:00"
-            }
+            },
+            "countyDomain": "https://hancock-county-me.mydripnurse.com",
+            "countySitemap": "https://hancock-county-me.mydripnurse.com/sitemap.xml"
         },
         {
-            "County Name": "Kennebec",
-            "Cities": [
-                "Augusta",
-                "Belgrade",
-                "Chelsea",
-                "Clinton",
-                "Farmingdale",
-                "Gardiner",
-                "Hallowell",
-                "Litchfield",
-                "Manchester",
-                "Monmouth",
-                "Mount Vernon",
-                "Oakland",
-                "Pittston",
-                "Randolph",
-                "Readfield",
-                "Rome",
-                "Sidney",
-                "Vassalboro",
-                "Vienna",
-                "Waterville",
-                "Wayne",
-                "West Gardiner",
-                "Windsor",
-                "Winthrop"
+            "countyName": "Kennebec",
+            "cities": [
+                {
+                    "cityName": "Augusta",
+                    "cityDomain": "https://augusta-city-me.mydripnurse.com",
+                    "citySitemap": "https://augusta-city-me.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Belgrade",
+                    "cityDomain": "https://belgrade-city-me.mydripnurse.com",
+                    "citySitemap": "https://belgrade-city-me.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Chelsea",
+                    "cityDomain": "https://chelsea-city-me.mydripnurse.com",
+                    "citySitemap": "https://chelsea-city-me.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Clinton",
+                    "cityDomain": "https://clinton-city-me.mydripnurse.com",
+                    "citySitemap": "https://clinton-city-me.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Farmingdale",
+                    "cityDomain": "https://farmingdale-city-me.mydripnurse.com",
+                    "citySitemap": "https://farmingdale-city-me.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Gardiner",
+                    "cityDomain": "https://gardiner-city-me.mydripnurse.com",
+                    "citySitemap": "https://gardiner-city-me.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Hallowell",
+                    "cityDomain": "https://hallowell-city-me.mydripnurse.com",
+                    "citySitemap": "https://hallowell-city-me.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Litchfield",
+                    "cityDomain": "https://litchfield-city-me.mydripnurse.com",
+                    "citySitemap": "https://litchfield-city-me.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Manchester",
+                    "cityDomain": "https://manchester-city-me.mydripnurse.com",
+                    "citySitemap": "https://manchester-city-me.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Monmouth",
+                    "cityDomain": "https://monmouth-city-me.mydripnurse.com",
+                    "citySitemap": "https://monmouth-city-me.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Mount Vernon",
+                    "cityDomain": "https://mount-vernon-city-me.mydripnurse.com",
+                    "citySitemap": "https://mount-vernon-city-me.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Oakland",
+                    "cityDomain": "https://oakland-city-me.mydripnurse.com",
+                    "citySitemap": "https://oakland-city-me.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Pittston",
+                    "cityDomain": "https://pittston-city-me.mydripnurse.com",
+                    "citySitemap": "https://pittston-city-me.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Randolph",
+                    "cityDomain": "https://randolph-city-me.mydripnurse.com",
+                    "citySitemap": "https://randolph-city-me.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Readfield",
+                    "cityDomain": "https://readfield-city-me.mydripnurse.com",
+                    "citySitemap": "https://readfield-city-me.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Rome",
+                    "cityDomain": "https://rome-city-me.mydripnurse.com",
+                    "citySitemap": "https://rome-city-me.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Sidney",
+                    "cityDomain": "https://sidney-city-me.mydripnurse.com",
+                    "citySitemap": "https://sidney-city-me.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Vassalboro",
+                    "cityDomain": "https://vassalboro-city-me.mydripnurse.com",
+                    "citySitemap": "https://vassalboro-city-me.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Vienna",
+                    "cityDomain": "https://vienna-city-me.mydripnurse.com",
+                    "citySitemap": "https://vienna-city-me.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Waterville",
+                    "cityDomain": "https://waterville-city-me.mydripnurse.com",
+                    "citySitemap": "https://waterville-city-me.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Wayne",
+                    "cityDomain": "https://wayne-city-me.mydripnurse.com",
+                    "citySitemap": "https://wayne-city-me.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "West Gardiner",
+                    "cityDomain": "https://west-gardiner-city-me.mydripnurse.com",
+                    "citySitemap": "https://west-gardiner-city-me.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Windsor",
+                    "cityDomain": "https://windsor-city-me.mydripnurse.com",
+                    "citySitemap": "https://windsor-city-me.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Winthrop",
+                    "cityDomain": "https://winthrop-city-me.mydripnurse.com",
+                    "citySitemap": "https://winthrop-city-me.mydripnurse.com/sitemap.xml"
+                }
             ],
             "Timezone": {
                 "Name": "Eastern",
                 "Zone": "US/Eastern",
                 "UTC_Offset": "-05:00"
-            }
+            },
+            "countyDomain": "https://kennebec-county-me.mydripnurse.com",
+            "countySitemap": "https://kennebec-county-me.mydripnurse.com/sitemap.xml"
         },
         {
-            "County Name": "Knox",
-            "Cities": [
-                "Appleton",
-                "Camden",
-                "Cushing",
-                "Friendship",
-                "Hope",
-                "Isle au Haut",
-                "North Haven",
-                "Owls Head",
-                "Rockland",
-                "Rockport",
-                "St. George",
-                "South Thomaston",
-                "Thomaston",
-                "Union",
-                "Vinalhaven",
-                "Warren",
-                "Washington"
+            "countyName": "Knox",
+            "cities": [
+                {
+                    "cityName": "Appleton",
+                    "cityDomain": "https://appleton-city-me.mydripnurse.com",
+                    "citySitemap": "https://appleton-city-me.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Camden",
+                    "cityDomain": "https://camden-city-me.mydripnurse.com",
+                    "citySitemap": "https://camden-city-me.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Cushing",
+                    "cityDomain": "https://cushing-city-me.mydripnurse.com",
+                    "citySitemap": "https://cushing-city-me.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Friendship",
+                    "cityDomain": "https://friendship-city-me.mydripnurse.com",
+                    "citySitemap": "https://friendship-city-me.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Hope",
+                    "cityDomain": "https://hope-city-me.mydripnurse.com",
+                    "citySitemap": "https://hope-city-me.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Isle au Haut",
+                    "cityDomain": "https://isle-au-haut-city-me.mydripnurse.com",
+                    "citySitemap": "https://isle-au-haut-city-me.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "North Haven",
+                    "cityDomain": "https://north-haven-city-me.mydripnurse.com",
+                    "citySitemap": "https://north-haven-city-me.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Owls Head",
+                    "cityDomain": "https://owls-head-city-me.mydripnurse.com",
+                    "citySitemap": "https://owls-head-city-me.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Rockland",
+                    "cityDomain": "https://rockland-city-me.mydripnurse.com",
+                    "citySitemap": "https://rockland-city-me.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Rockport",
+                    "cityDomain": "https://rockport-city-me.mydripnurse.com",
+                    "citySitemap": "https://rockport-city-me.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "St. George",
+                    "cityDomain": "https://st-george-city-me.mydripnurse.com",
+                    "citySitemap": "https://st-george-city-me.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "South Thomaston",
+                    "cityDomain": "https://south-thomaston-city-me.mydripnurse.com",
+                    "citySitemap": "https://south-thomaston-city-me.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Thomaston",
+                    "cityDomain": "https://thomaston-city-me.mydripnurse.com",
+                    "citySitemap": "https://thomaston-city-me.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Union",
+                    "cityDomain": "https://union-city-me.mydripnurse.com",
+                    "citySitemap": "https://union-city-me.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Vinalhaven",
+                    "cityDomain": "https://vinalhaven-city-me.mydripnurse.com",
+                    "citySitemap": "https://vinalhaven-city-me.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Warren",
+                    "cityDomain": "https://warren-city-me.mydripnurse.com",
+                    "citySitemap": "https://warren-city-me.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Washington",
+                    "cityDomain": "https://washington-city-me.mydripnurse.com",
+                    "citySitemap": "https://washington-city-me.mydripnurse.com/sitemap.xml"
+                }
             ],
             "Timezone": {
                 "Name": "Eastern",
                 "Zone": "US/Eastern",
                 "UTC_Offset": "-05:00"
-            }
+            },
+            "countyDomain": "https://knox-county-me.mydripnurse.com",
+            "countySitemap": "https://knox-county-me.mydripnurse.com/sitemap.xml"
         },
         {
-            "County Name": "Lincoln",
-            "Cities": [
-                "Alna",
-                "Boothbay",
-                "Boothbay Harbor",
-                "Bremen",
-                "Bristol",
-                "Damariscotta",
-                "Dresden",
-                "Edgecomb",
-                "Jefferson",
-                "Newcastle",
-                "Nobleboro",
-                "South Bristol",
-                "Southport",
-                "Waldoboro",
-                "Westport Island",
-                "Whitefield",
-                "Wiscasset"
+            "countyName": "Lincoln",
+            "cities": [
+                {
+                    "cityName": "Alna",
+                    "cityDomain": "https://alna-city-me.mydripnurse.com",
+                    "citySitemap": "https://alna-city-me.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Boothbay",
+                    "cityDomain": "https://boothbay-city-me.mydripnurse.com",
+                    "citySitemap": "https://boothbay-city-me.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Boothbay Harbor",
+                    "cityDomain": "https://boothbay-harbor-city-me.mydripnurse.com",
+                    "citySitemap": "https://boothbay-harbor-city-me.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Bremen",
+                    "cityDomain": "https://bremen-city-me.mydripnurse.com",
+                    "citySitemap": "https://bremen-city-me.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Bristol",
+                    "cityDomain": "https://bristol-city-me.mydripnurse.com",
+                    "citySitemap": "https://bristol-city-me.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Damariscotta",
+                    "cityDomain": "https://damariscotta-city-me.mydripnurse.com",
+                    "citySitemap": "https://damariscotta-city-me.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Dresden",
+                    "cityDomain": "https://dresden-city-me.mydripnurse.com",
+                    "citySitemap": "https://dresden-city-me.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Edgecomb",
+                    "cityDomain": "https://edgecomb-city-me.mydripnurse.com",
+                    "citySitemap": "https://edgecomb-city-me.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Jefferson",
+                    "cityDomain": "https://jefferson-city-me.mydripnurse.com",
+                    "citySitemap": "https://jefferson-city-me.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Newcastle",
+                    "cityDomain": "https://newcastle-city-me.mydripnurse.com",
+                    "citySitemap": "https://newcastle-city-me.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Nobleboro",
+                    "cityDomain": "https://nobleboro-city-me.mydripnurse.com",
+                    "citySitemap": "https://nobleboro-city-me.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "South Bristol",
+                    "cityDomain": "https://south-bristol-city-me.mydripnurse.com",
+                    "citySitemap": "https://south-bristol-city-me.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Southport",
+                    "cityDomain": "https://southport-city-me.mydripnurse.com",
+                    "citySitemap": "https://southport-city-me.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Waldoboro",
+                    "cityDomain": "https://waldoboro-city-me.mydripnurse.com",
+                    "citySitemap": "https://waldoboro-city-me.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Westport Island",
+                    "cityDomain": "https://westport-island-city-me.mydripnurse.com",
+                    "citySitemap": "https://westport-island-city-me.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Whitefield",
+                    "cityDomain": "https://whitefield-city-me.mydripnurse.com",
+                    "citySitemap": "https://whitefield-city-me.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Wiscasset",
+                    "cityDomain": "https://wiscasset-city-me.mydripnurse.com",
+                    "citySitemap": "https://wiscasset-city-me.mydripnurse.com/sitemap.xml"
+                }
             ],
             "Timezone": {
                 "Name": "Eastern",
                 "Zone": "US/Eastern",
                 "UTC_Offset": "-05:00"
-            }
+            },
+            "countyDomain": "https://lincoln-county-me.mydripnurse.com",
+            "countySitemap": "https://lincoln-county-me.mydripnurse.com/sitemap.xml"
         },
         {
-            "County Name": "Oxford",
-            "Cities": [
-                "Andover",
-                "Bethel",
-                "Brownfield",
-                "Buckfield",
-                "Canton",
-                "Denmark",
-                "Dixfield",
-                "Fryeburg",
-                "Greenwood",
-                "Hanover",
-                "Hartford",
-                "Hebron",
-                "Hiram",
-                "Lovell",
-                "Mexico",
-                "Newry",
-                "Norway",
-                "Otisfield",
-                "Paris",
-                "Peru",
-                "Porter",
-                "Roxbury",
-                "Rumford",
-                "Stoneham",
-                "Stow",
-                "Sumner",
-                "Sweden",
-                "Upton",
-                "Waterford",
-                "West Paris",
-                "Woodstock"
+            "countyName": "Oxford",
+            "cities": [
+                {
+                    "cityName": "Andover",
+                    "cityDomain": "https://andover-city-me.mydripnurse.com",
+                    "citySitemap": "https://andover-city-me.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Bethel",
+                    "cityDomain": "https://bethel-city-me.mydripnurse.com",
+                    "citySitemap": "https://bethel-city-me.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Brownfield",
+                    "cityDomain": "https://brownfield-city-me.mydripnurse.com",
+                    "citySitemap": "https://brownfield-city-me.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Buckfield",
+                    "cityDomain": "https://buckfield-city-me.mydripnurse.com",
+                    "citySitemap": "https://buckfield-city-me.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Canton",
+                    "cityDomain": "https://canton-city-me.mydripnurse.com",
+                    "citySitemap": "https://canton-city-me.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Denmark",
+                    "cityDomain": "https://denmark-city-me.mydripnurse.com",
+                    "citySitemap": "https://denmark-city-me.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Dixfield",
+                    "cityDomain": "https://dixfield-city-me.mydripnurse.com",
+                    "citySitemap": "https://dixfield-city-me.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Fryeburg",
+                    "cityDomain": "https://fryeburg-city-me.mydripnurse.com",
+                    "citySitemap": "https://fryeburg-city-me.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Greenwood",
+                    "cityDomain": "https://greenwood-city-me.mydripnurse.com",
+                    "citySitemap": "https://greenwood-city-me.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Hanover",
+                    "cityDomain": "https://hanover-city-me.mydripnurse.com",
+                    "citySitemap": "https://hanover-city-me.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Hartford",
+                    "cityDomain": "https://hartford-city-me.mydripnurse.com",
+                    "citySitemap": "https://hartford-city-me.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Hebron",
+                    "cityDomain": "https://hebron-city-me.mydripnurse.com",
+                    "citySitemap": "https://hebron-city-me.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Hiram",
+                    "cityDomain": "https://hiram-city-me.mydripnurse.com",
+                    "citySitemap": "https://hiram-city-me.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Lovell",
+                    "cityDomain": "https://lovell-city-me.mydripnurse.com",
+                    "citySitemap": "https://lovell-city-me.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Mexico",
+                    "cityDomain": "https://mexico-city-me.mydripnurse.com",
+                    "citySitemap": "https://mexico-city-me.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Newry",
+                    "cityDomain": "https://newry-city-me.mydripnurse.com",
+                    "citySitemap": "https://newry-city-me.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Norway",
+                    "cityDomain": "https://norway-city-me.mydripnurse.com",
+                    "citySitemap": "https://norway-city-me.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Otisfield",
+                    "cityDomain": "https://otisfield-city-me.mydripnurse.com",
+                    "citySitemap": "https://otisfield-city-me.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Paris",
+                    "cityDomain": "https://paris-city-me.mydripnurse.com",
+                    "citySitemap": "https://paris-city-me.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Peru",
+                    "cityDomain": "https://peru-city-me.mydripnurse.com",
+                    "citySitemap": "https://peru-city-me.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Porter",
+                    "cityDomain": "https://porter-city-me.mydripnurse.com",
+                    "citySitemap": "https://porter-city-me.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Roxbury",
+                    "cityDomain": "https://roxbury-city-me.mydripnurse.com",
+                    "citySitemap": "https://roxbury-city-me.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Rumford",
+                    "cityDomain": "https://rumford-city-me.mydripnurse.com",
+                    "citySitemap": "https://rumford-city-me.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Stoneham",
+                    "cityDomain": "https://stoneham-city-me.mydripnurse.com",
+                    "citySitemap": "https://stoneham-city-me.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Stow",
+                    "cityDomain": "https://stow-city-me.mydripnurse.com",
+                    "citySitemap": "https://stow-city-me.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Sumner",
+                    "cityDomain": "https://sumner-city-me.mydripnurse.com",
+                    "citySitemap": "https://sumner-city-me.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Sweden",
+                    "cityDomain": "https://sweden-city-me.mydripnurse.com",
+                    "citySitemap": "https://sweden-city-me.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Upton",
+                    "cityDomain": "https://upton-city-me.mydripnurse.com",
+                    "citySitemap": "https://upton-city-me.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Waterford",
+                    "cityDomain": "https://waterford-city-me.mydripnurse.com",
+                    "citySitemap": "https://waterford-city-me.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "West Paris",
+                    "cityDomain": "https://west-paris-city-me.mydripnurse.com",
+                    "citySitemap": "https://west-paris-city-me.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Woodstock",
+                    "cityDomain": "https://woodstock-city-me.mydripnurse.com",
+                    "citySitemap": "https://woodstock-city-me.mydripnurse.com/sitemap.xml"
+                }
             ],
             "Timezone": {
                 "Name": "Eastern",
                 "Zone": "US/Eastern",
                 "UTC_Offset": "-05:00"
-            }
+            },
+            "countyDomain": "https://oxford-county-me.mydripnurse.com",
+            "countySitemap": "https://oxford-county-me.mydripnurse.com/sitemap.xml"
         },
         {
-            "County Name": "Penobscot",
-            "Cities": [
-                "Bangor",
-                "Bradley",
-                "Brewer",
-                "Carmel",
-                "Charleston",
-                "Chester",
-                "Clifton",
-                "Corinth",
-                "Dexter",
-                "Dixmont",
-                "Eddington",
-                "Enfield",
-                "Etna",
-                "Exeter",
-                "Garland",
-                "Glenburn",
-                "Greenbush",
-                "Hermon",
-                "Holden",
-                "Howland",
-                "Hudson",
-                "Kenduskeag",
-                "LaGrange",
-                "Lee",
-                "Levant",
-                "Lincoln",
-                "Lowell",
-                "Mattawamkeag",
-                "Maxfield",
-                "Milford",
-                "Millinocket",
-                "Newburgh",
-                "Newport",
-                "Old Town",
-                "Orono",
-                "Orrington",
-                "Passadumkeag",
-                "Patten",
-                "Plymouth",
-                "Sebec",
-                "Springfield",
-                "Stacyville",
-                "Veazie",
-                "Winn",
-                "Woodville"
+            "countyName": "Penobscot",
+            "cities": [
+                {
+                    "cityName": "Bangor",
+                    "cityDomain": "https://bangor-city-me.mydripnurse.com",
+                    "citySitemap": "https://bangor-city-me.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Bradley",
+                    "cityDomain": "https://bradley-city-me.mydripnurse.com",
+                    "citySitemap": "https://bradley-city-me.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Brewer",
+                    "cityDomain": "https://brewer-city-me.mydripnurse.com",
+                    "citySitemap": "https://brewer-city-me.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Carmel",
+                    "cityDomain": "https://carmel-city-me.mydripnurse.com",
+                    "citySitemap": "https://carmel-city-me.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Charleston",
+                    "cityDomain": "https://charleston-city-me.mydripnurse.com",
+                    "citySitemap": "https://charleston-city-me.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Chester",
+                    "cityDomain": "https://chester-city-me.mydripnurse.com",
+                    "citySitemap": "https://chester-city-me.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Clifton",
+                    "cityDomain": "https://clifton-city-me.mydripnurse.com",
+                    "citySitemap": "https://clifton-city-me.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Corinth",
+                    "cityDomain": "https://corinth-city-me.mydripnurse.com",
+                    "citySitemap": "https://corinth-city-me.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Dexter",
+                    "cityDomain": "https://dexter-city-me.mydripnurse.com",
+                    "citySitemap": "https://dexter-city-me.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Dixmont",
+                    "cityDomain": "https://dixmont-city-me.mydripnurse.com",
+                    "citySitemap": "https://dixmont-city-me.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Eddington",
+                    "cityDomain": "https://eddington-city-me.mydripnurse.com",
+                    "citySitemap": "https://eddington-city-me.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Enfield",
+                    "cityDomain": "https://enfield-city-me.mydripnurse.com",
+                    "citySitemap": "https://enfield-city-me.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Etna",
+                    "cityDomain": "https://etna-city-me.mydripnurse.com",
+                    "citySitemap": "https://etna-city-me.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Exeter",
+                    "cityDomain": "https://exeter-city-me.mydripnurse.com",
+                    "citySitemap": "https://exeter-city-me.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Garland",
+                    "cityDomain": "https://garland-city-me.mydripnurse.com",
+                    "citySitemap": "https://garland-city-me.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Glenburn",
+                    "cityDomain": "https://glenburn-city-me.mydripnurse.com",
+                    "citySitemap": "https://glenburn-city-me.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Greenbush",
+                    "cityDomain": "https://greenbush-city-me.mydripnurse.com",
+                    "citySitemap": "https://greenbush-city-me.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Hermon",
+                    "cityDomain": "https://hermon-city-me.mydripnurse.com",
+                    "citySitemap": "https://hermon-city-me.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Holden",
+                    "cityDomain": "https://holden-city-me.mydripnurse.com",
+                    "citySitemap": "https://holden-city-me.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Howland",
+                    "cityDomain": "https://howland-city-me.mydripnurse.com",
+                    "citySitemap": "https://howland-city-me.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Hudson",
+                    "cityDomain": "https://hudson-city-me.mydripnurse.com",
+                    "citySitemap": "https://hudson-city-me.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Kenduskeag",
+                    "cityDomain": "https://kenduskeag-city-me.mydripnurse.com",
+                    "citySitemap": "https://kenduskeag-city-me.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "LaGrange",
+                    "cityDomain": "https://lagrange-city-me.mydripnurse.com",
+                    "citySitemap": "https://lagrange-city-me.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Lee",
+                    "cityDomain": "https://lee-city-me.mydripnurse.com",
+                    "citySitemap": "https://lee-city-me.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Levant",
+                    "cityDomain": "https://levant-city-me.mydripnurse.com",
+                    "citySitemap": "https://levant-city-me.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Lincoln",
+                    "cityDomain": "https://lincoln-city-me.mydripnurse.com",
+                    "citySitemap": "https://lincoln-city-me.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Lowell",
+                    "cityDomain": "https://lowell-city-me.mydripnurse.com",
+                    "citySitemap": "https://lowell-city-me.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Mattawamkeag",
+                    "cityDomain": "https://mattawamkeag-city-me.mydripnurse.com",
+                    "citySitemap": "https://mattawamkeag-city-me.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Maxfield",
+                    "cityDomain": "https://maxfield-city-me.mydripnurse.com",
+                    "citySitemap": "https://maxfield-city-me.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Milford",
+                    "cityDomain": "https://milford-city-me.mydripnurse.com",
+                    "citySitemap": "https://milford-city-me.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Millinocket",
+                    "cityDomain": "https://millinocket-city-me.mydripnurse.com",
+                    "citySitemap": "https://millinocket-city-me.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Newburgh",
+                    "cityDomain": "https://newburgh-city-me.mydripnurse.com",
+                    "citySitemap": "https://newburgh-city-me.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Newport",
+                    "cityDomain": "https://newport-city-me.mydripnurse.com",
+                    "citySitemap": "https://newport-city-me.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Old Town",
+                    "cityDomain": "https://old-town-city-me.mydripnurse.com",
+                    "citySitemap": "https://old-town-city-me.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Orono",
+                    "cityDomain": "https://orono-city-me.mydripnurse.com",
+                    "citySitemap": "https://orono-city-me.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Orrington",
+                    "cityDomain": "https://orrington-city-me.mydripnurse.com",
+                    "citySitemap": "https://orrington-city-me.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Passadumkeag",
+                    "cityDomain": "https://passadumkeag-city-me.mydripnurse.com",
+                    "citySitemap": "https://passadumkeag-city-me.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Patten",
+                    "cityDomain": "https://patten-city-me.mydripnurse.com",
+                    "citySitemap": "https://patten-city-me.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Plymouth",
+                    "cityDomain": "https://plymouth-city-me.mydripnurse.com",
+                    "citySitemap": "https://plymouth-city-me.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Sebec",
+                    "cityDomain": "https://sebec-city-me.mydripnurse.com",
+                    "citySitemap": "https://sebec-city-me.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Springfield",
+                    "cityDomain": "https://springfield-city-me.mydripnurse.com",
+                    "citySitemap": "https://springfield-city-me.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Stacyville",
+                    "cityDomain": "https://stacyville-city-me.mydripnurse.com",
+                    "citySitemap": "https://stacyville-city-me.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Veazie",
+                    "cityDomain": "https://veazie-city-me.mydripnurse.com",
+                    "citySitemap": "https://veazie-city-me.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Winn",
+                    "cityDomain": "https://winn-city-me.mydripnurse.com",
+                    "citySitemap": "https://winn-city-me.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Woodville",
+                    "cityDomain": "https://woodville-city-me.mydripnurse.com",
+                    "citySitemap": "https://woodville-city-me.mydripnurse.com/sitemap.xml"
+                }
             ],
             "Timezone": {
                 "Name": "Eastern",
                 "Zone": "US/Eastern",
                 "UTC_Offset": "-05:00"
-            }
+            },
+            "countyDomain": "https://penobscot-county-me.mydripnurse.com",
+            "countySitemap": "https://penobscot-county-me.mydripnurse.com/sitemap.xml"
         },
         {
-            "County Name": "Piscataquis",
-            "Cities": [
-                "Abbot",
-                "Atkinson",
-                "Bowerbank",
-                "Brownville",
-                "Dover-Foxcroft",
-                "Greenville",
-                "Guilford",
-                "Medford",
-                "Milo",
-                "Monson",
-                "Parkman",
-                "Sangerville",
-                "Sebec",
-                "Shirley",
-                "Willimantic"
+            "countyName": "Piscataquis",
+            "cities": [
+                {
+                    "cityName": "Abbot",
+                    "cityDomain": "https://abbot-city-me.mydripnurse.com",
+                    "citySitemap": "https://abbot-city-me.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Atkinson",
+                    "cityDomain": "https://atkinson-city-me.mydripnurse.com",
+                    "citySitemap": "https://atkinson-city-me.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Bowerbank",
+                    "cityDomain": "https://bowerbank-city-me.mydripnurse.com",
+                    "citySitemap": "https://bowerbank-city-me.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Brownville",
+                    "cityDomain": "https://brownville-city-me.mydripnurse.com",
+                    "citySitemap": "https://brownville-city-me.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Dover-Foxcroft",
+                    "cityDomain": "https://dover-foxcroft-city-me.mydripnurse.com",
+                    "citySitemap": "https://dover-foxcroft-city-me.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Greenville",
+                    "cityDomain": "https://greenville-city-me.mydripnurse.com",
+                    "citySitemap": "https://greenville-city-me.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Guilford",
+                    "cityDomain": "https://guilford-city-me.mydripnurse.com",
+                    "citySitemap": "https://guilford-city-me.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Medford",
+                    "cityDomain": "https://medford-city-me.mydripnurse.com",
+                    "citySitemap": "https://medford-city-me.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Milo",
+                    "cityDomain": "https://milo-city-me.mydripnurse.com",
+                    "citySitemap": "https://milo-city-me.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Monson",
+                    "cityDomain": "https://monson-city-me.mydripnurse.com",
+                    "citySitemap": "https://monson-city-me.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Parkman",
+                    "cityDomain": "https://parkman-city-me.mydripnurse.com",
+                    "citySitemap": "https://parkman-city-me.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Sangerville",
+                    "cityDomain": "https://sangerville-city-me.mydripnurse.com",
+                    "citySitemap": "https://sangerville-city-me.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Sebec",
+                    "cityDomain": "https://sebec-city-me.mydripnurse.com",
+                    "citySitemap": "https://sebec-city-me.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Shirley",
+                    "cityDomain": "https://shirley-city-me.mydripnurse.com",
+                    "citySitemap": "https://shirley-city-me.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Willimantic",
+                    "cityDomain": "https://willimantic-city-me.mydripnurse.com",
+                    "citySitemap": "https://willimantic-city-me.mydripnurse.com/sitemap.xml"
+                }
             ],
             "Timezone": {
                 "Name": "Eastern",
                 "Zone": "US/Eastern",
                 "UTC_Offset": "-05:00"
-            }
+            },
+            "countyDomain": "https://piscataquis-county-me.mydripnurse.com",
+            "countySitemap": "https://piscataquis-county-me.mydripnurse.com/sitemap.xml"
         },
         {
-            "County Name": "Sagadahoc",
-            "Cities": [
-                "Arrowsic",
-                "Bath",
-                "Bowdoin",
-                "Bowdoinham",
-                "Georgetown",
-                "Phippsburg",
-                "Topsham",
-                "West Bath",
-                "Woolwich"
+            "countyName": "Sagadahoc",
+            "cities": [
+                {
+                    "cityName": "Arrowsic",
+                    "cityDomain": "https://arrowsic-city-me.mydripnurse.com",
+                    "citySitemap": "https://arrowsic-city-me.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Bath",
+                    "cityDomain": "https://bath-city-me.mydripnurse.com",
+                    "citySitemap": "https://bath-city-me.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Bowdoin",
+                    "cityDomain": "https://bowdoin-city-me.mydripnurse.com",
+                    "citySitemap": "https://bowdoin-city-me.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Bowdoinham",
+                    "cityDomain": "https://bowdoinham-city-me.mydripnurse.com",
+                    "citySitemap": "https://bowdoinham-city-me.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Georgetown",
+                    "cityDomain": "https://georgetown-city-me.mydripnurse.com",
+                    "citySitemap": "https://georgetown-city-me.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Phippsburg",
+                    "cityDomain": "https://phippsburg-city-me.mydripnurse.com",
+                    "citySitemap": "https://phippsburg-city-me.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Topsham",
+                    "cityDomain": "https://topsham-city-me.mydripnurse.com",
+                    "citySitemap": "https://topsham-city-me.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "West Bath",
+                    "cityDomain": "https://west-bath-city-me.mydripnurse.com",
+                    "citySitemap": "https://west-bath-city-me.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Woolwich",
+                    "cityDomain": "https://woolwich-city-me.mydripnurse.com",
+                    "citySitemap": "https://woolwich-city-me.mydripnurse.com/sitemap.xml"
+                }
             ],
             "Timezone": {
                 "Name": "Eastern",
                 "Zone": "US/Eastern",
                 "UTC_Offset": "-05:00"
-            }
+            },
+            "countyDomain": "https://sagadahoc-county-me.mydripnurse.com",
+            "countySitemap": "https://sagadahoc-county-me.mydripnurse.com/sitemap.xml"
         },
         {
-            "County Name": "Somerset",
-            "Cities": [
-                "Anson",
-                "Athens",
-                "Bingham",
-                "Brighton Plantation",
-                "Cambridge",
-                "Canaan",
-                "Caratunk",
-                "Cornville",
-                "Detroit",
-                "Embden",
-                "Fairfield",
-                "Harmony",
-                "Hartland",
-                "Jackman",
-                "Madison",
-                "Mercer",
-                "Moscow",
-                "New Portland",
-                "Norridgewock",
-                "Palmyra",
-                "Pittsfield",
-                "Skowhegan",
-                "Smithfield",
-                "Solon",
-                "Starks",
-                "The Forks",
-                "West Forks"
+            "countyName": "Somerset",
+            "cities": [
+                {
+                    "cityName": "Anson",
+                    "cityDomain": "https://anson-city-me.mydripnurse.com",
+                    "citySitemap": "https://anson-city-me.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Athens",
+                    "cityDomain": "https://athens-city-me.mydripnurse.com",
+                    "citySitemap": "https://athens-city-me.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Bingham",
+                    "cityDomain": "https://bingham-city-me.mydripnurse.com",
+                    "citySitemap": "https://bingham-city-me.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Brighton Plantation",
+                    "cityDomain": "https://brighton-plantation-city-me.mydripnurse.com",
+                    "citySitemap": "https://brighton-plantation-city-me.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Cambridge",
+                    "cityDomain": "https://cambridge-city-me.mydripnurse.com",
+                    "citySitemap": "https://cambridge-city-me.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Canaan",
+                    "cityDomain": "https://canaan-city-me.mydripnurse.com",
+                    "citySitemap": "https://canaan-city-me.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Caratunk",
+                    "cityDomain": "https://caratunk-city-me.mydripnurse.com",
+                    "citySitemap": "https://caratunk-city-me.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Cornville",
+                    "cityDomain": "https://cornville-city-me.mydripnurse.com",
+                    "citySitemap": "https://cornville-city-me.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Detroit",
+                    "cityDomain": "https://detroit-city-me.mydripnurse.com",
+                    "citySitemap": "https://detroit-city-me.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Embden",
+                    "cityDomain": "https://embden-city-me.mydripnurse.com",
+                    "citySitemap": "https://embden-city-me.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Fairfield",
+                    "cityDomain": "https://fairfield-city-me.mydripnurse.com",
+                    "citySitemap": "https://fairfield-city-me.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Harmony",
+                    "cityDomain": "https://harmony-city-me.mydripnurse.com",
+                    "citySitemap": "https://harmony-city-me.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Hartland",
+                    "cityDomain": "https://hartland-city-me.mydripnurse.com",
+                    "citySitemap": "https://hartland-city-me.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Jackman",
+                    "cityDomain": "https://jackman-city-me.mydripnurse.com",
+                    "citySitemap": "https://jackman-city-me.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Madison",
+                    "cityDomain": "https://madison-city-me.mydripnurse.com",
+                    "citySitemap": "https://madison-city-me.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Mercer",
+                    "cityDomain": "https://mercer-city-me.mydripnurse.com",
+                    "citySitemap": "https://mercer-city-me.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Moscow",
+                    "cityDomain": "https://moscow-city-me.mydripnurse.com",
+                    "citySitemap": "https://moscow-city-me.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "New Portland",
+                    "cityDomain": "https://new-portland-city-me.mydripnurse.com",
+                    "citySitemap": "https://new-portland-city-me.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Norridgewock",
+                    "cityDomain": "https://norridgewock-city-me.mydripnurse.com",
+                    "citySitemap": "https://norridgewock-city-me.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Palmyra",
+                    "cityDomain": "https://palmyra-city-me.mydripnurse.com",
+                    "citySitemap": "https://palmyra-city-me.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Pittsfield",
+                    "cityDomain": "https://pittsfield-city-me.mydripnurse.com",
+                    "citySitemap": "https://pittsfield-city-me.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Skowhegan",
+                    "cityDomain": "https://skowhegan-city-me.mydripnurse.com",
+                    "citySitemap": "https://skowhegan-city-me.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Smithfield",
+                    "cityDomain": "https://smithfield-city-me.mydripnurse.com",
+                    "citySitemap": "https://smithfield-city-me.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Solon",
+                    "cityDomain": "https://solon-city-me.mydripnurse.com",
+                    "citySitemap": "https://solon-city-me.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Starks",
+                    "cityDomain": "https://starks-city-me.mydripnurse.com",
+                    "citySitemap": "https://starks-city-me.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "The Forks",
+                    "cityDomain": "https://the-forks-city-me.mydripnurse.com",
+                    "citySitemap": "https://the-forks-city-me.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "West Forks",
+                    "cityDomain": "https://west-forks-city-me.mydripnurse.com",
+                    "citySitemap": "https://west-forks-city-me.mydripnurse.com/sitemap.xml"
+                }
             ],
             "Timezone": {
                 "Name": "Eastern",
                 "Zone": "US/Eastern",
                 "UTC_Offset": "-05:00"
-            }
+            },
+            "countyDomain": "https://somerset-county-me.mydripnurse.com",
+            "countySitemap": "https://somerset-county-me.mydripnurse.com/sitemap.xml"
         },
         {
-            "County Name": "Waldo",
-            "Cities": [
-                "Belfast",
-                "Belmont",
-                "Brooks",
-                "Burnham",
-                "Frankfort",
-                "Freedom",
-                "Islesboro",
-                "Jackson",
-                "Knox",
-                "Liberty",
-                "Lincolnville",
-                "Monroe",
-                "Montville",
-                "Morrill",
-                "Northport",
-                "Palermo",
-                "Prospect",
-                "Searsmont",
-                "Searsport",
-                "Stockton Springs",
-                "Swanville",
-                "Thorndike",
-                "Troy",
-                "Unity",
-                "Winterport"
+            "countyName": "Waldo",
+            "cities": [
+                {
+                    "cityName": "Belfast",
+                    "cityDomain": "https://belfast-city-me.mydripnurse.com",
+                    "citySitemap": "https://belfast-city-me.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Belmont",
+                    "cityDomain": "https://belmont-city-me.mydripnurse.com",
+                    "citySitemap": "https://belmont-city-me.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Brooks",
+                    "cityDomain": "https://brooks-city-me.mydripnurse.com",
+                    "citySitemap": "https://brooks-city-me.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Burnham",
+                    "cityDomain": "https://burnham-city-me.mydripnurse.com",
+                    "citySitemap": "https://burnham-city-me.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Frankfort",
+                    "cityDomain": "https://frankfort-city-me.mydripnurse.com",
+                    "citySitemap": "https://frankfort-city-me.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Freedom",
+                    "cityDomain": "https://freedom-city-me.mydripnurse.com",
+                    "citySitemap": "https://freedom-city-me.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Islesboro",
+                    "cityDomain": "https://islesboro-city-me.mydripnurse.com",
+                    "citySitemap": "https://islesboro-city-me.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Jackson",
+                    "cityDomain": "https://jackson-city-me.mydripnurse.com",
+                    "citySitemap": "https://jackson-city-me.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Knox",
+                    "cityDomain": "https://knox-city-me.mydripnurse.com",
+                    "citySitemap": "https://knox-city-me.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Liberty",
+                    "cityDomain": "https://liberty-city-me.mydripnurse.com",
+                    "citySitemap": "https://liberty-city-me.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Lincolnville",
+                    "cityDomain": "https://lincolnville-city-me.mydripnurse.com",
+                    "citySitemap": "https://lincolnville-city-me.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Monroe",
+                    "cityDomain": "https://monroe-city-me.mydripnurse.com",
+                    "citySitemap": "https://monroe-city-me.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Montville",
+                    "cityDomain": "https://montville-city-me.mydripnurse.com",
+                    "citySitemap": "https://montville-city-me.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Morrill",
+                    "cityDomain": "https://morrill-city-me.mydripnurse.com",
+                    "citySitemap": "https://morrill-city-me.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Northport",
+                    "cityDomain": "https://northport-city-me.mydripnurse.com",
+                    "citySitemap": "https://northport-city-me.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Palermo",
+                    "cityDomain": "https://palermo-city-me.mydripnurse.com",
+                    "citySitemap": "https://palermo-city-me.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Prospect",
+                    "cityDomain": "https://prospect-city-me.mydripnurse.com",
+                    "citySitemap": "https://prospect-city-me.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Searsmont",
+                    "cityDomain": "https://searsmont-city-me.mydripnurse.com",
+                    "citySitemap": "https://searsmont-city-me.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Searsport",
+                    "cityDomain": "https://searsport-city-me.mydripnurse.com",
+                    "citySitemap": "https://searsport-city-me.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Stockton Springs",
+                    "cityDomain": "https://stockton-springs-city-me.mydripnurse.com",
+                    "citySitemap": "https://stockton-springs-city-me.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Swanville",
+                    "cityDomain": "https://swanville-city-me.mydripnurse.com",
+                    "citySitemap": "https://swanville-city-me.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Thorndike",
+                    "cityDomain": "https://thorndike-city-me.mydripnurse.com",
+                    "citySitemap": "https://thorndike-city-me.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Troy",
+                    "cityDomain": "https://troy-city-me.mydripnurse.com",
+                    "citySitemap": "https://troy-city-me.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Unity",
+                    "cityDomain": "https://unity-city-me.mydripnurse.com",
+                    "citySitemap": "https://unity-city-me.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Winterport",
+                    "cityDomain": "https://winterport-city-me.mydripnurse.com",
+                    "citySitemap": "https://winterport-city-me.mydripnurse.com/sitemap.xml"
+                }
             ],
             "Timezone": {
                 "Name": "Eastern",
                 "Zone": "US/Eastern",
                 "UTC_Offset": "-05:00"
-            }
+            },
+            "countyDomain": "https://waldo-county-me.mydripnurse.com",
+            "countySitemap": "https://waldo-county-me.mydripnurse.com/sitemap.xml"
         },
         {
-            "County Name": "Washington",
-            "Cities": [
-                "Addison",
-                "Baileyville",
-                "Beals",
-                "Beddington",
-                "Calais",
-                "Centerville",
-                "Cherryfield",
-                "Columbia",
-                "Columbia Falls",
-                "Dennysville",
-                "East Machias",
-                "Eastport",
-                "Jonesboro",
-                "Jonesport",
-                "Lubec",
-                "Machias",
-                "Machiasport",
-                "Meddybemps",
-                "Milbridge",
-                "Pembroke",
-                "Perry",
-                "Princeton",
-                "Robbinston",
-                "Steuben",
-                "Vanceboro",
-                "Wesley",
-                "Whiting",
-                "Whitneyville"
+            "countyName": "Washington",
+            "cities": [
+                {
+                    "cityName": "Addison",
+                    "cityDomain": "https://addison-city-me.mydripnurse.com",
+                    "citySitemap": "https://addison-city-me.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Baileyville",
+                    "cityDomain": "https://baileyville-city-me.mydripnurse.com",
+                    "citySitemap": "https://baileyville-city-me.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Beals",
+                    "cityDomain": "https://beals-city-me.mydripnurse.com",
+                    "citySitemap": "https://beals-city-me.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Beddington",
+                    "cityDomain": "https://beddington-city-me.mydripnurse.com",
+                    "citySitemap": "https://beddington-city-me.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Calais",
+                    "cityDomain": "https://calais-city-me.mydripnurse.com",
+                    "citySitemap": "https://calais-city-me.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Centerville",
+                    "cityDomain": "https://centerville-city-me.mydripnurse.com",
+                    "citySitemap": "https://centerville-city-me.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Cherryfield",
+                    "cityDomain": "https://cherryfield-city-me.mydripnurse.com",
+                    "citySitemap": "https://cherryfield-city-me.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Columbia",
+                    "cityDomain": "https://columbia-city-me.mydripnurse.com",
+                    "citySitemap": "https://columbia-city-me.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Columbia Falls",
+                    "cityDomain": "https://columbia-falls-city-me.mydripnurse.com",
+                    "citySitemap": "https://columbia-falls-city-me.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Dennysville",
+                    "cityDomain": "https://dennysville-city-me.mydripnurse.com",
+                    "citySitemap": "https://dennysville-city-me.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "East Machias",
+                    "cityDomain": "https://east-machias-city-me.mydripnurse.com",
+                    "citySitemap": "https://east-machias-city-me.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Eastport",
+                    "cityDomain": "https://eastport-city-me.mydripnurse.com",
+                    "citySitemap": "https://eastport-city-me.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Jonesboro",
+                    "cityDomain": "https://jonesboro-city-me.mydripnurse.com",
+                    "citySitemap": "https://jonesboro-city-me.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Jonesport",
+                    "cityDomain": "https://jonesport-city-me.mydripnurse.com",
+                    "citySitemap": "https://jonesport-city-me.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Lubec",
+                    "cityDomain": "https://lubec-city-me.mydripnurse.com",
+                    "citySitemap": "https://lubec-city-me.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Machias",
+                    "cityDomain": "https://machias-city-me.mydripnurse.com",
+                    "citySitemap": "https://machias-city-me.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Machiasport",
+                    "cityDomain": "https://machiasport-city-me.mydripnurse.com",
+                    "citySitemap": "https://machiasport-city-me.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Meddybemps",
+                    "cityDomain": "https://meddybemps-city-me.mydripnurse.com",
+                    "citySitemap": "https://meddybemps-city-me.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Milbridge",
+                    "cityDomain": "https://milbridge-city-me.mydripnurse.com",
+                    "citySitemap": "https://milbridge-city-me.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Pembroke",
+                    "cityDomain": "https://pembroke-city-me.mydripnurse.com",
+                    "citySitemap": "https://pembroke-city-me.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Perry",
+                    "cityDomain": "https://perry-city-me.mydripnurse.com",
+                    "citySitemap": "https://perry-city-me.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Princeton",
+                    "cityDomain": "https://princeton-city-me.mydripnurse.com",
+                    "citySitemap": "https://princeton-city-me.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Robbinston",
+                    "cityDomain": "https://robbinston-city-me.mydripnurse.com",
+                    "citySitemap": "https://robbinston-city-me.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Steuben",
+                    "cityDomain": "https://steuben-city-me.mydripnurse.com",
+                    "citySitemap": "https://steuben-city-me.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Vanceboro",
+                    "cityDomain": "https://vanceboro-city-me.mydripnurse.com",
+                    "citySitemap": "https://vanceboro-city-me.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Wesley",
+                    "cityDomain": "https://wesley-city-me.mydripnurse.com",
+                    "citySitemap": "https://wesley-city-me.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Whiting",
+                    "cityDomain": "https://whiting-city-me.mydripnurse.com",
+                    "citySitemap": "https://whiting-city-me.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Whitneyville",
+                    "cityDomain": "https://whitneyville-city-me.mydripnurse.com",
+                    "citySitemap": "https://whitneyville-city-me.mydripnurse.com/sitemap.xml"
+                }
             ],
             "Timezone": {
                 "Name": "Eastern",
                 "Zone": "US/Eastern",
                 "UTC_Offset": "-05:00"
-            }
+            },
+            "countyDomain": "https://washington-county-me.mydripnurse.com",
+            "countySitemap": "https://washington-county-me.mydripnurse.com/sitemap.xml"
         },
         {
-            "County Name": "York",
-            "Cities": [
-                "Acton",
-                "Alfred",
-                "Arundel",
-                "Berwick",
-                "Biddeford",
-                "Buxton",
-                "Cornish",
-                "Dayton",
-                "Eliot",
-                "Hollis",
-                "Kennebunk",
-                "Kennebunkport",
-                "Kittery",
-                "Lebanon",
-                "Limerick",
-                "Limington",
-                "Lyman",
-                "Newfield",
-                "North Berwick",
-                "Old Orchard Beach",
-                "Ogunquit",
-                "Parsonsfield",
-                "Sanford",
-                "Shapleigh",
-                "South Berwick",
-                "Waterboro",
-                "Wells",
-                "York"
+            "countyName": "York",
+            "cities": [
+                {
+                    "cityName": "Acton",
+                    "cityDomain": "https://acton-city-me.mydripnurse.com",
+                    "citySitemap": "https://acton-city-me.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Alfred",
+                    "cityDomain": "https://alfred-city-me.mydripnurse.com",
+                    "citySitemap": "https://alfred-city-me.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Arundel",
+                    "cityDomain": "https://arundel-city-me.mydripnurse.com",
+                    "citySitemap": "https://arundel-city-me.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Berwick",
+                    "cityDomain": "https://berwick-city-me.mydripnurse.com",
+                    "citySitemap": "https://berwick-city-me.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Biddeford",
+                    "cityDomain": "https://biddeford-city-me.mydripnurse.com",
+                    "citySitemap": "https://biddeford-city-me.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Buxton",
+                    "cityDomain": "https://buxton-city-me.mydripnurse.com",
+                    "citySitemap": "https://buxton-city-me.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Cornish",
+                    "cityDomain": "https://cornish-city-me.mydripnurse.com",
+                    "citySitemap": "https://cornish-city-me.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Dayton",
+                    "cityDomain": "https://dayton-city-me.mydripnurse.com",
+                    "citySitemap": "https://dayton-city-me.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Eliot",
+                    "cityDomain": "https://eliot-city-me.mydripnurse.com",
+                    "citySitemap": "https://eliot-city-me.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Hollis",
+                    "cityDomain": "https://hollis-city-me.mydripnurse.com",
+                    "citySitemap": "https://hollis-city-me.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Kennebunk",
+                    "cityDomain": "https://kennebunk-city-me.mydripnurse.com",
+                    "citySitemap": "https://kennebunk-city-me.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Kennebunkport",
+                    "cityDomain": "https://kennebunkport-city-me.mydripnurse.com",
+                    "citySitemap": "https://kennebunkport-city-me.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Kittery",
+                    "cityDomain": "https://kittery-city-me.mydripnurse.com",
+                    "citySitemap": "https://kittery-city-me.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Lebanon",
+                    "cityDomain": "https://lebanon-city-me.mydripnurse.com",
+                    "citySitemap": "https://lebanon-city-me.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Limerick",
+                    "cityDomain": "https://limerick-city-me.mydripnurse.com",
+                    "citySitemap": "https://limerick-city-me.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Limington",
+                    "cityDomain": "https://limington-city-me.mydripnurse.com",
+                    "citySitemap": "https://limington-city-me.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Lyman",
+                    "cityDomain": "https://lyman-city-me.mydripnurse.com",
+                    "citySitemap": "https://lyman-city-me.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Newfield",
+                    "cityDomain": "https://newfield-city-me.mydripnurse.com",
+                    "citySitemap": "https://newfield-city-me.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "North Berwick",
+                    "cityDomain": "https://north-berwick-city-me.mydripnurse.com",
+                    "citySitemap": "https://north-berwick-city-me.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Old Orchard Beach",
+                    "cityDomain": "https://old-orchard-beach-city-me.mydripnurse.com",
+                    "citySitemap": "https://old-orchard-beach-city-me.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Ogunquit",
+                    "cityDomain": "https://ogunquit-city-me.mydripnurse.com",
+                    "citySitemap": "https://ogunquit-city-me.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Parsonsfield",
+                    "cityDomain": "https://parsonsfield-city-me.mydripnurse.com",
+                    "citySitemap": "https://parsonsfield-city-me.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Sanford",
+                    "cityDomain": "https://sanford-city-me.mydripnurse.com",
+                    "citySitemap": "https://sanford-city-me.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Shapleigh",
+                    "cityDomain": "https://shapleigh-city-me.mydripnurse.com",
+                    "citySitemap": "https://shapleigh-city-me.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "South Berwick",
+                    "cityDomain": "https://south-berwick-city-me.mydripnurse.com",
+                    "citySitemap": "https://south-berwick-city-me.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Waterboro",
+                    "cityDomain": "https://waterboro-city-me.mydripnurse.com",
+                    "citySitemap": "https://waterboro-city-me.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Wells",
+                    "cityDomain": "https://wells-city-me.mydripnurse.com",
+                    "citySitemap": "https://wells-city-me.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "York",
+                    "cityDomain": "https://york-city-me.mydripnurse.com",
+                    "citySitemap": "https://york-city-me.mydripnurse.com/sitemap.xml"
+                }
             ],
             "Timezone": {
                 "Name": "Eastern",
                 "Zone": "US/Eastern",
                 "UTC_Offset": "-05:00"
-            }
+            },
+            "countyDomain": "https://york-county-me.mydripnurse.com",
+            "countySitemap": "https://york-county-me.mydripnurse.com/sitemap.xml"
         }
     ],
     "website": "https://www.mydripnurse.com",

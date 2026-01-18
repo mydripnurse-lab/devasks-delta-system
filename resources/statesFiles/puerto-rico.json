@@ -1,8 +1,8 @@
 {
-    "Counties": [
+    "counties": [
         {
-            "County Name": "Puerto Rico",
-            "Cities": [
+            "countyName": "Puerto Rico",
+            "cities": [
                 "Adjuntas",
                 "Aguada",
                 "Aguadilla",

@@ -1,904 +1,2136 @@
 {
-    "Counties": [
+    "counties": [
         {
-            "County Name": "Acadia Parish",
-            "Cities": [
-                "Church Point",
-                "Crowley",
-                "Duson",
-                "Egan",
-                "Estherwood",
-                "Iota",
-                "Mermentau",
-                "Morse",
-                "Rayne"
+            "countyName": "Acadia Parish",
+            "cities": [
+                {
+                    "cityName": "Church Point",
+                    "cityDomain": "https://church-point-city-la.mydripnurse.com",
+                    "citySitemap": "https://church-point-city-la.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Crowley",
+                    "cityDomain": "https://crowley-city-la.mydripnurse.com",
+                    "citySitemap": "https://crowley-city-la.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Duson",
+                    "cityDomain": "https://duson-city-la.mydripnurse.com",
+                    "citySitemap": "https://duson-city-la.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Egan",
+                    "cityDomain": "https://egan-city-la.mydripnurse.com",
+                    "citySitemap": "https://egan-city-la.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Estherwood",
+                    "cityDomain": "https://estherwood-city-la.mydripnurse.com",
+                    "citySitemap": "https://estherwood-city-la.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Iota",
+                    "cityDomain": "https://iota-city-la.mydripnurse.com",
+                    "citySitemap": "https://iota-city-la.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Mermentau",
+                    "cityDomain": "https://mermentau-city-la.mydripnurse.com",
+                    "citySitemap": "https://mermentau-city-la.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Morse",
+                    "cityDomain": "https://morse-city-la.mydripnurse.com",
+                    "citySitemap": "https://morse-city-la.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Rayne",
+                    "cityDomain": "https://rayne-city-la.mydripnurse.com",
+                    "citySitemap": "https://rayne-city-la.mydripnurse.com/sitemap.xml"
+                }
             ],
             "Timezone": {
                 "Name": "Central",
                 "Zone": "US/Central",
                 "UTC_Offset": "-06:00"
-            }
+            },
+            "countyDomain": "https://acadia-parish-county-la.mydripnurse.com",
+            "countySitemap": "https://acadia-parish-county-la.mydripnurse.com/sitemap.xml",
+            "embeddedSitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\n  <sitemap>\n    <loc>https://acadia-parish-county-la.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://church-point-city-la.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://crowley-city-la.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://duson-city-la.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://egan-city-la.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://estherwood-city-la.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://iota-city-la.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://mermentau-city-la.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://morse-city-la.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://rayne-city-la.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n</sitemapindex>"
         },
         {
-            "County Name": "Allen Parish",
-            "Cities": [
-                "Elizabeth",
-                "Kinder",
-                "Oakdale",
-                "Oberlin"
+            "countyName": "Allen Parish",
+            "cities": [
+                {
+                    "cityName": "Elizabeth",
+                    "cityDomain": "https://elizabeth-city-la.mydripnurse.com",
+                    "citySitemap": "https://elizabeth-city-la.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Kinder",
+                    "cityDomain": "https://kinder-city-la.mydripnurse.com",
+                    "citySitemap": "https://kinder-city-la.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Oakdale",
+                    "cityDomain": "https://oakdale-city-la.mydripnurse.com",
+                    "citySitemap": "https://oakdale-city-la.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Oberlin",
+                    "cityDomain": "https://oberlin-city-la.mydripnurse.com",
+                    "citySitemap": "https://oberlin-city-la.mydripnurse.com/sitemap.xml"
+                }
             ],
             "Timezone": {
                 "Name": "Central",
                 "Zone": "US/Central",
                 "UTC_Offset": "-06:00"
-            }
+            },
+            "countyDomain": "https://allen-parish-county-la.mydripnurse.com",
+            "countySitemap": "https://allen-parish-county-la.mydripnurse.com/sitemap.xml",
+            "embeddedSitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\n  <sitemap>\n    <loc>https://allen-parish-county-la.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://elizabeth-city-la.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://kinder-city-la.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://oakdale-city-la.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://oberlin-city-la.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n</sitemapindex>"
         },
         {
-            "County Name": "Ascension Parish",
-            "Cities": [
-                "Donaldsonville",
-                "Gonzales",
-                "Sorrento"
+            "countyName": "Ascension Parish",
+            "cities": [
+                {
+                    "cityName": "Donaldsonville",
+                    "cityDomain": "https://donaldsonville-city-la.mydripnurse.com",
+                    "citySitemap": "https://donaldsonville-city-la.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Gonzales",
+                    "cityDomain": "https://gonzales-city-la.mydripnurse.com",
+                    "citySitemap": "https://gonzales-city-la.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Sorrento",
+                    "cityDomain": "https://sorrento-city-la.mydripnurse.com",
+                    "citySitemap": "https://sorrento-city-la.mydripnurse.com/sitemap.xml"
+                }
             ],
             "Timezone": {
                 "Name": "Central",
                 "Zone": "US/Central",
                 "UTC_Offset": "-06:00"
-            }
+            },
+            "countyDomain": "https://ascension-parish-county-la.mydripnurse.com",
+            "countySitemap": "https://ascension-parish-county-la.mydripnurse.com/sitemap.xml",
+            "embeddedSitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\n  <sitemap>\n    <loc>https://ascension-parish-county-la.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://donaldsonville-city-la.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://gonzales-city-la.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://sorrento-city-la.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n</sitemapindex>"
         },
         {
-            "County Name": "Assumption Parish",
-            "Cities": [
-                "Belle Rose",
-                "Labadieville",
-                "Napoleonville",
-                "Paincourtville",
-                "Pierre Part"
+            "countyName": "Assumption Parish",
+            "cities": [
+                {
+                    "cityName": "Belle Rose",
+                    "cityDomain": "https://belle-rose-city-la.mydripnurse.com",
+                    "citySitemap": "https://belle-rose-city-la.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Labadieville",
+                    "cityDomain": "https://labadieville-city-la.mydripnurse.com",
+                    "citySitemap": "https://labadieville-city-la.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Napoleonville",
+                    "cityDomain": "https://napoleonville-city-la.mydripnurse.com",
+                    "citySitemap": "https://napoleonville-city-la.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Paincourtville",
+                    "cityDomain": "https://paincourtville-city-la.mydripnurse.com",
+                    "citySitemap": "https://paincourtville-city-la.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Pierre Part",
+                    "cityDomain": "https://pierre-part-city-la.mydripnurse.com",
+                    "citySitemap": "https://pierre-part-city-la.mydripnurse.com/sitemap.xml"
+                }
             ],
             "Timezone": {
                 "Name": "Central",
                 "Zone": "US/Central",
                 "UTC_Offset": "-06:00"
-            }
+            },
+            "countyDomain": "https://assumption-parish-county-la.mydripnurse.com",
+            "countySitemap": "https://assumption-parish-county-la.mydripnurse.com/sitemap.xml",
+            "embeddedSitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\n  <sitemap>\n    <loc>https://assumption-parish-county-la.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://belle-rose-city-la.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://labadieville-city-la.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://napoleonville-city-la.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://paincourtville-city-la.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://pierre-part-city-la.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n</sitemapindex>"
         },
         {
-            "County Name": "Avoyelles Parish",
-            "Cities": [
-                "Bunkie",
-                "Evergreen",
-                "Hessmer",
-                "Marksville",
-                "Moreauville",
-                "Plaucheville",
-                "Simmesport"
+            "countyName": "Avoyelles Parish",
+            "cities": [
+                {
+                    "cityName": "Bunkie",
+                    "cityDomain": "https://bunkie-city-la.mydripnurse.com",
+                    "citySitemap": "https://bunkie-city-la.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Evergreen",
+                    "cityDomain": "https://evergreen-city-la.mydripnurse.com",
+                    "citySitemap": "https://evergreen-city-la.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Hessmer",
+                    "cityDomain": "https://hessmer-city-la.mydripnurse.com",
+                    "citySitemap": "https://hessmer-city-la.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Marksville",
+                    "cityDomain": "https://marksville-city-la.mydripnurse.com",
+                    "citySitemap": "https://marksville-city-la.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Moreauville",
+                    "cityDomain": "https://moreauville-city-la.mydripnurse.com",
+                    "citySitemap": "https://moreauville-city-la.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Plaucheville",
+                    "cityDomain": "https://plaucheville-city-la.mydripnurse.com",
+                    "citySitemap": "https://plaucheville-city-la.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Simmesport",
+                    "cityDomain": "https://simmesport-city-la.mydripnurse.com",
+                    "citySitemap": "https://simmesport-city-la.mydripnurse.com/sitemap.xml"
+                }
             ],
             "Timezone": {
                 "Name": "Central",
                 "Zone": "US/Central",
                 "UTC_Offset": "-06:00"
-            }
+            },
+            "countyDomain": "https://avoyelles-parish-county-la.mydripnurse.com",
+            "countySitemap": "https://avoyelles-parish-county-la.mydripnurse.com/sitemap.xml",
+            "embeddedSitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\n  <sitemap>\n    <loc>https://avoyelles-parish-county-la.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://bunkie-city-la.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://evergreen-city-la.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://hessmer-city-la.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://marksville-city-la.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://moreauville-city-la.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://plaucheville-city-la.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://simmesport-city-la.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n</sitemapindex>"
         },
         {
-            "County Name": "Beauregard Parish",
-            "Cities": [
-                "DeRidder"
+            "countyName": "Beauregard Parish",
+            "cities": [
+                {
+                    "cityName": "DeRidder",
+                    "cityDomain": "https://deridder-city-la.mydripnurse.com",
+                    "citySitemap": "https://deridder-city-la.mydripnurse.com/sitemap.xml"
+                }
             ],
             "Timezone": {
                 "Name": "Central",
                 "Zone": "US/Central",
                 "UTC_Offset": "-06:00"
-            }
+            },
+            "countyDomain": "https://beauregard-parish-county-la.mydripnurse.com",
+            "countySitemap": "https://beauregard-parish-county-la.mydripnurse.com/sitemap.xml",
+            "embeddedSitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\n  <sitemap>\n    <loc>https://beauregard-parish-county-la.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://deridder-city-la.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n</sitemapindex>"
         },
         {
-            "County Name": "Bienville Parish",
-            "Cities": [
-                "Arcadia",
-                "Bienville",
-                "Castor",
-                "Gibsland",
-                "Lucky",
-                "Ringgold"
+            "countyName": "Bienville Parish",
+            "cities": [
+                {
+                    "cityName": "Arcadia",
+                    "cityDomain": "https://arcadia-city-la.mydripnurse.com",
+                    "citySitemap": "https://arcadia-city-la.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Bienville",
+                    "cityDomain": "https://bienville-city-la.mydripnurse.com",
+                    "citySitemap": "https://bienville-city-la.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Castor",
+                    "cityDomain": "https://castor-city-la.mydripnurse.com",
+                    "citySitemap": "https://castor-city-la.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Gibsland",
+                    "cityDomain": "https://gibsland-city-la.mydripnurse.com",
+                    "citySitemap": "https://gibsland-city-la.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Lucky",
+                    "cityDomain": "https://lucky-city-la.mydripnurse.com",
+                    "citySitemap": "https://lucky-city-la.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Ringgold",
+                    "cityDomain": "https://ringgold-city-la.mydripnurse.com",
+                    "citySitemap": "https://ringgold-city-la.mydripnurse.com/sitemap.xml"
+                }
             ],
             "Timezone": {
                 "Name": "Central",
                 "Zone": "US/Central",
                 "UTC_Offset": "-06:00"
-            }
+            },
+            "countyDomain": "https://bienville-parish-county-la.mydripnurse.com",
+            "countySitemap": "https://bienville-parish-county-la.mydripnurse.com/sitemap.xml",
+            "embeddedSitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\n  <sitemap>\n    <loc>https://bienville-parish-county-la.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://arcadia-city-la.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://bienville-city-la.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://castor-city-la.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://gibsland-city-la.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://lucky-city-la.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://ringgold-city-la.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n</sitemapindex>"
         },
         {
-            "County Name": "Bossier Parish",
-            "Cities": [
-                "Bossier City",
-                "Benton",
-                "Haughton",
-                "Plain Dealing"
+            "countyName": "Bossier Parish",
+            "cities": [
+                {
+                    "cityName": "Bossier City",
+                    "cityDomain": "https://bossier-city-city-la.mydripnurse.com",
+                    "citySitemap": "https://bossier-city-city-la.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Benton",
+                    "cityDomain": "https://benton-city-la.mydripnurse.com",
+                    "citySitemap": "https://benton-city-la.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Haughton",
+                    "cityDomain": "https://haughton-city-la.mydripnurse.com",
+                    "citySitemap": "https://haughton-city-la.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Plain Dealing",
+                    "cityDomain": "https://plain-dealing-city-la.mydripnurse.com",
+                    "citySitemap": "https://plain-dealing-city-la.mydripnurse.com/sitemap.xml"
+                }
             ],
             "Timezone": {
                 "Name": "Central",
                 "Zone": "US/Central",
                 "UTC_Offset": "-06:00"
-            }
+            },
+            "countyDomain": "https://bossier-parish-county-la.mydripnurse.com",
+            "countySitemap": "https://bossier-parish-county-la.mydripnurse.com/sitemap.xml",
+            "embeddedSitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\n  <sitemap>\n    <loc>https://bossier-parish-county-la.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://bossier-city-city-la.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://benton-city-la.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://haughton-city-la.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://plain-dealing-city-la.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n</sitemapindex>"
         },
         {
-            "County Name": "Caddo Parish",
-            "Cities": [
-                "Blanchard",
-                "Greenwood",
-                "Mooringsport",
-                "Oil City",
-                "Rodessa",
-                "Shreveport",
-                "Vivian"
+            "countyName": "Caddo Parish",
+            "cities": [
+                {
+                    "cityName": "Blanchard",
+                    "cityDomain": "https://blanchard-city-la.mydripnurse.com",
+                    "citySitemap": "https://blanchard-city-la.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Greenwood",
+                    "cityDomain": "https://greenwood-city-la.mydripnurse.com",
+                    "citySitemap": "https://greenwood-city-la.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Mooringsport",
+                    "cityDomain": "https://mooringsport-city-la.mydripnurse.com",
+                    "citySitemap": "https://mooringsport-city-la.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Oil City",
+                    "cityDomain": "https://oil-city-city-la.mydripnurse.com",
+                    "citySitemap": "https://oil-city-city-la.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Rodessa",
+                    "cityDomain": "https://rodessa-city-la.mydripnurse.com",
+                    "citySitemap": "https://rodessa-city-la.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Shreveport",
+                    "cityDomain": "https://shreveport-city-la.mydripnurse.com",
+                    "citySitemap": "https://shreveport-city-la.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Vivian",
+                    "cityDomain": "https://vivian-city-la.mydripnurse.com",
+                    "citySitemap": "https://vivian-city-la.mydripnurse.com/sitemap.xml"
+                }
             ],
             "Timezone": {
                 "Name": "Central",
                 "Zone": "US/Central",
                 "UTC_Offset": "-06:00"
-            }
+            },
+            "countyDomain": "https://caddo-parish-county-la.mydripnurse.com",
+            "countySitemap": "https://caddo-parish-county-la.mydripnurse.com/sitemap.xml",
+            "embeddedSitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\n  <sitemap>\n    <loc>https://caddo-parish-county-la.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://blanchard-city-la.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://greenwood-city-la.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://mooringsport-city-la.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://oil-city-city-la.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://rodessa-city-la.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://shreveport-city-la.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://vivian-city-la.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n</sitemapindex>"
         },
         {
-            "County Name": "Calcasieu Parish",
-            "Cities": [
-                "DeQuincy",
-                "Iowa",
-                "Lake Charles",
-                "Sulphur",
-                "Vinton",
-                "Westlake"
+            "countyName": "Calcasieu Parish",
+            "cities": [
+                {
+                    "cityName": "DeQuincy",
+                    "cityDomain": "https://dequincy-city-la.mydripnurse.com",
+                    "citySitemap": "https://dequincy-city-la.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Iowa",
+                    "cityDomain": "https://iowa-city-la.mydripnurse.com",
+                    "citySitemap": "https://iowa-city-la.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Lake Charles",
+                    "cityDomain": "https://lake-charles-city-la.mydripnurse.com",
+                    "citySitemap": "https://lake-charles-city-la.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Sulphur",
+                    "cityDomain": "https://sulphur-city-la.mydripnurse.com",
+                    "citySitemap": "https://sulphur-city-la.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Vinton",
+                    "cityDomain": "https://vinton-city-la.mydripnurse.com",
+                    "citySitemap": "https://vinton-city-la.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Westlake",
+                    "cityDomain": "https://westlake-city-la.mydripnurse.com",
+                    "citySitemap": "https://westlake-city-la.mydripnurse.com/sitemap.xml"
+                }
             ],
             "Timezone": {
                 "Name": "Central",
                 "Zone": "US/Central",
                 "UTC_Offset": "-06:00"
-            }
+            },
+            "countyDomain": "https://calcasieu-parish-county-la.mydripnurse.com",
+            "countySitemap": "https://calcasieu-parish-county-la.mydripnurse.com/sitemap.xml",
+            "embeddedSitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\n  <sitemap>\n    <loc>https://calcasieu-parish-county-la.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://dequincy-city-la.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://iowa-city-la.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://lake-charles-city-la.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://sulphur-city-la.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://vinton-city-la.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://westlake-city-la.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n</sitemapindex>"
         },
         {
-            "County Name": "Caldwell Parish",
-            "Cities": [
-                "Columbia",
-                "Grayson"
+            "countyName": "Caldwell Parish",
+            "cities": [
+                {
+                    "cityName": "Columbia",
+                    "cityDomain": "https://columbia-city-la.mydripnurse.com",
+                    "citySitemap": "https://columbia-city-la.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Grayson",
+                    "cityDomain": "https://grayson-city-la.mydripnurse.com",
+                    "citySitemap": "https://grayson-city-la.mydripnurse.com/sitemap.xml"
+                }
             ],
             "Timezone": {
                 "Name": "Central",
                 "Zone": "US/Central",
                 "UTC_Offset": "-06:00"
-            }
+            },
+            "countyDomain": "https://caldwell-parish-county-la.mydripnurse.com",
+            "countySitemap": "https://caldwell-parish-county-la.mydripnurse.com/sitemap.xml",
+            "embeddedSitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\n  <sitemap>\n    <loc>https://caldwell-parish-county-la.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://columbia-city-la.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://grayson-city-la.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n</sitemapindex>"
         },
         {
-            "County Name": "Cameron Parish",
-            "Cities": [
-                "Cameron",
-                "Creole",
-                "Grand Chenier",
-                "Hackberry",
-                "Johnson Bayou"
+            "countyName": "Cameron Parish",
+            "cities": [
+                {
+                    "cityName": "Cameron",
+                    "cityDomain": "https://cameron-city-la.mydripnurse.com",
+                    "citySitemap": "https://cameron-city-la.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Creole",
+                    "cityDomain": "https://creole-city-la.mydripnurse.com",
+                    "citySitemap": "https://creole-city-la.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Grand Chenier",
+                    "cityDomain": "https://grand-chenier-city-la.mydripnurse.com",
+                    "citySitemap": "https://grand-chenier-city-la.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Hackberry",
+                    "cityDomain": "https://hackberry-city-la.mydripnurse.com",
+                    "citySitemap": "https://hackberry-city-la.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Johnson Bayou",
+                    "cityDomain": "https://johnson-bayou-city-la.mydripnurse.com",
+                    "citySitemap": "https://johnson-bayou-city-la.mydripnurse.com/sitemap.xml"
+                }
             ],
             "Timezone": {
                 "Name": "Central",
                 "Zone": "US/Central",
                 "UTC_Offset": "-06:00"
-            }
+            },
+            "countyDomain": "https://cameron-parish-county-la.mydripnurse.com",
+            "countySitemap": "https://cameron-parish-county-la.mydripnurse.com/sitemap.xml",
+            "embeddedSitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\n  <sitemap>\n    <loc>https://cameron-parish-county-la.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://cameron-city-la.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://creole-city-la.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://grand-chenier-city-la.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://hackberry-city-la.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://johnson-bayou-city-la.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n</sitemapindex>"
         },
         {
-            "County Name": "Catahoula Parish",
-            "Cities": [
-                "Ferriday",
-                "Harrisonburg",
-                "Jonesville",
-                "Sicily Island"
+            "countyName": "Catahoula Parish",
+            "cities": [
+                {
+                    "cityName": "Ferriday",
+                    "cityDomain": "https://ferriday-city-la.mydripnurse.com",
+                    "citySitemap": "https://ferriday-city-la.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Harrisonburg",
+                    "cityDomain": "https://harrisonburg-city-la.mydripnurse.com",
+                    "citySitemap": "https://harrisonburg-city-la.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Jonesville",
+                    "cityDomain": "https://jonesville-city-la.mydripnurse.com",
+                    "citySitemap": "https://jonesville-city-la.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Sicily Island",
+                    "cityDomain": "https://sicily-island-city-la.mydripnurse.com",
+                    "citySitemap": "https://sicily-island-city-la.mydripnurse.com/sitemap.xml"
+                }
             ],
             "Timezone": {
                 "Name": "Central",
                 "Zone": "US/Central",
                 "UTC_Offset": "-06:00"
-            }
+            },
+            "countyDomain": "https://catahoula-parish-county-la.mydripnurse.com",
+            "countySitemap": "https://catahoula-parish-county-la.mydripnurse.com/sitemap.xml",
+            "embeddedSitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\n  <sitemap>\n    <loc>https://catahoula-parish-county-la.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://ferriday-city-la.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://harrisonburg-city-la.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://jonesville-city-la.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://sicily-island-city-la.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n</sitemapindex>"
         },
         {
-            "County Name": "Claiborne Parish",
-            "Cities": [
-                "Athens",
-                "Homer",
-                "Haynesville",
-                "Lisbon"
+            "countyName": "Claiborne Parish",
+            "cities": [
+                {
+                    "cityName": "Athens",
+                    "cityDomain": "https://athens-city-la.mydripnurse.com",
+                    "citySitemap": "https://athens-city-la.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Homer",
+                    "cityDomain": "https://homer-city-la.mydripnurse.com",
+                    "citySitemap": "https://homer-city-la.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Haynesville",
+                    "cityDomain": "https://haynesville-city-la.mydripnurse.com",
+                    "citySitemap": "https://haynesville-city-la.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Lisbon",
+                    "cityDomain": "https://lisbon-city-la.mydripnurse.com",
+                    "citySitemap": "https://lisbon-city-la.mydripnurse.com/sitemap.xml"
+                }
             ],
             "Timezone": {
                 "Name": "Central",
                 "Zone": "US/Central",
                 "UTC_Offset": "-06:00"
-            }
+            },
+            "countyDomain": "https://claiborne-parish-county-la.mydripnurse.com",
+            "countySitemap": "https://claiborne-parish-county-la.mydripnurse.com/sitemap.xml",
+            "embeddedSitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\n  <sitemap>\n    <loc>https://claiborne-parish-county-la.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://athens-city-la.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://homer-city-la.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://haynesville-city-la.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://lisbon-city-la.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n</sitemapindex>"
         },
         {
-            "County Name": "Concordia Parish",
-            "Cities": [
-                "Ferriday",
-                "Vidalia"
+            "countyName": "Concordia Parish",
+            "cities": [
+                {
+                    "cityName": "Ferriday",
+                    "cityDomain": "https://ferriday-city-la.mydripnurse.com",
+                    "citySitemap": "https://ferriday-city-la.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Vidalia",
+                    "cityDomain": "https://vidalia-city-la.mydripnurse.com",
+                    "citySitemap": "https://vidalia-city-la.mydripnurse.com/sitemap.xml"
+                }
             ],
             "Timezone": {
                 "Name": "Central",
                 "Zone": "US/Central",
                 "UTC_Offset": "-06:00"
-            }
+            },
+            "countyDomain": "https://concordia-parish-county-la.mydripnurse.com",
+            "countySitemap": "https://concordia-parish-county-la.mydripnurse.com/sitemap.xml",
+            "embeddedSitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\n  <sitemap>\n    <loc>https://concordia-parish-county-la.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://ferriday-city-la.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://vidalia-city-la.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n</sitemapindex>"
         },
         {
-            "County Name": "De Soto Parish",
-            "Cities": [
-                "Logansport",
-                "Mansfield",
-                "Stonewall"
+            "countyName": "De Soto Parish",
+            "cities": [
+                {
+                    "cityName": "Logansport",
+                    "cityDomain": "https://logansport-city-la.mydripnurse.com",
+                    "citySitemap": "https://logansport-city-la.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Mansfield",
+                    "cityDomain": "https://mansfield-city-la.mydripnurse.com",
+                    "citySitemap": "https://mansfield-city-la.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Stonewall",
+                    "cityDomain": "https://stonewall-city-la.mydripnurse.com",
+                    "citySitemap": "https://stonewall-city-la.mydripnurse.com/sitemap.xml"
+                }
             ],
             "Timezone": {
                 "Name": "Central",
                 "Zone": "US/Central",
                 "UTC_Offset": "-06:00"
-            }
+            },
+            "countyDomain": "https://de-soto-parish-county-la.mydripnurse.com",
+            "countySitemap": "https://de-soto-parish-county-la.mydripnurse.com/sitemap.xml",
+            "embeddedSitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\n  <sitemap>\n    <loc>https://de-soto-parish-county-la.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://logansport-city-la.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://mansfield-city-la.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://stonewall-city-la.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n</sitemapindex>"
         },
         {
-            "County Name": "East Baton Rouge Parish",
-            "Cities": [
-                "Baker",
-                "Baton Rouge",
-                "Central",
-                "Zachary"
+            "countyName": "East Baton Rouge Parish",
+            "cities": [
+                {
+                    "cityName": "Baker",
+                    "cityDomain": "https://baker-city-la.mydripnurse.com",
+                    "citySitemap": "https://baker-city-la.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Baton Rouge",
+                    "cityDomain": "https://baton-rouge-city-la.mydripnurse.com",
+                    "citySitemap": "https://baton-rouge-city-la.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Central",
+                    "cityDomain": "https://central-city-la.mydripnurse.com",
+                    "citySitemap": "https://central-city-la.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Zachary",
+                    "cityDomain": "https://zachary-city-la.mydripnurse.com",
+                    "citySitemap": "https://zachary-city-la.mydripnurse.com/sitemap.xml"
+                }
             ],
             "Timezone": {
                 "Name": "Central",
                 "Zone": "US/Central",
                 "UTC_Offset": "-06:00"
-            }
+            },
+            "countyDomain": "https://east-baton-rouge-parish-county-la.mydripnurse.com",
+            "countySitemap": "https://east-baton-rouge-parish-county-la.mydripnurse.com/sitemap.xml",
+            "embeddedSitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\n  <sitemap>\n    <loc>https://east-baton-rouge-parish-county-la.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://baker-city-la.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://baton-rouge-city-la.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://central-city-la.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://zachary-city-la.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n</sitemapindex>"
         },
         {
-            "County Name": "East Carroll Parish",
-            "Cities": [
-                "Lake Providence"
+            "countyName": "East Carroll Parish",
+            "cities": [
+                {
+                    "cityName": "Lake Providence",
+                    "cityDomain": "https://lake-providence-city-la.mydripnurse.com",
+                    "citySitemap": "https://lake-providence-city-la.mydripnurse.com/sitemap.xml"
+                }
             ],
             "Timezone": {
                 "Name": "Central",
                 "Zone": "US/Central",
                 "UTC_Offset": "-06:00"
-            }
+            },
+            "countyDomain": "https://east-carroll-parish-county-la.mydripnurse.com",
+            "countySitemap": "https://east-carroll-parish-county-la.mydripnurse.com/sitemap.xml",
+            "embeddedSitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\n  <sitemap>\n    <loc>https://east-carroll-parish-county-la.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://lake-providence-city-la.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n</sitemapindex>"
         },
         {
-            "County Name": "East Feliciana Parish",
-            "Cities": [
-                "Clinton",
-                "Jackson",
-                "Slaughter"
+            "countyName": "East Feliciana Parish",
+            "cities": [
+                {
+                    "cityName": "Clinton",
+                    "cityDomain": "https://clinton-city-la.mydripnurse.com",
+                    "citySitemap": "https://clinton-city-la.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Jackson",
+                    "cityDomain": "https://jackson-city-la.mydripnurse.com",
+                    "citySitemap": "https://jackson-city-la.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Slaughter",
+                    "cityDomain": "https://slaughter-city-la.mydripnurse.com",
+                    "citySitemap": "https://slaughter-city-la.mydripnurse.com/sitemap.xml"
+                }
             ],
             "Timezone": {
                 "Name": "Central",
                 "Zone": "US/Central",
                 "UTC_Offset": "-06:00"
-            }
+            },
+            "countyDomain": "https://east-feliciana-parish-county-la.mydripnurse.com",
+            "countySitemap": "https://east-feliciana-parish-county-la.mydripnurse.com/sitemap.xml",
+            "embeddedSitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\n  <sitemap>\n    <loc>https://east-feliciana-parish-county-la.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://clinton-city-la.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://jackson-city-la.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://slaughter-city-la.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n</sitemapindex>"
         },
         {
-            "County Name": "Evangeline Parish",
-            "Cities": [
-                "Basile",
-                "Mamou",
-                "Pine Prairie",
-                "Ville Platte"
+            "countyName": "Evangeline Parish",
+            "cities": [
+                {
+                    "cityName": "Basile",
+                    "cityDomain": "https://basile-city-la.mydripnurse.com",
+                    "citySitemap": "https://basile-city-la.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Mamou",
+                    "cityDomain": "https://mamou-city-la.mydripnurse.com",
+                    "citySitemap": "https://mamou-city-la.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Pine Prairie",
+                    "cityDomain": "https://pine-prairie-city-la.mydripnurse.com",
+                    "citySitemap": "https://pine-prairie-city-la.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Ville Platte",
+                    "cityDomain": "https://ville-platte-city-la.mydripnurse.com",
+                    "citySitemap": "https://ville-platte-city-la.mydripnurse.com/sitemap.xml"
+                }
             ],
             "Timezone": {
                 "Name": "Central",
                 "Zone": "US/Central",
                 "UTC_Offset": "-06:00"
-            }
+            },
+            "countyDomain": "https://evangeline-parish-county-la.mydripnurse.com",
+            "countySitemap": "https://evangeline-parish-county-la.mydripnurse.com/sitemap.xml",
+            "embeddedSitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\n  <sitemap>\n    <loc>https://evangeline-parish-county-la.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://basile-city-la.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://mamou-city-la.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://pine-prairie-city-la.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://ville-platte-city-la.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n</sitemapindex>"
         },
         {
-            "County Name": "Franklin Parish",
-            "Cities": [
-                "Baskin",
-                "Gilbert",
-                "Mangham",
-                "Winnsboro"
+            "countyName": "Franklin Parish",
+            "cities": [
+                {
+                    "cityName": "Baskin",
+                    "cityDomain": "https://baskin-city-la.mydripnurse.com",
+                    "citySitemap": "https://baskin-city-la.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Gilbert",
+                    "cityDomain": "https://gilbert-city-la.mydripnurse.com",
+                    "citySitemap": "https://gilbert-city-la.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Mangham",
+                    "cityDomain": "https://mangham-city-la.mydripnurse.com",
+                    "citySitemap": "https://mangham-city-la.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Winnsboro",
+                    "cityDomain": "https://winnsboro-city-la.mydripnurse.com",
+                    "citySitemap": "https://winnsboro-city-la.mydripnurse.com/sitemap.xml"
+                }
             ],
             "Timezone": {
                 "Name": "Central",
                 "Zone": "US/Central",
                 "UTC_Offset": "-06:00"
-            }
+            },
+            "countyDomain": "https://franklin-parish-county-la.mydripnurse.com",
+            "countySitemap": "https://franklin-parish-county-la.mydripnurse.com/sitemap.xml",
+            "embeddedSitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\n  <sitemap>\n    <loc>https://franklin-parish-county-la.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://baskin-city-la.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://gilbert-city-la.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://mangham-city-la.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://winnsboro-city-la.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n</sitemapindex>"
         },
         {
-            "County Name": "Grant Parish",
-            "Cities": [
-                "Colfax",
-                "Montgomery",
-                "Pollock"
+            "countyName": "Grant Parish",
+            "cities": [
+                {
+                    "cityName": "Colfax",
+                    "cityDomain": "https://colfax-city-la.mydripnurse.com",
+                    "citySitemap": "https://colfax-city-la.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Montgomery",
+                    "cityDomain": "https://montgomery-city-la.mydripnurse.com",
+                    "citySitemap": "https://montgomery-city-la.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Pollock",
+                    "cityDomain": "https://pollock-city-la.mydripnurse.com",
+                    "citySitemap": "https://pollock-city-la.mydripnurse.com/sitemap.xml"
+                }
             ],
             "Timezone": {
                 "Name": "Central",
                 "Zone": "US/Central",
                 "UTC_Offset": "-06:00"
-            }
+            },
+            "countyDomain": "https://grant-parish-county-la.mydripnurse.com",
+            "countySitemap": "https://grant-parish-county-la.mydripnurse.com/sitemap.xml",
+            "embeddedSitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\n  <sitemap>\n    <loc>https://grant-parish-county-la.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://colfax-city-la.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://montgomery-city-la.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://pollock-city-la.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n</sitemapindex>"
         },
         {
-            "County Name": "Iberia Parish",
-            "Cities": [
-                "Delcambre",
-                "Jeanerette",
-                "Loreauville",
-                "New Iberia"
+            "countyName": "Iberia Parish",
+            "cities": [
+                {
+                    "cityName": "Delcambre",
+                    "cityDomain": "https://delcambre-city-la.mydripnurse.com",
+                    "citySitemap": "https://delcambre-city-la.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Jeanerette",
+                    "cityDomain": "https://jeanerette-city-la.mydripnurse.com",
+                    "citySitemap": "https://jeanerette-city-la.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Loreauville",
+                    "cityDomain": "https://loreauville-city-la.mydripnurse.com",
+                    "citySitemap": "https://loreauville-city-la.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "New Iberia",
+                    "cityDomain": "https://new-iberia-city-la.mydripnurse.com",
+                    "citySitemap": "https://new-iberia-city-la.mydripnurse.com/sitemap.xml"
+                }
             ],
             "Timezone": {
                 "Name": "Central",
                 "Zone": "US/Central",
                 "UTC_Offset": "-06:00"
-            }
+            },
+            "countyDomain": "https://iberia-parish-county-la.mydripnurse.com",
+            "countySitemap": "https://iberia-parish-county-la.mydripnurse.com/sitemap.xml",
+            "embeddedSitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\n  <sitemap>\n    <loc>https://iberia-parish-county-la.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://delcambre-city-la.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://jeanerette-city-la.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://loreauville-city-la.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://new-iberia-city-la.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n</sitemapindex>"
         },
         {
-            "County Name": "Iberville Parish",
-            "Cities": [
-                "Grosse Tete",
-                "Maringouin",
-                "Plaquemine",
-                "Rosedale",
-                "St. Gabriel",
-                "White Castle"
+            "countyName": "Iberville Parish",
+            "cities": [
+                {
+                    "cityName": "Grosse Tete",
+                    "cityDomain": "https://grosse-tete-city-la.mydripnurse.com",
+                    "citySitemap": "https://grosse-tete-city-la.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Maringouin",
+                    "cityDomain": "https://maringouin-city-la.mydripnurse.com",
+                    "citySitemap": "https://maringouin-city-la.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Plaquemine",
+                    "cityDomain": "https://plaquemine-city-la.mydripnurse.com",
+                    "citySitemap": "https://plaquemine-city-la.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Rosedale",
+                    "cityDomain": "https://rosedale-city-la.mydripnurse.com",
+                    "citySitemap": "https://rosedale-city-la.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "St. Gabriel",
+                    "cityDomain": "https://st-gabriel-city-la.mydripnurse.com",
+                    "citySitemap": "https://st-gabriel-city-la.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "White Castle",
+                    "cityDomain": "https://white-castle-city-la.mydripnurse.com",
+                    "citySitemap": "https://white-castle-city-la.mydripnurse.com/sitemap.xml"
+                }
             ],
             "Timezone": {
                 "Name": "Central",
                 "Zone": "US/Central",
                 "UTC_Offset": "-06:00"
-            }
+            },
+            "countyDomain": "https://iberville-parish-county-la.mydripnurse.com",
+            "countySitemap": "https://iberville-parish-county-la.mydripnurse.com/sitemap.xml",
+            "embeddedSitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\n  <sitemap>\n    <loc>https://iberville-parish-county-la.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://grosse-tete-city-la.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://maringouin-city-la.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://plaquemine-city-la.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://rosedale-city-la.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://st-gabriel-city-la.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://white-castle-city-la.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n</sitemapindex>"
         },
         {
-            "County Name": "Jackson Parish",
-            "Cities": [
-                "Chatham",
-                "Eros",
-                "Hodge",
-                "Jonesboro"
+            "countyName": "Jackson Parish",
+            "cities": [
+                {
+                    "cityName": "Chatham",
+                    "cityDomain": "https://chatham-city-la.mydripnurse.com",
+                    "citySitemap": "https://chatham-city-la.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Eros",
+                    "cityDomain": "https://eros-city-la.mydripnurse.com",
+                    "citySitemap": "https://eros-city-la.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Hodge",
+                    "cityDomain": "https://hodge-city-la.mydripnurse.com",
+                    "citySitemap": "https://hodge-city-la.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Jonesboro",
+                    "cityDomain": "https://jonesboro-city-la.mydripnurse.com",
+                    "citySitemap": "https://jonesboro-city-la.mydripnurse.com/sitemap.xml"
+                }
             ],
             "Timezone": {
                 "Name": "Central",
                 "Zone": "US/Central",
                 "UTC_Offset": "-06:00"
-            }
+            },
+            "countyDomain": "https://jackson-parish-county-la.mydripnurse.com",
+            "countySitemap": "https://jackson-parish-county-la.mydripnurse.com/sitemap.xml",
+            "embeddedSitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\n  <sitemap>\n    <loc>https://jackson-parish-county-la.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://chatham-city-la.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://eros-city-la.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://hodge-city-la.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://jonesboro-city-la.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n</sitemapindex>"
         },
         {
-            "County Name": "Jefferson Davis Parish",
-            "Cities": [
-                "Elton",
-                "Fenton",
-                "Iowa",
-                "Jennings",
-                "Welsh"
+            "countyName": "Jefferson Davis Parish",
+            "cities": [
+                {
+                    "cityName": "Elton",
+                    "cityDomain": "https://elton-city-la.mydripnurse.com",
+                    "citySitemap": "https://elton-city-la.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Fenton",
+                    "cityDomain": "https://fenton-city-la.mydripnurse.com",
+                    "citySitemap": "https://fenton-city-la.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Iowa",
+                    "cityDomain": "https://iowa-city-la.mydripnurse.com",
+                    "citySitemap": "https://iowa-city-la.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Jennings",
+                    "cityDomain": "https://jennings-city-la.mydripnurse.com",
+                    "citySitemap": "https://jennings-city-la.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Welsh",
+                    "cityDomain": "https://welsh-city-la.mydripnurse.com",
+                    "citySitemap": "https://welsh-city-la.mydripnurse.com/sitemap.xml"
+                }
             ],
             "Timezone": {
                 "Name": "Central",
                 "Zone": "US/Central",
                 "UTC_Offset": "-06:00"
-            }
+            },
+            "countyDomain": "https://jefferson-davis-parish-county-la.mydripnurse.com",
+            "countySitemap": "https://jefferson-davis-parish-county-la.mydripnurse.com/sitemap.xml",
+            "embeddedSitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\n  <sitemap>\n    <loc>https://jefferson-davis-parish-county-la.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://elton-city-la.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://fenton-city-la.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://iowa-city-la.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://jennings-city-la.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://welsh-city-la.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n</sitemapindex>"
         },
         {
-            "County Name": "Jefferson Parish",
-            "Cities": [
-                "Gretna",
-                "Harahan",
-                "Jean Lafitte",
-                "Kenner",
-                "Westwego"
+            "countyName": "Jefferson Parish",
+            "cities": [
+                {
+                    "cityName": "Gretna",
+                    "cityDomain": "https://gretna-city-la.mydripnurse.com",
+                    "citySitemap": "https://gretna-city-la.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Harahan",
+                    "cityDomain": "https://harahan-city-la.mydripnurse.com",
+                    "citySitemap": "https://harahan-city-la.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Jean Lafitte",
+                    "cityDomain": "https://jean-lafitte-city-la.mydripnurse.com",
+                    "citySitemap": "https://jean-lafitte-city-la.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Kenner",
+                    "cityDomain": "https://kenner-city-la.mydripnurse.com",
+                    "citySitemap": "https://kenner-city-la.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Westwego",
+                    "cityDomain": "https://westwego-city-la.mydripnurse.com",
+                    "citySitemap": "https://westwego-city-la.mydripnurse.com/sitemap.xml"
+                }
             ],
             "Timezone": {
                 "Name": "Central",
                 "Zone": "US/Central",
                 "UTC_Offset": "-06:00"
-            }
+            },
+            "countyDomain": "https://jefferson-parish-county-la.mydripnurse.com",
+            "countySitemap": "https://jefferson-parish-county-la.mydripnurse.com/sitemap.xml",
+            "embeddedSitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\n  <sitemap>\n    <loc>https://jefferson-parish-county-la.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://gretna-city-la.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://harahan-city-la.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://jean-lafitte-city-la.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://kenner-city-la.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://westwego-city-la.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n</sitemapindex>"
         },
         {
-            "County Name": "Lafayette Parish",
-            "Cities": [
-                "Broussard",
-                "Carencro",
-                "Duson",
-                "Lafayette",
-                "Scott",
-                "Youngsville"
+            "countyName": "Lafayette Parish",
+            "cities": [
+                {
+                    "cityName": "Broussard",
+                    "cityDomain": "https://broussard-city-la.mydripnurse.com",
+                    "citySitemap": "https://broussard-city-la.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Carencro",
+                    "cityDomain": "https://carencro-city-la.mydripnurse.com",
+                    "citySitemap": "https://carencro-city-la.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Duson",
+                    "cityDomain": "https://duson-city-la.mydripnurse.com",
+                    "citySitemap": "https://duson-city-la.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Lafayette",
+                    "cityDomain": "https://lafayette-city-la.mydripnurse.com",
+                    "citySitemap": "https://lafayette-city-la.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Scott",
+                    "cityDomain": "https://scott-city-la.mydripnurse.com",
+                    "citySitemap": "https://scott-city-la.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Youngsville",
+                    "cityDomain": "https://youngsville-city-la.mydripnurse.com",
+                    "citySitemap": "https://youngsville-city-la.mydripnurse.com/sitemap.xml"
+                }
             ],
             "Timezone": {
                 "Name": "Central",
                 "Zone": "US/Central",
                 "UTC_Offset": "-06:00"
-            }
+            },
+            "countyDomain": "https://lafayette-parish-county-la.mydripnurse.com",
+            "countySitemap": "https://lafayette-parish-county-la.mydripnurse.com/sitemap.xml",
+            "embeddedSitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\n  <sitemap>\n    <loc>https://lafayette-parish-county-la.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://broussard-city-la.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://carencro-city-la.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://duson-city-la.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://lafayette-city-la.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://scott-city-la.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://youngsville-city-la.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n</sitemapindex>"
         },
         {
-            "County Name": "Lafourche Parish",
-            "Cities": [
-                "Golden Meadow",
-                "Lockport",
-                "Raceland",
-                "Thibodaux"
+            "countyName": "Lafourche Parish",
+            "cities": [
+                {
+                    "cityName": "Golden Meadow",
+                    "cityDomain": "https://golden-meadow-city-la.mydripnurse.com",
+                    "citySitemap": "https://golden-meadow-city-la.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Lockport",
+                    "cityDomain": "https://lockport-city-la.mydripnurse.com",
+                    "citySitemap": "https://lockport-city-la.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Raceland",
+                    "cityDomain": "https://raceland-city-la.mydripnurse.com",
+                    "citySitemap": "https://raceland-city-la.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Thibodaux",
+                    "cityDomain": "https://thibodaux-city-la.mydripnurse.com",
+                    "citySitemap": "https://thibodaux-city-la.mydripnurse.com/sitemap.xml"
+                }
             ],
             "Timezone": {
                 "Name": "Central",
                 "Zone": "US/Central",
                 "UTC_Offset": "-06:00"
-            }
+            },
+            "countyDomain": "https://lafourche-parish-county-la.mydripnurse.com",
+            "countySitemap": "https://lafourche-parish-county-la.mydripnurse.com/sitemap.xml",
+            "embeddedSitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\n  <sitemap>\n    <loc>https://lafourche-parish-county-la.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://golden-meadow-city-la.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://lockport-city-la.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://raceland-city-la.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://thibodaux-city-la.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n</sitemapindex>"
         },
         {
-            "County Name": "LaSalle Parish",
-            "Cities": [
-                "Jena",
-                "Olla"
+            "countyName": "LaSalle Parish",
+            "cities": [
+                {
+                    "cityName": "Jena",
+                    "cityDomain": "https://jena-city-la.mydripnurse.com",
+                    "citySitemap": "https://jena-city-la.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Olla",
+                    "cityDomain": "https://olla-city-la.mydripnurse.com",
+                    "citySitemap": "https://olla-city-la.mydripnurse.com/sitemap.xml"
+                }
             ],
             "Timezone": {
                 "Name": "Central",
                 "Zone": "US/Central",
                 "UTC_Offset": "-06:00"
-            }
+            },
+            "countyDomain": "https://lasalle-parish-county-la.mydripnurse.com",
+            "countySitemap": "https://lasalle-parish-county-la.mydripnurse.com/sitemap.xml",
+            "embeddedSitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\n  <sitemap>\n    <loc>https://lasalle-parish-county-la.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://jena-city-la.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://olla-city-la.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n</sitemapindex>"
         },
         {
-            "County Name": "Lincoln Parish",
-            "Cities": [
-                "Dubach",
-                "Gibsland",
-                "Ruston",
-                "Simsboro"
+            "countyName": "Lincoln Parish",
+            "cities": [
+                {
+                    "cityName": "Dubach",
+                    "cityDomain": "https://dubach-city-la.mydripnurse.com",
+                    "citySitemap": "https://dubach-city-la.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Gibsland",
+                    "cityDomain": "https://gibsland-city-la.mydripnurse.com",
+                    "citySitemap": "https://gibsland-city-la.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Ruston",
+                    "cityDomain": "https://ruston-city-la.mydripnurse.com",
+                    "citySitemap": "https://ruston-city-la.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Simsboro",
+                    "cityDomain": "https://simsboro-city-la.mydripnurse.com",
+                    "citySitemap": "https://simsboro-city-la.mydripnurse.com/sitemap.xml"
+                }
             ],
             "Timezone": {
                 "Name": "Central",
                 "Zone": "US/Central",
                 "UTC_Offset": "-06:00"
-            }
+            },
+            "countyDomain": "https://lincoln-parish-county-la.mydripnurse.com",
+            "countySitemap": "https://lincoln-parish-county-la.mydripnurse.com/sitemap.xml",
+            "embeddedSitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\n  <sitemap>\n    <loc>https://lincoln-parish-county-la.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://dubach-city-la.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://gibsland-city-la.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://ruston-city-la.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://simsboro-city-la.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n</sitemapindex>"
         },
         {
-            "County Name": "Livingston Parish",
-            "Cities": [
-                "Albany",
-                "Denham Springs",
-                "French Settlement",
-                "Livingston",
-                "Springfield",
-                "Walker"
+            "countyName": "Livingston Parish",
+            "cities": [
+                {
+                    "cityName": "Albany",
+                    "cityDomain": "https://albany-city-la.mydripnurse.com",
+                    "citySitemap": "https://albany-city-la.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Denham Springs",
+                    "cityDomain": "https://denham-springs-city-la.mydripnurse.com",
+                    "citySitemap": "https://denham-springs-city-la.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "French Settlement",
+                    "cityDomain": "https://french-settlement-city-la.mydripnurse.com",
+                    "citySitemap": "https://french-settlement-city-la.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Livingston",
+                    "cityDomain": "https://livingston-city-la.mydripnurse.com",
+                    "citySitemap": "https://livingston-city-la.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Springfield",
+                    "cityDomain": "https://springfield-city-la.mydripnurse.com",
+                    "citySitemap": "https://springfield-city-la.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Walker",
+                    "cityDomain": "https://walker-city-la.mydripnurse.com",
+                    "citySitemap": "https://walker-city-la.mydripnurse.com/sitemap.xml"
+                }
             ],
             "Timezone": {
                 "Name": "Central",
                 "Zone": "US/Central",
                 "UTC_Offset": "-06:00"
-            }
+            },
+            "countyDomain": "https://livingston-parish-county-la.mydripnurse.com",
+            "countySitemap": "https://livingston-parish-county-la.mydripnurse.com/sitemap.xml",
+            "embeddedSitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\n  <sitemap>\n    <loc>https://livingston-parish-county-la.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://albany-city-la.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://denham-springs-city-la.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://french-settlement-city-la.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://livingston-city-la.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://springfield-city-la.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://walker-city-la.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n</sitemapindex>"
         },
         {
-            "County Name": "Madison Parish",
-            "Cities": [
-                "Delta",
-                "Tallulah"
+            "countyName": "Madison Parish",
+            "cities": [
+                {
+                    "cityName": "Delta",
+                    "cityDomain": "https://delta-city-la.mydripnurse.com",
+                    "citySitemap": "https://delta-city-la.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Tallulah",
+                    "cityDomain": "https://tallulah-city-la.mydripnurse.com",
+                    "citySitemap": "https://tallulah-city-la.mydripnurse.com/sitemap.xml"
+                }
             ],
             "Timezone": {
                 "Name": "Central",
                 "Zone": "US/Central",
                 "UTC_Offset": "-06:00"
-            }
+            },
+            "countyDomain": "https://madison-parish-county-la.mydripnurse.com",
+            "countySitemap": "https://madison-parish-county-la.mydripnurse.com/sitemap.xml",
+            "embeddedSitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\n  <sitemap>\n    <loc>https://madison-parish-county-la.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://delta-city-la.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://tallulah-city-la.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n</sitemapindex>"
         },
         {
-            "County Name": "Morehouse Parish",
-            "Cities": [
-                "Bastrop",
-                "Bonita",
-                "Collinston",
-                "Mer Rouge"
+            "countyName": "Morehouse Parish",
+            "cities": [
+                {
+                    "cityName": "Bastrop",
+                    "cityDomain": "https://bastrop-city-la.mydripnurse.com",
+                    "citySitemap": "https://bastrop-city-la.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Bonita",
+                    "cityDomain": "https://bonita-city-la.mydripnurse.com",
+                    "citySitemap": "https://bonita-city-la.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Collinston",
+                    "cityDomain": "https://collinston-city-la.mydripnurse.com",
+                    "citySitemap": "https://collinston-city-la.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Mer Rouge",
+                    "cityDomain": "https://mer-rouge-city-la.mydripnurse.com",
+                    "citySitemap": "https://mer-rouge-city-la.mydripnurse.com/sitemap.xml"
+                }
             ],
             "Timezone": {
                 "Name": "Central",
                 "Zone": "US/Central",
                 "UTC_Offset": "-06:00"
-            }
+            },
+            "countyDomain": "https://morehouse-parish-county-la.mydripnurse.com",
+            "countySitemap": "https://morehouse-parish-county-la.mydripnurse.com/sitemap.xml",
+            "embeddedSitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\n  <sitemap>\n    <loc>https://morehouse-parish-county-la.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://bastrop-city-la.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://bonita-city-la.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://collinston-city-la.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://mer-rouge-city-la.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n</sitemapindex>"
         },
         {
-            "County Name": "Natchitoches Parish",
-            "Cities": [
-                "Campti",
-                "Clarence",
-                "Natchitoches",
-                "Provencal"
+            "countyName": "Natchitoches Parish",
+            "cities": [
+                {
+                    "cityName": "Campti",
+                    "cityDomain": "https://campti-city-la.mydripnurse.com",
+                    "citySitemap": "https://campti-city-la.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Clarence",
+                    "cityDomain": "https://clarence-city-la.mydripnurse.com",
+                    "citySitemap": "https://clarence-city-la.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Natchitoches",
+                    "cityDomain": "https://natchitoches-city-la.mydripnurse.com",
+                    "citySitemap": "https://natchitoches-city-la.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Provencal",
+                    "cityDomain": "https://provencal-city-la.mydripnurse.com",
+                    "citySitemap": "https://provencal-city-la.mydripnurse.com/sitemap.xml"
+                }
             ],
             "Timezone": {
                 "Name": "Central",
                 "Zone": "US/Central",
                 "UTC_Offset": "-06:00"
-            }
+            },
+            "countyDomain": "https://natchitoches-parish-county-la.mydripnurse.com",
+            "countySitemap": "https://natchitoches-parish-county-la.mydripnurse.com/sitemap.xml",
+            "embeddedSitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\n  <sitemap>\n    <loc>https://natchitoches-parish-county-la.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://campti-city-la.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://clarence-city-la.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://natchitoches-city-la.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://provencal-city-la.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n</sitemapindex>"
         },
         {
-            "County Name": "Orleans Parish",
-            "Cities": [
-                "New Orleans"
+            "countyName": "Orleans Parish",
+            "cities": [
+                {
+                    "cityName": "New Orleans",
+                    "cityDomain": "https://new-orleans-city-la.mydripnurse.com",
+                    "citySitemap": "https://new-orleans-city-la.mydripnurse.com/sitemap.xml"
+                }
             ],
             "Timezone": {
                 "Name": "Central",
                 "Zone": "US/Central",
                 "UTC_Offset": "-06:00"
-            }
+            },
+            "countyDomain": "https://orleans-parish-county-la.mydripnurse.com",
+            "countySitemap": "https://orleans-parish-county-la.mydripnurse.com/sitemap.xml",
+            "embeddedSitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\n  <sitemap>\n    <loc>https://orleans-parish-county-la.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://new-orleans-city-la.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n</sitemapindex>"
         },
         {
-            "County Name": "Ouachita Parish",
-            "Cities": [
-                "Monroe",
-                "Richwood",
-                "Sterlington",
-                "West Monroe"
+            "countyName": "Ouachita Parish",
+            "cities": [
+                {
+                    "cityName": "Monroe",
+                    "cityDomain": "https://monroe-city-la.mydripnurse.com",
+                    "citySitemap": "https://monroe-city-la.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Richwood",
+                    "cityDomain": "https://richwood-city-la.mydripnurse.com",
+                    "citySitemap": "https://richwood-city-la.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Sterlington",
+                    "cityDomain": "https://sterlington-city-la.mydripnurse.com",
+                    "citySitemap": "https://sterlington-city-la.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "West Monroe",
+                    "cityDomain": "https://west-monroe-city-la.mydripnurse.com",
+                    "citySitemap": "https://west-monroe-city-la.mydripnurse.com/sitemap.xml"
+                }
             ],
             "Timezone": {
                 "Name": "Central",
                 "Zone": "US/Central",
                 "UTC_Offset": "-06:00"
-            }
+            },
+            "countyDomain": "https://ouachita-parish-county-la.mydripnurse.com",
+            "countySitemap": "https://ouachita-parish-county-la.mydripnurse.com/sitemap.xml",
+            "embeddedSitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\n  <sitemap>\n    <loc>https://ouachita-parish-county-la.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://monroe-city-la.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://richwood-city-la.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://sterlington-city-la.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://west-monroe-city-la.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n</sitemapindex>"
         },
         {
-            "County Name": "Plaquemines Parish",
-            "Cities": [
-                "Belle Chasse",
-                "Grand Isle",
-                "Port Sulphur",
-                "Venice"
+            "countyName": "Plaquemines Parish",
+            "cities": [
+                {
+                    "cityName": "Belle Chasse",
+                    "cityDomain": "https://belle-chasse-city-la.mydripnurse.com",
+                    "citySitemap": "https://belle-chasse-city-la.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Grand Isle",
+                    "cityDomain": "https://grand-isle-city-la.mydripnurse.com",
+                    "citySitemap": "https://grand-isle-city-la.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Port Sulphur",
+                    "cityDomain": "https://port-sulphur-city-la.mydripnurse.com",
+                    "citySitemap": "https://port-sulphur-city-la.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Venice",
+                    "cityDomain": "https://venice-city-la.mydripnurse.com",
+                    "citySitemap": "https://venice-city-la.mydripnurse.com/sitemap.xml"
+                }
             ],
             "Timezone": {
                 "Name": "Central",
                 "Zone": "US/Central",
                 "UTC_Offset": "-06:00"
-            }
+            },
+            "countyDomain": "https://plaquemines-parish-county-la.mydripnurse.com",
+            "countySitemap": "https://plaquemines-parish-county-la.mydripnurse.com/sitemap.xml",
+            "embeddedSitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\n  <sitemap>\n    <loc>https://plaquemines-parish-county-la.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://belle-chasse-city-la.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://grand-isle-city-la.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://port-sulphur-city-la.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://venice-city-la.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n</sitemapindex>"
         },
         {
-            "County Name": "Pointe Coupee Parish",
-            "Cities": [
-                "Fordoche",
-                "Livonia",
-                "Morganza",
-                "New Roads"
+            "countyName": "Pointe Coupee Parish",
+            "cities": [
+                {
+                    "cityName": "Fordoche",
+                    "cityDomain": "https://fordoche-city-la.mydripnurse.com",
+                    "citySitemap": "https://fordoche-city-la.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Livonia",
+                    "cityDomain": "https://livonia-city-la.mydripnurse.com",
+                    "citySitemap": "https://livonia-city-la.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Morganza",
+                    "cityDomain": "https://morganza-city-la.mydripnurse.com",
+                    "citySitemap": "https://morganza-city-la.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "New Roads",
+                    "cityDomain": "https://new-roads-city-la.mydripnurse.com",
+                    "citySitemap": "https://new-roads-city-la.mydripnurse.com/sitemap.xml"
+                }
             ],
             "Timezone": {
                 "Name": "Central",
                 "Zone": "US/Central",
                 "UTC_Offset": "-06:00"
-            }
+            },
+            "countyDomain": "https://pointe-coupee-parish-county-la.mydripnurse.com",
+            "countySitemap": "https://pointe-coupee-parish-county-la.mydripnurse.com/sitemap.xml",
+            "embeddedSitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\n  <sitemap>\n    <loc>https://pointe-coupee-parish-county-la.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://fordoche-city-la.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://livonia-city-la.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://morganza-city-la.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://new-roads-city-la.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n</sitemapindex>"
         },
         {
-            "County Name": "Rapides Parish",
-            "Cities": [
-                "Alexandria",
-                "Ball",
-                "Cheneyville",
-                "Glenmora",
-                "Lecompte",
-                "Pineville",
-                "Woodworth"
+            "countyName": "Rapides Parish",
+            "cities": [
+                {
+                    "cityName": "Alexandria",
+                    "cityDomain": "https://alexandria-city-la.mydripnurse.com",
+                    "citySitemap": "https://alexandria-city-la.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Ball",
+                    "cityDomain": "https://ball-city-la.mydripnurse.com",
+                    "citySitemap": "https://ball-city-la.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Cheneyville",
+                    "cityDomain": "https://cheneyville-city-la.mydripnurse.com",
+                    "citySitemap": "https://cheneyville-city-la.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Glenmora",
+                    "cityDomain": "https://glenmora-city-la.mydripnurse.com",
+                    "citySitemap": "https://glenmora-city-la.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Lecompte",
+                    "cityDomain": "https://lecompte-city-la.mydripnurse.com",
+                    "citySitemap": "https://lecompte-city-la.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Pineville",
+                    "cityDomain": "https://pineville-city-la.mydripnurse.com",
+                    "citySitemap": "https://pineville-city-la.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Woodworth",
+                    "cityDomain": "https://woodworth-city-la.mydripnurse.com",
+                    "citySitemap": "https://woodworth-city-la.mydripnurse.com/sitemap.xml"
+                }
             ],
             "Timezone": {
                 "Name": "Central",
                 "Zone": "US/Central",
                 "UTC_Offset": "-06:00"
-            }
+            },
+            "countyDomain": "https://rapides-parish-county-la.mydripnurse.com",
+            "countySitemap": "https://rapides-parish-county-la.mydripnurse.com/sitemap.xml",
+            "embeddedSitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\n  <sitemap>\n    <loc>https://rapides-parish-county-la.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://alexandria-city-la.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://ball-city-la.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://cheneyville-city-la.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://glenmora-city-la.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://lecompte-city-la.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://pineville-city-la.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://woodworth-city-la.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n</sitemapindex>"
         },
         {
-            "County Name": "Red River Parish",
-            "Cities": [
-                "Coushatta"
+            "countyName": "Red River Parish",
+            "cities": [
+                {
+                    "cityName": "Coushatta",
+                    "cityDomain": "https://coushatta-city-la.mydripnurse.com",
+                    "citySitemap": "https://coushatta-city-la.mydripnurse.com/sitemap.xml"
+                }
             ],
             "Timezone": {
                 "Name": "Central",
                 "Zone": "US/Central",
                 "UTC_Offset": "-06:00"
-            }
+            },
+            "countyDomain": "https://red-river-parish-county-la.mydripnurse.com",
+            "countySitemap": "https://red-river-parish-county-la.mydripnurse.com/sitemap.xml",
+            "embeddedSitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\n  <sitemap>\n    <loc>https://red-river-parish-county-la.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://coushatta-city-la.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n</sitemapindex>"
         },
         {
-            "County Name": "Richland Parish",
-            "Cities": [
-                "Delhi",
-                "Mangham",
-                "Rayville"
+            "countyName": "Richland Parish",
+            "cities": [
+                {
+                    "cityName": "Delhi",
+                    "cityDomain": "https://delhi-city-la.mydripnurse.com",
+                    "citySitemap": "https://delhi-city-la.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Mangham",
+                    "cityDomain": "https://mangham-city-la.mydripnurse.com",
+                    "citySitemap": "https://mangham-city-la.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Rayville",
+                    "cityDomain": "https://rayville-city-la.mydripnurse.com",
+                    "citySitemap": "https://rayville-city-la.mydripnurse.com/sitemap.xml"
+                }
             ],
             "Timezone": {
                 "Name": "Central",
                 "Zone": "US/Central",
                 "UTC_Offset": "-06:00"
-            }
+            },
+            "countyDomain": "https://richland-parish-county-la.mydripnurse.com",
+            "countySitemap": "https://richland-parish-county-la.mydripnurse.com/sitemap.xml",
+            "embeddedSitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\n  <sitemap>\n    <loc>https://richland-parish-county-la.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://delhi-city-la.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://mangham-city-la.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://rayville-city-la.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n</sitemapindex>"
         },
         {
-            "County Name": "Sabine Parish",
-            "Cities": [
-                "Florien",
-                "Many",
-                "Zwolle"
+            "countyName": "Sabine Parish",
+            "cities": [
+                {
+                    "cityName": "Florien",
+                    "cityDomain": "https://florien-city-la.mydripnurse.com",
+                    "citySitemap": "https://florien-city-la.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Many",
+                    "cityDomain": "https://many-city-la.mydripnurse.com",
+                    "citySitemap": "https://many-city-la.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Zwolle",
+                    "cityDomain": "https://zwolle-city-la.mydripnurse.com",
+                    "citySitemap": "https://zwolle-city-la.mydripnurse.com/sitemap.xml"
+                }
             ],
             "Timezone": {
                 "Name": "Central",
                 "Zone": "US/Central",
                 "UTC_Offset": "-06:00"
-            }
+            },
+            "countyDomain": "https://sabine-parish-county-la.mydripnurse.com",
+            "countySitemap": "https://sabine-parish-county-la.mydripnurse.com/sitemap.xml",
+            "embeddedSitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\n  <sitemap>\n    <loc>https://sabine-parish-county-la.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://florien-city-la.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://many-city-la.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://zwolle-city-la.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n</sitemapindex>"
         },
         {
-            "County Name": "St. Bernard Parish",
-            "Cities": [
-                "Arabi",
-                "Chalmette"
+            "countyName": "St. Bernard Parish",
+            "cities": [
+                {
+                    "cityName": "Arabi",
+                    "cityDomain": "https://arabi-city-la.mydripnurse.com",
+                    "citySitemap": "https://arabi-city-la.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Chalmette",
+                    "cityDomain": "https://chalmette-city-la.mydripnurse.com",
+                    "citySitemap": "https://chalmette-city-la.mydripnurse.com/sitemap.xml"
+                }
             ],
             "Timezone": {
                 "Name": "Central",
                 "Zone": "US/Central",
                 "UTC_Offset": "-06:00"
-            }
+            },
+            "countyDomain": "https://st-bernard-parish-county-la.mydripnurse.com",
+            "countySitemap": "https://st-bernard-parish-county-la.mydripnurse.com/sitemap.xml",
+            "embeddedSitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\n  <sitemap>\n    <loc>https://st-bernard-parish-county-la.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://arabi-city-la.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://chalmette-city-la.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n</sitemapindex>"
         },
         {
-            "County Name": "St. Charles Parish",
-            "Cities": [
-                "Boutte",
-                "Des Allemands",
-                "Hahnville",
-                "Luling",
-                "Norco",
-                "Paradis"
+            "countyName": "St. Charles Parish",
+            "cities": [
+                {
+                    "cityName": "Boutte",
+                    "cityDomain": "https://boutte-city-la.mydripnurse.com",
+                    "citySitemap": "https://boutte-city-la.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Des Allemands",
+                    "cityDomain": "https://des-allemands-city-la.mydripnurse.com",
+                    "citySitemap": "https://des-allemands-city-la.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Hahnville",
+                    "cityDomain": "https://hahnville-city-la.mydripnurse.com",
+                    "citySitemap": "https://hahnville-city-la.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Luling",
+                    "cityDomain": "https://luling-city-la.mydripnurse.com",
+                    "citySitemap": "https://luling-city-la.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Norco",
+                    "cityDomain": "https://norco-city-la.mydripnurse.com",
+                    "citySitemap": "https://norco-city-la.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Paradis",
+                    "cityDomain": "https://paradis-city-la.mydripnurse.com",
+                    "citySitemap": "https://paradis-city-la.mydripnurse.com/sitemap.xml"
+                }
             ],
             "Timezone": {
                 "Name": "Central",
                 "Zone": "US/Central",
                 "UTC_Offset": "-06:00"
-            }
+            },
+            "countyDomain": "https://st-charles-parish-county-la.mydripnurse.com",
+            "countySitemap": "https://st-charles-parish-county-la.mydripnurse.com/sitemap.xml",
+            "embeddedSitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\n  <sitemap>\n    <loc>https://st-charles-parish-county-la.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://boutte-city-la.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://des-allemands-city-la.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://hahnville-city-la.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://luling-city-la.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://norco-city-la.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://paradis-city-la.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n</sitemapindex>"
         },
         {
-            "County Name": "St. Helena Parish",
-            "Cities": [
-                "Greensburg",
-                "Montpelier"
+            "countyName": "St. Helena Parish",
+            "cities": [
+                {
+                    "cityName": "Greensburg",
+                    "cityDomain": "https://greensburg-city-la.mydripnurse.com",
+                    "citySitemap": "https://greensburg-city-la.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Montpelier",
+                    "cityDomain": "https://montpelier-city-la.mydripnurse.com",
+                    "citySitemap": "https://montpelier-city-la.mydripnurse.com/sitemap.xml"
+                }
             ],
             "Timezone": {
                 "Name": "Central",
                 "Zone": "US/Central",
                 "UTC_Offset": "-06:00"
-            }
+            },
+            "countyDomain": "https://st-helena-parish-county-la.mydripnurse.com",
+            "countySitemap": "https://st-helena-parish-county-la.mydripnurse.com/sitemap.xml",
+            "embeddedSitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\n  <sitemap>\n    <loc>https://st-helena-parish-county-la.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://greensburg-city-la.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://montpelier-city-la.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n</sitemapindex>"
         },
         {
-            "County Name": "St. James Parish",
-            "Cities": [
-                "Convent",
-                "Gramercy",
-                "Lutcher",
-                "Paulina",
-                "Vacherie"
+            "countyName": "St. James Parish",
+            "cities": [
+                {
+                    "cityName": "Convent",
+                    "cityDomain": "https://convent-city-la.mydripnurse.com",
+                    "citySitemap": "https://convent-city-la.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Gramercy",
+                    "cityDomain": "https://gramercy-city-la.mydripnurse.com",
+                    "citySitemap": "https://gramercy-city-la.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Lutcher",
+                    "cityDomain": "https://lutcher-city-la.mydripnurse.com",
+                    "citySitemap": "https://lutcher-city-la.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Paulina",
+                    "cityDomain": "https://paulina-city-la.mydripnurse.com",
+                    "citySitemap": "https://paulina-city-la.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Vacherie",
+                    "cityDomain": "https://vacherie-city-la.mydripnurse.com",
+                    "citySitemap": "https://vacherie-city-la.mydripnurse.com/sitemap.xml"
+                }
             ],
             "Timezone": {
                 "Name": "Central",
                 "Zone": "US/Central",
                 "UTC_Offset": "-06:00"
-            }
+            },
+            "countyDomain": "https://st-james-parish-county-la.mydripnurse.com",
+            "countySitemap": "https://st-james-parish-county-la.mydripnurse.com/sitemap.xml",
+            "embeddedSitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\n  <sitemap>\n    <loc>https://st-james-parish-county-la.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://convent-city-la.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://gramercy-city-la.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://lutcher-city-la.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://paulina-city-la.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://vacherie-city-la.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n</sitemapindex>"
         },
         {
-            "County Name": "St. John the Baptist Parish",
-            "Cities": [
-                "Garyville",
-                "LaPlace",
-                "Reserve"
+            "countyName": "St. John the Baptist Parish",
+            "cities": [
+                {
+                    "cityName": "Garyville",
+                    "cityDomain": "https://garyville-city-la.mydripnurse.com",
+                    "citySitemap": "https://garyville-city-la.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "LaPlace",
+                    "cityDomain": "https://laplace-city-la.mydripnurse.com",
+                    "citySitemap": "https://laplace-city-la.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Reserve",
+                    "cityDomain": "https://reserve-city-la.mydripnurse.com",
+                    "citySitemap": "https://reserve-city-la.mydripnurse.com/sitemap.xml"
+                }
             ],
             "Timezone": {
                 "Name": "Central",
                 "Zone": "US/Central",
                 "UTC_Offset": "-06:00"
-            }
+            },
+            "countyDomain": "https://st-john-the-baptist-parish-county-la.mydripnurse.com",
+            "countySitemap": "https://st-john-the-baptist-parish-county-la.mydripnurse.com/sitemap.xml",
+            "embeddedSitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\n  <sitemap>\n    <loc>https://st-john-the-baptist-parish-county-la.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://garyville-city-la.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://laplace-city-la.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://reserve-city-la.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n</sitemapindex>"
         },
         {
-            "County Name": "St. Landry Parish",
-            "Cities": [
-                "Arnaudville",
-                "Cankton",
-                "Eunice",
-                "Grand Coteau",
-                "Krotz Springs",
-                "Leonville",
-                "Opelousas",
-                "Port Barre",
-                "Sunset",
-                "Washington"
+            "countyName": "St. Landry Parish",
+            "cities": [
+                {
+                    "cityName": "Arnaudville",
+                    "cityDomain": "https://arnaudville-city-la.mydripnurse.com",
+                    "citySitemap": "https://arnaudville-city-la.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Cankton",
+                    "cityDomain": "https://cankton-city-la.mydripnurse.com",
+                    "citySitemap": "https://cankton-city-la.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Eunice",
+                    "cityDomain": "https://eunice-city-la.mydripnurse.com",
+                    "citySitemap": "https://eunice-city-la.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Grand Coteau",
+                    "cityDomain": "https://grand-coteau-city-la.mydripnurse.com",
+                    "citySitemap": "https://grand-coteau-city-la.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Krotz Springs",
+                    "cityDomain": "https://krotz-springs-city-la.mydripnurse.com",
+                    "citySitemap": "https://krotz-springs-city-la.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Leonville",
+                    "cityDomain": "https://leonville-city-la.mydripnurse.com",
+                    "citySitemap": "https://leonville-city-la.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Opelousas",
+                    "cityDomain": "https://opelousas-city-la.mydripnurse.com",
+                    "citySitemap": "https://opelousas-city-la.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Port Barre",
+                    "cityDomain": "https://port-barre-city-la.mydripnurse.com",
+                    "citySitemap": "https://port-barre-city-la.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Sunset",
+                    "cityDomain": "https://sunset-city-la.mydripnurse.com",
+                    "citySitemap": "https://sunset-city-la.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Washington",
+                    "cityDomain": "https://washington-city-la.mydripnurse.com",
+                    "citySitemap": "https://washington-city-la.mydripnurse.com/sitemap.xml"
+                }
             ],
             "Timezone": {
                 "Name": "Central",
                 "Zone": "US/Central",
                 "UTC_Offset": "-06:00"
-            }
+            },
+            "countyDomain": "https://st-landry-parish-county-la.mydripnurse.com",
+            "countySitemap": "https://st-landry-parish-county-la.mydripnurse.com/sitemap.xml",
+            "embeddedSitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\n  <sitemap>\n    <loc>https://st-landry-parish-county-la.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://arnaudville-city-la.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://cankton-city-la.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://eunice-city-la.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://grand-coteau-city-la.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://krotz-springs-city-la.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://leonville-city-la.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://opelousas-city-la.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://port-barre-city-la.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://sunset-city-la.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://washington-city-la.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n</sitemapindex>"
         },
         {
-            "County Name": "St. Martin Parish",
-            "Cities": [
-                "Breaux Bridge",
-                "St. Martinville"
+            "countyName": "St. Martin Parish",
+            "cities": [
+                {
+                    "cityName": "Breaux Bridge",
+                    "cityDomain": "https://breaux-bridge-city-la.mydripnurse.com",
+                    "citySitemap": "https://breaux-bridge-city-la.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "St. Martinville",
+                    "cityDomain": "https://st-martinville-city-la.mydripnurse.com",
+                    "citySitemap": "https://st-martinville-city-la.mydripnurse.com/sitemap.xml"
+                }
             ],
             "Timezone": {
                 "Name": "Central",
                 "Zone": "US/Central",
                 "UTC_Offset": "-06:00"
-            }
+            },
+            "countyDomain": "https://st-martin-parish-county-la.mydripnurse.com",
+            "countySitemap": "https://st-martin-parish-county-la.mydripnurse.com/sitemap.xml",
+            "embeddedSitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\n  <sitemap>\n    <loc>https://st-martin-parish-county-la.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://breaux-bridge-city-la.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://st-martinville-city-la.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n</sitemapindex>"
         },
         {
-            "County Name": "St. Mary Parish",
-            "Cities": [
-                "Amelia",
-                "Baldwin",
-                "Berwick",
-                "Franklin",
-                "Morgan City",
-                "Patterson"
+            "countyName": "St. Mary Parish",
+            "cities": [
+                {
+                    "cityName": "Amelia",
+                    "cityDomain": "https://amelia-city-la.mydripnurse.com",
+                    "citySitemap": "https://amelia-city-la.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Baldwin",
+                    "cityDomain": "https://baldwin-city-la.mydripnurse.com",
+                    "citySitemap": "https://baldwin-city-la.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Berwick",
+                    "cityDomain": "https://berwick-city-la.mydripnurse.com",
+                    "citySitemap": "https://berwick-city-la.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Franklin",
+                    "cityDomain": "https://franklin-city-la.mydripnurse.com",
+                    "citySitemap": "https://franklin-city-la.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Morgan City",
+                    "cityDomain": "https://morgan-city-city-la.mydripnurse.com",
+                    "citySitemap": "https://morgan-city-city-la.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Patterson",
+                    "cityDomain": "https://patterson-city-la.mydripnurse.com",
+                    "citySitemap": "https://patterson-city-la.mydripnurse.com/sitemap.xml"
+                }
             ],
             "Timezone": {
                 "Name": "Central",
                 "Zone": "US/Central",
                 "UTC_Offset": "-06:00"
-            }
+            },
+            "countyDomain": "https://st-mary-parish-county-la.mydripnurse.com",
+            "countySitemap": "https://st-mary-parish-county-la.mydripnurse.com/sitemap.xml",
+            "embeddedSitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\n  <sitemap>\n    <loc>https://st-mary-parish-county-la.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://amelia-city-la.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://baldwin-city-la.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://berwick-city-la.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://franklin-city-la.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://morgan-city-city-la.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://patterson-city-la.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n</sitemapindex>"
         },
         {
-            "County Name": "St. Tammany Parish",
-            "Cities": [
-                "Abita Springs",
-                "Covington",
-                "Lacombe",
-                "Mandeville",
-                "Madisonville",
-                "Pearl River",
-                "Slidell"
+            "countyName": "St. Tammany Parish",
+            "cities": [
+                {
+                    "cityName": "Abita Springs",
+                    "cityDomain": "https://abita-springs-city-la.mydripnurse.com",
+                    "citySitemap": "https://abita-springs-city-la.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Covington",
+                    "cityDomain": "https://covington-city-la.mydripnurse.com",
+                    "citySitemap": "https://covington-city-la.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Lacombe",
+                    "cityDomain": "https://lacombe-city-la.mydripnurse.com",
+                    "citySitemap": "https://lacombe-city-la.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Mandeville",
+                    "cityDomain": "https://mandeville-city-la.mydripnurse.com",
+                    "citySitemap": "https://mandeville-city-la.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Madisonville",
+                    "cityDomain": "https://madisonville-city-la.mydripnurse.com",
+                    "citySitemap": "https://madisonville-city-la.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Pearl River",
+                    "cityDomain": "https://pearl-river-city-la.mydripnurse.com",
+                    "citySitemap": "https://pearl-river-city-la.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Slidell",
+                    "cityDomain": "https://slidell-city-la.mydripnurse.com",
+                    "citySitemap": "https://slidell-city-la.mydripnurse.com/sitemap.xml"
+                }
             ],
             "Timezone": {
                 "Name": "Central",
                 "Zone": "US/Central",
                 "UTC_Offset": "-06:00"
-            }
+            },
+            "countyDomain": "https://st-tammany-parish-county-la.mydripnurse.com",
+            "countySitemap": "https://st-tammany-parish-county-la.mydripnurse.com/sitemap.xml",
+            "embeddedSitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\n  <sitemap>\n    <loc>https://st-tammany-parish-county-la.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://abita-springs-city-la.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://covington-city-la.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://lacombe-city-la.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://mandeville-city-la.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://madisonville-city-la.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://pearl-river-city-la.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://slidell-city-la.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n</sitemapindex>"
         },
         {
-            "County Name": "Tangipahoa Parish",
-            "Cities": [
-                "Amite City",
-                "Hammond",
-                "Independence",
-                "Kentwood",
-                "Ponchatoula",
-                "Roseland"
+            "countyName": "Tangipahoa Parish",
+            "cities": [
+                {
+                    "cityName": "Amite City",
+                    "cityDomain": "https://amite-city-city-la.mydripnurse.com",
+                    "citySitemap": "https://amite-city-city-la.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Hammond",
+                    "cityDomain": "https://hammond-city-la.mydripnurse.com",
+                    "citySitemap": "https://hammond-city-la.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Independence",
+                    "cityDomain": "https://independence-city-la.mydripnurse.com",
+                    "citySitemap": "https://independence-city-la.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Kentwood",
+                    "cityDomain": "https://kentwood-city-la.mydripnurse.com",
+                    "citySitemap": "https://kentwood-city-la.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Ponchatoula",
+                    "cityDomain": "https://ponchatoula-city-la.mydripnurse.com",
+                    "citySitemap": "https://ponchatoula-city-la.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Roseland",
+                    "cityDomain": "https://roseland-city-la.mydripnurse.com",
+                    "citySitemap": "https://roseland-city-la.mydripnurse.com/sitemap.xml"
+                }
             ],
             "Timezone": {
                 "Name": "Central",
                 "Zone": "US/Central",
                 "UTC_Offset": "-06:00"
-            }
+            },
+            "countyDomain": "https://tangipahoa-parish-county-la.mydripnurse.com",
+            "countySitemap": "https://tangipahoa-parish-county-la.mydripnurse.com/sitemap.xml",
+            "embeddedSitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\n  <sitemap>\n    <loc>https://tangipahoa-parish-county-la.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://amite-city-city-la.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://hammond-city-la.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://independence-city-la.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://kentwood-city-la.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://ponchatoula-city-la.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://roseland-city-la.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n</sitemapindex>"
         },
         {
-            "County Name": "Tensas Parish",
-            "Cities": [
-                "Newellton",
-                "St. Joseph"
+            "countyName": "Tensas Parish",
+            "cities": [
+                {
+                    "cityName": "Newellton",
+                    "cityDomain": "https://newellton-city-la.mydripnurse.com",
+                    "citySitemap": "https://newellton-city-la.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "St. Joseph",
+                    "cityDomain": "https://st-joseph-city-la.mydripnurse.com",
+                    "citySitemap": "https://st-joseph-city-la.mydripnurse.com/sitemap.xml"
+                }
             ],
             "Timezone": {
                 "Name": "Central",
                 "Zone": "US/Central",
                 "UTC_Offset": "-06:00"
-            }
+            },
+            "countyDomain": "https://tensas-parish-county-la.mydripnurse.com",
+            "countySitemap": "https://tensas-parish-county-la.mydripnurse.com/sitemap.xml",
+            "embeddedSitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\n  <sitemap>\n    <loc>https://tensas-parish-county-la.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://newellton-city-la.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://st-joseph-city-la.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n</sitemapindex>"
         },
         {
-            "County Name": "Terrebonne Parish",
-            "Cities": [
-                "Dulac",
-                "Gray",
-                "Houma",
-                "Montegut",
-                "Schriever"
+            "countyName": "Terrebonne Parish",
+            "cities": [
+                {
+                    "cityName": "Dulac",
+                    "cityDomain": "https://dulac-city-la.mydripnurse.com",
+                    "citySitemap": "https://dulac-city-la.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Gray",
+                    "cityDomain": "https://gray-city-la.mydripnurse.com",
+                    "citySitemap": "https://gray-city-la.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Houma",
+                    "cityDomain": "https://houma-city-la.mydripnurse.com",
+                    "citySitemap": "https://houma-city-la.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Montegut",
+                    "cityDomain": "https://montegut-city-la.mydripnurse.com",
+                    "citySitemap": "https://montegut-city-la.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Schriever",
+                    "cityDomain": "https://schriever-city-la.mydripnurse.com",
+                    "citySitemap": "https://schriever-city-la.mydripnurse.com/sitemap.xml"
+                }
             ],
             "Timezone": {
                 "Name": "Central",
                 "Zone": "US/Central",
                 "UTC_Offset": "-06:00"
-            }
+            },
+            "countyDomain": "https://terrebonne-parish-county-la.mydripnurse.com",
+            "countySitemap": "https://terrebonne-parish-county-la.mydripnurse.com/sitemap.xml",
+            "embeddedSitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\n  <sitemap>\n    <loc>https://terrebonne-parish-county-la.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://dulac-city-la.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://gray-city-la.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://houma-city-la.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://montegut-city-la.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://schriever-city-la.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n</sitemapindex>"
         },
         {
-            "County Name": "Union Parish",
-            "Cities": [
-                "Bernice",
-                "Farmerville",
-                "Marion"
+            "countyName": "Union Parish",
+            "cities": [
+                {
+                    "cityName": "Bernice",
+                    "cityDomain": "https://bernice-city-la.mydripnurse.com",
+                    "citySitemap": "https://bernice-city-la.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Farmerville",
+                    "cityDomain": "https://farmerville-city-la.mydripnurse.com",
+                    "citySitemap": "https://farmerville-city-la.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Marion",
+                    "cityDomain": "https://marion-city-la.mydripnurse.com",
+                    "citySitemap": "https://marion-city-la.mydripnurse.com/sitemap.xml"
+                }
             ],
             "Timezone": {
                 "Name": "Central",
                 "Zone": "US/Central",
                 "UTC_Offset": "-06:00"
-            }
+            },
+            "countyDomain": "https://union-parish-county-la.mydripnurse.com",
+            "countySitemap": "https://union-parish-county-la.mydripnurse.com/sitemap.xml",
+            "embeddedSitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\n  <sitemap>\n    <loc>https://union-parish-county-la.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://bernice-city-la.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://farmerville-city-la.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://marion-city-la.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n</sitemapindex>"
         },
         {
-            "County Name": "Vermilion Parish",
-            "Cities": [
-                "Abbeville",
-                "Delcambre",
-                "Erath",
-                "Gueydan",
-                "Kaplan",
-                "Maurice"
+            "countyName": "Vermilion Parish",
+            "cities": [
+                {
+                    "cityName": "Abbeville",
+                    "cityDomain": "https://abbeville-city-la.mydripnurse.com",
+                    "citySitemap": "https://abbeville-city-la.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Delcambre",
+                    "cityDomain": "https://delcambre-city-la.mydripnurse.com",
+                    "citySitemap": "https://delcambre-city-la.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Erath",
+                    "cityDomain": "https://erath-city-la.mydripnurse.com",
+                    "citySitemap": "https://erath-city-la.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Gueydan",
+                    "cityDomain": "https://gueydan-city-la.mydripnurse.com",
+                    "citySitemap": "https://gueydan-city-la.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Kaplan",
+                    "cityDomain": "https://kaplan-city-la.mydripnurse.com",
+                    "citySitemap": "https://kaplan-city-la.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Maurice",
+                    "cityDomain": "https://maurice-city-la.mydripnurse.com",
+                    "citySitemap": "https://maurice-city-la.mydripnurse.com/sitemap.xml"
+                }
             ],
             "Timezone": {
                 "Name": "Central",
                 "Zone": "US/Central",
                 "UTC_Offset": "-06:00"
-            }
+            },
+            "countyDomain": "https://vermilion-parish-county-la.mydripnurse.com",
+            "countySitemap": "https://vermilion-parish-county-la.mydripnurse.com/sitemap.xml",
+            "embeddedSitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\n  <sitemap>\n    <loc>https://vermilion-parish-county-la.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://abbeville-city-la.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://delcambre-city-la.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://erath-city-la.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://gueydan-city-la.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://kaplan-city-la.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://maurice-city-la.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n</sitemapindex>"
         },
         {
-            "County Name": "Vernon Parish",
-            "Cities": [
-                "Anacoco",
-                "Hornbeck",
-                "Leesville",
-                "New Llano",
-                "Rosepine"
+            "countyName": "Vernon Parish",
+            "cities": [
+                {
+                    "cityName": "Anacoco",
+                    "cityDomain": "https://anacoco-city-la.mydripnurse.com",
+                    "citySitemap": "https://anacoco-city-la.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Hornbeck",
+                    "cityDomain": "https://hornbeck-city-la.mydripnurse.com",
+                    "citySitemap": "https://hornbeck-city-la.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Leesville",
+                    "cityDomain": "https://leesville-city-la.mydripnurse.com",
+                    "citySitemap": "https://leesville-city-la.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "New Llano",
+                    "cityDomain": "https://new-llano-city-la.mydripnurse.com",
+                    "citySitemap": "https://new-llano-city-la.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Rosepine",
+                    "cityDomain": "https://rosepine-city-la.mydripnurse.com",
+                    "citySitemap": "https://rosepine-city-la.mydripnurse.com/sitemap.xml"
+                }
             ],
             "Timezone": {
                 "Name": "Central",
                 "Zone": "US/Central",
                 "UTC_Offset": "-06:00"
-            }
+            },
+            "countyDomain": "https://vernon-parish-county-la.mydripnurse.com",
+            "countySitemap": "https://vernon-parish-county-la.mydripnurse.com/sitemap.xml",
+            "embeddedSitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\n  <sitemap>\n    <loc>https://vernon-parish-county-la.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://anacoco-city-la.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://hornbeck-city-la.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://leesville-city-la.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://new-llano-city-la.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://rosepine-city-la.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n</sitemapindex>"
         },
         {
-            "County Name": "Washington Parish",
-            "Cities": [
-                "Bogalusa",
-                "Franklinton"
+            "countyName": "Washington Parish",
+            "cities": [
+                {
+                    "cityName": "Bogalusa",
+                    "cityDomain": "https://bogalusa-city-la.mydripnurse.com",
+                    "citySitemap": "https://bogalusa-city-la.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Franklinton",
+                    "cityDomain": "https://franklinton-city-la.mydripnurse.com",
+                    "citySitemap": "https://franklinton-city-la.mydripnurse.com/sitemap.xml"
+                }
             ],
             "Timezone": {
                 "Name": "Central",
                 "Zone": "US/Central",
                 "UTC_Offset": "-06:00"
-            }
+            },
+            "countyDomain": "https://washington-parish-county-la.mydripnurse.com",
+            "countySitemap": "https://washington-parish-county-la.mydripnurse.com/sitemap.xml",
+            "embeddedSitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\n  <sitemap>\n    <loc>https://washington-parish-county-la.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://bogalusa-city-la.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://franklinton-city-la.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n</sitemapindex>"
         },
         {
-            "County Name": "Webster Parish",
-            "Cities": [
-                "Cotton Valley",
-                "Cullen",
-                "Doyline",
-                "Gibsland",
-                "Minden",
-                "Sibley",
-                "Springhill"
+            "countyName": "Webster Parish",
+            "cities": [
+                {
+                    "cityName": "Cotton Valley",
+                    "cityDomain": "https://cotton-valley-city-la.mydripnurse.com",
+                    "citySitemap": "https://cotton-valley-city-la.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Cullen",
+                    "cityDomain": "https://cullen-city-la.mydripnurse.com",
+                    "citySitemap": "https://cullen-city-la.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Doyline",
+                    "cityDomain": "https://doyline-city-la.mydripnurse.com",
+                    "citySitemap": "https://doyline-city-la.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Gibsland",
+                    "cityDomain": "https://gibsland-city-la.mydripnurse.com",
+                    "citySitemap": "https://gibsland-city-la.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Minden",
+                    "cityDomain": "https://minden-city-la.mydripnurse.com",
+                    "citySitemap": "https://minden-city-la.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Sibley",
+                    "cityDomain": "https://sibley-city-la.mydripnurse.com",
+                    "citySitemap": "https://sibley-city-la.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Springhill",
+                    "cityDomain": "https://springhill-city-la.mydripnurse.com",
+                    "citySitemap": "https://springhill-city-la.mydripnurse.com/sitemap.xml"
+                }
             ],
             "Timezone": {
                 "Name": "Central",
                 "Zone": "US/Central",
                 "UTC_Offset": "-06:00"
-            }
+            },
+            "countyDomain": "https://webster-parish-county-la.mydripnurse.com",
+            "countySitemap": "https://webster-parish-county-la.mydripnurse.com/sitemap.xml",
+            "embeddedSitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\n  <sitemap>\n    <loc>https://webster-parish-county-la.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://cotton-valley-city-la.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://cullen-city-la.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://doyline-city-la.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://gibsland-city-la.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://minden-city-la.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://sibley-city-la.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://springhill-city-la.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n</sitemapindex>"
         },
         {
-            "County Name": "West Baton Rouge Parish",
-            "Cities": [
-                "Addis",
-                "Brusly",
-                "Port Allen"
+            "countyName": "West Baton Rouge Parish",
+            "cities": [
+                {
+                    "cityName": "Addis",
+                    "cityDomain": "https://addis-city-la.mydripnurse.com",
+                    "citySitemap": "https://addis-city-la.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Brusly",
+                    "cityDomain": "https://brusly-city-la.mydripnurse.com",
+                    "citySitemap": "https://brusly-city-la.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Port Allen",
+                    "cityDomain": "https://port-allen-city-la.mydripnurse.com",
+                    "citySitemap": "https://port-allen-city-la.mydripnurse.com/sitemap.xml"
+                }
             ],
             "Timezone": {
                 "Name": "Central",
                 "Zone": "US/Central",
                 "UTC_Offset": "-06:00"
-            }
+            },
+            "countyDomain": "https://west-baton-rouge-parish-county-la.mydripnurse.com",
+            "countySitemap": "https://west-baton-rouge-parish-county-la.mydripnurse.com/sitemap.xml",
+            "embeddedSitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\n  <sitemap>\n    <loc>https://west-baton-rouge-parish-county-la.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://addis-city-la.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://brusly-city-la.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://port-allen-city-la.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n</sitemapindex>"
         },
         {
-            "County Name": "West Carroll Parish",
-            "Cities": [
-                "Oak Grove"
+            "countyName": "West Carroll Parish",
+            "cities": [
+                {
+                    "cityName": "Oak Grove",
+                    "cityDomain": "https://oak-grove-city-la.mydripnurse.com",
+                    "citySitemap": "https://oak-grove-city-la.mydripnurse.com/sitemap.xml"
+                }
             ],
             "Timezone": {
                 "Name": "Central",
                 "Zone": "US/Central",
                 "UTC_Offset": "-06:00"
-            }
+            },
+            "countyDomain": "https://west-carroll-parish-county-la.mydripnurse.com",
+            "countySitemap": "https://west-carroll-parish-county-la.mydripnurse.com/sitemap.xml",
+            "embeddedSitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\n  <sitemap>\n    <loc>https://west-carroll-parish-county-la.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://oak-grove-city-la.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n</sitemapindex>"
         },
         {
-            "County Name": "West Feliciana Parish",
-            "Cities": [
-                "St. Francisville"
+            "countyName": "West Feliciana Parish",
+            "cities": [
+                {
+                    "cityName": "St. Francisville",
+                    "cityDomain": "https://st-francisville-city-la.mydripnurse.com",
+                    "citySitemap": "https://st-francisville-city-la.mydripnurse.com/sitemap.xml"
+                }
             ],
             "Timezone": {
                 "Name": "Central",
                 "Zone": "US/Central",
                 "UTC_Offset": "-06:00"
-            }
+            },
+            "countyDomain": "https://west-feliciana-parish-county-la.mydripnurse.com",
+            "countySitemap": "https://west-feliciana-parish-county-la.mydripnurse.com/sitemap.xml",
+            "embeddedSitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\n  <sitemap>\n    <loc>https://west-feliciana-parish-county-la.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://st-francisville-city-la.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n</sitemapindex>"
         },
         {
-            "County Name": "Winn Parish",
-            "Cities": [
-                "Dodson",
-                "Winnfield"
+            "countyName": "Winn Parish",
+            "cities": [
+                {
+                    "cityName": "Dodson",
+                    "cityDomain": "https://dodson-city-la.mydripnurse.com",
+                    "citySitemap": "https://dodson-city-la.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Winnfield",
+                    "cityDomain": "https://winnfield-city-la.mydripnurse.com",
+                    "citySitemap": "https://winnfield-city-la.mydripnurse.com/sitemap.xml"
+                }
             ],
             "Timezone": {
                 "Name": "Central",
                 "Zone": "US/Central",
                 "UTC_Offset": "-06:00"
-            }
+            },
+            "countyDomain": "https://winn-parish-county-la.mydripnurse.com",
+            "countySitemap": "https://winn-parish-county-la.mydripnurse.com/sitemap.xml",
+            "embeddedSitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\n  <sitemap>\n    <loc>https://winn-parish-county-la.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://dodson-city-la.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://winnfield-city-la.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n</sitemapindex>"
         }
     ],
     "website": "https://www.mydripnurse.com",

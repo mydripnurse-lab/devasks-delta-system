@@ -1,8 +1,8 @@
 {
-    "Counties": [
+    "counties": [
         {
-            "County Name": "Adams",
-            "Cities": [
+            "countyName": "Adams",
+            "cities": [
                 "Cloverdale",
                 "Morgantown",
                 "Natchez"
@@ -14,8 +14,8 @@
             }
         },
         {
-            "County Name": "Alcorn",
-            "Cities": [
+            "countyName": "Alcorn",
+            "cities": [
                 "Corinth",
                 "Farmington",
                 "Glen",
@@ -29,8 +29,8 @@
             }
         },
         {
-            "County Name": "Amite",
-            "Cities": [
+            "countyName": "Amite",
+            "cities": [
                 "Crosby",
                 "Gloster",
                 "Liberty"
@@ -42,8 +42,8 @@
             }
         },
         {
-            "County Name": "Attala",
-            "Cities": [
+            "countyName": "Attala",
+            "cities": [
                 "Ethel",
                 "Kosciusko",
                 "McCool",
@@ -56,8 +56,8 @@
             }
         },
         {
-            "County Name": "Benton",
-            "Cities": [
+            "countyName": "Benton",
+            "cities": [
                 "Ashland",
                 "Hickory Flat",
                 "Snow Lake Shores"
@@ -69,8 +69,8 @@
             }
         },
         {
-            "County Name": "Bolivar",
-            "Cities": [
+            "countyName": "Bolivar",
+            "cities": [
                 "Alligator",
                 "Benoit",
                 "Beulah",
@@ -94,8 +94,8 @@
             }
         },
         {
-            "County Name": "Calhoun",
-            "Cities": [
+            "countyName": "Calhoun",
+            "cities": [
                 "Big Creek",
                 "Bruce",
                 "Calhoun City",
@@ -111,8 +111,8 @@
             }
         },
         {
-            "County Name": "Carroll",
-            "Cities": [
+            "countyName": "Carroll",
+            "cities": [
                 "Carrollton",
                 "North Carrollton",
                 "Vaiden"
@@ -124,8 +124,8 @@
             }
         },
         {
-            "County Name": "Chickasaw",
-            "Cities": [
+            "countyName": "Chickasaw",
+            "cities": [
                 "Houston",
                 "New Houlka",
                 "Okolona",
@@ -138,8 +138,8 @@
             }
         },
         {
-            "County Name": "Choctaw",
-            "Cities": [
+            "countyName": "Choctaw",
+            "cities": [
                 "Ackerman",
                 "French Camp",
                 "Weir"
@@ -151,8 +151,8 @@
             }
         },
         {
-            "County Name": "Claiborne",
-            "Cities": [
+            "countyName": "Claiborne",
+            "cities": [
                 "Alcorn State University",
                 "Port Gibson"
             ],
@@ -163,8 +163,8 @@
             }
         },
         {
-            "County Name": "Clarke",
-            "Cities": [
+            "countyName": "Clarke",
+            "cities": [
                 "Enterprise",
                 "Pachuta",
                 "Quitman",
@@ -178,8 +178,8 @@
             }
         },
         {
-            "County Name": "Clay",
-            "Cities": [
+            "countyName": "Clay",
+            "cities": [
                 "West Point"
             ],
             "Timezone": {
@@ -189,8 +189,8 @@
             }
         },
         {
-            "County Name": "Coahoma",
-            "Cities": [
+            "countyName": "Coahoma",
+            "cities": [
                 "Clarksdale",
                 "Coahoma",
                 "Farrell",
@@ -206,8 +206,8 @@
             }
         },
         {
-            "County Name": "Copiah",
-            "Cities": [
+            "countyName": "Copiah",
+            "cities": [
                 "Beauregard",
                 "Crystal Springs",
                 "Georgetown",
@@ -221,8 +221,8 @@
             }
         },
         {
-            "County Name": "Covington",
-            "Cities": [
+            "countyName": "Covington",
+            "cities": [
                 "Collins",
                 "Mount Olive",
                 "Seminary"
@@ -234,8 +234,8 @@
             }
         },
         {
-            "County Name": "DeSoto",
-            "Cities": [
+            "countyName": "DeSoto",
+            "cities": [
                 "Bridgetown",
                 "Hernando",
                 "Horn Lake",
@@ -251,8 +251,8 @@
             }
         },
         {
-            "County Name": "Forrest",
-            "Cities": [
+            "countyName": "Forrest",
+            "cities": [
                 "Glendale",
                 "Hattiesburg",
                 "Petal",
@@ -265,8 +265,8 @@
             }
         },
         {
-            "County Name": "Franklin",
-            "Cities": [
+            "countyName": "Franklin",
+            "cities": [
                 "Bude",
                 "Meadville",
                 "Roxie"
@@ -278,8 +278,8 @@
             }
         },
         {
-            "County Name": "George",
-            "Cities": [
+            "countyName": "George",
+            "cities": [
                 "Lucedale"
             ],
             "Timezone": {
@@ -289,8 +289,8 @@
             }
         },
         {
-            "County Name": "Greene",
-            "Cities": [
+            "countyName": "Greene",
+            "cities": [
                 "Leakesville",
                 "McLain",
                 "State Line"
@@ -302,8 +302,8 @@
             }
         },
         {
-            "County Name": "Grenada",
-            "Cities": [
+            "countyName": "Grenada",
+            "cities": [
                 "Elliott",
                 "Grenada",
                 "Holcomb"
@@ -315,8 +315,8 @@
             }
         },
         {
-            "County Name": "Hancock",
-            "Cities": [
+            "countyName": "Hancock",
+            "cities": [
                 "Bay St. Louis",
                 "Diamondhead",
                 "Kiln",
@@ -330,8 +330,8 @@
             }
         },
         {
-            "County Name": "Harrison",
-            "Cities": [
+            "countyName": "Harrison",
+            "cities": [
                 "Biloxi",
                 "D'Iberville",
                 "DeLisle",
@@ -349,8 +349,8 @@
             }
         },
         {
-            "County Name": "Hinds",
-            "Cities": [
+            "countyName": "Hinds",
+            "cities": [
                 "Bolton",
                 "Byram",
                 "Clinton",
@@ -368,8 +368,8 @@
             }
         },
         {
-            "County Name": "Holmes",
-            "Cities": [
+            "countyName": "Holmes",
+            "cities": [
                 "Cruger",
                 "Durant",
                 "Goodman",
@@ -385,8 +385,8 @@
             }
         },
         {
-            "County Name": "Humphreys",
-            "Cities": [
+            "countyName": "Humphreys",
+            "cities": [
                 "Belzoni",
                 "Isola",
                 "Louise",
@@ -399,8 +399,8 @@
             }
         },
         {
-            "County Name": "Issaquena",
-            "Cities": [
+            "countyName": "Issaquena",
+            "cities": [
                 "Mayersville"
             ],
             "Timezone": {
@@ -410,8 +410,8 @@
             }
         },
         {
-            "County Name": "Itawamba",
-            "Cities": [
+            "countyName": "Itawamba",
+            "cities": [
                 "Fulton",
                 "Mantachie",
                 "Tremont"
@@ -423,8 +423,8 @@
             }
         },
         {
-            "County Name": "Jackson",
-            "Cities": [
+            "countyName": "Jackson",
+            "cities": [
                 "Big Point",
                 "Escatawpa",
                 "Gautier",
@@ -447,8 +447,8 @@
             }
         },
         {
-            "County Name": "Jasper",
-            "Cities": [
+            "countyName": "Jasper",
+            "cities": [
                 "Bay Springs",
                 "Heidelberg",
                 "Louin",
@@ -461,8 +461,8 @@
             }
         },
         {
-            "County Name": "Jefferson",
-            "Cities": [
+            "countyName": "Jefferson",
+            "cities": [
                 "Fayette"
             ],
             "Timezone": {
@@ -472,8 +472,8 @@
             }
         },
         {
-            "County Name": "Jefferson Davis",
-            "Cities": [
+            "countyName": "Jefferson Davis",
+            "cities": [
                 "Bassfield",
                 "Prentiss"
             ],
@@ -484,8 +484,8 @@
             }
         },
         {
-            "County Name": "Jones",
-            "Cities": [
+            "countyName": "Jones",
+            "cities": [
                 "Ellisville",
                 "Laurel",
                 "Sandersville",
@@ -499,8 +499,8 @@
             }
         },
         {
-            "County Name": "Kemper",
-            "Cities": [
+            "countyName": "Kemper",
+            "cities": [
                 "De Kalb",
                 "Scooba"
             ],
@@ -511,8 +511,8 @@
             }
         },
         {
-            "County Name": "Lafayette",
-            "Cities": [
+            "countyName": "Lafayette",
+            "cities": [
                 "Abbeville",
                 "Oxford",
                 "Taylor",
@@ -525,8 +525,8 @@
             }
         },
         {
-            "County Name": "Lamar",
-            "Cities": [
+            "countyName": "Lamar",
+            "cities": [
                 "Arnold Line",
                 "Lumberton",
                 "Purvis",
@@ -540,8 +540,8 @@
             }
         },
         {
-            "County Name": "Lauderdale",
-            "Cities": [
+            "countyName": "Lauderdale",
+            "cities": [
                 "Collinsville",
                 "Lauderdale",
                 "Marion",
@@ -557,8 +557,8 @@
             }
         },
         {
-            "County Name": "Lawrence",
-            "Cities": [
+            "countyName": "Lawrence",
+            "cities": [
                 "Monticello",
                 "New Hebron",
                 "Silver Creek"
@@ -570,8 +570,8 @@
             }
         },
         {
-            "County Name": "Leake",
-            "Cities": [
+            "countyName": "Leake",
+            "cities": [
                 "Carthage",
                 "Lena",
                 "Redwater",
@@ -585,8 +585,8 @@
             }
         },
         {
-            "County Name": "Lee",
-            "Cities": [
+            "countyName": "Lee",
+            "cities": [
                 "Baldwyn",
                 "Guntown",
                 "Mooreville",
@@ -604,8 +604,8 @@
             }
         },
         {
-            "County Name": "Leflore",
-            "Cities": [
+            "countyName": "Leflore",
+            "cities": [
                 "Greenwood",
                 "Itta Bena",
                 "Mississippi Valley State University",
@@ -620,8 +620,8 @@
             }
         },
         {
-            "County Name": "Lincoln",
-            "Cities": [
+            "countyName": "Lincoln",
+            "cities": [
                 "Brookhaven"
             ],
             "Timezone": {
@@ -631,8 +631,8 @@
             }
         },
         {
-            "County Name": "Lowndes",
-            "Cities": [
+            "countyName": "Lowndes",
+            "cities": [
                 "Artesia",
                 "Caledonia",
                 "Columbus",
@@ -647,8 +647,8 @@
             }
         },
         {
-            "County Name": "Madison",
-            "Cities": [
+            "countyName": "Madison",
+            "cities": [
                 "Canton",
                 "Flora",
                 "Kearney Park",
@@ -662,8 +662,8 @@
             }
         },
         {
-            "County Name": "Marion",
-            "Cities": [
+            "countyName": "Marion",
+            "cities": [
                 "Columbia",
                 "Foxworth"
             ],
@@ -674,8 +674,8 @@
             }
         },
         {
-            "County Name": "Marshall",
-            "Cities": [
+            "countyName": "Marshall",
+            "cities": [
                 "Byhalia",
                 "Holly Springs",
                 "Potts Camp"
@@ -687,8 +687,8 @@
             }
         },
         {
-            "County Name": "Monroe",
-            "Cities": [
+            "countyName": "Monroe",
+            "cities": [
                 "Aberdeen",
                 "Amory",
                 "Gattman",
@@ -704,8 +704,8 @@
             }
         },
         {
-            "County Name": "Montgomery",
-            "Cities": [
+            "countyName": "Montgomery",
+            "cities": [
                 "Duck Hill",
                 "Kilmichael",
                 "Winona"
@@ -717,8 +717,8 @@
             }
         },
         {
-            "County Name": "Neshoba",
-            "Cities": [
+            "countyName": "Neshoba",
+            "cities": [
                 "Bogue Chitto",
                 "Pearl River",
                 "Philadelphia",
@@ -731,8 +731,8 @@
             }
         },
         {
-            "County Name": "Newton",
-            "Cities": [
+            "countyName": "Newton",
+            "cities": [
                 "Chunky",
                 "Conehatta",
                 "Decatur",
@@ -747,8 +747,8 @@
             }
         },
         {
-            "County Name": "Noxubee",
-            "Cities": [
+            "countyName": "Noxubee",
+            "cities": [
                 "Brooksville",
                 "Macon",
                 "Shuqualak"
@@ -760,8 +760,8 @@
             }
         },
         {
-            "County Name": "Oktibbeha",
-            "Cities": [
+            "countyName": "Oktibbeha",
+            "cities": [
                 "Maben",
                 "Mississippi State",
                 "Starkville",
@@ -774,8 +774,8 @@
             }
         },
         {
-            "County Name": "Panola",
-            "Cities": [
+            "countyName": "Panola",
+            "cities": [
                 "Batesville",
                 "Como",
                 "Courtland",
@@ -789,8 +789,8 @@
             }
         },
         {
-            "County Name": "Pearl River",
-            "Cities": [
+            "countyName": "Pearl River",
+            "cities": [
                 "Hide-A-Way Lake",
                 "Nicholson",
                 "Picayune",
@@ -803,8 +803,8 @@
             }
         },
         {
-            "County Name": "Perry",
-            "Cities": [
+            "countyName": "Perry",
+            "cities": [
                 "Beaumont",
                 "New Augusta",
                 "Richton"
@@ -816,8 +816,8 @@
             }
         },
         {
-            "County Name": "Pike",
-            "Cities": [
+            "countyName": "Pike",
+            "cities": [
                 "Magnolia",
                 "McComb",
                 "Osyka",
@@ -830,8 +830,8 @@
             }
         },
         {
-            "County Name": "Pontotoc",
-            "Cities": [
+            "countyName": "Pontotoc",
+            "cities": [
                 "Algoma",
                 "Ecru",
                 "Pontotoc",
@@ -846,8 +846,8 @@
             }
         },
         {
-            "County Name": "Prentiss",
-            "Cities": [
+            "countyName": "Prentiss",
+            "cities": [
                 "Booneville",
                 "Jumpertown",
                 "Marietta"
@@ -859,8 +859,8 @@
             }
         },
         {
-            "County Name": "Quitman",
-            "Cities": [
+            "countyName": "Quitman",
+            "cities": [
                 "Crenshaw",
                 "Crowder",
                 "Darling",
@@ -876,8 +876,8 @@
             }
         },
         {
-            "County Name": "Rankin",
-            "Cities": [
+            "countyName": "Rankin",
+            "cities": [
                 "Brandon",
                 "Cleary",
                 "Florence",
@@ -895,8 +895,8 @@
             }
         },
         {
-            "County Name": "Scott",
-            "Cities": [
+            "countyName": "Scott",
+            "cities": [
                 "Forest",
                 "Hillsboro",
                 "Lake",
@@ -910,8 +910,8 @@
             }
         },
         {
-            "County Name": "Sharkey",
-            "Cities": [
+            "countyName": "Sharkey",
+            "cities": [
                 "Anguilla",
                 "Cary",
                 "Rolling Fork"
@@ -923,8 +923,8 @@
             }
         },
         {
-            "County Name": "Simpson",
-            "Cities": [
+            "countyName": "Simpson",
+            "cities": [
                 "Braxton",
                 "D'Lo",
                 "Magee",
@@ -937,8 +937,8 @@
             }
         },
         {
-            "County Name": "Smith",
-            "Cities": [
+            "countyName": "Smith",
+            "cities": [
                 "Mize",
                 "Polkville",
                 "Raleigh",
@@ -952,8 +952,8 @@
             }
         },
         {
-            "County Name": "Stone",
-            "Cities": [
+            "countyName": "Stone",
+            "cities": [
                 "Wiggins"
             ],
             "Timezone": {
@@ -963,8 +963,8 @@
             }
         },
         {
-            "County Name": "Sunflower",
-            "Cities": [
+            "countyName": "Sunflower",
+            "cities": [
                 "Doddsville",
                 "Drew",
                 "Indianola",
@@ -980,8 +980,8 @@
             }
         },
         {
-            "County Name": "Tallahatchie",
-            "Cities": [
+            "countyName": "Tallahatchie",
+            "cities": [
                 "Charleston",
                 "Glendora",
                 "Sumner",
@@ -995,8 +995,8 @@
             }
         },
         {
-            "County Name": "Tate",
-            "Cities": [
+            "countyName": "Tate",
+            "cities": [
                 "Coldwater",
                 "Senatobia"
             ],
@@ -1007,8 +1007,8 @@
             }
         },
         {
-            "County Name": "Tippah",
-            "Cities": [
+            "countyName": "Tippah",
+            "cities": [
                 "Blue Mountain",
                 "Dumas",
                 "Falkner",
@@ -1022,8 +1022,8 @@
             }
         },
         {
-            "County Name": "Tishomingo",
-            "Cities": [
+            "countyName": "Tishomingo",
+            "cities": [
                 "Belmont",
                 "Burnsville",
                 "Golden",
@@ -1038,8 +1038,8 @@
             }
         },
         {
-            "County Name": "Tunica",
-            "Cities": [
+            "countyName": "Tunica",
+            "cities": [
                 "North Tunica",
                 "Tunica",
                 "Tunica Resorts",
@@ -1052,8 +1052,8 @@
             }
         },
         {
-            "County Name": "Union",
-            "Cities": [
+            "countyName": "Union",
+            "cities": [
                 "Blue Springs",
                 "Myrtle",
                 "New Albany"
@@ -1065,8 +1065,8 @@
             }
         },
         {
-            "County Name": "Walthall",
-            "Cities": [
+            "countyName": "Walthall",
+            "cities": [
                 "Tylertown"
             ],
             "Timezone": {
@@ -1076,8 +1076,8 @@
             }
         },
         {
-            "County Name": "Warren",
-            "Cities": [
+            "countyName": "Warren",
+            "cities": [
                 "Beechwood",
                 "Vicksburg"
             ],
@@ -1088,8 +1088,8 @@
             }
         },
         {
-            "County Name": "Washington",
-            "Cities": [
+            "countyName": "Washington",
+            "cities": [
                 "Arcola",
                 "Greenville",
                 "Hollandale",
@@ -1103,8 +1103,8 @@
             }
         },
         {
-            "County Name": "Wayne",
-            "Cities": [
+            "countyName": "Wayne",
+            "cities": [
                 "Buckatunna",
                 "Clara",
                 "Waynesboro"
@@ -1116,8 +1116,8 @@
             }
         },
         {
-            "County Name": "Webster",
-            "Cities": [
+            "countyName": "Webster",
+            "cities": [
                 "Eupora",
                 "Mantee",
                 "Mathiston",
@@ -1130,8 +1130,8 @@
             }
         },
         {
-            "County Name": "Wilkinson",
-            "Cities": [
+            "countyName": "Wilkinson",
+            "cities": [
                 "Centreville",
                 "Woodville"
             ],
@@ -1142,8 +1142,8 @@
             }
         },
         {
-            "County Name": "Winston",
-            "Cities": [
+            "countyName": "Winston",
+            "cities": [
                 "Louisville",
                 "Noxapater"
             ],
@@ -1154,8 +1154,8 @@
             }
         },
         {
-            "County Name": "Yalobusha",
-            "Cities": [
+            "countyName": "Yalobusha",
+            "cities": [
                 "Coffeeville",
                 "Oakland",
                 "Tillatoba",
@@ -1168,8 +1168,8 @@
             }
         },
         {
-            "County Name": "Yazoo",
-            "Cities": [
+            "countyName": "Yazoo",
+            "cities": [
                 "Bentonia",
                 "Eden",
                 "Satartia",

@@ -1,8 +1,8 @@
 {
-    "Counties": [
+    "counties": [
         {
-            "County Name": "Aitkin",
-            "Cities": [
+            "countyName": "Aitkin",
+            "cities": [
                 "Aitkin",
                 "Hill City",
                 "Jacobson",
@@ -20,8 +20,8 @@
             }
         },
         {
-            "County Name": "Anoka",
-            "Cities": [
+            "countyName": "Anoka",
+            "cities": [
                 "Andover",
                 "Anoka",
                 "Bertha",
@@ -51,8 +51,8 @@
             }
         },
         {
-            "County Name": "Becker",
-            "Cities": [
+            "countyName": "Becker",
+            "cities": [
                 "Audubon",
                 "Callaway",
                 "Detroit Lakes",
@@ -73,8 +73,8 @@
             }
         },
         {
-            "County Name": "Beltrami",
-            "Cities": [
+            "countyName": "Beltrami",
+            "cities": [
                 "Bemidji",
                 "Blackduck",
                 "Funkley",
@@ -101,8 +101,8 @@
             }
         },
         {
-            "County Name": "Benton",
-            "Cities": [
+            "countyName": "Benton",
+            "cities": [
                 "Foley",
                 "Gilman",
                 "Oak Park",
@@ -117,8 +117,8 @@
             }
         },
         {
-            "County Name": "Big Stone",
-            "Cities": [
+            "countyName": "Big Stone",
+            "cities": [
                 "Barry",
                 "Beardsley",
                 "Clinton",
@@ -135,8 +135,8 @@
             }
         },
         {
-            "County Name": "Blue Earth",
-            "Cities": [
+            "countyName": "Blue Earth",
+            "cities": [
                 "Amboy",
                 "Eagle Lake",
                 "Garden City",
@@ -158,8 +158,8 @@
             }
         },
         {
-            "County Name": "Brown",
-            "Cities": [
+            "countyName": "Brown",
+            "cities": [
                 "Cobden",
                 "Comfrey",
                 "Essig",
@@ -177,8 +177,8 @@
             }
         },
         {
-            "County Name": "Carlton",
-            "Cities": [
+            "countyName": "Carlton",
+            "cities": [
                 "Atkinson",
                 "Barnum",
                 "Carlton",
@@ -202,8 +202,8 @@
             }
         },
         {
-            "County Name": "Carver",
-            "Cities": [
+            "countyName": "Carver",
+            "cities": [
                 "Bongards",
                 "Carver",
                 "Chanhassen",
@@ -224,8 +224,8 @@
             }
         },
         {
-            "County Name": "Cass",
-            "Cities": [
+            "countyName": "Cass",
+            "cities": [
                 "Ah-Gwah-Ching",
                 "Backus",
                 "Bena",
@@ -252,8 +252,8 @@
             }
         },
         {
-            "County Name": "Chippewa",
-            "Cities": [
+            "countyName": "Chippewa",
+            "cities": [
                 "Clara City",
                 "Maynard",
                 "Milan",
@@ -267,8 +267,8 @@
             }
         },
         {
-            "County Name": "Chisago",
-            "Cities": [
+            "countyName": "Chisago",
+            "cities": [
                 "Center City",
                 "Chisago City",
                 "Harris",
@@ -289,8 +289,8 @@
             }
         },
         {
-            "County Name": "Clay",
-            "Cities": [
+            "countyName": "Clay",
+            "cities": [
                 "Averill",
                 "Baker",
                 "Barnesville",
@@ -314,8 +314,8 @@
             }
         },
         {
-            "County Name": "Clearwater",
-            "Cities": [
+            "countyName": "Clearwater",
+            "cities": [
                 "Bagley",
                 "Clearbrook",
                 "Ebro",
@@ -331,8 +331,8 @@
             }
         },
         {
-            "County Name": "Cook",
-            "Cities": [
+            "countyName": "Cook",
+            "cities": [
                 "Grand Marais",
                 "Grand Portage",
                 "Hovland",
@@ -347,8 +347,8 @@
             }
         },
         {
-            "County Name": "Cottonwood",
-            "Cities": [
+            "countyName": "Cottonwood",
+            "cities": [
                 "Bingham Lake",
                 "Delft",
                 "Jeffers",
@@ -364,8 +364,8 @@
             }
         },
         {
-            "County Name": "Crow Wing",
-            "Cities": [
+            "countyName": "Crow Wing",
+            "cities": [
                 "Baxter",
                 "Brainerd",
                 "Breezy Point",
@@ -394,8 +394,8 @@
             }
         },
         {
-            "County Name": "Dakota",
-            "Cities": [
+            "countyName": "Dakota",
+            "cities": [
                 "Apple Valley",
                 "Burnsville",
                 "Castle Rock",
@@ -420,8 +420,8 @@
             }
         },
         {
-            "County Name": "Dodge",
-            "Cities": [
+            "countyName": "Dodge",
+            "cities": [
                 "Claremont",
                 "Dodge Center",
                 "Hayfield",
@@ -436,8 +436,8 @@
             }
         },
         {
-            "County Name": "Douglas",
-            "Cities": [
+            "countyName": "Douglas",
+            "cities": [
                 "Alexandria",
                 "Brandon",
                 "Carlos",
@@ -457,8 +457,8 @@
             }
         },
         {
-            "County Name": "Faribault",
-            "Cities": [
+            "countyName": "Faribault",
+            "cities": [
                 "Blue Earth",
                 "Bricelyn",
                 "Delavan",
@@ -480,8 +480,8 @@
             }
         },
         {
-            "County Name": "Fillmore",
-            "Cities": [
+            "countyName": "Fillmore",
+            "cities": [
                 "Canton",
                 "Chatfield",
                 "Fountain",
@@ -505,8 +505,8 @@
             }
         },
         {
-            "County Name": "Freeborn",
-            "Cities": [
+            "countyName": "Freeborn",
+            "cities": [
                 "Albert Lea",
                 "Alden",
                 "Clarks Grove",
@@ -531,8 +531,8 @@
             }
         },
         {
-            "County Name": "Goodhue",
-            "Cities": [
+            "countyName": "Goodhue",
+            "cities": [
                 "Bellechester",
                 "Cannon Falls",
                 "Dennison",
@@ -555,8 +555,8 @@
             }
         },
         {
-            "County Name": "Grant",
-            "Cities": [
+            "countyName": "Grant",
+            "cities": [
                 "Ashby",
                 "Barrett",
                 "Elbow Lake",
@@ -572,8 +572,8 @@
             }
         },
         {
-            "County Name": "Hennepin",
-            "Cities": [
+            "countyName": "Hennepin",
+            "cities": [
                 "Bible College",
                 "Bloomington",
                 "Brooklyn Center",
@@ -625,8 +625,8 @@
             }
         },
         {
-            "County Name": "Houston",
-            "Cities": [
+            "countyName": "Houston",
+            "cities": [
                 "Brownsville",
                 "Caledonia",
                 "Eitzen",
@@ -642,8 +642,8 @@
             }
         },
         {
-            "County Name": "Hubbard",
-            "Cities": [
+            "countyName": "Hubbard",
+            "cities": [
                 "Akeley",
                 "Arago",
                 "Becida",
@@ -661,8 +661,8 @@
             }
         },
         {
-            "County Name": "Isanti",
-            "Cities": [
+            "countyName": "Isanti",
+            "cities": [
                 "Braham",
                 "Cambridge",
                 "Dalbo",
@@ -677,8 +677,8 @@
             }
         },
         {
-            "County Name": "Itasca",
-            "Cities": [
+            "countyName": "Itasca",
+            "cities": [
                 "Alvwood",
                 "Bigfork",
                 "Bovey",
@@ -714,8 +714,8 @@
             }
         },
         {
-            "County Name": "Jackson",
-            "Cities": [
+            "countyName": "Jackson",
+            "cities": [
                 "Alpha",
                 "Heron Lake",
                 "Jackson",
@@ -730,8 +730,8 @@
             }
         },
         {
-            "County Name": "Kanabec",
-            "Cities": [
+            "countyName": "Kanabec",
+            "cities": [
                 "Grasston",
                 "Mora",
                 "Ogilvie",
@@ -744,8 +744,8 @@
             }
         },
         {
-            "County Name": "Kandiyohi",
-            "Cities": [
+            "countyName": "Kandiyohi",
+            "cities": [
                 "Atwater",
                 "Blomkest",
                 "Hawick",
@@ -768,8 +768,8 @@
             }
         },
         {
-            "County Name": "Kittson",
-            "Cities": [
+            "countyName": "Kittson",
+            "cities": [
                 "Donaldson",
                 "Hallock",
                 "Halma",
@@ -790,8 +790,8 @@
             }
         },
         {
-            "County Name": "Koochiching",
-            "Cities": [
+            "countyName": "Koochiching",
+            "cities": [
                 "Big Falls",
                 "Birchdale",
                 "Ericksburg",
@@ -815,8 +815,8 @@
             }
         },
         {
-            "County Name": "Lac Qui Parle",
-            "Cities": [
+            "countyName": "Lac Qui Parle",
+            "cities": [
                 "Bellingham",
                 "Boyd",
                 "Dawson",
@@ -832,8 +832,8 @@
             }
         },
         {
-            "County Name": "Lake",
-            "Cities": [
+            "countyName": "Lake",
+            "cities": [
                 "Beaver Bay",
                 "Finlayson",
                 "Isabella",
@@ -849,8 +849,8 @@
             }
         },
         {
-            "County Name": "Lake of the Woods",
-            "Cities": [
+            "countyName": "Lake of the Woods",
+            "cities": [
                 "Baudette",
                 "Clementson",
                 "Graceton",
@@ -866,8 +866,8 @@
             }
         },
         {
-            "County Name": "Le Sueur",
-            "Cities": [
+            "countyName": "Le Sueur",
+            "cities": [
                 "Cleveland",
                 "Elysian",
                 "Heidelberg",
@@ -886,8 +886,8 @@
             }
         },
         {
-            "County Name": "Lincoln",
-            "Cities": [
+            "countyName": "Lincoln",
+            "cities": [
                 "Arco",
                 "Hendricks",
                 "Ivanhoe",
@@ -902,8 +902,8 @@
             }
         },
         {
-            "County Name": "Lyon",
-            "Cities": [
+            "countyName": "Lyon",
+            "cities": [
                 "Amiret",
                 "Balaton",
                 "Cottonwood",
@@ -925,8 +925,8 @@
             }
         },
         {
-            "County Name": "Mahnomen",
-            "Cities": [
+            "countyName": "Mahnomen",
+            "cities": [
                 "Beaulieu",
                 "Bejou",
                 "Mahnomen",
@@ -940,8 +940,8 @@
             }
         },
         {
-            "County Name": "Marshall",
-            "Cities": [
+            "countyName": "Marshall",
+            "cities": [
                 "Alvarado",
                 "Argyle",
                 "Gatzke",
@@ -963,8 +963,8 @@
             }
         },
         {
-            "County Name": "Martin",
-            "Cities": [
+            "countyName": "Martin",
+            "cities": [
                 "Ceylon",
                 "Dunnell",
                 "Fairmont",
@@ -982,8 +982,8 @@
             }
         },
         {
-            "County Name": "McLeod",
-            "Cities": [
+            "countyName": "McLeod",
+            "cities": [
                 "Biscay",
                 "Brownton",
                 "Cedar Mills",
@@ -1002,8 +1002,8 @@
             }
         },
         {
-            "County Name": "Meeker",
-            "Cities": [
+            "countyName": "Meeker",
+            "cities": [
                 "Cosmos",
                 "Darwin",
                 "Dassel",
@@ -1020,8 +1020,8 @@
             }
         },
         {
-            "County Name": "Mille Lacs",
-            "Cities": [
+            "countyName": "Mille Lacs",
+            "cities": [
                 "Bock",
                 "Foreston",
                 "Isle",
@@ -1038,8 +1038,8 @@
             }
         },
         {
-            "County Name": "Morrison",
-            "Cities": [
+            "countyName": "Morrison",
+            "cities": [
                 "Belle Prairie",
                 "Bowlus",
                 "Buckman",
@@ -1064,8 +1064,8 @@
             }
         },
         {
-            "County Name": "Mower",
-            "Cities": [
+            "countyName": "Mower",
+            "cities": [
                 "Adams",
                 "Austin",
                 "Brownsdale",
@@ -1089,8 +1089,8 @@
             }
         },
         {
-            "County Name": "Murray",
-            "Cities": [
+            "countyName": "Murray",
+            "cities": [
                 "Avoca",
                 "Chandler",
                 "Culver",
@@ -1109,8 +1109,8 @@
             }
         },
         {
-            "County Name": "Nicollet",
-            "Cities": [
+            "countyName": "Nicollet",
+            "cities": [
                 "Courtland",
                 "Klossner",
                 "Lafayette",
@@ -1125,8 +1125,8 @@
             }
         },
         {
-            "County Name": "Nobles",
-            "Cities": [
+            "countyName": "Nobles",
+            "cities": [
                 "Adrian",
                 "Bigelow",
                 "Brewster",
@@ -1148,8 +1148,8 @@
             }
         },
         {
-            "County Name": "Norman",
-            "Cities": [
+            "countyName": "Norman",
+            "cities": [
                 "Ada",
                 "Borup",
                 "Faith",
@@ -1169,8 +1169,8 @@
             }
         },
         {
-            "County Name": "Olmsted",
-            "Cities": [
+            "countyName": "Olmsted",
+            "cities": [
                 "Byron",
                 "Douglas",
                 "Dover",
@@ -1187,8 +1187,8 @@
             }
         },
         {
-            "County Name": "Otter Tail",
-            "Cities": [
+            "countyName": "Otter Tail",
+            "cities": [
                 "Battle Lake",
                 "Bluffton",
                 "Carlisle",
@@ -1218,8 +1218,8 @@
             }
         },
         {
-            "County Name": "Pennington",
-            "Cities": [
+            "countyName": "Pennington",
+            "cities": [
                 "Goodridge",
                 "Rosewood",
                 "St. Hilaire",
@@ -1232,8 +1232,8 @@
             }
         },
         {
-            "County Name": "Pine",
-            "Cities": [
+            "countyName": "Pine",
+            "cities": [
                 "Askov",
                 "Beroun",
                 "Brook Park",
@@ -1259,8 +1259,8 @@
             }
         },
         {
-            "County Name": "Pipestone",
-            "Cities": [
+            "countyName": "Pipestone",
+            "cities": [
                 "Edgerton",
                 "Hatfield",
                 "Holland",
@@ -1278,8 +1278,8 @@
             }
         },
         {
-            "County Name": "Polk",
-            "Cities": [
+            "countyName": "Polk",
+            "cities": [
                 "Beltrami",
                 "Climax",
                 "Crookston",
@@ -1305,8 +1305,8 @@
             }
         },
         {
-            "County Name": "Pope",
-            "Cities": [
+            "countyName": "Pope",
+            "cities": [
                 "Cyrus",
                 "Farwell",
                 "Glenwood",
@@ -1325,8 +1325,8 @@
             }
         },
         {
-            "County Name": "Ramsey",
-            "Cities": [
+            "countyName": "Ramsey",
+            "cities": [
                 "Arden Hills",
                 "Birchwood",
                 "Delwood",
@@ -1354,8 +1354,8 @@
             }
         },
         {
-            "County Name": "Red Lake",
-            "Cities": [
+            "countyName": "Red Lake",
+            "cities": [
                 "Brooks",
                 "Oklee",
                 "Plummer",
@@ -1368,8 +1368,8 @@
             }
         },
         {
-            "County Name": "Redwood",
-            "Cities": [
+            "countyName": "Redwood",
+            "cities": [
                 "Belview",
                 "Clements",
                 "Delhi",
@@ -1393,8 +1393,8 @@
             }
         },
         {
-            "County Name": "Renville",
-            "Cities": [
+            "countyName": "Renville",
+            "cities": [
                 "Bird Island",
                 "Buffalo Lake",
                 "Danube",
@@ -1413,8 +1413,8 @@
             }
         },
         {
-            "County Name": "Rice",
-            "Cities": [
+            "countyName": "Rice",
+            "cities": [
                 "Dundas",
                 "Faribault",
                 "Lonsdale",
@@ -1433,8 +1433,8 @@
             }
         },
         {
-            "County Name": "Rock",
-            "Cities": [
+            "countyName": "Rock",
+            "cities": [
                 "Beaver Creek",
                 "Hardwick",
                 "Hills",
@@ -1451,8 +1451,8 @@
             }
         },
         {
-            "County Name": "Roseau",
-            "Cities": [
+            "countyName": "Roseau",
+            "cities": [
                 "Badger",
                 "Greenbush",
                 "Pencer",
@@ -1474,8 +1474,8 @@
             }
         },
         {
-            "County Name": "Scott",
-            "Cities": [
+            "countyName": "Scott",
+            "cities": [
                 "Belle Plaine",
                 "Elko",
                 "Jordan",
@@ -1491,8 +1491,8 @@
             }
         },
         {
-            "County Name": "Sherburne",
-            "Cities": [
+            "countyName": "Sherburne",
+            "cities": [
                 "Becker",
                 "Big Lake",
                 "Clear Lake",
@@ -1508,8 +1508,8 @@
             }
         },
         {
-            "County Name": "Sibley",
-            "Cities": [
+            "countyName": "Sibley",
+            "cities": [
                 "Arlington",
                 "Gaylord",
                 "Gibbon",
@@ -1525,8 +1525,8 @@
             }
         },
         {
-            "County Name": "St. Louis",
-            "Cities": [
+            "countyName": "St. Louis",
+            "cities": [
                 "Alborn",
                 "Aurora",
                 "Babbitt",
@@ -1585,8 +1585,8 @@
             }
         },
         {
-            "County Name": "Stearns",
-            "Cities": [
+            "countyName": "Stearns",
+            "cities": [
                 "Albany",
                 "Avon",
                 "Belgrade",
@@ -1621,8 +1621,8 @@
             }
         },
         {
-            "County Name": "Steele",
-            "Cities": [
+            "countyName": "Steele",
+            "cities": [
                 "Blooming Prairie",
                 "Ellendale",
                 "Hope",
@@ -1639,8 +1639,8 @@
             }
         },
         {
-            "County Name": "Stevens",
-            "Cities": [
+            "countyName": "Stevens",
+            "cities": [
                 "Alberta",
                 "Chokio",
                 "Donnelly",
@@ -1654,8 +1654,8 @@
             }
         },
         {
-            "County Name": "Swift",
-            "Cities": [
+            "countyName": "Swift",
+            "cities": [
                 "Appleton",
                 "Benson",
                 "Clontarf",
@@ -1672,8 +1672,8 @@
             }
         },
         {
-            "County Name": "Todd",
-            "Cities": [
+            "countyName": "Todd",
+            "cities": [
                 "Browerville",
                 "Burtrum",
                 "Clarissa",
@@ -1692,8 +1692,8 @@
             }
         },
         {
-            "County Name": "Traverse",
-            "Cities": [
+            "countyName": "Traverse",
+            "cities": [
                 "Browns Valley",
                 "Dumont",
                 "Tintah",
@@ -1706,8 +1706,8 @@
             }
         },
         {
-            "County Name": "Wabasha",
-            "Cities": [
+            "countyName": "Wabasha",
+            "cities": [
                 "Elgin",
                 "Greenfield",
                 "Hammond",
@@ -1730,8 +1730,8 @@
             }
         },
         {
-            "County Name": "Wadena",
-            "Cities": [
+            "countyName": "Wadena",
+            "cities": [
                 "Aldrich",
                 "Menahga",
                 "Nimrod",
@@ -1746,8 +1746,8 @@
             }
         },
         {
-            "County Name": "Waseca",
-            "Cities": [
+            "countyName": "Waseca",
+            "cities": [
                 "Janesville",
                 "New Richland",
                 "Otisco",
@@ -1761,8 +1761,8 @@
             }
         },
         {
-            "County Name": "Washington",
-            "Cities": [
+            "countyName": "Washington",
+            "cities": [
                 "Afton",
                 "Bayport",
                 "Centerville",
@@ -1792,8 +1792,8 @@
             }
         },
         {
-            "County Name": "Watonwan",
-            "Cities": [
+            "countyName": "Watonwan",
+            "cities": [
                 "Butterfield",
                 "Darfur",
                 "La Salle",
@@ -1810,8 +1810,8 @@
             }
         },
         {
-            "County Name": "Wilkin",
-            "Cities": [
+            "countyName": "Wilkin",
+            "cities": [
                 "Breckenridge",
                 "Campbell",
                 "Doran",
@@ -1829,8 +1829,8 @@
             }
         },
         {
-            "County Name": "Winona",
-            "Cities": [
+            "countyName": "Winona",
+            "cities": [
                 "Altura",
                 "Dakota",
                 "Dresbach",
@@ -1853,8 +1853,8 @@
             }
         },
         {
-            "County Name": "Wright",
-            "Cities": [
+            "countyName": "Wright",
+            "cities": [
                 "Albertville",
                 "Annandale",
                 "Buffalo",
@@ -1880,8 +1880,8 @@
             }
         },
         {
-            "County Name": "Yellow Medicine",
-            "Cities": [
+            "countyName": "Yellow Medicine",
+            "cities": [
                 "Canby",
                 "Clarkfield",
                 "Echo",

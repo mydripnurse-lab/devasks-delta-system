@@ -1,490 +1,1916 @@
 {
-    "Counties": [
+    "counties": [
         {
-            "County Name": "Barnstable",
-            "Cities": [
-                "Barnstable",
-                "Bourne",
-                "Brewster",
-                "Chatham",
-                "Dennis",
-                "Eastham",
-                "Falmouth",
-                "Harwich",
-                "Mashpee",
-                "Orleans",
-                "Provincetown",
-                "Sandwich",
-                "Truro",
-                "Wellfleet",
-                "Yarmouth"
+            "countyName": "Barnstable",
+            "cities": [
+                {
+                    "cityName": "Barnstable",
+                    "cityDomain": "https://barnstable-city-ma.mydripnurse.com",
+                    "citySitemap": "https://barnstable-city-ma.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Bourne",
+                    "cityDomain": "https://bourne-city-ma.mydripnurse.com",
+                    "citySitemap": "https://bourne-city-ma.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Brewster",
+                    "cityDomain": "https://brewster-city-ma.mydripnurse.com",
+                    "citySitemap": "https://brewster-city-ma.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Chatham",
+                    "cityDomain": "https://chatham-city-ma.mydripnurse.com",
+                    "citySitemap": "https://chatham-city-ma.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Dennis",
+                    "cityDomain": "https://dennis-city-ma.mydripnurse.com",
+                    "citySitemap": "https://dennis-city-ma.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Eastham",
+                    "cityDomain": "https://eastham-city-ma.mydripnurse.com",
+                    "citySitemap": "https://eastham-city-ma.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Falmouth",
+                    "cityDomain": "https://falmouth-city-ma.mydripnurse.com",
+                    "citySitemap": "https://falmouth-city-ma.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Harwich",
+                    "cityDomain": "https://harwich-city-ma.mydripnurse.com",
+                    "citySitemap": "https://harwich-city-ma.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Mashpee",
+                    "cityDomain": "https://mashpee-city-ma.mydripnurse.com",
+                    "citySitemap": "https://mashpee-city-ma.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Orleans",
+                    "cityDomain": "https://orleans-city-ma.mydripnurse.com",
+                    "citySitemap": "https://orleans-city-ma.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Provincetown",
+                    "cityDomain": "https://provincetown-city-ma.mydripnurse.com",
+                    "citySitemap": "https://provincetown-city-ma.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Sandwich",
+                    "cityDomain": "https://sandwich-city-ma.mydripnurse.com",
+                    "citySitemap": "https://sandwich-city-ma.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Truro",
+                    "cityDomain": "https://truro-city-ma.mydripnurse.com",
+                    "citySitemap": "https://truro-city-ma.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Wellfleet",
+                    "cityDomain": "https://wellfleet-city-ma.mydripnurse.com",
+                    "citySitemap": "https://wellfleet-city-ma.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Yarmouth",
+                    "cityDomain": "https://yarmouth-city-ma.mydripnurse.com",
+                    "citySitemap": "https://yarmouth-city-ma.mydripnurse.com/sitemap.xml"
+                }
             ],
             "Timezone": {
                 "Name": "Eastern",
                 "Zone": "US/Eastern",
                 "UTC_Offset": "-05:00"
-            }
+            },
+            "countyDomain": "https://barnstable-county-ma.mydripnurse.com",
+            "countySitemap": "https://barnstable-county-ma.mydripnurse.com/sitemap.xml",
+            "embeddedSitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\n  <sitemap>\n    <loc>https://barnstable-county-ma.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://barnstable-city-ma.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://bourne-city-ma.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://brewster-city-ma.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://chatham-city-ma.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://dennis-city-ma.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://eastham-city-ma.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://falmouth-city-ma.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://harwich-city-ma.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://mashpee-city-ma.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://orleans-city-ma.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://provincetown-city-ma.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://sandwich-city-ma.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://truro-city-ma.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://wellfleet-city-ma.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://yarmouth-city-ma.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n</sitemapindex>"
         },
         {
-            "County Name": "Berkshire",
-            "Cities": [
-                "Adams",
-                "Alford",
-                "Becket",
-                "Cheshire",
-                "Clarksburg",
-                "Dalton",
-                "Egremont",
-                "Florida",
-                "Great Barrington",
-                "Hancock",
-                "Hinsdale",
-                "Lanesborough",
-                "Lee",
-                "Lenox",
-                "Monterey",
-                "Mount Washington",
-                "New Ashford",
-                "New Marlborough",
-                "North Adams",
-                "Otis",
-                "Peru",
-                "Pittsfield",
-                "Richmond",
-                "Savoy",
-                "Sheffield",
-                "Stockbridge",
-                "Tyringham",
-                "Washington",
-                "West Stockbridge",
-                "Williamstown",
-                "Windsor"
+            "countyName": "Berkshire",
+            "cities": [
+                {
+                    "cityName": "Adams",
+                    "cityDomain": "https://adams-city-ma.mydripnurse.com",
+                    "citySitemap": "https://adams-city-ma.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Alford",
+                    "cityDomain": "https://alford-city-ma.mydripnurse.com",
+                    "citySitemap": "https://alford-city-ma.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Becket",
+                    "cityDomain": "https://becket-city-ma.mydripnurse.com",
+                    "citySitemap": "https://becket-city-ma.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Cheshire",
+                    "cityDomain": "https://cheshire-city-ma.mydripnurse.com",
+                    "citySitemap": "https://cheshire-city-ma.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Clarksburg",
+                    "cityDomain": "https://clarksburg-city-ma.mydripnurse.com",
+                    "citySitemap": "https://clarksburg-city-ma.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Dalton",
+                    "cityDomain": "https://dalton-city-ma.mydripnurse.com",
+                    "citySitemap": "https://dalton-city-ma.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Egremont",
+                    "cityDomain": "https://egremont-city-ma.mydripnurse.com",
+                    "citySitemap": "https://egremont-city-ma.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Florida",
+                    "cityDomain": "https://florida-city-ma.mydripnurse.com",
+                    "citySitemap": "https://florida-city-ma.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Great Barrington",
+                    "cityDomain": "https://great-barrington-city-ma.mydripnurse.com",
+                    "citySitemap": "https://great-barrington-city-ma.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Hancock",
+                    "cityDomain": "https://hancock-city-ma.mydripnurse.com",
+                    "citySitemap": "https://hancock-city-ma.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Hinsdale",
+                    "cityDomain": "https://hinsdale-city-ma.mydripnurse.com",
+                    "citySitemap": "https://hinsdale-city-ma.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Lanesborough",
+                    "cityDomain": "https://lanesborough-city-ma.mydripnurse.com",
+                    "citySitemap": "https://lanesborough-city-ma.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Lee",
+                    "cityDomain": "https://lee-city-ma.mydripnurse.com",
+                    "citySitemap": "https://lee-city-ma.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Lenox",
+                    "cityDomain": "https://lenox-city-ma.mydripnurse.com",
+                    "citySitemap": "https://lenox-city-ma.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Monterey",
+                    "cityDomain": "https://monterey-city-ma.mydripnurse.com",
+                    "citySitemap": "https://monterey-city-ma.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Mount Washington",
+                    "cityDomain": "https://mount-washington-city-ma.mydripnurse.com",
+                    "citySitemap": "https://mount-washington-city-ma.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "New Ashford",
+                    "cityDomain": "https://new-ashford-city-ma.mydripnurse.com",
+                    "citySitemap": "https://new-ashford-city-ma.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "New Marlborough",
+                    "cityDomain": "https://new-marlborough-city-ma.mydripnurse.com",
+                    "citySitemap": "https://new-marlborough-city-ma.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "North Adams",
+                    "cityDomain": "https://north-adams-city-ma.mydripnurse.com",
+                    "citySitemap": "https://north-adams-city-ma.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Otis",
+                    "cityDomain": "https://otis-city-ma.mydripnurse.com",
+                    "citySitemap": "https://otis-city-ma.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Peru",
+                    "cityDomain": "https://peru-city-ma.mydripnurse.com",
+                    "citySitemap": "https://peru-city-ma.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Pittsfield",
+                    "cityDomain": "https://pittsfield-city-ma.mydripnurse.com",
+                    "citySitemap": "https://pittsfield-city-ma.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Richmond",
+                    "cityDomain": "https://richmond-city-ma.mydripnurse.com",
+                    "citySitemap": "https://richmond-city-ma.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Savoy",
+                    "cityDomain": "https://savoy-city-ma.mydripnurse.com",
+                    "citySitemap": "https://savoy-city-ma.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Sheffield",
+                    "cityDomain": "https://sheffield-city-ma.mydripnurse.com",
+                    "citySitemap": "https://sheffield-city-ma.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Stockbridge",
+                    "cityDomain": "https://stockbridge-city-ma.mydripnurse.com",
+                    "citySitemap": "https://stockbridge-city-ma.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Tyringham",
+                    "cityDomain": "https://tyringham-city-ma.mydripnurse.com",
+                    "citySitemap": "https://tyringham-city-ma.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Washington",
+                    "cityDomain": "https://washington-city-ma.mydripnurse.com",
+                    "citySitemap": "https://washington-city-ma.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "West Stockbridge",
+                    "cityDomain": "https://west-stockbridge-city-ma.mydripnurse.com",
+                    "citySitemap": "https://west-stockbridge-city-ma.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Williamstown",
+                    "cityDomain": "https://williamstown-city-ma.mydripnurse.com",
+                    "citySitemap": "https://williamstown-city-ma.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Windsor",
+                    "cityDomain": "https://windsor-city-ma.mydripnurse.com",
+                    "citySitemap": "https://windsor-city-ma.mydripnurse.com/sitemap.xml"
+                }
             ],
             "Timezone": {
                 "Name": "Eastern",
                 "Zone": "US/Eastern",
                 "UTC_Offset": "-05:00"
-            }
+            },
+            "countyDomain": "https://berkshire-county-ma.mydripnurse.com",
+            "countySitemap": "https://berkshire-county-ma.mydripnurse.com/sitemap.xml",
+            "embeddedSitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\n  <sitemap>\n    <loc>https://berkshire-county-ma.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://adams-city-ma.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://alford-city-ma.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://becket-city-ma.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://cheshire-city-ma.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://clarksburg-city-ma.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://dalton-city-ma.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://egremont-city-ma.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://florida-city-ma.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://great-barrington-city-ma.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://hancock-city-ma.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://hinsdale-city-ma.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://lanesborough-city-ma.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://lee-city-ma.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://lenox-city-ma.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://monterey-city-ma.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://mount-washington-city-ma.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://new-ashford-city-ma.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://new-marlborough-city-ma.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://north-adams-city-ma.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://otis-city-ma.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://peru-city-ma.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://pittsfield-city-ma.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://richmond-city-ma.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://savoy-city-ma.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://sheffield-city-ma.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://stockbridge-city-ma.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://tyringham-city-ma.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://washington-city-ma.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://west-stockbridge-city-ma.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://williamstown-city-ma.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://windsor-city-ma.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n</sitemapindex>"
         },
         {
-            "County Name": "Bristol",
-            "Cities": [
-                "Acushnet",
-                "Attleboro",
-                "Berkley",
-                "Dartmouth",
-                "Dighton",
-                "Easton",
-                "Fairhaven",
-                "Fall River",
-                "Freetown",
-                "Mansfield",
-                "New Bedford",
-                "North Attleborough",
-                "Norton",
-                "Raynham",
-                "Rehoboth",
-                "Seekonk",
-                "Somerset",
-                "Swansea",
-                "Taunton",
-                "Westport"
+            "countyName": "Bristol",
+            "cities": [
+                {
+                    "cityName": "Acushnet",
+                    "cityDomain": "https://acushnet-city-ma.mydripnurse.com",
+                    "citySitemap": "https://acushnet-city-ma.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Attleboro",
+                    "cityDomain": "https://attleboro-city-ma.mydripnurse.com",
+                    "citySitemap": "https://attleboro-city-ma.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Berkley",
+                    "cityDomain": "https://berkley-city-ma.mydripnurse.com",
+                    "citySitemap": "https://berkley-city-ma.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Dartmouth",
+                    "cityDomain": "https://dartmouth-city-ma.mydripnurse.com",
+                    "citySitemap": "https://dartmouth-city-ma.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Dighton",
+                    "cityDomain": "https://dighton-city-ma.mydripnurse.com",
+                    "citySitemap": "https://dighton-city-ma.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Easton",
+                    "cityDomain": "https://easton-city-ma.mydripnurse.com",
+                    "citySitemap": "https://easton-city-ma.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Fairhaven",
+                    "cityDomain": "https://fairhaven-city-ma.mydripnurse.com",
+                    "citySitemap": "https://fairhaven-city-ma.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Fall River",
+                    "cityDomain": "https://fall-river-city-ma.mydripnurse.com",
+                    "citySitemap": "https://fall-river-city-ma.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Freetown",
+                    "cityDomain": "https://freetown-city-ma.mydripnurse.com",
+                    "citySitemap": "https://freetown-city-ma.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Mansfield",
+                    "cityDomain": "https://mansfield-city-ma.mydripnurse.com",
+                    "citySitemap": "https://mansfield-city-ma.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "New Bedford",
+                    "cityDomain": "https://new-bedford-city-ma.mydripnurse.com",
+                    "citySitemap": "https://new-bedford-city-ma.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "North Attleborough",
+                    "cityDomain": "https://north-attleborough-city-ma.mydripnurse.com",
+                    "citySitemap": "https://north-attleborough-city-ma.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Norton",
+                    "cityDomain": "https://norton-city-ma.mydripnurse.com",
+                    "citySitemap": "https://norton-city-ma.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Raynham",
+                    "cityDomain": "https://raynham-city-ma.mydripnurse.com",
+                    "citySitemap": "https://raynham-city-ma.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Rehoboth",
+                    "cityDomain": "https://rehoboth-city-ma.mydripnurse.com",
+                    "citySitemap": "https://rehoboth-city-ma.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Seekonk",
+                    "cityDomain": "https://seekonk-city-ma.mydripnurse.com",
+                    "citySitemap": "https://seekonk-city-ma.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Somerset",
+                    "cityDomain": "https://somerset-city-ma.mydripnurse.com",
+                    "citySitemap": "https://somerset-city-ma.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Swansea",
+                    "cityDomain": "https://swansea-city-ma.mydripnurse.com",
+                    "citySitemap": "https://swansea-city-ma.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Taunton",
+                    "cityDomain": "https://taunton-city-ma.mydripnurse.com",
+                    "citySitemap": "https://taunton-city-ma.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Westport",
+                    "cityDomain": "https://westport-city-ma.mydripnurse.com",
+                    "citySitemap": "https://westport-city-ma.mydripnurse.com/sitemap.xml"
+                }
             ],
             "Timezone": {
                 "Name": "Eastern",
                 "Zone": "US/Eastern",
                 "UTC_Offset": "-05:00"
-            }
+            },
+            "countyDomain": "https://bristol-county-ma.mydripnurse.com",
+            "countySitemap": "https://bristol-county-ma.mydripnurse.com/sitemap.xml",
+            "embeddedSitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\n  <sitemap>\n    <loc>https://bristol-county-ma.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://acushnet-city-ma.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://attleboro-city-ma.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://berkley-city-ma.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://dartmouth-city-ma.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://dighton-city-ma.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://easton-city-ma.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://fairhaven-city-ma.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://fall-river-city-ma.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://freetown-city-ma.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://mansfield-city-ma.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://new-bedford-city-ma.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://north-attleborough-city-ma.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://norton-city-ma.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://raynham-city-ma.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://rehoboth-city-ma.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://seekonk-city-ma.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://somerset-city-ma.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://swansea-city-ma.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://taunton-city-ma.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://westport-city-ma.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n</sitemapindex>"
         },
         {
-            "County Name": "Dukes",
-            "Cities": [
-                "Aquinnah",
-                "Chilmark",
-                "Edgartown",
-                "Gosnold",
-                "Oak Bluffs",
-                "Tisbury",
-                "West Tisbury"
+            "countyName": "Dukes",
+            "cities": [
+                {
+                    "cityName": "Aquinnah",
+                    "cityDomain": "https://aquinnah-city-ma.mydripnurse.com",
+                    "citySitemap": "https://aquinnah-city-ma.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Chilmark",
+                    "cityDomain": "https://chilmark-city-ma.mydripnurse.com",
+                    "citySitemap": "https://chilmark-city-ma.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Edgartown",
+                    "cityDomain": "https://edgartown-city-ma.mydripnurse.com",
+                    "citySitemap": "https://edgartown-city-ma.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Gosnold",
+                    "cityDomain": "https://gosnold-city-ma.mydripnurse.com",
+                    "citySitemap": "https://gosnold-city-ma.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Oak Bluffs",
+                    "cityDomain": "https://oak-bluffs-city-ma.mydripnurse.com",
+                    "citySitemap": "https://oak-bluffs-city-ma.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Tisbury",
+                    "cityDomain": "https://tisbury-city-ma.mydripnurse.com",
+                    "citySitemap": "https://tisbury-city-ma.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "West Tisbury",
+                    "cityDomain": "https://west-tisbury-city-ma.mydripnurse.com",
+                    "citySitemap": "https://west-tisbury-city-ma.mydripnurse.com/sitemap.xml"
+                }
             ],
             "Timezone": {
                 "Name": "Eastern",
                 "Zone": "US/Eastern",
                 "UTC_Offset": "-05:00"
-            }
+            },
+            "countyDomain": "https://dukes-county-ma.mydripnurse.com",
+            "countySitemap": "https://dukes-county-ma.mydripnurse.com/sitemap.xml",
+            "embeddedSitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\n  <sitemap>\n    <loc>https://dukes-county-ma.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://aquinnah-city-ma.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://chilmark-city-ma.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://edgartown-city-ma.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://gosnold-city-ma.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://oak-bluffs-city-ma.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://tisbury-city-ma.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://west-tisbury-city-ma.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n</sitemapindex>"
         },
         {
-            "County Name": "Essex",
-            "Cities": [
-                "Amesbury",
-                "Andover",
-                "Beverly",
-                "Boxford",
-                "Danvers",
-                "Essex",
-                "Georgetown",
-                "Gloucester",
-                "Groveland",
-                "Hamilton",
-                "Haverhill",
-                "Ipswich",
-                "Lawrence",
-                "Lynn",
-                "Lynnfield",
-                "Manchester-by-the-Sea",
-                "Marblehead",
-                "Merrimac",
-                "Middleton",
-                "Nahant",
-                "Newbury",
-                "Newburyport",
-                "North Andover",
-                "Peabody",
-                "Rockport",
-                "Rowley",
-                "Salem",
-                "Salisbury",
-                "Saugus",
-                "Swampscott",
-                "Topsfield",
-                "Wenham",
-                "West Newbury"
+            "countyName": "Essex",
+            "cities": [
+                {
+                    "cityName": "Amesbury",
+                    "cityDomain": "https://amesbury-city-ma.mydripnurse.com",
+                    "citySitemap": "https://amesbury-city-ma.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Andover",
+                    "cityDomain": "https://andover-city-ma.mydripnurse.com",
+                    "citySitemap": "https://andover-city-ma.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Beverly",
+                    "cityDomain": "https://beverly-city-ma.mydripnurse.com",
+                    "citySitemap": "https://beverly-city-ma.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Boxford",
+                    "cityDomain": "https://boxford-city-ma.mydripnurse.com",
+                    "citySitemap": "https://boxford-city-ma.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Danvers",
+                    "cityDomain": "https://danvers-city-ma.mydripnurse.com",
+                    "citySitemap": "https://danvers-city-ma.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Essex",
+                    "cityDomain": "https://essex-city-ma.mydripnurse.com",
+                    "citySitemap": "https://essex-city-ma.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Georgetown",
+                    "cityDomain": "https://georgetown-city-ma.mydripnurse.com",
+                    "citySitemap": "https://georgetown-city-ma.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Gloucester",
+                    "cityDomain": "https://gloucester-city-ma.mydripnurse.com",
+                    "citySitemap": "https://gloucester-city-ma.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Groveland",
+                    "cityDomain": "https://groveland-city-ma.mydripnurse.com",
+                    "citySitemap": "https://groveland-city-ma.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Hamilton",
+                    "cityDomain": "https://hamilton-city-ma.mydripnurse.com",
+                    "citySitemap": "https://hamilton-city-ma.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Haverhill",
+                    "cityDomain": "https://haverhill-city-ma.mydripnurse.com",
+                    "citySitemap": "https://haverhill-city-ma.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Ipswich",
+                    "cityDomain": "https://ipswich-city-ma.mydripnurse.com",
+                    "citySitemap": "https://ipswich-city-ma.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Lawrence",
+                    "cityDomain": "https://lawrence-city-ma.mydripnurse.com",
+                    "citySitemap": "https://lawrence-city-ma.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Lynn",
+                    "cityDomain": "https://lynn-city-ma.mydripnurse.com",
+                    "citySitemap": "https://lynn-city-ma.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Lynnfield",
+                    "cityDomain": "https://lynnfield-city-ma.mydripnurse.com",
+                    "citySitemap": "https://lynnfield-city-ma.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Manchester-by-the-Sea",
+                    "cityDomain": "https://manchester-by-the-sea-city-ma.mydripnurse.com",
+                    "citySitemap": "https://manchester-by-the-sea-city-ma.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Marblehead",
+                    "cityDomain": "https://marblehead-city-ma.mydripnurse.com",
+                    "citySitemap": "https://marblehead-city-ma.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Merrimac",
+                    "cityDomain": "https://merrimac-city-ma.mydripnurse.com",
+                    "citySitemap": "https://merrimac-city-ma.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Middleton",
+                    "cityDomain": "https://middleton-city-ma.mydripnurse.com",
+                    "citySitemap": "https://middleton-city-ma.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Nahant",
+                    "cityDomain": "https://nahant-city-ma.mydripnurse.com",
+                    "citySitemap": "https://nahant-city-ma.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Newbury",
+                    "cityDomain": "https://newbury-city-ma.mydripnurse.com",
+                    "citySitemap": "https://newbury-city-ma.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Newburyport",
+                    "cityDomain": "https://newburyport-city-ma.mydripnurse.com",
+                    "citySitemap": "https://newburyport-city-ma.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "North Andover",
+                    "cityDomain": "https://north-andover-city-ma.mydripnurse.com",
+                    "citySitemap": "https://north-andover-city-ma.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Peabody",
+                    "cityDomain": "https://peabody-city-ma.mydripnurse.com",
+                    "citySitemap": "https://peabody-city-ma.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Rockport",
+                    "cityDomain": "https://rockport-city-ma.mydripnurse.com",
+                    "citySitemap": "https://rockport-city-ma.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Rowley",
+                    "cityDomain": "https://rowley-city-ma.mydripnurse.com",
+                    "citySitemap": "https://rowley-city-ma.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Salem",
+                    "cityDomain": "https://salem-city-ma.mydripnurse.com",
+                    "citySitemap": "https://salem-city-ma.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Salisbury",
+                    "cityDomain": "https://salisbury-city-ma.mydripnurse.com",
+                    "citySitemap": "https://salisbury-city-ma.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Saugus",
+                    "cityDomain": "https://saugus-city-ma.mydripnurse.com",
+                    "citySitemap": "https://saugus-city-ma.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Swampscott",
+                    "cityDomain": "https://swampscott-city-ma.mydripnurse.com",
+                    "citySitemap": "https://swampscott-city-ma.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Topsfield",
+                    "cityDomain": "https://topsfield-city-ma.mydripnurse.com",
+                    "citySitemap": "https://topsfield-city-ma.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Wenham",
+                    "cityDomain": "https://wenham-city-ma.mydripnurse.com",
+                    "citySitemap": "https://wenham-city-ma.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "West Newbury",
+                    "cityDomain": "https://west-newbury-city-ma.mydripnurse.com",
+                    "citySitemap": "https://west-newbury-city-ma.mydripnurse.com/sitemap.xml"
+                }
             ],
             "Timezone": {
                 "Name": "Eastern",
                 "Zone": "US/Eastern",
                 "UTC_Offset": "-05:00"
-            }
+            },
+            "countyDomain": "https://essex-county-ma.mydripnurse.com",
+            "countySitemap": "https://essex-county-ma.mydripnurse.com/sitemap.xml",
+            "embeddedSitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\n  <sitemap>\n    <loc>https://essex-county-ma.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://amesbury-city-ma.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://andover-city-ma.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://beverly-city-ma.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://boxford-city-ma.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://danvers-city-ma.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://essex-city-ma.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://georgetown-city-ma.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://gloucester-city-ma.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://groveland-city-ma.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://hamilton-city-ma.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://haverhill-city-ma.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://ipswich-city-ma.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://lawrence-city-ma.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://lynn-city-ma.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://lynnfield-city-ma.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://manchester-by-the-sea-city-ma.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://marblehead-city-ma.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://merrimac-city-ma.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://middleton-city-ma.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://nahant-city-ma.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://newbury-city-ma.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://newburyport-city-ma.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://north-andover-city-ma.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://peabody-city-ma.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://rockport-city-ma.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://rowley-city-ma.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://salem-city-ma.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://salisbury-city-ma.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://saugus-city-ma.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://swampscott-city-ma.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://topsfield-city-ma.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://wenham-city-ma.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://west-newbury-city-ma.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n</sitemapindex>"
         },
         {
-            "County Name": "Franklin",
-            "Cities": [
-                "Ashfield",
-                "Bernardston",
-                "Buckland",
-                "Charlemont",
-                "Colrain",
-                "Conway",
-                "Deerfield",
-                "Erving",
-                "Gill",
-                "Greenfield",
-                "Hawley",
-                "Heath",
-                "Leverett",
-                "Leyden",
-                "Monroe",
-                "Montague",
-                "New Salem",
-                "Northfield",
-                "Orange",
-                "Rowe",
-                "Shelburne",
-                "Shutesbury",
-                "Sunderland",
-                "Warwick",
-                "Wendell",
-                "Whately"
+            "countyName": "Franklin",
+            "cities": [
+                {
+                    "cityName": "Ashfield",
+                    "cityDomain": "https://ashfield-city-ma.mydripnurse.com",
+                    "citySitemap": "https://ashfield-city-ma.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Bernardston",
+                    "cityDomain": "https://bernardston-city-ma.mydripnurse.com",
+                    "citySitemap": "https://bernardston-city-ma.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Buckland",
+                    "cityDomain": "https://buckland-city-ma.mydripnurse.com",
+                    "citySitemap": "https://buckland-city-ma.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Charlemont",
+                    "cityDomain": "https://charlemont-city-ma.mydripnurse.com",
+                    "citySitemap": "https://charlemont-city-ma.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Colrain",
+                    "cityDomain": "https://colrain-city-ma.mydripnurse.com",
+                    "citySitemap": "https://colrain-city-ma.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Conway",
+                    "cityDomain": "https://conway-city-ma.mydripnurse.com",
+                    "citySitemap": "https://conway-city-ma.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Deerfield",
+                    "cityDomain": "https://deerfield-city-ma.mydripnurse.com",
+                    "citySitemap": "https://deerfield-city-ma.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Erving",
+                    "cityDomain": "https://erving-city-ma.mydripnurse.com",
+                    "citySitemap": "https://erving-city-ma.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Gill",
+                    "cityDomain": "https://gill-city-ma.mydripnurse.com",
+                    "citySitemap": "https://gill-city-ma.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Greenfield",
+                    "cityDomain": "https://greenfield-city-ma.mydripnurse.com",
+                    "citySitemap": "https://greenfield-city-ma.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Hawley",
+                    "cityDomain": "https://hawley-city-ma.mydripnurse.com",
+                    "citySitemap": "https://hawley-city-ma.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Heath",
+                    "cityDomain": "https://heath-city-ma.mydripnurse.com",
+                    "citySitemap": "https://heath-city-ma.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Leverett",
+                    "cityDomain": "https://leverett-city-ma.mydripnurse.com",
+                    "citySitemap": "https://leverett-city-ma.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Leyden",
+                    "cityDomain": "https://leyden-city-ma.mydripnurse.com",
+                    "citySitemap": "https://leyden-city-ma.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Monroe",
+                    "cityDomain": "https://monroe-city-ma.mydripnurse.com",
+                    "citySitemap": "https://monroe-city-ma.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Montague",
+                    "cityDomain": "https://montague-city-ma.mydripnurse.com",
+                    "citySitemap": "https://montague-city-ma.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "New Salem",
+                    "cityDomain": "https://new-salem-city-ma.mydripnurse.com",
+                    "citySitemap": "https://new-salem-city-ma.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Northfield",
+                    "cityDomain": "https://northfield-city-ma.mydripnurse.com",
+                    "citySitemap": "https://northfield-city-ma.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Orange",
+                    "cityDomain": "https://orange-city-ma.mydripnurse.com",
+                    "citySitemap": "https://orange-city-ma.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Rowe",
+                    "cityDomain": "https://rowe-city-ma.mydripnurse.com",
+                    "citySitemap": "https://rowe-city-ma.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Shelburne",
+                    "cityDomain": "https://shelburne-city-ma.mydripnurse.com",
+                    "citySitemap": "https://shelburne-city-ma.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Shutesbury",
+                    "cityDomain": "https://shutesbury-city-ma.mydripnurse.com",
+                    "citySitemap": "https://shutesbury-city-ma.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Sunderland",
+                    "cityDomain": "https://sunderland-city-ma.mydripnurse.com",
+                    "citySitemap": "https://sunderland-city-ma.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Warwick",
+                    "cityDomain": "https://warwick-city-ma.mydripnurse.com",
+                    "citySitemap": "https://warwick-city-ma.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Wendell",
+                    "cityDomain": "https://wendell-city-ma.mydripnurse.com",
+                    "citySitemap": "https://wendell-city-ma.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Whately",
+                    "cityDomain": "https://whately-city-ma.mydripnurse.com",
+                    "citySitemap": "https://whately-city-ma.mydripnurse.com/sitemap.xml"
+                }
             ],
             "Timezone": {
                 "Name": "Eastern",
                 "Zone": "US/Eastern",
                 "UTC_Offset": "-05:00"
-            }
+            },
+            "countyDomain": "https://franklin-county-ma.mydripnurse.com",
+            "countySitemap": "https://franklin-county-ma.mydripnurse.com/sitemap.xml",
+            "embeddedSitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\n  <sitemap>\n    <loc>https://franklin-county-ma.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://ashfield-city-ma.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://bernardston-city-ma.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://buckland-city-ma.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://charlemont-city-ma.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://colrain-city-ma.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://conway-city-ma.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://deerfield-city-ma.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://erving-city-ma.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://gill-city-ma.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://greenfield-city-ma.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://hawley-city-ma.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://heath-city-ma.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://leverett-city-ma.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://leyden-city-ma.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://monroe-city-ma.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://montague-city-ma.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://new-salem-city-ma.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://northfield-city-ma.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://orange-city-ma.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://rowe-city-ma.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://shelburne-city-ma.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://shutesbury-city-ma.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://sunderland-city-ma.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://warwick-city-ma.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://wendell-city-ma.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://whately-city-ma.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n</sitemapindex>"
         },
         {
-            "County Name": "Hampden",
-            "Cities": [
-                "Agawam",
-                "Blandford",
-                "Brimfield",
-                "Chester",
-                "Chicopee",
-                "East Longmeadow",
-                "Granville",
-                "Hampden",
-                "Holland",
-                "Holyoke",
-                "Longmeadow",
-                "Ludlow",
-                "Monson",
-                "Montgomery",
-                "Palmer",
-                "Russell",
-                "Southwick",
-                "Springfield",
-                "Tolland",
-                "Wales",
-                "West Springfield",
-                "Westfield",
-                "Wilbraham"
+            "countyName": "Hampden",
+            "cities": [
+                {
+                    "cityName": "Agawam",
+                    "cityDomain": "https://agawam-city-ma.mydripnurse.com",
+                    "citySitemap": "https://agawam-city-ma.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Blandford",
+                    "cityDomain": "https://blandford-city-ma.mydripnurse.com",
+                    "citySitemap": "https://blandford-city-ma.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Brimfield",
+                    "cityDomain": "https://brimfield-city-ma.mydripnurse.com",
+                    "citySitemap": "https://brimfield-city-ma.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Chester",
+                    "cityDomain": "https://chester-city-ma.mydripnurse.com",
+                    "citySitemap": "https://chester-city-ma.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Chicopee",
+                    "cityDomain": "https://chicopee-city-ma.mydripnurse.com",
+                    "citySitemap": "https://chicopee-city-ma.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "East Longmeadow",
+                    "cityDomain": "https://east-longmeadow-city-ma.mydripnurse.com",
+                    "citySitemap": "https://east-longmeadow-city-ma.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Granville",
+                    "cityDomain": "https://granville-city-ma.mydripnurse.com",
+                    "citySitemap": "https://granville-city-ma.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Hampden",
+                    "cityDomain": "https://hampden-city-ma.mydripnurse.com",
+                    "citySitemap": "https://hampden-city-ma.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Holland",
+                    "cityDomain": "https://holland-city-ma.mydripnurse.com",
+                    "citySitemap": "https://holland-city-ma.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Holyoke",
+                    "cityDomain": "https://holyoke-city-ma.mydripnurse.com",
+                    "citySitemap": "https://holyoke-city-ma.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Longmeadow",
+                    "cityDomain": "https://longmeadow-city-ma.mydripnurse.com",
+                    "citySitemap": "https://longmeadow-city-ma.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Ludlow",
+                    "cityDomain": "https://ludlow-city-ma.mydripnurse.com",
+                    "citySitemap": "https://ludlow-city-ma.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Monson",
+                    "cityDomain": "https://monson-city-ma.mydripnurse.com",
+                    "citySitemap": "https://monson-city-ma.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Montgomery",
+                    "cityDomain": "https://montgomery-city-ma.mydripnurse.com",
+                    "citySitemap": "https://montgomery-city-ma.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Palmer",
+                    "cityDomain": "https://palmer-city-ma.mydripnurse.com",
+                    "citySitemap": "https://palmer-city-ma.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Russell",
+                    "cityDomain": "https://russell-city-ma.mydripnurse.com",
+                    "citySitemap": "https://russell-city-ma.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Southwick",
+                    "cityDomain": "https://southwick-city-ma.mydripnurse.com",
+                    "citySitemap": "https://southwick-city-ma.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Springfield",
+                    "cityDomain": "https://springfield-city-ma.mydripnurse.com",
+                    "citySitemap": "https://springfield-city-ma.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Tolland",
+                    "cityDomain": "https://tolland-city-ma.mydripnurse.com",
+                    "citySitemap": "https://tolland-city-ma.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Wales",
+                    "cityDomain": "https://wales-city-ma.mydripnurse.com",
+                    "citySitemap": "https://wales-city-ma.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "West Springfield",
+                    "cityDomain": "https://west-springfield-city-ma.mydripnurse.com",
+                    "citySitemap": "https://west-springfield-city-ma.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Westfield",
+                    "cityDomain": "https://westfield-city-ma.mydripnurse.com",
+                    "citySitemap": "https://westfield-city-ma.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Wilbraham",
+                    "cityDomain": "https://wilbraham-city-ma.mydripnurse.com",
+                    "citySitemap": "https://wilbraham-city-ma.mydripnurse.com/sitemap.xml"
+                }
             ],
             "Timezone": {
                 "Name": "Eastern",
                 "Zone": "US/Eastern",
                 "UTC_Offset": "-05:00"
-            }
+            },
+            "countyDomain": "https://hampden-county-ma.mydripnurse.com",
+            "countySitemap": "https://hampden-county-ma.mydripnurse.com/sitemap.xml",
+            "embeddedSitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\n  <sitemap>\n    <loc>https://hampden-county-ma.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://agawam-city-ma.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://blandford-city-ma.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://brimfield-city-ma.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://chester-city-ma.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://chicopee-city-ma.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://east-longmeadow-city-ma.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://granville-city-ma.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://hampden-city-ma.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://holland-city-ma.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://holyoke-city-ma.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://longmeadow-city-ma.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://ludlow-city-ma.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://monson-city-ma.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://montgomery-city-ma.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://palmer-city-ma.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://russell-city-ma.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://southwick-city-ma.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://springfield-city-ma.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://tolland-city-ma.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://wales-city-ma.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://west-springfield-city-ma.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://westfield-city-ma.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://wilbraham-city-ma.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n</sitemapindex>"
         },
         {
-            "County Name": "Hampshire",
-            "Cities": [
-                "Amherst",
-                "Belchertown",
-                "Chesterfield",
-                "Cummington",
-                "Easthampton",
-                "Goshen",
-                "Granby",
-                "Hadley",
-                "Hatfield",
-                "Huntington",
-                "Middlefield",
-                "Northampton",
-                "Pelham",
-                "Plainfield",
-                "South Hadley",
-                "Ware",
-                "Westhampton",
-                "Williamsburg",
-                "Worthington"
+            "countyName": "Hampshire",
+            "cities": [
+                {
+                    "cityName": "Amherst",
+                    "cityDomain": "https://amherst-city-ma.mydripnurse.com",
+                    "citySitemap": "https://amherst-city-ma.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Belchertown",
+                    "cityDomain": "https://belchertown-city-ma.mydripnurse.com",
+                    "citySitemap": "https://belchertown-city-ma.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Chesterfield",
+                    "cityDomain": "https://chesterfield-city-ma.mydripnurse.com",
+                    "citySitemap": "https://chesterfield-city-ma.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Cummington",
+                    "cityDomain": "https://cummington-city-ma.mydripnurse.com",
+                    "citySitemap": "https://cummington-city-ma.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Easthampton",
+                    "cityDomain": "https://easthampton-city-ma.mydripnurse.com",
+                    "citySitemap": "https://easthampton-city-ma.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Goshen",
+                    "cityDomain": "https://goshen-city-ma.mydripnurse.com",
+                    "citySitemap": "https://goshen-city-ma.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Granby",
+                    "cityDomain": "https://granby-city-ma.mydripnurse.com",
+                    "citySitemap": "https://granby-city-ma.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Hadley",
+                    "cityDomain": "https://hadley-city-ma.mydripnurse.com",
+                    "citySitemap": "https://hadley-city-ma.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Hatfield",
+                    "cityDomain": "https://hatfield-city-ma.mydripnurse.com",
+                    "citySitemap": "https://hatfield-city-ma.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Huntington",
+                    "cityDomain": "https://huntington-city-ma.mydripnurse.com",
+                    "citySitemap": "https://huntington-city-ma.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Middlefield",
+                    "cityDomain": "https://middlefield-city-ma.mydripnurse.com",
+                    "citySitemap": "https://middlefield-city-ma.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Northampton",
+                    "cityDomain": "https://northampton-city-ma.mydripnurse.com",
+                    "citySitemap": "https://northampton-city-ma.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Pelham",
+                    "cityDomain": "https://pelham-city-ma.mydripnurse.com",
+                    "citySitemap": "https://pelham-city-ma.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Plainfield",
+                    "cityDomain": "https://plainfield-city-ma.mydripnurse.com",
+                    "citySitemap": "https://plainfield-city-ma.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "South Hadley",
+                    "cityDomain": "https://south-hadley-city-ma.mydripnurse.com",
+                    "citySitemap": "https://south-hadley-city-ma.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Ware",
+                    "cityDomain": "https://ware-city-ma.mydripnurse.com",
+                    "citySitemap": "https://ware-city-ma.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Westhampton",
+                    "cityDomain": "https://westhampton-city-ma.mydripnurse.com",
+                    "citySitemap": "https://westhampton-city-ma.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Williamsburg",
+                    "cityDomain": "https://williamsburg-city-ma.mydripnurse.com",
+                    "citySitemap": "https://williamsburg-city-ma.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Worthington",
+                    "cityDomain": "https://worthington-city-ma.mydripnurse.com",
+                    "citySitemap": "https://worthington-city-ma.mydripnurse.com/sitemap.xml"
+                }
             ],
             "Timezone": {
                 "Name": "Eastern",
                 "Zone": "US/Eastern",
                 "UTC_Offset": "-05:00"
-            }
+            },
+            "countyDomain": "https://hampshire-county-ma.mydripnurse.com",
+            "countySitemap": "https://hampshire-county-ma.mydripnurse.com/sitemap.xml",
+            "embeddedSitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\n  <sitemap>\n    <loc>https://hampshire-county-ma.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://amherst-city-ma.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://belchertown-city-ma.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://chesterfield-city-ma.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://cummington-city-ma.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://easthampton-city-ma.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://goshen-city-ma.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://granby-city-ma.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://hadley-city-ma.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://hatfield-city-ma.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://huntington-city-ma.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://middlefield-city-ma.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://northampton-city-ma.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://pelham-city-ma.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://plainfield-city-ma.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://south-hadley-city-ma.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://ware-city-ma.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://westhampton-city-ma.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://williamsburg-city-ma.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://worthington-city-ma.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n</sitemapindex>"
         },
         {
-            "County Name": "Middlesex",
-            "Cities": [
-                "Acton",
-                "Arlington",
-                "Ashby",
-                "Ashland",
-                "Ayer",
-                "Bedford",
-                "Belmont",
-                "Billerica",
-                "Boxborough",
-                "Burlington",
-                "Cambridge",
-                "Carlisle",
-                "Chelmsford",
-                "Concord",
-                "Dracut",
-                "Dunstable",
-                "Everett",
-                "Framingham",
-                "Groton",
-                "Holliston",
-                "Hopkinton",
-                "Hudson",
-                "Lexington",
-                "Lincoln",
-                "Littleton",
-                "Lowell",
-                "Malden",
-                "Marlborough",
-                "Maynard",
-                "Medford",
-                "Melrose",
-                "Natick",
-                "Newton",
-                "North Reading",
-                "Pepperell",
-                "Reading",
-                "Sherborn",
-                "Shirley",
-                "Somerville",
-                "Stoneham",
-                "Stow",
-                "Sudbury",
-                "Tewksbury",
-                "Townsend",
-                "Tyngsborough",
-                "Wakefield",
-                "Waltham",
-                "Watertown",
-                "Westford",
-                "Weston",
-                "Wilmington",
-                "Winchester",
-                "Woburn"
+            "countyName": "Middlesex",
+            "cities": [
+                {
+                    "cityName": "Acton",
+                    "cityDomain": "https://acton-city-ma.mydripnurse.com",
+                    "citySitemap": "https://acton-city-ma.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Arlington",
+                    "cityDomain": "https://arlington-city-ma.mydripnurse.com",
+                    "citySitemap": "https://arlington-city-ma.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Ashby",
+                    "cityDomain": "https://ashby-city-ma.mydripnurse.com",
+                    "citySitemap": "https://ashby-city-ma.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Ashland",
+                    "cityDomain": "https://ashland-city-ma.mydripnurse.com",
+                    "citySitemap": "https://ashland-city-ma.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Ayer",
+                    "cityDomain": "https://ayer-city-ma.mydripnurse.com",
+                    "citySitemap": "https://ayer-city-ma.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Bedford",
+                    "cityDomain": "https://bedford-city-ma.mydripnurse.com",
+                    "citySitemap": "https://bedford-city-ma.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Belmont",
+                    "cityDomain": "https://belmont-city-ma.mydripnurse.com",
+                    "citySitemap": "https://belmont-city-ma.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Billerica",
+                    "cityDomain": "https://billerica-city-ma.mydripnurse.com",
+                    "citySitemap": "https://billerica-city-ma.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Boxborough",
+                    "cityDomain": "https://boxborough-city-ma.mydripnurse.com",
+                    "citySitemap": "https://boxborough-city-ma.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Burlington",
+                    "cityDomain": "https://burlington-city-ma.mydripnurse.com",
+                    "citySitemap": "https://burlington-city-ma.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Cambridge",
+                    "cityDomain": "https://cambridge-city-ma.mydripnurse.com",
+                    "citySitemap": "https://cambridge-city-ma.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Carlisle",
+                    "cityDomain": "https://carlisle-city-ma.mydripnurse.com",
+                    "citySitemap": "https://carlisle-city-ma.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Chelmsford",
+                    "cityDomain": "https://chelmsford-city-ma.mydripnurse.com",
+                    "citySitemap": "https://chelmsford-city-ma.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Concord",
+                    "cityDomain": "https://concord-city-ma.mydripnurse.com",
+                    "citySitemap": "https://concord-city-ma.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Dracut",
+                    "cityDomain": "https://dracut-city-ma.mydripnurse.com",
+                    "citySitemap": "https://dracut-city-ma.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Dunstable",
+                    "cityDomain": "https://dunstable-city-ma.mydripnurse.com",
+                    "citySitemap": "https://dunstable-city-ma.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Everett",
+                    "cityDomain": "https://everett-city-ma.mydripnurse.com",
+                    "citySitemap": "https://everett-city-ma.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Framingham",
+                    "cityDomain": "https://framingham-city-ma.mydripnurse.com",
+                    "citySitemap": "https://framingham-city-ma.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Groton",
+                    "cityDomain": "https://groton-city-ma.mydripnurse.com",
+                    "citySitemap": "https://groton-city-ma.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Holliston",
+                    "cityDomain": "https://holliston-city-ma.mydripnurse.com",
+                    "citySitemap": "https://holliston-city-ma.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Hopkinton",
+                    "cityDomain": "https://hopkinton-city-ma.mydripnurse.com",
+                    "citySitemap": "https://hopkinton-city-ma.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Hudson",
+                    "cityDomain": "https://hudson-city-ma.mydripnurse.com",
+                    "citySitemap": "https://hudson-city-ma.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Lexington",
+                    "cityDomain": "https://lexington-city-ma.mydripnurse.com",
+                    "citySitemap": "https://lexington-city-ma.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Lincoln",
+                    "cityDomain": "https://lincoln-city-ma.mydripnurse.com",
+                    "citySitemap": "https://lincoln-city-ma.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Littleton",
+                    "cityDomain": "https://littleton-city-ma.mydripnurse.com",
+                    "citySitemap": "https://littleton-city-ma.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Lowell",
+                    "cityDomain": "https://lowell-city-ma.mydripnurse.com",
+                    "citySitemap": "https://lowell-city-ma.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Malden",
+                    "cityDomain": "https://malden-city-ma.mydripnurse.com",
+                    "citySitemap": "https://malden-city-ma.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Marlborough",
+                    "cityDomain": "https://marlborough-city-ma.mydripnurse.com",
+                    "citySitemap": "https://marlborough-city-ma.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Maynard",
+                    "cityDomain": "https://maynard-city-ma.mydripnurse.com",
+                    "citySitemap": "https://maynard-city-ma.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Medford",
+                    "cityDomain": "https://medford-city-ma.mydripnurse.com",
+                    "citySitemap": "https://medford-city-ma.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Melrose",
+                    "cityDomain": "https://melrose-city-ma.mydripnurse.com",
+                    "citySitemap": "https://melrose-city-ma.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Natick",
+                    "cityDomain": "https://natick-city-ma.mydripnurse.com",
+                    "citySitemap": "https://natick-city-ma.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Newton",
+                    "cityDomain": "https://newton-city-ma.mydripnurse.com",
+                    "citySitemap": "https://newton-city-ma.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "North Reading",
+                    "cityDomain": "https://north-reading-city-ma.mydripnurse.com",
+                    "citySitemap": "https://north-reading-city-ma.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Pepperell",
+                    "cityDomain": "https://pepperell-city-ma.mydripnurse.com",
+                    "citySitemap": "https://pepperell-city-ma.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Reading",
+                    "cityDomain": "https://reading-city-ma.mydripnurse.com",
+                    "citySitemap": "https://reading-city-ma.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Sherborn",
+                    "cityDomain": "https://sherborn-city-ma.mydripnurse.com",
+                    "citySitemap": "https://sherborn-city-ma.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Shirley",
+                    "cityDomain": "https://shirley-city-ma.mydripnurse.com",
+                    "citySitemap": "https://shirley-city-ma.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Somerville",
+                    "cityDomain": "https://somerville-city-ma.mydripnurse.com",
+                    "citySitemap": "https://somerville-city-ma.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Stoneham",
+                    "cityDomain": "https://stoneham-city-ma.mydripnurse.com",
+                    "citySitemap": "https://stoneham-city-ma.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Stow",
+                    "cityDomain": "https://stow-city-ma.mydripnurse.com",
+                    "citySitemap": "https://stow-city-ma.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Sudbury",
+                    "cityDomain": "https://sudbury-city-ma.mydripnurse.com",
+                    "citySitemap": "https://sudbury-city-ma.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Tewksbury",
+                    "cityDomain": "https://tewksbury-city-ma.mydripnurse.com",
+                    "citySitemap": "https://tewksbury-city-ma.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Townsend",
+                    "cityDomain": "https://townsend-city-ma.mydripnurse.com",
+                    "citySitemap": "https://townsend-city-ma.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Tyngsborough",
+                    "cityDomain": "https://tyngsborough-city-ma.mydripnurse.com",
+                    "citySitemap": "https://tyngsborough-city-ma.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Wakefield",
+                    "cityDomain": "https://wakefield-city-ma.mydripnurse.com",
+                    "citySitemap": "https://wakefield-city-ma.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Waltham",
+                    "cityDomain": "https://waltham-city-ma.mydripnurse.com",
+                    "citySitemap": "https://waltham-city-ma.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Watertown",
+                    "cityDomain": "https://watertown-city-ma.mydripnurse.com",
+                    "citySitemap": "https://watertown-city-ma.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Westford",
+                    "cityDomain": "https://westford-city-ma.mydripnurse.com",
+                    "citySitemap": "https://westford-city-ma.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Weston",
+                    "cityDomain": "https://weston-city-ma.mydripnurse.com",
+                    "citySitemap": "https://weston-city-ma.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Wilmington",
+                    "cityDomain": "https://wilmington-city-ma.mydripnurse.com",
+                    "citySitemap": "https://wilmington-city-ma.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Winchester",
+                    "cityDomain": "https://winchester-city-ma.mydripnurse.com",
+                    "citySitemap": "https://winchester-city-ma.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Woburn",
+                    "cityDomain": "https://woburn-city-ma.mydripnurse.com",
+                    "citySitemap": "https://woburn-city-ma.mydripnurse.com/sitemap.xml"
+                }
             ],
             "Timezone": {
                 "Name": "Eastern",
                 "Zone": "US/Eastern",
                 "UTC_Offset": "-05:00"
-            }
+            },
+            "countyDomain": "https://middlesex-county-ma.mydripnurse.com",
+            "countySitemap": "https://middlesex-county-ma.mydripnurse.com/sitemap.xml",
+            "embeddedSitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\n  <sitemap>\n    <loc>https://middlesex-county-ma.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://acton-city-ma.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://arlington-city-ma.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://ashby-city-ma.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://ashland-city-ma.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://ayer-city-ma.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://bedford-city-ma.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://belmont-city-ma.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://billerica-city-ma.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://boxborough-city-ma.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://burlington-city-ma.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://cambridge-city-ma.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://carlisle-city-ma.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://chelmsford-city-ma.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://concord-city-ma.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://dracut-city-ma.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://dunstable-city-ma.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://everett-city-ma.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://framingham-city-ma.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://groton-city-ma.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://holliston-city-ma.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://hopkinton-city-ma.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://hudson-city-ma.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://lexington-city-ma.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://lincoln-city-ma.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://littleton-city-ma.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://lowell-city-ma.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://malden-city-ma.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://marlborough-city-ma.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://maynard-city-ma.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://medford-city-ma.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://melrose-city-ma.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://natick-city-ma.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://newton-city-ma.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://north-reading-city-ma.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://pepperell-city-ma.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://reading-city-ma.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://sherborn-city-ma.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://shirley-city-ma.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://somerville-city-ma.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://stoneham-city-ma.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://stow-city-ma.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://sudbury-city-ma.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://tewksbury-city-ma.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://townsend-city-ma.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://tyngsborough-city-ma.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://wakefield-city-ma.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://waltham-city-ma.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://watertown-city-ma.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://westford-city-ma.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://weston-city-ma.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://wilmington-city-ma.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://winchester-city-ma.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://woburn-city-ma.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n</sitemapindex>"
         },
         {
-            "County Name": "Nantucket",
-            "Cities": [
-                "Nantucket"
+            "countyName": "Nantucket",
+            "cities": [
+                {
+                    "cityName": "Nantucket",
+                    "cityDomain": "https://nantucket-city-ma.mydripnurse.com",
+                    "citySitemap": "https://nantucket-city-ma.mydripnurse.com/sitemap.xml"
+                }
             ],
             "Timezone": {
                 "Name": "Eastern",
                 "Zone": "US/Eastern",
                 "UTC_Offset": "-05:00"
-            }
+            },
+            "countyDomain": "https://nantucket-county-ma.mydripnurse.com",
+            "countySitemap": "https://nantucket-county-ma.mydripnurse.com/sitemap.xml",
+            "embeddedSitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\n  <sitemap>\n    <loc>https://nantucket-county-ma.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://nantucket-city-ma.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n</sitemapindex>"
         },
         {
-            "County Name": "Norfolk",
-            "Cities": [
-                "Avon",
-                "Bellingham",
-                "Braintree",
-                "Brookline",
-                "Canton",
-                "Cohasset",
-                "Dedham",
-                "Dover",
-                "Foxborough",
-                "Franklin",
-                "Holbrook",
-                "Medfield",
-                "Medway",
-                "Millis",
-                "Milton",
-                "Needham",
-                "Norfolk",
-                "Norwood",
-                "Plainville",
-                "Quincy",
-                "Randolph",
-                "Sharon",
-                "Stoughton",
-                "Walpole",
-                "Wellesley",
-                "Westwood",
-                "Weymouth",
-                "Wrentham"
+            "countyName": "Norfolk",
+            "cities": [
+                {
+                    "cityName": "Avon",
+                    "cityDomain": "https://avon-city-ma.mydripnurse.com",
+                    "citySitemap": "https://avon-city-ma.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Bellingham",
+                    "cityDomain": "https://bellingham-city-ma.mydripnurse.com",
+                    "citySitemap": "https://bellingham-city-ma.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Braintree",
+                    "cityDomain": "https://braintree-city-ma.mydripnurse.com",
+                    "citySitemap": "https://braintree-city-ma.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Brookline",
+                    "cityDomain": "https://brookline-city-ma.mydripnurse.com",
+                    "citySitemap": "https://brookline-city-ma.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Canton",
+                    "cityDomain": "https://canton-city-ma.mydripnurse.com",
+                    "citySitemap": "https://canton-city-ma.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Cohasset",
+                    "cityDomain": "https://cohasset-city-ma.mydripnurse.com",
+                    "citySitemap": "https://cohasset-city-ma.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Dedham",
+                    "cityDomain": "https://dedham-city-ma.mydripnurse.com",
+                    "citySitemap": "https://dedham-city-ma.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Dover",
+                    "cityDomain": "https://dover-city-ma.mydripnurse.com",
+                    "citySitemap": "https://dover-city-ma.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Foxborough",
+                    "cityDomain": "https://foxborough-city-ma.mydripnurse.com",
+                    "citySitemap": "https://foxborough-city-ma.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Franklin",
+                    "cityDomain": "https://franklin-city-ma.mydripnurse.com",
+                    "citySitemap": "https://franklin-city-ma.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Holbrook",
+                    "cityDomain": "https://holbrook-city-ma.mydripnurse.com",
+                    "citySitemap": "https://holbrook-city-ma.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Medfield",
+                    "cityDomain": "https://medfield-city-ma.mydripnurse.com",
+                    "citySitemap": "https://medfield-city-ma.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Medway",
+                    "cityDomain": "https://medway-city-ma.mydripnurse.com",
+                    "citySitemap": "https://medway-city-ma.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Millis",
+                    "cityDomain": "https://millis-city-ma.mydripnurse.com",
+                    "citySitemap": "https://millis-city-ma.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Milton",
+                    "cityDomain": "https://milton-city-ma.mydripnurse.com",
+                    "citySitemap": "https://milton-city-ma.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Needham",
+                    "cityDomain": "https://needham-city-ma.mydripnurse.com",
+                    "citySitemap": "https://needham-city-ma.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Norfolk",
+                    "cityDomain": "https://norfolk-city-ma.mydripnurse.com",
+                    "citySitemap": "https://norfolk-city-ma.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Norwood",
+                    "cityDomain": "https://norwood-city-ma.mydripnurse.com",
+                    "citySitemap": "https://norwood-city-ma.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Plainville",
+                    "cityDomain": "https://plainville-city-ma.mydripnurse.com",
+                    "citySitemap": "https://plainville-city-ma.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Quincy",
+                    "cityDomain": "https://quincy-city-ma.mydripnurse.com",
+                    "citySitemap": "https://quincy-city-ma.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Randolph",
+                    "cityDomain": "https://randolph-city-ma.mydripnurse.com",
+                    "citySitemap": "https://randolph-city-ma.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Sharon",
+                    "cityDomain": "https://sharon-city-ma.mydripnurse.com",
+                    "citySitemap": "https://sharon-city-ma.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Stoughton",
+                    "cityDomain": "https://stoughton-city-ma.mydripnurse.com",
+                    "citySitemap": "https://stoughton-city-ma.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Walpole",
+                    "cityDomain": "https://walpole-city-ma.mydripnurse.com",
+                    "citySitemap": "https://walpole-city-ma.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Wellesley",
+                    "cityDomain": "https://wellesley-city-ma.mydripnurse.com",
+                    "citySitemap": "https://wellesley-city-ma.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Westwood",
+                    "cityDomain": "https://westwood-city-ma.mydripnurse.com",
+                    "citySitemap": "https://westwood-city-ma.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Weymouth",
+                    "cityDomain": "https://weymouth-city-ma.mydripnurse.com",
+                    "citySitemap": "https://weymouth-city-ma.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Wrentham",
+                    "cityDomain": "https://wrentham-city-ma.mydripnurse.com",
+                    "citySitemap": "https://wrentham-city-ma.mydripnurse.com/sitemap.xml"
+                }
             ],
             "Timezone": {
                 "Name": "Eastern",
                 "Zone": "US/Eastern",
                 "UTC_Offset": "-05:00"
-            }
+            },
+            "countyDomain": "https://norfolk-county-ma.mydripnurse.com",
+            "countySitemap": "https://norfolk-county-ma.mydripnurse.com/sitemap.xml",
+            "embeddedSitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\n  <sitemap>\n    <loc>https://norfolk-county-ma.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://avon-city-ma.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://bellingham-city-ma.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://braintree-city-ma.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://brookline-city-ma.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://canton-city-ma.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://cohasset-city-ma.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://dedham-city-ma.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://dover-city-ma.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://foxborough-city-ma.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://franklin-city-ma.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://holbrook-city-ma.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://medfield-city-ma.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://medway-city-ma.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://millis-city-ma.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://milton-city-ma.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://needham-city-ma.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://norfolk-city-ma.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://norwood-city-ma.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://plainville-city-ma.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://quincy-city-ma.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://randolph-city-ma.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://sharon-city-ma.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://stoughton-city-ma.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://walpole-city-ma.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://wellesley-city-ma.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://westwood-city-ma.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://weymouth-city-ma.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://wrentham-city-ma.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n</sitemapindex>"
         },
         {
-            "County Name": "Plymouth",
-            "Cities": [
-                "Abington",
-                "Bridgewater",
-                "Brockton",
-                "Carver",
-                "Duxbury",
-                "East Bridgewater",
-                "Halifax",
-                "Hanover",
-                "Hanson",
-                "Hingham",
-                "Hull",
-                "Kingston",
-                "Lakeville",
-                "Marion",
-                "Marshfield",
-                "Mattapoisett",
-                "Middleborough",
-                "Norwell",
-                "Pembroke",
-                "Plymouth",
-                "Plympton",
-                "Rochester",
-                "Rockland",
-                "Scituate",
-                "Wareham",
-                "West Bridgewater",
-                "Whitman"
+            "countyName": "Plymouth",
+            "cities": [
+                {
+                    "cityName": "Abington",
+                    "cityDomain": "https://abington-city-ma.mydripnurse.com",
+                    "citySitemap": "https://abington-city-ma.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Bridgewater",
+                    "cityDomain": "https://bridgewater-city-ma.mydripnurse.com",
+                    "citySitemap": "https://bridgewater-city-ma.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Brockton",
+                    "cityDomain": "https://brockton-city-ma.mydripnurse.com",
+                    "citySitemap": "https://brockton-city-ma.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Carver",
+                    "cityDomain": "https://carver-city-ma.mydripnurse.com",
+                    "citySitemap": "https://carver-city-ma.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Duxbury",
+                    "cityDomain": "https://duxbury-city-ma.mydripnurse.com",
+                    "citySitemap": "https://duxbury-city-ma.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "East Bridgewater",
+                    "cityDomain": "https://east-bridgewater-city-ma.mydripnurse.com",
+                    "citySitemap": "https://east-bridgewater-city-ma.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Halifax",
+                    "cityDomain": "https://halifax-city-ma.mydripnurse.com",
+                    "citySitemap": "https://halifax-city-ma.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Hanover",
+                    "cityDomain": "https://hanover-city-ma.mydripnurse.com",
+                    "citySitemap": "https://hanover-city-ma.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Hanson",
+                    "cityDomain": "https://hanson-city-ma.mydripnurse.com",
+                    "citySitemap": "https://hanson-city-ma.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Hingham",
+                    "cityDomain": "https://hingham-city-ma.mydripnurse.com",
+                    "citySitemap": "https://hingham-city-ma.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Hull",
+                    "cityDomain": "https://hull-city-ma.mydripnurse.com",
+                    "citySitemap": "https://hull-city-ma.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Kingston",
+                    "cityDomain": "https://kingston-city-ma.mydripnurse.com",
+                    "citySitemap": "https://kingston-city-ma.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Lakeville",
+                    "cityDomain": "https://lakeville-city-ma.mydripnurse.com",
+                    "citySitemap": "https://lakeville-city-ma.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Marion",
+                    "cityDomain": "https://marion-city-ma.mydripnurse.com",
+                    "citySitemap": "https://marion-city-ma.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Marshfield",
+                    "cityDomain": "https://marshfield-city-ma.mydripnurse.com",
+                    "citySitemap": "https://marshfield-city-ma.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Mattapoisett",
+                    "cityDomain": "https://mattapoisett-city-ma.mydripnurse.com",
+                    "citySitemap": "https://mattapoisett-city-ma.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Middleborough",
+                    "cityDomain": "https://middleborough-city-ma.mydripnurse.com",
+                    "citySitemap": "https://middleborough-city-ma.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Norwell",
+                    "cityDomain": "https://norwell-city-ma.mydripnurse.com",
+                    "citySitemap": "https://norwell-city-ma.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Pembroke",
+                    "cityDomain": "https://pembroke-city-ma.mydripnurse.com",
+                    "citySitemap": "https://pembroke-city-ma.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Plymouth",
+                    "cityDomain": "https://plymouth-city-ma.mydripnurse.com",
+                    "citySitemap": "https://plymouth-city-ma.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Plympton",
+                    "cityDomain": "https://plympton-city-ma.mydripnurse.com",
+                    "citySitemap": "https://plympton-city-ma.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Rochester",
+                    "cityDomain": "https://rochester-city-ma.mydripnurse.com",
+                    "citySitemap": "https://rochester-city-ma.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Rockland",
+                    "cityDomain": "https://rockland-city-ma.mydripnurse.com",
+                    "citySitemap": "https://rockland-city-ma.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Scituate",
+                    "cityDomain": "https://scituate-city-ma.mydripnurse.com",
+                    "citySitemap": "https://scituate-city-ma.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Wareham",
+                    "cityDomain": "https://wareham-city-ma.mydripnurse.com",
+                    "citySitemap": "https://wareham-city-ma.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "West Bridgewater",
+                    "cityDomain": "https://west-bridgewater-city-ma.mydripnurse.com",
+                    "citySitemap": "https://west-bridgewater-city-ma.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Whitman",
+                    "cityDomain": "https://whitman-city-ma.mydripnurse.com",
+                    "citySitemap": "https://whitman-city-ma.mydripnurse.com/sitemap.xml"
+                }
             ],
             "Timezone": {
                 "Name": "Eastern",
                 "Zone": "US/Eastern",
                 "UTC_Offset": "-05:00"
-            }
+            },
+            "countyDomain": "https://plymouth-county-ma.mydripnurse.com",
+            "countySitemap": "https://plymouth-county-ma.mydripnurse.com/sitemap.xml",
+            "embeddedSitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\n  <sitemap>\n    <loc>https://plymouth-county-ma.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://abington-city-ma.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://bridgewater-city-ma.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://brockton-city-ma.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://carver-city-ma.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://duxbury-city-ma.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://east-bridgewater-city-ma.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://halifax-city-ma.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://hanover-city-ma.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://hanson-city-ma.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://hingham-city-ma.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://hull-city-ma.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://kingston-city-ma.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://lakeville-city-ma.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://marion-city-ma.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://marshfield-city-ma.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://mattapoisett-city-ma.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://middleborough-city-ma.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://norwell-city-ma.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://pembroke-city-ma.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://plymouth-city-ma.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://plympton-city-ma.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://rochester-city-ma.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://rockland-city-ma.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://scituate-city-ma.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://wareham-city-ma.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://west-bridgewater-city-ma.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://whitman-city-ma.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n</sitemapindex>"
         },
         {
-            "County Name": "Suffolk",
-            "Cities": [
-                "Boston",
-                "Chelsea",
-                "Revere",
-                "Winthrop"
+            "countyName": "Suffolk",
+            "cities": [
+                {
+                    "cityName": "Boston",
+                    "cityDomain": "https://boston-city-ma.mydripnurse.com",
+                    "citySitemap": "https://boston-city-ma.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Chelsea",
+                    "cityDomain": "https://chelsea-city-ma.mydripnurse.com",
+                    "citySitemap": "https://chelsea-city-ma.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Revere",
+                    "cityDomain": "https://revere-city-ma.mydripnurse.com",
+                    "citySitemap": "https://revere-city-ma.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Winthrop",
+                    "cityDomain": "https://winthrop-city-ma.mydripnurse.com",
+                    "citySitemap": "https://winthrop-city-ma.mydripnurse.com/sitemap.xml"
+                }
             ],
             "Timezone": {
                 "Name": "Eastern",
                 "Zone": "US/Eastern",
                 "UTC_Offset": "-05:00"
-            }
+            },
+            "countyDomain": "https://suffolk-county-ma.mydripnurse.com",
+            "countySitemap": "https://suffolk-county-ma.mydripnurse.com/sitemap.xml",
+            "embeddedSitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\n  <sitemap>\n    <loc>https://suffolk-county-ma.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://boston-city-ma.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://chelsea-city-ma.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://revere-city-ma.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://winthrop-city-ma.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n</sitemapindex>"
         },
         {
-            "County Name": "Worcester",
-            "Cities": [
-                "Ashburnham",
-                "Athol",
-                "Auburn",
-                "Barre",
-                "Berlin",
-                "Blackstone",
-                "Bolton",
-                "Boylston",
-                "Brookfield",
-                "Charlton",
-                "Clinton",
-                "Douglas",
-                "Dudley",
-                "East Brookfield",
-                "Fitchburg",
-                "Gardner",
-                "Grafton",
-                "Hardwick",
-                "Holden",
-                "Hopedale",
-                "Hubbardston",
-                "Lancaster",
-                "Leicester",
-                "Leominster",
-                "Lunenburg",
-                "Mendon",
-                "Milford",
-                "Millbury",
-                "Millville",
-                "New Braintree",
-                "North Brookfield",
-                "Northborough",
-                "Northbridge",
-                "Oakham",
-                "Oxford",
-                "Paxton",
-                "Petersham",
-                "Phillipston",
-                "Princeton",
-                "Rutland",
-                "Shrewsbury",
-                "Southborough",
-                "Southbridge",
-                "Spencer",
-                "Sterling",
-                "Sturbridge",
-                "Sutton",
-                "Templeton",
-                "Townsend",
-                "Upton",
-                "Uxbridge",
-                "Warren",
-                "Webster",
-                "West Boylston",
-                "West Brookfield",
-                "Westborough",
-                "Westminster",
-                "Winchendon",
-                "Worcester"
+            "countyName": "Worcester",
+            "cities": [
+                {
+                    "cityName": "Ashburnham",
+                    "cityDomain": "https://ashburnham-city-ma.mydripnurse.com",
+                    "citySitemap": "https://ashburnham-city-ma.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Athol",
+                    "cityDomain": "https://athol-city-ma.mydripnurse.com",
+                    "citySitemap": "https://athol-city-ma.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Auburn",
+                    "cityDomain": "https://auburn-city-ma.mydripnurse.com",
+                    "citySitemap": "https://auburn-city-ma.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Barre",
+                    "cityDomain": "https://barre-city-ma.mydripnurse.com",
+                    "citySitemap": "https://barre-city-ma.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Berlin",
+                    "cityDomain": "https://berlin-city-ma.mydripnurse.com",
+                    "citySitemap": "https://berlin-city-ma.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Blackstone",
+                    "cityDomain": "https://blackstone-city-ma.mydripnurse.com",
+                    "citySitemap": "https://blackstone-city-ma.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Bolton",
+                    "cityDomain": "https://bolton-city-ma.mydripnurse.com",
+                    "citySitemap": "https://bolton-city-ma.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Boylston",
+                    "cityDomain": "https://boylston-city-ma.mydripnurse.com",
+                    "citySitemap": "https://boylston-city-ma.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Brookfield",
+                    "cityDomain": "https://brookfield-city-ma.mydripnurse.com",
+                    "citySitemap": "https://brookfield-city-ma.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Charlton",
+                    "cityDomain": "https://charlton-city-ma.mydripnurse.com",
+                    "citySitemap": "https://charlton-city-ma.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Clinton",
+                    "cityDomain": "https://clinton-city-ma.mydripnurse.com",
+                    "citySitemap": "https://clinton-city-ma.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Douglas",
+                    "cityDomain": "https://douglas-city-ma.mydripnurse.com",
+                    "citySitemap": "https://douglas-city-ma.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Dudley",
+                    "cityDomain": "https://dudley-city-ma.mydripnurse.com",
+                    "citySitemap": "https://dudley-city-ma.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "East Brookfield",
+                    "cityDomain": "https://east-brookfield-city-ma.mydripnurse.com",
+                    "citySitemap": "https://east-brookfield-city-ma.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Fitchburg",
+                    "cityDomain": "https://fitchburg-city-ma.mydripnurse.com",
+                    "citySitemap": "https://fitchburg-city-ma.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Gardner",
+                    "cityDomain": "https://gardner-city-ma.mydripnurse.com",
+                    "citySitemap": "https://gardner-city-ma.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Grafton",
+                    "cityDomain": "https://grafton-city-ma.mydripnurse.com",
+                    "citySitemap": "https://grafton-city-ma.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Hardwick",
+                    "cityDomain": "https://hardwick-city-ma.mydripnurse.com",
+                    "citySitemap": "https://hardwick-city-ma.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Holden",
+                    "cityDomain": "https://holden-city-ma.mydripnurse.com",
+                    "citySitemap": "https://holden-city-ma.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Hopedale",
+                    "cityDomain": "https://hopedale-city-ma.mydripnurse.com",
+                    "citySitemap": "https://hopedale-city-ma.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Hubbardston",
+                    "cityDomain": "https://hubbardston-city-ma.mydripnurse.com",
+                    "citySitemap": "https://hubbardston-city-ma.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Lancaster",
+                    "cityDomain": "https://lancaster-city-ma.mydripnurse.com",
+                    "citySitemap": "https://lancaster-city-ma.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Leicester",
+                    "cityDomain": "https://leicester-city-ma.mydripnurse.com",
+                    "citySitemap": "https://leicester-city-ma.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Leominster",
+                    "cityDomain": "https://leominster-city-ma.mydripnurse.com",
+                    "citySitemap": "https://leominster-city-ma.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Lunenburg",
+                    "cityDomain": "https://lunenburg-city-ma.mydripnurse.com",
+                    "citySitemap": "https://lunenburg-city-ma.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Mendon",
+                    "cityDomain": "https://mendon-city-ma.mydripnurse.com",
+                    "citySitemap": "https://mendon-city-ma.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Milford",
+                    "cityDomain": "https://milford-city-ma.mydripnurse.com",
+                    "citySitemap": "https://milford-city-ma.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Millbury",
+                    "cityDomain": "https://millbury-city-ma.mydripnurse.com",
+                    "citySitemap": "https://millbury-city-ma.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Millville",
+                    "cityDomain": "https://millville-city-ma.mydripnurse.com",
+                    "citySitemap": "https://millville-city-ma.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "New Braintree",
+                    "cityDomain": "https://new-braintree-city-ma.mydripnurse.com",
+                    "citySitemap": "https://new-braintree-city-ma.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "North Brookfield",
+                    "cityDomain": "https://north-brookfield-city-ma.mydripnurse.com",
+                    "citySitemap": "https://north-brookfield-city-ma.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Northborough",
+                    "cityDomain": "https://northborough-city-ma.mydripnurse.com",
+                    "citySitemap": "https://northborough-city-ma.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Northbridge",
+                    "cityDomain": "https://northbridge-city-ma.mydripnurse.com",
+                    "citySitemap": "https://northbridge-city-ma.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Oakham",
+                    "cityDomain": "https://oakham-city-ma.mydripnurse.com",
+                    "citySitemap": "https://oakham-city-ma.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Oxford",
+                    "cityDomain": "https://oxford-city-ma.mydripnurse.com",
+                    "citySitemap": "https://oxford-city-ma.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Paxton",
+                    "cityDomain": "https://paxton-city-ma.mydripnurse.com",
+                    "citySitemap": "https://paxton-city-ma.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Petersham",
+                    "cityDomain": "https://petersham-city-ma.mydripnurse.com",
+                    "citySitemap": "https://petersham-city-ma.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Phillipston",
+                    "cityDomain": "https://phillipston-city-ma.mydripnurse.com",
+                    "citySitemap": "https://phillipston-city-ma.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Princeton",
+                    "cityDomain": "https://princeton-city-ma.mydripnurse.com",
+                    "citySitemap": "https://princeton-city-ma.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Rutland",
+                    "cityDomain": "https://rutland-city-ma.mydripnurse.com",
+                    "citySitemap": "https://rutland-city-ma.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Shrewsbury",
+                    "cityDomain": "https://shrewsbury-city-ma.mydripnurse.com",
+                    "citySitemap": "https://shrewsbury-city-ma.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Southborough",
+                    "cityDomain": "https://southborough-city-ma.mydripnurse.com",
+                    "citySitemap": "https://southborough-city-ma.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Southbridge",
+                    "cityDomain": "https://southbridge-city-ma.mydripnurse.com",
+                    "citySitemap": "https://southbridge-city-ma.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Spencer",
+                    "cityDomain": "https://spencer-city-ma.mydripnurse.com",
+                    "citySitemap": "https://spencer-city-ma.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Sterling",
+                    "cityDomain": "https://sterling-city-ma.mydripnurse.com",
+                    "citySitemap": "https://sterling-city-ma.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Sturbridge",
+                    "cityDomain": "https://sturbridge-city-ma.mydripnurse.com",
+                    "citySitemap": "https://sturbridge-city-ma.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Sutton",
+                    "cityDomain": "https://sutton-city-ma.mydripnurse.com",
+                    "citySitemap": "https://sutton-city-ma.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Templeton",
+                    "cityDomain": "https://templeton-city-ma.mydripnurse.com",
+                    "citySitemap": "https://templeton-city-ma.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Townsend",
+                    "cityDomain": "https://townsend-city-ma.mydripnurse.com",
+                    "citySitemap": "https://townsend-city-ma.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Upton",
+                    "cityDomain": "https://upton-city-ma.mydripnurse.com",
+                    "citySitemap": "https://upton-city-ma.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Uxbridge",
+                    "cityDomain": "https://uxbridge-city-ma.mydripnurse.com",
+                    "citySitemap": "https://uxbridge-city-ma.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Warren",
+                    "cityDomain": "https://warren-city-ma.mydripnurse.com",
+                    "citySitemap": "https://warren-city-ma.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Webster",
+                    "cityDomain": "https://webster-city-ma.mydripnurse.com",
+                    "citySitemap": "https://webster-city-ma.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "West Boylston",
+                    "cityDomain": "https://west-boylston-city-ma.mydripnurse.com",
+                    "citySitemap": "https://west-boylston-city-ma.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "West Brookfield",
+                    "cityDomain": "https://west-brookfield-city-ma.mydripnurse.com",
+                    "citySitemap": "https://west-brookfield-city-ma.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Westborough",
+                    "cityDomain": "https://westborough-city-ma.mydripnurse.com",
+                    "citySitemap": "https://westborough-city-ma.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Westminster",
+                    "cityDomain": "https://westminster-city-ma.mydripnurse.com",
+                    "citySitemap": "https://westminster-city-ma.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Winchendon",
+                    "cityDomain": "https://winchendon-city-ma.mydripnurse.com",
+                    "citySitemap": "https://winchendon-city-ma.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Worcester",
+                    "cityDomain": "https://worcester-city-ma.mydripnurse.com",
+                    "citySitemap": "https://worcester-city-ma.mydripnurse.com/sitemap.xml"
+                }
             ],
             "Timezone": {
                 "Name": "Eastern",
                 "Zone": "US/Eastern",
                 "UTC_Offset": "-05:00"
-            }
+            },
+            "countyDomain": "https://worcester-county-ma.mydripnurse.com",
+            "countySitemap": "https://worcester-county-ma.mydripnurse.com/sitemap.xml",
+            "embeddedSitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\n  <sitemap>\n    <loc>https://worcester-county-ma.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://ashburnham-city-ma.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://athol-city-ma.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://auburn-city-ma.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://barre-city-ma.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://berlin-city-ma.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://blackstone-city-ma.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://bolton-city-ma.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://boylston-city-ma.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://brookfield-city-ma.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://charlton-city-ma.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://clinton-city-ma.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://douglas-city-ma.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://dudley-city-ma.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://east-brookfield-city-ma.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://fitchburg-city-ma.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://gardner-city-ma.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://grafton-city-ma.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://hardwick-city-ma.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://holden-city-ma.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://hopedale-city-ma.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://hubbardston-city-ma.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://lancaster-city-ma.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://leicester-city-ma.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://leominster-city-ma.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://lunenburg-city-ma.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://mendon-city-ma.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://milford-city-ma.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://millbury-city-ma.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://millville-city-ma.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://new-braintree-city-ma.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://north-brookfield-city-ma.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://northborough-city-ma.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://northbridge-city-ma.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://oakham-city-ma.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://oxford-city-ma.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://paxton-city-ma.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://petersham-city-ma.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://phillipston-city-ma.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://princeton-city-ma.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://rutland-city-ma.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://shrewsbury-city-ma.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://southborough-city-ma.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://southbridge-city-ma.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://spencer-city-ma.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://sterling-city-ma.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://sturbridge-city-ma.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://sutton-city-ma.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://templeton-city-ma.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://townsend-city-ma.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://upton-city-ma.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://uxbridge-city-ma.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://warren-city-ma.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://webster-city-ma.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://west-boylston-city-ma.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://west-brookfield-city-ma.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://westborough-city-ma.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://westminster-city-ma.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://winchendon-city-ma.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://worcester-city-ma.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n</sitemapindex>"
         }
     ],
     "website": "https://www.mydripnurse.com",

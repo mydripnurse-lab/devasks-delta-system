@@ -1,8 +1,8 @@
 {
-    "Counties": [
+    "counties": [
         {
-            "County Name": "Audrain",
-            "Cities": [
+            "countyName": "Audrain",
+            "cities": [
                 "Benton City",
                 "Martinsburg",
                 "Mexico",
@@ -18,8 +18,8 @@
             }
         },
         {
-            "County Name": "Barry",
-            "Cities": [
+            "countyName": "Barry",
+            "cities": [
                 "Butterfield",
                 "Cassville",
                 "Eagle Rock",
@@ -39,8 +39,8 @@
             }
         },
         {
-            "County Name": "Benton",
-            "Cities": [
+            "countyName": "Benton",
+            "cities": [
                 "Cole Camp",
                 "Edwards",
                 "Fristoe",
@@ -64,8 +64,8 @@
             }
         },
         {
-            "County Name": "Boone",
-            "Cities": [
+            "countyName": "Boone",
+            "cities": [
                 "Centralia",
                 "Columbia",
                 "Hallsville",
@@ -84,8 +84,8 @@
             }
         },
         {
-            "County Name": "Callaway",
-            "Cities": [
+            "countyName": "Callaway",
+            "cities": [
                 "Auxvasse",
                 "Bachelor",
                 "Calwood",
@@ -103,8 +103,8 @@
             }
         },
         {
-            "County Name": "Camden",
-            "Cities": [
+            "countyName": "Camden",
+            "cities": [
                 "Branch",
                 "Climax Springs",
                 "Macks Creek",
@@ -118,8 +118,8 @@
             }
         },
         {
-            "County Name": "Cedar",
-            "Cities": [
+            "countyName": "Cedar",
+            "cities": [
                 "Caplinger Mills",
                 "Stockton"
             ],
@@ -130,8 +130,8 @@
             }
         },
         {
-            "County Name": "Chariton",
-            "Cities": [
+            "countyName": "Chariton",
+            "cities": [
                 "Brunswick",
                 "Bynumville",
                 "Dalton",
@@ -151,8 +151,8 @@
             }
         },
         {
-            "County Name": "Christian",
-            "Cities": [
+            "countyName": "Christian",
+            "cities": [
                 "Billings",
                 "Browns Spring",
                 "Bruner",
@@ -178,8 +178,8 @@
             }
         },
         {
-            "County Name": "Cole",
-            "Cities": [
+            "countyName": "Cole",
+            "cities": [
                 "Brazito",
                 "Elston",
                 "Jefferson City",
@@ -192,8 +192,8 @@
             }
         },
         {
-            "County Name": "Cooper",
-            "Cities": [
+            "countyName": "Cooper",
+            "cities": [
                 "Billingsville",
                 "Blackwater",
                 "Boonville",
@@ -217,8 +217,8 @@
             }
         },
         {
-            "County Name": "Crawford",
-            "Cities": [
+            "countyName": "Crawford",
+            "cities": [
                 "Berryman",
                 "Bourbon",
                 "Cherryville",
@@ -237,8 +237,8 @@
             }
         },
         {
-            "County Name": "Dade",
-            "Cities": [
+            "countyName": "Dade",
+            "cities": [
                 "Arcola",
                 "Dadeville",
                 "Everton",
@@ -253,8 +253,8 @@
             }
         },
         {
-            "County Name": "Dallas",
-            "Cities": [
+            "countyName": "Dallas",
+            "cities": [
                 "Buffalo",
                 "Cedar Ridge",
                 "Elkland",
@@ -271,8 +271,8 @@
             }
         },
         {
-            "County Name": "Dent",
-            "Cities": [
+            "countyName": "Dent",
+            "cities": [
                 "Anutt",
                 "Boss",
                 "Doss",
@@ -294,8 +294,8 @@
             }
         },
         {
-            "County Name": "Douglas",
-            "Cities": [
+            "countyName": "Douglas",
+            "cities": [
                 "Ava",
                 "Drury",
                 "Mc Clurg",
@@ -309,8 +309,8 @@
             }
         },
         {
-            "County Name": "Greene",
-            "Cities": [
+            "countyName": "Greene",
+            "cities": [
                 "Ash Grove",
                 "Battlefield",
                 "Bois D Arc",
@@ -331,8 +331,8 @@
             }
         },
         {
-            "County Name": "Henry",
-            "Cities": [
+            "countyName": "Henry",
+            "cities": [
                 "Calhoun",
                 "Lewis Station",
                 "Windsor"
@@ -344,8 +344,8 @@
             }
         },
         {
-            "County Name": "Hickory",
-            "Cities": [
+            "countyName": "Hickory",
+            "cities": [
                 "Cross Timbers",
                 "Galmey",
                 "Hermitage",
@@ -362,8 +362,8 @@
             }
         },
         {
-            "County Name": "Howard",
-            "Cities": [
+            "countyName": "Howard",
+            "cities": [
                 "Armstrong",
                 "Boonesboro",
                 "Estill",
@@ -381,8 +381,8 @@
             }
         },
         {
-            "County Name": "Howell",
-            "Cities": [
+            "countyName": "Howell",
+            "cities": [
                 "Brandsville",
                 "Cabool",
                 "Caulfield",
@@ -403,8 +403,8 @@
             }
         },
         {
-            "County Name": "Iron",
-            "Cities": [
+            "countyName": "Iron",
+            "cities": [
                 "Bixby",
                 "Steelville",
                 "Viburnum"
@@ -416,8 +416,8 @@
             }
         },
         {
-            "County Name": "Johnson",
-            "Cities": [
+            "countyName": "Johnson",
+            "cities": [
                 "Knob Noster",
                 "Montserrat",
                 "Valley City",
@@ -430,8 +430,8 @@
             }
         },
         {
-            "County Name": "Laclede",
-            "Cities": [
+            "countyName": "Laclede",
+            "cities": [
                 "Conway",
                 "Eldridge",
                 "Lebanon",
@@ -446,8 +446,8 @@
             }
         },
         {
-            "County Name": "Lafayette",
-            "Cities": [
+            "countyName": "Lafayette",
+            "cities": [
                 "Emma"
             ],
             "Timezone": {
@@ -457,8 +457,8 @@
             }
         },
         {
-            "County Name": "Lawrence",
-            "Cities": [
+            "countyName": "Lawrence",
+            "cities": [
                 "Aurora",
                 "Berwick",
                 "Capps Creek",
@@ -482,8 +482,8 @@
             }
         },
         {
-            "County Name": "Macon",
-            "Cities": [
+            "countyName": "Macon",
+            "cities": [
                 "Ardmore",
                 "College Mound",
                 "Excello",
@@ -496,8 +496,8 @@
             }
         },
         {
-            "County Name": "Maries",
-            "Cities": [
+            "countyName": "Maries",
+            "cities": [
                 "Brinktown",
                 "Vichy",
                 "Vienna"
@@ -509,8 +509,8 @@
             }
         },
         {
-            "County Name": "McDonald",
-            "Cities": [
+            "countyName": "McDonald",
+            "cities": [
                 "Powell"
             ],
             "Timezone": {
@@ -520,8 +520,8 @@
             }
         },
         {
-            "County Name": "Miller",
-            "Cities": [
+            "countyName": "Miller",
+            "cities": [
                 "Iberia"
             ],
             "Timezone": {
@@ -531,8 +531,8 @@
             }
         },
         {
-            "County Name": "Monroe",
-            "Cities": [
+            "countyName": "Monroe",
+            "cities": [
                 "Ash",
                 "Florida",
                 "Goss",
@@ -553,8 +553,8 @@
             }
         },
         {
-            "County Name": "Morgan",
-            "Cities": [
+            "countyName": "Morgan",
+            "cities": [
                 "Florence",
                 "Syracuse"
             ],
@@ -565,8 +565,8 @@
             }
         },
         {
-            "County Name": "Oregon",
-            "Cities": [
+            "countyName": "Oregon",
+            "cities": [
                 "Alton",
                 "Couch",
                 "Koshkonong",
@@ -581,8 +581,8 @@
             }
         },
         {
-            "County Name": "Osage",
-            "Cities": [
+            "countyName": "Osage",
+            "cities": [
                 "Westphalia"
             ],
             "Timezone": {
@@ -592,8 +592,8 @@
             }
         },
         {
-            "County Name": "Ozark",
-            "Cities": [
+            "countyName": "Ozark",
+            "cities": [
                 "Bakersfield",
                 "Brixey",
                 "Dora",
@@ -623,8 +623,8 @@
             }
         },
         {
-            "County Name": "Pettis",
-            "Cities": [
+            "countyName": "Pettis",
+            "cities": [
                 "Bahner",
                 "Beaman",
                 "Dresden",
@@ -646,8 +646,8 @@
             }
         },
         {
-            "County Name": "Phelps",
-            "Cities": [
+            "countyName": "Phelps",
+            "cities": [
                 "Beulah",
                 "Big Piney",
                 "Duke",
@@ -667,8 +667,8 @@
             }
         },
         {
-            "County Name": "Polk",
-            "Cities": [
+            "countyName": "Polk",
+            "cities": [
                 "Aldrich",
                 "Bolivar",
                 "Brighton",
@@ -690,8 +690,8 @@
             }
         },
         {
-            "County Name": "Pulaski",
-            "Cities": [
+            "countyName": "Pulaski",
+            "cities": [
                 "Buckhorn",
                 "Crocker",
                 "Devils Elbow",
@@ -711,8 +711,8 @@
             }
         },
         {
-            "County Name": "Randolph",
-            "Cities": [
+            "countyName": "Randolph",
+            "cities": [
                 "Cairo",
                 "Clark",
                 "Clifton Hill",
@@ -734,8 +734,8 @@
             }
         },
         {
-            "County Name": "Saline",
-            "Cities": [
+            "countyName": "Saline",
+            "cities": [
                 "Arrow Rock",
                 "Blackburn",
                 "Cretcher",
@@ -762,8 +762,8 @@
             }
         },
         {
-            "County Name": "Shannon",
-            "Cities": [
+            "countyName": "Shannon",
+            "cities": [
                 "Alley Springs",
                 "Birch Tree",
                 "Eminence",
@@ -783,8 +783,8 @@
             }
         },
         {
-            "County Name": "Stone",
-            "Cities": [
+            "countyName": "Stone",
+            "cities": [
                 "Blue Eye",
                 "Branson West",
                 "Cape Fair",
@@ -804,8 +804,8 @@
             }
         },
         {
-            "County Name": "Taney",
-            "Cities": [
+            "countyName": "Taney",
+            "cities": [
                 "Bradleyville",
                 "Branson",
                 "Bull Creek Village",
@@ -836,8 +836,8 @@
             }
         },
         {
-            "County Name": "Texas",
-            "Cities": [
+            "countyName": "Texas",
+            "cities": [
                 "Bendavis",
                 "Bucyrus",
                 "Clara",
@@ -868,8 +868,8 @@
             }
         },
         {
-            "County Name": "Webster",
-            "Cities": [
+            "countyName": "Webster",
+            "cities": [
                 "Cedar Gap",
                 "Diggins",
                 "Fordland",
@@ -887,8 +887,8 @@
             }
         },
         {
-            "County Name": "Wright",
-            "Cities": [
+            "countyName": "Wright",
+            "cities": [
                 "Falcon",
                 "Graff",
                 "Grovespring",
