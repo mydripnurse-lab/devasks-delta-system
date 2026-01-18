@@ -1,8 +1,8 @@
 {
-    "Counties": [
+    "counties": [
         {
-            "County Name": "Apache",
-            "Cities": [
+            "countyName": "Apache",
+            "cities": [
                 {
                     "cityName": "Chinle",
                     "cityDomain": "https://chinle-city-az.mydripnurse.com",
@@ -35,11 +35,12 @@
                 "GMT_Offset": "(GMT-07:00)"
             },
             "countyDomain": "https://apache-county-az.mydripnurse.com",
-            "countySitemap": "https://apache-county-az.mydripnurse.com/sitemap.xml"
+            "countySitemap": "https://apache-county-az.mydripnurse.com/sitemap.xml",
+            "sitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\n  <sitemap>\n    <loc>https://apache-county-az.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://chinle-city-az.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://eagar-city-az.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://springerville-city-az.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://st-johns-city-az.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://window-rock-city-az.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n</sitemapindex>"
         },
         {
-            "County Name": "Cochise",
-            "Cities": [
+            "countyName": "Cochise",
+            "cities": [
                 {
                     "cityName": "Bisbee",
                     "cityDomain": "https://bisbee-city-az.mydripnurse.com",
@@ -72,11 +73,12 @@
                 "GMT_Offset": "(GMT-07:00)"
             },
             "countyDomain": "https://cochise-county-az.mydripnurse.com",
-            "countySitemap": "https://cochise-county-az.mydripnurse.com/sitemap.xml"
+            "countySitemap": "https://cochise-county-az.mydripnurse.com/sitemap.xml",
+            "sitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\n  <sitemap>\n    <loc>https://cochise-county-az.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://bisbee-city-az.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://douglas-city-az.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://sierra-vista-city-az.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://tombstone-city-az.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://willcox-city-az.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n</sitemapindex>"
         },
         {
-            "County Name": "Coconino",
-            "Cities": [
+            "countyName": "Coconino",
+            "cities": [
                 {
                     "cityName": "Flagstaff",
                     "cityDomain": "https://flagstaff-city-az.mydripnurse.com",
@@ -109,11 +111,12 @@
                 "GMT_Offset": "(GMT-07:00)"
             },
             "countyDomain": "https://coconino-county-az.mydripnurse.com",
-            "countySitemap": "https://coconino-county-az.mydripnurse.com/sitemap.xml"
+            "countySitemap": "https://coconino-county-az.mydripnurse.com/sitemap.xml",
+            "sitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\n  <sitemap>\n    <loc>https://coconino-county-az.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://flagstaff-city-az.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://page-city-az.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://sedona-city-az.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://williams-city-az.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://tuba-city-city-az.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n</sitemapindex>"
         },
         {
-            "County Name": "Gila",
-            "Cities": [
+            "countyName": "Gila",
+            "cities": [
                 {
                     "cityName": "Globe",
                     "cityDomain": "https://globe-city-az.mydripnurse.com",
@@ -146,11 +149,12 @@
                 "GMT_Offset": "(GMT-07:00)"
             },
             "countyDomain": "https://gila-county-az.mydripnurse.com",
-            "countySitemap": "https://gila-county-az.mydripnurse.com/sitemap.xml"
+            "countySitemap": "https://gila-county-az.mydripnurse.com/sitemap.xml",
+            "sitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\n  <sitemap>\n    <loc>https://gila-county-az.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://globe-city-az.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://miami-city-az.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://payson-city-az.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://strawberry-city-az.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://star-valley-city-az.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n</sitemapindex>"
         },
         {
-            "County Name": "Graham",
-            "Cities": [
+            "countyName": "Graham",
+            "cities": [
                 {
                     "cityName": "Safford",
                     "cityDomain": "https://safford-city-az.mydripnurse.com",
@@ -178,11 +182,12 @@
                 "GMT_Offset": "(GMT-07:00)"
             },
             "countyDomain": "https://graham-county-az.mydripnurse.com",
-            "countySitemap": "https://graham-county-az.mydripnurse.com/sitemap.xml"
+            "countySitemap": "https://graham-county-az.mydripnurse.com/sitemap.xml",
+            "sitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\n  <sitemap>\n    <loc>https://graham-county-az.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://safford-city-az.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://thatcher-city-az.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://pima-city-az.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://solomon-city-az.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n</sitemapindex>"
         },
         {
-            "County Name": "Greenlee",
-            "Cities": [
+            "countyName": "Greenlee",
+            "cities": [
                 {
                     "cityName": "Clifton",
                     "cityDomain": "https://clifton-city-az.mydripnurse.com",
@@ -200,11 +205,12 @@
                 "GMT_Offset": "(GMT-07:00)"
             },
             "countyDomain": "https://greenlee-county-az.mydripnurse.com",
-            "countySitemap": "https://greenlee-county-az.mydripnurse.com/sitemap.xml"
+            "countySitemap": "https://greenlee-county-az.mydripnurse.com/sitemap.xml",
+            "sitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\n  <sitemap>\n    <loc>https://greenlee-county-az.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://clifton-city-az.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://duncan-city-az.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n</sitemapindex>"
         },
         {
-            "County Name": "La Paz",
-            "Cities": [
+            "countyName": "La Paz",
+            "cities": [
                 {
                     "cityName": "Parker",
                     "cityDomain": "https://parker-city-az.mydripnurse.com",
@@ -232,11 +238,12 @@
                 "GMT_Offset": "(GMT-07:00)"
             },
             "countyDomain": "https://la-paz-county-az.mydripnurse.com",
-            "countySitemap": "https://la-paz-county-az.mydripnurse.com/sitemap.xml"
+            "countySitemap": "https://la-paz-county-az.mydripnurse.com/sitemap.xml",
+            "sitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\n  <sitemap>\n    <loc>https://la-paz-county-az.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://parker-city-az.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://quartzsite-city-az.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://salome-city-az.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://wenden-city-az.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n</sitemapindex>"
         },
         {
-            "County Name": "Maricopa",
-            "Cities": [
+            "countyName": "Maricopa",
+            "cities": [
                 {
                     "cityName": "Phoenix",
                     "cityDomain": "https://phoenix-city-az.mydripnurse.com",
@@ -304,11 +311,12 @@
                 "GMT_Offset": "(GMT-07:00)"
             },
             "countyDomain": "https://maricopa-county-az.mydripnurse.com",
-            "countySitemap": "https://maricopa-county-az.mydripnurse.com/sitemap.xml"
+            "countySitemap": "https://maricopa-county-az.mydripnurse.com/sitemap.xml",
+            "sitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\n  <sitemap>\n    <loc>https://maricopa-county-az.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://phoenix-city-az.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://scottsdale-city-az.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://mesa-city-az.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://chandler-city-az.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://gilbert-city-az.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://tempe-city-az.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://glendale-city-az.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://peoria-city-az.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://surprise-city-az.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://avondale-city-az.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://goodyear-city-az.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://buckeye-city-az.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n</sitemapindex>"
         },
         {
-            "County Name": "Mohave",
-            "Cities": [
+            "countyName": "Mohave",
+            "cities": [
                 {
                     "cityName": "Kingman",
                     "cityDomain": "https://kingman-city-az.mydripnurse.com",
@@ -336,11 +344,12 @@
                 "GMT_Offset": "(GMT-07:00)"
             },
             "countyDomain": "https://mohave-county-az.mydripnurse.com",
-            "countySitemap": "https://mohave-county-az.mydripnurse.com/sitemap.xml"
+            "countySitemap": "https://mohave-county-az.mydripnurse.com/sitemap.xml",
+            "sitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\n  <sitemap>\n    <loc>https://mohave-county-az.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://kingman-city-az.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://lake-havasu-city-city-az.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://bullhead-city-city-az.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://colorado-city-city-az.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n</sitemapindex>"
         },
         {
-            "County Name": "Navajo",
-            "Cities": [
+            "countyName": "Navajo",
+            "cities": [
                 {
                     "cityName": "Holbrook",
                     "cityDomain": "https://holbrook-city-az.mydripnurse.com",
@@ -368,11 +377,12 @@
                 "GMT_Offset": "(GMT-07:00)"
             },
             "countyDomain": "https://navajo-county-az.mydripnurse.com",
-            "countySitemap": "https://navajo-county-az.mydripnurse.com/sitemap.xml"
+            "countySitemap": "https://navajo-county-az.mydripnurse.com/sitemap.xml",
+            "sitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\n  <sitemap>\n    <loc>https://navajo-county-az.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://holbrook-city-az.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://show-low-city-az.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://winslow-city-az.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://pinetop-lakeside-city-az.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n</sitemapindex>"
         },
         {
-            "County Name": "Pima",
-            "Cities": [
+            "countyName": "Pima",
+            "cities": [
                 {
                     "cityName": "Tucson",
                     "cityDomain": "https://tucson-city-az.mydripnurse.com",
@@ -405,11 +415,12 @@
                 "GMT_Offset": "(GMT-07:00)"
             },
             "countyDomain": "https://pima-county-az.mydripnurse.com",
-            "countySitemap": "https://pima-county-az.mydripnurse.com/sitemap.xml"
+            "countySitemap": "https://pima-county-az.mydripnurse.com/sitemap.xml",
+            "sitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\n  <sitemap>\n    <loc>https://pima-county-az.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://tucson-city-az.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://oro-valley-city-az.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://marana-city-az.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://sahuarita-city-az.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://south-tucson-city-az.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n</sitemapindex>"
         },
         {
-            "County Name": "Pinal",
-            "Cities": [
+            "countyName": "Pinal",
+            "cities": [
                 {
                     "cityName": "Casa Grande",
                     "cityDomain": "https://casa-grande-city-az.mydripnurse.com",
@@ -442,11 +453,12 @@
                 "GMT_Offset": "(GMT-07:00)"
             },
             "countyDomain": "https://pinal-county-az.mydripnurse.com",
-            "countySitemap": "https://pinal-county-az.mydripnurse.com/sitemap.xml"
+            "countySitemap": "https://pinal-county-az.mydripnurse.com/sitemap.xml",
+            "sitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\n  <sitemap>\n    <loc>https://pinal-county-az.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://casa-grande-city-az.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://coolidge-city-az.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://florence-city-az.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://maricopa-city-az.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://san-tan-valley-city-az.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n</sitemapindex>"
         },
         {
-            "County Name": "Santa Cruz",
-            "Cities": [
+            "countyName": "Santa Cruz",
+            "cities": [
                 {
                     "cityName": "Nogales",
                     "cityDomain": "https://nogales-city-az.mydripnurse.com",
@@ -464,11 +476,12 @@
                 "GMT_Offset": "(GMT-07:00)"
             },
             "countyDomain": "https://santa-cruz-county-az.mydripnurse.com",
-            "countySitemap": "https://santa-cruz-county-az.mydripnurse.com/sitemap.xml"
+            "countySitemap": "https://santa-cruz-county-az.mydripnurse.com/sitemap.xml",
+            "sitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\n  <sitemap>\n    <loc>https://santa-cruz-county-az.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://nogales-city-az.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://patagonia-city-az.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n</sitemapindex>"
         },
         {
-            "County Name": "Yavapai",
-            "Cities": [
+            "countyName": "Yavapai",
+            "cities": [
                 {
                     "cityName": "Prescott",
                     "cityDomain": "https://prescott-city-az.mydripnurse.com",
@@ -501,11 +514,12 @@
                 "GMT_Offset": "(GMT-07:00)"
             },
             "countyDomain": "https://yavapai-county-az.mydripnurse.com",
-            "countySitemap": "https://yavapai-county-az.mydripnurse.com/sitemap.xml"
+            "countySitemap": "https://yavapai-county-az.mydripnurse.com/sitemap.xml",
+            "sitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\n  <sitemap>\n    <loc>https://yavapai-county-az.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://prescott-city-az.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://prescott-valley-city-az.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://cottonwood-city-az.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://camp-verde-city-az.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://jerome-city-az.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n</sitemapindex>"
         },
         {
-            "County Name": "Yuma",
-            "Cities": [
+            "countyName": "Yuma",
+            "cities": [
                 {
                     "cityName": "Yuma",
                     "cityDomain": "https://yuma-city-az.mydripnurse.com",
@@ -533,7 +547,8 @@
                 "GMT_Offset": "(GMT-07:00)"
             },
             "countyDomain": "https://yuma-county-az.mydripnurse.com",
-            "countySitemap": "https://yuma-county-az.mydripnurse.com/sitemap.xml"
+            "countySitemap": "https://yuma-county-az.mydripnurse.com/sitemap.xml",
+            "sitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\n  <sitemap>\n    <loc>https://yuma-county-az.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://yuma-city-az.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://somerton-city-az.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://san-luis-city-az.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://wellton-city-az.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n</sitemapindex>"
         }
     ],
     "website": "https://www.mydripnurse.com",

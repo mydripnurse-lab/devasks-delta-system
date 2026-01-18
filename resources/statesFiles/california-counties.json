@@ -1,8 +1,8 @@
 {
-    "Counties": [
+    "counties": [
         {
-            "County Name": "Alameda",
-            "Cities": [
+            "countyName": "Alameda",
+            "cities": [
                 {
                     "cityName": "Alameda",
                     "cityDomain": "https://alameda-city-ca.mydripnurse.com",
@@ -78,14 +78,14 @@
             "countySitemap": "https://alameda-county-ca.mydripnurse.com/sitemap.xml"
         },
         {
-            "County Name": "Alpine",
-            "Cities": [],
+            "countyName": "Alpine",
+            "cities": [],
             "countyDomain": "https://alpine-county-ca.mydripnurse.com",
             "countySitemap": "https://alpine-county-ca.mydripnurse.com/sitemap.xml"
         },
         {
-            "County Name": "Amador",
-            "Cities": [
+            "countyName": "Amador",
+            "cities": [
                 {
                     "cityName": "Amador City",
                     "cityDomain": "https://amador-city-city-ca.mydripnurse.com",
@@ -116,8 +116,8 @@
             "countySitemap": "https://amador-county-ca.mydripnurse.com/sitemap.xml"
         },
         {
-            "County Name": "Butte",
-            "Cities": [
+            "countyName": "Butte",
+            "cities": [
                 {
                     "cityName": "Biggs",
                     "cityDomain": "https://biggs-city-ca.mydripnurse.com",
@@ -148,8 +148,8 @@
             "countySitemap": "https://butte-county-ca.mydripnurse.com/sitemap.xml"
         },
         {
-            "County Name": "Calaveras",
-            "Cities": [
+            "countyName": "Calaveras",
+            "cities": [
                 {
                     "cityName": "Angels Camp",
                     "cityDomain": "https://angels-camp-city-ca.mydripnurse.com",
@@ -160,8 +160,8 @@
             "countySitemap": "https://calaveras-county-ca.mydripnurse.com/sitemap.xml"
         },
         {
-            "County Name": "Colusa",
-            "Cities": [
+            "countyName": "Colusa",
+            "cities": [
                 {
                     "cityName": "Colusa",
                     "cityDomain": "https://colusa-city-ca.mydripnurse.com",
@@ -177,8 +177,8 @@
             "countySitemap": "https://colusa-county-ca.mydripnurse.com/sitemap.xml"
         },
         {
-            "County Name": "Contra Costa",
-            "Cities": [
+            "countyName": "Contra Costa",
+            "cities": [
                 {
                     "cityName": "Antioch",
                     "cityDomain": "https://antioch-city-ca.mydripnurse.com",
@@ -274,8 +274,8 @@
             "countySitemap": "https://contra-costa-county-ca.mydripnurse.com/sitemap.xml"
         },
         {
-            "County Name": "Del Norte",
-            "Cities": [
+            "countyName": "Del Norte",
+            "cities": [
                 {
                     "cityName": "Crescent City",
                     "cityDomain": "https://crescent-city-city-ca.mydripnurse.com",
@@ -286,8 +286,8 @@
             "countySitemap": "https://del-norte-county-ca.mydripnurse.com/sitemap.xml"
         },
         {
-            "County Name": "El Dorado",
-            "Cities": [
+            "countyName": "El Dorado",
+            "cities": [
                 {
                     "cityName": "Placerville",
                     "cityDomain": "https://placerville-city-ca.mydripnurse.com",
@@ -303,8 +303,8 @@
             "countySitemap": "https://el-dorado-county-ca.mydripnurse.com/sitemap.xml"
         },
         {
-            "County Name": "Fresno",
-            "Cities": [
+            "countyName": "Fresno",
+            "cities": [
                 {
                     "cityName": "Clovis",
                     "cityDomain": "https://clovis-city-ca.mydripnurse.com",
@@ -385,8 +385,8 @@
             "countySitemap": "https://fresno-county-ca.mydripnurse.com/sitemap.xml"
         },
         {
-            "County Name": "Glenn",
-            "Cities": [
+            "countyName": "Glenn",
+            "cities": [
                 {
                     "cityName": "Orland",
                     "cityDomain": "https://orland-city-ca.mydripnurse.com",
@@ -402,8 +402,8 @@
             "countySitemap": "https://glenn-county-ca.mydripnurse.com/sitemap.xml"
         },
         {
-            "County Name": "Humboldt",
-            "Cities": [
+            "countyName": "Humboldt",
+            "cities": [
                 {
                     "cityName": "Arcata",
                     "cityDomain": "https://arcata-city-ca.mydripnurse.com",
@@ -444,8 +444,8 @@
             "countySitemap": "https://humboldt-county-ca.mydripnurse.com/sitemap.xml"
         },
         {
-            "County Name": "Imperial",
-            "Cities": [
+            "countyName": "Imperial",
+            "cities": [
                 {
                     "cityName": "Brawley",
                     "cityDomain": "https://brawley-city-ca.mydripnurse.com",
@@ -486,14 +486,14 @@
             "countySitemap": "https://imperial-county-ca.mydripnurse.com/sitemap.xml"
         },
         {
-            "County Name": "Inyo",
-            "Cities": [],
+            "countyName": "Inyo",
+            "cities": [],
             "countyDomain": "https://inyo-county-ca.mydripnurse.com",
             "countySitemap": "https://inyo-county-ca.mydripnurse.com/sitemap.xml"
         },
         {
-            "County Name": "Kern",
-            "Cities": [
+            "countyName": "Kern",
+            "cities": [
                 {
                     "cityName": "Arvin",
                     "cityDomain": "https://arvin-city-ca.mydripnurse.com",
@@ -554,8 +554,8 @@
             "countySitemap": "https://kern-county-ca.mydripnurse.com/sitemap.xml"
         },
         {
-            "County Name": "Kings",
-            "Cities": [
+            "countyName": "Kings",
+            "cities": [
                 {
                     "cityName": "Avenal",
                     "cityDomain": "https://avenal-city-ca.mydripnurse.com",
@@ -581,8 +581,8 @@
             "countySitemap": "https://kings-county-ca.mydripnurse.com/sitemap.xml"
         },
         {
-            "County Name": "Lake",
-            "Cities": [
+            "countyName": "Lake",
+            "cities": [
                 {
                     "cityName": "Clearlake",
                     "cityDomain": "https://clearlake-city-ca.mydripnurse.com",
@@ -598,8 +598,8 @@
             "countySitemap": "https://lake-county-ca.mydripnurse.com/sitemap.xml"
         },
         {
-            "County Name": "Lassen",
-            "Cities": [
+            "countyName": "Lassen",
+            "cities": [
                 {
                     "cityName": "Susanville",
                     "cityDomain": "https://susanville-city-ca.mydripnurse.com",
@@ -610,8 +610,8 @@
             "countySitemap": "https://lassen-county-ca.mydripnurse.com/sitemap.xml"
         },
         {
-            "County Name": "Los Angeles",
-            "Cities": [
+            "countyName": "Los Angeles",
+            "cities": [
                 {
                     "cityName": "Agoura Hills",
                     "cityDomain": "https://agoura-hills-city-ca.mydripnurse.com",
@@ -1037,8 +1037,8 @@
             "countySitemap": "https://los-angeles-county-ca.mydripnurse.com/sitemap.xml"
         },
         {
-            "County Name": "Madera",
-            "Cities": [
+            "countyName": "Madera",
+            "cities": [
                 {
                     "cityName": "Chowchilla",
                     "cityDomain": "https://chowchilla-city-ca.mydripnurse.com",
@@ -1054,8 +1054,8 @@
             "countySitemap": "https://madera-county-ca.mydripnurse.com/sitemap.xml"
         },
         {
-            "County Name": "Marin",
-            "Cities": [
+            "countyName": "Marin",
+            "cities": [
                 {
                     "cityName": "Belvedere",
                     "cityDomain": "https://belvedere-city-ca.mydripnurse.com",
@@ -1116,14 +1116,14 @@
             "countySitemap": "https://marin-county-ca.mydripnurse.com/sitemap.xml"
         },
         {
-            "County Name": "Mariposa",
-            "Cities": [],
+            "countyName": "Mariposa",
+            "cities": [],
             "countyDomain": "https://mariposa-county-ca.mydripnurse.com",
             "countySitemap": "https://mariposa-county-ca.mydripnurse.com/sitemap.xml"
         },
         {
-            "County Name": "Mendocino",
-            "Cities": [
+            "countyName": "Mendocino",
+            "cities": [
                 {
                     "cityName": "Fort Bragg",
                     "cityDomain": "https://fort-bragg-city-ca.mydripnurse.com",
@@ -1149,8 +1149,8 @@
             "countySitemap": "https://mendocino-county-ca.mydripnurse.com/sitemap.xml"
         },
         {
-            "County Name": "Merced",
-            "Cities": [
+            "countyName": "Merced",
+            "cities": [
                 {
                     "cityName": "Atwater",
                     "cityDomain": "https://atwater-city-ca.mydripnurse.com",
@@ -1186,8 +1186,8 @@
             "countySitemap": "https://merced-county-ca.mydripnurse.com/sitemap.xml"
         },
         {
-            "County Name": "Modoc",
-            "Cities": [
+            "countyName": "Modoc",
+            "cities": [
                 {
                     "cityName": "Alturas",
                     "cityDomain": "https://alturas-city-ca.mydripnurse.com",
@@ -1198,8 +1198,8 @@
             "countySitemap": "https://modoc-county-ca.mydripnurse.com/sitemap.xml"
         },
         {
-            "County Name": "Mono",
-            "Cities": [
+            "countyName": "Mono",
+            "cities": [
                 {
                     "cityName": "Mammoth Lakes",
                     "cityDomain": "https://mammoth-lakes-city-ca.mydripnurse.com",
@@ -1210,8 +1210,8 @@
             "countySitemap": "https://mono-county-ca.mydripnurse.com/sitemap.xml"
         },
         {
-            "County Name": "Monterey",
-            "Cities": [
+            "countyName": "Monterey",
+            "cities": [
                 {
                     "cityName": "Carmel-by-the-Sea",
                     "cityDomain": "https://carmel-by-the-sea-city-ca.mydripnurse.com",
@@ -1277,8 +1277,8 @@
             "countySitemap": "https://monterey-county-ca.mydripnurse.com/sitemap.xml"
         },
         {
-            "County Name": "Napa",
-            "Cities": [
+            "countyName": "Napa",
+            "cities": [
                 {
                     "cityName": "American Canyon",
                     "cityDomain": "https://american-canyon-city-ca.mydripnurse.com",
@@ -1309,8 +1309,8 @@
             "countySitemap": "https://napa-county-ca.mydripnurse.com/sitemap.xml"
         },
         {
-            "County Name": "Nevada",
-            "Cities": [
+            "countyName": "Nevada",
+            "cities": [
                 {
                     "cityName": "Grass Valley",
                     "cityDomain": "https://grass-valley-city-ca.mydripnurse.com",
@@ -1331,8 +1331,8 @@
             "countySitemap": "https://nevada-county-ca.mydripnurse.com/sitemap.xml"
         },
         {
-            "County Name": "Orange",
-            "Cities": [
+            "countyName": "Orange",
+            "cities": [
                 {
                     "cityName": "Aliso Viejo",
                     "cityDomain": "https://aliso-viejo-city-ca.mydripnurse.com",
@@ -1508,8 +1508,8 @@
             "countySitemap": "https://orange-county-ca.mydripnurse.com/sitemap.xml"
         },
         {
-            "County Name": "Placer",
-            "Cities": [
+            "countyName": "Placer",
+            "cities": [
                 {
                     "cityName": "Auburn",
                     "cityDomain": "https://auburn-city-ca.mydripnurse.com",
@@ -1545,8 +1545,8 @@
             "countySitemap": "https://placer-county-ca.mydripnurse.com/sitemap.xml"
         },
         {
-            "County Name": "Plumas",
-            "Cities": [
+            "countyName": "Plumas",
+            "cities": [
                 {
                     "cityName": "Portola",
                     "cityDomain": "https://portola-city-ca.mydripnurse.com",
@@ -1557,8 +1557,8 @@
             "countySitemap": "https://plumas-county-ca.mydripnurse.com/sitemap.xml"
         },
         {
-            "County Name": "Riverside",
-            "Cities": [
+            "countyName": "Riverside",
+            "cities": [
                 {
                     "cityName": "Banning",
                     "cityDomain": "https://banning-city-ca.mydripnurse.com",
@@ -1704,8 +1704,8 @@
             "countySitemap": "https://riverside-county-ca.mydripnurse.com/sitemap.xml"
         },
         {
-            "County Name": "Sacramento",
-            "Cities": [
+            "countyName": "Sacramento",
+            "cities": [
                 {
                     "cityName": "Citrus Heights",
                     "cityDomain": "https://citrus-heights-city-ca.mydripnurse.com",
@@ -1746,8 +1746,8 @@
             "countySitemap": "https://sacramento-county-ca.mydripnurse.com/sitemap.xml"
         },
         {
-            "County Name": "San Benito",
-            "Cities": [
+            "countyName": "San Benito",
+            "cities": [
                 {
                     "cityName": "Hollister",
                     "cityDomain": "https://hollister-city-ca.mydripnurse.com",
@@ -1763,8 +1763,8 @@
             "countySitemap": "https://san-benito-county-ca.mydripnurse.com/sitemap.xml"
         },
         {
-            "County Name": "San Bernardino",
-            "Cities": [
+            "countyName": "San Bernardino",
+            "cities": [
                 {
                     "cityName": "Adelanto",
                     "cityDomain": "https://adelanto-city-ca.mydripnurse.com",
@@ -1890,8 +1890,8 @@
             "countySitemap": "https://san-bernardino-county-ca.mydripnurse.com/sitemap.xml"
         },
         {
-            "County Name": "San Diego",
-            "Cities": [
+            "countyName": "San Diego",
+            "cities": [
                 {
                     "cityName": "Carlsbad",
                     "cityDomain": "https://carlsbad-city-ca.mydripnurse.com",
@@ -1987,8 +1987,8 @@
             "countySitemap": "https://san-diego-county-ca.mydripnurse.com/sitemap.xml"
         },
         {
-            "County Name": "San Francisco",
-            "Cities": [
+            "countyName": "San Francisco",
+            "cities": [
                 {
                     "cityName": "San Francisco",
                     "cityDomain": "https://san-francisco-city-ca.mydripnurse.com",
@@ -1999,8 +1999,8 @@
             "countySitemap": "https://san-francisco-county-ca.mydripnurse.com/sitemap.xml"
         },
         {
-            "County Name": "San Joaquin",
-            "Cities": [
+            "countyName": "San Joaquin",
+            "cities": [
                 {
                     "cityName": "Escalon",
                     "cityDomain": "https://escalon-city-ca.mydripnurse.com",
@@ -2041,8 +2041,8 @@
             "countySitemap": "https://san-joaquin-county-ca.mydripnurse.com/sitemap.xml"
         },
         {
-            "County Name": "San Luis Obispo",
-            "Cities": [
+            "countyName": "San Luis Obispo",
+            "cities": [
                 {
                     "cityName": "Arroyo Grande",
                     "cityDomain": "https://arroyo-grande-city-ca.mydripnurse.com",
@@ -2083,8 +2083,8 @@
             "countySitemap": "https://san-luis-obispo-county-ca.mydripnurse.com/sitemap.xml"
         },
         {
-            "County Name": "San Mateo",
-            "Cities": [
+            "countyName": "San Mateo",
+            "cities": [
                 {
                     "cityName": "Atherton",
                     "cityDomain": "https://atherton-city-ca.mydripnurse.com",
@@ -2185,8 +2185,8 @@
             "countySitemap": "https://san-mateo-county-ca.mydripnurse.com/sitemap.xml"
         },
         {
-            "County Name": "Santa Barbara",
-            "Cities": [
+            "countyName": "Santa Barbara",
+            "cities": [
                 {
                     "cityName": "Buellton",
                     "cityDomain": "https://buellton-city-ca.mydripnurse.com",
@@ -2232,8 +2232,8 @@
             "countySitemap": "https://santa-barbara-county-ca.mydripnurse.com/sitemap.xml"
         },
         {
-            "County Name": "Santa Clara",
-            "Cities": [
+            "countyName": "Santa Clara",
+            "cities": [
                 {
                     "cityName": "Campbell",
                     "cityDomain": "https://campbell-city-ca.mydripnurse.com",
@@ -2314,8 +2314,8 @@
             "countySitemap": "https://santa-clara-county-ca.mydripnurse.com/sitemap.xml"
         },
         {
-            "County Name": "Santa Cruz",
-            "Cities": [
+            "countyName": "Santa Cruz",
+            "cities": [
                 {
                     "cityName": "Capitola",
                     "cityDomain": "https://capitola-city-ca.mydripnurse.com",
@@ -2341,8 +2341,8 @@
             "countySitemap": "https://santa-cruz-county-ca.mydripnurse.com/sitemap.xml"
         },
         {
-            "County Name": "Shasta",
-            "Cities": [
+            "countyName": "Shasta",
+            "cities": [
                 {
                     "cityName": "Anderson",
                     "cityDomain": "https://anderson-city-ca.mydripnurse.com",
@@ -2363,8 +2363,8 @@
             "countySitemap": "https://shasta-county-ca.mydripnurse.com/sitemap.xml"
         },
         {
-            "County Name": "Sierra",
-            "Cities": [
+            "countyName": "Sierra",
+            "cities": [
                 {
                     "cityName": "Loyalton",
                     "cityDomain": "https://loyalton-city-ca.mydripnurse.com",
@@ -2375,8 +2375,8 @@
             "countySitemap": "https://sierra-county-ca.mydripnurse.com/sitemap.xml"
         },
         {
-            "County Name": "Siskiyou",
-            "Cities": [
+            "countyName": "Siskiyou",
+            "cities": [
                 {
                     "cityName": "Dorris",
                     "cityDomain": "https://dorris-city-ca.mydripnurse.com",
@@ -2422,8 +2422,8 @@
             "countySitemap": "https://siskiyou-county-ca.mydripnurse.com/sitemap.xml"
         },
         {
-            "County Name": "Solano",
-            "Cities": [
+            "countyName": "Solano",
+            "cities": [
                 {
                     "cityName": "Benicia",
                     "cityDomain": "https://benicia-city-ca.mydripnurse.com",
@@ -2464,8 +2464,8 @@
             "countySitemap": "https://solano-county-ca.mydripnurse.com/sitemap.xml"
         },
         {
-            "County Name": "Sonoma",
-            "Cities": [
+            "countyName": "Sonoma",
+            "cities": [
                 {
                     "cityName": "Cloverdale",
                     "cityDomain": "https://cloverdale-city-ca.mydripnurse.com",
@@ -2516,8 +2516,8 @@
             "countySitemap": "https://sonoma-county-ca.mydripnurse.com/sitemap.xml"
         },
         {
-            "County Name": "Stanislaus",
-            "Cities": [
+            "countyName": "Stanislaus",
+            "cities": [
                 {
                     "cityName": "Ceres",
                     "cityDomain": "https://ceres-city-ca.mydripnurse.com",
@@ -2568,8 +2568,8 @@
             "countySitemap": "https://stanislaus-county-ca.mydripnurse.com/sitemap.xml"
         },
         {
-            "County Name": "Sutter",
-            "Cities": [
+            "countyName": "Sutter",
+            "cities": [
                 {
                     "cityName": "Live Oak",
                     "cityDomain": "https://live-oak-city-ca.mydripnurse.com",
@@ -2585,8 +2585,8 @@
             "countySitemap": "https://sutter-county-ca.mydripnurse.com/sitemap.xml"
         },
         {
-            "County Name": "Tehama",
-            "Cities": [
+            "countyName": "Tehama",
+            "cities": [
                 {
                     "cityName": "Corning",
                     "cityDomain": "https://corning-city-ca.mydripnurse.com",
@@ -2607,8 +2607,8 @@
             "countySitemap": "https://tehama-county-ca.mydripnurse.com/sitemap.xml"
         },
         {
-            "County Name": "Trinity",
-            "Cities": [
+            "countyName": "Trinity",
+            "cities": [
                 {
                     "cityName": "Weaverville",
                     "cityDomain": "https://weaverville-city-ca.mydripnurse.com",
@@ -2619,8 +2619,8 @@
             "countySitemap": "https://trinity-county-ca.mydripnurse.com/sitemap.xml"
         },
         {
-            "County Name": "Tulare",
-            "Cities": [
+            "countyName": "Tulare",
+            "cities": [
                 {
                     "cityName": "Dinuba",
                     "cityDomain": "https://dinuba-city-ca.mydripnurse.com",
@@ -2666,8 +2666,8 @@
             "countySitemap": "https://tulare-county-ca.mydripnurse.com/sitemap.xml"
         },
         {
-            "County Name": "Tuolumne",
-            "Cities": [
+            "countyName": "Tuolumne",
+            "cities": [
                 {
                     "cityName": "Sonora",
                     "cityDomain": "https://sonora-city-ca.mydripnurse.com",
@@ -2678,8 +2678,8 @@
             "countySitemap": "https://tuolumne-county-ca.mydripnurse.com/sitemap.xml"
         },
         {
-            "County Name": "Ventura",
-            "Cities": [
+            "countyName": "Ventura",
+            "cities": [
                 {
                     "cityName": "Camarillo",
                     "cityDomain": "https://camarillo-city-ca.mydripnurse.com",
@@ -2735,8 +2735,8 @@
             "countySitemap": "https://ventura-county-ca.mydripnurse.com/sitemap.xml"
         },
         {
-            "County Name": "Yolo",
-            "Cities": [
+            "countyName": "Yolo",
+            "cities": [
                 {
                     "cityName": "Davis",
                     "cityDomain": "https://davis-city-ca.mydripnurse.com",
@@ -2762,8 +2762,8 @@
             "countySitemap": "https://yolo-county-ca.mydripnurse.com/sitemap.xml"
         },
         {
-            "County Name": "Yuba",
-            "Cities": [
+            "countyName": "Yuba",
+            "cities": [
                 {
                     "cityName": "Marysville",
                     "cityDomain": "https://marysville-city-ca.mydripnurse.com",

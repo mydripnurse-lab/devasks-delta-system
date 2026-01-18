@@ -1,8 +1,8 @@
 {
-    "Counties": [
+    "counties": [
         {
-            "County Name": "Autauga",
-            "Cities": [
+            "countyName": "Autauga",
+            "cities": [
                 {
                     "cityName": "Autaugaville",
                     "cityDomain": "https://autaugaville-city-al.mydripnurse.com",
@@ -38,8 +38,8 @@
             "countySitemap": "https://autauga-county-al.mydripnurse.com/sitemap.xml"
         },
         {
-            "County Name": "Baldwin",
-            "Cities": [
+            "countyName": "Baldwin",
+            "cities": [
                 {
                     "cityName": "Bay Minette",
                     "cityDomain": "https://bay-minette-city-al.mydripnurse.com",
@@ -115,8 +115,8 @@
             "countySitemap": "https://baldwin-county-al.mydripnurse.com/sitemap.xml"
         },
         {
-            "County Name": "Barbour",
-            "Cities": [
+            "countyName": "Barbour",
+            "cities": [
                 {
                     "cityName": "Clayton",
                     "cityDomain": "https://clayton-city-al.mydripnurse.com",
@@ -142,8 +142,8 @@
             "countySitemap": "https://barbour-county-al.mydripnurse.com/sitemap.xml"
         },
         {
-            "County Name": "Bibb",
-            "Cities": [
+            "countyName": "Bibb",
+            "cities": [
                 {
                     "cityName": "Brent",
                     "cityDomain": "https://brent-city-al.mydripnurse.com",
@@ -169,8 +169,8 @@
             "countySitemap": "https://bibb-county-al.mydripnurse.com/sitemap.xml"
         },
         {
-            "County Name": "Blount",
-            "Cities": [
+            "countyName": "Blount",
+            "cities": [
                 {
                     "cityName": "Blountsville",
                     "cityDomain": "https://blountsville-city-al.mydripnurse.com",
@@ -206,8 +206,8 @@
             "countySitemap": "https://blount-county-al.mydripnurse.com/sitemap.xml"
         },
         {
-            "County Name": "Bullock",
-            "Cities": [
+            "countyName": "Bullock",
+            "cities": [
                 {
                     "cityName": "Union Springs",
                     "cityDomain": "https://union-springs-city-al.mydripnurse.com",
@@ -223,8 +223,8 @@
             "countySitemap": "https://bullock-county-al.mydripnurse.com/sitemap.xml"
         },
         {
-            "County Name": "Butler",
-            "Cities": [
+            "countyName": "Butler",
+            "cities": [
                 {
                     "cityName": "Georgiana",
                     "cityDomain": "https://georgiana-city-al.mydripnurse.com",
@@ -250,8 +250,8 @@
             "countySitemap": "https://butler-county-al.mydripnurse.com/sitemap.xml"
         },
         {
-            "County Name": "Calhoun",
-            "Cities": [
+            "countyName": "Calhoun",
+            "cities": [
                 {
                     "cityName": "Anniston",
                     "cityDomain": "https://anniston-city-al.mydripnurse.com",
@@ -287,8 +287,8 @@
             "countySitemap": "https://calhoun-county-al.mydripnurse.com/sitemap.xml"
         },
         {
-            "County Name": "Chambers",
-            "Cities": [
+            "countyName": "Chambers",
+            "cities": [
                 {
                     "cityName": "Cusseta",
                     "cityDomain": "https://cusseta-city-al.mydripnurse.com",
@@ -319,8 +319,8 @@
             "countySitemap": "https://chambers-county-al.mydripnurse.com/sitemap.xml"
         },
         {
-            "County Name": "Cherokee",
-            "Cities": [
+            "countyName": "Cherokee",
+            "cities": [
                 {
                     "cityName": "Centre",
                     "cityDomain": "https://centre-city-al.mydripnurse.com",
@@ -356,8 +356,8 @@
             "countySitemap": "https://cherokee-county-al.mydripnurse.com/sitemap.xml"
         },
         {
-            "County Name": "Chilton",
-            "Cities": [
+            "countyName": "Chilton",
+            "cities": [
                 {
                     "cityName": "Clanton",
                     "cityDomain": "https://clanton-city-al.mydripnurse.com",
@@ -388,8 +388,8 @@
             "countySitemap": "https://chilton-county-al.mydripnurse.com/sitemap.xml"
         },
         {
-            "County Name": "Choctaw",
-            "Cities": [
+            "countyName": "Choctaw",
+            "cities": [
                 {
                     "cityName": "Butler",
                     "cityDomain": "https://butler-city-al.mydripnurse.com",
@@ -420,8 +420,8 @@
             "countySitemap": "https://choctaw-county-al.mydripnurse.com/sitemap.xml"
         },
         {
-            "County Name": "Clarke",
-            "Cities": [
+            "countyName": "Clarke",
+            "cities": [
                 {
                     "cityName": "Coffeeville",
                     "cityDomain": "https://coffeeville-city-al.mydripnurse.com",
@@ -452,8 +452,8 @@
             "countySitemap": "https://clarke-county-al.mydripnurse.com/sitemap.xml"
         },
         {
-            "County Name": "Clay",
-            "Cities": [
+            "countyName": "Clay",
+            "cities": [
                 {
                     "cityName": "Ashland",
                     "cityDomain": "https://ashland-city-al.mydripnurse.com",
@@ -479,8 +479,8 @@
             "countySitemap": "https://clay-county-al.mydripnurse.com/sitemap.xml"
         },
         {
-            "County Name": "Cleburne",
-            "Cities": [
+            "countyName": "Cleburne",
+            "cities": [
                 {
                     "cityName": "Edwardsville",
                     "cityDomain": "https://edwardsville-city-al.mydripnurse.com",
@@ -506,8 +506,8 @@
             "countySitemap": "https://cleburne-county-al.mydripnurse.com/sitemap.xml"
         },
         {
-            "County Name": "Coffee",
-            "Cities": [
+            "countyName": "Coffee",
+            "cities": [
                 {
                     "cityName": "Elba",
                     "cityDomain": "https://elba-city-al.mydripnurse.com",
@@ -533,8 +533,8 @@
             "countySitemap": "https://coffee-county-al.mydripnurse.com/sitemap.xml"
         },
         {
-            "County Name": "Colbert",
-            "Cities": [
+            "countyName": "Colbert",
+            "cities": [
                 {
                     "cityName": "Leighton",
                     "cityDomain": "https://leighton-city-al.mydripnurse.com",
@@ -565,8 +565,8 @@
             "countySitemap": "https://colbert-county-al.mydripnurse.com/sitemap.xml"
         },
         {
-            "County Name": "Conecuh",
-            "Cities": [
+            "countyName": "Conecuh",
+            "cities": [
                 {
                     "cityName": "Evergreen",
                     "cityDomain": "https://evergreen-city-al.mydripnurse.com",
@@ -587,8 +587,8 @@
             "countySitemap": "https://conecuh-county-al.mydripnurse.com/sitemap.xml"
         },
         {
-            "County Name": "Coosa",
-            "Cities": [
+            "countyName": "Coosa",
+            "cities": [
                 {
                     "cityName": "Goodwater",
                     "cityDomain": "https://goodwater-city-al.mydripnurse.com",
@@ -609,8 +609,8 @@
             "countySitemap": "https://coosa-county-al.mydripnurse.com/sitemap.xml"
         },
         {
-            "County Name": "Covington",
-            "Cities": [
+            "countyName": "Covington",
+            "cities": [
                 {
                     "cityName": "Andalusia",
                     "cityDomain": "https://andalusia-city-al.mydripnurse.com",
@@ -641,8 +641,8 @@
             "countySitemap": "https://covington-county-al.mydripnurse.com/sitemap.xml"
         },
         {
-            "County Name": "Crenshaw",
-            "Cities": [
+            "countyName": "Crenshaw",
+            "cities": [
                 {
                     "cityName": "Brantley",
                     "cityDomain": "https://brantley-city-al.mydripnurse.com",
@@ -663,8 +663,8 @@
             "countySitemap": "https://crenshaw-county-al.mydripnurse.com/sitemap.xml"
         },
         {
-            "County Name": "Cullman",
-            "Cities": [
+            "countyName": "Cullman",
+            "cities": [
                 {
                     "cityName": "Cullman",
                     "cityDomain": "https://cullman-city-al.mydripnurse.com",
@@ -710,8 +710,8 @@
             "countySitemap": "https://cullman-county-al.mydripnurse.com/sitemap.xml"
         },
         {
-            "County Name": "Dale",
-            "Cities": [
+            "countyName": "Dale",
+            "cities": [
                 {
                     "cityName": "Daleville",
                     "cityDomain": "https://daleville-city-al.mydripnurse.com",
@@ -747,8 +747,8 @@
             "countySitemap": "https://dale-county-al.mydripnurse.com/sitemap.xml"
         },
         {
-            "County Name": "Dallas",
-            "Cities": [
+            "countyName": "Dallas",
+            "cities": [
                 {
                     "cityName": "Marion",
                     "cityDomain": "https://marion-city-al.mydripnurse.com",
@@ -769,8 +769,8 @@
             "countySitemap": "https://dallas-county-al.mydripnurse.com/sitemap.xml"
         },
         {
-            "County Name": "DeKalb",
-            "Cities": [
+            "countyName": "DeKalb",
+            "cities": [
                 {
                     "cityName": "Fort Payne",
                     "cityDomain": "https://fort-payne-city-al.mydripnurse.com",
@@ -831,8 +831,8 @@
             "countySitemap": "https://dekalb-county-al.mydripnurse.com/sitemap.xml"
         },
         {
-            "County Name": "Elmore",
-            "Cities": [
+            "countyName": "Elmore",
+            "cities": [
                 {
                     "cityName": "Coosada",
                     "cityDomain": "https://coosada-city-al.mydripnurse.com",
@@ -868,8 +868,8 @@
             "countySitemap": "https://elmore-county-al.mydripnurse.com/sitemap.xml"
         },
         {
-            "County Name": "Escambia",
-            "Cities": [
+            "countyName": "Escambia",
+            "cities": [
                 {
                     "cityName": "Atmore",
                     "cityDomain": "https://atmore-city-al.mydripnurse.com",
@@ -895,8 +895,8 @@
             "countySitemap": "https://escambia-county-al.mydripnurse.com/sitemap.xml"
         },
         {
-            "County Name": "Etowah",
-            "Cities": [
+            "countyName": "Etowah",
+            "cities": [
                 {
                     "cityName": "Attalla",
                     "cityDomain": "https://attalla-city-al.mydripnurse.com",
@@ -957,8 +957,8 @@
             "countySitemap": "https://etowah-county-al.mydripnurse.com/sitemap.xml"
         },
         {
-            "County Name": "Fayette",
-            "Cities": [
+            "countyName": "Fayette",
+            "cities": [
                 {
                     "cityName": "Fayette",
                     "cityDomain": "https://fayette-city-al.mydripnurse.com",
@@ -979,8 +979,8 @@
             "countySitemap": "https://fayette-county-al.mydripnurse.com/sitemap.xml"
         },
         {
-            "County Name": "Franklin",
-            "Cities": [
+            "countyName": "Franklin",
+            "cities": [
                 {
                     "cityName": "Red Bay",
                     "cityDomain": "https://red-bay-city-al.mydripnurse.com",
@@ -1006,8 +1006,8 @@
             "countySitemap": "https://franklin-county-al.mydripnurse.com/sitemap.xml"
         },
         {
-            "County Name": "Geneva",
-            "Cities": [
+            "countyName": "Geneva",
+            "cities": [
                 {
                     "cityName": "Black",
                     "cityDomain": "https://black-city-al.mydripnurse.com",
@@ -1053,8 +1053,8 @@
             "countySitemap": "https://geneva-county-al.mydripnurse.com/sitemap.xml"
         },
         {
-            "County Name": "Greene",
-            "Cities": [
+            "countyName": "Greene",
+            "cities": [
                 {
                     "cityName": "Boligee",
                     "cityDomain": "https://boligee-city-al.mydripnurse.com",
@@ -1075,8 +1075,8 @@
             "countySitemap": "https://greene-county-al.mydripnurse.com/sitemap.xml"
         },
         {
-            "County Name": "Hale",
-            "Cities": [
+            "countyName": "Hale",
+            "cities": [
                 {
                     "cityName": "Akron",
                     "cityDomain": "https://akron-city-al.mydripnurse.com",
@@ -1102,8 +1102,8 @@
             "countySitemap": "https://hale-county-al.mydripnurse.com/sitemap.xml"
         },
         {
-            "County Name": "Henry",
-            "Cities": [
+            "countyName": "Henry",
+            "cities": [
                 {
                     "cityName": "Abbeville",
                     "cityDomain": "https://abbeville-city-al.mydripnurse.com",
@@ -1134,8 +1134,8 @@
             "countySitemap": "https://henry-county-al.mydripnurse.com/sitemap.xml"
         },
         {
-            "County Name": "Houston",
-            "Cities": [
+            "countyName": "Houston",
+            "cities": [
                 {
                     "cityName": "Ashford",
                     "cityDomain": "https://ashford-city-al.mydripnurse.com",
@@ -1196,8 +1196,8 @@
             "countySitemap": "https://houston-county-al.mydripnurse.com/sitemap.xml"
         },
         {
-            "County Name": "Jackson",
-            "Cities": [
+            "countyName": "Jackson",
+            "cities": [
                 {
                     "cityName": "Bridgeport",
                     "cityDomain": "https://bridgeport-city-al.mydripnurse.com",
@@ -1253,8 +1253,8 @@
             "countySitemap": "https://jackson-county-al.mydripnurse.com/sitemap.xml"
         },
         {
-            "County Name": "Jefferson",
-            "Cities": [
+            "countyName": "Jefferson",
+            "cities": [
                 {
                     "cityName": "Birmingham",
                     "cityDomain": "https://birmingham-city-al.mydripnurse.com",
@@ -1435,8 +1435,8 @@
             "countySitemap": "https://jefferson-county-al.mydripnurse.com/sitemap.xml"
         },
         {
-            "County Name": "Lamar",
-            "Cities": [
+            "countyName": "Lamar",
+            "cities": [
                 {
                     "cityName": "Sulligent",
                     "cityDomain": "https://sulligent-city-al.mydripnurse.com",
@@ -1462,8 +1462,8 @@
             "countySitemap": "https://lamar-county-al.mydripnurse.com/sitemap.xml"
         },
         {
-            "County Name": "Lauderdale",
-            "Cities": [
+            "countyName": "Lauderdale",
+            "cities": [
                 {
                     "cityName": "Florence",
                     "cityDomain": "https://florence-city-al.mydripnurse.com",
@@ -1494,8 +1494,8 @@
             "countySitemap": "https://lauderdale-county-al.mydripnurse.com/sitemap.xml"
         },
         {
-            "County Name": "Lawrence",
-            "Cities": [
+            "countyName": "Lawrence",
+            "cities": [
                 {
                     "cityName": "Courtland",
                     "cityDomain": "https://courtland-city-al.mydripnurse.com",
@@ -1526,8 +1526,8 @@
             "countySitemap": "https://lawrence-county-al.mydripnurse.com/sitemap.xml"
         },
         {
-            "County Name": "Lee",
-            "Cities": [
+            "countyName": "Lee",
+            "cities": [
                 {
                     "cityName": "Auburn",
                     "cityDomain": "https://auburn-city-al.mydripnurse.com",
@@ -1563,8 +1563,8 @@
             "countySitemap": "https://lee-county-al.mydripnurse.com/sitemap.xml"
         },
         {
-            "County Name": "Limestone",
-            "Cities": [
+            "countyName": "Limestone",
+            "cities": [
                 {
                     "cityName": "Ardmore",
                     "cityDomain": "https://ardmore-city-al.mydripnurse.com",
@@ -1595,8 +1595,8 @@
             "countySitemap": "https://limestone-county-al.mydripnurse.com/sitemap.xml"
         },
         {
-            "County Name": "Lowndes",
-            "Cities": [
+            "countyName": "Lowndes",
+            "cities": [
                 {
                     "cityName": "Hayneville",
                     "cityDomain": "https://hayneville-city-al.mydripnurse.com",
@@ -1617,8 +1617,8 @@
             "countySitemap": "https://lowndes-county-al.mydripnurse.com/sitemap.xml"
         },
         {
-            "County Name": "Macon",
-            "Cities": [
+            "countyName": "Macon",
+            "cities": [
                 {
                     "cityName": "Notasulga",
                     "cityDomain": "https://notasulga-city-al.mydripnurse.com",
@@ -1644,8 +1644,8 @@
             "countySitemap": "https://macon-county-al.mydripnurse.com/sitemap.xml"
         },
         {
-            "County Name": "Madison",
-            "Cities": [
+            "countyName": "Madison",
+            "cities": [
                 {
                     "cityName": "Huntsville",
                     "cityDomain": "https://huntsville-city-al.mydripnurse.com",
@@ -1706,8 +1706,8 @@
             "countySitemap": "https://madison-county-al.mydripnurse.com/sitemap.xml"
         },
         {
-            "County Name": "Marengo",
-            "Cities": [
+            "countyName": "Marengo",
+            "cities": [
                 {
                     "cityName": "Demopolis",
                     "cityDomain": "https://demopolis-city-al.mydripnurse.com",
@@ -1733,8 +1733,8 @@
             "countySitemap": "https://marengo-county-al.mydripnurse.com/sitemap.xml"
         },
         {
-            "County Name": "Marion",
-            "Cities": [
+            "countyName": "Marion",
+            "cities": [
                 {
                     "cityName": "Bear Creek",
                     "cityDomain": "https://bear-creek-city-al.mydripnurse.com",
@@ -1775,8 +1775,8 @@
             "countySitemap": "https://marion-county-al.mydripnurse.com/sitemap.xml"
         },
         {
-            "County Name": "Marshall",
-            "Cities": [
+            "countyName": "Marshall",
+            "cities": [
                 {
                     "cityName": "Albertville",
                     "cityDomain": "https://albertville-city-al.mydripnurse.com",
@@ -1817,8 +1817,8 @@
             "countySitemap": "https://marshall-county-al.mydripnurse.com/sitemap.xml"
         },
         {
-            "County Name": "Mobile",
-            "Cities": [
+            "countyName": "Mobile",
+            "cities": [
                 {
                     "cityName": "Mobile",
                     "cityDomain": "https://mobile-city-al.mydripnurse.com",
@@ -1894,8 +1894,8 @@
             "countySitemap": "https://mobile-county-al.mydripnurse.com/sitemap.xml"
         },
         {
-            "County Name": "Monroe",
-            "Cities": [
+            "countyName": "Monroe",
+            "cities": [
                 {
                     "cityName": "Beatrice",
                     "cityDomain": "https://beatrice-city-al.mydripnurse.com",
@@ -1931,8 +1931,8 @@
             "countySitemap": "https://monroe-county-al.mydripnurse.com/sitemap.xml"
         },
         {
-            "County Name": "Montgomery",
-            "Cities": [
+            "countyName": "Montgomery",
+            "cities": [
                 {
                     "cityName": "Montgomery",
                     "cityDomain": "https://montgomery-city-al.mydripnurse.com",
@@ -1958,8 +1958,8 @@
             "countySitemap": "https://montgomery-county-al.mydripnurse.com/sitemap.xml"
         },
         {
-            "County Name": "Morgan",
-            "Cities": [
+            "countyName": "Morgan",
+            "cities": [
                 {
                     "cityName": "Decatur",
                     "cityDomain": "https://decatur-city-al.mydripnurse.com",
@@ -1995,8 +1995,8 @@
             "countySitemap": "https://morgan-county-al.mydripnurse.com/sitemap.xml"
         },
         {
-            "County Name": "Perry",
-            "Cities": [
+            "countyName": "Perry",
+            "cities": [
                 {
                     "cityName": "Marion",
                     "cityDomain": "https://marion-city-al.mydripnurse.com",
@@ -2017,8 +2017,8 @@
             "countySitemap": "https://perry-county-al.mydripnurse.com/sitemap.xml"
         },
         {
-            "County Name": "Pickens",
-            "Cities": [
+            "countyName": "Pickens",
+            "cities": [
                 {
                     "cityName": "Carrollton",
                     "cityDomain": "https://carrollton-city-al.mydripnurse.com",
@@ -2054,8 +2054,8 @@
             "countySitemap": "https://pickens-county-al.mydripnurse.com/sitemap.xml"
         },
         {
-            "County Name": "Pike",
-            "Cities": [
+            "countyName": "Pike",
+            "cities": [
                 {
                     "cityName": "Banks",
                     "cityDomain": "https://banks-city-al.mydripnurse.com",
@@ -2081,8 +2081,8 @@
             "countySitemap": "https://pike-county-al.mydripnurse.com/sitemap.xml"
         },
         {
-            "County Name": "Randolph",
-            "Cities": [
+            "countyName": "Randolph",
+            "cities": [
                 {
                     "cityName": "Wedowee",
                     "cityDomain": "https://wedowee-city-al.mydripnurse.com",
@@ -2108,8 +2108,8 @@
             "countySitemap": "https://randolph-county-al.mydripnurse.com/sitemap.xml"
         },
         {
-            "County Name": "Russell",
-            "Cities": [
+            "countyName": "Russell",
+            "cities": [
                 {
                     "cityName": "Phenix City",
                     "cityDomain": "https://phenix-city-city-al.mydripnurse.com",
@@ -2130,8 +2130,8 @@
             "countySitemap": "https://russell-county-al.mydripnurse.com/sitemap.xml"
         },
         {
-            "County Name": "St. Clair",
-            "Cities": [
+            "countyName": "St. Clair",
+            "cities": [
                 {
                     "cityName": "Ashville",
                     "cityDomain": "https://ashville-city-al.mydripnurse.com",
@@ -2187,8 +2187,8 @@
             "countySitemap": "https://st-clair-county-al.mydripnurse.com/sitemap.xml"
         },
         {
-            "County Name": "Shelby",
-            "Cities": [
+            "countyName": "Shelby",
+            "cities": [
                 {
                     "cityName": "Alabaster",
                     "cityDomain": "https://alabaster-city-al.mydripnurse.com",
@@ -2254,8 +2254,8 @@
             "countySitemap": "https://shelby-county-al.mydripnurse.com/sitemap.xml"
         },
         {
-            "County Name": "Sumter",
-            "Cities": [
+            "countyName": "Sumter",
+            "cities": [
                 {
                     "cityName": "Bellamy",
                     "cityDomain": "https://bellamy-city-al.mydripnurse.com",
@@ -2291,8 +2291,8 @@
             "countySitemap": "https://sumter-county-al.mydripnurse.com/sitemap.xml"
         },
         {
-            "County Name": "Talladega",
-            "Cities": [
+            "countyName": "Talladega",
+            "cities": [
                 {
                     "cityName": "Childersburg",
                     "cityDomain": "https://childersburg-city-al.mydripnurse.com",
@@ -2338,8 +2338,8 @@
             "countySitemap": "https://talladega-county-al.mydripnurse.com/sitemap.xml"
         },
         {
-            "County Name": "Tallapoosa",
-            "Cities": [
+            "countyName": "Tallapoosa",
+            "cities": [
                 {
                     "cityName": "Alexander City",
                     "cityDomain": "https://alexander-city-city-al.mydripnurse.com",
@@ -2365,8 +2365,8 @@
             "countySitemap": "https://tallapoosa-county-al.mydripnurse.com/sitemap.xml"
         },
         {
-            "County Name": "Tuscaloosa",
-            "Cities": [
+            "countyName": "Tuscaloosa",
+            "cities": [
                 {
                     "cityName": "Tuscaloosa",
                     "cityDomain": "https://tuscaloosa-city-al.mydripnurse.com",
@@ -2422,8 +2422,8 @@
             "countySitemap": "https://tuscaloosa-county-al.mydripnurse.com/sitemap.xml"
         },
         {
-            "County Name": "Walker",
-            "Cities": [
+            "countyName": "Walker",
+            "cities": [
                 {
                     "cityName": "Carbon Hill",
                     "cityDomain": "https://carbon-hill-city-al.mydripnurse.com",
@@ -2469,8 +2469,8 @@
             "countySitemap": "https://walker-county-al.mydripnurse.com/sitemap.xml"
         },
         {
-            "County Name": "Washington",
-            "Cities": [
+            "countyName": "Washington",
+            "cities": [
                 {
                     "cityName": "Chatom",
                     "cityDomain": "https://chatom-city-al.mydripnurse.com",
@@ -2506,8 +2506,8 @@
             "countySitemap": "https://washington-county-al.mydripnurse.com/sitemap.xml"
         },
         {
-            "County Name": "Wilcox",
-            "Cities": [
+            "countyName": "Wilcox",
+            "cities": [
                 {
                     "cityName": "Camden",
                     "cityDomain": "https://camden-city-al.mydripnurse.com",
@@ -2533,8 +2533,8 @@
             "countySitemap": "https://wilcox-county-al.mydripnurse.com/sitemap.xml"
         },
         {
-            "County Name": "Winston",
-            "Cities": [
+            "countyName": "Winston",
+            "cities": [
                 {
                     "cityName": "Addison",
                     "cityDomain": "https://addison-city-al.mydripnurse.com",

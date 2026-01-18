@@ -1,8 +1,8 @@
 {
-    "Counties": [
+    "counties": [
         {
-            "County Name": "Anchorage Municipality",
-            "Cities": [
+            "countyName": "Anchorage Municipality",
+            "cities": [
                 {
                     "cityName": "Anchorage",
                     "cityDomain": "https://anchorage-city-ak.mydripnurse.com",
@@ -15,11 +15,12 @@
                 "UTC_Offset": "-09:00"
             },
             "countyDomain": "https://anchorage-municipality-county-ak.mydripnurse.com",
-            "countySitemap": "https://anchorage-municipality-county-ak.mydripnurse.com/sitemap.xml"
+            "countySitemap": "https://anchorage-municipality-county-ak.mydripnurse.com/sitemap.xml",
+            "sitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\n  <sitemap>\n    <loc>https://anchorage-municipality-county-ak.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://anchorage-city-ak.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n</sitemapindex>"
         },
         {
-            "County Name": "Matanuska-Susitna Borough",
-            "Cities": [
+            "countyName": "Matanuska-Susitna Borough",
+            "cities": [
                 {
                     "cityName": "Wasilla",
                     "cityDomain": "https://wasilla-city-ak.mydripnurse.com",
@@ -42,11 +43,12 @@
                 "UTC_Offset": "-09:00"
             },
             "countyDomain": "https://matanuska-susitna-borough-county-ak.mydripnurse.com",
-            "countySitemap": "https://matanuska-susitna-borough-county-ak.mydripnurse.com/sitemap.xml"
+            "countySitemap": "https://matanuska-susitna-borough-county-ak.mydripnurse.com/sitemap.xml",
+            "sitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\n  <sitemap>\n    <loc>https://matanuska-susitna-borough-county-ak.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://wasilla-city-ak.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://palmer-city-ak.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://houston-city-ak.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n</sitemapindex>"
         },
         {
-            "County Name": "Fairbanks North Star Borough",
-            "Cities": [
+            "countyName": "Fairbanks North Star Borough",
+            "cities": [
                 {
                     "cityName": "Fairbanks",
                     "cityDomain": "https://fairbanks-city-ak.mydripnurse.com",
@@ -64,11 +66,12 @@
                 "UTC_Offset": "-09:00"
             },
             "countyDomain": "https://fairbanks-north-star-borough-county-ak.mydripnurse.com",
-            "countySitemap": "https://fairbanks-north-star-borough-county-ak.mydripnurse.com/sitemap.xml"
+            "countySitemap": "https://fairbanks-north-star-borough-county-ak.mydripnurse.com/sitemap.xml",
+            "sitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\n  <sitemap>\n    <loc>https://fairbanks-north-star-borough-county-ak.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://fairbanks-city-ak.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://north-pole-city-ak.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n</sitemapindex>"
         },
         {
-            "County Name": "Kenai Peninsula Borough",
-            "Cities": [
+            "countyName": "Kenai Peninsula Borough",
+            "cities": [
                 {
                     "cityName": "Kenai",
                     "cityDomain": "https://kenai-city-ak.mydripnurse.com",
@@ -96,11 +99,12 @@
                 "UTC_Offset": "-09:00"
             },
             "countyDomain": "https://kenai-peninsula-borough-county-ak.mydripnurse.com",
-            "countySitemap": "https://kenai-peninsula-borough-county-ak.mydripnurse.com/sitemap.xml"
+            "countySitemap": "https://kenai-peninsula-borough-county-ak.mydripnurse.com/sitemap.xml",
+            "sitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\n  <sitemap>\n    <loc>https://kenai-peninsula-borough-county-ak.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://kenai-city-ak.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://soldotna-city-ak.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://homer-city-ak.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://seward-city-ak.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n</sitemapindex>"
         },
         {
-            "County Name": "Juneau City and Borough",
-            "Cities": [
+            "countyName": "Juneau City and Borough",
+            "cities": [
                 {
                     "cityName": "Juneau",
                     "cityDomain": "https://juneau-city-ak.mydripnurse.com",
@@ -113,11 +117,12 @@
                 "UTC_Offset": "-09:00"
             },
             "countyDomain": "https://juneau-city-and-borough-county-ak.mydripnurse.com",
-            "countySitemap": "https://juneau-city-and-borough-county-ak.mydripnurse.com/sitemap.xml"
+            "countySitemap": "https://juneau-city-and-borough-county-ak.mydripnurse.com/sitemap.xml",
+            "sitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\n  <sitemap>\n    <loc>https://juneau-city-and-borough-county-ak.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://juneau-city-ak.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n</sitemapindex>"
         },
         {
-            "County Name": "Sitka City and Borough",
-            "Cities": [
+            "countyName": "Sitka City and Borough",
+            "cities": [
                 {
                     "cityName": "Sitka",
                     "cityDomain": "https://sitka-city-ak.mydripnurse.com",
@@ -130,11 +135,12 @@
                 "UTC_Offset": "-09:00"
             },
             "countyDomain": "https://sitka-city-and-borough-county-ak.mydripnurse.com",
-            "countySitemap": "https://sitka-city-and-borough-county-ak.mydripnurse.com/sitemap.xml"
+            "countySitemap": "https://sitka-city-and-borough-county-ak.mydripnurse.com/sitemap.xml",
+            "sitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\n  <sitemap>\n    <loc>https://sitka-city-and-borough-county-ak.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://sitka-city-ak.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n</sitemapindex>"
         },
         {
-            "County Name": "Ketchikan Gateway Borough",
-            "Cities": [
+            "countyName": "Ketchikan Gateway Borough",
+            "cities": [
                 {
                     "cityName": "Ketchikan",
                     "cityDomain": "https://ketchikan-city-ak.mydripnurse.com",
@@ -147,11 +153,12 @@
                 "UTC_Offset": "-09:00"
             },
             "countyDomain": "https://ketchikan-gateway-borough-county-ak.mydripnurse.com",
-            "countySitemap": "https://ketchikan-gateway-borough-county-ak.mydripnurse.com/sitemap.xml"
+            "countySitemap": "https://ketchikan-gateway-borough-county-ak.mydripnurse.com/sitemap.xml",
+            "sitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\n  <sitemap>\n    <loc>https://ketchikan-gateway-borough-county-ak.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://ketchikan-city-ak.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n</sitemapindex>"
         },
         {
-            "County Name": "Kodiak Island Borough",
-            "Cities": [
+            "countyName": "Kodiak Island Borough",
+            "cities": [
                 {
                     "cityName": "Kodiak",
                     "cityDomain": "https://kodiak-city-ak.mydripnurse.com",
@@ -164,11 +171,12 @@
                 "UTC_Offset": "-09:00"
             },
             "countyDomain": "https://kodiak-island-borough-county-ak.mydripnurse.com",
-            "countySitemap": "https://kodiak-island-borough-county-ak.mydripnurse.com/sitemap.xml"
+            "countySitemap": "https://kodiak-island-borough-county-ak.mydripnurse.com/sitemap.xml",
+            "sitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\n  <sitemap>\n    <loc>https://kodiak-island-borough-county-ak.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://kodiak-city-ak.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n</sitemapindex>"
         },
         {
-            "County Name": "Bethel Census Area",
-            "Cities": [
+            "countyName": "Bethel Census Area",
+            "cities": [
                 {
                     "cityName": "Bethel",
                     "cityDomain": "https://bethel-city-ak.mydripnurse.com",
@@ -181,11 +189,12 @@
                 "UTC_Offset": "-09:00"
             },
             "countyDomain": "https://bethel-census-area-county-ak.mydripnurse.com",
-            "countySitemap": "https://bethel-census-area-county-ak.mydripnurse.com/sitemap.xml"
+            "countySitemap": "https://bethel-census-area-county-ak.mydripnurse.com/sitemap.xml",
+            "sitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\n  <sitemap>\n    <loc>https://bethel-census-area-county-ak.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://bethel-city-ak.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n</sitemapindex>"
         },
         {
-            "County Name": "Nome Census Area",
-            "Cities": [
+            "countyName": "Nome Census Area",
+            "cities": [
                 {
                     "cityName": "Nome",
                     "cityDomain": "https://nome-city-ak.mydripnurse.com",
@@ -198,11 +207,12 @@
                 "UTC_Offset": "-09:00"
             },
             "countyDomain": "https://nome-census-area-county-ak.mydripnurse.com",
-            "countySitemap": "https://nome-census-area-county-ak.mydripnurse.com/sitemap.xml"
+            "countySitemap": "https://nome-census-area-county-ak.mydripnurse.com/sitemap.xml",
+            "sitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\n  <sitemap>\n    <loc>https://nome-census-area-county-ak.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://nome-city-ak.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n</sitemapindex>"
         },
         {
-            "County Name": "North Slope Borough",
-            "Cities": [
+            "countyName": "North Slope Borough",
+            "cities": [
                 {
                     "cityName": "Utqiaġvik",
                     "cityDomain": "https://utqiagvik-city-ak.mydripnurse.com",
@@ -215,11 +225,12 @@
                 "UTC_Offset": "-09:00"
             },
             "countyDomain": "https://north-slope-borough-county-ak.mydripnurse.com",
-            "countySitemap": "https://north-slope-borough-county-ak.mydripnurse.com/sitemap.xml"
+            "countySitemap": "https://north-slope-borough-county-ak.mydripnurse.com/sitemap.xml",
+            "sitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\n  <sitemap>\n    <loc>https://north-slope-borough-county-ak.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://utqiagvik-city-ak.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n</sitemapindex>"
         },
         {
-            "County Name": "Aleutians West Census Area",
-            "Cities": [
+            "countyName": "Aleutians West Census Area",
+            "cities": [
                 {
                     "cityName": "Unalaska",
                     "cityDomain": "https://unalaska-city-ak.mydripnurse.com",
@@ -232,7 +243,8 @@
                 "UTC_Offset": "-10:00"
             },
             "countyDomain": "https://aleutians-west-census-area-county-ak.mydripnurse.com",
-            "countySitemap": "https://aleutians-west-census-area-county-ak.mydripnurse.com/sitemap.xml"
+            "countySitemap": "https://aleutians-west-census-area-county-ak.mydripnurse.com/sitemap.xml",
+            "sitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\n  <sitemap>\n    <loc>https://aleutians-west-census-area-county-ak.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://unalaska-city-ak.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n</sitemapindex>"
         }
     ],
     "website": "https://www.mydripnurse.com",

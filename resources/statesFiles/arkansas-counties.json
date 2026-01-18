@@ -1,8 +1,8 @@
 {
-    "Counties": [
+    "counties": [
         {
-            "County Name": "Arkansas",
-            "Cities": [
+            "countyName": "Arkansas",
+            "cities": [
                 {
                     "cityName": "Almyra",
                     "cityDomain": "https://almyra-city-ar.mydripnurse.com",
@@ -38,8 +38,8 @@
             "countySitemap": "https://arkansas-county-ar.mydripnurse.com/sitemap.xml"
         },
         {
-            "County Name": "Ashley",
-            "Cities": [
+            "countyName": "Ashley",
+            "cities": [
                 {
                     "cityName": "Crossett",
                     "cityDomain": "https://crossett-city-ar.mydripnurse.com",
@@ -70,8 +70,8 @@
             "countySitemap": "https://ashley-county-ar.mydripnurse.com/sitemap.xml"
         },
         {
-            "County Name": "Baxter",
-            "Cities": [
+            "countyName": "Baxter",
+            "cities": [
                 {
                     "cityName": "Cotter",
                     "cityDomain": "https://cotter-city-ar.mydripnurse.com",
@@ -107,8 +107,8 @@
             "countySitemap": "https://baxter-county-ar.mydripnurse.com/sitemap.xml"
         },
         {
-            "County Name": "Benton",
-            "Cities": [
+            "countyName": "Benton",
+            "cities": [
                 {
                     "cityName": "Bella Vista",
                     "cityDomain": "https://bella-vista-city-ar.mydripnurse.com",
@@ -184,8 +184,8 @@
             "countySitemap": "https://benton-county-ar.mydripnurse.com/sitemap.xml"
         },
         {
-            "County Name": "Boone",
-            "Cities": [
+            "countyName": "Boone",
+            "cities": [
                 {
                     "cityName": "Alpena",
                     "cityDomain": "https://alpena-city-ar.mydripnurse.com",
@@ -236,8 +236,8 @@
             "countySitemap": "https://boone-county-ar.mydripnurse.com/sitemap.xml"
         },
         {
-            "County Name": "Carroll",
-            "Cities": [
+            "countyName": "Carroll",
+            "cities": [
                 {
                     "cityName": "Berryville",
                     "cityDomain": "https://berryville-city-ar.mydripnurse.com",
@@ -268,8 +268,8 @@
             "countySitemap": "https://carroll-county-ar.mydripnurse.com/sitemap.xml"
         },
         {
-            "County Name": "Craighead",
-            "Cities": [
+            "countyName": "Craighead",
+            "cities": [
                 {
                     "cityName": "Bay",
                     "cityDomain": "https://bay-city-ar.mydripnurse.com",
@@ -330,8 +330,8 @@
             "countySitemap": "https://craighead-county-ar.mydripnurse.com/sitemap.xml"
         },
         {
-            "County Name": "Crittenden",
-            "Cities": [
+            "countyName": "Crittenden",
+            "cities": [
                 {
                     "cityName": "Earle",
                     "cityDomain": "https://earle-city-ar.mydripnurse.com",
@@ -362,8 +362,8 @@
             "countySitemap": "https://crittenden-county-ar.mydripnurse.com/sitemap.xml"
         },
         {
-            "County Name": "Faulkner",
-            "Cities": [
+            "countyName": "Faulkner",
+            "cities": [
                 {
                     "cityName": "Conway",
                     "cityDomain": "https://conway-city-ar.mydripnurse.com",
@@ -409,8 +409,8 @@
             "countySitemap": "https://faulkner-county-ar.mydripnurse.com/sitemap.xml"
         },
         {
-            "County Name": "Garland",
-            "Cities": [
+            "countyName": "Garland",
+            "cities": [
                 {
                     "cityName": "Hot Springs",
                     "cityDomain": "https://hot-springs-city-ar.mydripnurse.com",
@@ -436,8 +436,8 @@
             "countySitemap": "https://garland-county-ar.mydripnurse.com/sitemap.xml"
         },
         {
-            "County Name": "Jefferson",
-            "Cities": [
+            "countyName": "Jefferson",
+            "cities": [
                 {
                     "cityName": "Altheimer",
                     "cityDomain": "https://altheimer-city-ar.mydripnurse.com",
@@ -468,8 +468,8 @@
             "countySitemap": "https://jefferson-county-ar.mydripnurse.com/sitemap.xml"
         },
         {
-            "County Name": "Mississippi",
-            "Cities": [
+            "countyName": "Mississippi",
+            "cities": [
                 {
                     "cityName": "Blytheville",
                     "cityDomain": "https://blytheville-city-ar.mydripnurse.com",
@@ -515,8 +515,8 @@
             "countySitemap": "https://mississippi-county-ar.mydripnurse.com/sitemap.xml"
         },
         {
-            "County Name": "Pulaski",
-            "Cities": [
+            "countyName": "Pulaski",
+            "cities": [
                 {
                     "cityName": "Jacksonville",
                     "cityDomain": "https://jacksonville-city-ar.mydripnurse.com",
@@ -557,8 +557,8 @@
             "countySitemap": "https://pulaski-county-ar.mydripnurse.com/sitemap.xml"
         },
         {
-            "County Name": "Saline",
-            "Cities": [
+            "countyName": "Saline",
+            "cities": [
                 {
                     "cityName": "Alexander",
                     "cityDomain": "https://alexander-city-ar.mydripnurse.com",
@@ -599,8 +599,8 @@
             "countySitemap": "https://saline-county-ar.mydripnurse.com/sitemap.xml"
         },
         {
-            "County Name": "Sebastian",
-            "Cities": [
+            "countyName": "Sebastian",
+            "cities": [
                 {
                     "cityName": "Barling",
                     "cityDomain": "https://barling-city-ar.mydripnurse.com",
@@ -641,8 +641,8 @@
             "countySitemap": "https://sebastian-county-ar.mydripnurse.com/sitemap.xml"
         },
         {
-            "County Name": "Washington",
-            "Cities": [
+            "countyName": "Washington",
+            "cities": [
                 {
                     "cityName": "Elkins",
                     "cityDomain": "https://elkins-city-ar.mydripnurse.com",
