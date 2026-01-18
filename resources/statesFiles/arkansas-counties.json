@@ -35,7 +35,8 @@
                 "UTC_Offset": "-06:00"
             },
             "countyDomain": "https://arkansas-county-ar.mydripnurse.com",
-            "countySitemap": "https://arkansas-county-ar.mydripnurse.com/sitemap.xml"
+            "countySitemap": "https://arkansas-county-ar.mydripnurse.com/sitemap.xml",
+            "sitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\n  <sitemap>\n    <loc>https://arkansas-county-ar.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://almyra-city-ar.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://de-witt-city-ar.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://gillett-city-ar.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://humphrey-city-ar.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://stuttgart-city-ar.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n</sitemapindex>"
         },
         {
             "countyName": "Ashley",
@@ -67,7 +68,8 @@
                 "UTC_Offset": "-06:00"
             },
             "countyDomain": "https://ashley-county-ar.mydripnurse.com",
-            "countySitemap": "https://ashley-county-ar.mydripnurse.com/sitemap.xml"
+            "countySitemap": "https://ashley-county-ar.mydripnurse.com/sitemap.xml",
+            "sitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\n  <sitemap>\n    <loc>https://ashley-county-ar.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://crossett-city-ar.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://hamburg-city-ar.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://portland-city-ar.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://wilmot-city-ar.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n</sitemapindex>"
         },
         {
             "countyName": "Baxter",
@@ -104,7 +106,8 @@
                 "UTC_Offset": "-06:00"
             },
             "countyDomain": "https://baxter-county-ar.mydripnurse.com",
-            "countySitemap": "https://baxter-county-ar.mydripnurse.com/sitemap.xml"
+            "countySitemap": "https://baxter-county-ar.mydripnurse.com/sitemap.xml",
+            "sitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\n  <sitemap>\n    <loc>https://baxter-county-ar.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://cotter-city-ar.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://gassville-city-ar.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://lakeview-city-ar.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://mountain-home-city-ar.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://norfork-city-ar.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n</sitemapindex>"
         },
         {
             "countyName": "Benton",
@@ -181,7 +184,8 @@
                 "UTC_Offset": "-06:00"
             },
             "countyDomain": "https://benton-county-ar.mydripnurse.com",
-            "countySitemap": "https://benton-county-ar.mydripnurse.com/sitemap.xml"
+            "countySitemap": "https://benton-county-ar.mydripnurse.com/sitemap.xml",
+            "sitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\n  <sitemap>\n    <loc>https://benton-county-ar.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://bella-vista-city-ar.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://bentonville-city-ar.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://cave-springs-city-ar.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://centerton-city-ar.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://decatur-city-ar.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://elm-springs-city-ar.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://gentry-city-ar.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://gravette-city-ar.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://highfill-city-ar.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://lowell-city-ar.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://pea-ridge-city-ar.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://rogers-city-ar.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://siloam-springs-city-ar.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n</sitemapindex>"
         },
         {
             "countyName": "Boone",
@@ -233,7 +237,8 @@
                 "UTC_Offset": "-06:00"
             },
             "countyDomain": "https://boone-county-ar.mydripnurse.com",
-            "countySitemap": "https://boone-county-ar.mydripnurse.com/sitemap.xml"
+            "countySitemap": "https://boone-county-ar.mydripnurse.com/sitemap.xml",
+            "sitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\n  <sitemap>\n    <loc>https://boone-county-ar.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://alpena-city-ar.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://bellefonte-city-ar.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://bergman-city-ar.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://diamond-city-city-ar.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://harrison-city-ar.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://lead-hill-city-ar.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://omaha-city-ar.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://valley-springs-city-ar.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n</sitemapindex>"
         },
         {
             "countyName": "Carroll",
@@ -265,7 +270,8 @@
                 "UTC_Offset": "-06:00"
             },
             "countyDomain": "https://carroll-county-ar.mydripnurse.com",
-            "countySitemap": "https://carroll-county-ar.mydripnurse.com/sitemap.xml"
+            "countySitemap": "https://carroll-county-ar.mydripnurse.com/sitemap.xml",
+            "sitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\n  <sitemap>\n    <loc>https://carroll-county-ar.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://berryville-city-ar.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://eureka-springs-city-ar.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://green-forest-city-ar.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://holiday-island-city-ar.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n</sitemapindex>"
         },
         {
             "countyName": "Craighead",
@@ -327,7 +333,8 @@
                 "UTC_Offset": "-06:00"
             },
             "countyDomain": "https://craighead-county-ar.mydripnurse.com",
-            "countySitemap": "https://craighead-county-ar.mydripnurse.com/sitemap.xml"
+            "countySitemap": "https://craighead-county-ar.mydripnurse.com/sitemap.xml",
+            "sitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\n  <sitemap>\n    <loc>https://craighead-county-ar.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://bay-city-ar.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://black-oak-city-ar.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://brookland-city-ar.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://caraway-city-ar.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://cash-city-ar.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://jonesboro-city-ar.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://lake-city-city-ar.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://monette-city-ar.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://nettleton-city-ar.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://trumann-city-ar.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n</sitemapindex>"
         },
         {
             "countyName": "Crittenden",
@@ -359,7 +366,8 @@
                 "UTC_Offset": "-06:00"
             },
             "countyDomain": "https://crittenden-county-ar.mydripnurse.com",
-            "countySitemap": "https://crittenden-county-ar.mydripnurse.com/sitemap.xml"
+            "countySitemap": "https://crittenden-county-ar.mydripnurse.com/sitemap.xml",
+            "sitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\n  <sitemap>\n    <loc>https://crittenden-county-ar.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://earle-city-ar.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://marion-city-ar.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://sunset-city-ar.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://west-memphis-city-ar.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n</sitemapindex>"
         },
         {
             "countyName": "Faulkner",
@@ -406,7 +414,8 @@
                 "UTC_Offset": "-06:00"
             },
             "countyDomain": "https://faulkner-county-ar.mydripnurse.com",
-            "countySitemap": "https://faulkner-county-ar.mydripnurse.com/sitemap.xml"
+            "countySitemap": "https://faulkner-county-ar.mydripnurse.com/sitemap.xml",
+            "sitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\n  <sitemap>\n    <loc>https://faulkner-county-ar.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://conway-city-ar.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://greenbrier-city-ar.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://guy-city-ar.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://mayflower-city-ar.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://mount-vernon-city-ar.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://vilonia-city-ar.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://wooster-city-ar.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n</sitemapindex>"
         },
         {
             "countyName": "Garland",
@@ -433,7 +442,8 @@
                 "UTC_Offset": "-06:00"
             },
             "countyDomain": "https://garland-county-ar.mydripnurse.com",
-            "countySitemap": "https://garland-county-ar.mydripnurse.com/sitemap.xml"
+            "countySitemap": "https://garland-county-ar.mydripnurse.com/sitemap.xml",
+            "sitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\n  <sitemap>\n    <loc>https://garland-county-ar.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://hot-springs-city-ar.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://hot-springs-village-city-ar.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://mountain-pine-city-ar.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n</sitemapindex>"
         },
         {
             "countyName": "Jefferson",
@@ -465,7 +475,8 @@
                 "UTC_Offset": "-06:00"
             },
             "countyDomain": "https://jefferson-county-ar.mydripnurse.com",
-            "countySitemap": "https://jefferson-county-ar.mydripnurse.com/sitemap.xml"
+            "countySitemap": "https://jefferson-county-ar.mydripnurse.com/sitemap.xml",
+            "sitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\n  <sitemap>\n    <loc>https://jefferson-county-ar.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://altheimer-city-ar.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://pine-bluff-city-ar.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://redfield-city-ar.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://white-hall-city-ar.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n</sitemapindex>"
         },
         {
             "countyName": "Mississippi",
@@ -512,7 +523,8 @@
                 "UTC_Offset": "-06:00"
             },
             "countyDomain": "https://mississippi-county-ar.mydripnurse.com",
-            "countySitemap": "https://mississippi-county-ar.mydripnurse.com/sitemap.xml"
+            "countySitemap": "https://mississippi-county-ar.mydripnurse.com/sitemap.xml",
+            "sitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\n  <sitemap>\n    <loc>https://mississippi-county-ar.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://blytheville-city-ar.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://dell-city-ar.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://gosnell-city-ar.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://leachville-city-ar.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://luxora-city-ar.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://manila-city-ar.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://osceola-city-ar.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n</sitemapindex>"
         },
         {
             "countyName": "Pulaski",
@@ -554,7 +566,8 @@
                 "UTC_Offset": "-06:00"
             },
             "countyDomain": "https://pulaski-county-ar.mydripnurse.com",
-            "countySitemap": "https://pulaski-county-ar.mydripnurse.com/sitemap.xml"
+            "countySitemap": "https://pulaski-county-ar.mydripnurse.com/sitemap.xml",
+            "sitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\n  <sitemap>\n    <loc>https://pulaski-county-ar.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://jacksonville-city-ar.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://little-rock-city-ar.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://maumelle-city-ar.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://north-little-rock-city-ar.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://sherwood-city-ar.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://wrightsville-city-ar.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n</sitemapindex>"
         },
         {
             "countyName": "Saline",
@@ -596,7 +609,8 @@
                 "UTC_Offset": "-06:00"
             },
             "countyDomain": "https://saline-county-ar.mydripnurse.com",
-            "countySitemap": "https://saline-county-ar.mydripnurse.com/sitemap.xml"
+            "countySitemap": "https://saline-county-ar.mydripnurse.com/sitemap.xml",
+            "sitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\n  <sitemap>\n    <loc>https://saline-county-ar.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://alexander-city-ar.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://bauxite-city-ar.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://benton-city-ar.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://bryant-city-ar.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://haskell-city-ar.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://shannon-hills-city-ar.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n</sitemapindex>"
         },
         {
             "countyName": "Sebastian",
@@ -638,7 +652,8 @@
                 "UTC_Offset": "-06:00"
             },
             "countyDomain": "https://sebastian-county-ar.mydripnurse.com",
-            "countySitemap": "https://sebastian-county-ar.mydripnurse.com/sitemap.xml"
+            "countySitemap": "https://sebastian-county-ar.mydripnurse.com/sitemap.xml",
+            "sitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\n  <sitemap>\n    <loc>https://sebastian-county-ar.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://barling-city-ar.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://fort-smith-city-ar.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://greenwood-city-ar.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://hackett-city-ar.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://lavaca-city-ar.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://mansfield-city-ar.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n</sitemapindex>"
         },
         {
             "countyName": "Washington",
@@ -690,7 +705,8 @@
                 "UTC_Offset": "-06:00"
             },
             "countyDomain": "https://washington-county-ar.mydripnurse.com",
-            "countySitemap": "https://washington-county-ar.mydripnurse.com/sitemap.xml"
+            "countySitemap": "https://washington-county-ar.mydripnurse.com/sitemap.xml",
+            "sitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\n  <sitemap>\n    <loc>https://washington-county-ar.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://elkins-city-ar.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://farmington-city-ar.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://fayetteville-city-ar.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://greenland-city-ar.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://johnson-city-ar.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://prairie-grove-city-ar.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://springdale-city-ar.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://west-fork-city-ar.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n</sitemapindex>"
         }
     ],
     "website": "https://www.mydripnurse.com",

@@ -1,100 +1,373 @@
 {
-    "Counties": [
+    "counties": [
         {
-            "County Name": "New Castle",
-            "Cities": [
-                "Arden",
-                "Ardencroft",
-                "Ardentown",
-                "Bellefonte",
-                "Claymont",
-                "Delaware City",
-                "Elsmere",
-                "Greenville",
-                "Hockessin",
-                "Middletown",
-                "Newark",
-                "New Castle",
-                "Newport",
-                "Odessa",
-                "Port Penn",
-                "Stanton",
-                "Townsend",
-                "Wilmington",
-                "Yorklyn"
+            "countyName": "New Castle",
+            "cities": [
+                {
+                    "cityName": "Arden",
+                    "cityDomain": "https://arden-city-de.mydripnurse.com",
+                    "citySitemap": "https://arden-city-de.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Ardencroft",
+                    "cityDomain": "https://ardencroft-city-de.mydripnurse.com",
+                    "citySitemap": "https://ardencroft-city-de.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Ardentown",
+                    "cityDomain": "https://ardentown-city-de.mydripnurse.com",
+                    "citySitemap": "https://ardentown-city-de.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Bellefonte",
+                    "cityDomain": "https://bellefonte-city-de.mydripnurse.com",
+                    "citySitemap": "https://bellefonte-city-de.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Claymont",
+                    "cityDomain": "https://claymont-city-de.mydripnurse.com",
+                    "citySitemap": "https://claymont-city-de.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Delaware City",
+                    "cityDomain": "https://delaware-city-city-de.mydripnurse.com",
+                    "citySitemap": "https://delaware-city-city-de.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Elsmere",
+                    "cityDomain": "https://elsmere-city-de.mydripnurse.com",
+                    "citySitemap": "https://elsmere-city-de.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Greenville",
+                    "cityDomain": "https://greenville-city-de.mydripnurse.com",
+                    "citySitemap": "https://greenville-city-de.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Hockessin",
+                    "cityDomain": "https://hockessin-city-de.mydripnurse.com",
+                    "citySitemap": "https://hockessin-city-de.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Middletown",
+                    "cityDomain": "https://middletown-city-de.mydripnurse.com",
+                    "citySitemap": "https://middletown-city-de.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Newark",
+                    "cityDomain": "https://newark-city-de.mydripnurse.com",
+                    "citySitemap": "https://newark-city-de.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "New Castle",
+                    "cityDomain": "https://new-castle-city-de.mydripnurse.com",
+                    "citySitemap": "https://new-castle-city-de.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Newport",
+                    "cityDomain": "https://newport-city-de.mydripnurse.com",
+                    "citySitemap": "https://newport-city-de.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Odessa",
+                    "cityDomain": "https://odessa-city-de.mydripnurse.com",
+                    "citySitemap": "https://odessa-city-de.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Port Penn",
+                    "cityDomain": "https://port-penn-city-de.mydripnurse.com",
+                    "citySitemap": "https://port-penn-city-de.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Stanton",
+                    "cityDomain": "https://stanton-city-de.mydripnurse.com",
+                    "citySitemap": "https://stanton-city-de.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Townsend",
+                    "cityDomain": "https://townsend-city-de.mydripnurse.com",
+                    "citySitemap": "https://townsend-city-de.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Wilmington",
+                    "cityDomain": "https://wilmington-city-de.mydripnurse.com",
+                    "citySitemap": "https://wilmington-city-de.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Yorklyn",
+                    "cityDomain": "https://yorklyn-city-de.mydripnurse.com",
+                    "citySitemap": "https://yorklyn-city-de.mydripnurse.com/sitemap.xml"
+                }
             ],
             "Timezone": {
                 "Name": "Eastern",
                 "Zone": "US/Eastern",
                 "UTC_Offset": "-05:00"
-            }
+            },
+            "countyDomain": "https://new-castle-county-de.mydripnurse.com",
+            "countySitemap": "https://new-castle-county-de.mydripnurse.com/sitemap.xml",
+            "embeddedSitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\n  <sitemap>\n    <loc>https://new-castle-county-de.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://arden-city-de.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://ardencroft-city-de.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://ardentown-city-de.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://bellefonte-city-de.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://claymont-city-de.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://delaware-city-city-de.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://elsmere-city-de.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://greenville-city-de.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://hockessin-city-de.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://middletown-city-de.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://newark-city-de.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://new-castle-city-de.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://newport-city-de.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://odessa-city-de.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://port-penn-city-de.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://stanton-city-de.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://townsend-city-de.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://wilmington-city-de.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://yorklyn-city-de.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n</sitemapindex>"
         },
         {
-            "County Name": "Kent",
-            "Cities": [
-                "Camden",
-                "Cheswold",
-                "Clayton",
-                "Dover",
-                "Farmington",
-                "Felton",
-                "Frederica",
-                "Harrington",
-                "Hartly",
-                "Houston",
-                "Kenton",
-                "Leipsic",
-                "Little Creek",
-                "Magnolia",
-                "Milford",
-                "Smyrna",
-                "Viola",
-                "Woodside",
-                "Wyoming"
+            "countyName": "Kent",
+            "cities": [
+                {
+                    "cityName": "Camden",
+                    "cityDomain": "https://camden-city-de.mydripnurse.com",
+                    "citySitemap": "https://camden-city-de.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Cheswold",
+                    "cityDomain": "https://cheswold-city-de.mydripnurse.com",
+                    "citySitemap": "https://cheswold-city-de.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Clayton",
+                    "cityDomain": "https://clayton-city-de.mydripnurse.com",
+                    "citySitemap": "https://clayton-city-de.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Dover",
+                    "cityDomain": "https://dover-city-de.mydripnurse.com",
+                    "citySitemap": "https://dover-city-de.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Farmington",
+                    "cityDomain": "https://farmington-city-de.mydripnurse.com",
+                    "citySitemap": "https://farmington-city-de.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Felton",
+                    "cityDomain": "https://felton-city-de.mydripnurse.com",
+                    "citySitemap": "https://felton-city-de.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Frederica",
+                    "cityDomain": "https://frederica-city-de.mydripnurse.com",
+                    "citySitemap": "https://frederica-city-de.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Harrington",
+                    "cityDomain": "https://harrington-city-de.mydripnurse.com",
+                    "citySitemap": "https://harrington-city-de.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Hartly",
+                    "cityDomain": "https://hartly-city-de.mydripnurse.com",
+                    "citySitemap": "https://hartly-city-de.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Houston",
+                    "cityDomain": "https://houston-city-de.mydripnurse.com",
+                    "citySitemap": "https://houston-city-de.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Kenton",
+                    "cityDomain": "https://kenton-city-de.mydripnurse.com",
+                    "citySitemap": "https://kenton-city-de.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Leipsic",
+                    "cityDomain": "https://leipsic-city-de.mydripnurse.com",
+                    "citySitemap": "https://leipsic-city-de.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Little Creek",
+                    "cityDomain": "https://little-creek-city-de.mydripnurse.com",
+                    "citySitemap": "https://little-creek-city-de.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Magnolia",
+                    "cityDomain": "https://magnolia-city-de.mydripnurse.com",
+                    "citySitemap": "https://magnolia-city-de.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Milford",
+                    "cityDomain": "https://milford-city-de.mydripnurse.com",
+                    "citySitemap": "https://milford-city-de.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Smyrna",
+                    "cityDomain": "https://smyrna-city-de.mydripnurse.com",
+                    "citySitemap": "https://smyrna-city-de.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Viola",
+                    "cityDomain": "https://viola-city-de.mydripnurse.com",
+                    "citySitemap": "https://viola-city-de.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Woodside",
+                    "cityDomain": "https://woodside-city-de.mydripnurse.com",
+                    "citySitemap": "https://woodside-city-de.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Wyoming",
+                    "cityDomain": "https://wyoming-city-de.mydripnurse.com",
+                    "citySitemap": "https://wyoming-city-de.mydripnurse.com/sitemap.xml"
+                }
             ],
             "Timezone": {
                 "Name": "Eastern",
                 "Zone": "US/Eastern",
                 "UTC_Offset": "-05:00"
-            }
+            },
+            "countyDomain": "https://kent-county-de.mydripnurse.com",
+            "countySitemap": "https://kent-county-de.mydripnurse.com/sitemap.xml",
+            "embeddedSitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\n  <sitemap>\n    <loc>https://kent-county-de.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://camden-city-de.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://cheswold-city-de.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://clayton-city-de.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://dover-city-de.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://farmington-city-de.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://felton-city-de.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://frederica-city-de.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://harrington-city-de.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://hartly-city-de.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://houston-city-de.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://kenton-city-de.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://leipsic-city-de.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://little-creek-city-de.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://magnolia-city-de.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://milford-city-de.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://smyrna-city-de.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://viola-city-de.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://woodside-city-de.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://wyoming-city-de.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n</sitemapindex>"
         },
         {
-            "County Name": "Sussex",
-            "Cities": [
-                "Bethany Beach",
-                "Bethel",
-                "Blades",
-                "Bridgeville",
-                "Dagsboro",
-                "Delmar",
-                "Dewey Beach",
-                "Ellendale",
-                "Fenwick Island",
-                "Frankford",
-                "Georgetown",
-                "Greenwood",
-                "Henlopen Acres",
-                "Laurel",
-                "Lewes",
-                "Lincoln",
-                "Long Neck",
-                "Milford",
-                "Millville",
-                "Milton",
-                "Ocean View",
-                "Rehoboth Beach",
-                "Seaford",
-                "Selbyville",
-                "Slaughter Beach",
-                "South Bethany",
-                "Viola",
-                "Woodside"
+            "countyName": "Sussex",
+            "cities": [
+                {
+                    "cityName": "Bethany Beach",
+                    "cityDomain": "https://bethany-beach-city-de.mydripnurse.com",
+                    "citySitemap": "https://bethany-beach-city-de.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Bethel",
+                    "cityDomain": "https://bethel-city-de.mydripnurse.com",
+                    "citySitemap": "https://bethel-city-de.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Blades",
+                    "cityDomain": "https://blades-city-de.mydripnurse.com",
+                    "citySitemap": "https://blades-city-de.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Bridgeville",
+                    "cityDomain": "https://bridgeville-city-de.mydripnurse.com",
+                    "citySitemap": "https://bridgeville-city-de.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Dagsboro",
+                    "cityDomain": "https://dagsboro-city-de.mydripnurse.com",
+                    "citySitemap": "https://dagsboro-city-de.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Delmar",
+                    "cityDomain": "https://delmar-city-de.mydripnurse.com",
+                    "citySitemap": "https://delmar-city-de.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Dewey Beach",
+                    "cityDomain": "https://dewey-beach-city-de.mydripnurse.com",
+                    "citySitemap": "https://dewey-beach-city-de.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Ellendale",
+                    "cityDomain": "https://ellendale-city-de.mydripnurse.com",
+                    "citySitemap": "https://ellendale-city-de.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Fenwick Island",
+                    "cityDomain": "https://fenwick-island-city-de.mydripnurse.com",
+                    "citySitemap": "https://fenwick-island-city-de.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Frankford",
+                    "cityDomain": "https://frankford-city-de.mydripnurse.com",
+                    "citySitemap": "https://frankford-city-de.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Georgetown",
+                    "cityDomain": "https://georgetown-city-de.mydripnurse.com",
+                    "citySitemap": "https://georgetown-city-de.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Greenwood",
+                    "cityDomain": "https://greenwood-city-de.mydripnurse.com",
+                    "citySitemap": "https://greenwood-city-de.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Henlopen Acres",
+                    "cityDomain": "https://henlopen-acres-city-de.mydripnurse.com",
+                    "citySitemap": "https://henlopen-acres-city-de.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Laurel",
+                    "cityDomain": "https://laurel-city-de.mydripnurse.com",
+                    "citySitemap": "https://laurel-city-de.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Lewes",
+                    "cityDomain": "https://lewes-city-de.mydripnurse.com",
+                    "citySitemap": "https://lewes-city-de.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Lincoln",
+                    "cityDomain": "https://lincoln-city-de.mydripnurse.com",
+                    "citySitemap": "https://lincoln-city-de.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Long Neck",
+                    "cityDomain": "https://long-neck-city-de.mydripnurse.com",
+                    "citySitemap": "https://long-neck-city-de.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Milford",
+                    "cityDomain": "https://milford-city-de.mydripnurse.com",
+                    "citySitemap": "https://milford-city-de.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Millville",
+                    "cityDomain": "https://millville-city-de.mydripnurse.com",
+                    "citySitemap": "https://millville-city-de.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Milton",
+                    "cityDomain": "https://milton-city-de.mydripnurse.com",
+                    "citySitemap": "https://milton-city-de.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Ocean View",
+                    "cityDomain": "https://ocean-view-city-de.mydripnurse.com",
+                    "citySitemap": "https://ocean-view-city-de.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Rehoboth Beach",
+                    "cityDomain": "https://rehoboth-beach-city-de.mydripnurse.com",
+                    "citySitemap": "https://rehoboth-beach-city-de.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Seaford",
+                    "cityDomain": "https://seaford-city-de.mydripnurse.com",
+                    "citySitemap": "https://seaford-city-de.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Selbyville",
+                    "cityDomain": "https://selbyville-city-de.mydripnurse.com",
+                    "citySitemap": "https://selbyville-city-de.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Slaughter Beach",
+                    "cityDomain": "https://slaughter-beach-city-de.mydripnurse.com",
+                    "citySitemap": "https://slaughter-beach-city-de.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "South Bethany",
+                    "cityDomain": "https://south-bethany-city-de.mydripnurse.com",
+                    "citySitemap": "https://south-bethany-city-de.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Viola",
+                    "cityDomain": "https://viola-city-de.mydripnurse.com",
+                    "citySitemap": "https://viola-city-de.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Woodside",
+                    "cityDomain": "https://woodside-city-de.mydripnurse.com",
+                    "citySitemap": "https://woodside-city-de.mydripnurse.com/sitemap.xml"
+                }
             ],
             "Timezone": {
                 "Name": "Eastern",
                 "Zone": "US/Eastern",
                 "UTC_Offset": "-05:00"
-            }
+            },
+            "countyDomain": "https://sussex-county-de.mydripnurse.com",
+            "countySitemap": "https://sussex-county-de.mydripnurse.com/sitemap.xml",
+            "embeddedSitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\n  <sitemap>\n    <loc>https://sussex-county-de.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://bethany-beach-city-de.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://bethel-city-de.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://blades-city-de.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://bridgeville-city-de.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://dagsboro-city-de.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://delmar-city-de.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://dewey-beach-city-de.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://ellendale-city-de.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://fenwick-island-city-de.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://frankford-city-de.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://georgetown-city-de.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://greenwood-city-de.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://henlopen-acres-city-de.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://laurel-city-de.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://lewes-city-de.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://lincoln-city-de.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://long-neck-city-de.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://milford-city-de.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://millville-city-de.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://milton-city-de.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://ocean-view-city-de.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://rehoboth-beach-city-de.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://seaford-city-de.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://selbyville-city-de.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://slaughter-beach-city-de.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://south-bethany-city-de.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://viola-city-de.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://woodside-city-de.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n</sitemapindex>"
         }
     ],
     "website": "https://www.mydripnurse.com",
