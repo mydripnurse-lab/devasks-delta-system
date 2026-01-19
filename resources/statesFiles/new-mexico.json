@@ -1,0 +1,987 @@
+{   
+    "counties": [
+        {
+            "countyName": "Bernalillo",
+            "cities": [
+                {
+                    "cityName": "Albuquerque",
+                    "cityDomain": "https://albuquerque-city-nm.mydripnurse.com",
+                    "citySitemap": "https://albuquerque-city-nm.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Los Ranchos de Albuquerque",
+                    "cityDomain": "https://los-ranchos-de-albuquerque-city-nm.mydripnurse.com",
+                    "citySitemap": "https://los-ranchos-de-albuquerque-city-nm.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Tijeras",
+                    "cityDomain": "https://tijeras-city-nm.mydripnurse.com",
+                    "citySitemap": "https://tijeras-city-nm.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "North Valley",
+                    "cityDomain": "https://north-valley-city-nm.mydripnurse.com",
+                    "citySitemap": "https://north-valley-city-nm.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "South Valley",
+                    "cityDomain": "https://south-valley-city-nm.mydripnurse.com",
+                    "citySitemap": "https://south-valley-city-nm.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Sandia Heights",
+                    "cityDomain": "https://sandia-heights-city-nm.mydripnurse.com",
+                    "citySitemap": "https://sandia-heights-city-nm.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Isleta Pueblo",
+                    "cityDomain": "https://isleta-pueblo-city-nm.mydripnurse.com",
+                    "citySitemap": "https://isleta-pueblo-city-nm.mydripnurse.com/sitemap.xml"
+                }
+            ],
+            "countyDomain": "https://bernalillo-county-nm.mydripnurse.com",
+            "countySitemap": "https://bernalillo-county-nm.mydripnurse.com/sitemap.xml",
+            "sitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\\n  <sitemap>\\n    <loc>https://bernalillo-county-nm.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-01-18</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://albuquerque-city-nm.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-01-18</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://los-ranchos-de-albuquerque-city-nm.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-01-18</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://tijeras-city-nm.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-01-18</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://north-valley-city-nm.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-01-18</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://south-valley-city-nm.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-01-18</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://sandia-heights-city-nm.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-01-18</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://isleta-pueblo-city-nm.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-01-18</lastmod>\\n  </sitemap>\\n</sitemapindex>"
+        },
+        {
+            "countyName": "Santa Fe",
+            "cities": [
+                {
+                    "cityName": "Santa Fe",
+                    "cityDomain": "https://santa-fe-city-nm.mydripnurse.com",
+                    "citySitemap": "https://santa-fe-city-nm.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Eldorado at Santa Fe",
+                    "cityDomain": "https://eldorado-at-santa-fe-city-nm.mydripnurse.com",
+                    "citySitemap": "https://eldorado-at-santa-fe-city-nm.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Cuyamungue",
+                    "cityDomain": "https://cuyamungue-city-nm.mydripnurse.com",
+                    "citySitemap": "https://cuyamungue-city-nm.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Edgewood",
+                    "cityDomain": "https://edgewood-city-nm.mydripnurse.com",
+                    "citySitemap": "https://edgewood-city-nm.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Glorieta",
+                    "cityDomain": "https://glorieta-city-nm.mydripnurse.com",
+                    "citySitemap": "https://glorieta-city-nm.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Nambe",
+                    "cityDomain": "https://nambe-city-nm.mydripnurse.com",
+                    "citySitemap": "https://nambe-city-nm.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Pojoaque",
+                    "cityDomain": "https://pojoaque-city-nm.mydripnurse.com",
+                    "citySitemap": "https://pojoaque-city-nm.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Tesuque",
+                    "cityDomain": "https://tesuque-city-nm.mydripnurse.com",
+                    "citySitemap": "https://tesuque-city-nm.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "La Cienega",
+                    "cityDomain": "https://la-cienega-city-nm.mydripnurse.com",
+                    "citySitemap": "https://la-cienega-city-nm.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "La Cieneguilla",
+                    "cityDomain": "https://la-cieneguilla-city-nm.mydripnurse.com",
+                    "citySitemap": "https://la-cieneguilla-city-nm.mydripnurse.com/sitemap.xml"
+                }
+            ],
+            "countyDomain": "https://santa-fe-county-nm.mydripnurse.com",
+            "countySitemap": "https://santa-fe-county-nm.mydripnurse.com/sitemap.xml",
+            "sitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\\n  <sitemap>\\n    <loc>https://santa-fe-county-nm.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-01-18</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://santa-fe-city-nm.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-01-18</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://eldorado-at-santa-fe-city-nm.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-01-18</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://cuyamungue-city-nm.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-01-18</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://edgewood-city-nm.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-01-18</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://glorieta-city-nm.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-01-18</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://nambe-city-nm.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-01-18</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://pojoaque-city-nm.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-01-18</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://tesuque-city-nm.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-01-18</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://la-cienega-city-nm.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-01-18</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://la-cieneguilla-city-nm.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-01-18</lastmod>\\n  </sitemap>\\n</sitemapindex>"
+        },
+        {
+            "countyName": "Sandoval",
+            "cities": [
+                {
+                    "cityName": "Rio Rancho",
+                    "cityDomain": "https://rio-rancho-city-nm.mydripnurse.com",
+                    "citySitemap": "https://rio-rancho-city-nm.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Bernalillo",
+                    "cityDomain": "https://bernalillo-city-nm.mydripnurse.com",
+                    "citySitemap": "https://bernalillo-city-nm.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Corrales",
+                    "cityDomain": "https://corrales-city-nm.mydripnurse.com",
+                    "citySitemap": "https://corrales-city-nm.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Placitas",
+                    "cityDomain": "https://placitas-city-nm.mydripnurse.com",
+                    "citySitemap": "https://placitas-city-nm.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Cuba",
+                    "cityDomain": "https://cuba-city-nm.mydripnurse.com",
+                    "citySitemap": "https://cuba-city-nm.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Jemez Pueblo",
+                    "cityDomain": "https://jemez-pueblo-city-nm.mydripnurse.com",
+                    "citySitemap": "https://jemez-pueblo-city-nm.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "San Ysidro",
+                    "cityDomain": "https://san-ysidro-city-nm.mydripnurse.com",
+                    "citySitemap": "https://san-ysidro-city-nm.mydripnurse.com/sitemap.xml"
+                }
+            ],
+            "countyDomain": "https://sandoval-county-nm.mydripnurse.com",
+            "countySitemap": "https://sandoval-county-nm.mydripnurse.com/sitemap.xml",
+            "sitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\\n  <sitemap>\\n    <loc>https://sandoval-county-nm.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-01-18</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://rio-rancho-city-nm.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-01-18</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://bernalillo-city-nm.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-01-18</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://corrales-city-nm.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-01-18</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://placitas-city-nm.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-01-18</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://cuba-city-nm.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-01-18</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://jemez-pueblo-city-nm.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-01-18</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://san-ysidro-city-nm.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-01-18</lastmod>\\n  </sitemap>\\n</sitemapindex>"
+        },
+        {
+            "countyName": "Doña Ana",
+            "cities": [
+                {
+                    "cityName": "Las Cruces",
+                    "cityDomain": "https://las-cruces-city-nm.mydripnurse.com",
+                    "citySitemap": "https://las-cruces-city-nm.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Sunland Park",
+                    "cityDomain": "https://sunland-park-city-nm.mydripnurse.com",
+                    "citySitemap": "https://sunland-park-city-nm.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Anthony",
+                    "cityDomain": "https://anthony-city-nm.mydripnurse.com",
+                    "citySitemap": "https://anthony-city-nm.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Chaparral",
+                    "cityDomain": "https://chaparral-city-nm.mydripnurse.com",
+                    "citySitemap": "https://chaparral-city-nm.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Mesilla",
+                    "cityDomain": "https://mesilla-city-nm.mydripnurse.com",
+                    "citySitemap": "https://mesilla-city-nm.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Mesquite",
+                    "cityDomain": "https://mesquite-city-nm.mydripnurse.com",
+                    "citySitemap": "https://mesquite-city-nm.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Radium Springs",
+                    "cityDomain": "https://radium-springs-city-nm.mydripnurse.com",
+                    "citySitemap": "https://radium-springs-city-nm.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Santa Teresa",
+                    "cityDomain": "https://santa-teresa-city-nm.mydripnurse.com",
+                    "citySitemap": "https://santa-teresa-city-nm.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Vado",
+                    "cityDomain": "https://vado-city-nm.mydripnurse.com",
+                    "citySitemap": "https://vado-city-nm.mydripnurse.com/sitemap.xml"
+                }
+            ],
+            "countyDomain": "https://dona-ana-county-nm.mydripnurse.com",
+            "countySitemap": "https://dona-ana-county-nm.mydripnurse.com/sitemap.xml",
+            "sitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\\n  <sitemap>\\n    <loc>https://dona-ana-county-nm.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-01-18</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://las-cruces-city-nm.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-01-18</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://sunland-park-city-nm.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-01-18</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://anthony-city-nm.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-01-18</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://chaparral-city-nm.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-01-18</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://mesilla-city-nm.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-01-18</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://mesquite-city-nm.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-01-18</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://radium-springs-city-nm.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-01-18</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://santa-teresa-city-nm.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-01-18</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://vado-city-nm.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-01-18</lastmod>\\n  </sitemap>\\n</sitemapindex>"
+        },
+        {
+            "countyName": "San Juan",
+            "cities": [
+                {
+                    "cityName": "Farmington",
+                    "cityDomain": "https://farmington-city-nm.mydripnurse.com",
+                    "citySitemap": "https://farmington-city-nm.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Aztec",
+                    "cityDomain": "https://aztec-city-nm.mydripnurse.com",
+                    "citySitemap": "https://aztec-city-nm.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Bloomfield",
+                    "cityDomain": "https://bloomfield-city-nm.mydripnurse.com",
+                    "citySitemap": "https://bloomfield-city-nm.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Kirtland",
+                    "cityDomain": "https://kirtland-city-nm.mydripnurse.com",
+                    "citySitemap": "https://kirtland-city-nm.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Flora Vista",
+                    "cityDomain": "https://flora-vista-city-nm.mydripnurse.com",
+                    "citySitemap": "https://flora-vista-city-nm.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Navajo Dam",
+                    "cityDomain": "https://navajo-dam-city-nm.mydripnurse.com",
+                    "citySitemap": "https://navajo-dam-city-nm.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Shiprock",
+                    "cityDomain": "https://shiprock-city-nm.mydripnurse.com",
+                    "citySitemap": "https://shiprock-city-nm.mydripnurse.com/sitemap.xml"
+                }
+            ],
+            "countyDomain": "https://san-juan-county-nm.mydripnurse.com",
+            "countySitemap": "https://san-juan-county-nm.mydripnurse.com/sitemap.xml",
+            "sitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\\n  <sitemap>\\n    <loc>https://san-juan-county-nm.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-01-18</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://farmington-city-nm.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-01-18</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://aztec-city-nm.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-01-18</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://bloomfield-city-nm.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-01-18</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://kirtland-city-nm.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-01-18</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://flora-vista-city-nm.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-01-18</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://navajo-dam-city-nm.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-01-18</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://shiprock-city-nm.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-01-18</lastmod>\\n  </sitemap>\\n</sitemapindex>"
+        },
+        {
+            "countyName": "McKinley",
+            "cities": [
+                {
+                    "cityName": "Gallup",
+                    "cityDomain": "https://gallup-city-nm.mydripnurse.com",
+                    "citySitemap": "https://gallup-city-nm.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Ramah",
+                    "cityDomain": "https://ramah-city-nm.mydripnurse.com",
+                    "citySitemap": "https://ramah-city-nm.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Tohatchi",
+                    "cityDomain": "https://tohatchi-city-nm.mydripnurse.com",
+                    "citySitemap": "https://tohatchi-city-nm.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Church Rock",
+                    "cityDomain": "https://church-rock-city-nm.mydripnurse.com",
+                    "citySitemap": "https://church-rock-city-nm.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Thoreau",
+                    "cityDomain": "https://thoreau-city-nm.mydripnurse.com",
+                    "citySitemap": "https://thoreau-city-nm.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Mentmore",
+                    "cityDomain": "https://mentmore-city-nm.mydripnurse.com",
+                    "citySitemap": "https://mentmore-city-nm.mydripnurse.com/sitemap.xml"
+                }
+            ],
+            "countyDomain": "https://mckinley-county-nm.mydripnurse.com",
+            "countySitemap": "https://mckinley-county-nm.mydripnurse.com/sitemap.xml",
+            "sitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\\n  <sitemap>\\n    <loc>https://mckinley-county-nm.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-01-18</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://gallup-city-nm.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-01-18</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://ramah-city-nm.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-01-18</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://tohatchi-city-nm.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-01-18</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://church-rock-city-nm.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-01-18</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://thoreau-city-nm.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-01-18</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://mentmore-city-nm.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-01-18</lastmod>\\n  </sitemap>\\n</sitemapindex>"
+        },
+        {
+            "countyName": "Lea",
+            "cities": [
+                {
+                    "cityName": "Hobbs",
+                    "cityDomain": "https://hobbs-city-nm.mydripnurse.com",
+                    "citySitemap": "https://hobbs-city-nm.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Lovington",
+                    "cityDomain": "https://lovington-city-nm.mydripnurse.com",
+                    "citySitemap": "https://lovington-city-nm.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Eunice",
+                    "cityDomain": "https://eunice-city-nm.mydripnurse.com",
+                    "citySitemap": "https://eunice-city-nm.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Jal",
+                    "cityDomain": "https://jal-city-nm.mydripnurse.com",
+                    "citySitemap": "https://jal-city-nm.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Monument",
+                    "cityDomain": "https://monument-city-nm.mydripnurse.com",
+                    "citySitemap": "https://monument-city-nm.mydripnurse.com/sitemap.xml"
+                }
+            ],
+            "countyDomain": "https://lea-county-nm.mydripnurse.com",
+            "countySitemap": "https://lea-county-nm.mydripnurse.com/sitemap.xml",
+            "sitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\\n  <sitemap>\\n    <loc>https://lea-county-nm.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-01-18</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://hobbs-city-nm.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-01-18</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://lovington-city-nm.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-01-18</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://eunice-city-nm.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-01-18</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://jal-city-nm.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-01-18</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://monument-city-nm.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-01-18</lastmod>\\n  </sitemap>\\n</sitemapindex>"
+        },
+        {
+            "countyName": "Eddy",
+            "cities": [
+                {
+                    "cityName": "Carlsbad",
+                    "cityDomain": "https://carlsbad-city-nm.mydripnurse.com",
+                    "citySitemap": "https://carlsbad-city-nm.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Artesia",
+                    "cityDomain": "https://artesia-city-nm.mydripnurse.com",
+                    "citySitemap": "https://artesia-city-nm.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Loving",
+                    "cityDomain": "https://loving-city-nm.mydripnurse.com",
+                    "citySitemap": "https://loving-city-nm.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Hope",
+                    "cityDomain": "https://hope-city-nm.mydripnurse.com",
+                    "citySitemap": "https://hope-city-nm.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Lake Arthur",
+                    "cityDomain": "https://lake-arthur-city-nm.mydripnurse.com",
+                    "citySitemap": "https://lake-arthur-city-nm.mydripnurse.com/sitemap.xml"
+                }
+            ],
+            "countyDomain": "https://eddy-county-nm.mydripnurse.com",
+            "countySitemap": "https://eddy-county-nm.mydripnurse.com/sitemap.xml",
+            "sitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\\n  <sitemap>\\n    <loc>https://eddy-county-nm.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-01-18</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://carlsbad-city-nm.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-01-18</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://artesia-city-nm.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-01-18</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://loving-city-nm.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-01-18</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://hope-city-nm.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-01-18</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://lake-arthur-city-nm.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-01-18</lastmod>\\n  </sitemap>\\n</sitemapindex>"
+        },
+        {
+            "countyName": "Chaves",
+            "cities": [
+                {
+                    "cityName": "Roswell",
+                    "cityDomain": "https://roswell-city-nm.mydripnurse.com",
+                    "citySitemap": "https://roswell-city-nm.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Dexter",
+                    "cityDomain": "https://dexter-city-nm.mydripnurse.com",
+                    "citySitemap": "https://dexter-city-nm.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Hagerman",
+                    "cityDomain": "https://hagerman-city-nm.mydripnurse.com",
+                    "citySitemap": "https://hagerman-city-nm.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Lake Arthur",
+                    "cityDomain": "https://lake-arthur-city-nm.mydripnurse.com",
+                    "citySitemap": "https://lake-arthur-city-nm.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Artesia",
+                    "cityDomain": "https://artesia-city-nm.mydripnurse.com",
+                    "citySitemap": "https://artesia-city-nm.mydripnurse.com/sitemap.xml"
+                }
+            ],
+            "countyDomain": "https://chaves-county-nm.mydripnurse.com",
+            "countySitemap": "https://chaves-county-nm.mydripnurse.com/sitemap.xml",
+            "sitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\\n  <sitemap>\\n    <loc>https://chaves-county-nm.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-01-18</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://roswell-city-nm.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-01-18</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://dexter-city-nm.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-01-18</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://hagerman-city-nm.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-01-18</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://lake-arthur-city-nm.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-01-18</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://artesia-city-nm.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-01-18</lastmod>\\n  </sitemap>\\n</sitemapindex>"
+        },
+        {
+            "countyName": "Otero",
+            "cities": [
+                {
+                    "cityName": "Alamogordo",
+                    "cityDomain": "https://alamogordo-city-nm.mydripnurse.com",
+                    "citySitemap": "https://alamogordo-city-nm.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Cloudcroft",
+                    "cityDomain": "https://cloudcroft-city-nm.mydripnurse.com",
+                    "citySitemap": "https://cloudcroft-city-nm.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Holloman Air Force Base",
+                    "cityDomain": "https://holloman-air-force-base-city-nm.mydripnurse.com",
+                    "citySitemap": "https://holloman-air-force-base-city-nm.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "La Luz",
+                    "cityDomain": "https://la-luz-city-nm.mydripnurse.com",
+                    "citySitemap": "https://la-luz-city-nm.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "High Rolls",
+                    "cityDomain": "https://high-rolls-city-nm.mydripnurse.com",
+                    "citySitemap": "https://high-rolls-city-nm.mydripnurse.com/sitemap.xml"
+                }
+            ],
+            "countyDomain": "https://otero-county-nm.mydripnurse.com",
+            "countySitemap": "https://otero-county-nm.mydripnurse.com/sitemap.xml",
+            "sitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\\n  <sitemap>\\n    <loc>https://otero-county-nm.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-01-18</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://alamogordo-city-nm.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-01-18</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://cloudcroft-city-nm.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-01-18</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://holloman-air-force-base-city-nm.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-01-18</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://la-luz-city-nm.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-01-18</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://high-rolls-city-nm.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-01-18</lastmod>\\n  </sitemap>\\n</sitemapindex>"
+        },
+        {
+            "countyName": "Curry",
+            "cities": [
+                {
+                    "cityName": "Clovis",
+                    "cityDomain": "https://clovis-city-nm.mydripnurse.com",
+                    "citySitemap": "https://clovis-city-nm.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Texico",
+                    "cityDomain": "https://texico-city-nm.mydripnurse.com",
+                    "citySitemap": "https://texico-city-nm.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Cannon Air Force Base",
+                    "cityDomain": "https://cannon-air-force-base-city-nm.mydripnurse.com",
+                    "citySitemap": "https://cannon-air-force-base-city-nm.mydripnurse.com/sitemap.xml"
+                }
+            ],
+            "countyDomain": "https://curry-county-nm.mydripnurse.com",
+            "countySitemap": "https://curry-county-nm.mydripnurse.com/sitemap.xml",
+            "sitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\\n  <sitemap>\\n    <loc>https://curry-county-nm.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-01-18</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://clovis-city-nm.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-01-18</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://texico-city-nm.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-01-18</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://cannon-air-force-base-city-nm.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-01-18</lastmod>\\n  </sitemap>\\n</sitemapindex>"
+        },
+        {
+            "countyName": "Valencia",
+            "cities": [
+                {
+                    "cityName": "Belen",
+                    "cityDomain": "https://belen-city-nm.mydripnurse.com",
+                    "citySitemap": "https://belen-city-nm.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Los Lunas",
+                    "cityDomain": "https://los-lunas-city-nm.mydripnurse.com",
+                    "citySitemap": "https://los-lunas-city-nm.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Peralta",
+                    "cityDomain": "https://peralta-city-nm.mydripnurse.com",
+                    "citySitemap": "https://peralta-city-nm.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Rio Communities",
+                    "cityDomain": "https://rio-communities-city-nm.mydripnurse.com",
+                    "citySitemap": "https://rio-communities-city-nm.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Bosque Farms",
+                    "cityDomain": "https://bosque-farms-city-nm.mydripnurse.com",
+                    "citySitemap": "https://bosque-farms-city-nm.mydripnurse.com/sitemap.xml"
+                }
+            ],
+            "countyDomain": "https://valencia-county-nm.mydripnurse.com",
+            "countySitemap": "https://valencia-county-nm.mydripnurse.com/sitemap.xml",
+            "sitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\\n  <sitemap>\\n    <loc>https://valencia-county-nm.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-01-18</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://belen-city-nm.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-01-18</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://los-lunas-city-nm.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-01-18</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://peralta-city-nm.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-01-18</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://rio-communities-city-nm.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-01-18</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://bosque-farms-city-nm.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-01-18</lastmod>\\n  </sitemap>\\n</sitemapindex>"
+        },
+        {
+            "countyName": "Grant",
+            "cities": [
+                {
+                    "cityName": "Silver City",
+                    "cityDomain": "https://silver-city-city-nm.mydripnurse.com",
+                    "citySitemap": "https://silver-city-city-nm.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Bayard",
+                    "cityDomain": "https://bayard-city-nm.mydripnurse.com",
+                    "citySitemap": "https://bayard-city-nm.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Santa Clara",
+                    "cityDomain": "https://santa-clara-city-nm.mydripnurse.com",
+                    "citySitemap": "https://santa-clara-city-nm.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Hurley",
+                    "cityDomain": "https://hurley-city-nm.mydripnurse.com",
+                    "citySitemap": "https://hurley-city-nm.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Cliff",
+                    "cityDomain": "https://cliff-city-nm.mydripnurse.com",
+                    "citySitemap": "https://cliff-city-nm.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Gila",
+                    "cityDomain": "https://gila-city-nm.mydripnurse.com",
+                    "citySitemap": "https://gila-city-nm.mydripnurse.com/sitemap.xml"
+                }
+            ],
+            "countyDomain": "https://grant-county-nm.mydripnurse.com",
+            "countySitemap": "https://grant-county-nm.mydripnurse.com/sitemap.xml",
+            "sitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\\n  <sitemap>\\n    <loc>https://grant-county-nm.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-01-18</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://silver-city-city-nm.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-01-18</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://bayard-city-nm.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-01-18</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://santa-clara-city-nm.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-01-18</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://hurley-city-nm.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-01-18</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://cliff-city-nm.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-01-18</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://gila-city-nm.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-01-18</lastmod>\\n  </sitemap>\\n</sitemapindex>"
+        },
+        {
+            "countyName": "Taos",
+            "cities": [
+                {
+                    "cityName": "Taos",
+                    "cityDomain": "https://taos-city-nm.mydripnurse.com",
+                    "citySitemap": "https://taos-city-nm.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Questa",
+                    "cityDomain": "https://questa-city-nm.mydripnurse.com",
+                    "citySitemap": "https://questa-city-nm.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Red River",
+                    "cityDomain": "https://red-river-city-nm.mydripnurse.com",
+                    "citySitemap": "https://red-river-city-nm.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Arroyo Seco",
+                    "cityDomain": "https://arroyo-seco-city-nm.mydripnurse.com",
+                    "citySitemap": "https://arroyo-seco-city-nm.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Ranchos de Taos",
+                    "cityDomain": "https://ranchos-de-taos-city-nm.mydripnurse.com",
+                    "citySitemap": "https://ranchos-de-taos-city-nm.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Taos Pueblo",
+                    "cityDomain": "https://taos-pueblo-city-nm.mydripnurse.com",
+                    "citySitemap": "https://taos-pueblo-city-nm.mydripnurse.com/sitemap.xml"
+                }
+            ],
+            "countyDomain": "https://taos-county-nm.mydripnurse.com",
+            "countySitemap": "https://taos-county-nm.mydripnurse.com/sitemap.xml",
+            "sitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\\n  <sitemap>\\n    <loc>https://taos-county-nm.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-01-18</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://taos-city-nm.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-01-18</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://questa-city-nm.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-01-18</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://red-river-city-nm.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-01-18</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://arroyo-seco-city-nm.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-01-18</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://ranchos-de-taos-city-nm.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-01-18</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://taos-pueblo-city-nm.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-01-18</lastmod>\\n  </sitemap>\\n</sitemapindex>"
+        },
+        {
+            "countyName": "Los Alamos",
+            "cities": [
+                {
+                    "cityName": "Los Alamos",
+                    "cityDomain": "https://los-alamos-city-nm.mydripnurse.com",
+                    "citySitemap": "https://los-alamos-city-nm.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "White Rock",
+                    "cityDomain": "https://white-rock-city-nm.mydripnurse.com",
+                    "citySitemap": "https://white-rock-city-nm.mydripnurse.com/sitemap.xml"
+                }
+            ],
+            "countyDomain": "https://los-alamos-county-nm.mydripnurse.com",
+            "countySitemap": "https://los-alamos-county-nm.mydripnurse.com/sitemap.xml",
+            "sitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\\n  <sitemap>\\n    <loc>https://los-alamos-county-nm.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-01-18</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://los-alamos-city-nm.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-01-18</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://white-rock-city-nm.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-01-18</lastmod>\\n  </sitemap>\\n</sitemapindex>"
+        },
+        {
+            "countyName": "Lincoln",
+            "cities": [
+                {
+                    "cityName": "Ruidoso",
+                    "cityDomain": "https://ruidoso-city-nm.mydripnurse.com",
+                    "citySitemap": "https://ruidoso-city-nm.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Ruidoso Downs",
+                    "cityDomain": "https://ruidoso-downs-city-nm.mydripnurse.com",
+                    "citySitemap": "https://ruidoso-downs-city-nm.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Capitan",
+                    "cityDomain": "https://capitan-city-nm.mydripnurse.com",
+                    "citySitemap": "https://capitan-city-nm.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Carrizozo",
+                    "cityDomain": "https://carrizozo-city-nm.mydripnurse.com",
+                    "citySitemap": "https://carrizozo-city-nm.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Nogal",
+                    "cityDomain": "https://nogal-city-nm.mydripnurse.com",
+                    "citySitemap": "https://nogal-city-nm.mydripnurse.com/sitemap.xml"
+                }
+            ],
+            "countyDomain": "https://lincoln-county-nm.mydripnurse.com",
+            "countySitemap": "https://lincoln-county-nm.mydripnurse.com/sitemap.xml",
+            "sitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\\n  <sitemap>\\n    <loc>https://lincoln-county-nm.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-01-18</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://ruidoso-city-nm.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-01-18</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://ruidoso-downs-city-nm.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-01-18</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://capitan-city-nm.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-01-18</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://carrizozo-city-nm.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-01-18</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://nogal-city-nm.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-01-18</lastmod>\\n  </sitemap>\\n</sitemapindex>"
+        },
+        {
+            "countyName": "Sierra",
+            "cities": [
+                {
+                    "cityName": "Truth or Consequences",
+                    "cityDomain": "https://truth-or-consequences-city-nm.mydripnurse.com",
+                    "citySitemap": "https://truth-or-consequences-city-nm.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Elephant Butte",
+                    "cityDomain": "https://elephant-butte-city-nm.mydripnurse.com",
+                    "citySitemap": "https://elephant-butte-city-nm.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Williamsburg",
+                    "cityDomain": "https://williamsburg-city-nm.mydripnurse.com",
+                    "citySitemap": "https://williamsburg-city-nm.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Hillsboro",
+                    "cityDomain": "https://hillsboro-city-nm.mydripnurse.com",
+                    "citySitemap": "https://hillsboro-city-nm.mydripnurse.com/sitemap.xml"
+                }
+            ],
+            "countyDomain": "https://sierra-county-nm.mydripnurse.com",
+            "countySitemap": "https://sierra-county-nm.mydripnurse.com/sitemap.xml",
+            "sitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\\n  <sitemap>\\n    <loc>https://sierra-county-nm.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-01-18</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://truth-or-consequences-city-nm.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-01-18</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://elephant-butte-city-nm.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-01-18</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://williamsburg-city-nm.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-01-18</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://hillsboro-city-nm.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-01-18</lastmod>\\n  </sitemap>\\n</sitemapindex>"
+        },
+        {
+            "countyName": "Colfax",
+            "cities": [
+                {
+                    "cityName": "Raton",
+                    "cityDomain": "https://raton-city-nm.mydripnurse.com",
+                    "citySitemap": "https://raton-city-nm.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Springer",
+                    "cityDomain": "https://springer-city-nm.mydripnurse.com",
+                    "citySitemap": "https://springer-city-nm.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Cimarron",
+                    "cityDomain": "https://cimarron-city-nm.mydripnurse.com",
+                    "citySitemap": "https://cimarron-city-nm.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Eagle Nest",
+                    "cityDomain": "https://eagle-nest-city-nm.mydripnurse.com",
+                    "citySitemap": "https://eagle-nest-city-nm.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Maxwell",
+                    "cityDomain": "https://maxwell-city-nm.mydripnurse.com",
+                    "citySitemap": "https://maxwell-city-nm.mydripnurse.com/sitemap.xml"
+                }
+            ],
+            "countyDomain": "https://colfax-county-nm.mydripnurse.com",
+            "countySitemap": "https://colfax-county-nm.mydripnurse.com/sitemap.xml",
+            "sitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\\n  <sitemap>\\n    <loc>https://colfax-county-nm.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-01-18</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://raton-city-nm.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-01-18</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://springer-city-nm.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-01-18</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://cimarron-city-nm.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-01-18</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://eagle-nest-city-nm.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-01-18</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://maxwell-city-nm.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-01-18</lastmod>\\n  </sitemap>\\n</sitemapindex>"
+        },
+        {
+            "countyName": "Union",
+            "cities": [
+                {
+                    "cityName": "Clayton",
+                    "cityDomain": "https://clayton-city-nm.mydripnurse.com",
+                    "citySitemap": "https://clayton-city-nm.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Des Moines",
+                    "cityDomain": "https://des-moines-city-nm.mydripnurse.com",
+                    "citySitemap": "https://des-moines-city-nm.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Folsom",
+                    "cityDomain": "https://folsom-city-nm.mydripnurse.com",
+                    "citySitemap": "https://folsom-city-nm.mydripnurse.com/sitemap.xml"
+                }
+            ],
+            "countyDomain": "https://union-county-nm.mydripnurse.com",
+            "countySitemap": "https://union-county-nm.mydripnurse.com/sitemap.xml",
+            "sitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\\n  <sitemap>\\n    <loc>https://union-county-nm.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-01-18</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://clayton-city-nm.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-01-18</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://des-moines-city-nm.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-01-18</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://folsom-city-nm.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-01-18</lastmod>\\n  </sitemap>\\n</sitemapindex>"
+        },
+        {
+            "countyName": "Luna",
+            "cities": [
+                {
+                    "cityName": "Deming",
+                    "cityDomain": "https://deming-city-nm.mydripnurse.com",
+                    "citySitemap": "https://deming-city-nm.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Columbus",
+                    "cityDomain": "https://columbus-city-nm.mydripnurse.com",
+                    "citySitemap": "https://columbus-city-nm.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Akela",
+                    "cityDomain": "https://akela-city-nm.mydripnurse.com",
+                    "citySitemap": "https://akela-city-nm.mydripnurse.com/sitemap.xml"
+                }
+            ],
+            "countyDomain": "https://luna-county-nm.mydripnurse.com",
+            "countySitemap": "https://luna-county-nm.mydripnurse.com/sitemap.xml",
+            "sitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\\n  <sitemap>\\n    <loc>https://luna-county-nm.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-01-18</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://deming-city-nm.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-01-18</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://columbus-city-nm.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-01-18</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://akela-city-nm.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-01-18</lastmod>\\n  </sitemap>\\n</sitemapindex>"
+        },
+        {
+            "countyName": "Socorro",
+            "cities": [
+                {
+                    "cityName": "Socorro",
+                    "cityDomain": "https://socorro-city-nm.mydripnurse.com",
+                    "citySitemap": "https://socorro-city-nm.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Magdalena",
+                    "cityDomain": "https://magdalena-city-nm.mydripnurse.com",
+                    "citySitemap": "https://magdalena-city-nm.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Polvadera",
+                    "cityDomain": "https://polvadera-city-nm.mydripnurse.com",
+                    "citySitemap": "https://polvadera-city-nm.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Lemitar",
+                    "cityDomain": "https://lemitar-city-nm.mydripnurse.com",
+                    "citySitemap": "https://lemitar-city-nm.mydripnurse.com/sitemap.xml"
+                }
+            ],
+            "countyDomain": "https://socorro-county-nm.mydripnurse.com",
+            "countySitemap": "https://socorro-county-nm.mydripnurse.com/sitemap.xml",
+            "sitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\\n  <sitemap>\\n    <loc>https://socorro-county-nm.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-01-18</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://socorro-city-nm.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-01-18</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://magdalena-city-nm.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-01-18</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://polvadera-city-nm.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-01-18</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://lemitar-city-nm.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-01-18</lastmod>\\n  </sitemap>\\n</sitemapindex>"
+        },
+        {
+            "countyName": "Rio Arriba",
+            "cities": [
+                {
+                    "cityName": "Española",
+                    "cityDomain": "https://espanola-city-nm.mydripnurse.com",
+                    "citySitemap": "https://espanola-city-nm.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Chama",
+                    "cityDomain": "https://chama-city-nm.mydripnurse.com",
+                    "citySitemap": "https://chama-city-nm.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Tierra Amarilla",
+                    "cityDomain": "https://tierra-amarilla-city-nm.mydripnurse.com",
+                    "citySitemap": "https://tierra-amarilla-city-nm.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Hernandez",
+                    "cityDomain": "https://hernandez-city-nm.mydripnurse.com",
+                    "citySitemap": "https://hernandez-city-nm.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Abiquiu",
+                    "cityDomain": "https://abiquiu-city-nm.mydripnurse.com",
+                    "citySitemap": "https://abiquiu-city-nm.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Dulce",
+                    "cityDomain": "https://dulce-city-nm.mydripnurse.com",
+                    "citySitemap": "https://dulce-city-nm.mydripnurse.com/sitemap.xml"
+                }
+            ],
+            "countyDomain": "https://rio-arriba-county-nm.mydripnurse.com",
+            "countySitemap": "https://rio-arriba-county-nm.mydripnurse.com/sitemap.xml",
+            "sitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\\n  <sitemap>\\n    <loc>https://rio-arriba-county-nm.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-01-18</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://espanola-city-nm.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-01-18</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://chama-city-nm.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-01-18</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://tierra-amarilla-city-nm.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-01-18</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://hernandez-city-nm.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-01-18</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://abiquiu-city-nm.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-01-18</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://dulce-city-nm.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-01-18</lastmod>\\n  </sitemap>\\n</sitemapindex>"
+        },
+        {
+            "countyName": "Torrance",
+            "cities": [
+                {
+                    "cityName": "Estancia",
+                    "cityDomain": "https://estancia-city-nm.mydripnurse.com",
+                    "citySitemap": "https://estancia-city-nm.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Moriarty",
+                    "cityDomain": "https://moriarty-city-nm.mydripnurse.com",
+                    "citySitemap": "https://moriarty-city-nm.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Mountainair",
+                    "cityDomain": "https://mountainair-city-nm.mydripnurse.com",
+                    "citySitemap": "https://mountainair-city-nm.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Willard",
+                    "cityDomain": "https://willard-city-nm.mydripnurse.com",
+                    "citySitemap": "https://willard-city-nm.mydripnurse.com/sitemap.xml"
+                }
+            ],
+            "countyDomain": "https://torrance-county-nm.mydripnurse.com",
+            "countySitemap": "https://torrance-county-nm.mydripnurse.com/sitemap.xml",
+            "sitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\\n  <sitemap>\\n    <loc>https://torrance-county-nm.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-01-18</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://estancia-city-nm.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-01-18</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://moriarty-city-nm.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-01-18</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://mountainair-city-nm.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-01-18</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://willard-city-nm.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-01-18</lastmod>\\n  </sitemap>\\n</sitemapindex>"
+        },
+        {
+            "countyName": "Quay",
+            "cities": [
+                {
+                    "cityName": "Tucumcari",
+                    "cityDomain": "https://tucumcari-city-nm.mydripnurse.com",
+                    "citySitemap": "https://tucumcari-city-nm.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Logan",
+                    "cityDomain": "https://logan-city-nm.mydripnurse.com",
+                    "citySitemap": "https://logan-city-nm.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "San Jon",
+                    "cityDomain": "https://san-jon-city-nm.mydripnurse.com",
+                    "citySitemap": "https://san-jon-city-nm.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Nara Visa",
+                    "cityDomain": "https://nara-visa-city-nm.mydripnurse.com",
+                    "citySitemap": "https://nara-visa-city-nm.mydripnurse.com/sitemap.xml"
+                }
+            ],
+            "countyDomain": "https://quay-county-nm.mydripnurse.com",
+            "countySitemap": "https://quay-county-nm.mydripnurse.com/sitemap.xml",
+            "sitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\\n  <sitemap>\\n    <loc>https://quay-county-nm.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-01-18</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://tucumcari-city-nm.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-01-18</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://logan-city-nm.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-01-18</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://san-jon-city-nm.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-01-18</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://nara-visa-city-nm.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-01-18</lastmod>\\n  </sitemap>\\n</sitemapindex>"
+        },
+        {
+            "countyName": "Roosevelt",
+            "cities": [
+                {
+                    "cityName": "Portales",
+                    "cityDomain": "https://portales-city-nm.mydripnurse.com",
+                    "citySitemap": "https://portales-city-nm.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Elida",
+                    "cityDomain": "https://elida-city-nm.mydripnurse.com",
+                    "citySitemap": "https://elida-city-nm.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Causey",
+                    "cityDomain": "https://causey-city-nm.mydripnurse.com",
+                    "citySitemap": "https://causey-city-nm.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Floyd",
+                    "cityDomain": "https://floyd-city-nm.mydripnurse.com",
+                    "citySitemap": "https://floyd-city-nm.mydripnurse.com/sitemap.xml"
+                }
+            ],
+            "countyDomain": "https://roosevelt-county-nm.mydripnurse.com",
+            "countySitemap": "https://roosevelt-county-nm.mydripnurse.com/sitemap.xml",
+            "sitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\\n  <sitemap>\\n    <loc>https://roosevelt-county-nm.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-01-18</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://portales-city-nm.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-01-18</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://elida-city-nm.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-01-18</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://causey-city-nm.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-01-18</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://floyd-city-nm.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-01-18</lastmod>\\n  </sitemap>\\n</sitemapindex>"
+        },
+        {
+            "countyName": "Guadalupe",
+            "cities": [
+                {
+                    "cityName": "Santa Rosa",
+                    "cityDomain": "https://santa-rosa-city-nm.mydripnurse.com",
+                    "citySitemap": "https://santa-rosa-city-nm.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Puerto de Luna",
+                    "cityDomain": "https://puerto-de-luna-city-nm.mydripnurse.com",
+                    "citySitemap": "https://puerto-de-luna-city-nm.mydripnurse.com/sitemap.xml"
+                }
+            ],
+            "countyDomain": "https://guadalupe-county-nm.mydripnurse.com",
+            "countySitemap": "https://guadalupe-county-nm.mydripnurse.com/sitemap.xml",
+            "sitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\\n  <sitemap>\\n    <loc>https://guadalupe-county-nm.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-01-18</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://santa-rosa-city-nm.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-01-18</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://puerto-de-luna-city-nm.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-01-18</lastmod>\\n  </sitemap>\\n</sitemapindex>"
+        },
+        {
+            "countyName": "Hidalgo",
+            "cities": [
+                {
+                    "cityName": "Lordsburg",
+                    "cityDomain": "https://lordsburg-city-nm.mydripnurse.com",
+                    "citySitemap": "https://lordsburg-city-nm.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Animas",
+                    "cityDomain": "https://animas-city-nm.mydripnurse.com",
+                    "citySitemap": "https://animas-city-nm.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Virden",
+                    "cityDomain": "https://virden-city-nm.mydripnurse.com",
+                    "citySitemap": "https://virden-city-nm.mydripnurse.com/sitemap.xml"
+                }
+            ],
+            "countyDomain": "https://hidalgo-county-nm.mydripnurse.com",
+            "countySitemap": "https://hidalgo-county-nm.mydripnurse.com/sitemap.xml",
+            "sitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\\n  <sitemap>\\n    <loc>https://hidalgo-county-nm.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-01-18</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://lordsburg-city-nm.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-01-18</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://animas-city-nm.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-01-18</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://virden-city-nm.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-01-18</lastmod>\\n  </sitemap>\\n</sitemapindex>"
+        },
+        {
+            "countyName": "Catron",
+            "cities": [
+                {
+                    "cityName": "Reserve",
+                    "cityDomain": "https://reserve-city-nm.mydripnurse.com",
+                    "citySitemap": "https://reserve-city-nm.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Quemado",
+                    "cityDomain": "https://quemado-city-nm.mydripnurse.com",
+                    "citySitemap": "https://quemado-city-nm.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Glenwood",
+                    "cityDomain": "https://glenwood-city-nm.mydripnurse.com",
+                    "citySitemap": "https://glenwood-city-nm.mydripnurse.com/sitemap.xml"
+                }
+            ],
+            "countyDomain": "https://catron-county-nm.mydripnurse.com",
+            "countySitemap": "https://catron-county-nm.mydripnurse.com/sitemap.xml",
+            "sitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\\n  <sitemap>\\n    <loc>https://catron-county-nm.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-01-18</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://reserve-city-nm.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-01-18</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://quemado-city-nm.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-01-18</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://glenwood-city-nm.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-01-18</lastmod>\\n  </sitemap>\\n</sitemapindex>"
+        },
+        {
+            "countyName": "De Baca",
+            "cities": [
+                {
+                    "cityName": "Fort Sumner",
+                    "cityDomain": "https://fort-sumner-city-nm.mydripnurse.com",
+                    "citySitemap": "https://fort-sumner-city-nm.mydripnurse.com/sitemap.xml"
+                }
+            ],
+            "countyDomain": "https://de-baca-county-nm.mydripnurse.com",
+            "countySitemap": "https://de-baca-county-nm.mydripnurse.com/sitemap.xml",
+            "sitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\\n  <sitemap>\\n    <loc>https://de-baca-county-nm.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-01-18</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://fort-sumner-city-nm.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-01-18</lastmod>\\n  </sitemap>\\n</sitemapindex>"
+        }
+    ],
+    "companyName": "My Drip Nurse",
+    "website": "https://www.mydripnurse.com",
+    "ownerName": "Keishla",
+    "ownerLastName": "Caraballo",
+    "phone": "9392749203",
+    "email": "keyla03@live.com",
+    "twilio": {
+        "sid": "secret",
+        "authToken": "secret"
+    },
+    "mailgun": {
+        "apiKey": "secret",
+        "domain": "secret"
+    },
+    "customValues": {
+        "businessInformation": {
+            "favicon": "https://storage.googleapis.com/msgsndr/vMfl1L5xb2wJfNFNW5fb/media/656c2a9fe33f7c575831e093.png",
+            "businessPhone": ""
+        },
+        "ivTherapyPrice": {
+            "myersCocktailPrice": "299",
+            "alleviatePrice": "219",
+            "brainStormPrice": "199",
+            "getLeanPrice": "179",
+            "immunityDefensePrice": "279",
+            "immunityDefenseAndGlutathionePrice": "299",
+            "hangoverPrice": "219",
+            "hydratePrice": "219",
+            "nadPrice": "599",
+            "nadBoostPrice": "797",
+            "recoveryPerformancePrice": "219",
+            "theGlowPrice": "199"
+        },
+        "vitaminPrice": {
+            "vitaminD3": "100",
+            "bComplex": "70",
+            "biotin": "75",
+            "vitaminC": "70",
+            "aminoBlend": "80",
+            "glutathione": "90",
+            "lipoMino": "120",
+            "triImmuneBoost": "120",
+            "vitaminB12": "70",
+            "ondansetron": "70"
+        },
+        "facebook": {
+            "accessToken": "secret",
+            "facebookPixel": "secret",
+            "instagramUrl": "https://www.instagram.com/mydripnurse/",
+            "facebookUrl": "https://www.facebook.com/MyDripNurse"
+        }
+    },
+    "businessInformation": {
+        "snapshotId": "secret",
+        "companyId": "secret"
+    }
+}

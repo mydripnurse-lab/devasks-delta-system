@@ -1,0 +1,651 @@
+{
+    "counties": [
+        {
+            "countyName": "Clark",
+            "cities": [
+                {
+                    "cityName": "Las Vegas",
+                    "cityDomain": "https://las-vegas-city-nv.mydripnurse.com",
+                    "citySitemap": "https://las-vegas-city-nv.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "North Las Vegas",
+                    "cityDomain": "https://north-las-vegas-city-nv.mydripnurse.com",
+                    "citySitemap": "https://north-las-vegas-city-nv.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Henderson",
+                    "cityDomain": "https://henderson-city-nv.mydripnurse.com",
+                    "citySitemap": "https://henderson-city-nv.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Paradise",
+                    "cityDomain": "https://paradise-city-nv.mydripnurse.com",
+                    "citySitemap": "https://paradise-city-nv.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Spring Valley",
+                    "cityDomain": "https://spring-valley-city-nv.mydripnurse.com",
+                    "citySitemap": "https://spring-valley-city-nv.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Enterprise",
+                    "cityDomain": "https://enterprise-city-nv.mydripnurse.com",
+                    "citySitemap": "https://enterprise-city-nv.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Sunrise Manor",
+                    "cityDomain": "https://sunrise-manor-city-nv.mydripnurse.com",
+                    "citySitemap": "https://sunrise-manor-city-nv.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Whitney",
+                    "cityDomain": "https://whitney-city-nv.mydripnurse.com",
+                    "citySitemap": "https://whitney-city-nv.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Winchester",
+                    "cityDomain": "https://winchester-city-nv.mydripnurse.com",
+                    "citySitemap": "https://winchester-city-nv.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Boulder City",
+                    "cityDomain": "https://boulder-city-city-nv.mydripnurse.com",
+                    "citySitemap": "https://boulder-city-city-nv.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Laughlin",
+                    "cityDomain": "https://laughlin-city-nv.mydripnurse.com",
+                    "citySitemap": "https://laughlin-city-nv.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Mesquite",
+                    "cityDomain": "https://mesquite-city-nv.mydripnurse.com",
+                    "citySitemap": "https://mesquite-city-nv.mydripnurse.com/sitemap.xml"
+                }
+            ],
+            "Timezone": {
+                "Name": "Pacific",
+                "Zone": "US/Pacific",
+                "UTC_Offset": "-08:00"
+            },
+            "countyDomain": "https://clark-county-nv.mydripnurse.com",
+            "countySitemap": "https://clark-county-nv.mydripnurse.com/sitemap.xml",
+            "embeddedSitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\n  <sitemap>\n    <loc>https://clark-county-nv.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://las-vegas-city-nv.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://north-las-vegas-city-nv.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://henderson-city-nv.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://paradise-city-nv.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://spring-valley-city-nv.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://enterprise-city-nv.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://sunrise-manor-city-nv.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://whitney-city-nv.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://winchester-city-nv.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://boulder-city-city-nv.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://laughlin-city-nv.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://mesquite-city-nv.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n</sitemapindex>"
+        },
+        {
+            "countyName": "Washoe",
+            "cities": [
+                {
+                    "cityName": "Reno",
+                    "cityDomain": "https://reno-city-nv.mydripnurse.com",
+                    "citySitemap": "https://reno-city-nv.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Sparks",
+                    "cityDomain": "https://sparks-city-nv.mydripnurse.com",
+                    "citySitemap": "https://sparks-city-nv.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Sun Valley",
+                    "cityDomain": "https://sun-valley-city-nv.mydripnurse.com",
+                    "citySitemap": "https://sun-valley-city-nv.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Spanish Springs",
+                    "cityDomain": "https://spanish-springs-city-nv.mydripnurse.com",
+                    "citySitemap": "https://spanish-springs-city-nv.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Cold Springs",
+                    "cityDomain": "https://cold-springs-city-nv.mydripnurse.com",
+                    "citySitemap": "https://cold-springs-city-nv.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Incline Village",
+                    "cityDomain": "https://incline-village-city-nv.mydripnurse.com",
+                    "citySitemap": "https://incline-village-city-nv.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Verdi",
+                    "cityDomain": "https://verdi-city-nv.mydripnurse.com",
+                    "citySitemap": "https://verdi-city-nv.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Empire",
+                    "cityDomain": "https://empire-city-nv.mydripnurse.com",
+                    "citySitemap": "https://empire-city-nv.mydripnurse.com/sitemap.xml"
+                }
+            ],
+            "Timezone": {
+                "Name": "Pacific",
+                "Zone": "US/Pacific",
+                "UTC_Offset": "-08:00"
+            },
+            "countyDomain": "https://washoe-county-nv.mydripnurse.com",
+            "countySitemap": "https://washoe-county-nv.mydripnurse.com/sitemap.xml",
+            "embeddedSitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\n  <sitemap>\n    <loc>https://washoe-county-nv.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://reno-city-nv.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://sparks-city-nv.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://sun-valley-city-nv.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://spanish-springs-city-nv.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://cold-springs-city-nv.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://incline-village-city-nv.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://verdi-city-nv.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://empire-city-nv.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n</sitemapindex>"
+        },
+        {
+            "countyName": "Carson City",
+            "cities": [
+                {
+                    "cityName": "Carson City",
+                    "cityDomain": "https://carson-city-city-nv.mydripnurse.com",
+                    "citySitemap": "https://carson-city-city-nv.mydripnurse.com/sitemap.xml"
+                }
+            ],
+            "Timezone": {
+                "Name": "Pacific",
+                "Zone": "US/Pacific",
+                "UTC_Offset": "-08:00"
+            },
+            "countyDomain": "https://carson-city-county-nv.mydripnurse.com",
+            "countySitemap": "https://carson-city-county-nv.mydripnurse.com/sitemap.xml",
+            "embeddedSitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\n  <sitemap>\n    <loc>https://carson-city-county-nv.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://carson-city-city-nv.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n</sitemapindex>"
+        },
+        {
+            "countyName": "Lyon",
+            "cities": [
+                {
+                    "cityName": "Fernley",
+                    "cityDomain": "https://fernley-city-nv.mydripnurse.com",
+                    "citySitemap": "https://fernley-city-nv.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Yerington",
+                    "cityDomain": "https://yerington-city-nv.mydripnurse.com",
+                    "citySitemap": "https://yerington-city-nv.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Dayton",
+                    "cityDomain": "https://dayton-city-nv.mydripnurse.com",
+                    "citySitemap": "https://dayton-city-nv.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Silver Springs",
+                    "cityDomain": "https://silver-springs-city-nv.mydripnurse.com",
+                    "citySitemap": "https://silver-springs-city-nv.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Smith Valley",
+                    "cityDomain": "https://smith-valley-city-nv.mydripnurse.com",
+                    "citySitemap": "https://smith-valley-city-nv.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Wellington",
+                    "cityDomain": "https://wellington-city-nv.mydripnurse.com",
+                    "citySitemap": "https://wellington-city-nv.mydripnurse.com/sitemap.xml"
+                }
+            ],
+            "Timezone": {
+                "Name": "Pacific",
+                "Zone": "US/Pacific",
+                "UTC_Offset": "-08:00"
+            },
+            "countyDomain": "https://lyon-county-nv.mydripnurse.com",
+            "countySitemap": "https://lyon-county-nv.mydripnurse.com/sitemap.xml",
+            "embeddedSitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\n  <sitemap>\n    <loc>https://lyon-county-nv.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://fernley-city-nv.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://yerington-city-nv.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://dayton-city-nv.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://silver-springs-city-nv.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://smith-valley-city-nv.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://wellington-city-nv.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n</sitemapindex>"
+        },
+        {
+            "countyName": "Douglas",
+            "cities": [
+                {
+                    "cityName": "Gardnerville",
+                    "cityDomain": "https://gardnerville-city-nv.mydripnurse.com",
+                    "citySitemap": "https://gardnerville-city-nv.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Gardnerville Ranchos",
+                    "cityDomain": "https://gardnerville-ranchos-city-nv.mydripnurse.com",
+                    "citySitemap": "https://gardnerville-ranchos-city-nv.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Minden",
+                    "cityDomain": "https://minden-city-nv.mydripnurse.com",
+                    "citySitemap": "https://minden-city-nv.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Stateline",
+                    "cityDomain": "https://stateline-city-nv.mydripnurse.com",
+                    "citySitemap": "https://stateline-city-nv.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Topaz Lake",
+                    "cityDomain": "https://topaz-lake-city-nv.mydripnurse.com",
+                    "citySitemap": "https://topaz-lake-city-nv.mydripnurse.com/sitemap.xml"
+                }
+            ],
+            "Timezone": {
+                "Name": "Pacific",
+                "Zone": "US/Pacific",
+                "UTC_Offset": "-08:00"
+            },
+            "countyDomain": "https://douglas-county-nv.mydripnurse.com",
+            "countySitemap": "https://douglas-county-nv.mydripnurse.com/sitemap.xml",
+            "embeddedSitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\n  <sitemap>\n    <loc>https://douglas-county-nv.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://gardnerville-city-nv.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://gardnerville-ranchos-city-nv.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://minden-city-nv.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://stateline-city-nv.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://topaz-lake-city-nv.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n</sitemapindex>"
+        },
+        {
+            "countyName": "Elko",
+            "cities": [
+                {
+                    "cityName": "Elko",
+                    "cityDomain": "https://elko-city-nv.mydripnurse.com",
+                    "citySitemap": "https://elko-city-nv.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Spring Creek",
+                    "cityDomain": "https://spring-creek-city-nv.mydripnurse.com",
+                    "citySitemap": "https://spring-creek-city-nv.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Wells",
+                    "cityDomain": "https://wells-city-nv.mydripnurse.com",
+                    "citySitemap": "https://wells-city-nv.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "West Wendover",
+                    "cityDomain": "https://west-wendover-city-nv.mydripnurse.com",
+                    "citySitemap": "https://west-wendover-city-nv.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Carlin",
+                    "cityDomain": "https://carlin-city-nv.mydripnurse.com",
+                    "citySitemap": "https://carlin-city-nv.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Eureka",
+                    "cityDomain": "https://eureka-city-nv.mydripnurse.com",
+                    "citySitemap": "https://eureka-city-nv.mydripnurse.com/sitemap.xml"
+                }
+            ],
+            "Timezone": {
+                "Name": "Mountain",
+                "Zone": "US/Mountain",
+                "UTC_Offset": "-07:00"
+            },
+            "countyDomain": "https://elko-county-nv.mydripnurse.com",
+            "countySitemap": "https://elko-county-nv.mydripnurse.com/sitemap.xml",
+            "embeddedSitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\n  <sitemap>\n    <loc>https://elko-county-nv.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://elko-city-nv.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://spring-creek-city-nv.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://wells-city-nv.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://west-wendover-city-nv.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://carlin-city-nv.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://eureka-city-nv.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n</sitemapindex>"
+        },
+        {
+            "countyName": "Humboldt",
+            "cities": [
+                {
+                    "cityName": "Winnemucca",
+                    "cityDomain": "https://winnemucca-city-nv.mydripnurse.com",
+                    "citySitemap": "https://winnemucca-city-nv.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Golconda",
+                    "cityDomain": "https://golconda-city-nv.mydripnurse.com",
+                    "citySitemap": "https://golconda-city-nv.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Orovada",
+                    "cityDomain": "https://orovada-city-nv.mydripnurse.com",
+                    "citySitemap": "https://orovada-city-nv.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "McDermitt",
+                    "cityDomain": "https://mcdermitt-city-nv.mydripnurse.com",
+                    "citySitemap": "https://mcdermitt-city-nv.mydripnurse.com/sitemap.xml"
+                }
+            ],
+            "Timezone": {
+                "Name": "Pacific",
+                "Zone": "US/Pacific",
+                "UTC_Offset": "-08:00"
+            },
+            "countyDomain": "https://humboldt-county-nv.mydripnurse.com",
+            "countySitemap": "https://humboldt-county-nv.mydripnurse.com/sitemap.xml",
+            "embeddedSitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\n  <sitemap>\n    <loc>https://humboldt-county-nv.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://winnemucca-city-nv.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://golconda-city-nv.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://orovada-city-nv.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://mcdermitt-city-nv.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n</sitemapindex>"
+        },
+        {
+            "countyName": "Nye",
+            "cities": [
+                {
+                    "cityName": "Pahrump",
+                    "cityDomain": "https://pahrump-city-nv.mydripnurse.com",
+                    "citySitemap": "https://pahrump-city-nv.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Tonopah",
+                    "cityDomain": "https://tonopah-city-nv.mydripnurse.com",
+                    "citySitemap": "https://tonopah-city-nv.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Amargosa Valley",
+                    "cityDomain": "https://amargosa-valley-city-nv.mydripnurse.com",
+                    "citySitemap": "https://amargosa-valley-city-nv.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Beatty",
+                    "cityDomain": "https://beatty-city-nv.mydripnurse.com",
+                    "citySitemap": "https://beatty-city-nv.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Round Mountain",
+                    "cityDomain": "https://round-mountain-city-nv.mydripnurse.com",
+                    "citySitemap": "https://round-mountain-city-nv.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Gabbs",
+                    "cityDomain": "https://gabbs-city-nv.mydripnurse.com",
+                    "citySitemap": "https://gabbs-city-nv.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Manhattan",
+                    "cityDomain": "https://manhattan-city-nv.mydripnurse.com",
+                    "citySitemap": "https://manhattan-city-nv.mydripnurse.com/sitemap.xml"
+                }
+            ],
+            "Timezone": {
+                "Name": "Pacific",
+                "Zone": "US/Pacific",
+                "UTC_Offset": "-08:00"
+            },
+            "countyDomain": "https://nye-county-nv.mydripnurse.com",
+            "countySitemap": "https://nye-county-nv.mydripnurse.com/sitemap.xml",
+            "embeddedSitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\n  <sitemap>\n    <loc>https://nye-county-nv.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://pahrump-city-nv.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://tonopah-city-nv.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://amargosa-valley-city-nv.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://beatty-city-nv.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://round-mountain-city-nv.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://gabbs-city-nv.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://manhattan-city-nv.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n</sitemapindex>"
+        },
+        {
+            "countyName": "Churchill",
+            "cities": [
+                {
+                    "cityName": "Fallon",
+                    "cityDomain": "https://fallon-city-nv.mydripnurse.com",
+                    "citySitemap": "https://fallon-city-nv.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Fallon Station",
+                    "cityDomain": "https://fallon-station-city-nv.mydripnurse.com",
+                    "citySitemap": "https://fallon-station-city-nv.mydripnurse.com/sitemap.xml"
+                }
+            ],
+            "Timezone": {
+                "Name": "Pacific",
+                "Zone": "US/Pacific",
+                "UTC_Offset": "-08:00"
+            },
+            "countyDomain": "https://churchill-county-nv.mydripnurse.com",
+            "countySitemap": "https://churchill-county-nv.mydripnurse.com/sitemap.xml",
+            "embeddedSitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\n  <sitemap>\n    <loc>https://churchill-county-nv.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://fallon-city-nv.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://fallon-station-city-nv.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n</sitemapindex>"
+        },
+        {
+            "countyName": "Storey",
+            "cities": [
+                {
+                    "cityName": "Virginia City",
+                    "cityDomain": "https://virginia-city-city-nv.mydripnurse.com",
+                    "citySitemap": "https://virginia-city-city-nv.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Gold Hill",
+                    "cityDomain": "https://gold-hill-city-nv.mydripnurse.com",
+                    "citySitemap": "https://gold-hill-city-nv.mydripnurse.com/sitemap.xml"
+                }
+            ],
+            "Timezone": {
+                "Name": "Pacific",
+                "Zone": "US/Pacific",
+                "UTC_Offset": "-08:00"
+            },
+            "countyDomain": "https://storey-county-nv.mydripnurse.com",
+            "countySitemap": "https://storey-county-nv.mydripnurse.com/sitemap.xml",
+            "embeddedSitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\n  <sitemap>\n    <loc>https://storey-county-nv.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://virginia-city-city-nv.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://gold-hill-city-nv.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n</sitemapindex>"
+        },
+        {
+            "countyName": "Esmeralda",
+            "cities": [
+                {
+                    "cityName": "Goldfield",
+                    "cityDomain": "https://goldfield-city-nv.mydripnurse.com",
+                    "citySitemap": "https://goldfield-city-nv.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Silver Peak",
+                    "cityDomain": "https://silver-peak-city-nv.mydripnurse.com",
+                    "citySitemap": "https://silver-peak-city-nv.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Dyer",
+                    "cityDomain": "https://dyer-city-nv.mydripnurse.com",
+                    "citySitemap": "https://dyer-city-nv.mydripnurse.com/sitemap.xml"
+                }
+            ],
+            "Timezone": {
+                "Name": "Pacific",
+                "Zone": "US/Pacific",
+                "UTC_Offset": "-08:00"
+            },
+            "countyDomain": "https://esmeralda-county-nv.mydripnurse.com",
+            "countySitemap": "https://esmeralda-county-nv.mydripnurse.com/sitemap.xml",
+            "embeddedSitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\n  <sitemap>\n    <loc>https://esmeralda-county-nv.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://goldfield-city-nv.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://silver-peak-city-nv.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://dyer-city-nv.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n</sitemapindex>"
+        },
+        {
+            "countyName": "Eureka",
+            "cities": [
+                {
+                    "cityName": "Eureka",
+                    "cityDomain": "https://eureka-city-nv.mydripnurse.com",
+                    "citySitemap": "https://eureka-city-nv.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Crescent Valley",
+                    "cityDomain": "https://crescent-valley-city-nv.mydripnurse.com",
+                    "citySitemap": "https://crescent-valley-city-nv.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Beowawe",
+                    "cityDomain": "https://beowawe-city-nv.mydripnurse.com",
+                    "citySitemap": "https://beowawe-city-nv.mydripnurse.com/sitemap.xml"
+                }
+            ],
+            "Timezone": {
+                "Name": "Mountain",
+                "Zone": "US/Mountain",
+                "UTC_Offset": "-07:00"
+            },
+            "countyDomain": "https://eureka-county-nv.mydripnurse.com",
+            "countySitemap": "https://eureka-county-nv.mydripnurse.com/sitemap.xml",
+            "embeddedSitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\n  <sitemap>\n    <loc>https://eureka-county-nv.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://eureka-city-nv.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://crescent-valley-city-nv.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://beowawe-city-nv.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n</sitemapindex>"
+        },
+        {
+            "countyName": "Lander",
+            "cities": [
+                {
+                    "cityName": "Battle Mountain",
+                    "cityDomain": "https://battle-mountain-city-nv.mydripnurse.com",
+                    "citySitemap": "https://battle-mountain-city-nv.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Austin",
+                    "cityDomain": "https://austin-city-nv.mydripnurse.com",
+                    "citySitemap": "https://austin-city-nv.mydripnurse.com/sitemap.xml"
+                }
+            ],
+            "Timezone": {
+                "Name": "Pacific",
+                "Zone": "US/Pacific",
+                "UTC_Offset": "-08:00"
+            },
+            "countyDomain": "https://lander-county-nv.mydripnurse.com",
+            "countySitemap": "https://lander-county-nv.mydripnurse.com/sitemap.xml",
+            "embeddedSitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\n  <sitemap>\n    <loc>https://lander-county-nv.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://battle-mountain-city-nv.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://austin-city-nv.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n</sitemapindex>"
+        },
+        {
+            "countyName": "Lincoln",
+            "cities": [
+                {
+                    "cityName": "Caliente",
+                    "cityDomain": "https://caliente-city-nv.mydripnurse.com",
+                    "citySitemap": "https://caliente-city-nv.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Panaca",
+                    "cityDomain": "https://panaca-city-nv.mydripnurse.com",
+                    "citySitemap": "https://panaca-city-nv.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Alamo",
+                    "cityDomain": "https://alamo-city-nv.mydripnurse.com",
+                    "citySitemap": "https://alamo-city-nv.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Pioche",
+                    "cityDomain": "https://pioche-city-nv.mydripnurse.com",
+                    "citySitemap": "https://pioche-city-nv.mydripnurse.com/sitemap.xml"
+                }
+            ],
+            "Timezone": {
+                "Name": "Pacific",
+                "Zone": "US/Pacific",
+                "UTC_Offset": "-08:00"
+            },
+            "countyDomain": "https://lincoln-county-nv.mydripnurse.com",
+            "countySitemap": "https://lincoln-county-nv.mydripnurse.com/sitemap.xml",
+            "embeddedSitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\n  <sitemap>\n    <loc>https://lincoln-county-nv.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://caliente-city-nv.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://panaca-city-nv.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://alamo-city-nv.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://pioche-city-nv.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n</sitemapindex>"
+        },
+        {
+            "countyName": "Mineral",
+            "cities": [
+                {
+                    "cityName": "Hawthorne",
+                    "cityDomain": "https://hawthorne-city-nv.mydripnurse.com",
+                    "citySitemap": "https://hawthorne-city-nv.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Walker Lake",
+                    "cityDomain": "https://walker-lake-city-nv.mydripnurse.com",
+                    "citySitemap": "https://walker-lake-city-nv.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Luning",
+                    "cityDomain": "https://luning-city-nv.mydripnurse.com",
+                    "citySitemap": "https://luning-city-nv.mydripnurse.com/sitemap.xml"
+                }
+            ],
+            "Timezone": {
+                "Name": "Pacific",
+                "Zone": "US/Pacific",
+                "UTC_Offset": "-08:00"
+            },
+            "countyDomain": "https://mineral-county-nv.mydripnurse.com",
+            "countySitemap": "https://mineral-county-nv.mydripnurse.com/sitemap.xml",
+            "embeddedSitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\n  <sitemap>\n    <loc>https://mineral-county-nv.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://hawthorne-city-nv.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://walker-lake-city-nv.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://luning-city-nv.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n</sitemapindex>"
+        },
+        {
+            "countyName": "Pershing",
+            "cities": [
+                {
+                    "cityName": "Lovelock",
+                    "cityDomain": "https://lovelock-city-nv.mydripnurse.com",
+                    "citySitemap": "https://lovelock-city-nv.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Imlay",
+                    "cityDomain": "https://imlay-city-nv.mydripnurse.com",
+                    "citySitemap": "https://imlay-city-nv.mydripnurse.com/sitemap.xml"
+                }
+            ],
+            "Timezone": {
+                "Name": "Pacific",
+                "Zone": "US/Pacific",
+                "UTC_Offset": "-08:00"
+            },
+            "countyDomain": "https://pershing-county-nv.mydripnurse.com",
+            "countySitemap": "https://pershing-county-nv.mydripnurse.com/sitemap.xml",
+            "embeddedSitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\n  <sitemap>\n    <loc>https://pershing-county-nv.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://lovelock-city-nv.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://imlay-city-nv.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n</sitemapindex>"
+        },
+        {
+            "countyName": "White Pine",
+            "cities": [
+                {
+                    "cityName": "Ely",
+                    "cityDomain": "https://ely-city-nv.mydripnurse.com",
+                    "citySitemap": "https://ely-city-nv.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "McGill",
+                    "cityDomain": "https://mcgill-city-nv.mydripnurse.com",
+                    "citySitemap": "https://mcgill-city-nv.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Ruth",
+                    "cityDomain": "https://ruth-city-nv.mydripnurse.com",
+                    "citySitemap": "https://ruth-city-nv.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Baker",
+                    "cityDomain": "https://baker-city-nv.mydripnurse.com",
+                    "citySitemap": "https://baker-city-nv.mydripnurse.com/sitemap.xml"
+                }
+            ],
+            "Timezone": {
+                "Name": "Mountain",
+                "Zone": "US/Mountain",
+                "UTC_Offset": "-07:00"
+            },
+            "countyDomain": "https://white-pine-county-nv.mydripnurse.com",
+            "countySitemap": "https://white-pine-county-nv.mydripnurse.com/sitemap.xml",
+            "embeddedSitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\n  <sitemap>\n    <loc>https://white-pine-county-nv.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://ely-city-nv.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://mcgill-city-nv.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://ruth-city-nv.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://baker-city-nv.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n</sitemapindex>"
+        }
+    ],
+    "companyName": "My Drip Nurse",
+    "website": "https://www.mydripnurse.com",
+    "ownerName": "Keishla",
+    "ownerLastName": "Caraballo",
+    "phone": "9392749203",
+    "email": "keyla03@live.com",
+    "twilio": {
+        "sid": "secret",
+        "authToken": "secret"
+    },
+    "mailgun": {
+        "apiKey": "secret",
+        "domain": "secret"
+    },
+    "customValues": {
+        "businessInformation": {
+            "favicon": "https://storage.googleapis.com/msgsndr/vMfl1L5xb2wJfNFNW5fb/media/656c2a9fe33f7c575831e093.png",
+            "businessPhone": ""
+        },
+        "ivTherapyPrice": {
+            "myersCocktailPrice": "299",
+            "alleviatePrice": "219",
+            "brainStormPrice": "199",
+            "getLeanPrice": "179",
+            "immunityDefensePrice": "279",
+            "immunityDefenseAndGlutathionePrice": "299",
+            "hangoverPrice": "219",
+            "hydratePrice": "219",
+            "nadPrice": "599",
+            "nadBoostPrice": "797",
+            "recoveryPerformancePrice": "219",
+            "theGlowPrice": "199"
+        },
+        "vitaminPrice": {
+            "vitaminD3": "100",
+            "bComplex": "70",
+            "biotin": "75",
+            "vitaminC": "70",
+            "aminoBlend": "80",
+            "glutathione": "90",
+            "lipoMino": "120",
+            "triImmuneBoost": "120",
+            "vitaminB12": "70",
+            "ondansetron": "70"
+        },
+        "facebook": {
+            "accessToken": "secret",
+            "facebookPixel": "secret",
+            "instagramUrl": "https://www.instagram.com/mydripnurse/",
+            "facebookUrl": "https://www.facebook.com/MyDripNurse"
+        }
+    },
+    "businessInformation": {
+        "snapshotId": "secret",
+        "companyId": "secret"
+    }
+}
