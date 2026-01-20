@@ -2,95 +2,95 @@
     "customValues": [
         {
             "name": "Price - Myers Cocktail",
-            "price": "279"
+            "value": "279"
         },
         {
             "name": "Price - Myers Cocktail + Glutathione",
-            "price": "329"
+            "value": "329"
         },
         {
             "name": "Price - Alleviate",
-            "price": "239"
+            "value": "239"
         },
         {
             "name": "Price - Brain Storm",
-            "price": "239"
+            "value": "239"
         },
         {
             "name": "Price - Get Lean / Weight Loss",
-            "price": "219"
+            "value": "219"
         },
         {
             "name": "Price - Immunity Defense",
-            "price": "279"
+            "value": "279"
         },
         {
             "name": "Price - Immunity Defense + Glutathione Push",
-            "price": "329"
+            "value": "329"
         },
         {
             "name": "Price - Hangover / Jet Lag",
-            "price": "279"
+            "value": "279"
         },
         {
             "name": "Price - Hydrate",
-            "price": "239"
+            "value": "239"
         },
         {
             "name": "Price - NAD+",
-            "price": "599"
+            "value": "599"
         },
         {
             "name": "Price - NAD+ Boost",
-            "price": "797"
+            "value": "797"
         },
         {
             "name": "Price - Recovery & Performance",
-            "price": "259"
+            "value": "259"
         },
         {
             "name": "Price - The Glow",
-            "price": "239"
+            "value": "239"
         },
         {
             "name": "Price - Amino Blend",
-            "price": "80"
+            "value": "80"
         },
         {
             "name": "Price - Biotin",
-            "price": "75"
+            "value": "75"
         },
         {
             "name": "Price - Glutathione",
-            "price": "90"
+            "value": "90"
         },
         {
             "name": "Price - Lipo Mino Mix",
-            "price": "120"
+            "value": "120"
         },
         {
             "name": "Price - Ondansetron",
-            "price": "70"
+            "value": "70"
         },
         {
             "name": "Price - Tri-Immun Boost",
-            "price": "120"
+            "value": "120"
         },
         {
             "name": "Price - Vita Complex (B-Complex)",
-            "price": "70"
+            "value": "70"
         },
         {
             "name": "Price - Vitamin B-12",
-            "price": "70"
+            "value": "70"
         },
         {
             "name": "Price - Vitamin C",
-            "price": "70"
+            "value": "70"
         },
         {
             "name": "Price - Vitamin D3",
-            "price": "100"
+            "value": "100"
         }
     ]
 }
