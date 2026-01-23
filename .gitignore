@@ -13,3 +13,13 @@
 
 # Node
 node_modules
+
+tokens.json
+storage/tokens.json
+
+scripts/out/
+scripts/out/**
+
+.env
+scripts/out/
+scripts/out/**

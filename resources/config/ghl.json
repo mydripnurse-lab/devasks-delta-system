@@ -1,0 +1,43 @@
+{
+    "agency": {
+        "companyId": "bn0YNqVRj6SxjdugVmzc",
+        "snapshotId": "",
+        "phone": "+18333810071",
+        "address": "",
+        "city": "{{city}}",
+        "state": "{{state}}",
+        "country": "US",
+        "postalCode": "",
+        "prospectInfo": {
+            "firstName": "{{firstName}",
+            "lastName": "{{lastName}}",
+            "email": "{{email}}"
+        },
+        "settings": {
+            "allowDuplicateContact": false,
+            "allowDuplicateOpportunity": false,
+            "allowFacebookNameMerge": false,
+            "disableContactTimezone": false
+        },
+        "social": {
+            "facebookUrl": "",
+            "googlePlus": "",
+            "linkedIn": "",
+            "foursquare": "",
+            "twitter": "",
+            "yelp": "",
+            "instagram": "",
+            "youtube": "",
+            "pinterest": "",
+            "blogRss": "",
+            "googlePlacesId": ""
+        }
+    },
+    "sheets": {
+        "countiesSheetName": "Counties",
+        "citiesSheetName": "Cities"
+    },
+    "naming": {
+        "countyAccountNameTemplate": "My Drip Nurse {{county}} County, {{stateName}}"
+    }
+}
