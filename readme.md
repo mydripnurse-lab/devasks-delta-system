@@ -158,29 +158,6 @@ Inside the project:
 
 ---
 
-### 6️⃣ Environment Variables
-
-Add to `.env`:
-
-```env
-GOOGLE_APPLICATION_CREDENTIALS=./secrets/google-service-account.json
-GOOGLE_SHEET_ID=your_google_sheet_id
-```
-
----
-
-### 7️⃣ Security Best Practices
-
-```gitignore
-secrets/
-*.json
-```
-
-- Rotate keys periodically
-- Use least-privilege permissions
-
----
-
 ## ☁️ Configuración de Google Cloud – Google Sheets (Español)
 
 ---
@@ -230,15 +207,6 @@ Permiso: **Editor**
 
 ---
 
-### 7️⃣ Buenas Prácticas
-
-- Ignorar `secrets/` en Git
-- Rotar llaves
-- Usar permisos mínimos
-
-
----
-
 ## 🔐 Environment Variables (.env)
 
 ```env
@@ -255,7 +223,7 @@ TWILIO_AUTH_TOKEN=xxxxxxxxxxxxxxxxxxxxxxxx
 BASE_DOMAIN=mydripnurse.com
 COMPANY_NAME=My Drip Nurse
 
-#Google Cloud
+#Google Cloud 
 GOOGLE_APPLICATION_CREDENTIALS=./secrets/google-service-account.json
 GOOGLE_SHEET_ID=tu_sheet_id
 
@@ -412,5 +380,5 @@ Este proyecto puede reutilizarse para cualquier industria:
 
 ## 👤 Maintainer
 
-Built by **My Drip Nurse**  
+Built by **Axel Castro - Devasks Agency**  
 Automation · SEO · GHL · Scaling

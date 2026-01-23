@@ -14,12 +14,14 @@
 # Node
 node_modules
 
+# Tokens
 tokens.json
 storage/tokens.json
 
+# Build output
 scripts/out/
 scripts/out/**
 
-.env
-scripts/out/
-scripts/out/**
+# Google
+secrets/
+*.json
