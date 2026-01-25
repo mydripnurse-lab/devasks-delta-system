@@ -25,3 +25,6 @@ scripts/out/**
 # Google
 secrets/
 *.json
+
+!public/ui/*.json
+!resources/statesFiles/*.json
