@@ -1,186 +1,130 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width,initial-scale=1" />
-    <title>MDN Locations</title>
-
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Nunito:wght@600;700;800&family=Lato:wght@400;600;700&display=swap"
-      rel="stylesheet"
-    />
-
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Choose your location</title>
     <style>
-      :root{
-        --brand: #044c5c;
-        --text: #0b1b2a;
-        --muted: #5b6b7a;
-        --border: rgba(0,0,0,.10);
+      :root {
         --bg: #ffffff;
-        --chip: rgba(4,76,92,.08);
+        --text: #0f172a;
+        --muted: #64748b;
+        --border: #e2e8f0;
+        --shadow: 0 10px 30px rgba(2, 6, 23, 0.18);
+        --primary: #0ea5a4;
       }
-
-      * { box-sizing: border-box; }
-      body{
-        margin:0;
-        padding: 22px;
-        background: var(--bg);
+      html,
+      body {
+        height: 100%;
+      }
+      body {
+        margin: 0;
+        font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto,
+          Helvetica, Arial;
+        background: transparent;
         color: var(--text);
-        font-family: Lato, system-ui, -apple-system, Segoe UI, Roboto, Arial;
       }
-
-      .wrap{
-        max-width: 920px;
-        margin: 0 auto;
+      .wrap {
+        padding: 28px;
+        background: var(--bg);
       }
-
-      h1{
-        margin: 2px 0 8px;
-        font-family: Nunito, system-ui, -apple-system, Segoe UI, Roboto, Arial;
-        font-weight: 800;
-        letter-spacing: -0.02em;
-        font-size: clamp(24px, 3.2vw, 42px);
+      h1 {
+        margin: 0 0 16px 0;
+        font-size: 34px;
+        line-height: 1.1;
       }
-
-      .sub{
-        margin: 0 0 18px;
+      .sub {
+        margin: 0 0 18px 0;
         color: var(--muted);
-        font-size: 16px;
-        line-height: 1.5;
+        font-size: 14px;
       }
-
-      .search{
-        width: 100%;
-        padding: 16px 16px;
-        font-size: 16px;
+      .row {
+        display: flex;
+        gap: 12px;
+        align-items: center;
+        flex-wrap: wrap;
+      }
+      .input {
+        flex: 1 1 420px;
+        min-width: 280px;
+        border: 2px solid #2563eb33;
+        border-radius: 14px;
+        padding: 14px 16px;
+        font-size: 18px;
+        outline: none;
+      }
+      .pill {
+        border: 1px solid var(--border);
+        border-radius: 999px;
+        padding: 8px 10px;
+        font-size: 13px;
+        color: var(--muted);
+        background: #fff;
+      }
+      .panel {
+        margin-top: 16px;
         border: 1px solid var(--border);
         border-radius: 14px;
-        outline: none;
-        transition: box-shadow .12s ease, border-color .12s ease;
-      }
-      .search:focus{
-        border-color: rgba(4,76,92,.45);
-        box-shadow: 0 0 0 4px rgba(4,76,92,.12);
-      }
-
-      .controls{
-        display:flex;
-        gap: 10px;
-        flex-wrap: wrap;
-        margin-top: 12px;
-        align-items:center;
-      }
-
-      select{
-        padding: 12px 12px;
-        border-radius: 12px;
-        border: 1px solid var(--border);
-        min-width: 240px;
-        background: #fff;
-        font-size: 14px;
-      }
-
-      .pill{
-        display:inline-flex;
-        align-items:center;
-        gap: 8px;
-        padding: 10px 12px;
-        border-radius: 999px;
-        background: var(--chip);
-        color: var(--brand);
-        font-weight: 700;
-        border: 1px solid rgba(4,76,92,.15);
-        font-size: 13px;
-      }
-
-      .hint{
-        margin-top: 12px;
-        color: var(--muted);
-        font-size: 13px;
-      }
-
-      .results{
-        margin-top: 14px;
-        border: 1px solid rgba(0,0,0,.08);
-        border-radius: 16px;
         overflow: hidden;
-        background:#fff;
       }
-
-      .item{
-        padding: 14px 16px;
-        border-top: 1px solid rgba(0,0,0,.06);
-        display:flex;
-        align-items:center;
-        justify-content: space-between;
-        gap: 14px;
-      }
-      .item:first-child{ border-top: none; }
-      .item:hover{ background: rgba(0,0,0,.02); }
-
-      .title{
-        font-family: Nunito, system-ui, -apple-system, Segoe UI, Roboto, Arial;
-        font-weight: 800;
-        font-size: 16px;
-        margin: 0;
-      }
-      .meta{
-        margin-top: 3px;
-        font-size: 13px;
-        color: var(--muted);
-      }
-
-      .footer{
-        display:flex;
-        justify-content: center; /* Book centered */
-        gap: 10px;
-        padding: 14px 16px;
-        border-top: 1px solid rgba(0,0,0,.08);
+      .list {
+        max-height: 360px;
+        overflow: auto;
         background: #fff;
       }
-
-      .btn{
-        display:inline-flex;
-        align-items:center;
-        justify-content:center;
-        padding: 12px 18px;
-        border-radius: 999px;
-        border: 1px solid rgba(0,0,0,.12);
+      .item {
+        padding: 12px 14px;
+        border-top: 1px solid var(--border);
         cursor: pointer;
-        font-weight: 800;
-        font-family: Nunito, system-ui, -apple-system, Segoe UI, Roboto, Arial;
-        font-size: 14px;
-        background: #fff;
-        color: var(--text);
       }
-
-      .btn-primary{
-        background: var(--brand);
-        color: #fff;
-        border-color: transparent;
-        box-shadow: 0 12px 26px rgba(0,0,0,.16);
+      .item:hover {
+        background: #f8fafc;
       }
-      .btn-primary:hover{ filter: brightness(1.06); }
-
-      .empty{
-        padding: 16px;
+      .item:first-child {
+        border-top: 0;
+      }
+      .title {
+        font-weight: 650;
+      }
+      .meta {
+        font-size: 12px;
         color: var(--muted);
+        margin-top: 2px;
       }
-
-      .error{
-        margin-top: 10px;
-        color: #b00020;
+      .footer {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 12px 14px;
+        border-top: 1px solid var(--border);
+        background: #fff;
+        gap: 12px;
+        flex-wrap: wrap;
+      }
+      .btn {
+        appearance: none;
+        border: 0;
+        border-radius: 12px;
+        padding: 12px 14px;
+        font-weight: 700;
+        cursor: pointer;
+      }
+      .btn.primary {
+        background: var(--primary);
+        color: #fff;
+      }
+      .btn.ghost {
+        background: #f1f5f9;
+        color: #0f172a;
+      }
+      .selected {
+        color: var(--muted);
         font-size: 13px;
       }
-
-      @media (max-width: 640px){
-        body{ padding: 16px; }
-        select{ min-width: 100%; }
-        .item{ flex-direction: column; align-items: flex-start; }
-        .footer{ justify-content: stretch; }
-        .btn{ width: 100%; }
+      .error {
+        margin-top: 10px;
+        color: #b91c1c;
+        font-size: 13px;
       }
     </style>
   </head>
@@ -188,274 +132,283 @@
   <body>
     <div class="wrap">
       <h1>Choose your location</h1>
-      <p class="sub">Search by State, County/Parish, or City. Then click <b>Book Now</b>.</p>
+      <p class="sub">
+        Search by State, County/Parish, or City. Then click <b>Book Now</b>.
+      </p>
 
-      <input id="q" class="search" placeholder="Choose your City, State, or Country" />
-
-      <div class="controls">
-        <select id="stateSelect">
-          <option value="">Select a state…</option>
-        </select>
-
-        <!-- Hidden by default (kept for internal use, not shown to user) -->
-        <select id="modeSelect" style="display:none">
-          <option value="county">Book by County</option>
-          <option value="city">Book by City</option>
-        </select>
-
-        <span class="pill" id="modePill">Booking by County</span>
+      <div class="row">
+        <input
+          id="q"
+          class="input"
+          placeholder="Choose your City, State, or Country"
+          autocomplete="off"
+        />
+        <!-- <span id="modePill" class="pill">Redirect: county</span>
+        <span id="bookPathPill" class="pill">Book path: /book-service</span> -->
       </div>
 
-      <div class="hint">Try “Miami”, “Broward”, “San Juan”, or “Orleans”.</div>
+      <div class="panel">
+        <div id="list" class="list"></div>
+        <div class="footer">
+          <div class="selected" id="selected">No selection yet.</div>
+          <div class="row">
+            <button class="btn ghost" id="clearBtn" type="button">Clear</button>
+            <button class="btn primary" id="bookBtn" type="button" disabled>
+              Book Now
+            </button>
+          </div>
+        </div>
+      </div>
 
-      <div id="results" class="results" style="display:none"></div>
-      <div id="err" class="error" style="display:none"></div>
+      <div id="err" class="error" style="display: none"></div>
     </div>
 
     <script>
-      const params = new URLSearchParams(location.search);
+      // ========= Config (defaults) =========
+      const STATES_INDEX_URL =
+        "https://sitemaps.mydripnurse.com/public/ui/states-index.json";
+      const BOOK_PATH_DEFAULT = "/mobile-iv-therapy";
+      // redirectMode: "county" o "city"
+      const urlParams = new URLSearchParams(location.search);
+      const redirectMode = (
+        urlParams.get("redirectMode") || "county"
+      ).toLowerCase();
+      const bookPath = urlParams.get("bookPath") || BOOK_PATH_DEFAULT;
 
-      // If you want to force city booking in some pages:
-      // locations.html?redirectMode=city
-      const redirectMode = (params.get("redirectMode") || "county").toLowerCase();
-      const bookPath = params.get("bookPath") || "/book-service";
+      document.getElementById(
+        "modePill"
+      ).textContent = `Redirect: ${redirectMode}`;
+      document.getElementById(
+        "bookPathPill"
+      ).textContent = `Book path: ${bookPath}`;
 
-      const CFG = {
-        statesIndexUrl:
-          params.get("statesIndexUrl") ||
-          "https://sitemaps.mydripnurse.com/public/ui/states-index.json",
-        redirectMode,
-        bookPath,
-      };
+      // ========= State =========
+      let statesIndex = null; // { states: [{ stateName, stateSlug, stateFileUrl }] } o similar
+      let stateCache = new Map(); // slug -> full state json
+      let flat = []; // flattened search items
+      let selected = null; // {type, label, targetUrl}
 
       const $q = document.getElementById("q");
-      const $state = document.getElementById("stateSelect");
-      const $results = document.getElementById("results");
+      const $list = document.getElementById("list");
+      const $book = document.getElementById("bookBtn");
+      const $sel = document.getElementById("selected");
       const $err = document.getElementById("err");
-      const $modePill = document.getElementById("modePill");
 
-      // UI label only
-      $modePill.textContent = CFG.redirectMode === "city" ? "Booking by City" : "Booking by County";
+      function showError(msg) {
+        $err.style.display = "block";
+        $err.textContent = msg;
+      }
+      function clearError() {
+        $err.style.display = "none";
+        $err.textContent = "";
+      }
 
-      function escapeHtml(s){
+      function normalizeText(s) {
         return String(s || "")
-          .replaceAll("&","&amp;")
-          .replaceAll("<","&lt;")
-          .replaceAll(">","&gt;")
-          .replaceAll('"',"&quot;")
-          .replaceAll("'","&#039;");
+          .toLowerCase()
+          .normalize("NFD")
+          .replace(/[\u0300-\u036f]/g, ""); // quita acentos pero mantiene letras (ñ -> n + tilde => n)
       }
 
-      function norm(s){ return String(s||"").toLowerCase().trim(); }
-
-      // Keep selected result in memory
-      let selected = null;
-      let indexData = null;
-
-      function divisionLabel(stateName, divisionName, divisionType){
-        // divisionType: counties/parishes/cities (from your index)
-        // For user display:
-        if (divisionType === "cities") {
-          // Puerto Rico style
-          return `${divisionName}, ${stateName}`;
-        }
-        if (divisionType === "parishes") {
-          return `${divisionName} Parish, ${stateName}`;
-        }
-        // default
-        return `${divisionName} County, ${stateName}`;
+      function joinUrl(domain, p) {
+        if (!domain) return "";
+        const d = domain.endsWith("/") ? domain.slice(0, -1) : domain;
+        const path = p.startsWith("/") ? p : `/${p}`;
+        return `${d}${path}`;
       }
 
-      function buildRows(matches){
-        $results.style.display = "block";
-        $results.innerHTML = "";
-
-        if (!matches.length){
-          $results.innerHTML = `<div class="empty"><b>No results</b><div>Try typing a city or county.</div></div>`;
-          return;
-        }
-
-        matches.slice(0, 20).forEach((m) => {
-          const row = document.createElement("div");
-          row.className = "item";
-
-          const left = document.createElement("div");
-          const title = document.createElement("div");
-          title.className = "title";
-          title.textContent = m.label;
-
-          const meta = document.createElement("div");
-          meta.className = "meta";
-          meta.textContent = `State: ${m.stateName}`;
-
-          left.appendChild(title);
-          left.appendChild(meta);
-
-          const pickBtn = document.createElement("button");
-          pickBtn.className = "btn";
-          pickBtn.type = "button";
-          pickBtn.textContent = "Select";
-          pickBtn.onclick = () => {
-            selected = m;
-            renderFooter();
-          };
-
-          row.appendChild(left);
-          row.appendChild(pickBtn);
-
-          $results.appendChild(row);
-        });
-
-        renderFooter();
+      async function fetchJson(url) {
+        const r = await fetch(url, { cache: "no-store" });
+        if (!r.ok) throw new Error(`Fetch failed ${r.status}: ${url}`);
+        return r.json();
       }
 
-      function renderFooter(){
-        // remove existing footer if present
-        const existing = $results.querySelector(".footer");
-        if (existing) existing.remove();
-
-        const footer = document.createElement("div");
-        footer.className = "footer";
-
-        const clearBtn = document.createElement("button");
-        clearBtn.className = "btn";
-        clearBtn.type = "button";
-        clearBtn.textContent = "Clear";
-        clearBtn.onclick = () => {
-          selected = null;
-          renderFooter();
-        };
-
-        const bookBtn = document.createElement("button");
-        bookBtn.className = "btn btn-primary";
-        bookBtn.type = "button";
-        bookBtn.textContent = selected ? `Book Now` : "Book Now";
-        bookBtn.disabled = !selected;
-        bookBtn.style.opacity = selected ? "1" : ".55";
-        bookBtn.style.cursor = selected ? "pointer" : "not-allowed";
-
-        bookBtn.onclick = () => {
-          if (!selected) return;
-          const targetBase = selected.targetDomain;
-          const url = new URL(targetBase);
-          // keep path
-          url.pathname = CFG.bookPath.startsWith("/") ? CFG.bookPath : `/${CFG.bookPath}`;
-          window.top.location.href = url.toString(); // works inside iframe modal
-        };
-
-        footer.appendChild(clearBtn);
-        footer.appendChild(bookBtn);
-
-        $results.appendChild(footer);
+      async function loadIndex() {
+        // Importante: tu index puede tener estructura distinta.
+        // Vamos a soportar:
+        // - { states: [...] }
+        // - [...] directo
+        const data = await fetchJson(STATES_INDEX_URL);
+        const arr = Array.isArray(data) ? data : data.states || [];
+        return { states: arr };
       }
 
-      function searchAndRender(){
-        if (!indexData?.states?.length) return;
+      async function loadStateBySlug(slug) {
+        if (stateCache.has(slug)) return stateCache.get(slug);
 
-        const q = norm($q.value);
-        const stateFilter = $state.value;
+        // Intentamos:
+        // - stateFileUrl en el index
+        // - fallback: `${base}/statesFiles/${slug}.json`
+        const meta = (statesIndex?.states || []).find(
+          (s) => (s.stateSlug || s.slug) === slug
+        );
+        const stateFileUrl =
+          meta?.stateFileUrl ||
+          meta?.url ||
+          `https://sitemaps.mydripnurse.com/resources/statesFiles/${slug}.json`;
 
-        const matches = [];
+        const st = await fetchJson(stateFileUrl);
+        stateCache.set(slug, st);
+        return st;
+      }
 
-        for (const st of indexData.states){
-          if (stateFilter && st.stateSlug !== stateFilter) continue;
+      function flattenState(stateJson) {
+        // Esperamos: { stateName, stateKey/stateSlug, items: [ { countyName, countyDomain, cities:[...] } ] }
+        const items = stateJson.items || stateJson.counties || [];
+        const stateName = stateJson.stateName || stateJson.name || "";
+        const stateSlug = stateJson.stateSlug || stateJson.stateKey || "";
 
-          const stateName = st.stateName;
-          const divisionType = st.divisionType; // counties/parishes/cities
-          const divisions = st.divisions || [];
+        const out = [];
+        for (const c of items) {
+          const countyName = c.countyName || c.parishName || "";
+          const countyDomain = c.countyDomain || c.parishDomain || "";
+          const cities = c.cities || [];
 
-          // Match on state
-          if (q && norm(stateName).includes(q)){
-            matches.push({
-              label: `${stateName}`,
-              stateName,
-              targetDomain: st.stateDomain || st.stateUrl || st.stateHome || st.stateBase || st.stateRoot || st.stateDomainFallback || st.mainDomain || st.domain || st.home || st.base || st.domainBase || st.domainRoot || st.domainHome || st.domainUrl || "",
+          // county option
+          if (countyName && countyDomain) {
+            out.push({
+              type: "county",
+              stateSlug,
+              label: `${countyName}, ${stateName}`,
+              search: normalizeText(`${countyName} ${stateName}`),
+              targetUrl: joinUrl(countyDomain, bookPath),
+              rawDomain: countyDomain,
             });
           }
 
-          // Divisions & cities
-          for (const dv of divisions){
-            const dvName = dv.name;
-            const dvDomain = dv.domain;
+          // cities
+          for (const city of cities) {
+            const cityName = city.cityName || "";
+            const cityDomain = city.cityDomain || "";
+            if (!cityName || !cityDomain) continue;
 
-            if (q && norm(dvName).includes(q)){
-              // Redirect mode decides target
-              const targetDomain = (CFG.redirectMode === "city")
-                ? (dv.cities?.[0]?.domain || dvDomain)
-                : dvDomain;
-
-              matches.push({
-                label: divisionLabel(stateName, dvName, divisionType),
-                stateName,
-                targetDomain,
-              });
-            }
-
-            // cities
-            const cities = dv.cities || [];
-            for (const ct of cities){
-              const ctName = ct.name;
-              const ctDomain = ct.domain;
-
-              if (q && norm(ctName).includes(q)){
-                const targetDomain = (CFG.redirectMode === "city") ? ctDomain : dvDomain;
-
-                matches.push({
-                  label: `${ctName}, ${stateName}`,
-                  stateName,
-                  targetDomain,
-                });
-              }
-            }
+            out.push({
+              type: "city",
+              stateSlug,
+              label: `${cityName}, ${stateName} (${countyName})`,
+              search: normalizeText(`${cityName} ${countyName} ${stateName}`),
+              targetUrl: joinUrl(
+                redirectMode === "city" ? cityDomain : countyDomain,
+                bookPath
+              ),
+              rawDomain: redirectMode === "city" ? cityDomain : countyDomain,
+            });
           }
         }
+        return out;
+      }
 
-        // If empty query, don't show spam
-        if (!q && !stateFilter){
-          $results.style.display = "none";
-          $results.innerHTML = "";
+      function renderList(items) {
+        $list.innerHTML = "";
+        if (!items.length) {
+          const div = document.createElement("div");
+          div.className = "item";
+          div.innerHTML = `<div class="title">No results</div><div class="meta">Try typing a city or state.</div>`;
+          $list.appendChild(div);
           return;
         }
 
-        buildRows(matches);
-      }
-
-      async function loadIndex(){
-        try{
-          $err.style.display = "none";
-          const res = await fetch(CFG.statesIndexUrl, { cache: "no-store" });
-          if (!res.ok) throw new Error(`HTTP ${res.status}`);
-          const data = await res.json();
-          if (!data) throw new Error("Empty JSON");
-          indexData = data;
-
-          // Fill states dropdown
-          $state.innerHTML = `<option value="">Select a state…</option>`;
-          (data.states || []).forEach((st) => {
-            const opt = document.createElement("option");
-            opt.value = st.stateSlug;
-            opt.textContent = st.stateName;
-            $state.appendChild(opt);
+        for (const it of items.slice(0, 60)) {
+          const row = document.createElement("div");
+          row.className = "item";
+          row.innerHTML = `
+            <div class="title">${it.label}</div>
+            <div class="meta">${it.type.toUpperCase()} → ${it.rawDomain}</div>
+          `;
+          row.addEventListener("click", () => {
+            selected = it;
+            $sel.textContent = `Selected: ${it.label}`;
+            $book.disabled = false;
           });
-        }catch(e){
-          $err.textContent = `Error loading states data.`;
-          $err.style.display = "block";
-          console.error("Index load failed:", e);
+          $list.appendChild(row);
         }
       }
 
-      // Events
-      $q.addEventListener("input", () => {
-        selected = null;
-        searchAndRender();
-      });
-      $state.addEventListener("change", () => {
-        selected = null;
-        searchAndRender();
+      function filter(q) {
+        const nq = normalizeText(q.trim());
+        if (!nq) return [];
+        return flat.filter((x) => x.search.includes(nq));
+      }
+
+      function doRedirect(url) {
+        // Si estás en iframe dentro de GHL, esto redirige el "top window"
+        try {
+          window.top.location.href = url;
+        } catch {
+          window.location.href = url;
+        }
+      }
+
+      async function bootstrap() {
+        clearError();
+        statesIndex = await loadIndex();
+
+        // Para performance: si quieres, solo cargas el state cuando el usuario escribe el state.
+        // Por ahora: cargamos AL MENOS Alabama rápido y luego lazy-load.
+        // Mejor: aplanamos on demand según query. (mantengo simple para que ya funcione)
+        const states = statesIndex.states || [];
+        if (!states.length) {
+          showError("states-index.json has no states[] data.");
+          renderList([]);
+          return;
+        }
+
+        // Carga ligera: solo 1 estado inicial para confirmar UI
+        const firstSlug = states[0].stateSlug || states[0].slug;
+        const st1 = await loadStateBySlug(firstSlug);
+        flat = [...flattenState(st1)];
+
+        renderList([]);
+      }
+
+      // ========= events =========
+      $q.addEventListener("input", async (e) => {
+        clearError();
+        const query = e.target.value || "";
+        if (!query.trim()) {
+          renderList([]);
+          return;
+        }
+
+        // Lazy-load: si el usuario escribe un estado exacto, cargamos todos los estados.
+        // Heurística simple: si query >= 3 chars, prefetch todos (puedes optimizar luego).
+        if (flat.length < 5000 && query.trim().length >= 3) {
+          try {
+            const states = statesIndex.states || [];
+            // carga secuencial para no matar el browser (puedes paralelizar luego)
+            const all = [];
+            for (const s of states) {
+              const slug = s.stateSlug || s.slug;
+              const st = await loadStateBySlug(slug);
+              all.push(...flattenState(st));
+            }
+            flat = all;
+          } catch (err) {
+            showError(`Error loading states data: ${err.message}`);
+          }
+        }
+
+        const results = filter(query);
+        renderList(results);
       });
 
-      // Init
-      loadIndex();
+      document.getElementById("clearBtn").addEventListener("click", () => {
+        selected = null;
+        $q.value = "";
+        $sel.textContent = "No selection yet.";
+        $book.disabled = true;
+        renderList([]);
+      });
+
+      $book.addEventListener("click", () => {
+        if (!selected?.targetUrl) return;
+        doRedirect(selected.targetUrl);
+      });
+
+      // start
+      bootstrap().catch((err) => {
+        showError(err?.message || String(err));
+      });
     </script>
   </body>
 </html>
