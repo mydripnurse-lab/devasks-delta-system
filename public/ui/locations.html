@@ -143,8 +143,8 @@
           placeholder="Choose your City, State, or Country"
           autocomplete="off"
         />
-        <span id="modePill" class="pill">Redirect: county</span>
-        <span id="bookPathPill" class="pill">Book path: /book-service</span>
+        <!-- <span id="modePill" class="pill">Redirect: county</span>
+        <span id="bookPathPill" class="pill">Book path: /book-service</span> -->
       </div>
 
       <div class="panel">
@@ -175,12 +175,12 @@
       ).toLowerCase();
       const bookPath = urlParams.get("bookPath") || BOOK_PATH_DEFAULT;
 
-      document.getElementById(
-        "modePill"
-      ).textContent = `Redirect: ${redirectMode}`;
-      document.getElementById(
-        "bookPathPill"
-      ).textContent = `Book path: ${bookPath}`;
+      // document.getElementById(
+      //   "modePill"
+      // ).textContent = `Redirect: ${redirectMode}`;
+      // document.getElementById(
+      //   "bookPathPill"
+      // ).textContent = `Book path: ${bookPath}`;
 
       // ========= State =========
       let statesIndex = null; // { states: [{ stateName, stateSlug, stateFileUrl }] } o similar
@@ -285,7 +285,7 @@
             out.push({
               type: "city",
               stateSlug,
-              label: `${cityName}, ${stateName} (${countyName})`,
+              label: `${cityName}, ${stateName} (${countyName} County)`,
               search: normalizeText(`${cityName} ${countyName} ${stateName}`),
               targetUrl: joinUrl(
                 redirectMode === "city" ? cityDomain : countyDomain,
@@ -313,7 +313,7 @@
           row.className = "item";
           row.innerHTML = `
             <div class="title">${it.label}</div>
-            <div class="meta">${it.type.toUpperCase()} → ${it.rawDomain}</div>
+            
           `;
           row.addEventListener("click", () => {
             selected = it;
