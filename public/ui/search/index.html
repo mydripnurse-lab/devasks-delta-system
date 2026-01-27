@@ -1,0 +1,589 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Choose your location</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:wght@600;700&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      :root {
+        --bg: #ffffff;
+        --text: #0f172a;
+        --muted: #64748b;
+        --border: #e2e8f0;
+        --shadow: 0 10px 30px rgba(2, 6, 23, 0.18);
+        --primary: #044c5cff;
+      }
+      html,
+      body {
+        height: 100%;
+      }
+      body {
+        margin: 0;
+        font-family: "Lato", ui-sans-serif, system-ui, -apple-system, Segoe UI,
+          Roboto, Helvetica, Arial;
+        background: transparent;
+        color: var(--text);
+      }
+
+      .wrap {
+        padding: 28px;
+        background: var(--bg);
+      }
+      h1 {
+        margin: 0 0 16px 0;
+        font-size: 34px;
+        line-height: 1.1;
+        font-family: "Nunito", "Lato", system-ui, sans-serif;
+      }
+      @media (max-width: 640px) {
+        h1 {
+          font-size: 28px;
+        }
+      }
+      .sub {
+        margin: 0 0 18px 0;
+        color: var(--muted);
+        font-size: 14px;
+      }
+      .row {
+        display: flex;
+        gap: 12px;
+        align-items: center;
+        flex-wrap: wrap;
+      }
+      .input {
+        flex: 1 1 420px;
+        min-width: 280px;
+        border: 2px solid #2563eb33;
+        border-radius: 14px;
+        padding: 14px 16px;
+        font-size: 18px;
+        outline: none;
+      }
+      .pill {
+        border: 1px solid var(--border);
+        border-radius: 999px;
+        padding: 8px 10px;
+        font-size: 13px;
+        color: var(--muted);
+        background: #fff;
+      }
+      .panel {
+        margin-top: 16px;
+        border: 1px solid var(--border);
+        border-radius: 14px;
+        overflow: hidden;
+      }
+      .list {
+        max-height: 360px;
+        overflow: auto;
+        background: #fff;
+      }
+      .item {
+        padding: 12px 14px;
+        border-top: 1px solid var(--border);
+        cursor: pointer;
+      }
+      .item:hover {
+        background: #f8fafc;
+      }
+      .item:first-child {
+        border-top: 0;
+      }
+      .title {
+        font-weight: 650;
+      }
+      .meta {
+        font-size: 12px;
+        color: var(--muted);
+        margin-top: 2px;
+      }
+      .footer {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 12px 14px;
+        border-top: 1px solid var(--border);
+        background: #fff;
+        gap: 12px;
+        flex-wrap: wrap;
+      }
+      .btn {
+        appearance: none;
+        border: 0;
+        border-radius: 12px;
+        padding: 12px 14px;
+        font-weight: 700;
+        cursor: pointer;
+      }
+      .btn.primary {
+        background: var(--primary);
+        color: #fff;
+      }
+      .btn.ghost {
+        background: #f1f5f9;
+        color: #0f172a;
+      }
+      .selected {
+        color: var(--muted);
+        font-size: 13px;
+      }
+      .error {
+        margin-top: 10px;
+        color: #b91c1c;
+        font-size: 13px;
+      }
+
+      /* ========= Loading Overlay (pro) ========= */
+      .loader {
+        position: fixed;
+        inset: 0;
+        background: rgba(255, 255, 255, 0.92);
+        backdrop-filter: blur(6px);
+        -webkit-backdrop-filter: blur(6px);
+        z-index: 999999;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 18px;
+      }
+
+      .loader.hidden {
+        display: none;
+      }
+
+      .loader-card {
+        width: min(520px, 92vw);
+        border: 1px solid var(--border);
+        border-radius: 18px;
+        background: #fff;
+        box-shadow: var(--shadow);
+        padding: 18px 18px 16px;
+        display: grid;
+        grid-template-columns: 64px 1fr;
+        gap: 14px;
+        align-items: center;
+      }
+
+      .loader-orbit {
+        width: 56px;
+        height: 56px;
+        border-radius: 999px;
+        position: relative;
+        border: 2px solid rgba(4, 76, 92, 0.14);
+        background: radial-gradient(
+            circle at 30% 30%,
+            rgba(4, 76, 92, 0.12),
+            transparent 50%
+          ),
+          radial-gradient(
+            circle at 70% 70%,
+            rgba(4, 76, 92, 0.08),
+            transparent 55%
+          );
+        overflow: hidden;
+      }
+
+      .loader-orbit::before {
+        content: "";
+        position: absolute;
+        inset: 10px;
+        border-radius: 999px;
+        border: 2px solid rgba(4, 76, 92, 0.1);
+      }
+
+      .loader-dot {
+        width: 10px;
+        height: 10px;
+        border-radius: 999px;
+        background: var(--primary);
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        transform-origin: 0 0;
+        animation: orbit 1.05s linear infinite;
+        box-shadow: 0 0 0 6px rgba(4, 76, 92, 0.08);
+      }
+
+      @keyframes orbit {
+        0% {
+          transform: translate(-50%, -50%) rotate(0deg) translateX(22px);
+        }
+        100% {
+          transform: translate(-50%, -50%) rotate(360deg) translateX(22px);
+        }
+      }
+
+      .loader-title {
+        font-family: "Nunito", "Lato", system-ui, sans-serif;
+        font-weight: 800;
+        margin: 0;
+        font-size: 16px;
+        color: var(--text);
+      }
+
+      .loader-sub {
+        margin: 4px 0 0;
+        font-size: 13px;
+        color: var(--muted);
+      }
+
+      @media (max-width: 640px) {
+        .loader-card {
+          grid-template-columns: 56px 1fr;
+        }
+      }
+    </style>
+  </head>
+
+  <body>
+    <!-- Loading overlay -->
+    <div id="loader" class="loader" aria-live="polite" aria-busy="true">
+      <div class="loader-card">
+        <div class="loader-orbit" aria-hidden="true">
+          <div class="loader-dot"></div>
+        </div>
+        <div>
+          <p class="loader-title">Loading locations…</p>
+          <p class="loader-sub">Fetching states & cities. One moment.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="wrap">
+      <h1>Choose your location</h1>
+      <p class="sub">
+        Search by State, County/Parish, or City. Then click <b>Book Now</b>.
+      </p>
+
+      <div class="row">
+        <input
+          id="q"
+          class="input"
+          placeholder="Choose your City, State, or Country"
+          autocomplete="off"
+        />
+        <!-- <span id="modePill" class="pill">Redirect: county</span>
+        <span id="bookPathPill" class="pill">Book path: /book-service</span> -->
+      </div>
+
+      <div class="panel">
+        <div id="list" class="list"></div>
+        <div class="footer">
+          <div class="selected" id="selected">No selection yet.</div>
+          <div class="row">
+            <button class="btn ghost" id="clearBtn" type="button">Clear</button>
+            <button class="btn primary" id="bookBtn" type="button" disabled>
+              Book Now
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div id="err" class="error" style="display: none"></div>
+    </div>
+
+    <script>
+      // ========= Config (defaults) =========
+      const STATES_INDEX_URL =
+        "https://sitemaps.mydripnurse.com/public/json/states-index.json";
+      const BOOK_PATH_DEFAULT = "/";
+      // redirectMode: "county" o "city"
+      const urlParams = new URLSearchParams(location.search);
+      const redirectMode = (
+        urlParams.get("redirectMode") || "county"
+      ).toLowerCase();
+      const bookPath = urlParams.get("bookPath") || BOOK_PATH_DEFAULT;
+
+      // document.getElementById(
+      //   "modePill"
+      // ).textContent = `Redirect: ${redirectMode}`;
+      // document.getElementById(
+      //   "bookPathPill"
+      // ).textContent = `Book path: ${bookPath}`;
+
+      // ========= State =========
+      let statesIndex = null; // { states: [{ stateName, stateSlug, stateFileUrl }] } o similar
+      let stateCache = new Map(); // slug -> full state json
+      let flat = []; // flattened search items
+      let selected = null; // {type, label, targetUrl}
+
+      const $q = document.getElementById("q");
+      const $list = document.getElementById("list");
+      const $book = document.getElementById("bookBtn");
+      const $sel = document.getElementById("selected");
+      const $err = document.getElementById("err");
+
+      function showError(msg) {
+        $err.style.display = "block";
+        $err.textContent = msg;
+      }
+      function clearError() {
+        $err.style.display = "none";
+        $err.textContent = "";
+      }
+      const $loader = document.getElementById("loader");
+
+      function showLoader() {
+        if (!$loader) return;
+        $loader.classList.remove("hidden");
+        $loader.setAttribute("aria-busy", "true");
+      }
+
+      function hideLoader() {
+        if (!$loader) return;
+        $loader.classList.add("hidden");
+        $loader.setAttribute("aria-busy", "false");
+      }
+
+      function normalizeText(s) {
+        return String(s || "")
+          .toLowerCase()
+          .normalize("NFD")
+          .replace(/[\u0300-\u036f]/g, ""); // quita acentos pero mantiene letras (ñ -> n + tilde => n)
+      }
+
+      function joinUrl(domain, p) {
+        if (!domain) return "";
+        const d = domain.endsWith("/") ? domain.slice(0, -1) : domain;
+        const path = p.startsWith("/") ? p : `/${p}`;
+        return `${d}${path}`;
+      }
+
+      async function fetchJson(url) {
+        const r = await fetch(url, { cache: "no-store" });
+        if (!r.ok) throw new Error(`Fetch failed ${r.status}: ${url}`);
+        return r.json();
+      }
+
+      async function loadIndex() {
+        // Importante: tu index puede tener estructura distinta.
+        // Vamos a soportar:
+        // - { states: [...] }
+        // - [...] directo
+        const data = await fetchJson(STATES_INDEX_URL);
+        const arr = Array.isArray(data) ? data : data.states || [];
+        return { states: arr };
+      }
+
+      async function loadStateBySlug(slug) {
+        if (stateCache.has(slug)) return stateCache.get(slug);
+
+        // Intentamos:
+        // - stateFileUrl en el index
+        // - fallback: `${base}/statesFiles/${slug}.json`
+        const meta = (statesIndex?.states || []).find(
+          (s) => (s.stateSlug || s.slug) === slug
+        );
+        const stateFileUrl =
+          meta?.stateFileUrl ||
+          meta?.url ||
+          `https://sitemaps.mydripnurse.com/resources/statesFiles/${slug}.json`;
+
+        const st = await fetchJson(stateFileUrl);
+        stateCache.set(slug, st);
+        return st;
+      }
+
+      function flattenState(stateJson) {
+        // Esperamos: { stateName, stateKey/stateSlug, items: [ { countyName/parishName, countyDomain/parishDomain, cities:[...] } ] }
+        const items = stateJson.items || stateJson.counties || [];
+        const stateName = stateJson.stateName || stateJson.name || "";
+        const stateSlug = stateJson.stateSlug || stateJson.stateKey || "";
+
+        // Helper: determina el “tipo” de subdivision
+        const subdivisionLabel = (() => {
+          const slug = String(stateSlug || "").toLowerCase();
+          const name = String(stateName || "").toLowerCase();
+
+          // Puerto Rico: no usar County/Parish
+          if (
+            slug.includes("puerto") ||
+            name.includes("puerto rico") ||
+            slug === "pr"
+          )
+            return "";
+
+          // Louisiana: Parish
+          if (
+            slug.includes("louisiana") ||
+            slug === "la" ||
+            name.includes("louisiana")
+          )
+            return "";
+
+          // Default: County
+          return "County";
+        })();
+
+        const out = [];
+
+        for (const c of items) {
+          const countyName = c.countyName || c.parishName || "";
+          const countyDomain = c.countyDomain || c.parishDomain || "";
+          const cities = c.cities || [];
+
+          // ✅ REMOVIDO: county option (para que NO salga en resultados)
+
+          // Cities
+          for (const city of cities) {
+            const cityName = city.cityName || "";
+            const cityDomain = city.cityDomain || "";
+            if (!cityName || !cityDomain) continue;
+
+            // Target según redirectMode
+            const baseDomain =
+              redirectMode === "city" ? cityDomain : countyDomain || cityDomain;
+
+            // Label: City, State (+ optional subdivision)
+            // - PR: "City, Puerto Rico (San Juan)"  (sin “County/Parish”)
+            // - LA: "City, Louisiana (Orleans Parish)"
+            // - Otros: "City, Alabama (Coffee County)"
+            const subdivisionPart = countyName
+              ? subdivisionLabel
+                ? ` (${countyName} ${subdivisionLabel})`
+                : ` (${countyName})`
+              : "";
+
+            out.push({
+              type: "city",
+              stateSlug,
+              label: `${cityName}, ${stateName}${subdivisionPart}`,
+              search: normalizeText(`${cityName} ${countyName} ${stateName}`),
+              targetUrl: joinUrl(baseDomain, bookPath),
+              rawDomain: baseDomain,
+            });
+          }
+        }
+
+        return out;
+      }
+
+      function renderList(items) {
+        $list.innerHTML = "";
+        if (!items.length) {
+          const div = document.createElement("div");
+          div.className = "item";
+          div.innerHTML = `<div class="title">No results</div><div class="meta">Try typing a city or state.</div>`;
+          $list.appendChild(div);
+          return;
+        }
+
+        for (const it of items.slice(0, 60)) {
+          const row = document.createElement("div");
+          row.className = "item";
+          row.innerHTML = `
+            <div class="title">${it.label}</div>
+            
+          `;
+          row.addEventListener("click", () => {
+            selected = it;
+            $sel.textContent = `Selected: ${it.label}`;
+            $book.disabled = false;
+          });
+          $list.appendChild(row);
+        }
+      }
+
+      function filter(q) {
+        const nq = normalizeText(q.trim());
+        if (!nq) return [];
+        return flat.filter((x) => x.search.includes(nq));
+      }
+
+      function doRedirect(url) {
+        // Si estás en iframe dentro de GHL, esto redirige el "top window"
+        try {
+          window.top.location.href = url;
+        } catch {
+          window.location.href = url;
+        }
+      }
+
+      async function bootstrap() {
+        showLoader();
+        clearError();
+        statesIndex = await loadIndex();
+
+        // Para performance: si quieres, solo cargas el state cuando el usuario escribe el state.
+        // Por ahora: cargamos AL MENOS Alabama rápido y luego lazy-load.
+        // Mejor: aplanamos on demand según query. (mantengo simple para que ya funcione)
+        const states = statesIndex.states || [];
+        if (!states.length) {
+          showError("states-index.json has no states[] data.");
+          renderList([]);
+          return;
+        }
+
+        // Carga ligera: solo 1 estado inicial para confirmar UI
+        const firstSlug = states[0].stateSlug || states[0].slug;
+        const st1 = await loadStateBySlug(firstSlug);
+        flat = [...flattenState(st1)];
+
+        renderList([]);
+        hideLoader();
+      }
+
+      // ========= events =========
+      $q.addEventListener("input", async (e) => {
+        clearError();
+        const query = e.target.value || "";
+        if (!query.trim()) {
+          renderList([]);
+          return;
+        }
+
+        // Lazy-load: si el usuario escribe un estado exacto, cargamos todos los estados.
+        // Heurística simple: si query >= 3 chars, prefetch todos (puedes optimizar luego).
+        if (flat.length < 5000 && query.trim().length >= 3) {
+          try {
+            const states = statesIndex.states || [];
+            // carga secuencial para no matar el browser (puedes paralelizar luego)
+            const all = [];
+            for (const s of states) {
+              const slug = s.stateSlug || s.slug;
+              const st = await loadStateBySlug(slug);
+              all.push(...flattenState(st));
+            }
+            flat = all;
+          } catch (err) {
+            showError(`Error loading states data: ${err.message}`);
+          }
+        }
+
+        const results = filter(query);
+        renderList(results);
+      });
+
+      document.getElementById("clearBtn").addEventListener("click", () => {
+        selected = null;
+        $q.value = "";
+        $sel.textContent = "No selection yet.";
+        $book.disabled = true;
+        renderList([]);
+      });
+
+      $book.addEventListener("click", () => {
+        if (!selected?.targetUrl) return;
+        doRedirect(selected.targetUrl);
+      });
+
+      // start
+      bootstrap().catch((err) => {
+        hideLoader();
+        showError(err?.message || String(err));
+      });
+    </script>
+  </body>
+</html>
