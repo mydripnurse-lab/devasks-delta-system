@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+  <!-- Choctaw Main Sitemap -->
+  <sitemap>
+    <loc>https://choctaw-county-ok.mydripnurse.com/sitemap.xml</loc>
+    <lastmod>2026-02-02</lastmod>
+  </sitemap>
+
+  <!-- Boswell Hosted Sitemap -->
+  <sitemap>
+    <loc>https://sitemaps.mydripnurse.com/states/oklahoma/counties/choctaw/boswell/sitemap.xml</loc>
+    <lastmod>2026-02-02</lastmod>
+  </sitemap>
+
+  <!-- Fort Towson Hosted Sitemap -->
+  <sitemap>
+    <loc>https://sitemaps.mydripnurse.com/states/oklahoma/counties/choctaw/fort-towson/sitemap.xml</loc>
+    <lastmod>2026-02-02</lastmod>
+  </sitemap>
+
+  <!-- Hugo Hosted Sitemap -->
+  <sitemap>
+    <loc>https://sitemaps.mydripnurse.com/states/oklahoma/counties/choctaw/hugo/sitemap.xml</loc>
+    <lastmod>2026-02-02</lastmod>
+  </sitemap>
+
+  <!-- Sawyer Hosted Sitemap -->
+  <sitemap>
+    <loc>https://sitemaps.mydripnurse.com/states/oklahoma/counties/choctaw/sawyer/sitemap.xml</loc>
+    <lastmod>2026-02-02</lastmod>
+  </sitemap>
+
+  <!-- Soper Hosted Sitemap -->
+  <sitemap>
+    <loc>https://sitemaps.mydripnurse.com/states/oklahoma/counties/choctaw/soper/sitemap.xml</loc>
+    <lastmod>2026-02-02</lastmod>
+  </sitemap>
+
+</sitemapindex>

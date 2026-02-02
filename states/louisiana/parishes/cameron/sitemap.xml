@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+  <!-- Cameron Main Sitemap -->
+  <sitemap>
+    <loc>https://cameron-parish-county-la.mydripnurse.com/sitemap.xml</loc>
+    <lastmod>2026-02-02</lastmod>
+  </sitemap>
+
+  <!-- Cameron Hosted Sitemap -->
+  <sitemap>
+    <loc>https://sitemaps.mydripnurse.com/states/louisiana/parishes/cameron/cameron/sitemap.xml</loc>
+    <lastmod>2026-02-02</lastmod>
+  </sitemap>
+
+  <!-- Creole Hosted Sitemap -->
+  <sitemap>
+    <loc>https://sitemaps.mydripnurse.com/states/louisiana/parishes/cameron/creole/sitemap.xml</loc>
+    <lastmod>2026-02-02</lastmod>
+  </sitemap>
+
+  <!-- Grand Chenier Hosted Sitemap -->
+  <sitemap>
+    <loc>https://sitemaps.mydripnurse.com/states/louisiana/parishes/cameron/grand-chenier/sitemap.xml</loc>
+    <lastmod>2026-02-02</lastmod>
+  </sitemap>
+
+  <!-- Hackberry Hosted Sitemap -->
+  <sitemap>
+    <loc>https://sitemaps.mydripnurse.com/states/louisiana/parishes/cameron/hackberry/sitemap.xml</loc>
+    <lastmod>2026-02-02</lastmod>
+  </sitemap>
+
+  <!-- Johnson Bayou Hosted Sitemap -->
+  <sitemap>
+    <loc>https://sitemaps.mydripnurse.com/states/louisiana/parishes/cameron/johnson-bayou/sitemap.xml</loc>
+    <lastmod>2026-02-02</lastmod>
+  </sitemap>
+
+</sitemapindex>

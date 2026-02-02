@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+  <!-- Lafayette Main Sitemap -->
+  <sitemap>
+    <loc>https://lafayette-parish-county-la.mydripnurse.com/sitemap.xml</loc>
+    <lastmod>2026-02-02</lastmod>
+  </sitemap>
+
+  <!-- Broussard Hosted Sitemap -->
+  <sitemap>
+    <loc>https://sitemaps.mydripnurse.com/states/louisiana/parishes/lafayette/broussard/sitemap.xml</loc>
+    <lastmod>2026-02-02</lastmod>
+  </sitemap>
+
+  <!-- Carencro Hosted Sitemap -->
+  <sitemap>
+    <loc>https://sitemaps.mydripnurse.com/states/louisiana/parishes/lafayette/carencro/sitemap.xml</loc>
+    <lastmod>2026-02-02</lastmod>
+  </sitemap>
+
+  <!-- Duson Hosted Sitemap -->
+  <sitemap>
+    <loc>https://sitemaps.mydripnurse.com/states/louisiana/parishes/lafayette/duson/sitemap.xml</loc>
+    <lastmod>2026-02-02</lastmod>
+  </sitemap>
+
+  <!-- Lafayette Hosted Sitemap -->
+  <sitemap>
+    <loc>https://sitemaps.mydripnurse.com/states/louisiana/parishes/lafayette/lafayette/sitemap.xml</loc>
+    <lastmod>2026-02-02</lastmod>
+  </sitemap>
+
+  <!-- Scott Hosted Sitemap -->
+  <sitemap>
+    <loc>https://sitemaps.mydripnurse.com/states/louisiana/parishes/lafayette/scott/sitemap.xml</loc>
+    <lastmod>2026-02-02</lastmod>
+  </sitemap>
+
+  <!-- Youngsville Hosted Sitemap -->
+  <sitemap>
+    <loc>https://sitemaps.mydripnurse.com/states/louisiana/parishes/lafayette/youngsville/sitemap.xml</loc>
+    <lastmod>2026-02-02</lastmod>
+  </sitemap>
+
+</sitemapindex>

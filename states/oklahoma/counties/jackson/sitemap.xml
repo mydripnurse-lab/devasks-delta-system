@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+  <!-- Jackson Main Sitemap -->
+  <sitemap>
+    <loc>https://jackson-county-ok.mydripnurse.com/sitemap.xml</loc>
+    <lastmod>2026-02-02</lastmod>
+  </sitemap>
+
+  <!-- Altus Hosted Sitemap -->
+  <sitemap>
+    <loc>https://sitemaps.mydripnurse.com/states/oklahoma/counties/jackson/altus/sitemap.xml</loc>
+    <lastmod>2026-02-02</lastmod>
+  </sitemap>
+
+  <!-- Blair Hosted Sitemap -->
+  <sitemap>
+    <loc>https://sitemaps.mydripnurse.com/states/oklahoma/counties/jackson/blair/sitemap.xml</loc>
+    <lastmod>2026-02-02</lastmod>
+  </sitemap>
+
+  <!-- East Duke Hosted Sitemap -->
+  <sitemap>
+    <loc>https://sitemaps.mydripnurse.com/states/oklahoma/counties/jackson/east-duke/sitemap.xml</loc>
+    <lastmod>2026-02-02</lastmod>
+  </sitemap>
+
+  <!-- Eldorado Hosted Sitemap -->
+  <sitemap>
+    <loc>https://sitemaps.mydripnurse.com/states/oklahoma/counties/jackson/eldorado/sitemap.xml</loc>
+    <lastmod>2026-02-02</lastmod>
+  </sitemap>
+
+  <!-- Elmer Hosted Sitemap -->
+  <sitemap>
+    <loc>https://sitemaps.mydripnurse.com/states/oklahoma/counties/jackson/elmer/sitemap.xml</loc>
+    <lastmod>2026-02-02</lastmod>
+  </sitemap>
+
+  <!-- Friendship Hosted Sitemap -->
+  <sitemap>
+    <loc>https://sitemaps.mydripnurse.com/states/oklahoma/counties/jackson/friendship/sitemap.xml</loc>
+    <lastmod>2026-02-02</lastmod>
+  </sitemap>
+
+  <!-- Headrick Hosted Sitemap -->
+  <sitemap>
+    <loc>https://sitemaps.mydripnurse.com/states/oklahoma/counties/jackson/headrick/sitemap.xml</loc>
+    <lastmod>2026-02-02</lastmod>
+  </sitemap>
+
+  <!-- Martha Hosted Sitemap -->
+  <sitemap>
+    <loc>https://sitemaps.mydripnurse.com/states/oklahoma/counties/jackson/martha/sitemap.xml</loc>
+    <lastmod>2026-02-02</lastmod>
+  </sitemap>
+
+  <!-- Olustee Hosted Sitemap -->
+  <sitemap>
+    <loc>https://sitemaps.mydripnurse.com/states/oklahoma/counties/jackson/olustee/sitemap.xml</loc>
+    <lastmod>2026-02-02</lastmod>
+  </sitemap>
+
+</sitemapindex>

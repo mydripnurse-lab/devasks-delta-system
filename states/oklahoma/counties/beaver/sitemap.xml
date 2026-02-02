@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+  <!-- Beaver Main Sitemap -->
+  <sitemap>
+    <loc>https://beaver-county-ok.mydripnurse.com/sitemap.xml</loc>
+    <lastmod>2026-02-02</lastmod>
+  </sitemap>
+
+  <!-- Beaver Hosted Sitemap -->
+  <sitemap>
+    <loc>https://sitemaps.mydripnurse.com/states/oklahoma/counties/beaver/beaver/sitemap.xml</loc>
+    <lastmod>2026-02-02</lastmod>
+  </sitemap>
+
+  <!-- Forgan Hosted Sitemap -->
+  <sitemap>
+    <loc>https://sitemaps.mydripnurse.com/states/oklahoma/counties/beaver/forgan/sitemap.xml</loc>
+    <lastmod>2026-02-02</lastmod>
+  </sitemap>
+
+  <!-- Gate Hosted Sitemap -->
+  <sitemap>
+    <loc>https://sitemaps.mydripnurse.com/states/oklahoma/counties/beaver/gate/sitemap.xml</loc>
+    <lastmod>2026-02-02</lastmod>
+  </sitemap>
+
+  <!-- Knowles Hosted Sitemap -->
+  <sitemap>
+    <loc>https://sitemaps.mydripnurse.com/states/oklahoma/counties/beaver/knowles/sitemap.xml</loc>
+    <lastmod>2026-02-02</lastmod>
+  </sitemap>
+
+</sitemapindex>

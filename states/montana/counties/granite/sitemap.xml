@@ -4,19 +4,19 @@
   <!-- Granite Main Sitemap -->
   <sitemap>
     <loc>https://granite-county-mt.mydripnurse.com/sitemap.xml</loc>
-    <lastmod>2026-01-24</lastmod>
+    <lastmod>2026-02-02</lastmod>
   </sitemap>
 
   <!-- Philipsburg Hosted Sitemap -->
   <sitemap>
     <loc>https://sitemaps.mydripnurse.com/states/montana/counties/granite/philipsburg/sitemap.xml</loc>
-    <lastmod>2026-01-24</lastmod>
+    <lastmod>2026-02-02</lastmod>
   </sitemap>
 
   <!-- Drummond Hosted Sitemap -->
   <sitemap>
     <loc>https://sitemaps.mydripnurse.com/states/montana/counties/granite/drummond/sitemap.xml</loc>
-    <lastmod>2026-01-24</lastmod>
+    <lastmod>2026-02-02</lastmod>
   </sitemap>
 
 </sitemapindex>

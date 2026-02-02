@@ -4,25 +4,25 @@
   <!-- Glacier Main Sitemap -->
   <sitemap>
     <loc>https://glacier-county-mt.mydripnurse.com/sitemap.xml</loc>
-    <lastmod>2026-01-24</lastmod>
+    <lastmod>2026-02-02</lastmod>
   </sitemap>
 
   <!-- Cut Bank Hosted Sitemap -->
   <sitemap>
     <loc>https://sitemaps.mydripnurse.com/states/montana/counties/glacier/cut-bank/sitemap.xml</loc>
-    <lastmod>2026-01-24</lastmod>
+    <lastmod>2026-02-02</lastmod>
   </sitemap>
 
   <!-- Browning Hosted Sitemap -->
   <sitemap>
     <loc>https://sitemaps.mydripnurse.com/states/montana/counties/glacier/browning/sitemap.xml</loc>
-    <lastmod>2026-01-24</lastmod>
+    <lastmod>2026-02-02</lastmod>
   </sitemap>
 
   <!-- East Glacier Park Hosted Sitemap -->
   <sitemap>
     <loc>https://sitemaps.mydripnurse.com/states/montana/counties/glacier/east-glacier-park/sitemap.xml</loc>
-    <lastmod>2026-01-24</lastmod>
+    <lastmod>2026-02-02</lastmod>
   </sitemap>
 
 </sitemapindex>

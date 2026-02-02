@@ -4,25 +4,25 @@
   <!-- Catron Main Sitemap -->
   <sitemap>
     <loc>https://catron-county-nm.mydripnurse.com/sitemap.xml</loc>
-    <lastmod>2026-01-24</lastmod>
+    <lastmod>2026-02-02</lastmod>
   </sitemap>
 
   <!-- Reserve Hosted Sitemap -->
   <sitemap>
     <loc>https://sitemaps.mydripnurse.com/states/new-mexico/counties/catron/reserve/sitemap.xml</loc>
-    <lastmod>2026-01-24</lastmod>
+    <lastmod>2026-02-02</lastmod>
   </sitemap>
 
   <!-- Quemado Hosted Sitemap -->
   <sitemap>
     <loc>https://sitemaps.mydripnurse.com/states/new-mexico/counties/catron/quemado/sitemap.xml</loc>
-    <lastmod>2026-01-24</lastmod>
+    <lastmod>2026-02-02</lastmod>
   </sitemap>
 
   <!-- Glenwood Hosted Sitemap -->
   <sitemap>
     <loc>https://sitemaps.mydripnurse.com/states/new-mexico/counties/catron/glenwood/sitemap.xml</loc>
-    <lastmod>2026-01-24</lastmod>
+    <lastmod>2026-02-02</lastmod>
   </sitemap>
 
 </sitemapindex>
