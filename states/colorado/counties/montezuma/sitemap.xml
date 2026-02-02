@@ -4,25 +4,25 @@
   <!-- Montezuma Main Sitemap -->
   <sitemap>
     <loc>https://montezuma-county-co.mydripnurse.com/sitemap.xml</loc>
-    <lastmod>2026-01-24</lastmod>
+    <lastmod>2026-02-02</lastmod>
   </sitemap>
 
   <!-- Cortez Hosted Sitemap -->
   <sitemap>
     <loc>https://sitemaps.mydripnurse.com/states/colorado/counties/montezuma/cortez/sitemap.xml</loc>
-    <lastmod>2026-01-24</lastmod>
+    <lastmod>2026-02-02</lastmod>
   </sitemap>
 
   <!-- Dolores Hosted Sitemap -->
   <sitemap>
     <loc>https://sitemaps.mydripnurse.com/states/colorado/counties/montezuma/dolores/sitemap.xml</loc>
-    <lastmod>2026-01-24</lastmod>
+    <lastmod>2026-02-02</lastmod>
   </sitemap>
 
   <!-- Mancos Hosted Sitemap -->
   <sitemap>
     <loc>https://sitemaps.mydripnurse.com/states/colorado/counties/montezuma/mancos/sitemap.xml</loc>
-    <lastmod>2026-01-24</lastmod>
+    <lastmod>2026-02-02</lastmod>
   </sitemap>
 
 </sitemapindex>

@@ -3,32 +3,32 @@
 
   <!-- Graham Main Sitemap -->
   <sitemap>
-    <loc>https://graham-county.mydripnurse.com/sitemap.xml</loc>
-    <lastmod>2026-01-24</lastmod>
+    <loc>https://graham-county-az.mydripnurse.com/sitemap.xml</loc>
+    <lastmod>2026-02-02</lastmod>
   </sitemap>
 
   <!-- Safford Hosted Sitemap -->
   <sitemap>
     <loc>https://sitemaps.mydripnurse.com/states/arizona/counties/graham/safford/sitemap.xml</loc>
-    <lastmod>2026-01-24</lastmod>
+    <lastmod>2026-02-02</lastmod>
   </sitemap>
 
   <!-- Thatcher Hosted Sitemap -->
   <sitemap>
     <loc>https://sitemaps.mydripnurse.com/states/arizona/counties/graham/thatcher/sitemap.xml</loc>
-    <lastmod>2026-01-24</lastmod>
+    <lastmod>2026-02-02</lastmod>
   </sitemap>
 
   <!-- Pima Hosted Sitemap -->
   <sitemap>
     <loc>https://sitemaps.mydripnurse.com/states/arizona/counties/graham/pima/sitemap.xml</loc>
-    <lastmod>2026-01-24</lastmod>
+    <lastmod>2026-02-02</lastmod>
   </sitemap>
 
   <!-- Solomon Hosted Sitemap -->
-  <!-- <sitemap>
+  <sitemap>
     <loc>https://sitemaps.mydripnurse.com/states/arizona/counties/graham/solomon/sitemap.xml</loc>
-    <lastmod>2026-01-24</lastmod>
-  </sitemap> -->
+    <lastmod>2026-02-02</lastmod>
+  </sitemap>
 
 </sitemapindex>

@@ -4,31 +4,31 @@
   <!-- Bonneville Main Sitemap -->
   <sitemap>
     <loc>https://bonneville-county-id.mydripnurse.com/sitemap.xml</loc>
-    <lastmod>2026-01-24</lastmod>
+    <lastmod>2026-02-02</lastmod>
   </sitemap>
 
   <!-- Ammon Hosted Sitemap -->
   <sitemap>
     <loc>https://sitemaps.mydripnurse.com/states/idaho/counties/bonneville/ammon/sitemap.xml</loc>
-    <lastmod>2026-01-24</lastmod>
+    <lastmod>2026-02-02</lastmod>
   </sitemap>
 
   <!-- Idaho Falls Hosted Sitemap -->
   <sitemap>
     <loc>https://sitemaps.mydripnurse.com/states/idaho/counties/bonneville/idaho-falls/sitemap.xml</loc>
-    <lastmod>2026-01-24</lastmod>
+    <lastmod>2026-02-02</lastmod>
   </sitemap>
 
   <!-- Iona Hosted Sitemap -->
   <sitemap>
     <loc>https://sitemaps.mydripnurse.com/states/idaho/counties/bonneville/iona/sitemap.xml</loc>
-    <lastmod>2026-01-24</lastmod>
+    <lastmod>2026-02-02</lastmod>
   </sitemap>
 
   <!-- Swan Valley Hosted Sitemap -->
   <sitemap>
     <loc>https://sitemaps.mydripnurse.com/states/idaho/counties/bonneville/swan-valley/sitemap.xml</loc>
-    <lastmod>2026-01-24</lastmod>
+    <lastmod>2026-02-02</lastmod>
   </sitemap>
 
 </sitemapindex>

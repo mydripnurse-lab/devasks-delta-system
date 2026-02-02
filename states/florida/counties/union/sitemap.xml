@@ -3,26 +3,26 @@
 
   <!-- Union Main Sitemap -->
   <sitemap>
-    <loc>https://union-county.mydripnurse.com/sitemap.xml</loc>
-    <lastmod>2026-01-24</lastmod>
+    <loc>https://union-county-fl.mydripnurse.com/sitemap.xml</loc>
+    <lastmod>2026-02-02</lastmod>
   </sitemap>
 
   <!-- Lake Butler Hosted Sitemap -->
   <sitemap>
     <loc>https://sitemaps.mydripnurse.com/states/florida/counties/union/lake-butler/sitemap.xml</loc>
-    <lastmod>2026-01-24</lastmod>
+    <lastmod>2026-02-02</lastmod>
   </sitemap>
 
   <!-- Raiford Hosted Sitemap -->
   <sitemap>
     <loc>https://sitemaps.mydripnurse.com/states/florida/counties/union/raiford/sitemap.xml</loc>
-    <lastmod>2026-01-24</lastmod>
+    <lastmod>2026-02-02</lastmod>
   </sitemap>
 
   <!-- Worthington Springs Hosted Sitemap -->
   <sitemap>
     <loc>https://sitemaps.mydripnurse.com/states/florida/counties/union/worthington-springs/sitemap.xml</loc>
-    <lastmod>2026-01-24</lastmod>
+    <lastmod>2026-02-02</lastmod>
   </sitemap>
 
 </sitemapindex>

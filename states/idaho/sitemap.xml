@@ -4,13 +4,13 @@
   <!-- Idaho Main Page -->
   <sitemap>
     <loc>https://idaho.mydripnurse.com/sitemap.xml</loc>
-    <lastmod>2026-01-24</lastmod>
+    <lastmod>2026-02-02</lastmod>
   </sitemap>
 
   <!-- Idaho Counties -->
   <sitemap>
     <loc>https://sitemaps.mydripnurse.com/states/idaho/counties/sitemap.xml</loc>
-    <lastmod>2026-01-24</lastmod>
+    <lastmod>2026-02-02</lastmod>
   </sitemap>
 
 </sitemapindex>

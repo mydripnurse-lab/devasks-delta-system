@@ -3,38 +3,38 @@
 
   <!-- Marion Main Sitemap -->
   <sitemap>
-    <loc>https://marion-county.mydripnurse.com/sitemap.xml</loc>
-    <lastmod>2026-01-24</lastmod>
+    <loc>https://marion-county-fl.mydripnurse.com/sitemap.xml</loc>
+    <lastmod>2026-02-02</lastmod>
   </sitemap>
 
   <!-- Belleview Hosted Sitemap -->
   <sitemap>
     <loc>https://sitemaps.mydripnurse.com/states/florida/counties/marion/belleview/sitemap.xml</loc>
-    <lastmod>2026-01-24</lastmod>
+    <lastmod>2026-02-02</lastmod>
   </sitemap>
 
   <!-- Dunnellon Hosted Sitemap -->
   <sitemap>
     <loc>https://sitemaps.mydripnurse.com/states/florida/counties/marion/dunnellon/sitemap.xml</loc>
-    <lastmod>2026-01-24</lastmod>
+    <lastmod>2026-02-02</lastmod>
   </sitemap>
 
   <!-- McIntosh Hosted Sitemap -->
   <sitemap>
     <loc>https://sitemaps.mydripnurse.com/states/florida/counties/marion/mcintosh/sitemap.xml</loc>
-    <lastmod>2026-01-24</lastmod>
+    <lastmod>2026-02-02</lastmod>
   </sitemap>
 
   <!-- Ocala Hosted Sitemap -->
   <sitemap>
     <loc>https://sitemaps.mydripnurse.com/states/florida/counties/marion/ocala/sitemap.xml</loc>
-    <lastmod>2026-01-24</lastmod>
+    <lastmod>2026-02-02</lastmod>
   </sitemap>
 
   <!-- Reddick Hosted Sitemap -->
   <sitemap>
     <loc>https://sitemaps.mydripnurse.com/states/florida/counties/marion/reddick/sitemap.xml</loc>
-    <lastmod>2026-01-24</lastmod>
+    <lastmod>2026-02-02</lastmod>
   </sitemap>
 
 </sitemapindex>

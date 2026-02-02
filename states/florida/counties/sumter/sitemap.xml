@@ -3,38 +3,38 @@
 
   <!-- Sumter Main Sitemap -->
   <sitemap>
-    <loc>https://sumter-county.mydripnurse.com/sitemap.xml</loc>
-    <lastmod>2026-01-24</lastmod>
+    <loc>https://sumter-county-fl.mydripnurse.com/sitemap.xml</loc>
+    <lastmod>2026-02-02</lastmod>
   </sitemap>
 
   <!-- Bushnell Hosted Sitemap -->
   <sitemap>
     <loc>https://sitemaps.mydripnurse.com/states/florida/counties/sumter/bushnell/sitemap.xml</loc>
-    <lastmod>2026-01-24</lastmod>
+    <lastmod>2026-02-02</lastmod>
   </sitemap>
 
   <!-- Center Hill Hosted Sitemap -->
   <sitemap>
     <loc>https://sitemaps.mydripnurse.com/states/florida/counties/sumter/center-hill/sitemap.xml</loc>
-    <lastmod>2026-01-24</lastmod>
+    <lastmod>2026-02-02</lastmod>
   </sitemap>
 
   <!-- Coleman Hosted Sitemap -->
   <sitemap>
     <loc>https://sitemaps.mydripnurse.com/states/florida/counties/sumter/coleman/sitemap.xml</loc>
-    <lastmod>2026-01-24</lastmod>
+    <lastmod>2026-02-02</lastmod>
   </sitemap>
 
   <!-- Webster Hosted Sitemap -->
   <sitemap>
     <loc>https://sitemaps.mydripnurse.com/states/florida/counties/sumter/webster/sitemap.xml</loc>
-    <lastmod>2026-01-24</lastmod>
+    <lastmod>2026-02-02</lastmod>
   </sitemap>
 
   <!-- Wildwood Hosted Sitemap -->
   <sitemap>
     <loc>https://sitemaps.mydripnurse.com/states/florida/counties/sumter/wildwood/sitemap.xml</loc>
-    <lastmod>2026-01-24</lastmod>
+    <lastmod>2026-02-02</lastmod>
   </sitemap>
 
 </sitemapindex>

@@ -3,20 +3,20 @@
 
   <!-- Washington Main Sitemap -->
   <sitemap>
-    <loc>https://washington-county.mydripnurse.com/sitemap.xml</loc>
-    <lastmod>2026-01-24</lastmod>
+    <loc>https://washington-county-fl.mydripnurse.com/sitemap.xml</loc>
+    <lastmod>2026-02-02</lastmod>
   </sitemap>
 
   <!-- Chipley Hosted Sitemap -->
   <sitemap>
     <loc>https://sitemaps.mydripnurse.com/states/florida/counties/washington/chipley/sitemap.xml</loc>
-    <lastmod>2026-01-24</lastmod>
+    <lastmod>2026-02-02</lastmod>
   </sitemap>
 
   <!-- Vernon Hosted Sitemap -->
   <sitemap>
     <loc>https://sitemaps.mydripnurse.com/states/florida/counties/washington/vernon/sitemap.xml</loc>
-    <lastmod>2026-01-24</lastmod>
+    <lastmod>2026-02-02</lastmod>
   </sitemap>
 
 </sitemapindex>

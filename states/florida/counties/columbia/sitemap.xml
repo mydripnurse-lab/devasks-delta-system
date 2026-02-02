@@ -3,20 +3,20 @@
 
   <!-- Columbia Main Sitemap -->
   <sitemap>
-    <loc>https://columbia-county.mydripnurse.com/sitemap.xml</loc>
-    <lastmod>2026-01-24</lastmod>
+    <loc>https://columbia-county-fl.mydripnurse.com/sitemap.xml</loc>
+    <lastmod>2026-02-02</lastmod>
   </sitemap>
 
   <!-- Fort White Hosted Sitemap -->
   <sitemap>
     <loc>https://sitemaps.mydripnurse.com/states/florida/counties/columbia/fort-white/sitemap.xml</loc>
-    <lastmod>2026-01-24</lastmod>
+    <lastmod>2026-02-02</lastmod>
   </sitemap>
 
   <!-- Lake City Hosted Sitemap -->
   <sitemap>
     <loc>https://sitemaps.mydripnurse.com/states/florida/counties/columbia/lake-city/sitemap.xml</loc>
-    <lastmod>2026-01-24</lastmod>
+    <lastmod>2026-02-02</lastmod>
   </sitemap>
 
 </sitemapindex>

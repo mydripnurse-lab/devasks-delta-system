@@ -4,25 +4,25 @@
   <!-- Gove Main Sitemap -->
   <sitemap>
     <loc>https://gove-county-ks.mydripnurse.com/sitemap.xml</loc>
-    <lastmod>2026-01-24</lastmod>
+    <lastmod>2026-02-02</lastmod>
   </sitemap>
 
   <!-- Gove City Hosted Sitemap -->
   <sitemap>
     <loc>https://sitemaps.mydripnurse.com/states/kansas/counties/gove/gove-city/sitemap.xml</loc>
-    <lastmod>2026-01-24</lastmod>
+    <lastmod>2026-02-02</lastmod>
   </sitemap>
 
   <!-- Grainfield Hosted Sitemap -->
   <sitemap>
     <loc>https://sitemaps.mydripnurse.com/states/kansas/counties/gove/grainfield/sitemap.xml</loc>
-    <lastmod>2026-01-24</lastmod>
+    <lastmod>2026-02-02</lastmod>
   </sitemap>
 
   <!-- Park Hosted Sitemap -->
   <sitemap>
     <loc>https://sitemaps.mydripnurse.com/states/kansas/counties/gove/park/sitemap.xml</loc>
-    <lastmod>2026-01-24</lastmod>
+    <lastmod>2026-02-02</lastmod>
   </sitemap>
 
 </sitemapindex>

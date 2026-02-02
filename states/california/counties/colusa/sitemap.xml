@@ -4,19 +4,19 @@
   <!-- Colusa Main Sitemap -->
   <sitemap>
     <loc>https://colusa-county-ca.mydripnurse.com/sitemap.xml</loc>
-    <lastmod>2026-01-24</lastmod>
+    <lastmod>2026-02-02</lastmod>
   </sitemap>
 
   <!-- Colusa Hosted Sitemap -->
   <sitemap>
     <loc>https://sitemaps.mydripnurse.com/states/california/counties/colusa/colusa/sitemap.xml</loc>
-    <lastmod>2026-01-24</lastmod>
+    <lastmod>2026-02-02</lastmod>
   </sitemap>
 
   <!-- Williams Hosted Sitemap -->
   <sitemap>
     <loc>https://sitemaps.mydripnurse.com/states/california/counties/colusa/williams/sitemap.xml</loc>
-    <lastmod>2026-01-24</lastmod>
+    <lastmod>2026-02-02</lastmod>
   </sitemap>
 
 </sitemapindex>

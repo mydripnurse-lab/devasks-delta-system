@@ -1,18 +1,11 @@
-// scripts/src/build-state-sitemaps.js
+// scripts/build-state-sitemaps.js
 import fs from "fs/promises";
 import path from "path";
-import { fileURLToPath } from "url";
-import readline from "readline/promises";
-import { stdin as input, stdout as output } from "process";
+import { logHeader, logKV, emitProgressInit, emitProgress, emitProgressEnd } from "../../progress.js";
 
-const __filename = fileURLToPath(import.meta.url);
-const __dirname = path.dirname(__filename);
-
-const RESOURCES_DIR = path.join(process.cwd(), "resources", "statesFiles");
-const STATES_OUT_DIR = path.join(process.cwd(), "states");
-
-// Host central donde se sirven estos sitemaps
-const SITEMAPS_HOST = "https://sitemaps.mydripnurse.com";
+const DEFAULT_RESOURCES_DIR = path.join(process.cwd(), "resources", "statesFiles");
+const DEFAULT_STATES_OUT_DIR = path.join(process.cwd(), "states");
+const DEFAULT_SITEMAPS_HOST = "https://sitemaps.mydripnurse.com";
 
 /** yyyy-mm-dd (local) */
 function todayYMD() {
@@ -93,14 +86,14 @@ function pickDivisionFolder(stateSlug) {
     return "counties";
 }
 
-async function listStateFiles() {
-    const files = await fs.readdir(RESOURCES_DIR);
+async function listStateFiles(resourcesDir) {
+    const files = await fs.readdir(resourcesDir);
     return files
         .filter((f) => f.toLowerCase().endsWith(".json"))
         .map((f) => ({
             file: f,
             slug: f.replace(/\.json$/i, ""),
-            fullPath: path.join(RESOURCES_DIR, f),
+            fullPath: path.join(resourcesDir, f),
         }))
         .sort((a, b) => a.slug.localeCompare(b.slug));
 }
@@ -115,38 +108,114 @@ async function writeFileEnsureDir(filePath, content) {
 }
 
 /** Loc builders (host central) */
-function locStateDivisionRoot(stateSlug, divisionFolder) {
-    return `${SITEMAPS_HOST}/states/${stateSlug}/${divisionFolder}/sitemap.xml`;
+function locStateDivisionRoot(host, stateSlug, divisionFolder) {
+    return `${host}/states/${stateSlug}/${divisionFolder}/sitemap.xml`;
 }
 
-/**
- * Root level division sitemap entry:
- * - For counties/parishes: /states/<state>/<counties>/<county-slug>/sitemap.xml
- * - For PR cities:        /states/<state>/cities/<city-slug>/sitemap.xml
- */
-function locDivisionIndexChild(stateSlug, divisionFolder, divisionSlug) {
-    return `${SITEMAPS_HOST}/states/${stateSlug}/${divisionFolder}/${divisionSlug}/sitemap.xml`;
+function locDivisionIndexChild(host, stateSlug, divisionFolder, divisionSlug) {
+    return `${host}/states/${stateSlug}/${divisionFolder}/${divisionSlug}/sitemap.xml`;
 }
 
-/**
- * City inside a county/parish:
- * /states/<state>/<counties>/<county-slug>/<city-slug>/sitemap.xml
- */
-function locNestedCity(stateSlug, divisionFolder, countySlug, citySlug) {
-    return `${SITEMAPS_HOST}/states/${stateSlug}/${divisionFolder}/${countySlug}/${citySlug}/sitemap.xml`;
+function locNestedCity(host, stateSlug, divisionFolder, countySlug, citySlug) {
+    return `${host}/states/${stateSlug}/${divisionFolder}/${countySlug}/${citySlug}/sitemap.xml`;
 }
 
-async function buildOneState(chosen, lastmod) {
-    const raw = await fs.readFile(chosen.fullPath, "utf8");
-    const stateJson = JSON.parse(raw);
+/** CLI args */
+function arg(name, fallback = "") {
+    const idx = process.argv.indexOf(name);
+    if (idx === -1) return fallback;
+    return process.argv[idx + 1] ?? fallback;
+}
 
+function parseSelection(inputStr, stateFiles) {
+    const v = String(inputStr || "").trim().toLowerCase();
+    if (!v) return [];
+
+    if (v === "all" || v === "*") return [...stateFiles];
+
+    // soporta: "1" | "florida" | "1,5,puerto-rico"
+    const parts = v
+        .split(",")
+        .map((x) => x.trim())
+        .filter(Boolean);
+
+    const chosen = [];
+
+    for (const p of parts) {
+        const asNum = Number(p);
+        if (!Number.isNaN(asNum) && asNum >= 1 && asNum <= stateFiles.length) {
+            chosen.push(stateFiles[asNum - 1]);
+            continue;
+        }
+
+        const bySlug =
+            stateFiles.find((s) => s.slug === p) ||
+            stateFiles.find((s) => s.slug === slugify(p));
+
+        if (bySlug) chosen.push(bySlug);
+    }
+
+    // de-dup
+    const seen = new Set();
+    return chosen.filter((x) => {
+        if (seen.has(x.slug)) return false;
+        seen.add(x.slug);
+        return true;
+    });
+}
+
+/** Pre-calc totals for progress bar */
+function calcTotalsForBatch(batch, jsonMap) {
+    // "divisions" = counties/parishes/cities at root
+    // "cities" = nested cities inside counties/parishes (PR counts as divisions only)
+    let divisions = 0;
+    let cities = 0;
+
+    for (const chosen of batch) {
+        const stateJson = jsonMap.get(chosen.slug);
+        const counties = extractCounties(stateJson);
+
+        const stateSlug = chosen.slug;
+        const divisionFolder = pickDivisionFolder(stateSlug);
+
+        if (stateSlug === "puerto-rico" && divisionFolder === "cities") {
+            const pr = counties[0];
+            const prCities = Array.isArray(pr?.cities) ? pr.cities : [];
+            divisions += prCities.filter((c) => c?.cityName && c?.citySitemap).length;
+            continue;
+        }
+
+        // normal/louisiana
+        const filteredCounties = counties.filter((c) => c?.countyName);
+        divisions += filteredCounties.length;
+
+        for (const c of filteredCounties) {
+            const list = Array.isArray(c?.cities) ? c.cities : [];
+            cities += list.filter((x) => x?.cityName && x?.citySitemap).length;
+        }
+    }
+
+    const all = divisions + cities;
+    return { all, divisions, cities };
+}
+
+async function buildOneState({
+    chosen,
+    lastmod,
+    host,
+    outDir,
+    stateJson,
+    // progress bookkeeping:
+    onDivisionDone,
+    onCityDone,
+}) {
     const stateSlug = chosen.slug;
     const stateName = detectStateNameFromJson(stateJson, stateSlug);
     const divisionFolder = pickDivisionFolder(stateSlug);
 
     const counties = extractCounties(stateJson);
 
-    const outStateDir = path.join(STATES_OUT_DIR, stateSlug);
+    const outStateDir = path.join(outDir, stateSlug);
     const outDivisionRootDir = path.join(outStateDir, divisionFolder);
 
     console.log("\n===============================================");
@@ -177,7 +246,7 @@ async function buildOneState(chosen, lastmod) {
                         : divisionFolder === "cities"
                             ? `${stateName} Cities`
                             : `${stateName} Counties`,
-                loc: locStateDivisionRoot(stateSlug, divisionFolder),
+                loc: locStateDivisionRoot(host, stateSlug, divisionFolder),
             },
         ],
     });
@@ -187,7 +256,7 @@ async function buildOneState(chosen, lastmod) {
     /**
      * 2) division root sitemap.xml
      * - PR: lista cities directas
-     * - Normal: lista counties/parishes (cada una tiene su propio folder)
+     * - Normal: lista counties/parishes
      */
     let divisionRootEntries = [];
 
@@ -198,21 +267,17 @@ async function buildOneState(chosen, lastmod) {
         divisionRootEntries = cities
             .filter((c) => c?.cityName)
             .map((c) => ({
-                loc: locDivisionIndexChild(stateSlug, divisionFolder, slugify(c.cityName)),
+                loc: locDivisionIndexChild(host, stateSlug, divisionFolder, slugify(c.cityName)),
             }));
     } else {
         divisionRootEntries = counties
             .filter((c) => c?.countyName)
             .map((c) => ({
-                loc: locDivisionIndexChild(stateSlug, divisionFolder, slugify(c.countyName)),
+                loc: locDivisionIndexChild(host, stateSlug, divisionFolder, slugify(c.countyName)),
             }));
     }
 
-    const divisionRootXml = renderSitemapIndex({
-        lastmod,
-        entries: divisionRootEntries,
-    });
-
+    const divisionRootXml = renderSitemapIndex({ lastmod, entries: divisionRootEntries });
     await writeFileEnsureDir(path.join(outDivisionRootDir, "sitemap.xml"), divisionRootXml);
 
     /**
@@ -243,6 +308,14 @@ async function buildOneState(chosen, lastmod) {
 
                 await writeFileEnsureDir(cityFile, xml);
                 ok++;
+
+                onDivisionDone?.({
+                    stateSlug,
+                    divisionFolder,
+                    divisionName: cityName,
+                    divisionSlug: citySlug,
+                    kind: "pr-city",
+                });
             } catch (e) {
                 failed++;
                 console.error(`❌ Failed PR city "${cityName}":`, e?.message || e);
@@ -250,7 +323,7 @@ async function buildOneState(chosen, lastmod) {
         }
 
         console.log(`\n✅ DONE ${stateSlug} | cities ok:${ok} fail:${failed}\n`);
-        return;
+        return { ok, failed };
     }
 
     // 3B) Normal/Louisiana: county/parish folders with nested city folders
@@ -282,6 +355,15 @@ async function buildOneState(chosen, lastmod) {
                 });
 
                 await writeFileEnsureDir(cityFile, cityHostedXml);
+
+                onCityDone?.({
+                    stateSlug,
+                    countySlug,
+                    countyName,
+                    citySlug,
+                    cityName,
+                    divisionFolder,
+                });
             }
 
             // 2) County sitemap.xml index
@@ -296,7 +378,7 @@ async function buildOneState(chosen, lastmod) {
                 const citySlug = slugify(city.cityName);
                 entries.push({
                     comment: `${city.cityName} Hosted Sitemap`,
-                    loc: locNestedCity(stateSlug, divisionFolder, countySlug, citySlug),
+                    loc: locNestedCity(host, stateSlug, divisionFolder, countySlug, citySlug),
                 });
             }
 
@@ -304,6 +386,14 @@ async function buildOneState(chosen, lastmod) {
             await writeFileEnsureDir(countyFile, countyHostedXml);
 
             ok++;
+
+            onDivisionDone?.({
+                stateSlug,
+                divisionFolder,
+                divisionName: countyName,
+                divisionSlug: countySlug,
+                kind: divisionFolder === "parishes" ? "parish" : "county",
+            });
         } catch (e) {
             failed++;
             console.error(`❌ Failed county/parish "${countyName}":`, e?.message || e);
@@ -311,94 +401,130 @@ async function buildOneState(chosen, lastmod) {
     }
 
     console.log(`\n✅ DONE ${stateSlug} | divisions ok:${ok} fail:${failed}\n`);
-}
-
-function parseSelection(inputStr, stateFiles) {
-    const v = String(inputStr || "").trim().toLowerCase();
-    if (!v) return [];
-
-    if (v === "all" || v === "*") return [...stateFiles];
-
-    // soporta: "1" | "florida" | "1, 5, puerto-rico"
-    const parts = v.split(",").map((x) => x.trim()).filter(Boolean);
-    const chosen = [];
-
-    for (const p of parts) {
-        const asNum = Number(p);
-        if (!Number.isNaN(asNum) && asNum >= 1 && asNum <= stateFiles.length) {
-            chosen.push(stateFiles[asNum - 1]);
-            continue;
-        }
-
-        const bySlug =
-            stateFiles.find((s) => s.slug === p) ||
-            stateFiles.find((s) => s.slug === slugify(p));
-
-        if (bySlug) chosen.push(bySlug);
-    }
-
-    // de-dup
-    const seen = new Set();
-    return chosen.filter((x) => {
-        if (seen.has(x.slug)) return false;
-        seen.add(x.slug);
-        return true;
-    });
+    return { ok, failed };
 }
 
 async function main() {
+    const job = "build-state-sitemaps";
+
+    const stateArg = arg("--state", "all"); // all | slug | "1,5,puerto-rico"
+    const resourcesDir = arg("--resourcesDir", DEFAULT_RESOURCES_DIR);
+    const outDir = arg("--outDir", DEFAULT_STATES_OUT_DIR);
+    const host = arg("--host", DEFAULT_SITEMAPS_HOST);
+    const debug = arg("--debug", "off") === "on";
+
     const lastmod = todayYMD();
 
-    const stateFiles = await listStateFiles();
+    logHeader(`BUILD STATE SITEMAPS • state="${stateArg}" • host="${host}"`);
+    logKV({ resourcesDir, outDir, lastmod, debug });
+
+    const stateFiles = await listStateFiles(resourcesDir);
     if (!stateFiles.length) {
-        console.error("❌ No JSON files found in:", RESOURCES_DIR);
+        console.error("❌ No JSON files found in:", resourcesDir);
         process.exit(1);
     }
 
-    const rl = readline.createInterface({ input, output });
-
-    while (true) {
-        console.log("\nAvailable states (resources/statesFiles):");
-        stateFiles.forEach((s, i) => console.log(`  ${i + 1}) ${s.slug}`));
-        console.log(`\nType:`);
-        console.log(`  - a number (e.g. 1)`);
-        console.log(`  - a slug (e.g. florida)`);
-        console.log(`  - multiple (e.g. 1,5,puerto-rico)`);
-        console.log(`  - ALL (or *) to build everything`);
-        console.log(`  - Q to quit\n`);
-
-        const answer = (await rl.question("Select state(s): ")).trim();
-        if (!answer) continue;
-
-        const low = answer.toLowerCase();
-        if (low === "q" || low === "quit" || low === "exit") break;
-
-        const batch = parseSelection(answer, stateFiles);
-
-        if (!batch.length) {
-            console.log("❌ No matches. Try again.\n");
-            continue;
-        }
-
-        // build sequentially
-        for (const chosen of batch) {
-            try {
-                await buildOneState(chosen, lastmod);
-            } catch (e) {
-                console.error(`❌ Fatal building "${chosen.slug}":`, e?.message || e);
-            }
-        }
-
-        // if user typed ALL, we can end automatically (optional)
-        if (low === "all" || low === "*") break;
-
-        console.log("✅ Batch finished. You can select another state or type Q.\n");
+    const batch = parseSelection(stateArg, stateFiles);
+    if (!batch.length) {
+        console.error(`❌ No matches for --state="${stateArg}". Available: ${stateFiles.length} files.`);
+        process.exit(1);
     }
 
-    rl.close();
+    // Load JSONs upfront (so totals are accurate and no partial progress)
+    const jsonMap = new Map();
+    for (const chosen of batch) {
+        const raw = await fs.readFile(chosen.fullPath, "utf8");
+        jsonMap.set(chosen.slug, JSON.parse(raw));
+    }
+
+    const totals = calcTotalsForBatch(batch, jsonMap);
+    emitProgressInit({
+        totals: { all: totals.all, counties: totals.divisions, cities: totals.cities },
+        job,
+        state: stateArg,
+    });
+
+    let doneDivisions = 0;
+    let doneCities = 0;
+    let okStates = 0;
+    let failedStates = 0;
+
+    const onDivisionDone = (info) => {
+        doneDivisions++;
+
+        emitProgress({
+            totals: { all: totals.all, counties: totals.divisions, cities: totals.cities },
+            done: { all: doneDivisions + doneCities, counties: doneDivisions, cities: doneCities },
+            last: {
+                kind: info.kind === "pr-city" ? "city" : "county",
+                state: info.stateSlug,
+                action: `sitemap_written`,
+                name: info.divisionName,
+            },
+        });
+
+        if (debug) console.log(`✅ Division: ${info.divisionName} (${doneDivisions}/${totals.divisions})`);
+    };
+
+    const onCityDone = (info) => {
+        doneCities++;
+
+        // Opcional: no spamear tanto si hay miles de ciudades.
+        // Puedes throttle aquí, pero por ahora lo dejamos.
+        emitProgress({
+            totals: { all: totals.all, counties: totals.divisions, cities: totals.cities },
+            done: { all: doneDivisions + doneCities, counties: doneDivisions, cities: doneCities },
+            last: {
+                kind: "city",
+                state: info.stateSlug,
+                county: info.countyName,
+                action: `city_sitemap_written`,
+                name: info.cityName,
+            },
+        });
+
+        if (debug) console.log(`🏙️ City: ${info.cityName} (${doneCities}/${totals.cities})`);
+    };
+
+    // Build sequentially (safe)
+    for (const chosen of batch) {
+        try {
+            const stateJson = jsonMap.get(chosen.slug);
+            await buildOneState({
+                chosen,
+                lastmod,
+                host,
+                outDir,
+                stateJson,
+                onDivisionDone,
+                onCityDone,
+            });
+            okStates++;
+        } catch (e) {
+            failedStates++;
+            console.error(`❌ Fatal building "${chosen.slug}":`, e?.message || e);
+        }
+    }
+
+    const ok = failedStates === 0;
+    emitProgressEnd({
+        totals: { all: totals.all, counties: totals.divisions, cities: totals.cities },
+        done: { all: doneDivisions + doneCities, counties: doneDivisions, cities: doneCities },
+        ok,
+    });
+
+    console.log(`\n🏁 ${job} finished • states_ok=${okStates} • states_fail=${failedStates}\n`);
+    process.exit(ok ? 0 : 1);
 }
 
 main().catch((e) => {
     console.error("❌ Fatal:", e?.message || e);
+    try {
+        emitProgressEnd({
+            totals: { all: 0, counties: 0, cities: 0 },
+            done: { all: 0, counties: 0, cities: 0 },
+            ok: false,
+        });
+    } catch { }
     process.exit(1);
 });

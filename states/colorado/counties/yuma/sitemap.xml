@@ -4,25 +4,25 @@
   <!-- Yuma Main Sitemap -->
   <sitemap>
     <loc>https://yuma-county-co.mydripnurse.com/sitemap.xml</loc>
-    <lastmod>2026-01-24</lastmod>
+    <lastmod>2026-02-02</lastmod>
   </sitemap>
 
   <!-- Eckley Hosted Sitemap -->
   <sitemap>
     <loc>https://sitemaps.mydripnurse.com/states/colorado/counties/yuma/eckley/sitemap.xml</loc>
-    <lastmod>2026-01-24</lastmod>
+    <lastmod>2026-02-02</lastmod>
   </sitemap>
 
   <!-- Wray Hosted Sitemap -->
   <sitemap>
     <loc>https://sitemaps.mydripnurse.com/states/colorado/counties/yuma/wray/sitemap.xml</loc>
-    <lastmod>2026-01-24</lastmod>
+    <lastmod>2026-02-02</lastmod>
   </sitemap>
 
   <!-- Yuma Hosted Sitemap -->
   <sitemap>
     <loc>https://sitemaps.mydripnurse.com/states/colorado/counties/yuma/yuma/sitemap.xml</loc>
-    <lastmod>2026-01-24</lastmod>
+    <lastmod>2026-02-02</lastmod>
   </sitemap>
 
 </sitemapindex>

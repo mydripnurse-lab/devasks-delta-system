@@ -3,38 +3,38 @@
 
   <!-- Gila Main Sitemap -->
   <sitemap>
-    <loc>https://gila-county.mydripnurse.com/sitemap.xml</loc>
-    <lastmod>2026-01-24</lastmod>
+    <loc>https://gila-county-az.mydripnurse.com/sitemap.xml</loc>
+    <lastmod>2026-02-02</lastmod>
   </sitemap>
 
   <!-- Globe Hosted Sitemap -->
   <sitemap>
     <loc>https://sitemaps.mydripnurse.com/states/arizona/counties/gila/globe/sitemap.xml</loc>
-    <lastmod>2026-01-24</lastmod>
+    <lastmod>2026-02-02</lastmod>
   </sitemap>
 
   <!-- Miami Hosted Sitemap -->
-  <!-- <sitemap>
+  <sitemap>
     <loc>https://sitemaps.mydripnurse.com/states/arizona/counties/gila/miami/sitemap.xml</loc>
-    <lastmod>2026-01-24</lastmod>
-  </sitemap> -->
+    <lastmod>2026-02-02</lastmod>
+  </sitemap>
 
   <!-- Payson Hosted Sitemap -->
   <sitemap>
     <loc>https://sitemaps.mydripnurse.com/states/arizona/counties/gila/payson/sitemap.xml</loc>
-    <lastmod>2026-01-24</lastmod>
+    <lastmod>2026-02-02</lastmod>
   </sitemap>
 
   <!-- Strawberry Hosted Sitemap -->
-  <!-- <sitemap>
+  <sitemap>
     <loc>https://sitemaps.mydripnurse.com/states/arizona/counties/gila/strawberry/sitemap.xml</loc>
-    <lastmod>2026-01-24</lastmod>
-  </sitemap> -->
+    <lastmod>2026-02-02</lastmod>
+  </sitemap>
 
   <!-- Star Valley Hosted Sitemap -->
   <sitemap>
     <loc>https://sitemaps.mydripnurse.com/states/arizona/counties/gila/star-valley/sitemap.xml</loc>
-    <lastmod>2026-01-24</lastmod>
+    <lastmod>2026-02-02</lastmod>
   </sitemap>
 
 </sitemapindex>

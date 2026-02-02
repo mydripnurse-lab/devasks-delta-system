@@ -3,32 +3,32 @@
 
   <!-- La Paz Main Sitemap -->
   <sitemap>
-    <loc>https://la-paz-county.mydripnurse.com/sitemap.xml</loc>
-    <lastmod>2026-01-24</lastmod>
+    <loc>https://la-paz-county-az.mydripnurse.com/sitemap.xml</loc>
+    <lastmod>2026-02-02</lastmod>
   </sitemap>
 
   <!-- Parker Hosted Sitemap -->
   <sitemap>
     <loc>https://sitemaps.mydripnurse.com/states/arizona/counties/la-paz/parker/sitemap.xml</loc>
-    <lastmod>2026-01-24</lastmod>
+    <lastmod>2026-02-02</lastmod>
   </sitemap>
 
   <!-- Quartzsite Hosted Sitemap -->
   <sitemap>
     <loc>https://sitemaps.mydripnurse.com/states/arizona/counties/la-paz/quartzsite/sitemap.xml</loc>
-    <lastmod>2026-01-24</lastmod>
+    <lastmod>2026-02-02</lastmod>
   </sitemap>
 
   <!-- Salome Hosted Sitemap -->
-  <!-- <sitemap>
+  <sitemap>
     <loc>https://sitemaps.mydripnurse.com/states/arizona/counties/la-paz/salome/sitemap.xml</loc>
-    <lastmod>2026-01-24</lastmod>
-  </sitemap> -->
+    <lastmod>2026-02-02</lastmod>
+  </sitemap>
 
   <!-- Wenden Hosted Sitemap -->
-  <!-- <sitemap>
+  <sitemap>
     <loc>https://sitemaps.mydripnurse.com/states/arizona/counties/la-paz/wenden/sitemap.xml</loc>
-    <lastmod>2026-01-24</lastmod>
-  </sitemap> -->
+    <lastmod>2026-02-02</lastmod>
+  </sitemap>
 
 </sitemapindex>

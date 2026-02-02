@@ -4,19 +4,19 @@
   <!-- Dallas Main Sitemap -->
   <sitemap>
     <loc>https://dallas-county-al.mydripnurse.com/sitemap.xml</loc>
-    <lastmod>2026-01-27</lastmod>
+    <lastmod>2026-02-02</lastmod>
   </sitemap>
 
   <!-- Marion Hosted Sitemap -->
   <sitemap>
     <loc>https://sitemaps.mydripnurse.com/states/alabama/counties/dallas/marion/sitemap.xml</loc>
-    <lastmod>2026-01-27</lastmod>
+    <lastmod>2026-02-02</lastmod>
   </sitemap>
 
   <!-- Selma Hosted Sitemap -->
   <sitemap>
     <loc>https://sitemaps.mydripnurse.com/states/alabama/counties/dallas/selma/sitemap.xml</loc>
-    <lastmod>2026-01-27</lastmod>
+    <lastmod>2026-02-02</lastmod>
   </sitemap>
 
 </sitemapindex>

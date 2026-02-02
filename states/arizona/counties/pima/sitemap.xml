@@ -3,38 +3,38 @@
 
   <!-- Pima Main Sitemap -->
   <sitemap>
-    <loc>https://pima-county.mydripnurse.com/sitemap.xml</loc>
-    <lastmod>2026-01-24</lastmod>
+    <loc>https://pima-county-az.mydripnurse.com/sitemap.xml</loc>
+    <lastmod>2026-02-02</lastmod>
   </sitemap>
 
   <!-- Tucson Hosted Sitemap -->
   <sitemap>
     <loc>https://sitemaps.mydripnurse.com/states/arizona/counties/pima/tucson/sitemap.xml</loc>
-    <lastmod>2026-01-24</lastmod>
+    <lastmod>2026-02-02</lastmod>
   </sitemap>
 
   <!-- Oro Valley Hosted Sitemap -->
   <sitemap>
     <loc>https://sitemaps.mydripnurse.com/states/arizona/counties/pima/oro-valley/sitemap.xml</loc>
-    <lastmod>2026-01-24</lastmod>
+    <lastmod>2026-02-02</lastmod>
   </sitemap>
 
   <!-- Marana Hosted Sitemap -->
   <sitemap>
     <loc>https://sitemaps.mydripnurse.com/states/arizona/counties/pima/marana/sitemap.xml</loc>
-    <lastmod>2026-01-24</lastmod>
+    <lastmod>2026-02-02</lastmod>
   </sitemap>
 
   <!-- Sahuarita Hosted Sitemap -->
   <sitemap>
     <loc>https://sitemaps.mydripnurse.com/states/arizona/counties/pima/sahuarita/sitemap.xml</loc>
-    <lastmod>2026-01-24</lastmod>
+    <lastmod>2026-02-02</lastmod>
   </sitemap>
 
   <!-- South Tucson Hosted Sitemap -->
   <sitemap>
     <loc>https://sitemaps.mydripnurse.com/states/arizona/counties/pima/south-tucson/sitemap.xml</loc>
-    <lastmod>2026-01-24</lastmod>
+    <lastmod>2026-02-02</lastmod>
   </sitemap>
 
 </sitemapindex>

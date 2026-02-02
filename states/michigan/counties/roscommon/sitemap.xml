@@ -4,19 +4,19 @@
   <!-- Roscommon Main Sitemap -->
   <sitemap>
     <loc>https://roscommon-county-mi.mydripnurse.com/sitemap.xml</loc>
-    <lastmod>2026-01-24</lastmod>
+    <lastmod>2026-02-02</lastmod>
   </sitemap>
 
   <!-- Houghton Lake Hosted Sitemap -->
   <sitemap>
     <loc>https://sitemaps.mydripnurse.com/states/michigan/counties/roscommon/houghton-lake/sitemap.xml</loc>
-    <lastmod>2026-01-24</lastmod>
+    <lastmod>2026-02-02</lastmod>
   </sitemap>
 
   <!-- Roscommon Hosted Sitemap -->
   <sitemap>
     <loc>https://sitemaps.mydripnurse.com/states/michigan/counties/roscommon/roscommon/sitemap.xml</loc>
-    <lastmod>2026-01-24</lastmod>
+    <lastmod>2026-02-02</lastmod>
   </sitemap>
 
 </sitemapindex>

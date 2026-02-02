@@ -3,38 +3,38 @@
 
   <!-- Pinal Main Sitemap -->
   <sitemap>
-    <loc>https://pinal-county.mydripnurse.com/sitemap.xml</loc>
-    <lastmod>2026-01-24</lastmod>
+    <loc>https://pinal-county-az.mydripnurse.com/sitemap.xml</loc>
+    <lastmod>2026-02-02</lastmod>
   </sitemap>
 
   <!-- Casa Grande Hosted Sitemap -->
   <sitemap>
     <loc>https://sitemaps.mydripnurse.com/states/arizona/counties/pinal/casa-grande/sitemap.xml</loc>
-    <lastmod>2026-01-24</lastmod>
+    <lastmod>2026-02-02</lastmod>
   </sitemap>
 
   <!-- Coolidge Hosted Sitemap -->
   <sitemap>
     <loc>https://sitemaps.mydripnurse.com/states/arizona/counties/pinal/coolidge/sitemap.xml</loc>
-    <lastmod>2026-01-24</lastmod>
+    <lastmod>2026-02-02</lastmod>
   </sitemap>
 
   <!-- Florence Hosted Sitemap -->
   <sitemap>
     <loc>https://sitemaps.mydripnurse.com/states/arizona/counties/pinal/florence/sitemap.xml</loc>
-    <lastmod>2026-01-24</lastmod>
+    <lastmod>2026-02-02</lastmod>
   </sitemap>
 
   <!-- Maricopa Hosted Sitemap -->
   <sitemap>
     <loc>https://sitemaps.mydripnurse.com/states/arizona/counties/pinal/maricopa/sitemap.xml</loc>
-    <lastmod>2026-01-24</lastmod>
+    <lastmod>2026-02-02</lastmod>
   </sitemap>
 
   <!-- San Tan Valley Hosted Sitemap -->
-  <!-- <sitemap>
+  <sitemap>
     <loc>https://sitemaps.mydripnurse.com/states/arizona/counties/pinal/san-tan-valley/sitemap.xml</loc>
-    <lastmod>2026-01-24</lastmod>
-  </sitemap> -->
+    <lastmod>2026-02-02</lastmod>
+  </sitemap>
 
 </sitemapindex>

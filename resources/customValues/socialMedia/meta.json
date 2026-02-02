@@ -1,8 +1,12 @@
 {
-    "facebook": {
-            "accessToken": "secret",
-            "facebookPixel": "secret",
-            "instagramUrl": "https://www.instagram.com/mydripnurse/",
-            "facebookUrl": "https://www.facebook.com/MyDripNurse"
+    "customValues": [
+        {
+            "name":"Facebook Url", 
+            "value":"https://www.facebook.com/MyDripNurse"
+        },
+        {
+            "name":"Instagram Url",
+            "value":"https://www.instagram.com/mydripnurse/"
         }
+    ]
 }

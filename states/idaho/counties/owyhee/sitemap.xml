@@ -4,19 +4,19 @@
   <!-- Owyhee Main Sitemap -->
   <sitemap>
     <loc>https://owyhee-county-id.mydripnurse.com/sitemap.xml</loc>
-    <lastmod>2026-01-24</lastmod>
+    <lastmod>2026-02-02</lastmod>
   </sitemap>
 
   <!-- Homedale Hosted Sitemap -->
   <sitemap>
     <loc>https://sitemaps.mydripnurse.com/states/idaho/counties/owyhee/homedale/sitemap.xml</loc>
-    <lastmod>2026-01-24</lastmod>
+    <lastmod>2026-02-02</lastmod>
   </sitemap>
 
   <!-- Marsing Hosted Sitemap -->
   <sitemap>
     <loc>https://sitemaps.mydripnurse.com/states/idaho/counties/owyhee/marsing/sitemap.xml</loc>
-    <lastmod>2026-01-24</lastmod>
+    <lastmod>2026-02-02</lastmod>
   </sitemap>
 
 </sitemapindex>

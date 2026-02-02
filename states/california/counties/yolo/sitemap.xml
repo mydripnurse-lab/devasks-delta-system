@@ -4,31 +4,31 @@
   <!-- Yolo Main Sitemap -->
   <sitemap>
     <loc>https://yolo-county-ca.mydripnurse.com/sitemap.xml</loc>
-    <lastmod>2026-01-24</lastmod>
+    <lastmod>2026-02-02</lastmod>
   </sitemap>
 
   <!-- Davis Hosted Sitemap -->
   <sitemap>
     <loc>https://sitemaps.mydripnurse.com/states/california/counties/yolo/davis/sitemap.xml</loc>
-    <lastmod>2026-01-24</lastmod>
+    <lastmod>2026-02-02</lastmod>
   </sitemap>
 
   <!-- West Sacramento Hosted Sitemap -->
   <sitemap>
     <loc>https://sitemaps.mydripnurse.com/states/california/counties/yolo/west-sacramento/sitemap.xml</loc>
-    <lastmod>2026-01-24</lastmod>
+    <lastmod>2026-02-02</lastmod>
   </sitemap>
 
   <!-- Winters Hosted Sitemap -->
   <sitemap>
     <loc>https://sitemaps.mydripnurse.com/states/california/counties/yolo/winters/sitemap.xml</loc>
-    <lastmod>2026-01-24</lastmod>
+    <lastmod>2026-02-02</lastmod>
   </sitemap>
 
   <!-- Woodland Hosted Sitemap -->
   <sitemap>
     <loc>https://sitemaps.mydripnurse.com/states/california/counties/yolo/woodland/sitemap.xml</loc>
-    <lastmod>2026-01-24</lastmod>
+    <lastmod>2026-02-02</lastmod>
   </sitemap>
 
 </sitemapindex>

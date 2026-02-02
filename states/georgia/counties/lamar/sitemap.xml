@@ -4,19 +4,19 @@
   <!-- Lamar Main Sitemap -->
   <sitemap>
     <loc>https://lamar-county-ga.mydripnurse.com/sitemap.xml</loc>
-    <lastmod>2026-01-24</lastmod>
+    <lastmod>2026-02-02</lastmod>
   </sitemap>
 
   <!-- Barnesville Hosted Sitemap -->
   <sitemap>
     <loc>https://sitemaps.mydripnurse.com/states/georgia/counties/lamar/barnesville/sitemap.xml</loc>
-    <lastmod>2026-01-24</lastmod>
+    <lastmod>2026-02-02</lastmod>
   </sitemap>
 
   <!-- Milner Hosted Sitemap -->
   <sitemap>
     <loc>https://sitemaps.mydripnurse.com/states/georgia/counties/lamar/milner/sitemap.xml</loc>
-    <lastmod>2026-01-24</lastmod>
+    <lastmod>2026-02-02</lastmod>
   </sitemap>
 
 </sitemapindex>

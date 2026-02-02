@@ -4,25 +4,25 @@
   <!-- Shasta Main Sitemap -->
   <sitemap>
     <loc>https://shasta-county-ca.mydripnurse.com/sitemap.xml</loc>
-    <lastmod>2026-01-24</lastmod>
+    <lastmod>2026-02-02</lastmod>
   </sitemap>
 
   <!-- Anderson Hosted Sitemap -->
   <sitemap>
     <loc>https://sitemaps.mydripnurse.com/states/california/counties/shasta/anderson/sitemap.xml</loc>
-    <lastmod>2026-01-24</lastmod>
+    <lastmod>2026-02-02</lastmod>
   </sitemap>
 
   <!-- Redding Hosted Sitemap -->
   <sitemap>
     <loc>https://sitemaps.mydripnurse.com/states/california/counties/shasta/redding/sitemap.xml</loc>
-    <lastmod>2026-01-24</lastmod>
+    <lastmod>2026-02-02</lastmod>
   </sitemap>
 
   <!-- Shasta Lake Hosted Sitemap -->
   <sitemap>
     <loc>https://sitemaps.mydripnurse.com/states/california/counties/shasta/shasta-lake/sitemap.xml</loc>
-    <lastmod>2026-01-24</lastmod>
+    <lastmod>2026-02-02</lastmod>
   </sitemap>
 
 </sitemapindex>

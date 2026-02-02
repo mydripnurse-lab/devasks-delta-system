@@ -3,32 +3,32 @@
 
   <!-- Yuma Main Sitemap -->
   <sitemap>
-    <loc>https://yuma-county.mydripnurse.com/sitemap.xml</loc>
-    <lastmod>2026-01-24</lastmod>
+    <loc>https://yuma-county-az.mydripnurse.com/sitemap.xml</loc>
+    <lastmod>2026-02-02</lastmod>
   </sitemap>
 
   <!-- Yuma Hosted Sitemap -->
-  <!-- <sitemap>
+  <sitemap>
     <loc>https://sitemaps.mydripnurse.com/states/arizona/counties/yuma/yuma/sitemap.xml</loc>
-    <lastmod>2026-01-24</lastmod>
-  </sitemap> -->
+    <lastmod>2026-02-02</lastmod>
+  </sitemap>
 
   <!-- Somerton Hosted Sitemap -->
   <sitemap>
     <loc>https://sitemaps.mydripnurse.com/states/arizona/counties/yuma/somerton/sitemap.xml</loc>
-    <lastmod>2026-01-24</lastmod>
+    <lastmod>2026-02-02</lastmod>
   </sitemap>
 
   <!-- San Luis Hosted Sitemap -->
   <sitemap>
     <loc>https://sitemaps.mydripnurse.com/states/arizona/counties/yuma/san-luis/sitemap.xml</loc>
-    <lastmod>2026-01-24</lastmod>
+    <lastmod>2026-02-02</lastmod>
   </sitemap>
 
   <!-- Wellton Hosted Sitemap -->
   <sitemap>
     <loc>https://sitemaps.mydripnurse.com/states/arizona/counties/yuma/wellton/sitemap.xml</loc>
-    <lastmod>2026-01-24</lastmod>
+    <lastmod>2026-02-02</lastmod>
   </sitemap>
 
 </sitemapindex>

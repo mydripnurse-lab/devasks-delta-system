@@ -4,19 +4,19 @@
   <!-- Jones Main Sitemap -->
   <sitemap>
     <loc>https://jones-county-ga.mydripnurse.com/sitemap.xml</loc>
-    <lastmod>2026-01-24</lastmod>
+    <lastmod>2026-02-02</lastmod>
   </sitemap>
 
   <!-- Gray Hosted Sitemap -->
   <sitemap>
     <loc>https://sitemaps.mydripnurse.com/states/georgia/counties/jones/gray/sitemap.xml</loc>
-    <lastmod>2026-01-24</lastmod>
+    <lastmod>2026-02-02</lastmod>
   </sitemap>
 
   <!-- Haddock Hosted Sitemap -->
   <sitemap>
     <loc>https://sitemaps.mydripnurse.com/states/georgia/counties/jones/haddock/sitemap.xml</loc>
-    <lastmod>2026-01-24</lastmod>
+    <lastmod>2026-02-02</lastmod>
   </sitemap>
 
 </sitemapindex>

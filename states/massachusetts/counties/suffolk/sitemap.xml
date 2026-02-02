@@ -4,31 +4,31 @@
   <!-- Suffolk Main Sitemap -->
   <sitemap>
     <loc>https://suffolk-county-ma.mydripnurse.com/sitemap.xml</loc>
-    <lastmod>2026-01-24</lastmod>
+    <lastmod>2026-02-02</lastmod>
   </sitemap>
 
   <!-- Boston Hosted Sitemap -->
   <sitemap>
     <loc>https://sitemaps.mydripnurse.com/states/massachusetts/counties/suffolk/boston/sitemap.xml</loc>
-    <lastmod>2026-01-24</lastmod>
+    <lastmod>2026-02-02</lastmod>
   </sitemap>
 
   <!-- Chelsea Hosted Sitemap -->
   <sitemap>
     <loc>https://sitemaps.mydripnurse.com/states/massachusetts/counties/suffolk/chelsea/sitemap.xml</loc>
-    <lastmod>2026-01-24</lastmod>
+    <lastmod>2026-02-02</lastmod>
   </sitemap>
 
   <!-- Revere Hosted Sitemap -->
   <sitemap>
     <loc>https://sitemaps.mydripnurse.com/states/massachusetts/counties/suffolk/revere/sitemap.xml</loc>
-    <lastmod>2026-01-24</lastmod>
+    <lastmod>2026-02-02</lastmod>
   </sitemap>
 
   <!-- Winthrop Hosted Sitemap -->
   <sitemap>
     <loc>https://sitemaps.mydripnurse.com/states/massachusetts/counties/suffolk/winthrop/sitemap.xml</loc>
-    <lastmod>2026-01-24</lastmod>
+    <lastmod>2026-02-02</lastmod>
   </sitemap>
 
 </sitemapindex>

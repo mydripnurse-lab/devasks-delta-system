@@ -1,7 +1,7 @@
 {
     "counties": [
         {
-            "countyName": "Adair County",
+            "countyName": "Adair",
             "cities": [
                 {
                     "cityName": "Stilwell",
@@ -29,7 +29,7 @@
             "embeddedSitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\n  <sitemap>\n    <loc>https://adair-county-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://stilwell-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://watts-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://westville-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n</sitemapindex>"
         },
         {
-            "countyName": "Alfalfa County",
+            "countyName": "Alfalfa",
             "cities": [
                 {
                     "cityName": "Aline",
@@ -92,7 +92,7 @@
             "embeddedSitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\n  <sitemap>\n    <loc>https://alfalfa-county-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://aline-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://amorita-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://burlington-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://byron-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://carmen-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://cherokee-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://goltry-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://helena-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://jet-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://lambert-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n</sitemapindex>"
         },
         {
-            "countyName": "Atoka County",
+            "countyName": "Atoka",
             "cities": [
                 {
                     "cityName": "Atoka",
@@ -125,7 +125,7 @@
             "embeddedSitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\n  <sitemap>\n    <loc>https://atoka-county-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://atoka-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://caney-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://stringtown-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://tushka-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n</sitemapindex>"
         },
         {
-            "countyName": "Beaver County",
+            "countyName": "Beaver",
             "cities": [
                 {
                     "cityName": "Beaver",
@@ -158,7 +158,7 @@
             "embeddedSitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\n  <sitemap>\n    <loc>https://beaver-county-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://beaver-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://forgan-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://gate-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://knowles-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n</sitemapindex>"
         },
         {
-            "countyName": "Beckham County",
+            "countyName": "Beckham",
             "cities": [
                 {
                     "cityName": "Carter",
@@ -201,7 +201,7 @@
             "embeddedSitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\n  <sitemap>\n    <loc>https://beckham-county-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://carter-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://elk-city-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://erick-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://sayre-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://sweetwater-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://texola-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n</sitemapindex>"
         },
         {
-            "countyName": "Blaine County",
+            "countyName": "Blaine",
             "cities": [
                 {
                     "cityName": "Canton",
@@ -254,7 +254,7 @@
             "embeddedSitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\n  <sitemap>\n    <loc>https://blaine-county-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://canton-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://geary-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://greenfield-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://hitchcock-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://hydro-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://longdale-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://okeene-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://watonga-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n</sitemapindex>"
         },
         {
-            "countyName": "Bryan County",
+            "countyName": "Bryan",
             "cities": [
                 {
                     "cityName": "Achille",
@@ -332,7 +332,7 @@
             "embeddedSitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\n  <sitemap>\n    <loc>https://bryan-county-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://achille-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://armstrong-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://bennington-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://bokchito-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://caddo-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://calera-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://colbert-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://durant-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://hendrix-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://kemp-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://kenefic-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://mead-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://silo-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n</sitemapindex>"
         },
         {
-            "countyName": "Caddo County",
+            "countyName": "Caddo",
             "cities": [
                 {
                     "cityName": "Anadarko",
@@ -410,7 +410,7 @@
             "embeddedSitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\n  <sitemap>\n    <loc>https://caddo-county-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://anadarko-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://apache-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://binger-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://bridgeport-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://carnegie-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://cement-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://cyril-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://eakly-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://fort-cobb-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://gracemont-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://hinton-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://hydro-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://lookeba-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n</sitemapindex>"
         },
         {
-            "countyName": "Canadian County",
+            "countyName": "Canadian",
             "cities": [
                 {
                     "cityName": "Calumet",
@@ -468,7 +468,7 @@
             "embeddedSitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\n  <sitemap>\n    <loc>https://canadian-county-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://calumet-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://el-reno-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://geary-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://mustang-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://okarche-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://oklahoma-city-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://piedmont-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://union-city-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://yukon-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n</sitemapindex>"
         },
         {
-            "countyName": "Carter County",
+            "countyName": "Carter",
             "cities": [
                 {
                     "cityName": "Ardmore",
@@ -526,7 +526,7 @@
             "embeddedSitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\n  <sitemap>\n    <loc>https://carter-county-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://ardmore-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://dickson-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://gene-autry-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://healdton-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://lone-grove-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://ratliff-city-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://springer-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://tatums-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://wilson-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n</sitemapindex>"
         },
         {
-            "countyName": "Cherokee County",
+            "countyName": "Cherokee",
             "cities": [
                 {
                     "cityName": "Fort Gibson",
@@ -559,7 +559,7 @@
             "embeddedSitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\n  <sitemap>\n    <loc>https://cherokee-county-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://fort-gibson-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://hulbert-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://oaks-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://tahlequah-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n</sitemapindex>"
         },
         {
-            "countyName": "Choctaw County",
+            "countyName": "Choctaw",
             "cities": [
                 {
                     "cityName": "Boswell",
@@ -597,7 +597,7 @@
             "embeddedSitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\n  <sitemap>\n    <loc>https://choctaw-county-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://boswell-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://fort-towson-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://hugo-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://sawyer-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://soper-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n</sitemapindex>"
         },
         {
-            "countyName": "Cimarron County",
+            "countyName": "Cimarron",
             "cities": [
                 {
                     "cityName": "Boise City",
@@ -620,7 +620,7 @@
             "embeddedSitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\n  <sitemap>\n    <loc>https://cimarron-county-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://boise-city-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://keyes-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n</sitemapindex>"
         },
         {
-            "countyName": "Cleveland County",
+            "countyName": "Cleveland",
             "cities": [
                 {
                     "cityName": "Etowah",
@@ -673,7 +673,7 @@
             "embeddedSitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\n  <sitemap>\n    <loc>https://cleveland-county-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://etowah-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://lexington-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://moore-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://noble-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://norman-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://oklahoma-city-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://purcell-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://slaughterville-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n</sitemapindex>"
         },
         {
-            "countyName": "Coal County",
+            "countyName": "Coal",
             "cities": [
                 {
                     "cityName": "Bromide",
@@ -716,7 +716,7 @@
             "embeddedSitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\n  <sitemap>\n    <loc>https://coal-county-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://bromide-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://centrahoma-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://coalgate-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://lehigh-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://phillips-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://tupelo-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n</sitemapindex>"
         },
         {
-            "countyName": "Comanche County",
+            "countyName": "Comanche",
             "cities": [
                 {
                     "cityName": "Cache",
@@ -779,7 +779,7 @@
             "embeddedSitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\n  <sitemap>\n    <loc>https://comanche-county-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://cache-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://chattanooga-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://elgin-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://faxon-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://fletcher-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://geronimo-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://indiahoma-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://lawton-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://medicine-park-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://sterling-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n</sitemapindex>"
         },
         {
-            "countyName": "Cotton County",
+            "countyName": "Cotton",
             "cities": [
                 {
                     "cityName": "Devol",
@@ -812,7 +812,7 @@
             "embeddedSitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\n  <sitemap>\n    <loc>https://cotton-county-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://devol-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://randlett-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://temple-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://walters-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n</sitemapindex>"
         },
         {
-            "countyName": "Craig County",
+            "countyName": "Craig",
             "cities": [
                 {
                     "cityName": "Big Cabin",
@@ -850,7 +850,7 @@
             "embeddedSitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\n  <sitemap>\n    <loc>https://craig-county-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://big-cabin-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://bluejacket-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://ketchum-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://vinita-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://welch-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n</sitemapindex>"
         },
         {
-            "countyName": "Creek County",
+            "countyName": "Creek",
             "cities": [
                 {
                     "cityName": "Bristow",
@@ -933,7 +933,7 @@
             "embeddedSitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\n  <sitemap>\n    <loc>https://creek-county-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://bristow-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://depew-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://drumright-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://kellyville-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://kiefer-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://lawrence-creek-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://mannford-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://mounds-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://oilton-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://sand-springs-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://sapulpa-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://shamrock-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://slick-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://stroud-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n</sitemapindex>"
         },
         {
-            "countyName": "Custer County",
+            "countyName": "Custer",
             "cities": [
                 {
                     "cityName": "Arapaho",
@@ -981,7 +981,7 @@
             "embeddedSitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\n  <sitemap>\n    <loc>https://custer-county-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://arapaho-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://butler-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://clinton-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://custer-city-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://hammon-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://thomas-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://weatherford-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n</sitemapindex>"
         },
         {
-            "countyName": "Delaware County",
+            "countyName": "Delaware",
             "cities": [
                 {
                     "cityName": "Bernice",
@@ -1029,7 +1029,7 @@
             "embeddedSitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\n  <sitemap>\n    <loc>https://delaware-county-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://bernice-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://colcord-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://grove-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://jay-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://kansas-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://oaks-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://west-siloam-springs-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n</sitemapindex>"
         },
         {
-            "countyName": "Dewey County",
+            "countyName": "Dewey",
             "cities": [
                 {
                     "cityName": "Camargo",
@@ -1077,7 +1077,7 @@
             "embeddedSitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\n  <sitemap>\n    <loc>https://dewey-county-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://camargo-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://leedey-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://oakwood-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://putnam-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://seiling-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://taloga-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://vici-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n</sitemapindex>"
         },
         {
-            "countyName": "Ellis County",
+            "countyName": "Ellis",
             "cities": [
                 {
                     "cityName": "Arnett",
@@ -1110,7 +1110,7 @@
             "embeddedSitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\n  <sitemap>\n    <loc>https://ellis-county-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://arnett-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://fargo-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://gage-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://shattuck-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n</sitemapindex>"
         },
         {
-            "countyName": "Garfield County",
+            "countyName": "Garfield",
             "cities": [
                 {
                     "cityName": "Breckenridge",
@@ -1193,7 +1193,7 @@
             "embeddedSitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\n  <sitemap>\n    <loc>https://garfield-county-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://breckenridge-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://carrier-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://covington-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://douglas-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://drummond-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://enid-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://fairmont-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://garber-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://hillsdale-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://hunter-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://kremlin-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://lahoma-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://north-enid-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://waukomis-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n</sitemapindex>"
         },
         {
-            "countyName": "Garvin County",
+            "countyName": "Garvin",
             "cities": [
                 {
                     "cityName": "Davis",
@@ -1256,7 +1256,7 @@
             "embeddedSitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\n  <sitemap>\n    <loc>https://garvin-county-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://davis-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://elmore-city-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://foster-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://katie-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://lindsay-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://maysville-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://paoli-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://pauls-valley-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://stratford-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://wynnewood-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n</sitemapindex>"
         },
         {
-            "countyName": "Grady County",
+            "countyName": "Grady",
             "cities": [
                 {
                     "cityName": "Alex",
@@ -1334,7 +1334,7 @@
             "embeddedSitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\n  <sitemap>\n    <loc>https://grady-county-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://alex-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://amber-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://blanchard-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://bradley-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://bridge-creek-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://chickasha-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://minco-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://ninnekah-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://norge-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://pocasset-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://rush-springs-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://tuttle-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://verden-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n</sitemapindex>"
         },
         {
-            "countyName": "Grant County",
+            "countyName": "Grant",
             "cities": [
                 {
                     "cityName": "Deer Creek",
@@ -1392,7 +1392,7 @@
             "embeddedSitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\n  <sitemap>\n    <loc>https://grant-county-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://deer-creek-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://jefferson-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://lamont-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://manchester-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://medford-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://nash-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://pond-creek-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://renfrow-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://wakita-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n</sitemapindex>"
         },
         {
-            "countyName": "Greer County",
+            "countyName": "Greer",
             "cities": [
                 {
                     "cityName": "Granite",
@@ -1420,7 +1420,7 @@
             "embeddedSitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\n  <sitemap>\n    <loc>https://greer-county-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://granite-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://mangum-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://willow-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n</sitemapindex>"
         },
         {
-            "countyName": "Harmon County",
+            "countyName": "Harmon",
             "cities": [
                 {
                     "cityName": "Gould",
@@ -1443,7 +1443,7 @@
             "embeddedSitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\n  <sitemap>\n    <loc>https://harmon-county-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://gould-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://hollis-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n</sitemapindex>"
         },
         {
-            "countyName": "Harper County",
+            "countyName": "Harper",
             "cities": [
                 {
                     "cityName": "Buffalo",
@@ -1476,7 +1476,7 @@
             "embeddedSitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\n  <sitemap>\n    <loc>https://harper-county-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://buffalo-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://laverne-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://may-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://rosston-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n</sitemapindex>"
         },
         {
-            "countyName": "Haskell County",
+            "countyName": "Haskell",
             "cities": [
                 {
                     "cityName": "Keota",
@@ -1519,7 +1519,7 @@
             "embeddedSitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\n  <sitemap>\n    <loc>https://haskell-county-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://keota-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://kinta-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://mccurtain-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://stigler-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://tamaha-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://whitefield-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n</sitemapindex>"
         },
         {
-            "countyName": "Hughes County",
+            "countyName": "Hughes",
             "cities": [
                 {
                     "cityName": "Allen",
@@ -1592,7 +1592,7 @@
             "embeddedSitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\n  <sitemap>\n    <loc>https://hughes-county-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://allen-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://atwood-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://calvin-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://dustin-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://gerty-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://holdenville-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://horntown-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://lamar-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://spaulding-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://stuart-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://wetumka-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://yeager-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n</sitemapindex>"
         },
         {
-            "countyName": "Jackson County",
+            "countyName": "Jackson",
             "cities": [
                 {
                     "cityName": "Altus",
@@ -1650,7 +1650,7 @@
             "embeddedSitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\n  <sitemap>\n    <loc>https://jackson-county-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://altus-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://blair-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://east-duke-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://eldorado-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://elmer-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://friendship-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://headrick-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://martha-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://olustee-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n</sitemapindex>"
         },
         {
-            "countyName": "Jefferson County",
+            "countyName": "Jefferson",
             "cities": [
                 {
                     "cityName": "Addington",
@@ -1703,7 +1703,7 @@
             "embeddedSitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\n  <sitemap>\n    <loc>https://jefferson-county-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://addington-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://cornish-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://hastings-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://ringling-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://ryan-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://sugden-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://terral-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://waurika-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n</sitemapindex>"
         },
         {
-            "countyName": "Johnston County",
+            "countyName": "Johnston",
             "cities": [
                 {
                     "cityName": "Bromide",
@@ -1751,7 +1751,7 @@
             "embeddedSitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\n  <sitemap>\n    <loc>https://johnston-county-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://bromide-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://mannsville-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://milburn-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://mill-creek-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://ravia-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://tishomingo-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://wapanucka-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n</sitemapindex>"
         },
         {
-            "countyName": "Kay County",
+            "countyName": "Kay",
             "cities": [
                 {
                     "cityName": "Blackwell",
@@ -1799,7 +1799,7 @@
             "embeddedSitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\n  <sitemap>\n    <loc>https://kay-county-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://blackwell-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://braman-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://kaw-city-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://kildare-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://newkirk-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://ponca-city-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://tonkawa-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n</sitemapindex>"
         },
         {
-            "countyName": "Kingfisher County",
+            "countyName": "Kingfisher",
             "cities": [
                 {
                     "cityName": "Cashion",
@@ -1847,7 +1847,7 @@
             "embeddedSitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\n  <sitemap>\n    <loc>https://kingfisher-county-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://cashion-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://dover-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://hennessey-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://kingfisher-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://loyal-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://okarche-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://piedmont-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n</sitemapindex>"
         },
         {
-            "countyName": "Kiowa County",
+            "countyName": "Kiowa",
             "cities": [
                 {
                     "cityName": "Cooperton",
@@ -1900,7 +1900,7 @@
             "embeddedSitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\n  <sitemap>\n    <loc>https://kiowa-county-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://cooperton-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://gotebo-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://hobart-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://lone-wolf-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://mountain-park-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://mountain-view-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://roosevelt-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://snyder-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n</sitemapindex>"
         },
         {
-            "countyName": "Latimer County",
+            "countyName": "Latimer",
             "cities": [
                 {
                     "cityName": "Fanshawe",
@@ -1928,7 +1928,7 @@
             "embeddedSitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\n  <sitemap>\n    <loc>https://latimer-county-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://fanshawe-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://red-oak-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://wilburton-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n</sitemapindex>"
         },
         {
-            "countyName": "Le Flore County",
+            "countyName": "Le Flore",
             "cities": [
                 {
                     "cityName": "Arkoma",
@@ -2026,7 +2026,7 @@
             "embeddedSitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\n  <sitemap>\n    <loc>https://le-flore-county-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://arkoma-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://bokoshe-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://cameron-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://cowlington-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://fanshawe-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://fort-coffee-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://heavener-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://howe-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://le-flore-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://panama-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://pocola-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://poteau-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://rock-island-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://shady-point-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://spiro-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://talihina-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://wister-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n</sitemapindex>"
         },
         {
-            "countyName": "Lincoln County",
+            "countyName": "Lincoln",
             "cities": [
                 {
                     "cityName": "Agra",
@@ -2104,7 +2104,7 @@
             "embeddedSitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\n  <sitemap>\n    <loc>https://lincoln-county-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://agra-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://carney-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://chandler-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://davenport-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://fallis-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://kendrick-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://meeker-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://prague-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://sparks-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://stroud-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://tryon-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://warwick-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://wellston-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n</sitemapindex>"
         },
         {
-            "countyName": "Logan County",
+            "countyName": "Logan",
             "cities": [
                 {
                     "cityName": "Cashion",
@@ -2172,7 +2172,7 @@
             "embeddedSitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\n  <sitemap>\n    <loc>https://logan-county-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://cashion-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://cedar-valley-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://cimarron-city-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://coyle-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://crescent-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://guthrie-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://langston-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://marshall-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://meridian-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://mulhall-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://orlando-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n</sitemapindex>"
         },
         {
-            "countyName": "Love County",
+            "countyName": "Love",
             "cities": [
                 {
                     "cityName": "Leon",
@@ -2200,7 +2200,7 @@
             "embeddedSitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\n  <sitemap>\n    <loc>https://love-county-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://leon-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://marietta-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://thackerville-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n</sitemapindex>"
         },
         {
-            "countyName": "Major County",
+            "countyName": "Major",
             "cities": [
                 {
                     "cityName": "Ames",
@@ -2238,7 +2238,7 @@
             "embeddedSitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\n  <sitemap>\n    <loc>https://major-county-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://ames-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://cleo-springs-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://fairview-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://meno-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://ringwood-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n</sitemapindex>"
         },
         {
-            "countyName": "Marshall County",
+            "countyName": "Marshall",
             "cities": [
                 {
                     "cityName": "Kingston",
@@ -2271,7 +2271,7 @@
             "embeddedSitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\n  <sitemap>\n    <loc>https://marshall-county-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://kingston-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://madill-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://new-woodville-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://oakland-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n</sitemapindex>"
         },
         {
-            "countyName": "Mayes County",
+            "countyName": "Mayes",
             "cities": [
                 {
                     "cityName": "Adair",
@@ -2349,7 +2349,7 @@
             "embeddedSitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\n  <sitemap>\n    <loc>https://mayes-county-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://adair-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://chouteau-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://disney-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://grand-lake-towne-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://hoot-owl-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://langley-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://locust-grove-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://pensacola-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://pryor-creek-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://salina-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://spavinaw-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://sportsmen-acres-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://strang-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n</sitemapindex>"
         },
         {
-            "countyName": "McClain County",
+            "countyName": "McClain",
             "cities": [
                 {
                     "cityName": "Blanchard",
@@ -2412,7 +2412,7 @@
             "embeddedSitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\n  <sitemap>\n    <loc>https://mcclain-county-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://blanchard-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://byars-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://cole-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://dibble-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://goldsby-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://newcastle-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://purcell-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://rosedale-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://washington-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://wayne-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n</sitemapindex>"
         },
         {
-            "countyName": "McCurtain County",
+            "countyName": "McCurtain",
             "cities": [
                 {
                     "cityName": "Broken Bow",
@@ -2465,7 +2465,7 @@
             "embeddedSitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\n  <sitemap>\n    <loc>https://mccurtain-county-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://broken-bow-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://garvin-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://haworth-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://idabel-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://millerton-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://smithville-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://valliant-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://wright-city-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n</sitemapindex>"
         },
         {
-            "countyName": "McIntosh County",
+            "countyName": "McIntosh",
             "cities": [
                 {
                     "cityName": "Checotah",
@@ -2508,7 +2508,7 @@
             "embeddedSitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\n  <sitemap>\n    <loc>https://mcintosh-county-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://checotah-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://eufaula-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://hanna-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://hitchita-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://rentiesville-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://stidham-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n</sitemapindex>"
         },
         {
-            "countyName": "Murray County",
+            "countyName": "Murray",
             "cities": [
                 {
                     "cityName": "Davis",
@@ -2541,7 +2541,7 @@
             "embeddedSitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\n  <sitemap>\n    <loc>https://murray-county-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://davis-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://dougherty-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://hickory-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://sulphur-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n</sitemapindex>"
         },
         {
-            "countyName": "Muskogee County",
+            "countyName": "Muskogee",
             "cities": [
                 {
                     "cityName": "Boynton",
@@ -2619,7 +2619,7 @@
             "embeddedSitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\n  <sitemap>\n    <loc>https://muskogee-county-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://boynton-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://braggs-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://council-hill-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://fort-gibson-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://haskell-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://muskogee-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://oktaha-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://porum-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://summit-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://taft-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://wainwright-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://warner-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://webbers-falls-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n</sitemapindex>"
         },
         {
-            "countyName": "Noble County",
+            "countyName": "Noble",
             "cities": [
                 {
                     "cityName": "Billings",
@@ -2657,7 +2657,7 @@
             "embeddedSitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\n  <sitemap>\n    <loc>https://noble-county-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://billings-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://marland-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://morrison-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://perry-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://red-rock-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n</sitemapindex>"
         },
         {
-            "countyName": "Nowata County",
+            "countyName": "Nowata",
             "cities": [
                 {
                     "cityName": "Delaware",
@@ -2700,7 +2700,7 @@
             "embeddedSitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\n  <sitemap>\n    <loc>https://nowata-county-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://delaware-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://lenapah-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://new-alluwe-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://nowata-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://south-coffeyville-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://wann-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n</sitemapindex>"
         },
         {
-            "countyName": "Okfuskee County",
+            "countyName": "Okfuskee",
             "cities": [
                 {
                     "cityName": "Bearden",
@@ -2758,7 +2758,7 @@
             "embeddedSitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\n  <sitemap>\n    <loc>https://okfuskee-county-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://bearden-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://boley-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://castle-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://clearview-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://hoffman-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://ixl-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://okemah-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://paden-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://weleetka-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n</sitemapindex>"
         },
         {
-            "countyName": "Oklahoma County",
+            "countyName": "Oklahoma",
             "cities": [
                 {
                     "cityName": "Arcadia",
@@ -2871,7 +2871,7 @@
             "embeddedSitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\n  <sitemap>\n    <loc>https://oklahoma-county-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://arcadia-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://bethany-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://choctaw-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://del-city-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://edmond-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://forest-park-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://harrah-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://jones-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://lake-aluma-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://luther-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://midwest-city-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://nichols-hills-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://nicoma-park-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://oklahoma-city-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://smith-village-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://spencer-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://the-village-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://valley-brook-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://warr-acres-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://woodlawn-park-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n</sitemapindex>"
         },
         {
-            "countyName": "Okmulgee County",
+            "countyName": "Okmulgee",
             "cities": [
                 {
                     "cityName": "Beggs",
@@ -2929,7 +2929,7 @@
             "embeddedSitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\n  <sitemap>\n    <loc>https://okmulgee-county-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://beggs-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://dewar-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://grayson-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://henryetta-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://liberty-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://morris-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://okmulgee-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://schulter-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://winchester-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n</sitemapindex>"
         },
         {
-            "countyName": "Osage County",
+            "countyName": "Osage",
             "cities": [
                 {
                     "cityName": "Avant",
@@ -3027,7 +3027,7 @@
             "embeddedSitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\n  <sitemap>\n    <loc>https://osage-county-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://avant-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://barnsdall-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://bartlesville-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://burbank-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://fairfax-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://foraker-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://grainola-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://hominy-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://osage-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://pawhuska-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://prue-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://sand-springs-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://shidler-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://skiatook-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://tulsa-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://webb-city-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://wynona-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n</sitemapindex>"
         },
         {
-            "countyName": "Ottawa County",
+            "countyName": "Ottawa",
             "cities": [
                 {
                     "cityName": "Afton",
@@ -3080,7 +3080,7 @@
             "embeddedSitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\n  <sitemap>\n    <loc>https://ottawa-county-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://afton-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://commerce-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://fairland-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://miami-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://north-miami-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://peoria-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://quapaw-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://wyandotte-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n</sitemapindex>"
         },
         {
-            "countyName": "Pawnee County",
+            "countyName": "Pawnee",
             "cities": [
                 {
                     "cityName": "Blackburn",
@@ -3148,7 +3148,7 @@
             "embeddedSitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\n  <sitemap>\n    <loc>https://pawnee-county-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://blackburn-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://cleveland-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://hallett-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://jennings-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://maramec-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://oak-grove-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://pawnee-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://ralston-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://skedee-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://terlton-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://westport-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n</sitemapindex>"
         },
         {
-            "countyName": "Payne County",
+            "countyName": "Payne",
             "cities": [
                 {
                     "cityName": "Cushing",
@@ -3196,7 +3196,7 @@
             "embeddedSitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\n  <sitemap>\n    <loc>https://payne-county-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://cushing-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://drumright-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://glencoe-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://perkins-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://ripley-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://stillwater-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://yale-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n</sitemapindex>"
         },
         {
-            "countyName": "Pittsburg County",
+            "countyName": "Pittsburg",
             "cities": [
                 {
                     "cityName": "Alderson",
@@ -3279,7 +3279,7 @@
             "embeddedSitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\n  <sitemap>\n    <loc>https://pittsburg-county-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://alderson-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://ashland-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://canadian-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://carlton-landing-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://crowder-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://haileyville-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://hartshorne-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://indianola-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://kiowa-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://krebs-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://mcalester-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://pittsburg-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://quinton-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://savanna-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n</sitemapindex>"
         },
         {
-            "countyName": "Pontotoc County",
+            "countyName": "Pontotoc",
             "cities": [
                 {
                     "cityName": "Ada",
@@ -3327,7 +3327,7 @@
             "embeddedSitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\n  <sitemap>\n    <loc>https://pontotoc-county-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://ada-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://allen-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://byng-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://fitzhugh-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://francis-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://roff-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://stonewall-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n</sitemapindex>"
         },
         {
-            "countyName": "Pottawatomie County",
+            "countyName": "Pottawatomie",
             "cities": [
                 {
                     "cityName": "Asher",
@@ -3415,7 +3415,7 @@
             "embeddedSitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\n  <sitemap>\n    <loc>https://pottawatomie-county-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://asher-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://bethel-acres-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://brooksville-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://earlsboro-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://johnson-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://macomb-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://maud-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://mcloud-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://oklahoma-city-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://pink-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://shawnee-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://st-louis-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://tecumseh-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://tribbey-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://wanette-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n</sitemapindex>"
         },
         {
-            "countyName": "Pushmataha County",
+            "countyName": "Pushmataha",
             "cities": [
                 {
                     "cityName": "Albion",
@@ -3448,7 +3448,7 @@
             "embeddedSitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\n  <sitemap>\n    <loc>https://pushmataha-county-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://albion-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://antlers-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://clayton-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://rattan-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n</sitemapindex>"
         },
         {
-            "countyName": "Roger Mills County",
+            "countyName": "Roger Mills",
             "cities": [
                 {
                     "cityName": "Cheyenne",
@@ -3486,7 +3486,7 @@
             "embeddedSitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\n  <sitemap>\n    <loc>https://roger-mills-county-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://cheyenne-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://hammon-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://reydon-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://strong-city-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://sweetwater-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n</sitemapindex>"
         },
         {
-            "countyName": "Rogers County",
+            "countyName": "Rogers",
             "cities": [
                 {
                     "cityName": "Catoosa",
@@ -3564,7 +3564,7 @@
             "embeddedSitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\n  <sitemap>\n    <loc>https://rogers-county-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://catoosa-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://chelsea-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://claremore-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://collinsville-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://fair-oaks-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://foyil-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://inola-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://oologah-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://owasso-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://talala-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://tulsa-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://valley-park-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://verdigris-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n</sitemapindex>"
         },
         {
-            "countyName": "Seminole County",
+            "countyName": "Seminole",
             "cities": [
                 {
                     "cityName": "Bowlegs",
@@ -3617,7 +3617,7 @@
             "embeddedSitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\n  <sitemap>\n    <loc>https://seminole-county-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://bowlegs-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://cromwell-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://konawa-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://lima-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://maud-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://sasakwa-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://seminole-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://wewoka-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n</sitemapindex>"
         },
         {
-            "countyName": "Sequoyah County",
+            "countyName": "Sequoyah",
             "cities": [
                 {
                     "cityName": "Gans",
@@ -3675,7 +3675,7 @@
             "embeddedSitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\n  <sitemap>\n    <loc>https://sequoyah-county-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://gans-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://gore-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://marble-city-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://moffett-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://muldrow-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://paradise-hill-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://roland-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://sallisaw-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://vian-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n</sitemapindex>"
         },
         {
-            "countyName": "Stephens County",
+            "countyName": "Stephens",
             "cities": [
                 {
                     "cityName": "Bray",
@@ -3728,7 +3728,7 @@
             "embeddedSitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\n  <sitemap>\n    <loc>https://stephens-county-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://bray-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://central-high-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://comanche-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://duncan-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://empire-city-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://loco-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://marlow-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://velma-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n</sitemapindex>"
         },
         {
-            "countyName": "Texas County",
+            "countyName": "Texas",
             "cities": [
                 {
                     "cityName": "Goodwell",
@@ -3776,7 +3776,7 @@
             "embeddedSitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\n  <sitemap>\n    <loc>https://texas-county-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://goodwell-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://guymon-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://hardesty-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://hooker-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://optima-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://texhoma-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://tyrone-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n</sitemapindex>"
         },
         {
-            "countyName": "Tillman County",
+            "countyName": "Tillman",
             "cities": [
                 {
                     "cityName": "Davidson",
@@ -3824,7 +3824,7 @@
             "embeddedSitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\n  <sitemap>\n    <loc>https://tillman-county-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://davidson-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://frederick-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://grandfield-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://hollister-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://loveland-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://manitou-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://tipton-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n</sitemapindex>"
         },
         {
-            "countyName": "Tulsa County",
+            "countyName": "Tulsa",
             "cities": [
                 {
                     "cityName": "Bixby",
@@ -3902,7 +3902,7 @@
             "embeddedSitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\n  <sitemap>\n    <loc>https://tulsa-county-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://bixby-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://broken-arrow-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://collinsville-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://glenpool-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://jenks-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://liberty-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://lotsee-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://owasso-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://sand-springs-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://sapulpa-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://skiatook-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://sperry-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://tulsa-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n</sitemapindex>"
         },
         {
-            "countyName": "Wagoner County",
+            "countyName": "Wagoner",
             "cities": [
                 {
                     "cityName": "Bixby",
@@ -3970,7 +3970,7 @@
             "embeddedSitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\n  <sitemap>\n    <loc>https://wagoner-county-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://bixby-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://broken-arrow-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://catoosa-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://coweta-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://fair-oaks-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://okay-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://porter-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://redbird-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://tullahassee-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://tulsa-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://wagoner-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n</sitemapindex>"
         },
         {
-            "countyName": "Washington County",
+            "countyName": "Washington",
             "cities": [
                 {
                     "cityName": "Bartlesville",
@@ -4013,7 +4013,7 @@
             "embeddedSitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\n  <sitemap>\n    <loc>https://washington-county-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://bartlesville-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://copan-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://dewey-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://ochelata-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://ramona-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://vera-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n</sitemapindex>"
         },
         {
-            "countyName": "Washita County",
+            "countyName": "Washita",
             "cities": [
                 {
                     "cityName": "Bessie",
@@ -4081,7 +4081,7 @@
             "embeddedSitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\n  <sitemap>\n    <loc>https://washita-county-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://bessie-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://burns-flat-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://canute-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://clinton-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://colony-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://corn-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://dill-city-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://foss-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://new-cordell-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://rocky-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://sentinel-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n</sitemapindex>"
         },
         {
-            "countyName": "Woods County",
+            "countyName": "Woods",
             "cities": [
                 {
                     "cityName": "Alva",
@@ -4124,7 +4124,7 @@
             "embeddedSitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\n  <sitemap>\n    <loc>https://woods-county-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://alva-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://capron-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://dacoma-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://erin-springs-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://freedom-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://waynoka-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n</sitemapindex>"
         },
         {
-            "countyName": "Woodward County",
+            "countyName": "Woodward",
             "cities": [
                 {
                     "cityName": "Fort Supply",
@@ -4162,7 +4162,7 @@
             "embeddedSitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\n  <sitemap>\n    <loc>https://woodward-county-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://fort-supply-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://mooreland-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://mutual-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://sharon-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://woodward-city-ok.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-21</lastmod>\n  </sitemap>\n</sitemapindex>"
         }
     ],
-    "stateName": "Oklahoma",
+    "stateName": "Oregon",
     "companyName": "My Drip Nurse",
     "website": "https://www.mydripnurse.com",
     "ownerName": "Keishla",
