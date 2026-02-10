@@ -126,6 +126,9 @@ button, input, select { font-family: inherit; }
   margin-top: 14px;
 }
 
+/* ✅ IMPORTANT: prevent long <pre> from expanding grid columns */
+.grid > * { min-width: 0; }
+
 @media (max-width: 980px) {
   .grid { grid-template-columns: 1fr; }
   .topbar { position: relative; top: auto; }
@@ -137,6 +140,7 @@ button, input, select { font-family: inherit; }
   border-radius: var(--radius2);
   box-shadow: var(--shadow2);
   overflow: hidden;
+  min-width: 0; /* ✅ important for nested overflow */
 }
 
 .cardHeader {
@@ -171,7 +175,7 @@ button, input, select { font-family: inherit; }
   white-space: nowrap;
 }
 
-.cardBody { padding: 14px; }
+.cardBody { padding: 14px; min-width: 0; }
 
 .row {
   display: grid;
@@ -277,6 +281,7 @@ button, input, select { font-family: inherit; }
   background: rgba(255,255,255,0.03);
   padding: 12px;
   overflow: hidden;
+  min-width: 0;
 }
 
 .runnerProgressTop {
@@ -405,6 +410,7 @@ button, input, select { font-family: inherit; }
   display: flex;
   flex-direction: column;
   justify-content: center;
+  min-width: 0;
 }
 
 .kpi .n {
@@ -430,6 +436,7 @@ button, input, select { font-family: inherit; }
   overflow: auto;
   border-radius: var(--radius);
   border: 1px solid rgba(255,255,255,0.08);
+  max-width: 100%;
 }
 
 .table {
@@ -494,6 +501,7 @@ button, input, select { font-family: inherit; }
   background: rgba(0,0,0,0.18);
   overflow: hidden;
   box-shadow: var(--shadow2);
+  min-width: 0;
 }
 
 .consoleHeader {
@@ -541,6 +549,7 @@ button, input, select { font-family: inherit; }
   z-index: 50;
   overflow: hidden;
   backdrop-filter: blur(12px);
+  min-width: 0;
 }
 
 .drawerHeader {
@@ -555,7 +564,8 @@ button, input, select { font-family: inherit; }
 .drawerBody {
   padding: 14px;
   overflow: auto;
-  height: calc(100% - 86px);
+  height: calc(90% - 86px);
+  min-width: 0;
 }
 
 .tabs {
@@ -579,7 +589,7 @@ button, input, select { font-family: inherit; }
   border-color: rgba(96,165,250,0.30);
 }
 
-.tableScrollX { overflow: auto; }
+.tableScrollX { overflow: auto; max-width: 100%; }
 .tableWideCities { min-width: 980px; }
 
 .rowEligible .td { background: rgba(34,197,94,0.06); }
@@ -617,6 +627,7 @@ button, input, select { font-family: inherit; }
   z-index: 70;
   overflow: hidden;
   backdrop-filter: blur(14px);
+  min-width: 0;
 }
 
 .modalHeader {
@@ -635,6 +646,7 @@ button, input, select { font-family: inherit; }
   align-items: center;
   gap: 10px;
   margin-top: 8px;
+  min-width: 0;
 }
 
 .modalTitle { margin: 0; font-size: 15px; }
@@ -657,6 +669,7 @@ button, input, select { font-family: inherit; }
   background: rgba(255,255,255,0.03);
   border-radius: var(--radius);
   padding: 8px 10px;
+  min-width: 0;
 }
 
 .metaLabel { font-size: 11px; color: var(--muted); }
@@ -666,6 +679,7 @@ button, input, select { font-family: inherit; }
   height: calc(100% - 84px);
   overflow: auto;
   padding: 14px;
+  min-width: 0;
 }
 
 .modalBodyPro { background: rgba(0,0,0,0.12); }
@@ -675,6 +689,8 @@ button, input, select { font-family: inherit; }
   grid-template-columns: 0.9fr 1.1fr;
   gap: 14px;
 }
+
+.modalGrid > * { min-width: 0; } /* ✅ prevents expansion */
 
 @media (max-width: 980px) {
   .modalGrid { grid-template-columns: 1fr; }
@@ -692,6 +708,7 @@ button, input, select { font-family: inherit; }
   background: rgba(255,255,255,0.03);
   padding: 12px;
   cursor: pointer;
+  min-width: 0;
 }
 
 .copyFieldTop {
@@ -699,6 +716,7 @@ button, input, select { font-family: inherit; }
   align-items: center;
   justify-content: space-between;
   gap: 10px;
+  min-width: 0;
 }
 
 .copyValue {
@@ -706,6 +724,7 @@ button, input, select { font-family: inherit; }
   font-size: 12px;
   color: rgba(255,255,255,0.92);
   word-break: break-word;
+  min-width: 0;
 }
 
 .copyBadge {
@@ -735,6 +754,7 @@ button, input, select { font-family: inherit; }
   background: rgba(255,255,255,0.03);
   border-radius: var(--radius2);
   overflow: hidden;
+  min-width: 0;
 }
 
 .stepCardHeader {
@@ -799,6 +819,7 @@ button, input, select { font-family: inherit; }
   background: rgba(255,255,255,0.03);
   border-radius: var(--radius);
   padding: 10px 12px;
+  min-width: 0;
 }
 
 .miniCardLabel { font-size: 11px; color: var(--muted); }
@@ -838,6 +859,7 @@ button, input, select { font-family: inherit; }
   padding: 12px;
   overflow: auto;
   max-height: 240px;
+  max-width: 100%;
 }
 
 .robotsPre {
@@ -851,4 +873,2803 @@ button, input, select { font-family: inherit; }
 .smallBtnOn {
   background: rgba(34,197,94,0.12);
   border-color: rgba(34,197,94,0.22);
+}
+
+/* =========================
+   ✅ Head/Footer code box (new)
+   - Use on Head/Footer only.
+   - Keeps panel width stable.
+   - Adds scroll for big snippets.
+========================= */
+.codeBox {
+  margin-top: 10px;
+  border-radius: var(--radius);
+  border: 1px solid rgba(255,255,255,0.10);
+  background: rgba(0,0,0,0.18);
+  padding: 12px;
+  overflow: auto;              /* ✅ vertical + horizontal scroll */
+  max-height: 240px;           /* ✅ similar to robots */
+  max-width: 100%;             /* ✅ DO NOT expand container */
+  min-width: 0;                /* ✅ critical in grids */
+}
+
+.codePre {
+  margin: 0;
+  white-space: pre-wrap;            /* ✅ keep exact spacing */
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", monospace;
+  font-size: 11px;
+  color: rgba(255,255,255,0.86);
+  min-width: max-content;      /* ✅ allows horizontal scroll instead of wrapping weird */
+}
+
+/* Optional: if you want wrap instead, swap to this:
+.codePre { white-space: pre-wrap; word-break: break-word; min-width: 0; }
+*/
+
+/* === Map Modal (Apple-flow) === */
+.mapBackdrop {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.55);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  z-index: 90;
+}
+
+.mapModal {
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: min(1120px, calc(100vw - 28px));
+  max-height: min(100vh, 1000px);
+  overflow: hidden;
+
+  border-radius: 28px;
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  background: rgba(18, 22, 30, 0.72);
+  box-shadow: 0 30px 90px rgba(0, 0, 0, 0.55);
+
+  backdrop-filter: blur(18px);
+  -webkit-backdrop-filter: blur(18px);
+
+  z-index: 91;
+}
+
+.mapModalHeader {
+  display: flex;
+  gap: 16px;
+  align-items: flex-start;
+  justify-content: space-between;
+
+  padding: 18px 18px 14px 18px;
+
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+  background: linear-gradient(
+    to bottom,
+    rgba(255, 255, 255, 0.04),
+    rgba(255, 255, 255, 0)
+  );
+}
+
+.mapModalTitle {
+  margin: 6px 0 0 0;
+  font-size: 18px;
+  line-height: 1.2;
+}
+
+.mapModalActions {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.mapModalBody {
+  padding: 16px 16px 18px 16px;
+  overflow: auto;
+}
+
+/* Optional: smoother scrolling feel */
+.mapModalBody {
+  scroll-behavior: smooth;
+}
+
+/* Card header action row helper (non-breaking) */
+.cardHeaderActions {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+/* Slightly quieter secondary button style */
+.smallBtnGhost {
+  background: rgba(255, 255, 255, 0.06);
+  border: 1px solid rgba(255, 255, 255, 0.10);
+}
+.smallBtnGhost:hover {
+  background: rgba(255, 255, 255, 0.09);
+  border-color: rgba(255, 255, 255, 0.14);
+}
+.smallBtnGhost:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+/* ---- Map modal layout (Apple-like) ---- */
+.mapLayout {
+  display: grid;
+  grid-template-columns: 1fr 360px;
+  gap: 14px;
+}
+
+@media (max-width: 980px) {
+  .mapLayout {
+    grid-template-columns: 1fr;
+  }
+}
+
+.mapPane {
+  min-width: 0;
+}
+
+.mapFrame {
+  height: 500px;              /* CLAVE */
+  border-radius: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.10);
+  background: rgba(255, 255, 255, 0.04);
+  overflow: hidden;            /* evita overflow feo */
+}
+
+.mapSide {
+  min-width: 0;
+}
+
+.mapSideCard {
+  border-radius: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.10);
+  background: rgba(255, 255, 255, 0.04);
+  padding: 14px;
+  height: 520px;              /* match al mapa */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.mapSideStats {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+}
+
+.mapStat {
+  border-radius: 16px;
+  border: 1px solid rgba(255, 255, 255, 0.10);
+  background: rgba(0, 0, 0, 0.18);
+  padding: 12px;
+}
+
+.mapStatLabel {
+  font-size: 12px;
+  opacity: 0.75;
+}
+
+.mapStatValue {
+  font-size: 18px;
+  font-weight: 700;
+  margin-top: 6px;
+}
+
+.mapSideActions {
+  display: flex;
+  gap: 10px;
+  justify-content: flex-end;
+}
+
+/* ---- USA Tile Map ---- */
+.tileMapWrap {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 14px;
+}
+
+.tileMapHeader {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.tileMapTitle {
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.tileMapToggles {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
+.smallBtnOn {
+  border-color: rgba(255, 255, 255, 0.22);
+  background: rgba(255, 255, 255, 0.10);
+}
+
+.tileMapGrid {
+  margin-top: 12px;
+  flex: 1;
+  display: grid;
+
+  /* ampliamos para ME/PR */
+  grid-template-columns: repeat(13, minmax(0, 1fr));
+  grid-template-rows: repeat(9, minmax(0, 1fr));
+  gap: 8px;
+
+  /* evita que se vea “súper apretado” */
+  min-height: 380px;
+}
+
+.tile {
+  border-radius: 14px;
+  border: 1px solid rgba(255, 255, 255, 0.10);
+  background: rgba(255, 255, 255, 0.04);
+  color: rgba(255, 255, 255, 0.92);
+  padding: 10px;
+  text-align: left;
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.tile::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(80, 255, 170, var(--tileAlpha, 0.12));
+  pointer-events: none;
+}
+
+.tile:hover {
+  border-color: rgba(255, 255, 255, 0.18);
+  transform: translateY(-1px);
+}
+
+.tileSel {
+  outline: 2px solid rgba(255, 255, 255, 0.18);
+}
+
+.tileNoData {
+  opacity: 0.45;
+}
+
+.tileTop {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 8px;
+  position: relative;
+  z-index: 1;
+}
+
+.tileAbbr {
+  font-weight: 800;
+  letter-spacing: 0.02em;
+}
+
+.tilePct {
+  font-size: 12px;
+  opacity: 0.85;
+}
+
+.tileName {
+  margin-top: 6px;
+  font-size: 12px;
+  opacity: 0.78;
+  position: relative;
+  z-index: 1;
+
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.tileMapFooter {
+  margin-top: 10px;
+}
+
+/* ---- Choropleth map ---- */
+.choroplethWrap {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 14px;
+}
+
+.choroplethTop {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.choroplethTitle {
+  font-size: 14px;
+  font-weight: 800;
+}
+
+.choroplethHover {
+  border: 1px solid rgba(255,255,255,0.10);
+  background: rgba(255,255,255,0.04);
+  padding: 8px 10px;
+  border-radius: 14px;
+}
+
+.choroplethSvgWrap {
+  margin-top: 12px;
+  flex: 1;
+  border-radius: 20px;
+  border: 1px solid rgba(255,255,255,0.10);
+  background: rgba(255,255,255,0.04);
+  overflow: hidden;
+}
+
+.choroplethSvg {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+/* states */
+.stateShape {
+  fill: rgba(80, 255, 170, var(--fillA, 0.12));
+  stroke: rgba(255,255,255,0.12);
+  stroke-width: 1;
+  transition: fill 180ms ease, stroke 180ms ease, transform 180ms ease;
+}
+
+.stateShape:hover {
+  stroke: rgba(255,255,255,0.22);
+  fill: rgba(80, 255, 170, calc(var(--fillA, 0.12) + 0.12));
+}
+
+.stateShapeSel {
+  stroke: rgba(255,255,255,0.28);
+  stroke-width: 1.4;
+}
+
+/* labels */
+.stateLabel {
+  font-size: 12px;
+  font-weight: 800;
+  fill: rgba(255,255,255,0.86);
+  paint-order: stroke;
+  stroke: rgba(0,0,0,0.35);
+  stroke-width: 3px;
+  pointer-events: none;
+}
+
+/* PR chip */
+.prChip {
+  fill: rgba(80, 255, 170, var(--fillA, 0.12));
+  stroke: rgba(255,255,255,0.12);
+  stroke-width: 1;
+}
+
+.prChipSel {
+  stroke: rgba(255,255,255,0.28);
+  stroke-width: 1.4;
+}
+
+.prChipName {
+  font-size: 14px;
+  font-weight: 900;
+  fill: rgba(255,255,255,0.92);
+}
+
+.prChipPct {
+  font-size: 12px;
+  font-weight: 800;
+  fill: rgba(255,255,255,0.84);
+}
+
+
+/* Header actions container */
+.cardHeaderActions{
+  display:flex;
+  gap:10px;
+  align-items:center;
+}
+
+/* Map modal */
+.mapBackdrop{
+  position:fixed;
+  inset:0;
+  background:rgba(0,0,0,0.55);
+  backdrop-filter: blur(6px);
+  z-index: 90;
+}
+
+.mapModal{
+  position:fixed;
+  left:50%;
+  top:50%;
+  transform:translate(-50%,-50%);
+  width:min(1180px, calc(100vw - 28px));
+  height:min(720px, calc(100vh - 28px));
+  border-radius: 22px;
+  border:1px solid rgba(255,255,255,0.10);
+  background: rgba(16,18,24,0.92);
+  box-shadow: 0 24px 90px rgba(0,0,0,0.60);
+  overflow:hidden;
+  z-index: 91;
+}
+
+.mapModalHeader{
+  display:flex;
+  justify-content:space-between;
+  gap:12px;
+  padding:14px 16px;
+  border-bottom:1px solid rgba(255,255,255,0.10);
+}
+
+.mapModalTitle{
+  margin:6px 0 0 0;
+  font-size:18px;
+  font-weight:900;
+}
+
+.mapModalActions{
+  display:flex;
+  gap:10px;
+  align-items:center;
+}
+
+.mapModalBody{
+  height: calc(100% - 64px);
+  padding: 14px;
+}
+
+.mapLayout{
+  height: 100%;
+  display:grid;
+  grid-template-columns: 1fr 340px;
+  gap: 14px;
+}
+
+.mapPane{
+  display:flex;
+  flex-direction:column;
+  min-width:0;
+}
+
+.mapFrame{
+  height:92%;
+  border:1px solid rgba(255,255,255,0.10);
+  background: rgba(255,255,255,0.03);
+  border-radius: 18px;
+  overflow:hidden;
+}
+
+.mapFrameTall{
+  height: 92%;
+}
+
+.mapSide{
+  min-width:0;
+}
+
+.mapSideCard{
+  height: 92%;
+  border-radius: 18px;
+  border:1px solid rgba(255,255,255,0.10);
+  background: rgba(255,255,255,0.03);
+  padding: 14px;
+  display:flex;
+  flex-direction:column;
+}
+
+.mapSideTitle{
+  margin-top: 8px;
+  font-size: 16px;
+  font-weight: 900;
+}
+
+.mapSideStats{
+  display:grid;
+  grid-template-columns:1fr;
+  gap: 10px;
+  margin-top: 14px;
+}
+
+.mapStat{
+  padding: 12px;
+  border-radius: 14px;
+  border:1px solid rgba(255,255,255,0.10);
+  background: rgba(0,0,0,0.18);
+}
+
+.mapStatLabel{
+  font-size: 12px;
+  opacity: 0.85;
+}
+
+.mapStatValue{
+  font-size: 22px;
+  font-weight: 900;
+  margin-top: 4px;
+}
+
+.mapSideActions{
+  margin-top: auto;
+  display:flex;
+  gap:10px;
+  justify-content:flex-end;
+}
+
+/* Segmented control */
+.segmented{
+  display:flex;
+  gap:8px;
+  padding: 4px;
+  border-radius: 999px;
+  border: 1px solid rgba(255,255,255,0.10);
+  background: rgba(255,255,255,0.04);
+}
+
+.segBtn{
+  border: 0;
+  padding: 8px 12px;
+  border-radius: 999px;
+  background: transparent;
+  color: rgba(255,255,255,0.80);
+  cursor: pointer;
+  font-weight: 800;
+  font-size: 13px;
+}
+
+.segBtnOn{
+  background: rgba(255,255,255,0.10);
+  color: rgba(255,255,255,0.94);
+}
+
+/* Optional ghost small button (if not already defined) */
+.smallBtnGhost{
+  background: rgba(255,255,255,0.06);
+}
+.smallBtnGhost:hover{
+  background: rgba(255,255,255,0.09);
+}
+
+/* Responsive */
+@media (max-width: 980px){
+  .mapLayout{
+    grid-template-columns: 1fr;
+  }
+}
+
+/* ===== Map Modal Enhancements ===== */
+
+.mapMetricTabs {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  margin-right: 10px;
+}
+
+.mapHints {
+  margin-top: 10px;
+}
+
+/* Puerto Rico panel (separado del mapa US) */
+.prPanel {
+  margin-top: 14px;
+  border: 1px solid rgba(255,255,255,0.08);
+  border-radius: 16px;
+  background: rgba(255,255,255,0.03);
+  padding: 14px;
+}
+
+.prPanelHeader {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  align-items: flex-start;
+}
+
+.prTitle {
+  font-size: 15px;
+  font-weight: 650;
+  margin-top: 6px;
+}
+
+.prGrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+  margin-top: 12px;
+}
+
+.prCard {
+  border: 1px solid rgba(255,255,255,0.08);
+  border-radius: 14px;
+  background: rgba(0,0,0,0.18);
+  padding: 12px;
+}
+
+.prLabel {
+  font-size: 12px;
+  opacity: 0.75;
+}
+
+.prValue {
+  font-size: 20px;
+  font-weight: 700;
+  margin-top: 6px;
+  margin-bottom: 4px;
+}
+
+.prBar {
+  height: 8px;
+  border-radius: 999px;
+  background: rgba(255,255,255,0.08);
+  margin-top: 10px;
+  overflow: hidden;
+}
+
+.prBarFill {
+  height: 100%;
+  border-radius: 999px;
+  background: rgba(80, 255, 180, 0.65);
+}
+
+/* Responsive PR cards */
+@media (max-width: 1100px) {
+  .prGrid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.topbarActions {
+  margin-left: auto;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+/* ==========================================
+   CALLS DASHBOARD PLATFORM LAYOUT (v2)
+   - Summary full width
+   - Calls by state full width
+   - XL Map + real legend + chart styling
+========================================== */
+
+.callsPillDivider{
+  width: 1px;
+  height: 18px;
+  background: rgba(255,255,255,0.10);
+  align-self: center;
+  margin: 0 6px;
+}
+
+.callsSummaryGrid{
+  display: grid;
+  grid-template-columns: repeat(9, minmax(0, 1fr));
+  gap: 10px;
+}
+@media (max-width: 1100px){
+  .callsSummaryGrid{ grid-template-columns: repeat(3, minmax(0, 1fr)); }
+}
+@media (max-width: 520px){
+  .callsSummaryGrid{ grid-template-columns: 1fr; }
+}
+
+/* Filters */
+.callsFiltersGrid{
+  display: grid;
+  grid-template-columns: 1.2fr 0.8fr;
+  gap: 12px;
+  align-items: end;
+}
+@media (max-width: 980px){
+  .callsFiltersGrid{ grid-template-columns: 1fr; }
+}
+.callsRangeBox{ min-width: 0; }
+.callsPillsRow{ display:flex; gap:8px; flex-wrap: wrap; }
+.callsLabel{
+  display:block;
+  font-size: 12px;
+  color: var(--muted);
+  margin-bottom: 6px;
+}
+.callsCustomBox{
+  min-width: 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr 180px;
+  gap: 10px;
+  opacity: 0.55;
+}
+.callsCustomOn{ opacity: 1; }
+@media (max-width: 980px){
+  .callsCustomBox{ grid-template-columns: 1fr 1fr; }
+}
+@media (max-width: 520px){
+  .callsCustomBox{ grid-template-columns: 1fr; }
+}
+.callsApplyCell{
+  display:flex;
+  flex-direction: column;
+}
+
+/* Chart */
+.callsChartCard{
+  border-radius: 18px;
+  border: 1px solid rgba(255,255,255,0.10);
+  background: rgba(255,255,255,0.03);
+  padding: 14px;
+}
+.callsChartHeader{
+  display:flex;
+  justify-content: space-between;
+  align-items:flex-start;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+.callsChartTitle{
+  font-size: 14px;
+  font-weight: 900;
+  display:flex;
+  gap: 10px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.callsChip{
+  display:inline-flex;
+  align-items:center;
+  gap: 8px;
+  padding: 6px 10px;
+  border-radius: 999px;
+  border: 1px solid rgba(255,255,255,0.10);
+  background: rgba(96,165,250,0.10);
+  font-size: 12px;
+}
+.callsChartMeta{
+  display:flex;
+  gap: 10px;
+  align-items: center;
+}
+.callsChartMetaItem{
+  border-radius: 14px;
+  border: 1px solid rgba(255,255,255,0.10);
+  background: rgba(0,0,0,0.18);
+  padding: 10px 12px;
+  min-width: 120px;
+}
+.callsChartMetaValue{
+  margin-top: 4px;
+  font-weight: 900;
+  font-size: 16px;
+}
+.callsChartBody{
+  margin-top: 12px;
+  border-radius: 16px;
+  border: 1px solid rgba(255,255,255,0.10);
+  background: rgba(0,0,0,0.18);
+  padding: 10px;
+  overflow: hidden;
+}
+
+.callsChartSvg{
+  width: 100%;
+  height: 160px;
+  display:block;
+}
+.callsChartGrid{
+  stroke: rgba(255,255,255,0.08);
+  stroke-width: 2;
+}
+.callsChartAxis{
+  fill: rgba(255,255,255,0.70);
+  font-size: 24px; /* scales with viewBox */
+  font-weight: 700;
+}
+.callsChartLine{
+  fill: none;
+  stroke: rgba(96,165,250,0.92);
+  stroke-width: 8;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+.callsChartDot{
+  fill: rgba(34,197,94,0.85);
+  stroke: rgba(0,0,0,0.35);
+  stroke-width: 6;
+}
+
+/* Map XL */
+.callsMapGridXL{
+  margin-top: 14px;
+  display: grid;
+  grid-template-columns: 1.35fr 0.65fr;
+  gap: 14px;
+  align-items: stretch;
+}
+@media (max-width: 980px){
+  .callsMapGridXL{ grid-template-columns: 1fr; }
+}
+
+.callsMapPaneXL{ min-width:0; display:flex; flex-direction: column; gap: 12px; }
+
+.callsMapFrameXL{
+  border-radius: 20px;
+  border: 1px solid rgba(255,255,255,0.10);
+  background: rgba(255,255,255,0.03);
+  overflow: hidden;
+  padding: 12px;
+  min-width:0;
+}
+
+.callsMapTopbar{
+  display:flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+/* ✅ Legend uses real min/max now */
+.callsLegend{
+  display:flex;
+  align-items:center;
+  gap: 10px;
+}
+.callsLegendBar{
+  display:inline-block;
+  width: 180px;
+  height: 10px;
+  border-radius: 999px;
+  border: 1px solid rgba(255,255,255,0.10);
+  background: linear-gradient(
+    90deg,
+    rgba(80,255,170,0.10),
+    rgba(80,255,170,0.35)
+  );
+}
+
+.callsMapCanvasXL{
+  margin-top: 10px;
+  height: 680px; /* ✅ BIGGER */
+  border-radius: 18px;
+  border: 1px solid rgba(255,255,255,0.10);
+  background: rgba(0,0,0,0.18);
+  overflow: hidden;
+}
+@media (max-width: 980px){
+  .callsMapCanvasXL{ height: 520px; }
+}
+
+/* reuse your top states styles */
+.callsTopStates{
+  border-radius: 18px;
+  border: 1px solid rgba(255,255,255,0.10);
+  background: rgba(255,255,255,0.03);
+  padding: 12px;
+}
+.callsTopStatesList{ margin-top: 10px; display:grid; gap: 8px; }
+.callsTopRow{
+  display:flex; align-items:center; justify-content: space-between;
+  gap:10px; width:100%;
+  border-radius: 14px;
+  border: 1px solid rgba(255,255,255,0.10);
+  background: rgba(0,0,0,0.18);
+  padding: 10px 12px;
+  cursor: pointer;
+}
+.callsTopRow:hover{
+  border-color: rgba(255,255,255,0.18);
+  background: rgba(255,255,255,0.05);
+}
+.callsTopRowOn{
+  border-color: rgba(96,165,250,0.28);
+  background: rgba(96,165,250,0.10);
+}
+.callsTopState{ font-weight: 800; color: rgba(255,255,255,0.90); }
+.callsTopVal{ font-weight: 900; color: rgba(255,255,255,0.88); }
+
+.callsMapSideXL{ min-width:0; }
+
+.callsSideCard{
+  height: 100%;
+  border-radius: 20px;
+  border: 1px solid rgba(255,255,255,0.10);
+  background: rgba(255,255,255,0.03);
+  padding: 14px;
+  display:flex;
+  flex-direction: column;
+  min-width:0;
+}
+
+.callsEmptyState{
+  margin-top: 18px;
+  border-radius: 16px;
+  border: 1px solid rgba(255,255,255,0.10);
+  background: rgba(0,0,0,0.18);
+  padding: 14px;
+}
+.callsEmptyTitle{ font-size: 14px; font-weight: 900; }
+
+.callsSideHeader{
+  margin-top: 12px;
+  display:flex;
+  align-items:flex-start;
+  justify-content: space-between;
+  gap: 12px;
+}
+.callsSideTitle{ font-size: 18px; font-weight: 900; letter-spacing: 0.2px; }
+.callsSideBadge{
+  border-radius: 999px;
+  padding: 6px 10px;
+  border: 1px solid rgba(255,255,255,0.10);
+  background: rgba(255,255,255,0.04);
+  font-size: 12px;
+  white-space: nowrap;
+}
+
+.callsSideGrid{
+  margin-top: 12px;
+  display:grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+}
+@media (max-width: 520px){
+  .callsSideGrid{ grid-template-columns: 1fr; }
+}
+.callsMetric{
+  border-radius: 16px;
+  border: 1px solid rgba(255,255,255,0.10);
+  background: rgba(0,0,0,0.18);
+  padding: 12px;
+  min-width: 0;
+}
+.callsMetricLabel{ font-size: 12px; opacity: 0.85; }
+.callsMetricValue{ font-size: 20px; font-weight: 900; margin-top: 6px; }
+
+.callsStrategistBox{
+  margin-top: 12px;
+  border-radius: 16px;
+  border: 1px solid rgba(255,255,255,0.10);
+  background: rgba(255,255,255,0.03);
+  padding: 12px;
+}
+.callsStrategistTitle{ font-weight: 900; font-size: 13px; }
+.callsStrategistList{
+  margin: 10px 0 0;
+  padding: 0 0 0 18px;
+  color: rgba(255,255,255,0.84);
+  font-size: 12px;
+  line-height: 1.45;
+}
+.callsStrategistList li{ margin-top: 8px; }
+
+.callsSideActions{
+  margin-top: auto;
+  display:flex;
+  gap: 10px;
+  justify-content:flex-end;
+  padding-top: 12px;
+}
+
+
+/* =========================================================
+   CALLS DASHBOARD (SCOPED) — NO rompe Control Tower
+   Usa <div className="callsDash"> ... </div>
+========================================================= */
+.callsDash .filtersBar{
+  display:grid;
+  grid-template-columns: 1.2fr 0.8fr;
+  gap:14px;
+  align-items:start;
+}
+@media (max-width: 980px){
+  .callsDash .filtersBar{ grid-template-columns: 1fr; }
+}
+
+.callsDash .dateGroup .dateInputs{
+  display:grid;
+  grid-template-columns: 1fr 1fr 160px;
+  gap:10px;
+  align-items:end;
+}
+@media (max-width: 980px){
+  .callsDash .dateGroup .dateInputs{ grid-template-columns: 1fr 1fr; }
+  .callsDash .applyBtn{ grid-column: span 2; width: 100%; }
+}
+.callsDash .applyBtn{
+  height:42px;
+  border-radius:14px;
+  font-weight:800;
+}
+
+/* segmented ONLY inside calls dash */
+.callsDash .segmented{
+  display:flex;
+  gap:8px;
+  padding:4px;
+  border-radius:999px;
+  border:1px solid rgba(255,255,255,0.10);
+  background: rgba(255,255,255,0.04);
+}
+.callsDash .segBtn{
+  border:0;
+  padding:8px 12px;
+  border-radius:999px;
+  background:transparent;
+  color: rgba(255,255,255,0.80);
+  cursor:pointer;
+  font-weight:900;
+  font-size:13px;
+}
+.callsDash .segBtnOn{
+  background: rgba(255,255,255,0.10);
+  color: rgba(255,255,255,0.94);
+}
+
+/* map frame ONLY inside calls dash */
+.callsDash .mapFrameXL{
+  margin-top:12px;
+  border-radius:18px;
+  border:1px solid rgba(255,255,255,0.10);
+  background: rgba(255,255,255,0.03);
+  overflow:hidden;
+  height: 520px;
+}
+@media (max-width: 980px){
+  .callsDash .mapFrameXL{ height: 460px; }
+}
+
+
+/* =========================================================
+   CALLS DASHBOARD (SCOPED)
+   Wrapper: <div className="shell callsDash"> ... </div>
+========================================================= */
+
+.callsDash { min-width: 0; }
+
+/* ---------- Filters layout ---------- */
+.callsDash .filtersBar{
+  display:grid;
+  grid-template-columns: 1.2fr 0.8fr;
+  gap:14px;
+  align-items:start;
+}
+@media (max-width: 980px){
+  .callsDash .filtersBar{ grid-template-columns: 1fr; }
+}
+
+.callsDash .filtersGroup{ min-width:0; }
+.callsDash .filtersLabel{
+  font-size: 12px;
+  font-weight: 800;
+  color: rgba(255,255,255,0.82);
+  margin-bottom: 10px;
+}
+
+.callsDash .rangePills{
+  display:flex;
+  flex-wrap:wrap;
+  gap:8px;
+  align-items:center;
+}
+
+.callsDash .filtersDivider{
+  width:1px;
+  height:26px;
+  background: rgba(255,255,255,0.10);
+  display:inline-block;
+  margin: 0 6px;
+}
+
+/* Custom date inputs */
+.callsDash .dateGroup{ min-width: 0; }
+
+.callsDash .dateGroup .dateInputs{
+  display:grid;
+  grid-template-columns: 1fr 1fr 170px;
+  gap:12px;
+  align-items:end;
+}
+
+@media (max-width: 980px){
+  .callsDash .dateGroup .dateInputs{ grid-template-columns: 1fr 1fr; }
+  .callsDash .applyBtn{ grid-column: span 2; width: 100%; }
+}
+@media (max-width: 520px){
+  .callsDash .dateGroup .dateInputs{ grid-template-columns: 1fr; }
+  .callsDash .applyBtn{ grid-column: auto; width: 100%; }
+}
+
+/* ✅ Apply: padding/margin right fix + more “button weight” */
+.callsDash .applyBtn{
+  height:44px;
+  border-radius:14px;
+  font-weight:900;
+  padding: 0 18px;
+  justify-self: end;
+  margin-right: 6px; /* <-- evita que se vea pegado al borde */
+}
+@media (max-width: 980px){
+  .callsDash .applyBtn{ justify-self: stretch; margin-right: 0; }
+}
+
+/* Footer (range summary + deltas) */
+.callsDash .filtersFooter{
+  margin-top: 12px;
+  display:flex;
+  flex-direction:column;
+  gap:10px;
+}
+
+.callsDash .deltaRow{
+  display:flex;
+  gap:10px;
+  justify-content:space-between;
+  align-items:center;
+  flex-wrap:wrap;
+}
+
+.callsDash .deltaHint{
+  font-size:12px;
+  color: rgba(255,255,255,0.72);
+}
+
+.callsDash .mutedLite{ color: rgba(255,255,255,0.56); }
+
+.callsDash .deltaPills{
+  display:flex;
+  gap:8px;
+  flex-wrap:wrap;
+}
+
+.callsDash .deltaPill{
+  font-size:12px;
+  padding:8px 10px;
+  border-radius:999px;
+  border:1px solid rgba(255,255,255,0.10);
+  background: rgba(255,255,255,0.04);
+}
+
+.callsDash .deltaUp{
+  border-color: rgba(80,255,170,0.22);
+  background: rgba(80,255,170,0.08);
+}
+.callsDash .deltaDown{
+  border-color: rgba(255,120,120,0.22);
+  background: rgba(255,120,120,0.08);
+}
+
+/* ---------- KPI grid (Summary) ---------- */
+.callsDash .kpiRow{ display:grid; gap:10px; }
+
+/* ✅ Se siente como “2 columnas” sin perder densidad (cards más grandes y legibles) */
+.callsDash .kpiRowWide{ grid-template-columns: repeat(3, minmax(0, 1fr)); }
+@media (min-width: 1200px){
+  .callsDash .kpiRowWide{ grid-template-columns: repeat(6, minmax(0, 1fr)); }
+}
+@media (max-width: 640px){
+  .callsDash .kpiRowWide{ grid-template-columns: repeat(2, minmax(0, 1fr)); }
+}
+@media (max-width: 520px){
+  .callsDash .kpiRowWide{ grid-template-columns: 1fr; }
+}
+
+.callsDash .kpiDate{
+  border:1px solid rgba(255,255,255,0.10);
+  background: rgba(255,255,255,0.03);
+  border-radius:16px;
+  padding:14px;
+  min-width:0;
+  width: 250px;
+}
+
+.callsDash .kpiDate .n{
+  margin:0;
+  font-size:18px;
+  font-weight:900;
+  letter-spacing:0.2px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.callsDash .kpiDate .l{
+  margin:6px 0 0;
+  font-size:12px;
+  color: rgba(255,255,255,0.66);
+  line-height:1.25;
+}
+
+.callsDash .kpi{
+  border:1px solid rgba(255,255,255,0.10);
+  background: rgba(255,255,255,0.03);
+  border-radius:16px;
+  padding:14px;
+  min-width:0;
+}
+
+.callsDash .kpi .n{
+  margin:0;
+  font-size:18px;
+  font-weight:900;
+  letter-spacing:0.2px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.callsDash .kpi .l{
+  margin:6px 0 0;
+  font-size:12px;
+  color: rgba(255,255,255,0.66);
+  line-height:1.25;
+}
+
+/* ---------- Platform layout ---------- */
+.callsDash .callsPlatform{
+  display:flex;
+  flex-direction:column;
+  gap:14px;
+}
+
+/* ---------- Trend card ---------- */
+.callsDash .trendCard{
+  border:1px solid rgba(255,255,255,0.10);
+  background: rgba(255,255,255,0.03);
+  border-radius:18px;
+  padding:14px;
+}
+
+.callsDash .trendHeader{
+  display:flex;
+  justify-content:space-between;
+  gap:12px;
+  align-items:flex-start;
+  flex-wrap:wrap;
+}
+
+.callsDash .trendTitle{
+  font-size:14px;
+  font-weight:900;
+}
+
+/* mini meta cards inside trend */
+.callsDash .trendMeta{
+  display:flex;
+  gap:10px;
+  flex-wrap:wrap;
+}
+
+.callsDash .miniCard{
+  border:1px solid rgba(255,255,255,0.10);
+  background: rgba(255,255,255,0.04);
+  border-radius:16px;
+  padding:10px 12px;
+  min-width: 0;
+}
+
+.callsDash .miniCardLabel{
+  font-size:11px;
+  color: rgba(255,255,255,0.64);
+}
+
+.callsDash .miniCardValue{
+  margin-top:6px;
+  font-size:13px;
+  color: rgba(255,255,255,0.92);
+  word-break: break-word;
+}
+
+/* Simple SVG chart styles */
+.callsDash .chartWrap{
+  width:100%;
+  margin-top: 10px;
+  border-radius:16px;
+  overflow:hidden;
+  border:1px solid rgba(255,255,255,0.10);
+  background: rgba(0,0,0,0.18);
+}
+
+.callsDash .chartSvg{ width:100%; height:auto; display:block; background: transparent; }
+.callsDash .chartGrid{ stroke: rgba(255,255,255,0.10); stroke-width:1; }
+.callsDash .chartAxis{ font-size: 12px; fill: rgba(255,255,255,0.62); }
+.callsDash .chartArea{ fill: rgba(96,165,250,0.14); }
+.callsDash .chartLine{ fill: none; stroke: rgba(96,165,250,0.92); stroke-width: 3; }
+.callsDash .chartPoint{ fill: rgba(255,255,255,0.92); opacity: 0.9; cursor: pointer; }
+
+/* ---------- Map + panel grid ---------- */
+.callsDash .mapGrid{
+  display:grid;
+  grid-template-columns: 1.6fr 0.95fr;
+  gap:14px;
+  align-items:start;
+}
+@media (max-width: 980px){
+  .callsDash .mapGrid{ grid-template-columns: 1fr; }
+}
+
+/* Map card */
+.callsDash .mapCard{
+  border:1px solid rgba(255,255,255,0.10);
+  background: rgba(255,255,255,0.03);
+  border-radius:18px;
+  overflow:hidden;
+  min-width: 0;
+}
+
+.callsDash .mapCardTop{
+  padding:14px;
+  display:flex;
+  justify-content:space-between;
+  gap:12px;
+  align-items:flex-start;
+  flex-wrap:wrap;
+  border-bottom:1px solid rgba(255,255,255,0.06);
+}
+
+.callsDash .mapCardTitle{
+  font-size:14px;
+  font-weight:900;
+}
+
+.callsDash .mapScale{
+  display:flex;
+  gap:10px;
+  align-items:center;
+}
+
+.callsDash .scaleBar{
+  width:140px;
+  height:10px;
+  border-radius:999px;
+  overflow:hidden;
+  border:1px solid rgba(255,255,255,0.10);
+  background: rgba(255,255,255,0.04);
+}
+
+.callsDash .scaleFill{
+  width:100%;
+  height:100%;
+  background: linear-gradient(90deg, rgba(80,255,170,0.12), rgba(80,255,170,0.75));
+}
+
+/* Map frame inside this dashboard ONLY */
+.callsDash .mapFrame{ padding: 0; }
+
+.callsDash .mapFrameXL{
+  margin-top:12px;
+  border-radius:18px;
+  border:1px solid rgba(255,255,255,0.10);
+  background: rgba(255,255,255,0.03);
+  overflow:hidden;
+  height: 520px;
+  min-width: 0;
+}
+@media (max-width: 980px){
+  .callsDash .mapFrameXL{ height: 460px; }
+}
+
+/* State side panel */
+.callsDash .statePanel{
+  border:1px solid rgba(255,255,255,0.10);
+  background: rgba(255,255,255,0.03);
+  border-radius:18px;
+  padding:14px;
+  min-width: 0;
+}
+
+.callsDash .statePanelTop{
+  padding-bottom: 10px;
+  border-bottom:1px solid rgba(255,255,255,0.06);
+}
+
+.callsDash .stateHead{
+  margin-top:10px;
+  display:flex;
+  justify-content:space-between;
+  gap:10px;
+  align-items:center;
+}
+
+.callsDash .stateName{
+  font-size:16px;
+  font-weight:900;
+}
+
+.callsDash .statePill{
+  font-size:12px;
+  padding:8px 10px;
+  border-radius:999px;
+  border:1px solid rgba(255,255,255,0.10);
+  background: rgba(255,255,255,0.04);
+  white-space: nowrap;
+}
+
+/* mini KPI cards */
+.callsDash .stateCards{
+  margin-top:12px;
+  display:grid;
+  grid-template-columns: 1fr 1fr;
+  gap:10px;
+}
+@media (max-width: 520px){
+  .callsDash .stateCards{ grid-template-columns: 1fr; }
+}
+
+.callsDash .stateKpi{
+  border:1px solid rgba(255,255,255,0.10);
+  background: rgba(255,255,255,0.03);
+  border-radius:16px;
+  padding:12px;
+  min-width: 0;
+}
+
+.callsDash .stateKpiN{
+  margin-top:8px;
+  font-size:18px;
+  font-weight:900;
+}
+
+/* ---------- Segmented control ---------- */
+.callsDash .segmented{
+  display:flex;
+  gap:8px;
+  padding:4px;
+  border-radius:999px;
+  border:1px solid rgba(255,255,255,0.10);
+  background: rgba(255,255,255,0.04);
+}
+
+.callsDash .segBtn{
+  border:0;
+  padding:8px 12px;
+  border-radius:999px;
+  background:transparent;
+  color: rgba(255,255,255,0.80);
+  cursor:pointer;
+  font-weight:900;
+  font-size:13px;
+}
+
+.callsDash .segBtnOn{
+  background: rgba(255,255,255,0.10);
+  color: rgba(255,255,255,0.94);
+}
+
+/* ---------- Table stability ---------- */
+.callsDash .tableWrap{ max-width: 100%; }
+.callsDash .tableScrollX{ overflow:auto; max-width: 100%; }
+.callsDash .table{ width: 100%; }
+
+/* ===== AI Strategist card ===== */
+.callsDash .aiCard{
+  margin-top: 12px;
+  border-top: 1px solid rgba(255,255,255,0.06);
+  padding-top: 12px;
+}
+
+.callsDash .aiCardTop{
+  display:flex;
+  align-items:flex-start;
+  justify-content:space-between;
+  gap:10px;
+  flex-wrap:wrap;
+}
+
+.callsDash .aiTitle{
+  font-size: 13px;
+  font-weight: 900;
+}
+
+.callsDash .aiBtn{
+  white-space: nowrap;
+}
+
+.callsDash .aiBody{
+  margin-top: 12px;
+  display:flex;
+  flex-direction:column;
+  gap:12px;
+}
+
+.callsDash .aiSummary{
+  border:1px solid rgba(255,255,255,0.10);
+  background: rgba(255,255,255,0.03);
+  border-radius:16px;
+  padding:12px;
+}
+
+.callsDash .aiSummaryTitle{
+  font-size: 12px;
+  font-weight: 900;
+  margin-bottom: 8px;
+  opacity: 0.95;
+}
+
+.callsDash .aiText{
+  font-size: 12px;
+  line-height: 1.45;
+  color: rgba(255,255,255,0.84);
+}
+
+.callsDash .aiScore{
+  border:1px solid rgba(255,255,255,0.10);
+  background: rgba(255,255,255,0.03);
+  border-radius:16px;
+  padding:12px;
+}
+
+.callsDash .aiBadge{
+  display:inline-flex;
+  align-items:center;
+  gap:8px;
+  padding:6px 10px;
+  border-radius:999px;
+  font-size: 11px;
+  font-weight: 900;
+  border: 1px solid rgba(255,255,255,0.10);
+  background: rgba(255,255,255,0.04);
+}
+
+.callsDash .aiBadge.good{ border-color: rgba(80,255,170,0.22); background: rgba(80,255,170,0.10); }
+.callsDash .aiBadge.mixed{ border-color: rgba(255,255,255,0.14); background: rgba(255,255,255,0.06); }
+.callsDash .aiBadge.risk{ border-color: rgba(255,120,120,0.24); background: rgba(255,120,120,0.10); }
+
+.callsDash .aiBlock{
+  border:1px solid rgba(255,255,255,0.10);
+  background: rgba(255,255,255,0.03);
+  border-radius:16px;
+  padding:12px;
+}
+
+.callsDash .aiBlockTitle{
+  font-size: 12px;
+  font-weight: 900;
+  margin-bottom: 10px;
+}
+
+.callsDash .aiOps{
+  display:flex;
+  flex-direction:column;
+  gap:10px;
+}
+
+.callsDash .aiOp{
+  border:1px solid rgba(255,255,255,0.08);
+  background: rgba(255,255,255,0.02);
+  border-radius:14px;
+  padding:10px;
+}
+
+.callsDash .aiOpHead{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  gap:10px;
+}
+
+.callsDash .aiOpTitle{
+  font-size: 12px;
+  font-weight: 900;
+}
+
+.callsDash .aiImpact{
+  font-size: 10px;
+  font-weight: 900;
+  padding: 5px 8px;
+  border-radius: 999px;
+  border: 1px solid rgba(255,255,255,0.10);
+  background: rgba(255,255,255,0.04);
+  white-space: nowrap;
+}
+.callsDash .aiImpact.high{ border-color: rgba(80,255,170,0.22); background: rgba(80,255,170,0.10); }
+.callsDash .aiImpact.medium{ border-color: rgba(255,255,255,0.14); background: rgba(255,255,255,0.06); }
+.callsDash .aiImpact.low{ border-color: rgba(255,255,255,0.10); background: rgba(255,255,255,0.04); }
+
+.callsDash .aiList{
+  margin: 10px 0 0;
+  padding-left: 18px;
+  font-size: 12px;
+  color: rgba(255,255,255,0.80);
+  line-height: 1.35;
+}
+.callsDash .aiList li{ margin-top: 6px; }
+
+/* ===== Next phase placeholder ===== */
+.callsDash .aiPlaceholder{
+  margin-top: 12px;
+  border:1px solid rgba(255,255,255,0.10);
+  background: rgba(255,255,255,0.03);
+  border-radius:16px;
+  padding:12px;
+}
+
+.callsDash .nextPhaseTitle{
+  margin-top: 8px;
+  font-size: 13px;
+  font-weight: 900;
+  color: rgba(255,255,255,0.92);
+  line-height: 1.3;
+}
+
+.callsDash .nextPhaseGrid{
+  margin-top: 12px;
+  display:grid;
+  grid-template-columns: 1fr;
+  gap:10px;
+}
+
+.callsDash .nextPhaseItem{
+  border:1px solid rgba(255,255,255,0.08);
+  background: rgba(255,255,255,0.02);
+  border-radius:14px;
+  padding:10px;
+}
+
+.callsDash .npTitle{
+  font-size: 12px;
+  font-weight: 900;
+}
+
+.callsDash .npText{
+  margin-top: 6px;
+  opacity: 0.85;
+}
+
+/* Hard overrides against global collisions */
+.callsDash .mapFrame{
+  height: auto !important;
+  padding: 0 !important;
+  background: transparent !important;
+  border: 0 !important;
+  border-radius: 0 !important;
+  overflow: visible !important;
+}
+.callsDash .mapFrame.mapFrameXL{
+  margin-top: 12px;
+  height: 520px !important;
+  border-radius: 18px !important;
+  border: 1px solid rgba(255,255,255,0.10) !important;
+  background: rgba(255,255,255,0.03) !important;
+  overflow: hidden !important;
+}
+@media (max-width: 980px){
+  .callsDash .mapFrame.mapFrameXL{ height: 460px !important; }
+}
+
+/* =========================================================
+   MAP FIX (SCOPED) — force choropleth to fill mapFrameXL
+   Add at the VERY END of .callsDash so it wins.
+========================================================= */
+
+/* 1) Ensure the map card body and frame can stretch */
+.callsDash .mapCard {
+  min-width: 0;
+}
+
+.callsDash .mapCard .mapFrameXL {
+  display: flex;            /* <-- key */
+  flex-direction: column;   /* <-- key */
+}
+
+/* 2) UsaChoroplethProgressMap internal wrappers must fill */
+.callsDash .mapFrameXL .choroplethWrap {
+  flex: 1;                  /* occupy remaining height */
+  min-height: 0;            /* allow proper flex sizing */
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+/* 3) The SVG container must stretch (most shrink issues come from here) */
+.callsDash .mapFrameXL .choroplethSvgWrap {
+  flex: 1;
+  min-height: 0;
+  height: 100%;
+  display: flex;
+}
+
+/* 4) SVG must fill available area (no mini thumbnail) */
+.callsDash .mapFrameXL .choroplethSvg {
+  width: 100% !important;
+  height: 100% !important;
+  display: block;
+}
+
+/* 5) If any global rule is forcing svg height:auto, this wins */
+.callsDash .mapFrameXL svg {
+  width: 100% !important;
+  height: 100% !important;
+}
+
+/* 6) Avoid accidental clipping of the top header of choropleth */
+.callsDash .mapFrameXL .choroplethTop {
+  flex: 0 0 auto;
+}
+
+/* Optional: keep labels crisp */
+.callsDash .mapFrameXL .stateLabel {
+  paint-order: stroke;
+  stroke: rgba(0,0,0,0.35);
+  stroke-width: 2px;
+}
+
+
+/* =========================================================
+   Hourly Heatmap (scoped to .callsDash)
+========================================================= */
+
+.callsDash .hmCard{
+  border:1px solid rgba(255,255,255,0.10);
+  background: rgba(255,255,255,0.03);
+  border-radius:18px;
+  padding:14px;
+  min-width: 0;
+}
+
+.callsDash .hmTop{
+  display:flex;
+  justify-content:space-between;
+  gap:12px;
+  align-items:flex-start;
+  flex-wrap:wrap;
+}
+
+.callsDash .hmTitle{
+  font-size:14px;
+  font-weight:900;
+}
+
+.callsDash .hmBadges{
+  display:flex;
+  gap:10px;
+  flex-wrap:wrap;
+}
+
+.callsDash .hmBadge{
+  border:1px solid rgba(255,255,255,0.10);
+  background: rgba(255,255,255,0.04);
+  border-radius:16px;
+  padding:10px 12px;
+  min-width: 140px;
+}
+
+.callsDash .hmBadgeLabel{ opacity: 0.75; }
+.callsDash .hmBadgeValue{ margin-top: 6px; }
+
+.callsDash .hmGridWrap{
+  margin-top: 12px;
+  display:grid;
+  grid-template-columns: 1fr 260px;
+  gap:12px;
+  align-items:start;
+}
+
+@media (max-width: 980px){
+  .callsDash .hmGridWrap{ grid-template-columns: 1fr; }
+}
+
+.callsDash .hmGrid{
+  border:1px solid rgba(255,255,255,0.10);
+  background: rgba(0,0,0,0.16);
+  border-radius:16px;
+  padding:10px;
+  overflow:auto;
+  min-width:0;
+
+  display:grid;
+  grid-template-columns: 56px repeat(24, 32px);
+  grid-auto-rows: 28px;
+  gap:6px;
+}
+
+.callsDash .hmCorner{
+  position: sticky;
+  left: 0;
+  background: rgba(0,0,0,0.18);
+  border-radius: 10px;
+}
+
+.callsDash .hmColHead{
+  font-size:11px;
+  color: rgba(255,255,255,0.70);
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  opacity: 0.9;
+}
+
+.callsDash .hmRow{
+  display: contents; /* clave: mantiene el grid “tabla” */
+}
+
+.callsDash .hmRowHead{
+  position: sticky;
+  left: 0;
+  z-index: 1;
+  font-size:12px;
+  font-weight:900;
+  color: rgba(255,255,255,0.82);
+
+  display:flex;
+  align-items:center;
+  justify-content:flex-start;
+
+  padding-left: 10px;
+  border-radius: 12px;
+  background: rgba(0,0,0,0.18);
+  border: 1px solid rgba(255,255,255,0.06);
+}
+
+.callsDash .hmCell{
+  border-radius: 12px;
+  border: 1px solid rgba(255,255,255,0.08);
+  background: rgba(80,255,170,var(--a,0.08));
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  cursor: default;
+  min-width: 32px;
+  min-height: 28px;
+}
+
+.callsDash .hmCellText{
+  font-size:11px;
+  font-weight:900;
+  color: rgba(255,255,255,0.82);
+}
+
+.callsDash .hmCellHover{
+  outline: 2px solid rgba(255,255,255,0.20);
+  outline-offset: 1px;
+}
+
+.callsDash .hmCellRisk{
+  border-color: rgba(255,120,120,0.26);
+  background: rgba(255,120,120,var(--a,0.10));
+}
+
+.callsDash .hmHover{
+  border:1px solid rgba(255,255,255,0.10);
+  background: rgba(255,255,255,0.03);
+  border-radius:16px;
+  padding:12px;
+  min-width:0;
+}
+
+.callsDash .hmHoverBox{ min-width:0; }
+.callsDash .hmHoverTitle{
+  font-size:12px;
+  font-weight: 900;
+  color: rgba(255,255,255,0.90);
+}
+
+/* ===== Filters row 2 (minimal chips) ===== */
+.callsDash .filtersRow2{
+  margin-top: 12px;
+  display:flex;
+  flex-direction:column;
+  gap:10px;
+}
+
+.callsDash .filtersChips{
+  display:flex;
+  flex-wrap:wrap;
+  gap:8px;
+  align-items:center;
+}
+
+/* Panel collapsible */
+.callsDash .filtersPanel{
+  border:1px solid rgba(255,255,255,0.10);
+  background: rgba(255,255,255,0.03);
+  border-radius:16px;
+  padding:12px;
+}
+
+.callsDash .filtersPanelGrid{
+  display:grid;
+  grid-template-columns: 1fr 1fr;
+  gap:12px;
+  align-items:start;
+}
+@media (max-width: 980px){
+  .callsDash .filtersPanelGrid{ grid-template-columns: 1fr; }
+}
+
+.callsDash .toggleRow{
+  grid-column: span 2;
+  display:flex;
+  gap:10px;
+  align-items:center;
+  padding-top: 6px;
+}
+@media (max-width: 980px){
+  .callsDash .toggleRow{ grid-column: auto; }
+}
+
+.callsDash .toggleRow input{
+  transform: translateY(1px);
+}
+
+/* ===== Custom date grid: no awkward empty column when Apply hidden ===== */
+.callsDash .dateGroup .dateInputs{
+  grid-template-columns: 1fr 1fr auto;
+}
+.callsDash .dateGroup .dateInputs .applyBtn{
+  min-width: 120px;
+}
+
+/* When Apply isn't rendered, keep layout tight */
+.callsDash .dateGroup .dateInputs > :last-child{
+  justify-self: end;
+}
+
+/* 3 arriba + 2 abajo (reusable KPI grid) */
+.callsDash .kpiGrid32 {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 12px;
+}
+
+.callsDash .kpiGrid32 > :nth-child(4),
+.callsDash .kpiGrid32 > :nth-child(5) {
+  grid-column: span 1;
+}
+
+/* en pantallas medianas baja a 2 columnas */
+@media (max-width: 980px) {
+  .callsDash .kpiGrid32 {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+/* en mobile: 1 columna */
+@media (max-width: 560px) {
+  .callsDash .kpiGrid32 {
+    grid-template-columns: 1fr;
+  }
+}
+
+
+
+/* =========================
+   GSC extras (inherits Calls UI)
+   ========================= */
+
+.callsDash .gscTopGrid{
+  display:grid;
+  grid-template-columns: 1fr 1fr;
+  gap:14px;
+}
+@media (max-width: 1100px){
+  .callsDash .gscTopGrid{ grid-template-columns: 1fr; }
+}
+
+.callsDash .gscTopCard{
+  border:1px solid rgba(255,255,255,0.10);
+  background: rgba(255,255,255,0.03);
+  border-radius:18px;
+  padding:14px;
+  min-width:0;
+}
+
+.callsDash .gscTopHead{
+  display:flex;
+  justify-content:space-between;
+  align-items:flex-start;
+  gap:12px;
+  margin-bottom:10px;
+}
+
+.callsDash .gscTopTitle{
+  font-size:14px;
+  font-weight:900;
+}
+
+/* Ensure map fills like Calls */
+.callsDash .mapCard{ min-width:0; }
+.callsDash .mapFrameXL{
+  display:flex;
+  flex-direction:column;
+  min-height:520px;
+}
+
+/* Table responsiveness */
+.callsDash .tableScrollX{
+  overflow:auto;
+  border-radius:14px;
+}
+.callsDash .tableScrollX table{
+  min-width: 860px; /* evita tablas "apretadas" */
+}
+
+/* Prevent "dense text" on long URLs */
+.callsDash td.mono, .callsDash .mono{
+  word-break: break-word;
+  overflow-wrap: anywhere;
+}
+
+/* ---- GSC extras ---- */
+.gscTopGrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 14px;
+}
+@media (max-width: 1100px) {
+  .gscTopGrid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.gscTopCard {
+  border: 1px solid rgba(255,255,255,0.08);
+  background: rgba(255,255,255,0.03);
+  border-radius: 18px;
+  padding: 12px;
+}
+
+.gscTopHead {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  margin-bottom: 10px;
+}
+
+.gscTopTitle {
+  font-weight: 700;
+}
+
+.tableScrollX {
+  overflow-x: auto;
+}
+
+/* segmented control (Day/Week/Month) */
+.seg {
+  display: inline-flex;
+  background: rgba(255,255,255,0.06);
+  border: 1px solid rgba(255,255,255,0.10);
+  border-radius: 999px;
+  padding: 4px;
+  gap: 4px;
+}
+.segBtn {
+  border: 0;
+  background: transparent;
+  padding: 8px 12px;
+  border-radius: 999px;
+  color: rgba(255,255,255,0.78);
+  cursor: pointer;
+}
+.segBtn:hover {
+  color: rgba(255,255,255,0.92);
+}
+.segOn {
+  background: rgba(255,255,255,0.10);
+  color: rgba(255,255,255,0.98);
+}
+
+/* =========================
+   GSC Compare / Trend polish
+   ========================= */
+
+.delta{
+  display:inline-flex;
+  align-items:center;
+  gap:6px;
+  margin-left:8px;
+  padding:2px 8px;
+  border-radius:999px;
+  font-size:12px;
+  font-weight:800;
+  border:1px solid rgba(255,255,255,0.10);
+}
+
+.deltaUp{
+  color: rgba(120, 255, 190, 0.95);
+  background: rgba(60, 255, 170, 0.10);
+}
+
+.deltaDown{
+  color: rgba(255, 140, 140, 0.95);
+  background: rgba(255, 90, 90, 0.10);
+}
+
+/* optional: pills in chart */
+.chartPill{
+  padding: 8px 12px;
+  border: 1px solid rgba(255,255,255,0.10);
+  background: rgba(255,255,255,0.04);
+  border-radius: 999px;
+}
+
+/* Optional: funnel emphasis */
+.table .td b {
+  font-weight: 650;
+}
+
+.mono {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono",
+    "Courier New", monospace;
+}
+
+/* GA dashboard tweaks (inherits callsDash/gscDash look) */
+.gaDash .cardTitle {
+  letter-spacing: 0.2px;
+}
+
+.gaDash .badge {
+  opacity: 0.9;
+}
+
+.gaDash .kpi .l {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
+/* =========================
+   GA Map Layout (2nd image)
+   ========================= */
+
+.gaDash .gaDashMapGrid{
+  display:grid;
+  grid-template-columns: 1.25fr 0.95fr;
+  gap:14px;
+  align-items:start;
+}
+
+@media (max-width: 1100px){
+  .gaDash .gaDashMapGrid{
+    grid-template-columns: 1fr;
+  }
+}
+
+/* subtle: make state panel feel pinned visually */
+.gaDash .gaDashStatePanel{
+  border: 1px solid rgba(255,255,255,0.08);
+  background: rgba(255,255,255,0.02);
+}
+
+/* =========================
+   GA Map (d3-geo / us-atlas)
+   ========================= */
+
+.gaDash .gaMapWrap {
+  border: 1px solid rgba(255,255,255,0.08);
+  background: rgba(255,255,255,0.02);
+  border-radius: 14px;
+  overflow: hidden;
+}
+
+.gaDash .gaMapTop {
+  padding: 14px 14px 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+.gaDash .gaMapTitle {
+  font-size: 14px;
+  font-weight: 650;
+  letter-spacing: 0.2px;
+}
+
+.gaDash .gaMapHover {
+  border: 1px solid rgba(255,255,255,0.10);
+  background: rgba(255,255,255,0.03);
+  padding: 8px 10px;
+  border-radius: 12px;
+  max-width: 360px;
+  text-align: right;
+}
+
+.gaDash .gaMapSvgWrap {
+  padding: 8px 10px 12px;
+}
+
+.gaDash .gaMapSvg {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 12px;
+}
+
+/* ✅ Better color feel:
+   Use a soft greenish glow like your dashboards (not pure gray).
+   If you prefer grayscale only, I can revert to rgba(255,255,255,..).
+*/
+.gaDash .gaMapState {
+  stroke: rgba(255,255,255,0.16);
+  stroke-width: 0.75;
+  fill: rgba(120, 255, 210, var(--fillA, 0.10));
+  transition: 140ms ease;
+  cursor: pointer;
+}
+
+.gaDash .gaMapState:hover {
+  filter: brightness(1.12) drop-shadow(0 10px 22px rgba(120,255,210,0.10));
+  stroke: rgba(255,255,255,0.28);
+}
+
+.gaDash .gaMapStateSel {
+  filter: brightness(1.18) drop-shadow(0 14px 28px rgba(120,255,210,0.16));
+}
+
+.gaDash .gaMapStateSel .gaMapState,
+.gaDash .gaMapState.gaMapStateSel {
+  stroke: rgba(120,255,210,0.65);
+  stroke-width: 1.45;
+}
+
+.gaDash .gaMapLabel {
+  fill: rgba(255,255,255,0.80);
+  font-size: 11px;
+  font-weight: 650;
+  pointer-events: none;
+  paint-order: stroke;
+  stroke: rgba(0,0,0,0.42);
+  stroke-width: 2px;
+  stroke-linejoin: round;
+}
+
+/* =========================
+   AI Panel (GA/GSC shared)
+   ========================= */
+.aiBox {
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 16px;
+  background: rgba(255, 255, 255, 0.03);
+  padding: 14px;
+}
+
+.aiBoxTop {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 12px;
+  margin-bottom: 10px;
+}
+
+.aiTitle {
+  font-weight: 700;
+  letter-spacing: 0.2px;
+}
+
+.aiHint {
+  margin-top: 10px;
+  padding: 10px 12px;
+  border-radius: 12px;
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid rgba(255, 255, 255, 0.06);
+  font-size: 12px;
+  opacity: 0.85;
+}
+
+.aiErr {
+  margin-top: 10px;
+  padding: 10px 12px;
+  border-radius: 12px;
+  background: rgba(255, 80, 80, 0.08);
+  border: 1px solid rgba(255, 80, 80, 0.18);
+}
+
+.aiBody {
+  margin-top: 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.aiExecutive {
+  font-size: 13px;
+  line-height: 1.45;
+  opacity: 0.95;
+}
+
+.aiScoreRow {
+  display: grid;
+  grid-template-columns: 160px 1fr 1fr;
+  gap: 10px;
+}
+
+@media (max-width: 900px) {
+  .aiScoreRow {
+    grid-template-columns: 1fr;
+  }
+}
+
+.aiScore {
+  padding: 10px 12px;
+  border-radius: 14px;
+  background: rgba(255, 255, 255, 0.035);
+  border: 1px solid rgba(255, 255, 255, 0.06);
+}
+
+.aiBadge {
+  display: inline-flex;
+  align-items: center;
+  padding: 4px 10px;
+  border-radius: 999px;
+  font-size: 12px;
+  font-weight: 700;
+  margin-top: 6px;
+}
+
+.aiBadge-good {
+  background: rgba(80, 200, 120, 0.16);
+  border: 1px solid rgba(80, 200, 120, 0.25);
+}
+.aiBadge-mixed {
+  background: rgba(255, 200, 80, 0.14);
+  border: 1px solid rgba(255, 200, 80, 0.22);
+}
+.aiBadge-bad {
+  background: rgba(255, 80, 80, 0.14);
+  border: 1px solid rgba(255, 80, 80, 0.22);
+}
+
+.aiScoreText {
+  margin-top: 6px;
+  font-size: 13px;
+  line-height: 1.35;
+  opacity: 0.95;
+}
+
+.aiSection {
+  padding: 10px 12px;
+  border-radius: 14px;
+  background: rgba(255, 255, 255, 0.02);
+  border: 1px solid rgba(255, 255, 255, 0.06);
+}
+
+.aiSectionTitle {
+  font-weight: 700;
+  font-size: 13px;
+  margin-bottom: 10px;
+}
+
+.aiCards {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 10px;
+}
+
+.aiCard {
+  padding: 10px 12px;
+  border-radius: 14px;
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid rgba(255, 255, 255, 0.06);
+}
+
+.aiCardTop {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  margin-bottom: 8px;
+}
+
+.aiCardTitle {
+  font-weight: 700;
+  font-size: 13px;
+}
+
+.aiImpact {
+  font-size: 11px;
+  font-weight: 800;
+  padding: 3px 8px;
+  border-radius: 999px;
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  opacity: 0.9;
+}
+.aiImpact-low {
+  background: rgba(255, 255, 255, 0.04);
+}
+.aiImpact-medium {
+  background: rgba(120, 160, 255, 0.10);
+}
+.aiImpact-high {
+  background: rgba(80, 200, 120, 0.14);
+}
+
+.aiP {
+  font-size: 13px;
+  line-height: 1.4;
+  opacity: 0.95;
+}
+
+.aiList {
+  margin: 8px 0 0;
+  padding-left: 18px;
+  font-size: 13px;
+  line-height: 1.45;
+  opacity: 0.95;
+}
+
+.aiGrid2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+}
+
+@media (max-width: 900px) {
+  .aiGrid2 {
+    grid-template-columns: 1fr;
+  }
+}
+
+
+/* Contacts dashboard loading overlay */
+.contactsDash {
+  position: relative;
+}
+
+.contactsDash .dashLoadingOverlay {
+  position: fixed;
+  inset: 0;
+  z-index: 120;
+  background: rgba(12, 16, 24, 0.56);
+  backdrop-filter: blur(3px);
+  -webkit-backdrop-filter: blur(3px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  pointer-events: all;
+}
+
+.contactsDash .dashLoadingCard {
+  border: 1px solid rgba(255, 255, 255, 0.16);
+  background: rgba(34, 41, 53, 0.92);
+  border-radius: 16px;
+  box-shadow: 0 18px 44px rgba(0, 0, 0, 0.42);
+  padding: 16px 18px;
+  min-width: 280px;
+  text-align: center;
+}
+
+.contactsDash .dashLoadingText {
+  margin-top: 10px;
+  font-size: 13px;
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.contactsDash .dashSpinner {
+  width: 30px;
+  height: 30px;
+  margin: 0 auto;
+  border-radius: 50%;
+  border: 3px solid rgba(255, 255, 255, 0.2);
+  border-top-color: rgba(96, 165, 250, 0.95);
+  animation: contactsSpin 0.9s linear infinite;
+}
+
+@keyframes contactsSpin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* Executive dashboard loading overlay */
+.ceoDash {
+  position: relative;
+}
+
+.ceoDash .dashLoadingOverlay {
+  position: fixed;
+  inset: 0;
+  z-index: 130;
+  background: rgba(12, 16, 24, 0.56);
+  backdrop-filter: blur(3px);
+  -webkit-backdrop-filter: blur(3px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  pointer-events: all;
+}
+
+.ceoDash .dashLoadingCard {
+  border: 1px solid rgba(255, 255, 255, 0.16);
+  background: rgba(34, 41, 53, 0.92);
+  border-radius: 16px;
+  box-shadow: 0 18px 44px rgba(0, 0, 0, 0.42);
+  padding: 16px 18px;
+  min-width: 280px;
+  text-align: center;
+}
+
+.ceoDash .dashLoadingText {
+  margin-top: 10px;
+  font-size: 13px;
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.ceoDash .dashSpinner {
+  width: 30px;
+  height: 30px;
+  margin: 0 auto;
+  border-radius: 50%;
+  border: 3px solid rgba(255, 255, 255, 0.2);
+  border-top-color: rgba(96, 165, 250, 0.95);
+  animation: ceoSpin 0.9s linear infinite;
+}
+
+@keyframes ceoSpin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* Executive dashboard module cards */
+.ceoDash .moduleGrid {
+  display: grid;
+  grid-template-columns: repeat(5, minmax(220px, 1fr));
+  gap: 12px;
+}
+
+@media (max-width: 1500px) {
+  .ceoDash .moduleGrid {
+    grid-template-columns: repeat(3, minmax(220px, 1fr));
+  }
+}
+
+@media (max-width: 980px) {
+  .ceoDash .moduleGrid {
+    grid-template-columns: repeat(2, minmax(200px, 1fr));
+  }
+}
+
+@media (max-width: 680px) {
+  .ceoDash .moduleGrid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.ceoDash .moduleCard {
+  border: 1px solid rgba(255, 255, 255, 0.10);
+  background:
+    linear-gradient(180deg, rgba(255, 255, 255, 0.05), rgba(255, 255, 255, 0.03));
+  border-radius: 22px;
+  padding: 16px;
+  min-height: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  min-width: 0;
+}
+
+.ceoDash .moduleTop {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.ceoDash .moduleTitle {
+  margin: 0;
+  font-size: 15px;
+  line-height: 1.2;
+  font-weight: 700;
+  color: rgba(255, 255, 255, 0.88);
+}
+
+.ceoDash .moduleValue {
+  font-size: clamp(26px, 2.2vw, 38px);
+  line-height: 1.05;
+  margin-top: 4px;
+  color: rgba(255, 255, 255, 0.90);
+  font-weight: 800;
+  letter-spacing: -0.2px;
+}
+
+.ceoDash .moduleLine {
+  margin-top: 8px;
+  font-size: 12px;
+  line-height: 1.35;
+  color: rgba(255, 255, 255, 0.82);
+}
+
+.ceoDash .moduleStats {
+  margin-top: 14px;
+  display: grid;
+  gap: 10px;
+}
+
+.ceoDash .moduleStat {
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  background: rgba(255, 255, 255, 0.03);
+  border-radius: 14px;
+  padding: 10px 12px;
+}
+
+.ceoDash .moduleStatLabel {
+  font-size: 11px;
+  color: rgba(255, 255, 255, 0.62);
+  letter-spacing: 0.2px;
+}
+
+.ceoDash .moduleStatValue {
+  margin-top: 4px;
+  font-size: clamp(18px, 1.45vw, 28px);
+  line-height: 1.12;
+  color: rgba(255, 255, 255, 0.95);
+  font-weight: 750;
+  word-break: break-word;
+  overflow-wrap: anywhere;
+  font-variant-numeric: tabular-nums;
+}
+
+.ceoDash .moduleDelta {
+  margin-top: 0;
+  font-size: 13px;
+  font-weight: 700;
+  padding: 5px 9px;
+  border-radius: 8px;
+  width: auto;
+  max-width: 110px;
+  text-align: center;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  backdrop-filter: blur(2px);
+}
+
+.ceoDash .moduleDelta.deltaUp {
+  color: #79f2c0;
+  background: rgba(58, 176, 129, 0.16);
+  border-color: rgba(58, 176, 129, 0.34);
+}
+
+.ceoDash .moduleDelta.deltaDown {
+  color: #ff8d92;
+  background: rgba(190, 82, 94, 0.16);
+  border-color: rgba(190, 82, 94, 0.34);
+}
+
+.ceoDash .moduleActions {
+  margin-top: auto;
+  padding-top: 16px;
+}
+
+.ceoDash .moduleBtn {
+  display: inline-flex;
+  width: 100%;
+  justify-content: center;
+  text-align: center;
+  white-space: normal;
+  line-height: 1.2;
+  min-height: 46px;
+  align-items: center;
+  font-weight: 650;
+}
+
+.ceoDash .kpi .n {
+  white-space: normal;
+}
+
+.ceoDash .cardSubtitle {
+  max-width: 900px;
+}
+
+/* Shared AI chat panel */
+.aiChatCard {
+  border: 1px solid rgba(255, 255, 255, 0.10);
+  background: rgba(255, 255, 255, 0.04);
+  border-radius: 18px;
+  padding: 14px;
+}
+
+.aiChatTop {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.aiChatBody {
+  margin-top: 12px;
+  display: grid;
+  grid-template-columns: 1.5fr 1fr;
+  gap: 10px;
+}
+
+@media (max-width: 980px) {
+  .aiChatBody {
+    grid-template-columns: 1fr;
+  }
+}
+
+.aiChatMessages {
+  border: 1px solid rgba(255,255,255,0.08);
+  background: rgba(0,0,0,0.18);
+  border-radius: 14px;
+  padding: 10px;
+  max-height: 360px;
+  overflow: auto;
+}
+
+.aiMsg {
+  border: 1px solid rgba(255,255,255,0.08);
+  border-radius: 12px;
+  padding: 8px 10px;
+  margin-bottom: 8px;
+}
+
+.aiMsgUser {
+  background: rgba(96,165,250,0.10);
+  border-color: rgba(96,165,250,0.22);
+}
+
+.aiMsgAssistant {
+  background: rgba(255,255,255,0.03);
+}
+
+.aiMsgMeta {
+  display: flex;
+  justify-content: space-between;
+  gap: 8px;
+  font-size: 11px;
+  color: rgba(255,255,255,0.62);
+}
+
+.aiMsgText {
+  margin-top: 6px;
+  font-size: 12px;
+  line-height: 1.4;
+  white-space: pre-wrap;
+}
+
+.aiFeed {
+  border: 1px solid rgba(255,255,255,0.08);
+  background: rgba(255,255,255,0.03);
+  border-radius: 14px;
+  padding: 10px;
+  max-height: 360px;
+  overflow: auto;
+}
+
+.aiFeedList {
+  display: grid;
+  gap: 8px;
+}
+
+.aiFeedItem {
+  border: 1px solid rgba(255,255,255,0.08);
+  border-radius: 10px;
+  padding: 8px;
+  background: rgba(0,0,0,0.16);
+}
+
+.aiFeedMeta {
+  display: flex;
+  justify-content: space-between;
+  gap: 8px;
+  font-size: 10px;
+  color: rgba(255,255,255,0.62);
+}
+
+.aiFeedText {
+  margin-top: 6px;
+  font-size: 11px;
+  line-height: 1.35;
+  color: rgba(255,255,255,0.86);
+}
+
+.aiChatComposer {
+  margin-top: 10px;
+  display: grid;
+  gap: 8px;
+}
+
+.aiChatInput {
+  resize: vertical;
+  min-height: 84px;
 }

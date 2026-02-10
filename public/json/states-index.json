@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-02-02T05:31:55.542Z",
+  "generatedAt": "2026-02-10T06:33:08.538Z",
   "baseUrl": "https://sitemaps.mydripnurse.com",
   "states": [
     {
@@ -57,6 +57,13 @@
       "stateJsonUrl": "https://sitemaps.mydripnurse.com/resources/statesFiles/delaware.json",
       "stateFileUrl": "https://sitemaps.mydripnurse.com/resources/statesFiles/delaware.json",
       "url": "https://sitemaps.mydripnurse.com/resources/statesFiles/delaware.json"
+    },
+    {
+      "stateName": "Florida",
+      "stateSlug": "florida",
+      "stateJsonUrl": "https://sitemaps.mydripnurse.com/resources/statesFiles/florida.json",
+      "stateFileUrl": "https://sitemaps.mydripnurse.com/resources/statesFiles/florida.json",
+      "url": "https://sitemaps.mydripnurse.com/resources/statesFiles/florida.json"
     },
     {
       "stateName": "Georgia",

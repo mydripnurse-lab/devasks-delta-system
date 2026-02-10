@@ -10,10 +10,7 @@ import { loadTokens, getTokens } from "../services/tokenStore.js";
 import { ghlFetch } from "../services/ghlClient.js";
 import { getLocationAccessToken } from "../services/ghlLocationToken.js";
 
-import {
-    loadSheetTabIndex,
-    makeCompositeKey,
-} from "../services/sheetsClient.js";
+import { loadSheetTabIndex, makeCompositeKey } from "../services/sheetsClient.js";
 
 // =====================
 // PATHS / CONFIG
@@ -45,9 +42,32 @@ const CITY_TAB = process.env.GOOGLE_SHEET_CITY_TAB || "Cities";
 const GHL_RPM = Number(process.env.GHL_RPM || "80");
 const MIN_MS_BETWEEN_GHL_CALLS = Math.ceil(60000 / Math.max(1, GHL_RPM));
 
-// Flags
-const isDryRun = process.argv.includes("--dry-run");
-const DEBUG = process.argv.includes("--debug") || process.env.DEBUG === "1";
+// =====================
+// FLAGS (UPDATED)
+// =====================
+function getArgValue(prefix) {
+    const a = process.argv.find((x) => String(x).startsWith(prefix));
+    if (!a) return "";
+    const i = a.indexOf("=");
+    return i >= 0 ? a.slice(i + 1).trim() : "";
+}
+
+const MODE_ARG = getArgValue("--mode=") || String(process.env.MODE || "").trim();
+const STATE_ARG =
+    getArgValue("--state=") ||
+    String(process.env.STATE || process.env.DELTA_STATE || "").trim();
+
+const DEBUG =
+    getArgValue("--debug=") === "1" ||
+    process.argv.includes("--debug") ||
+    process.env.DEBUG === "1";
+
+// ✅ supports both --dry-run and --mode=dry
+const isDryRun =
+    process.argv.includes("--dry-run") ||
+    MODE_ARG.toLowerCase() === "dry" ||
+    MODE_ARG.toLowerCase() === "dryrun" ||
+    MODE_ARG.toLowerCase() === "dry-run";
 
 // CV retry tuning
 const GHL_CV_MAX_RETRIES = Number(process.env.GHL_CV_MAX_RETRIES || "6");
@@ -173,6 +193,27 @@ async function promptStateChoice(states) {
     return null;
 }
 
+// ✅ NEW: pick state from args (no prompt)
+function pickStateFromArgs(states) {
+    const slug = String(STATE_ARG || "").toLowerCase().trim();
+    if (!slug) return null;
+
+    if (slug === "all") return { mode: "all" };
+
+    const found = states.find((s) => s.slug === slug);
+    if (found) return { mode: "one", slug: found.slug };
+
+    // allow passing the state slug as positional (last arg) for CLI convenience
+    const last = String(process.argv[process.argv.length - 1] || "").trim().toLowerCase();
+    if (last && last !== "0" && last !== "1" && last !== "true" && last !== "false") {
+        const found2 = states.find((s) => s.slug === last);
+        if (found2) return { mode: "one", slug: found2.slug };
+        if (last === "all") return { mode: "all" };
+    }
+
+    return null;
+}
+
 // =====================
 // Custom Values helpers
 // =====================
@@ -221,13 +262,7 @@ async function ghlGetCustomValues({ locationId, locationToken }) {
     });
 }
 
-async function ghlUpdateCustomValue({
-    locationId,
-    locationToken,
-    customValueId,
-    value,
-    customValueName,
-}) {
+async function ghlUpdateCustomValue({ locationId, locationToken, customValueId, value, customValueName }) {
     await ghlThrottle();
     const safeValue = value === undefined || value === null ? "" : String(value);
 
@@ -242,12 +277,7 @@ async function ghlUpdateCustomValue({
     });
 }
 
-async function getCustomValuesWithRetry({
-    locationId,
-    locationToken,
-    maxRetries = 6,
-    initialDelayMs = 800,
-}) {
+async function getCustomValuesWithRetry({ locationId, locationToken, maxRetries = 6, initialDelayMs = 800 }) {
     let attempt = 0;
     let delay = initialDelayMs;
 
@@ -307,7 +337,13 @@ async function getLocToken(locationId) {
 // =====================
 function getEntityDomain(entity, parentCounty) {
     if (entity?.type === "county") return entity?.countyDomain || entity?.parishDomain || "";
-    if (entity?.type === "city") return entity?.cityDomain || parentCounty?.countyDomain || parentCounty?.parishDomain || "";
+    if (entity?.type === "city")
+        return (
+            entity?.cityDomain ||
+            parentCounty?.countyDomain ||
+            parentCounty?.parishDomain ||
+            ""
+        );
     return "";
 }
 
@@ -425,28 +461,13 @@ async function updateLocationCustomValues({ locationId, entityLabel, extras, ser
 }
 
 // =====================
-// MAIN
+// RUN ONE STATE (NEW)
 // =====================
-async function main() {
-    if (!SPREADSHEET_ID) throw new Error("Missing GOOGLE_SHEET_ID in .env");
+async function runOneState({ slug, jsonPath }) {
+    const stateJson = await readJson(jsonPath);
 
-    await loadTokens();
-
-    const outStates = await listOutStates();
-    if (!outStates.length) {
-        throw new Error(`No states found in ${OUT_ROOT} (expected scripts/out/<slug>/<slug>.json)`);
-    }
-
-    const choice = await promptStateChoice(outStates);
-    if (!choice) throw new Error("Invalid state selection.");
-
-    const selected = outStates.find((s) => s.slug === choice.slug);
-    if (!selected) throw new Error("Selected state not found.");
-
-    const stateJson = await readJson(selected.jsonPath);
-
-    const stateSlug = stateJson.stateSlug || selected.slug;
-    const stateName = stateJson.stateName || stateJson.name || selected.slug;
+    const stateSlug = stateJson.stateSlug || slug;
+    const stateName = stateJson.stateName || stateJson.name || slug;
 
     console.log(`\n🏁 RUN STATE: ${stateSlug} (${stateName})`);
     console.log(`➡️ Rule: Status=TRUE + Location Id not empty -> update CVs (one-by-one)\n`);
@@ -475,14 +496,25 @@ async function main() {
     });
 
     if (!countyTabIndex?.mapByKeyValue?.get || !cityTabIndex?.mapByKeyValue?.get) {
-        throw new Error("Sheet tabIndex mapByKeyValue not available. (loadSheetTabIndex must provide mapByKeyValue)");
+        throw new Error(
+            "Sheet tabIndex mapByKeyValue not available. (loadSheetTabIndex must provide mapByKeyValue)"
+        );
     }
 
     // The state JSON usually contains counties and their cities
     const counties = Array.isArray(stateJson?.counties) ? stateJson.counties : [];
     if (!counties.length) {
         console.log("⚠️ No counties found in state JSON -> nothing to do.");
-        return;
+        return {
+            stateSlug,
+            scanned: 0,
+            foundRow: 0,
+            eligible: 0,
+            updatedTotal: 0,
+            noMatchTotal: 0,
+            failedTotal: 0,
+            skippedTotal: 0,
+        };
     }
 
     let scanned = 0;
@@ -624,7 +656,7 @@ async function main() {
     }
 
     console.log("\n--------------------------------------------------");
-    console.log(`📌 SUMMARY`);
+    console.log(`📌 SUMMARY (${stateSlug})`);
     console.log(`scanned entities: ${scanned}`);
     console.log(`sheet rows found: ${foundRow}`);
     console.log(`eligible rows:    ${eligible}`);
@@ -632,6 +664,81 @@ async function main() {
     console.log(`no-match CVs:     ${noMatchTotal}`);
     console.log(`failed updates:   ${failedTotal}`);
     console.log(`skipped:          ${skippedTotal}`);
+
+    return { stateSlug, scanned, foundRow, eligible, updatedTotal, noMatchTotal, failedTotal, skippedTotal };
+}
+
+// =====================
+// MAIN (UPDATED: supports --state and --state=all without prompt)
+// =====================
+async function main() {
+    if (!SPREADSHEET_ID) throw new Error("Missing GOOGLE_SHEET_ID in .env");
+
+    await loadTokens();
+
+    const outStates = await listOutStates();
+    if (!outStates.length) {
+        throw new Error(`No states found in ${OUT_ROOT} (expected scripts/out/<slug>/<slug>.json)`);
+    }
+
+    // ✅ If we have --state=... -> skip prompt
+    const argPick = pickStateFromArgs(outStates);
+
+    if (argPick?.mode === "all") {
+        console.log(`\n🏁 RUN ALL STATES (${outStates.length})`);
+        console.log(`➡️ Rule: Status=TRUE + Location Id not empty -> update CVs (one-by-one)\n`);
+        console.log(`Throttle: GHL_RPM=${GHL_RPM} => min ${MIN_MS_BETWEEN_GHL_CALLS}ms between calls`);
+        console.log(`Mode: ${isDryRun ? "DRY" : "LIVE"} | Debug: ${DEBUG ? "ON" : "OFF"}\n`);
+
+        // Optional: keep a grand summary
+        let total = {
+            scanned: 0,
+            foundRow: 0,
+            eligible: 0,
+            updatedTotal: 0,
+            noMatchTotal: 0,
+            failedTotal: 0,
+            skippedTotal: 0,
+        };
+
+        for (const st of outStates) {
+            const r = await runOneState(st);
+            total.scanned += r.scanned || 0;
+            total.foundRow += r.foundRow || 0;
+            total.eligible += r.eligible || 0;
+            total.updatedTotal += r.updatedTotal || 0;
+            total.noMatchTotal += r.noMatchTotal || 0;
+            total.failedTotal += r.failedTotal || 0;
+            total.skippedTotal += r.skippedTotal || 0;
+        }
+
+        console.log("\n==================================================");
+        console.log("📌 GRAND SUMMARY (ALL STATES)");
+        console.log(`scanned entities: ${total.scanned}`);
+        console.log(`sheet rows found: ${total.foundRow}`);
+        console.log(`eligible rows:    ${total.eligible}`);
+        console.log(`updated CVs:      ${total.updatedTotal}`);
+        console.log(`no-match CVs:     ${total.noMatchTotal}`);
+        console.log(`failed updates:   ${total.failedTotal}`);
+        console.log(`skipped:          ${total.skippedTotal}`);
+        return;
+    }
+
+    if (argPick?.mode === "one") {
+        const selected = outStates.find((s) => s.slug === argPick.slug);
+        if (!selected) throw new Error(`State "${argPick.slug}" not found in scripts/out.`);
+        await runOneState(selected);
+        return;
+    }
+
+    // Fallback: interactive prompt (CLI usage)
+    const choice = await promptStateChoice(outStates);
+    if (!choice) throw new Error("Invalid state selection.");
+
+    const selected = outStates.find((s) => s.slug === choice.slug);
+    if (!selected) throw new Error("Selected state not found.");
+
+    await runOneState(selected);
 }
 
 main().catch((e) => {

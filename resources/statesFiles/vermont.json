@@ -1,0 +1,1646 @@
+{
+    "counties": [
+        {
+            "countyName": "Addison",
+            "cities": [
+                {
+                    "cityName": "Bridport",
+                    "cityDomain": "https://bridport-city-vt.mydripnurse.com",
+                    "citySitemap": "https://bridport-city-vt.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Bristol",
+                    "cityDomain": "https://bristol-city-vt.mydripnurse.com",
+                    "citySitemap": "https://bristol-city-vt.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "East Middlebury",
+                    "cityDomain": "https://east-middlebury-city-vt.mydripnurse.com",
+                    "citySitemap": "https://east-middlebury-city-vt.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Ferrisburgh",
+                    "cityDomain": "https://ferrisburgh-city-vt.mydripnurse.com",
+                    "citySitemap": "https://ferrisburgh-city-vt.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Granville",
+                    "cityDomain": "https://granville-city-vt.mydripnurse.com",
+                    "citySitemap": "https://granville-city-vt.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Hancock",
+                    "cityDomain": "https://hancock-city-vt.mydripnurse.com",
+                    "citySitemap": "https://hancock-city-vt.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Middlebury",
+                    "cityDomain": "https://middlebury-city-vt.mydripnurse.com",
+                    "citySitemap": "https://middlebury-city-vt.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Monkton",
+                    "cityDomain": "https://monkton-city-vt.mydripnurse.com",
+                    "citySitemap": "https://monkton-city-vt.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "New Haven",
+                    "cityDomain": "https://new-haven-city-vt.mydripnurse.com",
+                    "citySitemap": "https://new-haven-city-vt.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "North Ferrisburgh",
+                    "cityDomain": "https://north-ferrisburgh-city-vt.mydripnurse.com",
+                    "citySitemap": "https://north-ferrisburgh-city-vt.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Orwell",
+                    "cityDomain": "https://orwell-city-vt.mydripnurse.com",
+                    "citySitemap": "https://orwell-city-vt.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Ripton",
+                    "cityDomain": "https://ripton-city-vt.mydripnurse.com",
+                    "citySitemap": "https://ripton-city-vt.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Roxbury",
+                    "cityDomain": "https://roxbury-city-vt.mydripnurse.com",
+                    "citySitemap": "https://roxbury-city-vt.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Salisbury",
+                    "cityDomain": "https://salisbury-city-vt.mydripnurse.com",
+                    "citySitemap": "https://salisbury-city-vt.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Shoreham",
+                    "cityDomain": "https://shoreham-city-vt.mydripnurse.com",
+                    "citySitemap": "https://shoreham-city-vt.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Starksboro",
+                    "cityDomain": "https://starksboro-city-vt.mydripnurse.com",
+                    "citySitemap": "https://starksboro-city-vt.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Vergennes",
+                    "cityDomain": "https://vergennes-city-vt.mydripnurse.com",
+                    "citySitemap": "https://vergennes-city-vt.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Whiting",
+                    "cityDomain": "https://whiting-city-vt.mydripnurse.com",
+                    "citySitemap": "https://whiting-city-vt.mydripnurse.com/sitemap.xml"
+                }
+            ],
+            "Timezone": {
+                "Name": "Eastern",
+                "Zone": "US/Eastern",
+                "UTC_Offset": "-05:00"
+            },
+            "countyDomain": "https://addison-county-vt.mydripnurse.com",
+            "countySitemap": "https://addison-county-vt.mydripnurse.com/sitemap.xml",
+            "sitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\\n  <sitemap>\\n    <loc>https://addison-county-vt.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://bridport-city-vt.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://bristol-city-vt.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://east-middlebury-city-vt.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://ferrisburgh-city-vt.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://granville-city-vt.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://hancock-city-vt.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://middlebury-city-vt.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://monkton-city-vt.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://new-haven-city-vt.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://north-ferrisburgh-city-vt.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://orwell-city-vt.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://ripton-city-vt.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://roxbury-city-vt.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://salisbury-city-vt.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://shoreham-city-vt.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://starksboro-city-vt.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://vergennes-city-vt.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://whiting-city-vt.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n</sitemapindex>"
+        },
+        {
+            "countyName": "Bennington",
+            "cities": [
+                {
+                    "cityName": "Arlington",
+                    "cityDomain": "https://arlington-city-vt.mydripnurse.com",
+                    "citySitemap": "https://arlington-city-vt.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Bennington",
+                    "cityDomain": "https://bennington-city-vt.mydripnurse.com",
+                    "citySitemap": "https://bennington-city-vt.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Bondville",
+                    "cityDomain": "https://bondville-city-vt.mydripnurse.com",
+                    "citySitemap": "https://bondville-city-vt.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Dorset",
+                    "cityDomain": "https://dorset-city-vt.mydripnurse.com",
+                    "citySitemap": "https://dorset-city-vt.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "East Arlington",
+                    "cityDomain": "https://east-arlington-city-vt.mydripnurse.com",
+                    "citySitemap": "https://east-arlington-city-vt.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "East Dorset",
+                    "cityDomain": "https://east-dorset-city-vt.mydripnurse.com",
+                    "citySitemap": "https://east-dorset-city-vt.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Manchester",
+                    "cityDomain": "https://manchester-city-vt.mydripnurse.com",
+                    "citySitemap": "https://manchester-city-vt.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Manchester Center",
+                    "cityDomain": "https://manchester-center-city-vt.mydripnurse.com",
+                    "citySitemap": "https://manchester-center-city-vt.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "North Bennington",
+                    "cityDomain": "https://north-bennington-city-vt.mydripnurse.com",
+                    "citySitemap": "https://north-bennington-city-vt.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "North Pownal",
+                    "cityDomain": "https://north-pownal-city-vt.mydripnurse.com",
+                    "citySitemap": "https://north-pownal-city-vt.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Peru",
+                    "cityDomain": "https://peru-city-vt.mydripnurse.com",
+                    "citySitemap": "https://peru-city-vt.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Pownal",
+                    "cityDomain": "https://pownal-city-vt.mydripnurse.com",
+                    "citySitemap": "https://pownal-city-vt.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Readsboro",
+                    "cityDomain": "https://readsboro-city-vt.mydripnurse.com",
+                    "citySitemap": "https://readsboro-city-vt.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Rupert",
+                    "cityDomain": "https://rupert-city-vt.mydripnurse.com",
+                    "citySitemap": "https://rupert-city-vt.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Shaftsbury",
+                    "cityDomain": "https://shaftsbury-city-vt.mydripnurse.com",
+                    "citySitemap": "https://shaftsbury-city-vt.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Stamford",
+                    "cityDomain": "https://stamford-city-vt.mydripnurse.com",
+                    "citySitemap": "https://stamford-city-vt.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "West Rupert",
+                    "cityDomain": "https://west-rupert-city-vt.mydripnurse.com",
+                    "citySitemap": "https://west-rupert-city-vt.mydripnurse.com/sitemap.xml"
+                }
+            ],
+            "Timezone": {
+                "Name": "Eastern",
+                "Zone": "US/Eastern",
+                "UTC_Offset": "-05:00"
+            },
+            "countyDomain": "https://bennington-county-vt.mydripnurse.com",
+            "countySitemap": "https://bennington-county-vt.mydripnurse.com/sitemap.xml",
+            "sitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\\n  <sitemap>\\n    <loc>https://bennington-county-vt.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://arlington-city-vt.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://bennington-city-vt.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://bondville-city-vt.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://dorset-city-vt.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://east-arlington-city-vt.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://east-dorset-city-vt.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://manchester-city-vt.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://manchester-center-city-vt.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://north-bennington-city-vt.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://north-pownal-city-vt.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://peru-city-vt.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://pownal-city-vt.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://readsboro-city-vt.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://rupert-city-vt.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://shaftsbury-city-vt.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://stamford-city-vt.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://west-rupert-city-vt.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n</sitemapindex>"
+        },
+        {
+            "countyName": "Caledonia",
+            "cities": [
+                {
+                    "cityName": "Barnet",
+                    "cityDomain": "https://barnet-city-vt.mydripnurse.com",
+                    "citySitemap": "https://barnet-city-vt.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Danville",
+                    "cityDomain": "https://danville-city-vt.mydripnurse.com",
+                    "citySitemap": "https://danville-city-vt.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "East Burke",
+                    "cityDomain": "https://east-burke-city-vt.mydripnurse.com",
+                    "citySitemap": "https://east-burke-city-vt.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "East Hardwick",
+                    "cityDomain": "https://east-hardwick-city-vt.mydripnurse.com",
+                    "citySitemap": "https://east-hardwick-city-vt.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "East Ryegate",
+                    "cityDomain": "https://east-ryegate-city-vt.mydripnurse.com",
+                    "citySitemap": "https://east-ryegate-city-vt.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "East Saint Johnsbury",
+                    "cityDomain": "https://east-saint-johnsbury-city-vt.mydripnurse.com",
+                    "citySitemap": "https://east-saint-johnsbury-city-vt.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Groton",
+                    "cityDomain": "https://groton-city-vt.mydripnurse.com",
+                    "citySitemap": "https://groton-city-vt.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Hardwick",
+                    "cityDomain": "https://hardwick-city-vt.mydripnurse.com",
+                    "citySitemap": "https://hardwick-city-vt.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Lower Waterford",
+                    "cityDomain": "https://lower-waterford-city-vt.mydripnurse.com",
+                    "citySitemap": "https://lower-waterford-city-vt.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Lyndon",
+                    "cityDomain": "https://lyndon-city-vt.mydripnurse.com",
+                    "citySitemap": "https://lyndon-city-vt.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Lyndon Center",
+                    "cityDomain": "https://lyndon-center-city-vt.mydripnurse.com",
+                    "citySitemap": "https://lyndon-center-city-vt.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Lyndonville",
+                    "cityDomain": "https://lyndonville-city-vt.mydripnurse.com",
+                    "citySitemap": "https://lyndonville-city-vt.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Mc Indoe Falls",
+                    "cityDomain": "https://mc-indoe-falls-city-vt.mydripnurse.com",
+                    "citySitemap": "https://mc-indoe-falls-city-vt.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Passumpsic",
+                    "cityDomain": "https://passumpsic-city-vt.mydripnurse.com",
+                    "citySitemap": "https://passumpsic-city-vt.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Peacham",
+                    "cityDomain": "https://peacham-city-vt.mydripnurse.com",
+                    "citySitemap": "https://peacham-city-vt.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Saint Johnsbury",
+                    "cityDomain": "https://saint-johnsbury-city-vt.mydripnurse.com",
+                    "citySitemap": "https://saint-johnsbury-city-vt.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Saint Johnsbury Center",
+                    "cityDomain": "https://saint-johnsbury-center-city-vt.mydripnurse.com",
+                    "citySitemap": "https://saint-johnsbury-center-city-vt.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Sheffield",
+                    "cityDomain": "https://sheffield-city-vt.mydripnurse.com",
+                    "citySitemap": "https://sheffield-city-vt.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "South Ryegate",
+                    "cityDomain": "https://south-ryegate-city-vt.mydripnurse.com",
+                    "citySitemap": "https://south-ryegate-city-vt.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Sutton",
+                    "cityDomain": "https://sutton-city-vt.mydripnurse.com",
+                    "citySitemap": "https://sutton-city-vt.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "West Burke",
+                    "cityDomain": "https://west-burke-city-vt.mydripnurse.com",
+                    "citySitemap": "https://west-burke-city-vt.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "West Danville",
+                    "cityDomain": "https://west-danville-city-vt.mydripnurse.com",
+                    "citySitemap": "https://west-danville-city-vt.mydripnurse.com/sitemap.xml"
+                }
+            ],
+            "Timezone": {
+                "Name": "Eastern",
+                "Zone": "US/Eastern",
+                "UTC_Offset": "-05:00"
+            },
+            "countyDomain": "https://caledonia-county-vt.mydripnurse.com",
+            "countySitemap": "https://caledonia-county-vt.mydripnurse.com/sitemap.xml",
+            "sitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\\n  <sitemap>\\n    <loc>https://caledonia-county-vt.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://barnet-city-vt.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://danville-city-vt.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://east-burke-city-vt.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://east-hardwick-city-vt.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://east-ryegate-city-vt.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://east-saint-johnsbury-city-vt.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://groton-city-vt.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://hardwick-city-vt.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://lower-waterford-city-vt.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://lyndon-city-vt.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://lyndon-center-city-vt.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://lyndonville-city-vt.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://mc-indoe-falls-city-vt.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://passumpsic-city-vt.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://peacham-city-vt.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://saint-johnsbury-city-vt.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://saint-johnsbury-center-city-vt.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://sheffield-city-vt.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://south-ryegate-city-vt.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://sutton-city-vt.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://west-burke-city-vt.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://west-danville-city-vt.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n</sitemapindex>"
+        },
+        {
+            "countyName": "Chittenden",
+            "cities": [
+                {
+                    "cityName": "Btv",
+                    "cityDomain": "https://btv-city-vt.mydripnurse.com",
+                    "citySitemap": "https://btv-city-vt.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Burlington",
+                    "cityDomain": "https://burlington-city-vt.mydripnurse.com",
+                    "citySitemap": "https://burlington-city-vt.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Cambridge",
+                    "cityDomain": "https://cambridge-city-vt.mydripnurse.com",
+                    "citySitemap": "https://cambridge-city-vt.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Charlotte",
+                    "cityDomain": "https://charlotte-city-vt.mydripnurse.com",
+                    "citySitemap": "https://charlotte-city-vt.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Colchester",
+                    "cityDomain": "https://colchester-city-vt.mydripnurse.com",
+                    "citySitemap": "https://colchester-city-vt.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Essex",
+                    "cityDomain": "https://essex-city-vt.mydripnurse.com",
+                    "citySitemap": "https://essex-city-vt.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Essex Junction",
+                    "cityDomain": "https://essex-junction-city-vt.mydripnurse.com",
+                    "citySitemap": "https://essex-junction-city-vt.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Fairfax",
+                    "cityDomain": "https://fairfax-city-vt.mydripnurse.com",
+                    "citySitemap": "https://fairfax-city-vt.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Hinesburg",
+                    "cityDomain": "https://hinesburg-city-vt.mydripnurse.com",
+                    "citySitemap": "https://hinesburg-city-vt.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Huntington",
+                    "cityDomain": "https://huntington-city-vt.mydripnurse.com",
+                    "citySitemap": "https://huntington-city-vt.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Jericho",
+                    "cityDomain": "https://jericho-city-vt.mydripnurse.com",
+                    "citySitemap": "https://jericho-city-vt.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Jonesville",
+                    "cityDomain": "https://jonesville-city-vt.mydripnurse.com",
+                    "citySitemap": "https://jonesville-city-vt.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Milton",
+                    "cityDomain": "https://milton-city-vt.mydripnurse.com",
+                    "citySitemap": "https://milton-city-vt.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Richmond",
+                    "cityDomain": "https://richmond-city-vt.mydripnurse.com",
+                    "citySitemap": "https://richmond-city-vt.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "S Btv",
+                    "cityDomain": "https://s-btv-city-vt.mydripnurse.com",
+                    "citySitemap": "https://s-btv-city-vt.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Shelburne",
+                    "cityDomain": "https://shelburne-city-vt.mydripnurse.com",
+                    "citySitemap": "https://shelburne-city-vt.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Smc",
+                    "cityDomain": "https://smc-city-vt.mydripnurse.com",
+                    "citySitemap": "https://smc-city-vt.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "South Burlington",
+                    "cityDomain": "https://south-burlington-city-vt.mydripnurse.com",
+                    "citySitemap": "https://south-burlington-city-vt.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Underhill",
+                    "cityDomain": "https://underhill-city-vt.mydripnurse.com",
+                    "citySitemap": "https://underhill-city-vt.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Underhill Center",
+                    "cityDomain": "https://underhill-center-city-vt.mydripnurse.com",
+                    "citySitemap": "https://underhill-center-city-vt.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Uvm",
+                    "cityDomain": "https://uvm-city-vt.mydripnurse.com",
+                    "citySitemap": "https://uvm-city-vt.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Westford",
+                    "cityDomain": "https://westford-city-vt.mydripnurse.com",
+                    "citySitemap": "https://westford-city-vt.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Williston",
+                    "cityDomain": "https://williston-city-vt.mydripnurse.com",
+                    "citySitemap": "https://williston-city-vt.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Winooski",
+                    "cityDomain": "https://winooski-city-vt.mydripnurse.com",
+                    "citySitemap": "https://winooski-city-vt.mydripnurse.com/sitemap.xml"
+                }
+            ],
+            "Timezone": {
+                "Name": "Eastern",
+                "Zone": "US/Eastern",
+                "UTC_Offset": "-05:00"
+            },
+            "countyDomain": "https://chittenden-county-vt.mydripnurse.com",
+            "countySitemap": "https://chittenden-county-vt.mydripnurse.com/sitemap.xml",
+            "sitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\\n  <sitemap>\\n    <loc>https://chittenden-county-vt.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://btv-city-vt.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://burlington-city-vt.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://cambridge-city-vt.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://charlotte-city-vt.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://colchester-city-vt.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://essex-city-vt.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://essex-junction-city-vt.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://fairfax-city-vt.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://hinesburg-city-vt.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://huntington-city-vt.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://jericho-city-vt.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://jonesville-city-vt.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://milton-city-vt.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://richmond-city-vt.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://s-btv-city-vt.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://shelburne-city-vt.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://smc-city-vt.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://south-burlington-city-vt.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://underhill-city-vt.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://underhill-center-city-vt.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://uvm-city-vt.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://westford-city-vt.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://williston-city-vt.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://winooski-city-vt.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n</sitemapindex>"
+        },
+        {
+            "countyName": "Essex",
+            "cities": [
+                {
+                    "cityName": "Averill",
+                    "cityDomain": "https://averill-city-vt.mydripnurse.com",
+                    "citySitemap": "https://averill-city-vt.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Beecher Falls",
+                    "cityDomain": "https://beecher-falls-city-vt.mydripnurse.com",
+                    "citySitemap": "https://beecher-falls-city-vt.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Canaan",
+                    "cityDomain": "https://canaan-city-vt.mydripnurse.com",
+                    "citySitemap": "https://canaan-city-vt.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Concord",
+                    "cityDomain": "https://concord-city-vt.mydripnurse.com",
+                    "citySitemap": "https://concord-city-vt.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "East Haven",
+                    "cityDomain": "https://east-haven-city-vt.mydripnurse.com",
+                    "citySitemap": "https://east-haven-city-vt.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Gilman",
+                    "cityDomain": "https://gilman-city-vt.mydripnurse.com",
+                    "citySitemap": "https://gilman-city-vt.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Granby",
+                    "cityDomain": "https://granby-city-vt.mydripnurse.com",
+                    "citySitemap": "https://granby-city-vt.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Guildhall",
+                    "cityDomain": "https://guildhall-city-vt.mydripnurse.com",
+                    "citySitemap": "https://guildhall-city-vt.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Island Pond",
+                    "cityDomain": "https://island-pond-city-vt.mydripnurse.com",
+                    "citySitemap": "https://island-pond-city-vt.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Lunenburg",
+                    "cityDomain": "https://lunenburg-city-vt.mydripnurse.com",
+                    "citySitemap": "https://lunenburg-city-vt.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "North Concord",
+                    "cityDomain": "https://north-concord-city-vt.mydripnurse.com",
+                    "citySitemap": "https://north-concord-city-vt.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Norton",
+                    "cityDomain": "https://norton-city-vt.mydripnurse.com",
+                    "citySitemap": "https://norton-city-vt.mydripnurse.com/sitemap.xml"
+                }
+            ],
+            "Timezone": {
+                "Name": "Eastern",
+                "Zone": "US/Eastern",
+                "UTC_Offset": "-05:00"
+            },
+            "countyDomain": "https://essex-county-vt.mydripnurse.com",
+            "countySitemap": "https://essex-county-vt.mydripnurse.com/sitemap.xml",
+            "sitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\\n  <sitemap>\\n    <loc>https://essex-county-vt.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://averill-city-vt.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://beecher-falls-city-vt.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://canaan-city-vt.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://concord-city-vt.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://east-haven-city-vt.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://gilman-city-vt.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://granby-city-vt.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://guildhall-city-vt.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://island-pond-city-vt.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://lunenburg-city-vt.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://north-concord-city-vt.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://norton-city-vt.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n</sitemapindex>"
+        },
+        {
+            "countyName": "Franklin",
+            "cities": [
+                {
+                    "cityName": "Bakersfield",
+                    "cityDomain": "https://bakersfield-city-vt.mydripnurse.com",
+                    "citySitemap": "https://bakersfield-city-vt.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "East Berkshire",
+                    "cityDomain": "https://east-berkshire-city-vt.mydripnurse.com",
+                    "citySitemap": "https://east-berkshire-city-vt.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "East Fairfield",
+                    "cityDomain": "https://east-fairfield-city-vt.mydripnurse.com",
+                    "citySitemap": "https://east-fairfield-city-vt.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Enosburg Falls",
+                    "cityDomain": "https://enosburg-falls-city-vt.mydripnurse.com",
+                    "citySitemap": "https://enosburg-falls-city-vt.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Fairfield",
+                    "cityDomain": "https://fairfield-city-vt.mydripnurse.com",
+                    "citySitemap": "https://fairfield-city-vt.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Franklin",
+                    "cityDomain": "https://franklin-city-vt.mydripnurse.com",
+                    "citySitemap": "https://franklin-city-vt.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Highgate Center",
+                    "cityDomain": "https://highgate-center-city-vt.mydripnurse.com",
+                    "citySitemap": "https://highgate-center-city-vt.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Highgate Springs",
+                    "cityDomain": "https://highgate-springs-city-vt.mydripnurse.com",
+                    "citySitemap": "https://highgate-springs-city-vt.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Montgomery",
+                    "cityDomain": "https://montgomery-city-vt.mydripnurse.com",
+                    "citySitemap": "https://montgomery-city-vt.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Montgomery Center",
+                    "cityDomain": "https://montgomery-center-city-vt.mydripnurse.com",
+                    "citySitemap": "https://montgomery-center-city-vt.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Richford",
+                    "cityDomain": "https://richford-city-vt.mydripnurse.com",
+                    "citySitemap": "https://richford-city-vt.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Saint Albans",
+                    "cityDomain": "https://saint-albans-city-vt.mydripnurse.com",
+                    "citySitemap": "https://saint-albans-city-vt.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Saint Albans Bay",
+                    "cityDomain": "https://saint-albans-bay-city-vt.mydripnurse.com",
+                    "citySitemap": "https://saint-albans-bay-city-vt.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Sheldon",
+                    "cityDomain": "https://sheldon-city-vt.mydripnurse.com",
+                    "citySitemap": "https://sheldon-city-vt.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Sheldon Springs",
+                    "cityDomain": "https://sheldon-springs-city-vt.mydripnurse.com",
+                    "citySitemap": "https://sheldon-springs-city-vt.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Swanton",
+                    "cityDomain": "https://swanton-city-vt.mydripnurse.com",
+                    "citySitemap": "https://swanton-city-vt.mydripnurse.com/sitemap.xml"
+                }
+            ],
+            "Timezone": {
+                "Name": "Eastern",
+                "Zone": "US/Eastern",
+                "UTC_Offset": "-05:00"
+            },
+            "countyDomain": "https://franklin-county-vt.mydripnurse.com",
+            "countySitemap": "https://franklin-county-vt.mydripnurse.com/sitemap.xml",
+            "sitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\\n  <sitemap>\\n    <loc>https://franklin-county-vt.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://bakersfield-city-vt.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://east-berkshire-city-vt.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://east-fairfield-city-vt.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://enosburg-falls-city-vt.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://fairfield-city-vt.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://franklin-city-vt.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://highgate-center-city-vt.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://highgate-springs-city-vt.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://montgomery-city-vt.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://montgomery-center-city-vt.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://richford-city-vt.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://saint-albans-city-vt.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://saint-albans-bay-city-vt.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://sheldon-city-vt.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://sheldon-springs-city-vt.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://swanton-city-vt.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n</sitemapindex>"
+        },
+        {
+            "countyName": "Grand Isle",
+            "cities": [
+                {
+                    "cityName": "Alburgh",
+                    "cityDomain": "https://alburgh-city-vt.mydripnurse.com",
+                    "citySitemap": "https://alburgh-city-vt.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Grand Isle",
+                    "cityDomain": "https://grand-isle-city-vt.mydripnurse.com",
+                    "citySitemap": "https://grand-isle-city-vt.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Isle La Motte",
+                    "cityDomain": "https://isle-la-motte-city-vt.mydripnurse.com",
+                    "citySitemap": "https://isle-la-motte-city-vt.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "North Hero",
+                    "cityDomain": "https://north-hero-city-vt.mydripnurse.com",
+                    "citySitemap": "https://north-hero-city-vt.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "South Hero",
+                    "cityDomain": "https://south-hero-city-vt.mydripnurse.com",
+                    "citySitemap": "https://south-hero-city-vt.mydripnurse.com/sitemap.xml"
+                }
+            ],
+            "Timezone": {
+                "Name": "Eastern",
+                "Zone": "US/Eastern",
+                "UTC_Offset": "-05:00"
+            },
+            "countyDomain": "https://grand-isle-county-vt.mydripnurse.com",
+            "countySitemap": "https://grand-isle-county-vt.mydripnurse.com/sitemap.xml",
+            "sitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\\n  <sitemap>\\n    <loc>https://grand-isle-county-vt.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://alburgh-city-vt.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://grand-isle-city-vt.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://isle-la-motte-city-vt.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://north-hero-city-vt.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://south-hero-city-vt.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n</sitemapindex>"
+        },
+        {
+            "countyName": "Lamoille",
+            "cities": [
+                {
+                    "cityName": "Belvidere Center",
+                    "cityDomain": "https://belvidere-center-city-vt.mydripnurse.com",
+                    "citySitemap": "https://belvidere-center-city-vt.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Eden",
+                    "cityDomain": "https://eden-city-vt.mydripnurse.com",
+                    "citySitemap": "https://eden-city-vt.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Eden Mills",
+                    "cityDomain": "https://eden-mills-city-vt.mydripnurse.com",
+                    "citySitemap": "https://eden-mills-city-vt.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Hyde Park",
+                    "cityDomain": "https://hyde-park-city-vt.mydripnurse.com",
+                    "citySitemap": "https://hyde-park-city-vt.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Jeffersonville",
+                    "cityDomain": "https://jeffersonville-city-vt.mydripnurse.com",
+                    "citySitemap": "https://jeffersonville-city-vt.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Johnson",
+                    "cityDomain": "https://johnson-city-vt.mydripnurse.com",
+                    "citySitemap": "https://johnson-city-vt.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Lake Elmore",
+                    "cityDomain": "https://lake-elmore-city-vt.mydripnurse.com",
+                    "citySitemap": "https://lake-elmore-city-vt.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Morrisville",
+                    "cityDomain": "https://morrisville-city-vt.mydripnurse.com",
+                    "citySitemap": "https://morrisville-city-vt.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Moscow",
+                    "cityDomain": "https://moscow-city-vt.mydripnurse.com",
+                    "citySitemap": "https://moscow-city-vt.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "North Hyde Park",
+                    "cityDomain": "https://north-hyde-park-city-vt.mydripnurse.com",
+                    "citySitemap": "https://north-hyde-park-city-vt.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Stowe",
+                    "cityDomain": "https://stowe-city-vt.mydripnurse.com",
+                    "citySitemap": "https://stowe-city-vt.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Waterville",
+                    "cityDomain": "https://waterville-city-vt.mydripnurse.com",
+                    "citySitemap": "https://waterville-city-vt.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Wolcott",
+                    "cityDomain": "https://wolcott-city-vt.mydripnurse.com",
+                    "citySitemap": "https://wolcott-city-vt.mydripnurse.com/sitemap.xml"
+                }
+            ],
+            "Timezone": {
+                "Name": "Eastern",
+                "Zone": "US/Eastern",
+                "UTC_Offset": "-05:00"
+            },
+            "countyDomain": "https://lamoille-county-vt.mydripnurse.com",
+            "countySitemap": "https://lamoille-county-vt.mydripnurse.com/sitemap.xml",
+            "sitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\\n  <sitemap>\\n    <loc>https://lamoille-county-vt.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://belvidere-center-city-vt.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://eden-city-vt.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://eden-mills-city-vt.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://hyde-park-city-vt.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://jeffersonville-city-vt.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://johnson-city-vt.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://lake-elmore-city-vt.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://morrisville-city-vt.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://moscow-city-vt.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://north-hyde-park-city-vt.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://stowe-city-vt.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://waterville-city-vt.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://wolcott-city-vt.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n</sitemapindex>"
+        },
+        {
+            "countyName": "Orange",
+            "cities": [
+                {
+                    "cityName": "Bradford",
+                    "cityDomain": "https://bradford-city-vt.mydripnurse.com",
+                    "citySitemap": "https://bradford-city-vt.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Brookfield",
+                    "cityDomain": "https://brookfield-city-vt.mydripnurse.com",
+                    "citySitemap": "https://brookfield-city-vt.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Chelsea",
+                    "cityDomain": "https://chelsea-city-vt.mydripnurse.com",
+                    "citySitemap": "https://chelsea-city-vt.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Corinth",
+                    "cityDomain": "https://corinth-city-vt.mydripnurse.com",
+                    "citySitemap": "https://corinth-city-vt.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "East Corinth",
+                    "cityDomain": "https://east-corinth-city-vt.mydripnurse.com",
+                    "citySitemap": "https://east-corinth-city-vt.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "East Randolph",
+                    "cityDomain": "https://east-randolph-city-vt.mydripnurse.com",
+                    "citySitemap": "https://east-randolph-city-vt.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "East Thetford",
+                    "cityDomain": "https://east-thetford-city-vt.mydripnurse.com",
+                    "citySitemap": "https://east-thetford-city-vt.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Fairlee",
+                    "cityDomain": "https://fairlee-city-vt.mydripnurse.com",
+                    "citySitemap": "https://fairlee-city-vt.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Newbury",
+                    "cityDomain": "https://newbury-city-vt.mydripnurse.com",
+                    "citySitemap": "https://newbury-city-vt.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "North Thetford",
+                    "cityDomain": "https://north-thetford-city-vt.mydripnurse.com",
+                    "citySitemap": "https://north-thetford-city-vt.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Post Mills",
+                    "cityDomain": "https://post-mills-city-vt.mydripnurse.com",
+                    "citySitemap": "https://post-mills-city-vt.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Randolph",
+                    "cityDomain": "https://randolph-city-vt.mydripnurse.com",
+                    "citySitemap": "https://randolph-city-vt.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Randolph Center",
+                    "cityDomain": "https://randolph-center-city-vt.mydripnurse.com",
+                    "citySitemap": "https://randolph-center-city-vt.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "South Strafford",
+                    "cityDomain": "https://south-strafford-city-vt.mydripnurse.com",
+                    "citySitemap": "https://south-strafford-city-vt.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Strafford",
+                    "cityDomain": "https://strafford-city-vt.mydripnurse.com",
+                    "citySitemap": "https://strafford-city-vt.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Thetford",
+                    "cityDomain": "https://thetford-city-vt.mydripnurse.com",
+                    "citySitemap": "https://thetford-city-vt.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Thetford Center",
+                    "cityDomain": "https://thetford-center-city-vt.mydripnurse.com",
+                    "citySitemap": "https://thetford-center-city-vt.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Topsham",
+                    "cityDomain": "https://topsham-city-vt.mydripnurse.com",
+                    "citySitemap": "https://topsham-city-vt.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Tunbridge",
+                    "cityDomain": "https://tunbridge-city-vt.mydripnurse.com",
+                    "citySitemap": "https://tunbridge-city-vt.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Vershire",
+                    "cityDomain": "https://vershire-city-vt.mydripnurse.com",
+                    "citySitemap": "https://vershire-city-vt.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Washington",
+                    "cityDomain": "https://washington-city-vt.mydripnurse.com",
+                    "citySitemap": "https://washington-city-vt.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Wells River",
+                    "cityDomain": "https://wells-river-city-vt.mydripnurse.com",
+                    "citySitemap": "https://wells-river-city-vt.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "West Fairlee",
+                    "cityDomain": "https://west-fairlee-city-vt.mydripnurse.com",
+                    "citySitemap": "https://west-fairlee-city-vt.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "West Newbury",
+                    "cityDomain": "https://west-newbury-city-vt.mydripnurse.com",
+                    "citySitemap": "https://west-newbury-city-vt.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "West Topsham",
+                    "cityDomain": "https://west-topsham-city-vt.mydripnurse.com",
+                    "citySitemap": "https://west-topsham-city-vt.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Williamstown",
+                    "cityDomain": "https://williamstown-city-vt.mydripnurse.com",
+                    "citySitemap": "https://williamstown-city-vt.mydripnurse.com/sitemap.xml"
+                }
+            ],
+            "Timezone": {
+                "Name": "Eastern",
+                "Zone": "US/Eastern",
+                "UTC_Offset": "-05:00"
+            },
+            "countyDomain": "https://orange-county-vt.mydripnurse.com",
+            "countySitemap": "https://orange-county-vt.mydripnurse.com/sitemap.xml",
+            "sitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\\n  <sitemap>\\n    <loc>https://orange-county-vt.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://bradford-city-vt.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://brookfield-city-vt.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://chelsea-city-vt.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://corinth-city-vt.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://east-corinth-city-vt.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://east-randolph-city-vt.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://east-thetford-city-vt.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://fairlee-city-vt.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://newbury-city-vt.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://north-thetford-city-vt.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://post-mills-city-vt.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://randolph-city-vt.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://randolph-center-city-vt.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://south-strafford-city-vt.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://strafford-city-vt.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://thetford-city-vt.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://thetford-center-city-vt.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://topsham-city-vt.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://tunbridge-city-vt.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://vershire-city-vt.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://washington-city-vt.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://wells-river-city-vt.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://west-fairlee-city-vt.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://west-newbury-city-vt.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://west-topsham-city-vt.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://williamstown-city-vt.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n</sitemapindex>"
+        },
+        {
+            "countyName": "Orleans",
+            "cities": [
+                {
+                    "cityName": "Albany",
+                    "cityDomain": "https://albany-city-vt.mydripnurse.com",
+                    "citySitemap": "https://albany-city-vt.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Barton",
+                    "cityDomain": "https://barton-city-vt.mydripnurse.com",
+                    "citySitemap": "https://barton-city-vt.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Beebe Plain",
+                    "cityDomain": "https://beebe-plain-city-vt.mydripnurse.com",
+                    "citySitemap": "https://beebe-plain-city-vt.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Coventry",
+                    "cityDomain": "https://coventry-city-vt.mydripnurse.com",
+                    "citySitemap": "https://coventry-city-vt.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Craftsbury",
+                    "cityDomain": "https://craftsbury-city-vt.mydripnurse.com",
+                    "citySitemap": "https://craftsbury-city-vt.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Craftsbury Common",
+                    "cityDomain": "https://craftsbury-common-city-vt.mydripnurse.com",
+                    "citySitemap": "https://craftsbury-common-city-vt.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Derby",
+                    "cityDomain": "https://derby-city-vt.mydripnurse.com",
+                    "citySitemap": "https://derby-city-vt.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Derby Line",
+                    "cityDomain": "https://derby-line-city-vt.mydripnurse.com",
+                    "citySitemap": "https://derby-line-city-vt.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "East Charleston",
+                    "cityDomain": "https://east-charleston-city-vt.mydripnurse.com",
+                    "citySitemap": "https://east-charleston-city-vt.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Glover",
+                    "cityDomain": "https://glover-city-vt.mydripnurse.com",
+                    "citySitemap": "https://glover-city-vt.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Greensboro",
+                    "cityDomain": "https://greensboro-city-vt.mydripnurse.com",
+                    "citySitemap": "https://greensboro-city-vt.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Greensboro Bend",
+                    "cityDomain": "https://greensboro-bend-city-vt.mydripnurse.com",
+                    "citySitemap": "https://greensboro-bend-city-vt.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Irasburg",
+                    "cityDomain": "https://irasburg-city-vt.mydripnurse.com",
+                    "citySitemap": "https://irasburg-city-vt.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Lowell",
+                    "cityDomain": "https://lowell-city-vt.mydripnurse.com",
+                    "citySitemap": "https://lowell-city-vt.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Morgan",
+                    "cityDomain": "https://morgan-city-vt.mydripnurse.com",
+                    "citySitemap": "https://morgan-city-vt.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Newport",
+                    "cityDomain": "https://newport-city-vt.mydripnurse.com",
+                    "citySitemap": "https://newport-city-vt.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Newport Center",
+                    "cityDomain": "https://newport-center-city-vt.mydripnurse.com",
+                    "citySitemap": "https://newport-center-city-vt.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "North Troy",
+                    "cityDomain": "https://north-troy-city-vt.mydripnurse.com",
+                    "citySitemap": "https://north-troy-city-vt.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Orleans",
+                    "cityDomain": "https://orleans-city-vt.mydripnurse.com",
+                    "citySitemap": "https://orleans-city-vt.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Troy",
+                    "cityDomain": "https://troy-city-vt.mydripnurse.com",
+                    "citySitemap": "https://troy-city-vt.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "West Charleston",
+                    "cityDomain": "https://west-charleston-city-vt.mydripnurse.com",
+                    "citySitemap": "https://west-charleston-city-vt.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "West Glover",
+                    "cityDomain": "https://west-glover-city-vt.mydripnurse.com",
+                    "citySitemap": "https://west-glover-city-vt.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Westfield",
+                    "cityDomain": "https://westfield-city-vt.mydripnurse.com",
+                    "citySitemap": "https://westfield-city-vt.mydripnurse.com/sitemap.xml"
+                }
+            ],
+            "Timezone": {
+                "Name": "Eastern",
+                "Zone": "US/Eastern",
+                "UTC_Offset": "-05:00"
+            },
+            "countyDomain": "https://orleans-county-vt.mydripnurse.com",
+            "countySitemap": "https://orleans-county-vt.mydripnurse.com/sitemap.xml",
+            "sitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\\n  <sitemap>\\n    <loc>https://orleans-county-vt.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://albany-city-vt.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://barton-city-vt.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://beebe-plain-city-vt.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://coventry-city-vt.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://craftsbury-city-vt.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://craftsbury-common-city-vt.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://derby-city-vt.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://derby-line-city-vt.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://east-charleston-city-vt.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://glover-city-vt.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://greensboro-city-vt.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://greensboro-bend-city-vt.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://irasburg-city-vt.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://lowell-city-vt.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://morgan-city-vt.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://newport-city-vt.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://newport-center-city-vt.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://north-troy-city-vt.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://orleans-city-vt.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://troy-city-vt.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://west-charleston-city-vt.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://west-glover-city-vt.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://westfield-city-vt.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n</sitemapindex>"
+        },
+        {
+            "countyName": "Rutland",
+            "cities": [
+                {
+                    "cityName": "Belmont",
+                    "cityDomain": "https://belmont-city-vt.mydripnurse.com",
+                    "citySitemap": "https://belmont-city-vt.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Benson",
+                    "cityDomain": "https://benson-city-vt.mydripnurse.com",
+                    "citySitemap": "https://benson-city-vt.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Bomoseen",
+                    "cityDomain": "https://bomoseen-city-vt.mydripnurse.com",
+                    "citySitemap": "https://bomoseen-city-vt.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Brandon",
+                    "cityDomain": "https://brandon-city-vt.mydripnurse.com",
+                    "citySitemap": "https://brandon-city-vt.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Castleton",
+                    "cityDomain": "https://castleton-city-vt.mydripnurse.com",
+                    "citySitemap": "https://castleton-city-vt.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Center Rutland",
+                    "cityDomain": "https://center-rutland-city-vt.mydripnurse.com",
+                    "citySitemap": "https://center-rutland-city-vt.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Chittenden",
+                    "cityDomain": "https://chittenden-city-vt.mydripnurse.com",
+                    "citySitemap": "https://chittenden-city-vt.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Cuttingsville",
+                    "cityDomain": "https://cuttingsville-city-vt.mydripnurse.com",
+                    "citySitemap": "https://cuttingsville-city-vt.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Danby",
+                    "cityDomain": "https://danby-city-vt.mydripnurse.com",
+                    "citySitemap": "https://danby-city-vt.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "East Poultney",
+                    "cityDomain": "https://east-poultney-city-vt.mydripnurse.com",
+                    "citySitemap": "https://east-poultney-city-vt.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "East Wallingford",
+                    "cityDomain": "https://east-wallingford-city-vt.mydripnurse.com",
+                    "citySitemap": "https://east-wallingford-city-vt.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Fair Haven",
+                    "cityDomain": "https://fair-haven-city-vt.mydripnurse.com",
+                    "citySitemap": "https://fair-haven-city-vt.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Florence",
+                    "cityDomain": "https://florence-city-vt.mydripnurse.com",
+                    "citySitemap": "https://florence-city-vt.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Forest Dale",
+                    "cityDomain": "https://forest-dale-city-vt.mydripnurse.com",
+                    "citySitemap": "https://forest-dale-city-vt.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Hydeville",
+                    "cityDomain": "https://hydeville-city-vt.mydripnurse.com",
+                    "citySitemap": "https://hydeville-city-vt.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Killington",
+                    "cityDomain": "https://killington-city-vt.mydripnurse.com",
+                    "citySitemap": "https://killington-city-vt.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Middletown Springs",
+                    "cityDomain": "https://middletown-springs-city-vt.mydripnurse.com",
+                    "citySitemap": "https://middletown-springs-city-vt.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Mount Holly",
+                    "cityDomain": "https://mount-holly-city-vt.mydripnurse.com",
+                    "citySitemap": "https://mount-holly-city-vt.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "North Clarendon",
+                    "cityDomain": "https://north-clarendon-city-vt.mydripnurse.com",
+                    "citySitemap": "https://north-clarendon-city-vt.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Pawlet",
+                    "cityDomain": "https://pawlet-city-vt.mydripnurse.com",
+                    "citySitemap": "https://pawlet-city-vt.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Pittsfield",
+                    "cityDomain": "https://pittsfield-city-vt.mydripnurse.com",
+                    "citySitemap": "https://pittsfield-city-vt.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Pittsford",
+                    "cityDomain": "https://pittsford-city-vt.mydripnurse.com",
+                    "citySitemap": "https://pittsford-city-vt.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Poultney",
+                    "cityDomain": "https://poultney-city-vt.mydripnurse.com",
+                    "citySitemap": "https://poultney-city-vt.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Proctor",
+                    "cityDomain": "https://proctor-city-vt.mydripnurse.com",
+                    "citySitemap": "https://proctor-city-vt.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Rutland",
+                    "cityDomain": "https://rutland-city-vt.mydripnurse.com",
+                    "citySitemap": "https://rutland-city-vt.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Wallingford",
+                    "cityDomain": "https://wallingford-city-vt.mydripnurse.com",
+                    "citySitemap": "https://wallingford-city-vt.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Wells",
+                    "cityDomain": "https://wells-city-vt.mydripnurse.com",
+                    "citySitemap": "https://wells-city-vt.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "West Pawlet",
+                    "cityDomain": "https://west-pawlet-city-vt.mydripnurse.com",
+                    "citySitemap": "https://west-pawlet-city-vt.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "West Rutland",
+                    "cityDomain": "https://west-rutland-city-vt.mydripnurse.com",
+                    "citySitemap": "https://west-rutland-city-vt.mydripnurse.com/sitemap.xml"
+                }
+            ],
+            "Timezone": {
+                "Name": "Eastern",
+                "Zone": "US/Eastern",
+                "UTC_Offset": "-05:00"
+            },
+            "countyDomain": "https://rutland-county-vt.mydripnurse.com",
+            "countySitemap": "https://rutland-county-vt.mydripnurse.com/sitemap.xml",
+            "sitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\\n  <sitemap>\\n    <loc>https://rutland-county-vt.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://belmont-city-vt.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://benson-city-vt.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://bomoseen-city-vt.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://brandon-city-vt.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://castleton-city-vt.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://center-rutland-city-vt.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://chittenden-city-vt.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://cuttingsville-city-vt.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://danby-city-vt.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://east-poultney-city-vt.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://east-wallingford-city-vt.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://fair-haven-city-vt.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://florence-city-vt.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://forest-dale-city-vt.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://hydeville-city-vt.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://killington-city-vt.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://middletown-springs-city-vt.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://mount-holly-city-vt.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://north-clarendon-city-vt.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://pawlet-city-vt.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://pittsfield-city-vt.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://pittsford-city-vt.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://poultney-city-vt.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://proctor-city-vt.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://rutland-city-vt.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://wallingford-city-vt.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://wells-city-vt.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://west-pawlet-city-vt.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://west-rutland-city-vt.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n</sitemapindex>"
+        },
+        {
+            "countyName": "Washington",
+            "cities": [
+                {
+                    "cityName": "Adamant",
+                    "cityDomain": "https://adamant-city-vt.mydripnurse.com",
+                    "citySitemap": "https://adamant-city-vt.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Barre",
+                    "cityDomain": "https://barre-city-vt.mydripnurse.com",
+                    "citySitemap": "https://barre-city-vt.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Cabot",
+                    "cityDomain": "https://cabot-city-vt.mydripnurse.com",
+                    "citySitemap": "https://cabot-city-vt.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Calais",
+                    "cityDomain": "https://calais-city-vt.mydripnurse.com",
+                    "citySitemap": "https://calais-city-vt.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "East Barre",
+                    "cityDomain": "https://east-barre-city-vt.mydripnurse.com",
+                    "citySitemap": "https://east-barre-city-vt.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "East Calais",
+                    "cityDomain": "https://east-calais-city-vt.mydripnurse.com",
+                    "citySitemap": "https://east-calais-city-vt.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "East Montpelier",
+                    "cityDomain": "https://east-montpelier-city-vt.mydripnurse.com",
+                    "citySitemap": "https://east-montpelier-city-vt.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Graniteville",
+                    "cityDomain": "https://graniteville-city-vt.mydripnurse.com",
+                    "citySitemap": "https://graniteville-city-vt.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Marshfield",
+                    "cityDomain": "https://marshfield-city-vt.mydripnurse.com",
+                    "citySitemap": "https://marshfield-city-vt.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Montpelier",
+                    "cityDomain": "https://montpelier-city-vt.mydripnurse.com",
+                    "citySitemap": "https://montpelier-city-vt.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Moretown",
+                    "cityDomain": "https://moretown-city-vt.mydripnurse.com",
+                    "citySitemap": "https://moretown-city-vt.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "North Montpelier",
+                    "cityDomain": "https://north-montpelier-city-vt.mydripnurse.com",
+                    "citySitemap": "https://north-montpelier-city-vt.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Northfield",
+                    "cityDomain": "https://northfield-city-vt.mydripnurse.com",
+                    "citySitemap": "https://northfield-city-vt.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Northfield Falls",
+                    "cityDomain": "https://northfield-falls-city-vt.mydripnurse.com",
+                    "citySitemap": "https://northfield-falls-city-vt.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Plainfield",
+                    "cityDomain": "https://plainfield-city-vt.mydripnurse.com",
+                    "citySitemap": "https://plainfield-city-vt.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "South Barre",
+                    "cityDomain": "https://south-barre-city-vt.mydripnurse.com",
+                    "citySitemap": "https://south-barre-city-vt.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Waitsfield",
+                    "cityDomain": "https://waitsfield-city-vt.mydripnurse.com",
+                    "citySitemap": "https://waitsfield-city-vt.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Warren",
+                    "cityDomain": "https://warren-city-vt.mydripnurse.com",
+                    "citySitemap": "https://warren-city-vt.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Waterbury",
+                    "cityDomain": "https://waterbury-city-vt.mydripnurse.com",
+                    "citySitemap": "https://waterbury-city-vt.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Waterbury Center",
+                    "cityDomain": "https://waterbury-center-city-vt.mydripnurse.com",
+                    "citySitemap": "https://waterbury-center-city-vt.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Websterville",
+                    "cityDomain": "https://websterville-city-vt.mydripnurse.com",
+                    "citySitemap": "https://websterville-city-vt.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Woodbury",
+                    "cityDomain": "https://woodbury-city-vt.mydripnurse.com",
+                    "citySitemap": "https://woodbury-city-vt.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Worcester",
+                    "cityDomain": "https://worcester-city-vt.mydripnurse.com",
+                    "citySitemap": "https://worcester-city-vt.mydripnurse.com/sitemap.xml"
+                }
+            ],
+            "Timezone": {
+                "Name": "Eastern",
+                "Zone": "US/Eastern",
+                "UTC_Offset": "-05:00"
+            },
+            "countyDomain": "https://washington-county-vt.mydripnurse.com",
+            "countySitemap": "https://washington-county-vt.mydripnurse.com/sitemap.xml",
+            "sitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\\n  <sitemap>\\n    <loc>https://washington-county-vt.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://adamant-city-vt.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://barre-city-vt.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://cabot-city-vt.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://calais-city-vt.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://east-barre-city-vt.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://east-calais-city-vt.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://east-montpelier-city-vt.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://graniteville-city-vt.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://marshfield-city-vt.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://montpelier-city-vt.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://moretown-city-vt.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://north-montpelier-city-vt.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://northfield-city-vt.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://northfield-falls-city-vt.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://plainfield-city-vt.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://south-barre-city-vt.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://waitsfield-city-vt.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://warren-city-vt.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://waterbury-city-vt.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://waterbury-center-city-vt.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://websterville-city-vt.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://woodbury-city-vt.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://worcester-city-vt.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n</sitemapindex>"
+        },
+        {
+            "countyName": "Windham",
+            "cities": [
+                {
+                    "cityName": "Bellows Falls",
+                    "cityDomain": "https://bellows-falls-city-vt.mydripnurse.com",
+                    "citySitemap": "https://bellows-falls-city-vt.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Brattleboro",
+                    "cityDomain": "https://brattleboro-city-vt.mydripnurse.com",
+                    "citySitemap": "https://brattleboro-city-vt.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Cambridgeport",
+                    "cityDomain": "https://cambridgeport-city-vt.mydripnurse.com",
+                    "citySitemap": "https://cambridgeport-city-vt.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "East Dover",
+                    "cityDomain": "https://east-dover-city-vt.mydripnurse.com",
+                    "citySitemap": "https://east-dover-city-vt.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Grafton",
+                    "cityDomain": "https://grafton-city-vt.mydripnurse.com",
+                    "citySitemap": "https://grafton-city-vt.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Jacksonville",
+                    "cityDomain": "https://jacksonville-city-vt.mydripnurse.com",
+                    "citySitemap": "https://jacksonville-city-vt.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Jamaica",
+                    "cityDomain": "https://jamaica-city-vt.mydripnurse.com",
+                    "citySitemap": "https://jamaica-city-vt.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Londonderry",
+                    "cityDomain": "https://londonderry-city-vt.mydripnurse.com",
+                    "citySitemap": "https://londonderry-city-vt.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Marlboro",
+                    "cityDomain": "https://marlboro-city-vt.mydripnurse.com",
+                    "citySitemap": "https://marlboro-city-vt.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Newfane",
+                    "cityDomain": "https://newfane-city-vt.mydripnurse.com",
+                    "citySitemap": "https://newfane-city-vt.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Putney",
+                    "cityDomain": "https://putney-city-vt.mydripnurse.com",
+                    "citySitemap": "https://putney-city-vt.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Saxtons River",
+                    "cityDomain": "https://saxtons-river-city-vt.mydripnurse.com",
+                    "citySitemap": "https://saxtons-river-city-vt.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "South Londonderry",
+                    "cityDomain": "https://south-londonderry-city-vt.mydripnurse.com",
+                    "citySitemap": "https://south-londonderry-city-vt.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "South Newfane",
+                    "cityDomain": "https://south-newfane-city-vt.mydripnurse.com",
+                    "citySitemap": "https://south-newfane-city-vt.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Townshend",
+                    "cityDomain": "https://townshend-city-vt.mydripnurse.com",
+                    "citySitemap": "https://townshend-city-vt.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Vernon",
+                    "cityDomain": "https://vernon-city-vt.mydripnurse.com",
+                    "citySitemap": "https://vernon-city-vt.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Wardsboro",
+                    "cityDomain": "https://wardsboro-city-vt.mydripnurse.com",
+                    "citySitemap": "https://wardsboro-city-vt.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "West Dover",
+                    "cityDomain": "https://west-dover-city-vt.mydripnurse.com",
+                    "citySitemap": "https://west-dover-city-vt.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "West Dummerston",
+                    "cityDomain": "https://west-dummerston-city-vt.mydripnurse.com",
+                    "citySitemap": "https://west-dummerston-city-vt.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "West Halifax",
+                    "cityDomain": "https://west-halifax-city-vt.mydripnurse.com",
+                    "citySitemap": "https://west-halifax-city-vt.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "West Townshend",
+                    "cityDomain": "https://west-townshend-city-vt.mydripnurse.com",
+                    "citySitemap": "https://west-townshend-city-vt.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "West Wardsboro",
+                    "cityDomain": "https://west-wardsboro-city-vt.mydripnurse.com",
+                    "citySitemap": "https://west-wardsboro-city-vt.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Westminster",
+                    "cityDomain": "https://westminster-city-vt.mydripnurse.com",
+                    "citySitemap": "https://westminster-city-vt.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Westminster Station",
+                    "cityDomain": "https://westminster-station-city-vt.mydripnurse.com",
+                    "citySitemap": "https://westminster-station-city-vt.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Whitingham",
+                    "cityDomain": "https://whitingham-city-vt.mydripnurse.com",
+                    "citySitemap": "https://whitingham-city-vt.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Williamsville",
+                    "cityDomain": "https://williamsville-city-vt.mydripnurse.com",
+                    "citySitemap": "https://williamsville-city-vt.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Wilmington",
+                    "cityDomain": "https://wilmington-city-vt.mydripnurse.com",
+                    "citySitemap": "https://wilmington-city-vt.mydripnurse.com/sitemap.xml"
+                }
+            ],
+            "Timezone": {
+                "Name": "Eastern",
+                "Zone": "US/Eastern",
+                "UTC_Offset": "-05:00"
+            },
+            "countyDomain": "https://windham-county-vt.mydripnurse.com",
+            "countySitemap": "https://windham-county-vt.mydripnurse.com/sitemap.xml",
+            "sitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\\n  <sitemap>\\n    <loc>https://windham-county-vt.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://bellows-falls-city-vt.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://brattleboro-city-vt.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://cambridgeport-city-vt.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://east-dover-city-vt.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://grafton-city-vt.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://jacksonville-city-vt.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://jamaica-city-vt.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://londonderry-city-vt.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://marlboro-city-vt.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://newfane-city-vt.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://putney-city-vt.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://saxtons-river-city-vt.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://south-londonderry-city-vt.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://south-newfane-city-vt.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://townshend-city-vt.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://vernon-city-vt.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://wardsboro-city-vt.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://west-dover-city-vt.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://west-dummerston-city-vt.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://west-halifax-city-vt.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://west-townshend-city-vt.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://west-wardsboro-city-vt.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://westminster-city-vt.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://westminster-station-city-vt.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://whitingham-city-vt.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://williamsville-city-vt.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://wilmington-city-vt.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n</sitemapindex>"
+        },
+        {
+            "countyName": "Windsor",
+            "cities": [
+                {
+                    "cityName": "Ascutney",
+                    "cityDomain": "https://ascutney-city-vt.mydripnurse.com",
+                    "citySitemap": "https://ascutney-city-vt.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Barnard",
+                    "cityDomain": "https://barnard-city-vt.mydripnurse.com",
+                    "citySitemap": "https://barnard-city-vt.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Bethel",
+                    "cityDomain": "https://bethel-city-vt.mydripnurse.com",
+                    "citySitemap": "https://bethel-city-vt.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Bridgewater",
+                    "cityDomain": "https://bridgewater-city-vt.mydripnurse.com",
+                    "citySitemap": "https://bridgewater-city-vt.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Bridgewater Corners",
+                    "cityDomain": "https://bridgewater-corners-city-vt.mydripnurse.com",
+                    "citySitemap": "https://bridgewater-corners-city-vt.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Brownsville",
+                    "cityDomain": "https://brownsville-city-vt.mydripnurse.com",
+                    "citySitemap": "https://brownsville-city-vt.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Cavendish",
+                    "cityDomain": "https://cavendish-city-vt.mydripnurse.com",
+                    "citySitemap": "https://cavendish-city-vt.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Chester",
+                    "cityDomain": "https://chester-city-vt.mydripnurse.com",
+                    "citySitemap": "https://chester-city-vt.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Chester Depot",
+                    "cityDomain": "https://chester-depot-city-vt.mydripnurse.com",
+                    "citySitemap": "https://chester-depot-city-vt.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Gaysville",
+                    "cityDomain": "https://gaysville-city-vt.mydripnurse.com",
+                    "citySitemap": "https://gaysville-city-vt.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Hartford",
+                    "cityDomain": "https://hartford-city-vt.mydripnurse.com",
+                    "citySitemap": "https://hartford-city-vt.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Hartland",
+                    "cityDomain": "https://hartland-city-vt.mydripnurse.com",
+                    "citySitemap": "https://hartland-city-vt.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Hartland Four Corners",
+                    "cityDomain": "https://hartland-four-corners-city-vt.mydripnurse.com",
+                    "citySitemap": "https://hartland-four-corners-city-vt.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Ludlow",
+                    "cityDomain": "https://ludlow-city-vt.mydripnurse.com",
+                    "citySitemap": "https://ludlow-city-vt.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "North Hartland",
+                    "cityDomain": "https://north-hartland-city-vt.mydripnurse.com",
+                    "citySitemap": "https://north-hartland-city-vt.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "North Pomfret",
+                    "cityDomain": "https://north-pomfret-city-vt.mydripnurse.com",
+                    "citySitemap": "https://north-pomfret-city-vt.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "North Springfield",
+                    "cityDomain": "https://north-springfield-city-vt.mydripnurse.com",
+                    "citySitemap": "https://north-springfield-city-vt.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Norwich",
+                    "cityDomain": "https://norwich-city-vt.mydripnurse.com",
+                    "citySitemap": "https://norwich-city-vt.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Perkinsville",
+                    "cityDomain": "https://perkinsville-city-vt.mydripnurse.com",
+                    "citySitemap": "https://perkinsville-city-vt.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Plymouth",
+                    "cityDomain": "https://plymouth-city-vt.mydripnurse.com",
+                    "citySitemap": "https://plymouth-city-vt.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Proctorsville",
+                    "cityDomain": "https://proctorsville-city-vt.mydripnurse.com",
+                    "citySitemap": "https://proctorsville-city-vt.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Quechee",
+                    "cityDomain": "https://quechee-city-vt.mydripnurse.com",
+                    "citySitemap": "https://quechee-city-vt.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Reading",
+                    "cityDomain": "https://reading-city-vt.mydripnurse.com",
+                    "citySitemap": "https://reading-city-vt.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Rochester",
+                    "cityDomain": "https://rochester-city-vt.mydripnurse.com",
+                    "citySitemap": "https://rochester-city-vt.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Sharon",
+                    "cityDomain": "https://sharon-city-vt.mydripnurse.com",
+                    "citySitemap": "https://sharon-city-vt.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "South Pomfret",
+                    "cityDomain": "https://south-pomfret-city-vt.mydripnurse.com",
+                    "citySitemap": "https://south-pomfret-city-vt.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "South Royalton",
+                    "cityDomain": "https://south-royalton-city-vt.mydripnurse.com",
+                    "citySitemap": "https://south-royalton-city-vt.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "South Woodstock",
+                    "cityDomain": "https://south-woodstock-city-vt.mydripnurse.com",
+                    "citySitemap": "https://south-woodstock-city-vt.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Springfield",
+                    "cityDomain": "https://springfield-city-vt.mydripnurse.com",
+                    "citySitemap": "https://springfield-city-vt.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Stockbridge",
+                    "cityDomain": "https://stockbridge-city-vt.mydripnurse.com",
+                    "citySitemap": "https://stockbridge-city-vt.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Taftsville",
+                    "cityDomain": "https://taftsville-city-vt.mydripnurse.com",
+                    "citySitemap": "https://taftsville-city-vt.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "West Hartford",
+                    "cityDomain": "https://west-hartford-city-vt.mydripnurse.com",
+                    "citySitemap": "https://west-hartford-city-vt.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Weston",
+                    "cityDomain": "https://weston-city-vt.mydripnurse.com",
+                    "citySitemap": "https://weston-city-vt.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "White River Junction",
+                    "cityDomain": "https://white-river-junction-city-vt.mydripnurse.com",
+                    "citySitemap": "https://white-river-junction-city-vt.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Wilder",
+                    "cityDomain": "https://wilder-city-vt.mydripnurse.com",
+                    "citySitemap": "https://wilder-city-vt.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Windsor",
+                    "cityDomain": "https://windsor-city-vt.mydripnurse.com",
+                    "citySitemap": "https://windsor-city-vt.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Woodstock",
+                    "cityDomain": "https://woodstock-city-vt.mydripnurse.com",
+                    "citySitemap": "https://woodstock-city-vt.mydripnurse.com/sitemap.xml"
+                }
+            ],
+            "Timezone": {
+                "Name": "Eastern",
+                "Zone": "US/Eastern",
+                "UTC_Offset": "-05:00"
+            },
+            "countyDomain": "https://windsor-county-vt.mydripnurse.com",
+            "countySitemap": "https://windsor-county-vt.mydripnurse.com/sitemap.xml",
+            "sitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\\n  <sitemap>\\n    <loc>https://windsor-county-vt.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://ascutney-city-vt.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://barnard-city-vt.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://bethel-city-vt.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://bridgewater-city-vt.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://bridgewater-corners-city-vt.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://brownsville-city-vt.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://cavendish-city-vt.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://chester-city-vt.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://chester-depot-city-vt.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://gaysville-city-vt.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://hartford-city-vt.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://hartland-city-vt.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://hartland-four-corners-city-vt.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://ludlow-city-vt.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://north-hartland-city-vt.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://north-pomfret-city-vt.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://north-springfield-city-vt.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://norwich-city-vt.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://perkinsville-city-vt.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://plymouth-city-vt.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://proctorsville-city-vt.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://quechee-city-vt.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://reading-city-vt.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://rochester-city-vt.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://sharon-city-vt.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://south-pomfret-city-vt.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://south-royalton-city-vt.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://south-woodstock-city-vt.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://springfield-city-vt.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://stockbridge-city-vt.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://taftsville-city-vt.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://west-hartford-city-vt.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://weston-city-vt.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://white-river-junction-city-vt.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://wilder-city-vt.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://windsor-city-vt.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://woodstock-city-vt.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n</sitemapindex>"
+        }
+    ]
+}

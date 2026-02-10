@@ -44,14 +44,9 @@ function resolveScriptPath(repoRoot: string, jobKey: string) {
     const buildsDir = path.join(repoRoot, "scripts", "src", "builds");
 
     const candidatesByJob: Record<string, string[]> = {
-        "run-delta-system": [
-            path.join(repoRoot, "scripts", "src", "run-delta-system.js"),
-            path.join(repoRoot, "scripts", "src", "builds", "run-delta-system.js"),
-        ],
-        "update-custom-values": [
-            path.join(repoRoot, "scripts", "src", "update-custom-values.js"),
-            path.join(repoRoot, "scripts", "src", "builds", "update-custom-values.js"),
-        ],
+        "run-delta-system": [path.join(repoRoot, "scripts", "run-delta-system.js")],
+        "update-custom-values": [path.join(repoRoot, "scripts", "update-custom-values-from-sheet.js")],
+        "update-custom-values-one": [path.join(repoRoot, "scripts", "update-custom-values-one.js")],
         "build-sheet-rows": [
             path.join(buildsDir, "build-sheets-counties-cities.js"),
             path.join(buildsDir, "build-sheet-rows.js"),
@@ -64,10 +59,7 @@ function resolveScriptPath(repoRoot: string, jobKey: string) {
             path.join(buildsDir, "build-states-sitemaps.js"),
             path.join(buildsDir, "build-state-sitemaps.js"),
         ],
-        "build-counties": [
-            path.join(buildsDir, "build-counties.js"),
-            path.join(buildsDir, "build-counties.js"),
-        ],
+        "build-counties": [path.join(buildsDir, "build-counties.js")],
     };
 
     const candidates = candidatesByJob[jobKey] || [];
@@ -79,7 +71,12 @@ function resolveScriptPath(repoRoot: string, jobKey: string) {
     return null;
 }
 
-function safeStateArg(state: string) {
+function normalizeMode(raw: unknown) {
+    const m = String(raw || "").trim().toLowerCase();
+    return m === "live" ? "live" : "dry";
+}
+
+function safeStateArg(state: unknown) {
     const s = String(state || "").trim();
     return s ? s : "all";
 }
@@ -95,10 +92,7 @@ function parseEnvFile(contents: string) {
         if (eq <= 0) continue;
         const k = t.slice(0, eq).trim();
         let v = t.slice(eq + 1).trim();
-        if (
-            (v.startsWith('"') && v.endsWith('"')) ||
-            (v.startsWith("'") && v.endsWith("'"))
-        ) {
+        if ((v.startsWith('"') && v.endsWith('"')) || (v.startsWith("'") && v.endsWith("'"))) {
             v = v.slice(1, -1);
         }
         out[k] = v;
@@ -121,14 +115,43 @@ function loadRepoEnv(repoRoot: string) {
     return merged;
 }
 
+function isOneLocJob(job: string) {
+    return job === "update-custom-values-one";
+}
+
+function jobUsesState(job: string) {
+    // jobs que realmente consumen state (args/env) para iterar / seleccionar archivos
+    return (
+        job === "run-delta-system" ||
+        job === "update-custom-values" ||
+        job === "build-state-index" ||
+        job === "build-state-sitemaps" ||
+        job === "build-counties" ||
+        job === "build-sheet-rows"
+    );
+}
+
 export async function POST(req: Request) {
     const body = await req.json().catch(() => null);
-    const job = body?.job as string;
-    const state = safeStateArg(body?.state);
-    const mode = (body?.mode as string) || "dry";
+
+    const job = String(body?.job || "").trim();
+    if (!job) return NextResponse.json({ error: "Missing job" }, { status: 400 });
+
+    const mode = normalizeMode(body?.mode);
     const debug = !!body?.debug;
 
-    if (!job) return NextResponse.json({ error: "Missing job" }, { status: 400 });
+    const locId = String(body?.locId || "").trim();
+    const kind = String(body?.kind || "").trim(); // "counties" | "cities" | ""
+
+    // state aquí es metadata + (para jobs que lo usan)
+    const rawState = safeStateArg(body?.state);
+
+    // ✅ PRO: para job "one", el state es solo metadata. Evita "all".
+    const metaState = isOneLocJob(job)
+        ? rawState && rawState !== "all"
+            ? rawState
+            : "one"
+        : rawState;
 
     const repoRoot = findRepoRoot(process.cwd());
     const scriptPath = resolveScriptPath(repoRoot, job);
@@ -140,44 +163,61 @@ export async function POST(req: Request) {
         );
     }
 
-    const run = createRun({ job, state, mode, debug });
+    // ✅ PRO: valida locId para job one
+    if (isOneLocJob(job) && !locId) {
+        return NextResponse.json({ error: "Missing locId for update-custom-values-one" }, { status: 400 });
+    }
+
+    const run = createRun({ job, state: metaState, mode, debug });
 
     let closed = false;
 
     try {
         appendLine(run.id, `🟢 created runId=${run.id}`);
-        appendLine(run.id, `job=${job} state=${state} mode=${mode} debug=${debug}`);
+        appendLine(run.id, `job=${job} state=${metaState} mode=${mode} debug=${debug}`);
+        if (locId) appendLine(run.id, `locId=${locId} kind=${kind || "auto"}`);
 
-        const args = [
-            scriptPath,
-            `--state=${state}`,
-            `--mode=${mode}`,
-            `--debug=${debug ? "1" : "0"}`,
-            state, // ✅ optional positional fallback (safe)
-        ];
+        // ✅ Build args properly per job
+        const args: string[] = [scriptPath];
 
+        // mode/debug always
+        args.push(`--mode=${mode}`);
+        args.push(`--debug=${debug ? "1" : "0"}`);
+
+        // state only for jobs that use it
+        if (!isOneLocJob(job) && jobUsesState(job)) {
+            args.push(`--state=${rawState}`);
+            // positional fallback (solo donde aplica)
+            args.push(rawState);
+        }
+
+        // locId/kind for one-loc job
+        if (locId) args.push(`--locId=${locId}`);
+        if (kind) args.push(`--kind=${kind}`);
 
         const cmd = `node ${args.map((a) => JSON.stringify(a)).join(" ")}`;
         setRunMetaCmd(run.id, cmd);
 
-        // appendLine(run.id, `▶ cmd: ${cmd}`);
-        // appendLine(run.id, `ℹ cwd: ${repoRoot}`);
-
-        // Load repo .env so the child always gets GOOGLE_SERVICE_ACCOUNT_KEYFILE, etc.
         const repoEnv = loadRepoEnv(repoRoot);
+
+        const envMerged: Record<string, string> = {
+            ...process.env,
+            ...repoEnv,
+            MODE: mode,
+            DEBUG: debug ? "1" : "0",
+            LOC_ID: locId || "",
+            KIND: kind || "",
+        };
+
+        // ✅ state env solo cuando aplica
+        if (!isOneLocJob(job) && jobUsesState(job)) {
+            envMerged.DELTA_STATE = rawState;
+            envMerged.STATE = rawState;
+        }
 
         const child = spawn(process.execPath, args, {
             cwd: repoRoot,
-            env: {
-                ...process.env,
-                ...repoEnv, // ✅ inject repo env
-
-                // compat
-                DELTA_STATE: state,
-                STATE: state,
-                MODE: mode,
-                DEBUG: debug ? "1" : "0",
-            },
+            env: envMerged,
             stdio: ["pipe", "pipe", "pipe"],
         });
 
@@ -190,9 +230,7 @@ export async function POST(req: Request) {
         rlErr.on("line", (line) => appendLine(run.id, line));
 
         child.on("error", (err) => {
-            // marca error y termina run (si no termina, UI queda "running")
             errorRun(run.id, err);
-
             if (!closed) {
                 closed = true;
                 try {

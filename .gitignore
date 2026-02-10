@@ -28,3 +28,6 @@ secrets/
 
 !public/json/*.json
 !resources/statesFiles/*.json
+
+/data/secrets/
+/data/gsc/

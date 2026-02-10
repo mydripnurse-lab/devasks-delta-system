@@ -39,6 +39,11 @@
                     "citySitemap": "https://isleta-pueblo-city-nm.mydripnurse.com/sitemap.xml"
                 }
             ],
+            "Timezone": {
+                "Name": "Mountain",
+                "Zone": "US/Mountain",
+                "UTC_Offset": "-07:00"
+            },
             "countyDomain": "https://bernalillo-county-nm.mydripnurse.com",
             "countySitemap": "https://bernalillo-county-nm.mydripnurse.com/sitemap.xml",
             "sitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\\n  <sitemap>\\n    <loc>https://bernalillo-county-nm.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-01-18</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://albuquerque-city-nm.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-01-18</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://los-ranchos-de-albuquerque-city-nm.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-01-18</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://tijeras-city-nm.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-01-18</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://north-valley-city-nm.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-01-18</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://south-valley-city-nm.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-01-18</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://sandia-heights-city-nm.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-01-18</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://isleta-pueblo-city-nm.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-01-18</lastmod>\\n  </sitemap>\\n</sitemapindex>"
@@ -97,6 +102,11 @@
                     "citySitemap": "https://la-cieneguilla-city-nm.mydripnurse.com/sitemap.xml"
                 }
             ],
+            "Timezone": {
+                "Name": "Mountain",
+                "Zone": "US/Mountain",
+                "UTC_Offset": "-07:00"
+            },
             "countyDomain": "https://santa-fe-county-nm.mydripnurse.com",
             "countySitemap": "https://santa-fe-county-nm.mydripnurse.com/sitemap.xml",
             "sitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\\n  <sitemap>\\n    <loc>https://santa-fe-county-nm.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-01-18</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://santa-fe-city-nm.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-01-18</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://eldorado-at-santa-fe-city-nm.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-01-18</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://cuyamungue-city-nm.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-01-18</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://edgewood-city-nm.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-01-18</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://glorieta-city-nm.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-01-18</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://nambe-city-nm.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-01-18</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://pojoaque-city-nm.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-01-18</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://tesuque-city-nm.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-01-18</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://la-cienega-city-nm.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-01-18</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://la-cieneguilla-city-nm.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-01-18</lastmod>\\n  </sitemap>\\n</sitemapindex>"
@@ -140,6 +150,11 @@
                     "citySitemap": "https://san-ysidro-city-nm.mydripnurse.com/sitemap.xml"
                 }
             ],
+            "Timezone": {
+                "Name": "Mountain",
+                "Zone": "US/Mountain",
+                "UTC_Offset": "-07:00"
+            },
             "countyDomain": "https://sandoval-county-nm.mydripnurse.com",
             "countySitemap": "https://sandoval-county-nm.mydripnurse.com/sitemap.xml",
             "sitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\\n  <sitemap>\\n    <loc>https://sandoval-county-nm.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-01-18</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://rio-rancho-city-nm.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-01-18</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://bernalillo-city-nm.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-01-18</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://corrales-city-nm.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-01-18</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://placitas-city-nm.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-01-18</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://cuba-city-nm.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-01-18</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://jemez-pueblo-city-nm.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-01-18</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://san-ysidro-city-nm.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-01-18</lastmod>\\n  </sitemap>\\n</sitemapindex>"
@@ -193,6 +208,11 @@
                     "citySitemap": "https://vado-city-nm.mydripnurse.com/sitemap.xml"
                 }
             ],
+            "Timezone": {
+                "Name": "Mountain",
+                "Zone": "US/Mountain",
+                "UTC_Offset": "-07:00"
+            },
             "countyDomain": "https://dona-ana-county-nm.mydripnurse.com",
             "countySitemap": "https://dona-ana-county-nm.mydripnurse.com/sitemap.xml",
             "sitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\\n  <sitemap>\\n    <loc>https://dona-ana-county-nm.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-01-18</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://las-cruces-city-nm.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-01-18</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://sunland-park-city-nm.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-01-18</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://anthony-city-nm.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-01-18</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://chaparral-city-nm.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-01-18</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://mesilla-city-nm.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-01-18</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://mesquite-city-nm.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-01-18</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://radium-springs-city-nm.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-01-18</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://santa-teresa-city-nm.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-01-18</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://vado-city-nm.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-01-18</lastmod>\\n  </sitemap>\\n</sitemapindex>"
@@ -236,6 +256,11 @@
                     "citySitemap": "https://shiprock-city-nm.mydripnurse.com/sitemap.xml"
                 }
             ],
+            "Timezone": {
+                "Name": "Mountain",
+                "Zone": "US/Mountain",
+                "UTC_Offset": "-07:00"
+            },
             "countyDomain": "https://san-juan-county-nm.mydripnurse.com",
             "countySitemap": "https://san-juan-county-nm.mydripnurse.com/sitemap.xml",
             "sitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\\n  <sitemap>\\n    <loc>https://san-juan-county-nm.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-01-18</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://farmington-city-nm.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-01-18</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://aztec-city-nm.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-01-18</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://bloomfield-city-nm.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-01-18</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://kirtland-city-nm.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-01-18</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://flora-vista-city-nm.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-01-18</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://navajo-dam-city-nm.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-01-18</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://shiprock-city-nm.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-01-18</lastmod>\\n  </sitemap>\\n</sitemapindex>"
@@ -274,6 +299,11 @@
                     "citySitemap": "https://mentmore-city-nm.mydripnurse.com/sitemap.xml"
                 }
             ],
+            "Timezone": {
+                "Name": "Mountain",
+                "Zone": "US/Mountain",
+                "UTC_Offset": "-07:00"
+            },
             "countyDomain": "https://mckinley-county-nm.mydripnurse.com",
             "countySitemap": "https://mckinley-county-nm.mydripnurse.com/sitemap.xml",
             "sitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\\n  <sitemap>\\n    <loc>https://mckinley-county-nm.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-01-18</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://gallup-city-nm.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-01-18</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://ramah-city-nm.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-01-18</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://tohatchi-city-nm.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-01-18</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://church-rock-city-nm.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-01-18</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://thoreau-city-nm.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-01-18</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://mentmore-city-nm.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-01-18</lastmod>\\n  </sitemap>\\n</sitemapindex>"
@@ -307,6 +337,11 @@
                     "citySitemap": "https://monument-city-nm.mydripnurse.com/sitemap.xml"
                 }
             ],
+            "Timezone": {
+                "Name": "Mountain",
+                "Zone": "US/Mountain",
+                "UTC_Offset": "-07:00"
+            },
             "countyDomain": "https://lea-county-nm.mydripnurse.com",
             "countySitemap": "https://lea-county-nm.mydripnurse.com/sitemap.xml",
             "sitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\\n  <sitemap>\\n    <loc>https://lea-county-nm.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-01-18</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://hobbs-city-nm.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-01-18</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://lovington-city-nm.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-01-18</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://eunice-city-nm.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-01-18</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://jal-city-nm.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-01-18</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://monument-city-nm.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-01-18</lastmod>\\n  </sitemap>\\n</sitemapindex>"
@@ -340,6 +375,11 @@
                     "citySitemap": "https://lake-arthur-city-nm.mydripnurse.com/sitemap.xml"
                 }
             ],
+            "Timezone": {
+                "Name": "Mountain",
+                "Zone": "US/Mountain",
+                "UTC_Offset": "-07:00"
+            },
             "countyDomain": "https://eddy-county-nm.mydripnurse.com",
             "countySitemap": "https://eddy-county-nm.mydripnurse.com/sitemap.xml",
             "sitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\\n  <sitemap>\\n    <loc>https://eddy-county-nm.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-01-18</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://carlsbad-city-nm.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-01-18</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://artesia-city-nm.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-01-18</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://loving-city-nm.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-01-18</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://hope-city-nm.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-01-18</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://lake-arthur-city-nm.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-01-18</lastmod>\\n  </sitemap>\\n</sitemapindex>"
@@ -373,6 +413,11 @@
                     "citySitemap": "https://artesia-city-nm.mydripnurse.com/sitemap.xml"
                 }
             ],
+            "Timezone": {
+                "Name": "Mountain",
+                "Zone": "US/Mountain",
+                "UTC_Offset": "-07:00"
+            },
             "countyDomain": "https://chaves-county-nm.mydripnurse.com",
             "countySitemap": "https://chaves-county-nm.mydripnurse.com/sitemap.xml",
             "sitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\\n  <sitemap>\\n    <loc>https://chaves-county-nm.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-01-18</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://roswell-city-nm.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-01-18</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://dexter-city-nm.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-01-18</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://hagerman-city-nm.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-01-18</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://lake-arthur-city-nm.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-01-18</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://artesia-city-nm.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-01-18</lastmod>\\n  </sitemap>\\n</sitemapindex>"
@@ -406,6 +451,11 @@
                     "citySitemap": "https://high-rolls-city-nm.mydripnurse.com/sitemap.xml"
                 }
             ],
+            "Timezone": {
+                "Name": "Mountain",
+                "Zone": "US/Mountain",
+                "UTC_Offset": "-07:00"
+            },
             "countyDomain": "https://otero-county-nm.mydripnurse.com",
             "countySitemap": "https://otero-county-nm.mydripnurse.com/sitemap.xml",
             "sitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\\n  <sitemap>\\n    <loc>https://otero-county-nm.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-01-18</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://alamogordo-city-nm.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-01-18</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://cloudcroft-city-nm.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-01-18</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://holloman-air-force-base-city-nm.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-01-18</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://la-luz-city-nm.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-01-18</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://high-rolls-city-nm.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-01-18</lastmod>\\n  </sitemap>\\n</sitemapindex>"
@@ -429,6 +479,11 @@
                     "citySitemap": "https://cannon-air-force-base-city-nm.mydripnurse.com/sitemap.xml"
                 }
             ],
+            "Timezone": {
+                "Name": "Mountain",
+                "Zone": "US/Mountain",
+                "UTC_Offset": "-07:00"
+            },
             "countyDomain": "https://curry-county-nm.mydripnurse.com",
             "countySitemap": "https://curry-county-nm.mydripnurse.com/sitemap.xml",
             "sitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\\n  <sitemap>\\n    <loc>https://curry-county-nm.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-01-18</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://clovis-city-nm.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-01-18</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://texico-city-nm.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-01-18</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://cannon-air-force-base-city-nm.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-01-18</lastmod>\\n  </sitemap>\\n</sitemapindex>"
@@ -462,6 +517,11 @@
                     "citySitemap": "https://bosque-farms-city-nm.mydripnurse.com/sitemap.xml"
                 }
             ],
+            "Timezone": {
+                "Name": "Mountain",
+                "Zone": "US/Mountain",
+                "UTC_Offset": "-07:00"
+            },
             "countyDomain": "https://valencia-county-nm.mydripnurse.com",
             "countySitemap": "https://valencia-county-nm.mydripnurse.com/sitemap.xml",
             "sitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\\n  <sitemap>\\n    <loc>https://valencia-county-nm.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-01-18</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://belen-city-nm.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-01-18</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://los-lunas-city-nm.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-01-18</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://peralta-city-nm.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-01-18</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://rio-communities-city-nm.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-01-18</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://bosque-farms-city-nm.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-01-18</lastmod>\\n  </sitemap>\\n</sitemapindex>"
@@ -500,6 +560,11 @@
                     "citySitemap": "https://gila-city-nm.mydripnurse.com/sitemap.xml"
                 }
             ],
+            "Timezone": {
+                "Name": "Mountain",
+                "Zone": "US/Mountain",
+                "UTC_Offset": "-07:00"
+            },
             "countyDomain": "https://grant-county-nm.mydripnurse.com",
             "countySitemap": "https://grant-county-nm.mydripnurse.com/sitemap.xml",
             "sitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\\n  <sitemap>\\n    <loc>https://grant-county-nm.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-01-18</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://silver-city-city-nm.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-01-18</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://bayard-city-nm.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-01-18</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://santa-clara-city-nm.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-01-18</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://hurley-city-nm.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-01-18</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://cliff-city-nm.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-01-18</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://gila-city-nm.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-01-18</lastmod>\\n  </sitemap>\\n</sitemapindex>"
@@ -538,6 +603,11 @@
                     "citySitemap": "https://taos-pueblo-city-nm.mydripnurse.com/sitemap.xml"
                 }
             ],
+            "Timezone": {
+                "Name": "Mountain",
+                "Zone": "US/Mountain",
+                "UTC_Offset": "-07:00"
+            },
             "countyDomain": "https://taos-county-nm.mydripnurse.com",
             "countySitemap": "https://taos-county-nm.mydripnurse.com/sitemap.xml",
             "sitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\\n  <sitemap>\\n    <loc>https://taos-county-nm.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-01-18</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://taos-city-nm.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-01-18</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://questa-city-nm.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-01-18</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://red-river-city-nm.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-01-18</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://arroyo-seco-city-nm.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-01-18</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://ranchos-de-taos-city-nm.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-01-18</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://taos-pueblo-city-nm.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-01-18</lastmod>\\n  </sitemap>\\n</sitemapindex>"
@@ -556,6 +626,11 @@
                     "citySitemap": "https://white-rock-city-nm.mydripnurse.com/sitemap.xml"
                 }
             ],
+            "Timezone": {
+                "Name": "Mountain",
+                "Zone": "US/Mountain",
+                "UTC_Offset": "-07:00"
+            },
             "countyDomain": "https://los-alamos-county-nm.mydripnurse.com",
             "countySitemap": "https://los-alamos-county-nm.mydripnurse.com/sitemap.xml",
             "sitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\\n  <sitemap>\\n    <loc>https://los-alamos-county-nm.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-01-18</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://los-alamos-city-nm.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-01-18</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://white-rock-city-nm.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-01-18</lastmod>\\n  </sitemap>\\n</sitemapindex>"
@@ -589,6 +664,11 @@
                     "citySitemap": "https://nogal-city-nm.mydripnurse.com/sitemap.xml"
                 }
             ],
+            "Timezone": {
+                "Name": "Mountain",
+                "Zone": "US/Mountain",
+                "UTC_Offset": "-07:00"
+            },
             "countyDomain": "https://lincoln-county-nm.mydripnurse.com",
             "countySitemap": "https://lincoln-county-nm.mydripnurse.com/sitemap.xml",
             "sitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\\n  <sitemap>\\n    <loc>https://lincoln-county-nm.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-01-18</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://ruidoso-city-nm.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-01-18</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://ruidoso-downs-city-nm.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-01-18</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://capitan-city-nm.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-01-18</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://carrizozo-city-nm.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-01-18</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://nogal-city-nm.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-01-18</lastmod>\\n  </sitemap>\\n</sitemapindex>"
@@ -617,6 +697,11 @@
                     "citySitemap": "https://hillsboro-city-nm.mydripnurse.com/sitemap.xml"
                 }
             ],
+            "Timezone": {
+                "Name": "Mountain",
+                "Zone": "US/Mountain",
+                "UTC_Offset": "-07:00"
+            },
             "countyDomain": "https://sierra-county-nm.mydripnurse.com",
             "countySitemap": "https://sierra-county-nm.mydripnurse.com/sitemap.xml",
             "sitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\\n  <sitemap>\\n    <loc>https://sierra-county-nm.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-01-18</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://truth-or-consequences-city-nm.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-01-18</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://elephant-butte-city-nm.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-01-18</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://williamsburg-city-nm.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-01-18</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://hillsboro-city-nm.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-01-18</lastmod>\\n  </sitemap>\\n</sitemapindex>"
@@ -650,6 +735,11 @@
                     "citySitemap": "https://maxwell-city-nm.mydripnurse.com/sitemap.xml"
                 }
             ],
+            "Timezone": {
+                "Name": "Mountain",
+                "Zone": "US/Mountain",
+                "UTC_Offset": "-07:00"
+            },
             "countyDomain": "https://colfax-county-nm.mydripnurse.com",
             "countySitemap": "https://colfax-county-nm.mydripnurse.com/sitemap.xml",
             "sitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\\n  <sitemap>\\n    <loc>https://colfax-county-nm.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-01-18</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://raton-city-nm.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-01-18</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://springer-city-nm.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-01-18</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://cimarron-city-nm.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-01-18</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://eagle-nest-city-nm.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-01-18</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://maxwell-city-nm.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-01-18</lastmod>\\n  </sitemap>\\n</sitemapindex>"
@@ -673,6 +763,11 @@
                     "citySitemap": "https://folsom-city-nm.mydripnurse.com/sitemap.xml"
                 }
             ],
+            "Timezone": {
+                "Name": "Mountain",
+                "Zone": "US/Mountain",
+                "UTC_Offset": "-07:00"
+            },
             "countyDomain": "https://union-county-nm.mydripnurse.com",
             "countySitemap": "https://union-county-nm.mydripnurse.com/sitemap.xml",
             "sitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\\n  <sitemap>\\n    <loc>https://union-county-nm.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-01-18</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://clayton-city-nm.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-01-18</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://des-moines-city-nm.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-01-18</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://folsom-city-nm.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-01-18</lastmod>\\n  </sitemap>\\n</sitemapindex>"
@@ -696,6 +791,11 @@
                     "citySitemap": "https://akela-city-nm.mydripnurse.com/sitemap.xml"
                 }
             ],
+            "Timezone": {
+                "Name": "Mountain",
+                "Zone": "US/Mountain",
+                "UTC_Offset": "-07:00"
+            },
             "countyDomain": "https://luna-county-nm.mydripnurse.com",
             "countySitemap": "https://luna-county-nm.mydripnurse.com/sitemap.xml",
             "sitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\\n  <sitemap>\\n    <loc>https://luna-county-nm.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-01-18</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://deming-city-nm.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-01-18</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://columbus-city-nm.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-01-18</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://akela-city-nm.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-01-18</lastmod>\\n  </sitemap>\\n</sitemapindex>"
@@ -724,6 +824,11 @@
                     "citySitemap": "https://lemitar-city-nm.mydripnurse.com/sitemap.xml"
                 }
             ],
+            "Timezone": {
+                "Name": "Mountain",
+                "Zone": "US/Mountain",
+                "UTC_Offset": "-07:00"
+            },
             "countyDomain": "https://socorro-county-nm.mydripnurse.com",
             "countySitemap": "https://socorro-county-nm.mydripnurse.com/sitemap.xml",
             "sitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\\n  <sitemap>\\n    <loc>https://socorro-county-nm.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-01-18</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://socorro-city-nm.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-01-18</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://magdalena-city-nm.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-01-18</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://polvadera-city-nm.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-01-18</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://lemitar-city-nm.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-01-18</lastmod>\\n  </sitemap>\\n</sitemapindex>"
@@ -762,6 +867,11 @@
                     "citySitemap": "https://dulce-city-nm.mydripnurse.com/sitemap.xml"
                 }
             ],
+            "Timezone": {
+                "Name": "Mountain",
+                "Zone": "US/Mountain",
+                "UTC_Offset": "-07:00"
+            },
             "countyDomain": "https://rio-arriba-county-nm.mydripnurse.com",
             "countySitemap": "https://rio-arriba-county-nm.mydripnurse.com/sitemap.xml",
             "sitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\\n  <sitemap>\\n    <loc>https://rio-arriba-county-nm.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-01-18</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://espanola-city-nm.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-01-18</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://chama-city-nm.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-01-18</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://tierra-amarilla-city-nm.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-01-18</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://hernandez-city-nm.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-01-18</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://abiquiu-city-nm.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-01-18</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://dulce-city-nm.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-01-18</lastmod>\\n  </sitemap>\\n</sitemapindex>"
@@ -790,6 +900,11 @@
                     "citySitemap": "https://willard-city-nm.mydripnurse.com/sitemap.xml"
                 }
             ],
+            "Timezone": {
+                "Name": "Mountain",
+                "Zone": "US/Mountain",
+                "UTC_Offset": "-07:00"
+            },
             "countyDomain": "https://torrance-county-nm.mydripnurse.com",
             "countySitemap": "https://torrance-county-nm.mydripnurse.com/sitemap.xml",
             "sitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\\n  <sitemap>\\n    <loc>https://torrance-county-nm.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-01-18</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://estancia-city-nm.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-01-18</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://moriarty-city-nm.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-01-18</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://mountainair-city-nm.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-01-18</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://willard-city-nm.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-01-18</lastmod>\\n  </sitemap>\\n</sitemapindex>"
@@ -818,6 +933,11 @@
                     "citySitemap": "https://nara-visa-city-nm.mydripnurse.com/sitemap.xml"
                 }
             ],
+            "Timezone": {
+                "Name": "Mountain",
+                "Zone": "US/Mountain",
+                "UTC_Offset": "-07:00"
+            },
             "countyDomain": "https://quay-county-nm.mydripnurse.com",
             "countySitemap": "https://quay-county-nm.mydripnurse.com/sitemap.xml",
             "sitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\\n  <sitemap>\\n    <loc>https://quay-county-nm.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-01-18</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://tucumcari-city-nm.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-01-18</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://logan-city-nm.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-01-18</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://san-jon-city-nm.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-01-18</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://nara-visa-city-nm.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-01-18</lastmod>\\n  </sitemap>\\n</sitemapindex>"
@@ -846,6 +966,11 @@
                     "citySitemap": "https://floyd-city-nm.mydripnurse.com/sitemap.xml"
                 }
             ],
+            "Timezone": {
+                "Name": "Mountain",
+                "Zone": "US/Mountain",
+                "UTC_Offset": "-07:00"
+            },
             "countyDomain": "https://roosevelt-county-nm.mydripnurse.com",
             "countySitemap": "https://roosevelt-county-nm.mydripnurse.com/sitemap.xml",
             "sitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\\n  <sitemap>\\n    <loc>https://roosevelt-county-nm.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-01-18</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://portales-city-nm.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-01-18</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://elida-city-nm.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-01-18</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://causey-city-nm.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-01-18</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://floyd-city-nm.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-01-18</lastmod>\\n  </sitemap>\\n</sitemapindex>"
@@ -864,6 +989,11 @@
                     "citySitemap": "https://puerto-de-luna-city-nm.mydripnurse.com/sitemap.xml"
                 }
             ],
+            "Timezone": {
+                "Name": "Mountain",
+                "Zone": "US/Mountain",
+                "UTC_Offset": "-07:00"
+            },
             "countyDomain": "https://guadalupe-county-nm.mydripnurse.com",
             "countySitemap": "https://guadalupe-county-nm.mydripnurse.com/sitemap.xml",
             "sitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\\n  <sitemap>\\n    <loc>https://guadalupe-county-nm.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-01-18</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://santa-rosa-city-nm.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-01-18</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://puerto-de-luna-city-nm.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-01-18</lastmod>\\n  </sitemap>\\n</sitemapindex>"
@@ -887,6 +1017,11 @@
                     "citySitemap": "https://virden-city-nm.mydripnurse.com/sitemap.xml"
                 }
             ],
+            "Timezone": {
+                "Name": "Mountain",
+                "Zone": "US/Mountain",
+                "UTC_Offset": "-07:00"
+            },
             "countyDomain": "https://hidalgo-county-nm.mydripnurse.com",
             "countySitemap": "https://hidalgo-county-nm.mydripnurse.com/sitemap.xml",
             "sitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\\n  <sitemap>\\n    <loc>https://hidalgo-county-nm.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-01-18</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://lordsburg-city-nm.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-01-18</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://animas-city-nm.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-01-18</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://virden-city-nm.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-01-18</lastmod>\\n  </sitemap>\\n</sitemapindex>"
@@ -910,6 +1045,11 @@
                     "citySitemap": "https://glenwood-city-nm.mydripnurse.com/sitemap.xml"
                 }
             ],
+            "Timezone": {
+                "Name": "Mountain",
+                "Zone": "US/Mountain",
+                "UTC_Offset": "-07:00"
+            },
             "countyDomain": "https://catron-county-nm.mydripnurse.com",
             "countySitemap": "https://catron-county-nm.mydripnurse.com/sitemap.xml",
             "sitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\\n  <sitemap>\\n    <loc>https://catron-county-nm.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-01-18</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://reserve-city-nm.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-01-18</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://quemado-city-nm.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-01-18</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://glenwood-city-nm.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-01-18</lastmod>\\n  </sitemap>\\n</sitemapindex>"
@@ -923,6 +1063,11 @@
                     "citySitemap": "https://fort-sumner-city-nm.mydripnurse.com/sitemap.xml"
                 }
             ],
+            "Timezone": {
+                "Name": "Mountain",
+                "Zone": "US/Mountain",
+                "UTC_Offset": "-07:00"
+            },
             "countyDomain": "https://de-baca-county-nm.mydripnurse.com",
             "countySitemap": "https://de-baca-county-nm.mydripnurse.com/sitemap.xml",
             "sitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\\n  <sitemap>\\n    <loc>https://de-baca-county-nm.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-01-18</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://fort-sumner-city-nm.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-01-18</lastmod>\\n  </sitemap>\\n</sitemapindex>"

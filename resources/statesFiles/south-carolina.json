@@ -1,0 +1,2512 @@
+{
+    "counties": [
+        {
+            "countyName": "Abbeville",
+            "cities": [
+                {
+                    "cityName": "Abbeville",
+                    "cityDomain": "https://abbeville-city-sc.mydripnurse.com",
+                    "citySitemap": "https://abbeville-city-sc.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Calhoun Falls",
+                    "cityDomain": "https://calhoun-falls-city-sc.mydripnurse.com",
+                    "citySitemap": "https://calhoun-falls-city-sc.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Donalds",
+                    "cityDomain": "https://donalds-city-sc.mydripnurse.com",
+                    "citySitemap": "https://donalds-city-sc.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Due West",
+                    "cityDomain": "https://due-west-city-sc.mydripnurse.com",
+                    "citySitemap": "https://due-west-city-sc.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Lowndesville",
+                    "cityDomain": "https://lowndesville-city-sc.mydripnurse.com",
+                    "citySitemap": "https://lowndesville-city-sc.mydripnurse.com/sitemap.xml"
+                }
+            ],
+            "Timezone": {
+                "Name": "Eastern",
+                "Zone": "US/Eastern",
+                "UTC_Offset": "-05:00"
+            },
+            "countyDomain": "https://abbeville-county-sc.mydripnurse.com",
+            "countySitemap": "https://abbeville-county-sc.mydripnurse.com/sitemap.xml",
+            "sitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\\n  <sitemap>\\n    <loc>https://abbeville-county-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://abbeville-city-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://calhoun-falls-city-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://donalds-city-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://due-west-city-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://lowndesville-city-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n</sitemapindex>"
+        },
+        {
+            "countyName": "Aiken",
+            "cities": [
+                {
+                    "cityName": "Aiken",
+                    "cityDomain": "https://aiken-city-sc.mydripnurse.com",
+                    "citySitemap": "https://aiken-city-sc.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Bath",
+                    "cityDomain": "https://bath-city-sc.mydripnurse.com",
+                    "citySitemap": "https://bath-city-sc.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Beech Island",
+                    "cityDomain": "https://beech-island-city-sc.mydripnurse.com",
+                    "citySitemap": "https://beech-island-city-sc.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Clearwater",
+                    "cityDomain": "https://clearwater-city-sc.mydripnurse.com",
+                    "citySitemap": "https://clearwater-city-sc.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Gloverville",
+                    "cityDomain": "https://gloverville-city-sc.mydripnurse.com",
+                    "citySitemap": "https://gloverville-city-sc.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Graniteville",
+                    "cityDomain": "https://graniteville-city-sc.mydripnurse.com",
+                    "citySitemap": "https://graniteville-city-sc.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Jackson",
+                    "cityDomain": "https://jackson-city-sc.mydripnurse.com",
+                    "citySitemap": "https://jackson-city-sc.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Langley",
+                    "cityDomain": "https://langley-city-sc.mydripnurse.com",
+                    "citySitemap": "https://langley-city-sc.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Monetta",
+                    "cityDomain": "https://monetta-city-sc.mydripnurse.com",
+                    "citySitemap": "https://monetta-city-sc.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Montmorenci",
+                    "cityDomain": "https://montmorenci-city-sc.mydripnurse.com",
+                    "citySitemap": "https://montmorenci-city-sc.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "New Ellenton",
+                    "cityDomain": "https://new-ellenton-city-sc.mydripnurse.com",
+                    "citySitemap": "https://new-ellenton-city-sc.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "North Augusta",
+                    "cityDomain": "https://north-augusta-city-sc.mydripnurse.com",
+                    "citySitemap": "https://north-augusta-city-sc.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Salley",
+                    "cityDomain": "https://salley-city-sc.mydripnurse.com",
+                    "citySitemap": "https://salley-city-sc.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Vaucluse",
+                    "cityDomain": "https://vaucluse-city-sc.mydripnurse.com",
+                    "citySitemap": "https://vaucluse-city-sc.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Wagener",
+                    "cityDomain": "https://wagener-city-sc.mydripnurse.com",
+                    "citySitemap": "https://wagener-city-sc.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Warrenville",
+                    "cityDomain": "https://warrenville-city-sc.mydripnurse.com",
+                    "citySitemap": "https://warrenville-city-sc.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Windsor",
+                    "cityDomain": "https://windsor-city-sc.mydripnurse.com",
+                    "citySitemap": "https://windsor-city-sc.mydripnurse.com/sitemap.xml"
+                }
+            ],
+            "Timezone": {
+                "Name": "Eastern",
+                "Zone": "US/Eastern",
+                "UTC_Offset": "-05:00"
+            },
+            "countyDomain": "https://aiken-county-sc.mydripnurse.com",
+            "countySitemap": "https://aiken-county-sc.mydripnurse.com/sitemap.xml",
+            "sitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\\n  <sitemap>\\n    <loc>https://aiken-county-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://aiken-city-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://bath-city-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://beech-island-city-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://clearwater-city-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://gloverville-city-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://graniteville-city-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://jackson-city-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://langley-city-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://monetta-city-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://montmorenci-city-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://new-ellenton-city-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://north-augusta-city-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://salley-city-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://vaucluse-city-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://wagener-city-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://warrenville-city-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://windsor-city-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n</sitemapindex>"
+        },
+        {
+            "countyName": "Allendale",
+            "cities": [
+                {
+                    "cityName": "Allendale",
+                    "cityDomain": "https://allendale-city-sc.mydripnurse.com",
+                    "citySitemap": "https://allendale-city-sc.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Fairfax",
+                    "cityDomain": "https://fairfax-city-sc.mydripnurse.com",
+                    "citySitemap": "https://fairfax-city-sc.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Martin",
+                    "cityDomain": "https://martin-city-sc.mydripnurse.com",
+                    "citySitemap": "https://martin-city-sc.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Sycamore",
+                    "cityDomain": "https://sycamore-city-sc.mydripnurse.com",
+                    "citySitemap": "https://sycamore-city-sc.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Ulmer",
+                    "cityDomain": "https://ulmer-city-sc.mydripnurse.com",
+                    "citySitemap": "https://ulmer-city-sc.mydripnurse.com/sitemap.xml"
+                }
+            ],
+            "Timezone": {
+                "Name": "Eastern",
+                "Zone": "US/Eastern",
+                "UTC_Offset": "-05:00"
+            },
+            "countyDomain": "https://allendale-county-sc.mydripnurse.com",
+            "countySitemap": "https://allendale-county-sc.mydripnurse.com/sitemap.xml",
+            "sitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\\n  <sitemap>\\n    <loc>https://allendale-county-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://allendale-city-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://fairfax-city-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://martin-city-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://sycamore-city-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://ulmer-city-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n</sitemapindex>"
+        },
+        {
+            "countyName": "Anderson",
+            "cities": [
+                {
+                    "cityName": "Anderson",
+                    "cityDomain": "https://anderson-city-sc.mydripnurse.com",
+                    "citySitemap": "https://anderson-city-sc.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Belton",
+                    "cityDomain": "https://belton-city-sc.mydripnurse.com",
+                    "citySitemap": "https://belton-city-sc.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Honea Path",
+                    "cityDomain": "https://honea-path-city-sc.mydripnurse.com",
+                    "citySitemap": "https://honea-path-city-sc.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Iva",
+                    "cityDomain": "https://iva-city-sc.mydripnurse.com",
+                    "citySitemap": "https://iva-city-sc.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "La France",
+                    "cityDomain": "https://la-france-city-sc.mydripnurse.com",
+                    "citySitemap": "https://la-france-city-sc.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Pelzer",
+                    "cityDomain": "https://pelzer-city-sc.mydripnurse.com",
+                    "citySitemap": "https://pelzer-city-sc.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Pendleton",
+                    "cityDomain": "https://pendleton-city-sc.mydripnurse.com",
+                    "citySitemap": "https://pendleton-city-sc.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Sandy Springs",
+                    "cityDomain": "https://sandy-springs-city-sc.mydripnurse.com",
+                    "citySitemap": "https://sandy-springs-city-sc.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Starr",
+                    "cityDomain": "https://starr-city-sc.mydripnurse.com",
+                    "citySitemap": "https://starr-city-sc.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Townville",
+                    "cityDomain": "https://townville-city-sc.mydripnurse.com",
+                    "citySitemap": "https://townville-city-sc.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Williamston",
+                    "cityDomain": "https://williamston-city-sc.mydripnurse.com",
+                    "citySitemap": "https://williamston-city-sc.mydripnurse.com/sitemap.xml"
+                }
+            ],
+            "Timezone": {
+                "Name": "Eastern",
+                "Zone": "US/Eastern",
+                "UTC_Offset": "-05:00"
+            },
+            "countyDomain": "https://anderson-county-sc.mydripnurse.com",
+            "countySitemap": "https://anderson-county-sc.mydripnurse.com/sitemap.xml",
+            "sitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\\n  <sitemap>\\n    <loc>https://anderson-county-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://anderson-city-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://belton-city-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://honea-path-city-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://iva-city-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://la-france-city-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://pelzer-city-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://pendleton-city-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://sandy-springs-city-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://starr-city-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://townville-city-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://williamston-city-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n</sitemapindex>"
+        },
+        {
+            "countyName": "Bamberg",
+            "cities": [
+                {
+                    "cityName": "Bamberg",
+                    "cityDomain": "https://bamberg-city-sc.mydripnurse.com",
+                    "citySitemap": "https://bamberg-city-sc.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Denmark",
+                    "cityDomain": "https://denmark-city-sc.mydripnurse.com",
+                    "citySitemap": "https://denmark-city-sc.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Ehrhardt",
+                    "cityDomain": "https://ehrhardt-city-sc.mydripnurse.com",
+                    "citySitemap": "https://ehrhardt-city-sc.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Olar",
+                    "cityDomain": "https://olar-city-sc.mydripnurse.com",
+                    "citySitemap": "https://olar-city-sc.mydripnurse.com/sitemap.xml"
+                }
+            ],
+            "Timezone": {
+                "Name": "Eastern",
+                "Zone": "US/Eastern",
+                "UTC_Offset": "-05:00"
+            },
+            "countyDomain": "https://bamberg-county-sc.mydripnurse.com",
+            "countySitemap": "https://bamberg-county-sc.mydripnurse.com/sitemap.xml",
+            "sitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\\n  <sitemap>\\n    <loc>https://bamberg-county-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://bamberg-city-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://denmark-city-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://ehrhardt-city-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://olar-city-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n</sitemapindex>"
+        },
+        {
+            "countyName": "Barnwell",
+            "cities": [
+                {
+                    "cityName": "Barnwell",
+                    "cityDomain": "https://barnwell-city-sc.mydripnurse.com",
+                    "citySitemap": "https://barnwell-city-sc.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Blackville",
+                    "cityDomain": "https://blackville-city-sc.mydripnurse.com",
+                    "citySitemap": "https://blackville-city-sc.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Elko",
+                    "cityDomain": "https://elko-city-sc.mydripnurse.com",
+                    "citySitemap": "https://elko-city-sc.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Hilda",
+                    "cityDomain": "https://hilda-city-sc.mydripnurse.com",
+                    "citySitemap": "https://hilda-city-sc.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Williston",
+                    "cityDomain": "https://williston-city-sc.mydripnurse.com",
+                    "citySitemap": "https://williston-city-sc.mydripnurse.com/sitemap.xml"
+                }
+            ],
+            "Timezone": {
+                "Name": "Eastern",
+                "Zone": "US/Eastern",
+                "UTC_Offset": "-05:00"
+            },
+            "countyDomain": "https://barnwell-county-sc.mydripnurse.com",
+            "countySitemap": "https://barnwell-county-sc.mydripnurse.com/sitemap.xml",
+            "sitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\\n  <sitemap>\\n    <loc>https://barnwell-county-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://barnwell-city-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://blackville-city-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://elko-city-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://hilda-city-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://williston-city-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n</sitemapindex>"
+        },
+        {
+            "countyName": "Beaufort",
+            "cities": [
+                {
+                    "cityName": "Beaufort",
+                    "cityDomain": "https://beaufort-city-sc.mydripnurse.com",
+                    "citySitemap": "https://beaufort-city-sc.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Bluffton",
+                    "cityDomain": "https://bluffton-city-sc.mydripnurse.com",
+                    "citySitemap": "https://bluffton-city-sc.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Dale",
+                    "cityDomain": "https://dale-city-sc.mydripnurse.com",
+                    "citySitemap": "https://dale-city-sc.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Daufuskie Island",
+                    "cityDomain": "https://daufuskie-island-city-sc.mydripnurse.com",
+                    "citySitemap": "https://daufuskie-island-city-sc.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Hilton Head Island",
+                    "cityDomain": "https://hilton-head-island-city-sc.mydripnurse.com",
+                    "citySitemap": "https://hilton-head-island-city-sc.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Lobeco",
+                    "cityDomain": "https://lobeco-city-sc.mydripnurse.com",
+                    "citySitemap": "https://lobeco-city-sc.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Okatie",
+                    "cityDomain": "https://okatie-city-sc.mydripnurse.com",
+                    "citySitemap": "https://okatie-city-sc.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Parris Island",
+                    "cityDomain": "https://parris-island-city-sc.mydripnurse.com",
+                    "citySitemap": "https://parris-island-city-sc.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Port Royal",
+                    "cityDomain": "https://port-royal-city-sc.mydripnurse.com",
+                    "citySitemap": "https://port-royal-city-sc.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Saint Helena Island",
+                    "cityDomain": "https://saint-helena-island-city-sc.mydripnurse.com",
+                    "citySitemap": "https://saint-helena-island-city-sc.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Seabrook",
+                    "cityDomain": "https://seabrook-city-sc.mydripnurse.com",
+                    "citySitemap": "https://seabrook-city-sc.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Sheldon",
+                    "cityDomain": "https://sheldon-city-sc.mydripnurse.com",
+                    "citySitemap": "https://sheldon-city-sc.mydripnurse.com/sitemap.xml"
+                }
+            ],
+            "Timezone": {
+                "Name": "Eastern",
+                "Zone": "US/Eastern",
+                "UTC_Offset": "-05:00"
+            },
+            "countyDomain": "https://beaufort-county-sc.mydripnurse.com",
+            "countySitemap": "https://beaufort-county-sc.mydripnurse.com/sitemap.xml",
+            "sitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\\n  <sitemap>\\n    <loc>https://beaufort-county-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://beaufort-city-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://bluffton-city-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://dale-city-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://daufuskie-island-city-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://hilton-head-island-city-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://lobeco-city-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://okatie-city-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://parris-island-city-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://port-royal-city-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://saint-helena-island-city-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://seabrook-city-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://sheldon-city-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n</sitemapindex>"
+        },
+        {
+            "countyName": "Berkeley",
+            "cities": [
+                {
+                    "cityName": "Bethera",
+                    "cityDomain": "https://bethera-city-sc.mydripnurse.com",
+                    "citySitemap": "https://bethera-city-sc.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Bonneau",
+                    "cityDomain": "https://bonneau-city-sc.mydripnurse.com",
+                    "citySitemap": "https://bonneau-city-sc.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Charleston",
+                    "cityDomain": "https://charleston-city-sc.mydripnurse.com",
+                    "citySitemap": "https://charleston-city-sc.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Cordesville",
+                    "cityDomain": "https://cordesville-city-sc.mydripnurse.com",
+                    "citySitemap": "https://cordesville-city-sc.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Cross",
+                    "cityDomain": "https://cross-city-sc.mydripnurse.com",
+                    "citySitemap": "https://cross-city-sc.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Goose Creek",
+                    "cityDomain": "https://goose-creek-city-sc.mydripnurse.com",
+                    "citySitemap": "https://goose-creek-city-sc.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Hanahan",
+                    "cityDomain": "https://hanahan-city-sc.mydripnurse.com",
+                    "citySitemap": "https://hanahan-city-sc.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Huger",
+                    "cityDomain": "https://huger-city-sc.mydripnurse.com",
+                    "citySitemap": "https://huger-city-sc.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Jamestown",
+                    "cityDomain": "https://jamestown-city-sc.mydripnurse.com",
+                    "citySitemap": "https://jamestown-city-sc.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Ladson",
+                    "cityDomain": "https://ladson-city-sc.mydripnurse.com",
+                    "citySitemap": "https://ladson-city-sc.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Moncks Corner",
+                    "cityDomain": "https://moncks-corner-city-sc.mydripnurse.com",
+                    "citySitemap": "https://moncks-corner-city-sc.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Pineville",
+                    "cityDomain": "https://pineville-city-sc.mydripnurse.com",
+                    "citySitemap": "https://pineville-city-sc.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Pinopolis",
+                    "cityDomain": "https://pinopolis-city-sc.mydripnurse.com",
+                    "citySitemap": "https://pinopolis-city-sc.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Russellville",
+                    "cityDomain": "https://russellville-city-sc.mydripnurse.com",
+                    "citySitemap": "https://russellville-city-sc.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Saint Stephen",
+                    "cityDomain": "https://saint-stephen-city-sc.mydripnurse.com",
+                    "citySitemap": "https://saint-stephen-city-sc.mydripnurse.com/sitemap.xml"
+                }
+            ],
+            "Timezone": {
+                "Name": "Eastern",
+                "Zone": "US/Eastern",
+                "UTC_Offset": "-05:00"
+            },
+            "countyDomain": "https://berkeley-county-sc.mydripnurse.com",
+            "countySitemap": "https://berkeley-county-sc.mydripnurse.com/sitemap.xml",
+            "sitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\\n  <sitemap>\\n    <loc>https://berkeley-county-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://bethera-city-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://bonneau-city-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://charleston-city-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://cordesville-city-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://cross-city-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://goose-creek-city-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://hanahan-city-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://huger-city-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://jamestown-city-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://ladson-city-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://moncks-corner-city-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://pineville-city-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://pinopolis-city-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://russellville-city-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://saint-stephen-city-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n</sitemapindex>"
+        },
+        {
+            "countyName": "Calhoun",
+            "cities": [
+                {
+                    "cityName": "Cameron",
+                    "cityDomain": "https://cameron-city-sc.mydripnurse.com",
+                    "citySitemap": "https://cameron-city-sc.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Saint Matthews",
+                    "cityDomain": "https://saint-matthews-city-sc.mydripnurse.com",
+                    "citySitemap": "https://saint-matthews-city-sc.mydripnurse.com/sitemap.xml"
+                }
+            ],
+            "Timezone": {
+                "Name": "Eastern",
+                "Zone": "US/Eastern",
+                "UTC_Offset": "-05:00"
+            },
+            "countyDomain": "https://calhoun-county-sc.mydripnurse.com",
+            "countySitemap": "https://calhoun-county-sc.mydripnurse.com/sitemap.xml",
+            "sitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\\n  <sitemap>\\n    <loc>https://calhoun-county-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://cameron-city-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://saint-matthews-city-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n</sitemapindex>"
+        },
+        {
+            "countyName": "Charleston",
+            "cities": [
+                {
+                    "cityName": "Adams Run",
+                    "cityDomain": "https://adams-run-city-sc.mydripnurse.com",
+                    "citySitemap": "https://adams-run-city-sc.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Awendaw",
+                    "cityDomain": "https://awendaw-city-sc.mydripnurse.com",
+                    "citySitemap": "https://awendaw-city-sc.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Charleston",
+                    "cityDomain": "https://charleston-city-sc.mydripnurse.com",
+                    "citySitemap": "https://charleston-city-sc.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Charleston Afb",
+                    "cityDomain": "https://charleston-afb-city-sc.mydripnurse.com",
+                    "citySitemap": "https://charleston-afb-city-sc.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Folly Beach",
+                    "cityDomain": "https://folly-beach-city-sc.mydripnurse.com",
+                    "citySitemap": "https://folly-beach-city-sc.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Hollywood",
+                    "cityDomain": "https://hollywood-city-sc.mydripnurse.com",
+                    "citySitemap": "https://hollywood-city-sc.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Isle Of Palms",
+                    "cityDomain": "https://isle-of-palms-city-sc.mydripnurse.com",
+                    "citySitemap": "https://isle-of-palms-city-sc.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Johns Island",
+                    "cityDomain": "https://johns-island-city-sc.mydripnurse.com",
+                    "citySitemap": "https://johns-island-city-sc.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Mc Clellanville",
+                    "cityDomain": "https://mc-clellanville-city-sc.mydripnurse.com",
+                    "citySitemap": "https://mc-clellanville-city-sc.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Mount Pleasant",
+                    "cityDomain": "https://mount-pleasant-city-sc.mydripnurse.com",
+                    "citySitemap": "https://mount-pleasant-city-sc.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "North Charleston",
+                    "cityDomain": "https://north-charleston-city-sc.mydripnurse.com",
+                    "citySitemap": "https://north-charleston-city-sc.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Ravenel",
+                    "cityDomain": "https://ravenel-city-sc.mydripnurse.com",
+                    "citySitemap": "https://ravenel-city-sc.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Sullivans Island",
+                    "cityDomain": "https://sullivans-island-city-sc.mydripnurse.com",
+                    "citySitemap": "https://sullivans-island-city-sc.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Wadmalaw Island",
+                    "cityDomain": "https://wadmalaw-island-city-sc.mydripnurse.com",
+                    "citySitemap": "https://wadmalaw-island-city-sc.mydripnurse.com/sitemap.xml"
+                }
+            ],
+            "Timezone": {
+                "Name": "Eastern",
+                "Zone": "US/Eastern",
+                "UTC_Offset": "-05:00"
+            },
+            "countyDomain": "https://charleston-county-sc.mydripnurse.com",
+            "countySitemap": "https://charleston-county-sc.mydripnurse.com/sitemap.xml",
+            "sitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\\n  <sitemap>\\n    <loc>https://charleston-county-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://adams-run-city-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://awendaw-city-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://charleston-city-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://charleston-afb-city-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://folly-beach-city-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://hollywood-city-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://isle-of-palms-city-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://johns-island-city-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://mc-clellanville-city-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://mount-pleasant-city-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://north-charleston-city-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://ravenel-city-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://sullivans-island-city-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://wadmalaw-island-city-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n</sitemapindex>"
+        },
+        {
+            "countyName": "Cherokee",
+            "cities": [
+                {
+                    "cityName": "Blacksburg",
+                    "cityDomain": "https://blacksburg-city-sc.mydripnurse.com",
+                    "citySitemap": "https://blacksburg-city-sc.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Gaffney",
+                    "cityDomain": "https://gaffney-city-sc.mydripnurse.com",
+                    "citySitemap": "https://gaffney-city-sc.mydripnurse.com/sitemap.xml"
+                }
+            ],
+            "Timezone": {
+                "Name": "Eastern",
+                "Zone": "US/Eastern",
+                "UTC_Offset": "-05:00"
+            },
+            "countyDomain": "https://cherokee-county-sc.mydripnurse.com",
+            "countySitemap": "https://cherokee-county-sc.mydripnurse.com/sitemap.xml",
+            "sitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\\n  <sitemap>\\n    <loc>https://cherokee-county-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://blacksburg-city-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://gaffney-city-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n</sitemapindex>"
+        },
+        {
+            "countyName": "Chester",
+            "cities": [
+                {
+                    "cityName": "Blackstock",
+                    "cityDomain": "https://blackstock-city-sc.mydripnurse.com",
+                    "citySitemap": "https://blackstock-city-sc.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Chester",
+                    "cityDomain": "https://chester-city-sc.mydripnurse.com",
+                    "citySitemap": "https://chester-city-sc.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Edgemoor",
+                    "cityDomain": "https://edgemoor-city-sc.mydripnurse.com",
+                    "citySitemap": "https://edgemoor-city-sc.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Fort Lawn",
+                    "cityDomain": "https://fort-lawn-city-sc.mydripnurse.com",
+                    "citySitemap": "https://fort-lawn-city-sc.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Great Falls",
+                    "cityDomain": "https://great-falls-city-sc.mydripnurse.com",
+                    "citySitemap": "https://great-falls-city-sc.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Lando",
+                    "cityDomain": "https://lando-city-sc.mydripnurse.com",
+                    "citySitemap": "https://lando-city-sc.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Richburg",
+                    "cityDomain": "https://richburg-city-sc.mydripnurse.com",
+                    "citySitemap": "https://richburg-city-sc.mydripnurse.com/sitemap.xml"
+                }
+            ],
+            "Timezone": {
+                "Name": "Eastern",
+                "Zone": "US/Eastern",
+                "UTC_Offset": "-05:00"
+            },
+            "countyDomain": "https://chester-county-sc.mydripnurse.com",
+            "countySitemap": "https://chester-county-sc.mydripnurse.com/sitemap.xml",
+            "sitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\\n  <sitemap>\\n    <loc>https://chester-county-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://blackstock-city-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://chester-city-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://edgemoor-city-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://fort-lawn-city-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://great-falls-city-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://lando-city-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://richburg-city-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n</sitemapindex>"
+        },
+        {
+            "countyName": "Chesterfield",
+            "cities": [
+                {
+                    "cityName": "Cheraw",
+                    "cityDomain": "https://cheraw-city-sc.mydripnurse.com",
+                    "citySitemap": "https://cheraw-city-sc.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Chesterfield",
+                    "cityDomain": "https://chesterfield-city-sc.mydripnurse.com",
+                    "citySitemap": "https://chesterfield-city-sc.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Jefferson",
+                    "cityDomain": "https://jefferson-city-sc.mydripnurse.com",
+                    "citySitemap": "https://jefferson-city-sc.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Mc Bee",
+                    "cityDomain": "https://mc-bee-city-sc.mydripnurse.com",
+                    "citySitemap": "https://mc-bee-city-sc.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Mount Croghan",
+                    "cityDomain": "https://mount-croghan-city-sc.mydripnurse.com",
+                    "citySitemap": "https://mount-croghan-city-sc.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Pageland",
+                    "cityDomain": "https://pageland-city-sc.mydripnurse.com",
+                    "citySitemap": "https://pageland-city-sc.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Patrick",
+                    "cityDomain": "https://patrick-city-sc.mydripnurse.com",
+                    "citySitemap": "https://patrick-city-sc.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Ruby",
+                    "cityDomain": "https://ruby-city-sc.mydripnurse.com",
+                    "citySitemap": "https://ruby-city-sc.mydripnurse.com/sitemap.xml"
+                }
+            ],
+            "Timezone": {
+                "Name": "Eastern",
+                "Zone": "US/Eastern",
+                "UTC_Offset": "-05:00"
+            },
+            "countyDomain": "https://chesterfield-county-sc.mydripnurse.com",
+            "countySitemap": "https://chesterfield-county-sc.mydripnurse.com/sitemap.xml",
+            "sitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\\n  <sitemap>\\n    <loc>https://chesterfield-county-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://cheraw-city-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://chesterfield-city-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://jefferson-city-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://mc-bee-city-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://mount-croghan-city-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://pageland-city-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://patrick-city-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://ruby-city-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n</sitemapindex>"
+        },
+        {
+            "countyName": "Clarendon",
+            "cities": [
+                {
+                    "cityName": "Alcolu",
+                    "cityDomain": "https://alcolu-city-sc.mydripnurse.com",
+                    "citySitemap": "https://alcolu-city-sc.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Davis Station",
+                    "cityDomain": "https://davis-station-city-sc.mydripnurse.com",
+                    "citySitemap": "https://davis-station-city-sc.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Gable",
+                    "cityDomain": "https://gable-city-sc.mydripnurse.com",
+                    "citySitemap": "https://gable-city-sc.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Manning",
+                    "cityDomain": "https://manning-city-sc.mydripnurse.com",
+                    "citySitemap": "https://manning-city-sc.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "New Zion",
+                    "cityDomain": "https://new-zion-city-sc.mydripnurse.com",
+                    "citySitemap": "https://new-zion-city-sc.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Sardinia",
+                    "cityDomain": "https://sardinia-city-sc.mydripnurse.com",
+                    "citySitemap": "https://sardinia-city-sc.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Summerton",
+                    "cityDomain": "https://summerton-city-sc.mydripnurse.com",
+                    "citySitemap": "https://summerton-city-sc.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Turbeville",
+                    "cityDomain": "https://turbeville-city-sc.mydripnurse.com",
+                    "citySitemap": "https://turbeville-city-sc.mydripnurse.com/sitemap.xml"
+                }
+            ],
+            "Timezone": {
+                "Name": "Eastern",
+                "Zone": "US/Eastern",
+                "UTC_Offset": "-05:00"
+            },
+            "countyDomain": "https://clarendon-county-sc.mydripnurse.com",
+            "countySitemap": "https://clarendon-county-sc.mydripnurse.com/sitemap.xml",
+            "sitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\\n  <sitemap>\\n    <loc>https://clarendon-county-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://alcolu-city-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://davis-station-city-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://gable-city-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://manning-city-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://new-zion-city-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://sardinia-city-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://summerton-city-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://turbeville-city-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n</sitemapindex>"
+        },
+        {
+            "countyName": "Colleton",
+            "cities": [
+                {
+                    "cityName": "Canadys",
+                    "cityDomain": "https://canadys-city-sc.mydripnurse.com",
+                    "citySitemap": "https://canadys-city-sc.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Cottageville",
+                    "cityDomain": "https://cottageville-city-sc.mydripnurse.com",
+                    "citySitemap": "https://cottageville-city-sc.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Edisto Island",
+                    "cityDomain": "https://edisto-island-city-sc.mydripnurse.com",
+                    "citySitemap": "https://edisto-island-city-sc.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Green Pond",
+                    "cityDomain": "https://green-pond-city-sc.mydripnurse.com",
+                    "citySitemap": "https://green-pond-city-sc.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Islandton",
+                    "cityDomain": "https://islandton-city-sc.mydripnurse.com",
+                    "citySitemap": "https://islandton-city-sc.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Jacksonboro",
+                    "cityDomain": "https://jacksonboro-city-sc.mydripnurse.com",
+                    "citySitemap": "https://jacksonboro-city-sc.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Lodge",
+                    "cityDomain": "https://lodge-city-sc.mydripnurse.com",
+                    "citySitemap": "https://lodge-city-sc.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Round O",
+                    "cityDomain": "https://round-o-city-sc.mydripnurse.com",
+                    "citySitemap": "https://round-o-city-sc.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Ruffin",
+                    "cityDomain": "https://ruffin-city-sc.mydripnurse.com",
+                    "citySitemap": "https://ruffin-city-sc.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Smoaks",
+                    "cityDomain": "https://smoaks-city-sc.mydripnurse.com",
+                    "citySitemap": "https://smoaks-city-sc.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Walterboro",
+                    "cityDomain": "https://walterboro-city-sc.mydripnurse.com",
+                    "citySitemap": "https://walterboro-city-sc.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Williams",
+                    "cityDomain": "https://williams-city-sc.mydripnurse.com",
+                    "citySitemap": "https://williams-city-sc.mydripnurse.com/sitemap.xml"
+                }
+            ],
+            "Timezone": {
+                "Name": "Eastern",
+                "Zone": "US/Eastern",
+                "UTC_Offset": "-05:00"
+            },
+            "countyDomain": "https://colleton-county-sc.mydripnurse.com",
+            "countySitemap": "https://colleton-county-sc.mydripnurse.com/sitemap.xml",
+            "sitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\\n  <sitemap>\\n    <loc>https://colleton-county-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://canadys-city-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://cottageville-city-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://edisto-island-city-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://green-pond-city-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://islandton-city-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://jacksonboro-city-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://lodge-city-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://round-o-city-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://ruffin-city-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://smoaks-city-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://walterboro-city-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://williams-city-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n</sitemapindex>"
+        },
+        {
+            "countyName": "Darlington",
+            "cities": [
+                {
+                    "cityName": "Darlington",
+                    "cityDomain": "https://darlington-city-sc.mydripnurse.com",
+                    "citySitemap": "https://darlington-city-sc.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Hartsville",
+                    "cityDomain": "https://hartsville-city-sc.mydripnurse.com",
+                    "citySitemap": "https://hartsville-city-sc.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Lamar",
+                    "cityDomain": "https://lamar-city-sc.mydripnurse.com",
+                    "citySitemap": "https://lamar-city-sc.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Lydia",
+                    "cityDomain": "https://lydia-city-sc.mydripnurse.com",
+                    "citySitemap": "https://lydia-city-sc.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Society Hill",
+                    "cityDomain": "https://society-hill-city-sc.mydripnurse.com",
+                    "citySitemap": "https://society-hill-city-sc.mydripnurse.com/sitemap.xml"
+                }
+            ],
+            "Timezone": {
+                "Name": "Eastern",
+                "Zone": "US/Eastern",
+                "UTC_Offset": "-05:00"
+            },
+            "countyDomain": "https://darlington-county-sc.mydripnurse.com",
+            "countySitemap": "https://darlington-county-sc.mydripnurse.com/sitemap.xml",
+            "sitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\\n  <sitemap>\\n    <loc>https://darlington-county-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://darlington-city-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://hartsville-city-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://lamar-city-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://lydia-city-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://society-hill-city-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n</sitemapindex>"
+        },
+        {
+            "countyName": "Dillon",
+            "cities": [
+                {
+                    "cityName": "Dillon",
+                    "cityDomain": "https://dillon-city-sc.mydripnurse.com",
+                    "citySitemap": "https://dillon-city-sc.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Fork",
+                    "cityDomain": "https://fork-city-sc.mydripnurse.com",
+                    "citySitemap": "https://fork-city-sc.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Hamer",
+                    "cityDomain": "https://hamer-city-sc.mydripnurse.com",
+                    "citySitemap": "https://hamer-city-sc.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Lake View",
+                    "cityDomain": "https://lake-view-city-sc.mydripnurse.com",
+                    "citySitemap": "https://lake-view-city-sc.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Latta",
+                    "cityDomain": "https://latta-city-sc.mydripnurse.com",
+                    "citySitemap": "https://latta-city-sc.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Little Rock",
+                    "cityDomain": "https://little-rock-city-sc.mydripnurse.com",
+                    "citySitemap": "https://little-rock-city-sc.mydripnurse.com/sitemap.xml"
+                }
+            ],
+            "Timezone": {
+                "Name": "Eastern",
+                "Zone": "US/Eastern",
+                "UTC_Offset": "-05:00"
+            },
+            "countyDomain": "https://dillon-county-sc.mydripnurse.com",
+            "countySitemap": "https://dillon-county-sc.mydripnurse.com/sitemap.xml",
+            "sitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\\n  <sitemap>\\n    <loc>https://dillon-county-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://dillon-city-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://fork-city-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://hamer-city-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://lake-view-city-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://latta-city-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://little-rock-city-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n</sitemapindex>"
+        },
+        {
+            "countyName": "Dorchester",
+            "cities": [
+                {
+                    "cityName": "Dorchester",
+                    "cityDomain": "https://dorchester-city-sc.mydripnurse.com",
+                    "citySitemap": "https://dorchester-city-sc.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Grover",
+                    "cityDomain": "https://grover-city-sc.mydripnurse.com",
+                    "citySitemap": "https://grover-city-sc.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Harleyville",
+                    "cityDomain": "https://harleyville-city-sc.mydripnurse.com",
+                    "citySitemap": "https://harleyville-city-sc.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "North Charleston",
+                    "cityDomain": "https://north-charleston-city-sc.mydripnurse.com",
+                    "citySitemap": "https://north-charleston-city-sc.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Reevesville",
+                    "cityDomain": "https://reevesville-city-sc.mydripnurse.com",
+                    "citySitemap": "https://reevesville-city-sc.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Ridgeville",
+                    "cityDomain": "https://ridgeville-city-sc.mydripnurse.com",
+                    "citySitemap": "https://ridgeville-city-sc.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Saint George",
+                    "cityDomain": "https://saint-george-city-sc.mydripnurse.com",
+                    "citySitemap": "https://saint-george-city-sc.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Summerville",
+                    "cityDomain": "https://summerville-city-sc.mydripnurse.com",
+                    "citySitemap": "https://summerville-city-sc.mydripnurse.com/sitemap.xml"
+                }
+            ],
+            "Timezone": {
+                "Name": "Eastern",
+                "Zone": "US/Eastern",
+                "UTC_Offset": "-05:00"
+            },
+            "countyDomain": "https://dorchester-county-sc.mydripnurse.com",
+            "countySitemap": "https://dorchester-county-sc.mydripnurse.com/sitemap.xml",
+            "sitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\\n  <sitemap>\\n    <loc>https://dorchester-county-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://dorchester-city-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://grover-city-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://harleyville-city-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://north-charleston-city-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://reevesville-city-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://ridgeville-city-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://saint-george-city-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://summerville-city-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n</sitemapindex>"
+        },
+        {
+            "countyName": "Edgefield",
+            "cities": [
+                {
+                    "cityName": "Edgefield",
+                    "cityDomain": "https://edgefield-city-sc.mydripnurse.com",
+                    "citySitemap": "https://edgefield-city-sc.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Johnston",
+                    "cityDomain": "https://johnston-city-sc.mydripnurse.com",
+                    "citySitemap": "https://johnston-city-sc.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Trenton",
+                    "cityDomain": "https://trenton-city-sc.mydripnurse.com",
+                    "citySitemap": "https://trenton-city-sc.mydripnurse.com/sitemap.xml"
+                }
+            ],
+            "Timezone": {
+                "Name": "Eastern",
+                "Zone": "US/Eastern",
+                "UTC_Offset": "-05:00"
+            },
+            "countyDomain": "https://edgefield-county-sc.mydripnurse.com",
+            "countySitemap": "https://edgefield-county-sc.mydripnurse.com/sitemap.xml",
+            "sitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\\n  <sitemap>\\n    <loc>https://edgefield-county-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://edgefield-city-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://johnston-city-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://trenton-city-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n</sitemapindex>"
+        },
+        {
+            "countyName": "Fairfield",
+            "cities": [
+                {
+                    "cityName": "Blair",
+                    "cityDomain": "https://blair-city-sc.mydripnurse.com",
+                    "citySitemap": "https://blair-city-sc.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Jenkinsville",
+                    "cityDomain": "https://jenkinsville-city-sc.mydripnurse.com",
+                    "citySitemap": "https://jenkinsville-city-sc.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Ridgeway",
+                    "cityDomain": "https://ridgeway-city-sc.mydripnurse.com",
+                    "citySitemap": "https://ridgeway-city-sc.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Rion",
+                    "cityDomain": "https://rion-city-sc.mydripnurse.com",
+                    "citySitemap": "https://rion-city-sc.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Winnsboro",
+                    "cityDomain": "https://winnsboro-city-sc.mydripnurse.com",
+                    "citySitemap": "https://winnsboro-city-sc.mydripnurse.com/sitemap.xml"
+                }
+            ],
+            "Timezone": {
+                "Name": "Eastern",
+                "Zone": "US/Eastern",
+                "UTC_Offset": "-05:00"
+            },
+            "countyDomain": "https://fairfield-county-sc.mydripnurse.com",
+            "countySitemap": "https://fairfield-county-sc.mydripnurse.com/sitemap.xml",
+            "sitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\\n  <sitemap>\\n    <loc>https://fairfield-county-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://blair-city-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://jenkinsville-city-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://ridgeway-city-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://rion-city-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://winnsboro-city-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n</sitemapindex>"
+        },
+        {
+            "countyName": "Florence",
+            "cities": [
+                {
+                    "cityName": "Coward",
+                    "cityDomain": "https://coward-city-sc.mydripnurse.com",
+                    "citySitemap": "https://coward-city-sc.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Effingham",
+                    "cityDomain": "https://effingham-city-sc.mydripnurse.com",
+                    "citySitemap": "https://effingham-city-sc.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Florence",
+                    "cityDomain": "https://florence-city-sc.mydripnurse.com",
+                    "citySitemap": "https://florence-city-sc.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Johnsonville",
+                    "cityDomain": "https://johnsonville-city-sc.mydripnurse.com",
+                    "citySitemap": "https://johnsonville-city-sc.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Lake City",
+                    "cityDomain": "https://lake-city-city-sc.mydripnurse.com",
+                    "citySitemap": "https://lake-city-city-sc.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Olanta",
+                    "cityDomain": "https://olanta-city-sc.mydripnurse.com",
+                    "citySitemap": "https://olanta-city-sc.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Pamplico",
+                    "cityDomain": "https://pamplico-city-sc.mydripnurse.com",
+                    "citySitemap": "https://pamplico-city-sc.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Scranton",
+                    "cityDomain": "https://scranton-city-sc.mydripnurse.com",
+                    "citySitemap": "https://scranton-city-sc.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Timmonsville",
+                    "cityDomain": "https://timmonsville-city-sc.mydripnurse.com",
+                    "citySitemap": "https://timmonsville-city-sc.mydripnurse.com/sitemap.xml"
+                }
+            ],
+            "Timezone": {
+                "Name": "Eastern",
+                "Zone": "US/Eastern",
+                "UTC_Offset": "-05:00"
+            },
+            "countyDomain": "https://florence-county-sc.mydripnurse.com",
+            "countySitemap": "https://florence-county-sc.mydripnurse.com/sitemap.xml",
+            "sitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\\n  <sitemap>\\n    <loc>https://florence-county-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://coward-city-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://effingham-city-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://florence-city-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://johnsonville-city-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://lake-city-city-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://olanta-city-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://pamplico-city-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://scranton-city-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://timmonsville-city-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n</sitemapindex>"
+        },
+        {
+            "countyName": "Georgetown",
+            "cities": [
+                {
+                    "cityName": "Andrews",
+                    "cityDomain": "https://andrews-city-sc.mydripnurse.com",
+                    "citySitemap": "https://andrews-city-sc.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Georgetown",
+                    "cityDomain": "https://georgetown-city-sc.mydripnurse.com",
+                    "citySitemap": "https://georgetown-city-sc.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Pawleys Island",
+                    "cityDomain": "https://pawleys-island-city-sc.mydripnurse.com",
+                    "citySitemap": "https://pawleys-island-city-sc.mydripnurse.com/sitemap.xml"
+                }
+            ],
+            "Timezone": {
+                "Name": "Eastern",
+                "Zone": "US/Eastern",
+                "UTC_Offset": "-05:00"
+            },
+            "countyDomain": "https://georgetown-county-sc.mydripnurse.com",
+            "countySitemap": "https://georgetown-county-sc.mydripnurse.com/sitemap.xml",
+            "sitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\\n  <sitemap>\\n    <loc>https://georgetown-county-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://andrews-city-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://georgetown-city-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://pawleys-island-city-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n</sitemapindex>"
+        },
+        {
+            "countyName": "Greenville",
+            "cities": [
+                {
+                    "cityName": "Cleveland",
+                    "cityDomain": "https://cleveland-city-sc.mydripnurse.com",
+                    "citySitemap": "https://cleveland-city-sc.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Conestee",
+                    "cityDomain": "https://conestee-city-sc.mydripnurse.com",
+                    "citySitemap": "https://conestee-city-sc.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Fountain Inn",
+                    "cityDomain": "https://fountain-inn-city-sc.mydripnurse.com",
+                    "citySitemap": "https://fountain-inn-city-sc.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Greenville",
+                    "cityDomain": "https://greenville-city-sc.mydripnurse.com",
+                    "citySitemap": "https://greenville-city-sc.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Greer",
+                    "cityDomain": "https://greer-city-sc.mydripnurse.com",
+                    "citySitemap": "https://greer-city-sc.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Marietta",
+                    "cityDomain": "https://marietta-city-sc.mydripnurse.com",
+                    "citySitemap": "https://marietta-city-sc.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Mauldin",
+                    "cityDomain": "https://mauldin-city-sc.mydripnurse.com",
+                    "citySitemap": "https://mauldin-city-sc.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Piedmont",
+                    "cityDomain": "https://piedmont-city-sc.mydripnurse.com",
+                    "citySitemap": "https://piedmont-city-sc.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Simpsonville",
+                    "cityDomain": "https://simpsonville-city-sc.mydripnurse.com",
+                    "citySitemap": "https://simpsonville-city-sc.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Slater",
+                    "cityDomain": "https://slater-city-sc.mydripnurse.com",
+                    "citySitemap": "https://slater-city-sc.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Taylors",
+                    "cityDomain": "https://taylors-city-sc.mydripnurse.com",
+                    "citySitemap": "https://taylors-city-sc.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Tigerville",
+                    "cityDomain": "https://tigerville-city-sc.mydripnurse.com",
+                    "citySitemap": "https://tigerville-city-sc.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Travelers Rest",
+                    "cityDomain": "https://travelers-rest-city-sc.mydripnurse.com",
+                    "citySitemap": "https://travelers-rest-city-sc.mydripnurse.com/sitemap.xml"
+                }
+            ],
+            "Timezone": {
+                "Name": "Eastern",
+                "Zone": "US/Eastern",
+                "UTC_Offset": "-05:00"
+            },
+            "countyDomain": "https://greenville-county-sc.mydripnurse.com",
+            "countySitemap": "https://greenville-county-sc.mydripnurse.com/sitemap.xml",
+            "sitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\\n  <sitemap>\\n    <loc>https://greenville-county-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://cleveland-city-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://conestee-city-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://fountain-inn-city-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://greenville-city-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://greer-city-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://marietta-city-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://mauldin-city-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://piedmont-city-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://simpsonville-city-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://slater-city-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://taylors-city-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://tigerville-city-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://travelers-rest-city-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n</sitemapindex>"
+        },
+        {
+            "countyName": "Greenwood",
+            "cities": [
+                {
+                    "cityName": "Bradley",
+                    "cityDomain": "https://bradley-city-sc.mydripnurse.com",
+                    "citySitemap": "https://bradley-city-sc.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Greenwood",
+                    "cityDomain": "https://greenwood-city-sc.mydripnurse.com",
+                    "citySitemap": "https://greenwood-city-sc.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Hodges",
+                    "cityDomain": "https://hodges-city-sc.mydripnurse.com",
+                    "citySitemap": "https://hodges-city-sc.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Ninety Six",
+                    "cityDomain": "https://ninety-six-city-sc.mydripnurse.com",
+                    "citySitemap": "https://ninety-six-city-sc.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Troy",
+                    "cityDomain": "https://troy-city-sc.mydripnurse.com",
+                    "citySitemap": "https://troy-city-sc.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Ware Shoals",
+                    "cityDomain": "https://ware-shoals-city-sc.mydripnurse.com",
+                    "citySitemap": "https://ware-shoals-city-sc.mydripnurse.com/sitemap.xml"
+                }
+            ],
+            "Timezone": {
+                "Name": "Eastern",
+                "Zone": "US/Eastern",
+                "UTC_Offset": "-05:00"
+            },
+            "countyDomain": "https://greenwood-county-sc.mydripnurse.com",
+            "countySitemap": "https://greenwood-county-sc.mydripnurse.com/sitemap.xml",
+            "sitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\\n  <sitemap>\\n    <loc>https://greenwood-county-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://bradley-city-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://greenwood-city-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://hodges-city-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://ninety-six-city-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://troy-city-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://ware-shoals-city-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n</sitemapindex>"
+        },
+        {
+            "countyName": "Hampton",
+            "cities": [
+                {
+                    "cityName": "Brunson",
+                    "cityDomain": "https://brunson-city-sc.mydripnurse.com",
+                    "citySitemap": "https://brunson-city-sc.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Crocketville",
+                    "cityDomain": "https://crocketville-city-sc.mydripnurse.com",
+                    "citySitemap": "https://crocketville-city-sc.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Early Branch",
+                    "cityDomain": "https://early-branch-city-sc.mydripnurse.com",
+                    "citySitemap": "https://early-branch-city-sc.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Estill",
+                    "cityDomain": "https://estill-city-sc.mydripnurse.com",
+                    "citySitemap": "https://estill-city-sc.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Furman",
+                    "cityDomain": "https://furman-city-sc.mydripnurse.com",
+                    "citySitemap": "https://furman-city-sc.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Garnett",
+                    "cityDomain": "https://garnett-city-sc.mydripnurse.com",
+                    "citySitemap": "https://garnett-city-sc.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Gifford",
+                    "cityDomain": "https://gifford-city-sc.mydripnurse.com",
+                    "citySitemap": "https://gifford-city-sc.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Hampton",
+                    "cityDomain": "https://hampton-city-sc.mydripnurse.com",
+                    "citySitemap": "https://hampton-city-sc.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Luray",
+                    "cityDomain": "https://luray-city-sc.mydripnurse.com",
+                    "citySitemap": "https://luray-city-sc.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Miley",
+                    "cityDomain": "https://miley-city-sc.mydripnurse.com",
+                    "citySitemap": "https://miley-city-sc.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Scotia",
+                    "cityDomain": "https://scotia-city-sc.mydripnurse.com",
+                    "citySitemap": "https://scotia-city-sc.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Varnville",
+                    "cityDomain": "https://varnville-city-sc.mydripnurse.com",
+                    "citySitemap": "https://varnville-city-sc.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Yemassee",
+                    "cityDomain": "https://yemassee-city-sc.mydripnurse.com",
+                    "citySitemap": "https://yemassee-city-sc.mydripnurse.com/sitemap.xml"
+                }
+            ],
+            "Timezone": {
+                "Name": "Eastern",
+                "Zone": "US/Eastern",
+                "UTC_Offset": "-05:00"
+            },
+            "countyDomain": "https://hampton-county-sc.mydripnurse.com",
+            "countySitemap": "https://hampton-county-sc.mydripnurse.com/sitemap.xml",
+            "sitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\\n  <sitemap>\\n    <loc>https://hampton-county-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://brunson-city-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://crocketville-city-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://early-branch-city-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://estill-city-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://furman-city-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://garnett-city-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://gifford-city-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://hampton-city-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://luray-city-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://miley-city-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://scotia-city-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://varnville-city-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://yemassee-city-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n</sitemapindex>"
+        },
+        {
+            "countyName": "Horry",
+            "cities": [
+                {
+                    "cityName": "Aynor",
+                    "cityDomain": "https://aynor-city-sc.mydripnurse.com",
+                    "citySitemap": "https://aynor-city-sc.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Conway",
+                    "cityDomain": "https://conway-city-sc.mydripnurse.com",
+                    "citySitemap": "https://conway-city-sc.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Galivants Ferry",
+                    "cityDomain": "https://galivants-ferry-city-sc.mydripnurse.com",
+                    "citySitemap": "https://galivants-ferry-city-sc.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Green Sea",
+                    "cityDomain": "https://green-sea-city-sc.mydripnurse.com",
+                    "citySitemap": "https://green-sea-city-sc.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Little River",
+                    "cityDomain": "https://little-river-city-sc.mydripnurse.com",
+                    "citySitemap": "https://little-river-city-sc.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Longs",
+                    "cityDomain": "https://longs-city-sc.mydripnurse.com",
+                    "citySitemap": "https://longs-city-sc.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Loris",
+                    "cityDomain": "https://loris-city-sc.mydripnurse.com",
+                    "citySitemap": "https://loris-city-sc.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Murrells Inlet",
+                    "cityDomain": "https://murrells-inlet-city-sc.mydripnurse.com",
+                    "citySitemap": "https://murrells-inlet-city-sc.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Myrtle Beach",
+                    "cityDomain": "https://myrtle-beach-city-sc.mydripnurse.com",
+                    "citySitemap": "https://myrtle-beach-city-sc.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Nichols",
+                    "cityDomain": "https://nichols-city-sc.mydripnurse.com",
+                    "citySitemap": "https://nichols-city-sc.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "North Myrtle Beach",
+                    "cityDomain": "https://north-myrtle-beach-city-sc.mydripnurse.com",
+                    "citySitemap": "https://north-myrtle-beach-city-sc.mydripnurse.com/sitemap.xml"
+                }
+            ],
+            "Timezone": {
+                "Name": "Eastern",
+                "Zone": "US/Eastern",
+                "UTC_Offset": "-05:00"
+            },
+            "countyDomain": "https://horry-county-sc.mydripnurse.com",
+            "countySitemap": "https://horry-county-sc.mydripnurse.com/sitemap.xml",
+            "sitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\\n  <sitemap>\\n    <loc>https://horry-county-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://aynor-city-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://conway-city-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://galivants-ferry-city-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://green-sea-city-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://little-river-city-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://longs-city-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://loris-city-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://murrells-inlet-city-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://myrtle-beach-city-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://nichols-city-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://north-myrtle-beach-city-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n</sitemapindex>"
+        },
+        {
+            "countyName": "Jasper",
+            "cities": [
+                {
+                    "cityName": "Coosawhatchie",
+                    "cityDomain": "https://coosawhatchie-city-sc.mydripnurse.com",
+                    "citySitemap": "https://coosawhatchie-city-sc.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Hardeeville",
+                    "cityDomain": "https://hardeeville-city-sc.mydripnurse.com",
+                    "citySitemap": "https://hardeeville-city-sc.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Pineland",
+                    "cityDomain": "https://pineland-city-sc.mydripnurse.com",
+                    "citySitemap": "https://pineland-city-sc.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Ridgeland",
+                    "cityDomain": "https://ridgeland-city-sc.mydripnurse.com",
+                    "citySitemap": "https://ridgeland-city-sc.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Tillman",
+                    "cityDomain": "https://tillman-city-sc.mydripnurse.com",
+                    "citySitemap": "https://tillman-city-sc.mydripnurse.com/sitemap.xml"
+                }
+            ],
+            "Timezone": {
+                "Name": "Eastern",
+                "Zone": "US/Eastern",
+                "UTC_Offset": "-05:00"
+            },
+            "countyDomain": "https://jasper-county-sc.mydripnurse.com",
+            "countySitemap": "https://jasper-county-sc.mydripnurse.com/sitemap.xml",
+            "sitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\\n  <sitemap>\\n    <loc>https://jasper-county-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://coosawhatchie-city-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://hardeeville-city-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://pineland-city-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://ridgeland-city-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://tillman-city-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n</sitemapindex>"
+        },
+        {
+            "countyName": "Kershaw",
+            "cities": [
+                {
+                    "cityName": "Bethune",
+                    "cityDomain": "https://bethune-city-sc.mydripnurse.com",
+                    "citySitemap": "https://bethune-city-sc.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Camden",
+                    "cityDomain": "https://camden-city-sc.mydripnurse.com",
+                    "citySitemap": "https://camden-city-sc.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Cassatt",
+                    "cityDomain": "https://cassatt-city-sc.mydripnurse.com",
+                    "citySitemap": "https://cassatt-city-sc.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Elgin",
+                    "cityDomain": "https://elgin-city-sc.mydripnurse.com",
+                    "citySitemap": "https://elgin-city-sc.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Liberty Hill",
+                    "cityDomain": "https://liberty-hill-city-sc.mydripnurse.com",
+                    "citySitemap": "https://liberty-hill-city-sc.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Lugoff",
+                    "cityDomain": "https://lugoff-city-sc.mydripnurse.com",
+                    "citySitemap": "https://lugoff-city-sc.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Westville",
+                    "cityDomain": "https://westville-city-sc.mydripnurse.com",
+                    "citySitemap": "https://westville-city-sc.mydripnurse.com/sitemap.xml"
+                }
+            ],
+            "Timezone": {
+                "Name": "Eastern",
+                "Zone": "US/Eastern",
+                "UTC_Offset": "-05:00"
+            },
+            "countyDomain": "https://kershaw-county-sc.mydripnurse.com",
+            "countySitemap": "https://kershaw-county-sc.mydripnurse.com/sitemap.xml",
+            "sitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\\n  <sitemap>\\n    <loc>https://kershaw-county-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://bethune-city-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://camden-city-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://cassatt-city-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://elgin-city-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://liberty-hill-city-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://lugoff-city-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://westville-city-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n</sitemapindex>"
+        },
+        {
+            "countyName": "Lancaster",
+            "cities": [
+                {
+                    "cityName": "Fort Mill",
+                    "cityDomain": "https://fort-mill-city-sc.mydripnurse.com",
+                    "citySitemap": "https://fort-mill-city-sc.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Heath Springs",
+                    "cityDomain": "https://heath-springs-city-sc.mydripnurse.com",
+                    "citySitemap": "https://heath-springs-city-sc.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Kershaw",
+                    "cityDomain": "https://kershaw-city-sc.mydripnurse.com",
+                    "citySitemap": "https://kershaw-city-sc.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Lancaster",
+                    "cityDomain": "https://lancaster-city-sc.mydripnurse.com",
+                    "citySitemap": "https://lancaster-city-sc.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Van Wyck",
+                    "cityDomain": "https://van-wyck-city-sc.mydripnurse.com",
+                    "citySitemap": "https://van-wyck-city-sc.mydripnurse.com/sitemap.xml"
+                }
+            ],
+            "Timezone": {
+                "Name": "Eastern",
+                "Zone": "US/Eastern",
+                "UTC_Offset": "-05:00"
+            },
+            "countyDomain": "https://lancaster-county-sc.mydripnurse.com",
+            "countySitemap": "https://lancaster-county-sc.mydripnurse.com/sitemap.xml",
+            "sitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\\n  <sitemap>\\n    <loc>https://lancaster-county-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://fort-mill-city-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://heath-springs-city-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://kershaw-city-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://lancaster-city-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://van-wyck-city-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n</sitemapindex>"
+        },
+        {
+            "countyName": "Laurens",
+            "cities": [
+                {
+                    "cityName": "Clinton",
+                    "cityDomain": "https://clinton-city-sc.mydripnurse.com",
+                    "citySitemap": "https://clinton-city-sc.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Cross Hill",
+                    "cityDomain": "https://cross-hill-city-sc.mydripnurse.com",
+                    "citySitemap": "https://cross-hill-city-sc.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Gray Court",
+                    "cityDomain": "https://gray-court-city-sc.mydripnurse.com",
+                    "citySitemap": "https://gray-court-city-sc.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Joanna",
+                    "cityDomain": "https://joanna-city-sc.mydripnurse.com",
+                    "citySitemap": "https://joanna-city-sc.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Laurens",
+                    "cityDomain": "https://laurens-city-sc.mydripnurse.com",
+                    "citySitemap": "https://laurens-city-sc.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Mountville",
+                    "cityDomain": "https://mountville-city-sc.mydripnurse.com",
+                    "citySitemap": "https://mountville-city-sc.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Waterloo",
+                    "cityDomain": "https://waterloo-city-sc.mydripnurse.com",
+                    "citySitemap": "https://waterloo-city-sc.mydripnurse.com/sitemap.xml"
+                }
+            ],
+            "Timezone": {
+                "Name": "Eastern",
+                "Zone": "US/Eastern",
+                "UTC_Offset": "-05:00"
+            },
+            "countyDomain": "https://laurens-county-sc.mydripnurse.com",
+            "countySitemap": "https://laurens-county-sc.mydripnurse.com/sitemap.xml",
+            "sitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\\n  <sitemap>\\n    <loc>https://laurens-county-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://clinton-city-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://cross-hill-city-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://gray-court-city-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://joanna-city-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://laurens-city-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://mountville-city-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://waterloo-city-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n</sitemapindex>"
+        },
+        {
+            "countyName": "Lee",
+            "cities": [
+                {
+                    "cityName": "Bishopville",
+                    "cityDomain": "https://bishopville-city-sc.mydripnurse.com",
+                    "citySitemap": "https://bishopville-city-sc.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Elliott",
+                    "cityDomain": "https://elliott-city-sc.mydripnurse.com",
+                    "citySitemap": "https://elliott-city-sc.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Lynchburg",
+                    "cityDomain": "https://lynchburg-city-sc.mydripnurse.com",
+                    "citySitemap": "https://lynchburg-city-sc.mydripnurse.com/sitemap.xml"
+                }
+            ],
+            "Timezone": {
+                "Name": "Eastern",
+                "Zone": "US/Eastern",
+                "UTC_Offset": "-05:00"
+            },
+            "countyDomain": "https://lee-county-sc.mydripnurse.com",
+            "countySitemap": "https://lee-county-sc.mydripnurse.com/sitemap.xml",
+            "sitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\\n  <sitemap>\\n    <loc>https://lee-county-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://bishopville-city-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://elliott-city-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://lynchburg-city-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n</sitemapindex>"
+        },
+        {
+            "countyName": "Lexington",
+            "cities": [
+                {
+                    "cityName": "Batesburg",
+                    "cityDomain": "https://batesburg-city-sc.mydripnurse.com",
+                    "citySitemap": "https://batesburg-city-sc.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Cayce",
+                    "cityDomain": "https://cayce-city-sc.mydripnurse.com",
+                    "citySitemap": "https://cayce-city-sc.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Chapin",
+                    "cityDomain": "https://chapin-city-sc.mydripnurse.com",
+                    "citySitemap": "https://chapin-city-sc.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Columbia",
+                    "cityDomain": "https://columbia-city-sc.mydripnurse.com",
+                    "citySitemap": "https://columbia-city-sc.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Gaston",
+                    "cityDomain": "https://gaston-city-sc.mydripnurse.com",
+                    "citySitemap": "https://gaston-city-sc.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Gilbert",
+                    "cityDomain": "https://gilbert-city-sc.mydripnurse.com",
+                    "citySitemap": "https://gilbert-city-sc.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Leesville",
+                    "cityDomain": "https://leesville-city-sc.mydripnurse.com",
+                    "citySitemap": "https://leesville-city-sc.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Lexington",
+                    "cityDomain": "https://lexington-city-sc.mydripnurse.com",
+                    "citySitemap": "https://lexington-city-sc.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Pelion",
+                    "cityDomain": "https://pelion-city-sc.mydripnurse.com",
+                    "citySitemap": "https://pelion-city-sc.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Swansea",
+                    "cityDomain": "https://swansea-city-sc.mydripnurse.com",
+                    "citySitemap": "https://swansea-city-sc.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "West Columbia",
+                    "cityDomain": "https://west-columbia-city-sc.mydripnurse.com",
+                    "citySitemap": "https://west-columbia-city-sc.mydripnurse.com/sitemap.xml"
+                }
+            ],
+            "Timezone": {
+                "Name": "Eastern",
+                "Zone": "US/Eastern",
+                "UTC_Offset": "-05:00"
+            },
+            "countyDomain": "https://lexington-county-sc.mydripnurse.com",
+            "countySitemap": "https://lexington-county-sc.mydripnurse.com/sitemap.xml",
+            "sitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\\n  <sitemap>\\n    <loc>https://lexington-county-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://batesburg-city-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://cayce-city-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://chapin-city-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://columbia-city-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://gaston-city-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://gilbert-city-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://leesville-city-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://lexington-city-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://pelion-city-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://swansea-city-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://west-columbia-city-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n</sitemapindex>"
+        },
+        {
+            "countyName": "Marion",
+            "cities": [
+                {
+                    "cityName": "Centenary",
+                    "cityDomain": "https://centenary-city-sc.mydripnurse.com",
+                    "citySitemap": "https://centenary-city-sc.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Gresham",
+                    "cityDomain": "https://gresham-city-sc.mydripnurse.com",
+                    "citySitemap": "https://gresham-city-sc.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Marion",
+                    "cityDomain": "https://marion-city-sc.mydripnurse.com",
+                    "citySitemap": "https://marion-city-sc.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Mullins",
+                    "cityDomain": "https://mullins-city-sc.mydripnurse.com",
+                    "citySitemap": "https://mullins-city-sc.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Rains",
+                    "cityDomain": "https://rains-city-sc.mydripnurse.com",
+                    "citySitemap": "https://rains-city-sc.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Sellers",
+                    "cityDomain": "https://sellers-city-sc.mydripnurse.com",
+                    "citySitemap": "https://sellers-city-sc.mydripnurse.com/sitemap.xml"
+                }
+            ],
+            "Timezone": {
+                "Name": "Eastern",
+                "Zone": "US/Eastern",
+                "UTC_Offset": "-05:00"
+            },
+            "countyDomain": "https://marion-county-sc.mydripnurse.com",
+            "countySitemap": "https://marion-county-sc.mydripnurse.com/sitemap.xml",
+            "sitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\\n  <sitemap>\\n    <loc>https://marion-county-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://centenary-city-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://gresham-city-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://marion-city-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://mullins-city-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://rains-city-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://sellers-city-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n</sitemapindex>"
+        },
+        {
+            "countyName": "Marlboro",
+            "cities": [
+                {
+                    "cityName": "Bennettsville",
+                    "cityDomain": "https://bennettsville-city-sc.mydripnurse.com",
+                    "citySitemap": "https://bennettsville-city-sc.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Blenheim",
+                    "cityDomain": "https://blenheim-city-sc.mydripnurse.com",
+                    "citySitemap": "https://blenheim-city-sc.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Clio",
+                    "cityDomain": "https://clio-city-sc.mydripnurse.com",
+                    "citySitemap": "https://clio-city-sc.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Mc Coll",
+                    "cityDomain": "https://mc-coll-city-sc.mydripnurse.com",
+                    "citySitemap": "https://mc-coll-city-sc.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Tatum",
+                    "cityDomain": "https://tatum-city-sc.mydripnurse.com",
+                    "citySitemap": "https://tatum-city-sc.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Wallace",
+                    "cityDomain": "https://wallace-city-sc.mydripnurse.com",
+                    "citySitemap": "https://wallace-city-sc.mydripnurse.com/sitemap.xml"
+                }
+            ],
+            "Timezone": {
+                "Name": "Eastern",
+                "Zone": "US/Eastern",
+                "UTC_Offset": "-05:00"
+            },
+            "countyDomain": "https://marlboro-county-sc.mydripnurse.com",
+            "countySitemap": "https://marlboro-county-sc.mydripnurse.com/sitemap.xml",
+            "sitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\\n  <sitemap>\\n    <loc>https://marlboro-county-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://bennettsville-city-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://blenheim-city-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://clio-city-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://mc-coll-city-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://tatum-city-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://wallace-city-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n</sitemapindex>"
+        },
+        {
+            "countyName": "McCormick",
+            "cities": [
+                {
+                    "cityName": "Clarks Hill",
+                    "cityDomain": "https://clarks-hill-city-sc.mydripnurse.com",
+                    "citySitemap": "https://clarks-hill-city-sc.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Mc Cormick",
+                    "cityDomain": "https://mc-cormick-city-sc.mydripnurse.com",
+                    "citySitemap": "https://mc-cormick-city-sc.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Modoc",
+                    "cityDomain": "https://modoc-city-sc.mydripnurse.com",
+                    "citySitemap": "https://modoc-city-sc.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Mount Carmel",
+                    "cityDomain": "https://mount-carmel-city-sc.mydripnurse.com",
+                    "citySitemap": "https://mount-carmel-city-sc.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Parksville",
+                    "cityDomain": "https://parksville-city-sc.mydripnurse.com",
+                    "citySitemap": "https://parksville-city-sc.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Plum Branch",
+                    "cityDomain": "https://plum-branch-city-sc.mydripnurse.com",
+                    "citySitemap": "https://plum-branch-city-sc.mydripnurse.com/sitemap.xml"
+                }
+            ],
+            "Timezone": {
+                "Name": "Eastern",
+                "Zone": "US/Eastern",
+                "UTC_Offset": "-05:00"
+            },
+            "countyDomain": "https://mccormick-county-sc.mydripnurse.com",
+            "countySitemap": "https://mccormick-county-sc.mydripnurse.com/sitemap.xml",
+            "sitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\\n  <sitemap>\\n    <loc>https://mccormick-county-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://clarks-hill-city-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://mc-cormick-city-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://modoc-city-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://mount-carmel-city-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://parksville-city-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://plum-branch-city-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n</sitemapindex>"
+        },
+        {
+            "countyName": "Newberry",
+            "cities": [
+                {
+                    "cityName": "Chappells",
+                    "cityDomain": "https://chappells-city-sc.mydripnurse.com",
+                    "citySitemap": "https://chappells-city-sc.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Kinards",
+                    "cityDomain": "https://kinards-city-sc.mydripnurse.com",
+                    "citySitemap": "https://kinards-city-sc.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Little Mountain",
+                    "cityDomain": "https://little-mountain-city-sc.mydripnurse.com",
+                    "citySitemap": "https://little-mountain-city-sc.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Newberry",
+                    "cityDomain": "https://newberry-city-sc.mydripnurse.com",
+                    "citySitemap": "https://newberry-city-sc.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Peak",
+                    "cityDomain": "https://peak-city-sc.mydripnurse.com",
+                    "citySitemap": "https://peak-city-sc.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Pomaria",
+                    "cityDomain": "https://pomaria-city-sc.mydripnurse.com",
+                    "citySitemap": "https://pomaria-city-sc.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Prosperity",
+                    "cityDomain": "https://prosperity-city-sc.mydripnurse.com",
+                    "citySitemap": "https://prosperity-city-sc.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Silverstreet",
+                    "cityDomain": "https://silverstreet-city-sc.mydripnurse.com",
+                    "citySitemap": "https://silverstreet-city-sc.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Whitmire",
+                    "cityDomain": "https://whitmire-city-sc.mydripnurse.com",
+                    "citySitemap": "https://whitmire-city-sc.mydripnurse.com/sitemap.xml"
+                }
+            ],
+            "Timezone": {
+                "Name": "Eastern",
+                "Zone": "US/Eastern",
+                "UTC_Offset": "-05:00"
+            },
+            "countyDomain": "https://newberry-county-sc.mydripnurse.com",
+            "countySitemap": "https://newberry-county-sc.mydripnurse.com/sitemap.xml",
+            "sitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\\n  <sitemap>\\n    <loc>https://newberry-county-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://chappells-city-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://kinards-city-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://little-mountain-city-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://newberry-city-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://peak-city-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://pomaria-city-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://prosperity-city-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://silverstreet-city-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://whitmire-city-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n</sitemapindex>"
+        },
+        {
+            "countyName": "Oconee",
+            "cities": [
+                {
+                    "cityName": "Fair Play",
+                    "cityDomain": "https://fair-play-city-sc.mydripnurse.com",
+                    "citySitemap": "https://fair-play-city-sc.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Long Creek",
+                    "cityDomain": "https://long-creek-city-sc.mydripnurse.com",
+                    "citySitemap": "https://long-creek-city-sc.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Mountain Rest",
+                    "cityDomain": "https://mountain-rest-city-sc.mydripnurse.com",
+                    "citySitemap": "https://mountain-rest-city-sc.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Newry",
+                    "cityDomain": "https://newry-city-sc.mydripnurse.com",
+                    "citySitemap": "https://newry-city-sc.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Richland",
+                    "cityDomain": "https://richland-city-sc.mydripnurse.com",
+                    "citySitemap": "https://richland-city-sc.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Salem",
+                    "cityDomain": "https://salem-city-sc.mydripnurse.com",
+                    "citySitemap": "https://salem-city-sc.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Seneca",
+                    "cityDomain": "https://seneca-city-sc.mydripnurse.com",
+                    "citySitemap": "https://seneca-city-sc.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Tamassee",
+                    "cityDomain": "https://tamassee-city-sc.mydripnurse.com",
+                    "citySitemap": "https://tamassee-city-sc.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Walhalla",
+                    "cityDomain": "https://walhalla-city-sc.mydripnurse.com",
+                    "citySitemap": "https://walhalla-city-sc.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "West Union",
+                    "cityDomain": "https://west-union-city-sc.mydripnurse.com",
+                    "citySitemap": "https://west-union-city-sc.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Westminster",
+                    "cityDomain": "https://westminster-city-sc.mydripnurse.com",
+                    "citySitemap": "https://westminster-city-sc.mydripnurse.com/sitemap.xml"
+                }
+            ],
+            "Timezone": {
+                "Name": "Eastern",
+                "Zone": "US/Eastern",
+                "UTC_Offset": "-05:00"
+            },
+            "countyDomain": "https://oconee-county-sc.mydripnurse.com",
+            "countySitemap": "https://oconee-county-sc.mydripnurse.com/sitemap.xml",
+            "sitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\\n  <sitemap>\\n    <loc>https://oconee-county-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://fair-play-city-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://long-creek-city-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://mountain-rest-city-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://newry-city-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://richland-city-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://salem-city-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://seneca-city-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://tamassee-city-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://walhalla-city-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://west-union-city-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://westminster-city-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n</sitemapindex>"
+        },
+        {
+            "countyName": "Orangeburg",
+            "cities": [
+                {
+                    "cityName": "Bowman",
+                    "cityDomain": "https://bowman-city-sc.mydripnurse.com",
+                    "citySitemap": "https://bowman-city-sc.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Branchville",
+                    "cityDomain": "https://branchville-city-sc.mydripnurse.com",
+                    "citySitemap": "https://branchville-city-sc.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Cope",
+                    "cityDomain": "https://cope-city-sc.mydripnurse.com",
+                    "citySitemap": "https://cope-city-sc.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Cordova",
+                    "cityDomain": "https://cordova-city-sc.mydripnurse.com",
+                    "citySitemap": "https://cordova-city-sc.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Elloree",
+                    "cityDomain": "https://elloree-city-sc.mydripnurse.com",
+                    "citySitemap": "https://elloree-city-sc.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Eutawville",
+                    "cityDomain": "https://eutawville-city-sc.mydripnurse.com",
+                    "citySitemap": "https://eutawville-city-sc.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Holly Hill",
+                    "cityDomain": "https://holly-hill-city-sc.mydripnurse.com",
+                    "citySitemap": "https://holly-hill-city-sc.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Neeses",
+                    "cityDomain": "https://neeses-city-sc.mydripnurse.com",
+                    "citySitemap": "https://neeses-city-sc.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "North",
+                    "cityDomain": "https://north-city-sc.mydripnurse.com",
+                    "citySitemap": "https://north-city-sc.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Norway",
+                    "cityDomain": "https://norway-city-sc.mydripnurse.com",
+                    "citySitemap": "https://norway-city-sc.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Orangeburg",
+                    "cityDomain": "https://orangeburg-city-sc.mydripnurse.com",
+                    "citySitemap": "https://orangeburg-city-sc.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Rowesville",
+                    "cityDomain": "https://rowesville-city-sc.mydripnurse.com",
+                    "citySitemap": "https://rowesville-city-sc.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Santee",
+                    "cityDomain": "https://santee-city-sc.mydripnurse.com",
+                    "citySitemap": "https://santee-city-sc.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Springfield",
+                    "cityDomain": "https://springfield-city-sc.mydripnurse.com",
+                    "citySitemap": "https://springfield-city-sc.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Vance",
+                    "cityDomain": "https://vance-city-sc.mydripnurse.com",
+                    "citySitemap": "https://vance-city-sc.mydripnurse.com/sitemap.xml"
+                }
+            ],
+            "Timezone": {
+                "Name": "Eastern",
+                "Zone": "US/Eastern",
+                "UTC_Offset": "-05:00"
+            },
+            "countyDomain": "https://orangeburg-county-sc.mydripnurse.com",
+            "countySitemap": "https://orangeburg-county-sc.mydripnurse.com/sitemap.xml",
+            "sitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\\n  <sitemap>\\n    <loc>https://orangeburg-county-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://bowman-city-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://branchville-city-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://cope-city-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://cordova-city-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://elloree-city-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://eutawville-city-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://holly-hill-city-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://neeses-city-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://north-city-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://norway-city-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://orangeburg-city-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://rowesville-city-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://santee-city-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://springfield-city-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://vance-city-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n</sitemapindex>"
+        },
+        {
+            "countyName": "Pickens",
+            "cities": [
+                {
+                    "cityName": "Central",
+                    "cityDomain": "https://central-city-sc.mydripnurse.com",
+                    "citySitemap": "https://central-city-sc.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Clemson",
+                    "cityDomain": "https://clemson-city-sc.mydripnurse.com",
+                    "citySitemap": "https://clemson-city-sc.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Easley",
+                    "cityDomain": "https://easley-city-sc.mydripnurse.com",
+                    "citySitemap": "https://easley-city-sc.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Liberty",
+                    "cityDomain": "https://liberty-city-sc.mydripnurse.com",
+                    "citySitemap": "https://liberty-city-sc.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Norris",
+                    "cityDomain": "https://norris-city-sc.mydripnurse.com",
+                    "citySitemap": "https://norris-city-sc.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Pickens",
+                    "cityDomain": "https://pickens-city-sc.mydripnurse.com",
+                    "citySitemap": "https://pickens-city-sc.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Six Mile",
+                    "cityDomain": "https://six-mile-city-sc.mydripnurse.com",
+                    "citySitemap": "https://six-mile-city-sc.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Sunset",
+                    "cityDomain": "https://sunset-city-sc.mydripnurse.com",
+                    "citySitemap": "https://sunset-city-sc.mydripnurse.com/sitemap.xml"
+                }
+            ],
+            "Timezone": {
+                "Name": "Eastern",
+                "Zone": "US/Eastern",
+                "UTC_Offset": "-05:00"
+            },
+            "countyDomain": "https://pickens-county-sc.mydripnurse.com",
+            "countySitemap": "https://pickens-county-sc.mydripnurse.com/sitemap.xml",
+            "sitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\\n  <sitemap>\\n    <loc>https://pickens-county-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://central-city-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://clemson-city-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://easley-city-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://liberty-city-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://norris-city-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://pickens-city-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://six-mile-city-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://sunset-city-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n</sitemapindex>"
+        },
+        {
+            "countyName": "Richland",
+            "cities": [
+                {
+                    "cityName": "Ballentine",
+                    "cityDomain": "https://ballentine-city-sc.mydripnurse.com",
+                    "citySitemap": "https://ballentine-city-sc.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Blythewood",
+                    "cityDomain": "https://blythewood-city-sc.mydripnurse.com",
+                    "citySitemap": "https://blythewood-city-sc.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Columbia",
+                    "cityDomain": "https://columbia-city-sc.mydripnurse.com",
+                    "citySitemap": "https://columbia-city-sc.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Eastover",
+                    "cityDomain": "https://eastover-city-sc.mydripnurse.com",
+                    "citySitemap": "https://eastover-city-sc.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Gadsden",
+                    "cityDomain": "https://gadsden-city-sc.mydripnurse.com",
+                    "citySitemap": "https://gadsden-city-sc.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Hopkins",
+                    "cityDomain": "https://hopkins-city-sc.mydripnurse.com",
+                    "citySitemap": "https://hopkins-city-sc.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Irmo",
+                    "cityDomain": "https://irmo-city-sc.mydripnurse.com",
+                    "citySitemap": "https://irmo-city-sc.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "State Park",
+                    "cityDomain": "https://state-park-city-sc.mydripnurse.com",
+                    "citySitemap": "https://state-park-city-sc.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Usc",
+                    "cityDomain": "https://usc-city-sc.mydripnurse.com",
+                    "citySitemap": "https://usc-city-sc.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "White Rock",
+                    "cityDomain": "https://white-rock-city-sc.mydripnurse.com",
+                    "citySitemap": "https://white-rock-city-sc.mydripnurse.com/sitemap.xml"
+                }
+            ],
+            "Timezone": {
+                "Name": "Eastern",
+                "Zone": "US/Eastern",
+                "UTC_Offset": "-05:00"
+            },
+            "countyDomain": "https://richland-county-sc.mydripnurse.com",
+            "countySitemap": "https://richland-county-sc.mydripnurse.com/sitemap.xml",
+            "sitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\\n  <sitemap>\\n    <loc>https://richland-county-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://ballentine-city-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://blythewood-city-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://columbia-city-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://eastover-city-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://gadsden-city-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://hopkins-city-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://irmo-city-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://state-park-city-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://usc-city-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://white-rock-city-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n</sitemapindex>"
+        },
+        {
+            "countyName": "Saluda",
+            "cities": [
+                {
+                    "cityName": "Ridge Spring",
+                    "cityDomain": "https://ridge-spring-city-sc.mydripnurse.com",
+                    "citySitemap": "https://ridge-spring-city-sc.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Saluda",
+                    "cityDomain": "https://saluda-city-sc.mydripnurse.com",
+                    "citySitemap": "https://saluda-city-sc.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Ward",
+                    "cityDomain": "https://ward-city-sc.mydripnurse.com",
+                    "citySitemap": "https://ward-city-sc.mydripnurse.com/sitemap.xml"
+                }
+            ],
+            "Timezone": {
+                "Name": "Eastern",
+                "Zone": "US/Eastern",
+                "UTC_Offset": "-05:00"
+            },
+            "countyDomain": "https://saluda-county-sc.mydripnurse.com",
+            "countySitemap": "https://saluda-county-sc.mydripnurse.com/sitemap.xml",
+            "sitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\\n  <sitemap>\\n    <loc>https://saluda-county-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://ridge-spring-city-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://saluda-city-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://ward-city-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n</sitemapindex>"
+        },
+        {
+            "countyName": "Spartanburg",
+            "cities": [
+                {
+                    "cityName": "Arcadia",
+                    "cityDomain": "https://arcadia-city-sc.mydripnurse.com",
+                    "citySitemap": "https://arcadia-city-sc.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Boiling Springs",
+                    "cityDomain": "https://boiling-springs-city-sc.mydripnurse.com",
+                    "citySitemap": "https://boiling-springs-city-sc.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Campobello",
+                    "cityDomain": "https://campobello-city-sc.mydripnurse.com",
+                    "citySitemap": "https://campobello-city-sc.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Chesnee",
+                    "cityDomain": "https://chesnee-city-sc.mydripnurse.com",
+                    "citySitemap": "https://chesnee-city-sc.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Clifton",
+                    "cityDomain": "https://clifton-city-sc.mydripnurse.com",
+                    "citySitemap": "https://clifton-city-sc.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Converse",
+                    "cityDomain": "https://converse-city-sc.mydripnurse.com",
+                    "citySitemap": "https://converse-city-sc.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Cowpens",
+                    "cityDomain": "https://cowpens-city-sc.mydripnurse.com",
+                    "citySitemap": "https://cowpens-city-sc.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Cross Anchor",
+                    "cityDomain": "https://cross-anchor-city-sc.mydripnurse.com",
+                    "citySitemap": "https://cross-anchor-city-sc.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Drayton",
+                    "cityDomain": "https://drayton-city-sc.mydripnurse.com",
+                    "citySitemap": "https://drayton-city-sc.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Duncan",
+                    "cityDomain": "https://duncan-city-sc.mydripnurse.com",
+                    "citySitemap": "https://duncan-city-sc.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Enoree",
+                    "cityDomain": "https://enoree-city-sc.mydripnurse.com",
+                    "citySitemap": "https://enoree-city-sc.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Fairforest",
+                    "cityDomain": "https://fairforest-city-sc.mydripnurse.com",
+                    "citySitemap": "https://fairforest-city-sc.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Fingerville",
+                    "cityDomain": "https://fingerville-city-sc.mydripnurse.com",
+                    "citySitemap": "https://fingerville-city-sc.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Glendale",
+                    "cityDomain": "https://glendale-city-sc.mydripnurse.com",
+                    "citySitemap": "https://glendale-city-sc.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Gramling",
+                    "cityDomain": "https://gramling-city-sc.mydripnurse.com",
+                    "citySitemap": "https://gramling-city-sc.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Inman",
+                    "cityDomain": "https://inman-city-sc.mydripnurse.com",
+                    "citySitemap": "https://inman-city-sc.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Landrum",
+                    "cityDomain": "https://landrum-city-sc.mydripnurse.com",
+                    "citySitemap": "https://landrum-city-sc.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Lyman",
+                    "cityDomain": "https://lyman-city-sc.mydripnurse.com",
+                    "citySitemap": "https://lyman-city-sc.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Mayo",
+                    "cityDomain": "https://mayo-city-sc.mydripnurse.com",
+                    "citySitemap": "https://mayo-city-sc.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Moore",
+                    "cityDomain": "https://moore-city-sc.mydripnurse.com",
+                    "citySitemap": "https://moore-city-sc.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Pacolet",
+                    "cityDomain": "https://pacolet-city-sc.mydripnurse.com",
+                    "citySitemap": "https://pacolet-city-sc.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Pacolet Mills",
+                    "cityDomain": "https://pacolet-mills-city-sc.mydripnurse.com",
+                    "citySitemap": "https://pacolet-mills-city-sc.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Pauline",
+                    "cityDomain": "https://pauline-city-sc.mydripnurse.com",
+                    "citySitemap": "https://pauline-city-sc.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Reidville",
+                    "cityDomain": "https://reidville-city-sc.mydripnurse.com",
+                    "citySitemap": "https://reidville-city-sc.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Roebuck",
+                    "cityDomain": "https://roebuck-city-sc.mydripnurse.com",
+                    "citySitemap": "https://roebuck-city-sc.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Spartanburg",
+                    "cityDomain": "https://spartanburg-city-sc.mydripnurse.com",
+                    "citySitemap": "https://spartanburg-city-sc.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Startex",
+                    "cityDomain": "https://startex-city-sc.mydripnurse.com",
+                    "citySitemap": "https://startex-city-sc.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Una",
+                    "cityDomain": "https://una-city-sc.mydripnurse.com",
+                    "citySitemap": "https://una-city-sc.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Wellford",
+                    "cityDomain": "https://wellford-city-sc.mydripnurse.com",
+                    "citySitemap": "https://wellford-city-sc.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "White Stone",
+                    "cityDomain": "https://white-stone-city-sc.mydripnurse.com",
+                    "citySitemap": "https://white-stone-city-sc.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Woodruff",
+                    "cityDomain": "https://woodruff-city-sc.mydripnurse.com",
+                    "citySitemap": "https://woodruff-city-sc.mydripnurse.com/sitemap.xml"
+                }
+            ],
+            "Timezone": {
+                "Name": "Eastern",
+                "Zone": "US/Eastern",
+                "UTC_Offset": "-05:00"
+            },
+            "countyDomain": "https://spartanburg-county-sc.mydripnurse.com",
+            "countySitemap": "https://spartanburg-county-sc.mydripnurse.com/sitemap.xml",
+            "sitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\\n  <sitemap>\\n    <loc>https://spartanburg-county-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://arcadia-city-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://boiling-springs-city-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://campobello-city-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://chesnee-city-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://clifton-city-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://converse-city-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://cowpens-city-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://cross-anchor-city-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://drayton-city-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://duncan-city-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://enoree-city-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://fairforest-city-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://fingerville-city-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://glendale-city-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://gramling-city-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://inman-city-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://landrum-city-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://lyman-city-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://mayo-city-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://moore-city-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://pacolet-city-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://pacolet-mills-city-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://pauline-city-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://reidville-city-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://roebuck-city-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://spartanburg-city-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://startex-city-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://una-city-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://wellford-city-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://white-stone-city-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://woodruff-city-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n</sitemapindex>"
+        },
+        {
+            "countyName": "Sumter",
+            "cities": [
+                {
+                    "cityName": "Dalzell",
+                    "cityDomain": "https://dalzell-city-sc.mydripnurse.com",
+                    "citySitemap": "https://dalzell-city-sc.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Horatio",
+                    "cityDomain": "https://horatio-city-sc.mydripnurse.com",
+                    "citySitemap": "https://horatio-city-sc.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Mayesville",
+                    "cityDomain": "https://mayesville-city-sc.mydripnurse.com",
+                    "citySitemap": "https://mayesville-city-sc.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Pinewood",
+                    "cityDomain": "https://pinewood-city-sc.mydripnurse.com",
+                    "citySitemap": "https://pinewood-city-sc.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Rembert",
+                    "cityDomain": "https://rembert-city-sc.mydripnurse.com",
+                    "citySitemap": "https://rembert-city-sc.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Shaw A F B",
+                    "cityDomain": "https://shaw-a-f-b-city-sc.mydripnurse.com",
+                    "citySitemap": "https://shaw-a-f-b-city-sc.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Sumter",
+                    "cityDomain": "https://sumter-city-sc.mydripnurse.com",
+                    "citySitemap": "https://sumter-city-sc.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Wedgefield",
+                    "cityDomain": "https://wedgefield-city-sc.mydripnurse.com",
+                    "citySitemap": "https://wedgefield-city-sc.mydripnurse.com/sitemap.xml"
+                }
+            ],
+            "Timezone": {
+                "Name": "Eastern",
+                "Zone": "US/Eastern",
+                "UTC_Offset": "-05:00"
+            },
+            "countyDomain": "https://sumter-county-sc.mydripnurse.com",
+            "countySitemap": "https://sumter-county-sc.mydripnurse.com/sitemap.xml",
+            "sitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\\n  <sitemap>\\n    <loc>https://sumter-county-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://dalzell-city-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://horatio-city-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://mayesville-city-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://pinewood-city-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://rembert-city-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://shaw-a-f-b-city-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://sumter-city-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://wedgefield-city-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n</sitemapindex>"
+        },
+        {
+            "countyName": "Union",
+            "cities": [
+                {
+                    "cityName": "Buffalo",
+                    "cityDomain": "https://buffalo-city-sc.mydripnurse.com",
+                    "citySitemap": "https://buffalo-city-sc.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Carlisle",
+                    "cityDomain": "https://carlisle-city-sc.mydripnurse.com",
+                    "citySitemap": "https://carlisle-city-sc.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Jonesville",
+                    "cityDomain": "https://jonesville-city-sc.mydripnurse.com",
+                    "citySitemap": "https://jonesville-city-sc.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Lockhart",
+                    "cityDomain": "https://lockhart-city-sc.mydripnurse.com",
+                    "citySitemap": "https://lockhart-city-sc.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Union",
+                    "cityDomain": "https://union-city-sc.mydripnurse.com",
+                    "citySitemap": "https://union-city-sc.mydripnurse.com/sitemap.xml"
+                }
+            ],
+            "Timezone": {
+                "Name": "Eastern",
+                "Zone": "US/Eastern",
+                "UTC_Offset": "-05:00"
+            },
+            "countyDomain": "https://union-county-sc.mydripnurse.com",
+            "countySitemap": "https://union-county-sc.mydripnurse.com/sitemap.xml",
+            "sitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\\n  <sitemap>\\n    <loc>https://union-county-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://buffalo-city-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://carlisle-city-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://jonesville-city-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://lockhart-city-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://union-city-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n</sitemapindex>"
+        },
+        {
+            "countyName": "Williamsburg",
+            "cities": [
+                {
+                    "cityName": "Cades",
+                    "cityDomain": "https://cades-city-sc.mydripnurse.com",
+                    "citySitemap": "https://cades-city-sc.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Greeleyville",
+                    "cityDomain": "https://greeleyville-city-sc.mydripnurse.com",
+                    "citySitemap": "https://greeleyville-city-sc.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Hemingway",
+                    "cityDomain": "https://hemingway-city-sc.mydripnurse.com",
+                    "citySitemap": "https://hemingway-city-sc.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Kingstree",
+                    "cityDomain": "https://kingstree-city-sc.mydripnurse.com",
+                    "citySitemap": "https://kingstree-city-sc.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Lane",
+                    "cityDomain": "https://lane-city-sc.mydripnurse.com",
+                    "citySitemap": "https://lane-city-sc.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Nesmith",
+                    "cityDomain": "https://nesmith-city-sc.mydripnurse.com",
+                    "citySitemap": "https://nesmith-city-sc.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Salters",
+                    "cityDomain": "https://salters-city-sc.mydripnurse.com",
+                    "citySitemap": "https://salters-city-sc.mydripnurse.com/sitemap.xml"
+                }
+            ],
+            "Timezone": {
+                "Name": "Eastern",
+                "Zone": "US/Eastern",
+                "UTC_Offset": "-05:00"
+            },
+            "countyDomain": "https://williamsburg-county-sc.mydripnurse.com",
+            "countySitemap": "https://williamsburg-county-sc.mydripnurse.com/sitemap.xml",
+            "sitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\\n  <sitemap>\\n    <loc>https://williamsburg-county-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://cades-city-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://greeleyville-city-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://hemingway-city-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://kingstree-city-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://lane-city-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://nesmith-city-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://salters-city-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n</sitemapindex>"
+        },
+        {
+            "countyName": "York",
+            "cities": [
+                {
+                    "cityName": "Bowling Green",
+                    "cityDomain": "https://bowling-green-city-sc.mydripnurse.com",
+                    "citySitemap": "https://bowling-green-city-sc.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Catawba",
+                    "cityDomain": "https://catawba-city-sc.mydripnurse.com",
+                    "citySitemap": "https://catawba-city-sc.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Clover",
+                    "cityDomain": "https://clover-city-sc.mydripnurse.com",
+                    "citySitemap": "https://clover-city-sc.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Fort Mill",
+                    "cityDomain": "https://fort-mill-city-sc.mydripnurse.com",
+                    "citySitemap": "https://fort-mill-city-sc.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Hickory Grove",
+                    "cityDomain": "https://hickory-grove-city-sc.mydripnurse.com",
+                    "citySitemap": "https://hickory-grove-city-sc.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Mc Connells",
+                    "cityDomain": "https://mc-connells-city-sc.mydripnurse.com",
+                    "citySitemap": "https://mc-connells-city-sc.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Rock Hill",
+                    "cityDomain": "https://rock-hill-city-sc.mydripnurse.com",
+                    "citySitemap": "https://rock-hill-city-sc.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Sharon",
+                    "cityDomain": "https://sharon-city-sc.mydripnurse.com",
+                    "citySitemap": "https://sharon-city-sc.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Smyrna",
+                    "cityDomain": "https://smyrna-city-sc.mydripnurse.com",
+                    "citySitemap": "https://smyrna-city-sc.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "York",
+                    "cityDomain": "https://york-city-sc.mydripnurse.com",
+                    "citySitemap": "https://york-city-sc.mydripnurse.com/sitemap.xml"
+                }
+            ],
+            "Timezone": {
+                "Name": "Eastern",
+                "Zone": "US/Eastern",
+                "UTC_Offset": "-05:00"
+            },
+            "countyDomain": "https://york-county-sc.mydripnurse.com",
+            "countySitemap": "https://york-county-sc.mydripnurse.com/sitemap.xml",
+            "sitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\\n  <sitemap>\\n    <loc>https://york-county-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://bowling-green-city-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://catawba-city-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://clover-city-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://fort-mill-city-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://hickory-grove-city-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://mc-connells-city-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://rock-hill-city-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://sharon-city-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://smyrna-city-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://york-city-sc.mydripnurse.com/sitemap.xml</loc>\\n    <lastmod>2026-02-10</lastmod>\\n  </sitemap>\\n</sitemapindex>"
+        }
+    ]
+}

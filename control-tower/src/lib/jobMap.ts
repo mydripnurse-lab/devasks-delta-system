@@ -4,7 +4,7 @@ export const JOB_MAP: Record<
     { script: string; interactive?: boolean }
 > = {
     "run-delta-system": {
-        script: "../scripts/src/builds/run-delta-system.js",
+        script: "../scripts/run-delta-system.js",
     },
     "update-custom-values": {
         script: "../scripts/src/builds/update-custom-values.js",

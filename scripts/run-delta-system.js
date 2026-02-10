@@ -57,10 +57,101 @@ const RUN_ID = `${Date.now()}-${Math.random().toString(16).slice(2)}`;
 const RUN_STARTED_AT = Date.now();
 
 // =====================
-// CLI FLAGS
+// CLI FLAGS (UI-friendly)
 // =====================
 const isDryRun = process.argv.includes("--dry-run");
-const DEBUG = process.argv.includes("--debug") || process.env.DEBUG === "1";
+
+// ✅ allow: --debug OR --debug=1
+const DEBUG =
+    process.argv.includes("--debug") ||
+    String(process.env.DEBUG || "") === "1" ||
+    process.argv.some((a) => String(a).startsWith("--debug=") && String(a).split("=")[1] === "1");
+
+// ✅ NEW: --state=all | --state=alabama | --state="Alabama,Florida"
+function argValue(name, fallback = null) {
+    const argv = process.argv.slice(2);
+    const direct = `--${name}=`;
+
+    for (let i = 0; i < argv.length; i++) {
+        const a = String(argv[i] ?? "");
+        if (a === `--${name}`) {
+            const next = argv[i + 1];
+            if (next && !String(next).startsWith("--")) return String(next);
+            return fallback;
+        }
+        if (a.startsWith(direct)) return a.slice(direct.length);
+    }
+    return fallback;
+}
+
+const STATE_ARG = argValue("state", ""); // if empty -> interactive
+
+// =====================
+// PROGRESS (SSE-friendly)
+// =====================
+function emitProgressInit({ totals, message }) {
+    const payload = {
+        totals: {
+            all: Number(totals?.all ?? 0),
+            counties: Number(totals?.counties ?? 0),
+            cities: Number(totals?.cities ?? 0),
+        },
+        done: { all: 0, counties: 0, cities: 0 },
+        pct: 0,
+        last: { kind: "state", state: "", action: "init" },
+        message: message || "init",
+    };
+    console.log(`__PROGRESS_INIT__ ${JSON.stringify(payload)}`);
+}
+
+function emitProgress({ totals, done, last, message }) {
+    const totalAll = Number(totals?.all ?? 0);
+    const doneAll = Number(done?.all ?? 0);
+    const pct = totalAll > 0 ? Math.max(0, Math.min(1, doneAll / totalAll)) : 0;
+
+    const payload = {
+        totals: {
+            all: totalAll,
+            counties: Number(totals?.counties ?? 0),
+            cities: Number(totals?.cities ?? 0),
+        },
+        done: {
+            all: doneAll,
+            counties: Number(done?.counties ?? 0),
+            cities: Number(done?.cities ?? 0),
+        },
+        pct,
+        last: last || null,
+        message: message || "",
+    };
+
+    console.log(`__PROGRESS__ ${JSON.stringify(payload)}`);
+}
+
+function emitProgressEnd({ totals, done, ok, error }) {
+    const totalAll = Number(totals?.all ?? 0);
+    const doneAll = Number(done?.all ?? 0);
+    const pct = totalAll > 0 ? Math.max(0, Math.min(1, doneAll / totalAll)) : 1;
+
+    const payload = {
+        totals: {
+            all: totalAll,
+            counties: Number(totals?.counties ?? 0),
+            cities: Number(totals?.cities ?? 0),
+        },
+        done: {
+            all: doneAll,
+            counties: Number(done?.counties ?? 0),
+            cities: Number(done?.cities ?? 0),
+        },
+        pct,
+        ok: !!ok,
+        error: error || null,
+        last: { kind: "state", state: "", action: "end" },
+    };
+
+    console.log(`__PROGRESS_END__ ${JSON.stringify(payload)}`);
+}
 
 // =====================
 // HELPERS
@@ -148,31 +239,6 @@ async function listOutStates() {
     return states;
 }
 
-async function promptStateChoice(states) {
-    console.log("\nAvailable states (scripts/out/<state>/<state>.json):");
-    states.forEach((s, i) => console.log(`  ${i + 1}) ${s.slug}`));
-    console.log(`  all) Run ALL states`);
-
-    const rl = readline.createInterface({ input, output });
-    const answer = (await rl.question(
-        "\nType state number OR state slug (e.g. 1 or florida or all): "
-    )).trim();
-    rl.close();
-
-    if (!answer) return null;
-    if (answer.toLowerCase() === "all") return { mode: "all" };
-
-    const asNum = Number(answer);
-    if (!Number.isNaN(asNum) && asNum >= 1 && asNum <= states.length) {
-        return { mode: "one", slug: states[asNum - 1].slug };
-    }
-
-    const exact = states.find((s) => s.slug === answer);
-    if (exact) return { mode: "one", slug: exact.slug };
-
-    return null;
-}
-
 // ---------- Consistencia County/Parish ----------
 function ensureSuffix(name, suffixLower) {
     const s = String(name || "").trim();
@@ -185,7 +251,6 @@ function getCountyLabelFrom(obj) {
     if (!obj) return "";
     if (obj?.countyName) return ensureSuffix(obj.countyName, "county");
     if (obj?.parishName) return ensureSuffix(obj.parishName, "parish");
-    // sometimes already comes as "X County"
     if (obj?.name) return String(obj.name).trim();
     return "";
 }
@@ -195,14 +260,26 @@ function getCountyLabelFrom(obj) {
 // =====================
 function getEntityDomain(entity, parentCounty) {
     if (entity?.type === "county") return entity?.countyDomain || entity?.parishDomain || "";
-    if (entity?.type === "city") return entity?.cityDomain || parentCounty?.countyDomain || parentCounty?.parishDomain || "";
+    if (entity?.type === "city")
+        return (
+            entity?.cityDomain ||
+            parentCounty?.countyDomain ||
+            parentCounty?.parishDomain ||
+            ""
+        );
     return "";
 }
 
 function buildExtraCustomValues({ entity, parentCounty, stateName }) {
     const isCity = entity?.type === "city";
     const countyName = getCountyLabelFrom(parentCounty) || getCountyLabelFrom(entity) || "";
-    const countyDomain = parentCounty?.countyDomain || parentCounty?.parishDomain || entity?.countyDomain || entity?.parishDomain || "";
+    const countyDomain =
+        parentCounty?.countyDomain ||
+        parentCounty?.parishDomain ||
+        entity?.countyDomain ||
+        entity?.parishDomain ||
+        "";
+
     const nameAndState = isCity
         ? `${entity?.cityName || ""} ${stateName || ""}`.trim()
         : `${getCountyLabelFrom(entity) || ""} ${stateName || ""}`.trim();
@@ -293,7 +370,7 @@ async function ghlUpdateCustomValue({
     });
 }
 
-// ✅ NEW: Retry wrapper para el race-condition de GHL (customValues provision async)
+// ✅ Retry wrapper para race-condition de GHL (customValues provision async)
 async function getCustomValuesWithRetry({
     locationId,
     locationToken,
@@ -311,28 +388,22 @@ async function getCustomValuesWithRetry({
 
         if (Array.isArray(arr) && arr.length > 0) {
             if (DEBUG) {
-                console.log(
-                    `✅ Custom Values ready after attempt ${attempt} (count=${arr.length})`
-                );
+                console.log(`✅ Custom Values ready after attempt ${attempt} (count=${arr.length})`);
             }
             return arr;
         }
 
         if (attempt < maxRetries) {
             if (DEBUG) {
-                console.log(
-                    `⏳ Custom Values empty (attempt ${attempt}/${maxRetries}) → waiting ${delay}ms`
-                );
+                console.log(`⏳ Custom Values empty (attempt ${attempt}/${maxRetries}) → waiting ${delay}ms`);
             }
             await sleep(delay);
-            delay = Math.min(Math.ceil(delay * 1.6), 5000); // cap para no dormir demasiado
+            delay = Math.min(Math.ceil(delay * 1.6), 5000);
         }
     }
 
     if (DEBUG) {
-        console.log(
-            `⚠️ Custom Values still empty after ${maxRetries} attempts (locationId=${locationId})`
-        );
+        console.log(`⚠️ Custom Values still empty after ${maxRetries} attempts (locationId=${locationId})`);
     }
     return [];
 }
@@ -364,9 +435,7 @@ async function processOneAccount({
     const rowInfo = tabIndex.mapByKeyValue.get(sheetKey);
 
     if (!rowInfo) {
-        console.log(
-            `⚠️ Sheet row not found for key="${sheetKey}" -> SKIP (no update)`
-        );
+        console.log(`⚠️ Sheet row not found for key="${sheetKey}" -> SKIP (no update)`);
         return { skipped: true, reason: "sheet_row_missing" };
     }
 
@@ -385,7 +454,9 @@ async function processOneAccount({
     }
 
     // ===== 1) CREATE LOCATION
-    console.log(`🚀 Creating ${isCity ? "CITY" : "COUNTY"} -> ${body.name} | key="${sheetKey}"`);
+    console.log(
+        `🚀 Creating ${isCity ? "CITY" : "COUNTY"} -> ${body.name} | key="${sheetKey}"`
+    );
 
     let created = null;
     if (isDryRun) {
@@ -482,7 +553,6 @@ async function processOneAccount({
             const ghlCustomValuesArr = await getCustomValuesWithRetry({
                 locationId,
                 locationToken,
-                // Puedes tunear por env si quieres, pero dejo defaults seguros y rápidos
                 maxRetries: Number(process.env.GHL_CV_MAX_RETRIES || "6"),
                 initialDelayMs: Number(process.env.GHL_CV_INITIAL_DELAY_MS || "800"),
             });
@@ -533,7 +603,10 @@ async function processOneAccount({
                     updated++;
                 } catch (e) {
                     failed++;
-                    console.error(`❌ Failed custom value "${wantName}" (id=${match.id}) ->`, e?.message || e);
+                    console.error(
+                        `❌ Failed custom value "${wantName}" (id=${match.id}) ->`,
+                        e?.message || e
+                    );
                 }
             }
 
@@ -544,7 +617,7 @@ async function processOneAccount({
         }
     }
 
-    // ===== 5) UPDATE GOOGLE SHEET: Account Name + Location Id + Status TRUE
+    // ===== 5) UPDATE GOOGLE SHEET
     try {
         const updates = {
             "Account Name": String(created?.name || body?.name || ""),
@@ -571,7 +644,9 @@ async function processOneAccount({
         if (rowInfo.row && locIdx !== undefined) rowInfo.row[locIdx] = updates["Location Id"];
         if (rowInfo.row && stIdx !== undefined) rowInfo.row[stIdx] = updates.Status;
 
-        console.log(`🧾 Sheet updated (${tabIndex.sheetName}) row=${rowInfo.rowNumber}: Account Name + Location Id + Status TRUE`);
+        console.log(
+            `🧾 Sheet updated (${tabIndex.sheetName}) row=${rowInfo.rowNumber}: Account Name + Location Id + Status TRUE`
+        );
     } catch (e) {
         console.log("⚠️ Sheet update failed:", e?.message || e);
     }
@@ -580,9 +655,37 @@ async function processOneAccount({
 }
 
 // =====================
+// STATE scope counting for progress totals
+// =====================
+function countEntitiesInStateJson(stateJson) {
+    const stateSlug = stateJson?.stateSlug || "";
+    const stateName = stateJson?.stateName || stateJson?.name || "";
+    const pr = isPR(stateSlug, stateName);
+
+    const counties = Array.isArray(stateJson?.counties) ? stateJson.counties : [];
+    let countiesTotal = 0;
+    let citiesTotal = 0;
+
+    for (const county of counties) {
+        const cities = Array.isArray(county?.cities) ? county.cities : [];
+        citiesTotal += cities.length;
+        if (!pr) countiesTotal += 1;
+    }
+
+    return { countiesTotal, citiesTotal, allTotal: countiesTotal + citiesTotal };
+}
+
+// =====================
 // RUN STATE
 // =====================
-async function runState({ slug, jsonPath, countyTabIndex, cityTabIndex }) {
+async function runState({
+    slug,
+    jsonPath,
+    countyTabIndex,
+    cityTabIndex,
+    progressTotals,
+    progressDone,
+}) {
     const stateJson = await readJson(jsonPath);
 
     const stateSlug = stateJson.stateSlug || slug;
@@ -607,6 +710,15 @@ async function runState({ slug, jsonPath, countyTabIndex, cityTabIndex }) {
         // PR: no counties
         if (!pr) {
             console.log(`\n🧩 COUNTY ${countyLabel}`);
+
+            // progress: we are about to process a county item
+            emitProgress({
+                totals: progressTotals,
+                done: progressDone,
+                last: { kind: "county", state: stateSlug, county: countyName, action: "start" },
+                message: `🧩 ${countyName} • start`,
+            });
+
             if (county?.body?.name) {
                 const r = await processOneAccount({
                     entity: { ...county, countyName, type: "county" },
@@ -622,6 +734,17 @@ async function runState({ slug, jsonPath, countyTabIndex, cityTabIndex }) {
                 console.log(`⚠️ COUNTY missing body -> SKIP create county: ${countyLabel}`);
                 skipped++;
             }
+
+            // mark county done
+            progressDone.counties += 1;
+            progressDone.all += 1;
+
+            emitProgress({
+                totals: progressTotals,
+                done: progressDone,
+                last: { kind: "county", state: stateSlug, county: countyName, action: "done" },
+                message: `🧩 ${countyName} • done`,
+            });
         }
 
         const cities = Array.isArray(county?.cities) ? county.cities : [];
@@ -633,9 +756,27 @@ async function runState({ slug, jsonPath, countyTabIndex, cityTabIndex }) {
             const city = cities[c];
             const cityName = city?.cityName || city?.name || "Unknown City";
 
+            emitProgress({
+                totals: progressTotals,
+                done: progressDone,
+                last: { kind: "city", state: stateSlug, county: countyName, city: cityName, action: "start" },
+                message: `🏙️ ${cityName} • start`,
+            });
+
             if (!city?.body?.name) {
                 console.log(`⚠️ CITY missing body -> SKIP: ${cityName}`);
                 skipped++;
+
+                // mark city done (even if skipped)
+                progressDone.cities += 1;
+                progressDone.all += 1;
+
+                emitProgress({
+                    totals: progressTotals,
+                    done: progressDone,
+                    last: { kind: "city", state: stateSlug, county: countyName, city: cityName, action: "skip(missing body)" },
+                    message: `🏙️ ${cityName} • skip`,
+                });
                 continue;
             }
 
@@ -650,6 +791,16 @@ async function runState({ slug, jsonPath, countyTabIndex, cityTabIndex }) {
 
             if (r?.created) cityCreated++;
             else skipped++;
+
+            progressDone.cities += 1;
+            progressDone.all += 1;
+
+            emitProgress({
+                totals: progressTotals,
+                done: progressDone,
+                last: { kind: "city", state: stateSlug, county: countyName, city: cityName, action: r?.created ? "created" : "done" },
+                message: `🏙️ ${cityName} • ${r?.created ? "created" : "done"}`,
+            });
         }
     }
 
@@ -657,6 +808,58 @@ async function runState({ slug, jsonPath, countyTabIndex, cityTabIndex }) {
         `\n✅ STATE DONE ${stateSlug} | countyCreated=${countyCreated} | cityCreated=${cityCreated} | skipped=${skipped}\n`
     );
     return { countyCreated, cityCreated, skipped };
+}
+
+// =====================
+// Target selection (UI vs interactive)
+// =====================
+function parseStateArgIntoSlugs(v) {
+    const s = String(v || "").trim();
+    if (!s) return null;
+
+    const low = s.toLowerCase();
+    if (low === "all" || low === "*") return { mode: "all", slugs: [] };
+
+    // allow: "Alabama,Florida" or "alabama,florida"
+    const parts = s
+        .split(",")
+        .map((x) => String(x || "").trim())
+        .filter(Boolean)
+        .map((x) =>
+            x
+                .normalize("NFD")
+                .replace(/[\u0300-\u036f]/g, "")
+                .toLowerCase()
+                .replace(/\s+/g, "-")
+        );
+
+    if (!parts.length) return null;
+    return { mode: "list", slugs: parts };
+}
+
+async function promptStateChoice(states) {
+    console.log("\nAvailable states (scripts/out/<state>/<state>.json):");
+    states.forEach((s, i) => console.log(`  ${i + 1}) ${s.slug}`));
+    console.log(`  all) Run ALL states`);
+
+    const rl = readline.createInterface({ input, output });
+    const answer = (
+        await rl.question("\nType state number OR state slug (e.g. 1 or florida or all): ")
+    ).trim();
+    rl.close();
+
+    if (!answer) return null;
+    if (answer.toLowerCase() === "all") return { mode: "all" };
+
+    const asNum = Number(answer);
+    if (!Number.isNaN(asNum) && asNum >= 1 && asNum <= states.length) {
+        return { mode: "one", slug: states[asNum - 1].slug };
+    }
+
+    const exact = states.find((s) => s.slug === answer);
+    if (exact) return { mode: "one", slug: exact.slug };
+
+    return null;
 }
 
 // =====================
@@ -671,11 +874,40 @@ async function main() {
 
     const states = await listOutStates();
     if (!states.length) {
-        throw new Error(`No states found in ${OUT_ROOT} (expected scripts/out/<slug>/<slug>.json)`);
+        throw new Error(
+            `No states found in ${OUT_ROOT} (expected scripts/out/<slug>/<slug>.json)`
+        );
     }
 
-    const choice = await promptStateChoice(states);
-    if (!choice) throw new Error("State not found / invalid selection.");
+    // ✅ Determine targets: UI arg takes precedence
+    let targets = [];
+
+    const parsedArg = parseStateArgIntoSlugs(STATE_ARG);
+    if (parsedArg) {
+        if (parsedArg.mode === "all") {
+            targets = states;
+        } else {
+            const wanted = new Set(parsedArg.slugs);
+            targets = states.filter((s) => wanted.has(s.slug));
+            if (!targets.length) {
+                throw new Error(
+                    `No states matched --state="${STATE_ARG}". Available slugs example: ${states
+                        .slice(0, 10)
+                        .map((x) => x.slug)
+                        .join(", ")}`
+                );
+            }
+        }
+    } else {
+        // fallback interactive
+        const choice = await promptStateChoice(states);
+        if (!choice) throw new Error("State not found / invalid selection.");
+
+        targets =
+            choice.mode === "all"
+                ? states
+                : [states.find((s) => s.slug === choice.slug)].filter(Boolean);
+    }
 
     console.log(`\n📄 Loading Google Sheet tab indexes...`);
 
@@ -703,11 +935,26 @@ async function main() {
         }
     }
 
-    const targets =
-        choice.mode === "all" ? states : [states.find((s) => s.slug === choice.slug)].filter(Boolean);
-
     console.log(`\n🚀 RUN START | mode=${isDryRun ? "DRY" : "LIVE"} | targets=${targets.length}`);
-    console.log(`Tabs: Counties="${COUNTY_TAB}" | Cities="${CITY_TAB}"\n`);
+    console.log(`Tabs: Counties="${COUNTY_TAB}" | Cities="${CITY_TAB}"`);
+    console.log(`RunId(local)=${RUN_ID} | Throttle min=${MIN_MS_BETWEEN_GHL_CALLS}ms\n`);
+
+    // ✅ compute totals for progress across ALL targets
+    let totals = { all: 0, counties: 0, cities: 0 };
+    for (const t of targets) {
+        const st = await readJson(t.jsonPath);
+        const cnt = countEntitiesInStateJson(st);
+        totals.all += cnt.allTotal;
+        totals.counties += cnt.countiesTotal;
+        totals.cities += cnt.citiesTotal;
+    }
+
+    const done = { all: 0, counties: 0, cities: 0 };
+
+    emitProgressInit({
+        totals,
+        message: `Run Delta System (${targets.length} state(s))`,
+    });
 
     let totalCounty = 0;
     let totalCity = 0;
@@ -715,31 +962,61 @@ async function main() {
 
     for (let i = 0; i < targets.length; i++) {
         const t = targets[i];
+
         console.log(`\n⏳ [${i + 1}/${targets.length}] Processing: ${t.slug}`);
+
+        emitProgress({
+            totals,
+            done,
+            last: { kind: "state", state: t.slug, action: "start" },
+            message: `State ${t.slug} • start`,
+        });
 
         const summary = await runState({
             slug: t.slug,
             jsonPath: t.jsonPath,
             countyTabIndex,
             cityTabIndex,
+            progressTotals: totals,
+            progressDone: done,
         });
 
         totalCounty += summary.countyCreated;
         totalCity += summary.cityCreated;
         totalSkipped += summary.skipped;
+
+        emitProgress({
+            totals,
+            done,
+            last: { kind: "state", state: t.slug, action: "done" },
+            message: `State ${t.slug} • done`,
+        });
     }
 
     const elapsedMs = Date.now() - RUN_STARTED_AT;
+
     console.log("--------------------------------------------------");
     console.log(
         `🎉 DONE | counties=${totalCounty} | cities=${totalCity} | skipped=${totalSkipped} | time=${(
             elapsedMs / 1000
         ).toFixed(1)}s`
     );
+
+    emitProgressEnd({ totals, done, ok: true });
 }
 
 main().catch((e) => {
     console.error("❌ Fatal:", e?.message || e);
     if (DEBUG) console.dir(e, { depth: 6 });
+
+    try {
+        emitProgressEnd({
+            totals: { all: 1, counties: 0, cities: 0 },
+            done: { all: 1, counties: 0, cities: 0 },
+            ok: false,
+            error: e?.message || String(e),
+        });
+    } catch { }
+
     process.exit(1);
 });

@@ -1,0 +1,34 @@
+import { NextResponse } from "next/server";
+
+export const runtime = "nodejs";
+
+function s(v: any) {
+    return String(v ?? "").trim();
+}
+
+export async function GET() {
+    // ✅ Reusamos las mismas credenciales OAuth del Cloud Project
+    const clientId = s(process.env.GSC_CLIENT_ID);
+    // ✅ Redirect propio para Ads (recomendado)
+    const redirectUri = s(process.env.ADS_REDIRECT_URI);
+
+    if (!clientId || !redirectUri) {
+        return new Response("Missing env: GSC_CLIENT_ID / ADS_REDIRECT_URI", { status: 500 });
+    }
+
+    const scopes = [
+        "https://www.googleapis.com/auth/adwords", // ✅ Google Ads scope
+    ];
+
+    const p = new URLSearchParams();
+    p.set("client_id", clientId);
+    p.set("redirect_uri", redirectUri);
+    p.set("response_type", "code");
+    p.set("access_type", "offline");
+    p.set("prompt", "consent");
+    p.set("scope", scopes.join(" "));
+    p.set("include_granted_scopes", "true");
+
+    const authUrl = `https://accounts.google.com/o/oauth2/v2/auth?${p.toString()}`;
+    return NextResponse.redirect(authUrl);
+}

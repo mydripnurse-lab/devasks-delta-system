@@ -1,10 +1,16 @@
-// scripts/build-state-sitemaps.js
+// scripts/src/builds/build-states-sitemaps.js
 import fs from "fs/promises";
 import path from "path";
-import { logHeader, logKV, emitProgressInit, emitProgress, emitProgressEnd } from "../../progress.js";
+import { fileURLToPath } from "url";
 
-const DEFAULT_RESOURCES_DIR = path.join(process.cwd(), "resources", "statesFiles");
-const DEFAULT_STATES_OUT_DIR = path.join(process.cwd(), "states");
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
+
+// ---- paths
+const RESOURCES_DIR = path.join(process.cwd(), "resources", "statesFiles");
+const STATES_OUT_DIR = path.join(process.cwd(), "states");
+
+// Host central donde se sirven estos sitemaps
 const DEFAULT_SITEMAPS_HOST = "https://sitemaps.mydripnurse.com";
 
 /** yyyy-mm-dd (local) */
@@ -37,10 +43,48 @@ function slugify(name) {
         .replace(/^-|-$/g, "");
 }
 
+// --------------------
+// ✅ Robust argv parser: supports "--k v" AND "--k=v"
+function argValue(key, fallback = null) {
+    const argv = process.argv.slice(2);
+    const direct = `--${key}=`;
+    for (let i = 0; i < argv.length; i++) {
+        const a = String(argv[i] ?? "");
+        if (a === `--${key}`) {
+            const next = argv[i + 1];
+            if (next && !String(next).startsWith("--")) return String(next);
+            return fallback;
+        }
+        if (a.startsWith(direct)) return a.slice(direct.length);
+    }
+    return fallback;
+}
+
+function argBool(key, fallback = false) {
+    const v = argValue(key, null);
+    if (v === null) return fallback;
+    const t = String(v).trim().toLowerCase();
+    return t === "1" || t === "true" || t === "yes" || t === "y" || t === "on";
+}
+
+function ts() {
+    const d = new Date();
+    const hh = String(d.getHours()).padStart(2, "0");
+    const mm = String(d.getMinutes()).padStart(2, "0");
+    const ss = String(d.getSeconds()).padStart(2, "0");
+    return `[${hh}:${mm}:${ss}]`;
+}
+
+function log(line) {
+    console.log(`${ts()} ${line}`);
+}
+
 function renderSitemapIndex({ entries, lastmod }) {
     const parts = [];
     parts.push(`<?xml version="1.0" encoding="UTF-8"?>`);
-    parts.push(`<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">`);
+    parts.push(
+        `<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">`
+    );
     parts.push("");
 
     for (const e of entries) {
@@ -86,14 +130,14 @@ function pickDivisionFolder(stateSlug) {
     return "counties";
 }
 
-async function listStateFiles(resourcesDir) {
-    const files = await fs.readdir(resourcesDir);
+async function listStateFiles() {
+    const files = await fs.readdir(RESOURCES_DIR);
     return files
         .filter((f) => f.toLowerCase().endsWith(".json"))
         .map((f) => ({
             file: f,
             slug: f.replace(/\.json$/i, ""),
-            fullPath: path.join(resourcesDir, f),
+            fullPath: path.join(RESOURCES_DIR, f),
         }))
         .sort((a, b) => a.slug.localeCompare(b.slug));
 }
@@ -120,113 +164,28 @@ function locNestedCity(host, stateSlug, divisionFolder, countySlug, citySlug) {
     return `${host}/states/${stateSlug}/${divisionFolder}/${countySlug}/${citySlug}/sitemap.xml`;
 }
 
-/** CLI args */
-function arg(name, fallback = "") {
-    const idx = process.argv.indexOf(name);
-    if (idx === -1) return fallback;
-    return process.argv[idx + 1] ?? fallback;
-}
+async function buildOneState(chosen, lastmod, host, debug) {
+    const raw = await fs.readFile(chosen.fullPath, "utf8");
+    const stateJson = JSON.parse(raw);
 
-function parseSelection(inputStr, stateFiles) {
-    const v = String(inputStr || "").trim().toLowerCase();
-    if (!v) return [];
-
-    if (v === "all" || v === "*") return [...stateFiles];
-
-    // soporta: "1" | "florida" | "1,5,puerto-rico"
-    const parts = v
-        .split(",")
-        .map((x) => x.trim())
-        .filter(Boolean);
-
-    const chosen = [];
-
-    for (const p of parts) {
-        const asNum = Number(p);
-        if (!Number.isNaN(asNum) && asNum >= 1 && asNum <= stateFiles.length) {
-            chosen.push(stateFiles[asNum - 1]);
-            continue;
-        }
-
-        const bySlug =
-            stateFiles.find((s) => s.slug === p) ||
-            stateFiles.find((s) => s.slug === slugify(p));
-
-        if (bySlug) chosen.push(bySlug);
-    }
-
-    // de-dup
-    const seen = new Set();
-    return chosen.filter((x) => {
-        if (seen.has(x.slug)) return false;
-        seen.add(x.slug);
-        return true;
-    });
-}
-
-/** Pre-calc totals for progress bar */
-function calcTotalsForBatch(batch, jsonMap) {
-    // "divisions" = counties/parishes/cities at root
-    // "cities" = nested cities inside counties/parishes (PR counts as divisions only)
-    let divisions = 0;
-    let cities = 0;
-
-    for (const chosen of batch) {
-        const stateJson = jsonMap.get(chosen.slug);
-        const counties = extractCounties(stateJson);
-
-        const stateSlug = chosen.slug;
-        const divisionFolder = pickDivisionFolder(stateSlug);
-
-        if (stateSlug === "puerto-rico" && divisionFolder === "cities") {
-            const pr = counties[0];
-            const prCities = Array.isArray(pr?.cities) ? pr.cities : [];
-            divisions += prCities.filter((c) => c?.cityName && c?.citySitemap).length;
-            continue;
-        }
-
-        // normal/louisiana
-        const filteredCounties = counties.filter((c) => c?.countyName);
-        divisions += filteredCounties.length;
-
-        for (const c of filteredCounties) {
-            const list = Array.isArray(c?.cities) ? c.cities : [];
-            cities += list.filter((x) => x?.cityName && x?.citySitemap).length;
-        }
-    }
-
-    const all = divisions + cities;
-    return { all, divisions, cities };
-}
-
-async function buildOneState({
-    chosen,
-    lastmod,
-    host,
-    outDir,
-    stateJson,
-    // progress bookkeeping:
-    onDivisionDone,
-    onCityDone,
-}) {
     const stateSlug = chosen.slug;
     const stateName = detectStateNameFromJson(stateJson, stateSlug);
     const divisionFolder = pickDivisionFolder(stateSlug);
 
     const counties = extractCounties(stateJson);
 
-    const outStateDir = path.join(outDir, stateSlug);
+    const outStateDir = path.join(STATES_OUT_DIR, stateSlug);
     const outDivisionRootDir = path.join(outStateDir, divisionFolder);
 
-    console.log("\n===============================================");
-    console.log("State:", stateName);
-    console.log("State slug:", stateSlug);
-    console.log("Input JSON:", chosen.fullPath);
-    console.log("Output dir:", outStateDir);
-    console.log("Folder type:", divisionFolder);
-    console.log("Lastmod:", lastmod);
-    console.log("Total county objects:", counties.length);
-    console.log("===============================================\n");
+    log("================================================");
+    log(`State: ${stateName}`);
+    log(`State slug: ${stateSlug}`);
+    log(`Input JSON: ${chosen.fullPath}`);
+    log(`Output dir: ${outStateDir}`);
+    log(`Folder type: ${divisionFolder}`);
+    log(`Lastmod: ${lastmod}`);
+    log(`Total county objects: ${counties.length}`);
+    log("================================================");
 
     await ensureDir(outStateDir);
     await ensureDir(outDivisionRootDir);
@@ -253,11 +212,7 @@ async function buildOneState({
 
     await writeFileEnsureDir(path.join(outStateDir, "sitemap.xml"), stateSitemapXml);
 
-    /**
-     * 2) division root sitemap.xml
-     * - PR: lista cities directas
-     * - Normal: lista counties/parishes
-     */
+    // 2) division root sitemap.xml
     let divisionRootEntries = [];
 
     if (stateSlug === "puerto-rico" && divisionFolder === "cities") {
@@ -277,12 +232,14 @@ async function buildOneState({
             }));
     }
 
-    const divisionRootXml = renderSitemapIndex({ lastmod, entries: divisionRootEntries });
+    const divisionRootXml = renderSitemapIndex({
+        lastmod,
+        entries: divisionRootEntries,
+    });
+
     await writeFileEnsureDir(path.join(outDivisionRootDir, "sitemap.xml"), divisionRootXml);
 
-    /**
-     * 3) Build folders + sitemaps
-     */
+    // 3) Build folders + sitemaps
     let ok = 0;
     let failed = 0;
 
@@ -308,25 +265,17 @@ async function buildOneState({
 
                 await writeFileEnsureDir(cityFile, xml);
                 ok++;
-
-                onDivisionDone?.({
-                    stateSlug,
-                    divisionFolder,
-                    divisionName: cityName,
-                    divisionSlug: citySlug,
-                    kind: "pr-city",
-                });
             } catch (e) {
                 failed++;
-                console.error(`❌ Failed PR city "${cityName}":`, e?.message || e);
+                log(`❌ Failed PR city "${cityName}": ${e?.message || e}`);
             }
         }
 
-        console.log(`\n✅ DONE ${stateSlug} | cities ok:${ok} fail:${failed}\n`);
-        return { ok, failed };
+        log(`✅ DONE ${stateSlug} | cities ok:${ok} fail:${failed}`);
+        return;
     }
 
-    // 3B) Normal/Louisiana: county/parish folders with nested city folders
+    // 3B) Normal/Louisiana
     for (const c of counties) {
         const countyName = c?.countyName;
         if (!countyName) continue;
@@ -339,7 +288,7 @@ async function buildOneState({
             const countySitemapUrl = String(c?.countySitemap || "").trim();
             const cities = Array.isArray(c?.cities) ? c.cities : [];
 
-            // 1) Crear sitemap.xml de cada city dentro del county folder
+            // 1) city sitemaps inside county folder
             for (const city of cities) {
                 const cityName = city?.cityName;
                 const citySitemapUrl = city?.citySitemap;
@@ -355,18 +304,9 @@ async function buildOneState({
                 });
 
                 await writeFileEnsureDir(cityFile, cityHostedXml);
-
-                onCityDone?.({
-                    stateSlug,
-                    countySlug,
-                    countyName,
-                    citySlug,
-                    cityName,
-                    divisionFolder,
-                });
             }
 
-            // 2) County sitemap.xml index
+            // 2) County sitemap index
             const entries = [];
 
             if (countySitemapUrl) {
@@ -387,144 +327,70 @@ async function buildOneState({
 
             ok++;
 
-            onDivisionDone?.({
-                stateSlug,
-                divisionFolder,
-                divisionName: countyName,
-                divisionSlug: countySlug,
-                kind: divisionFolder === "parishes" ? "parish" : "county",
-            });
+            if (debug && ok % 25 === 0) {
+                log(`…progress ${stateSlug}: ${ok} divisions built`);
+            }
         } catch (e) {
             failed++;
-            console.error(`❌ Failed county/parish "${countyName}":`, e?.message || e);
+            log(`❌ Failed county/parish "${countyName}": ${e?.message || e}`);
         }
     }
 
-    console.log(`\n✅ DONE ${stateSlug} | divisions ok:${ok} fail:${failed}\n`);
-    return { ok, failed };
+    log(`✅ DONE ${stateSlug} | divisions ok:${ok} fail:${failed}`);
 }
 
 async function main() {
-    const job = "build-state-sitemaps";
-
-    const stateArg = arg("--state", "all"); // all | slug | "1,5,puerto-rico"
-    const resourcesDir = arg("--resourcesDir", DEFAULT_RESOURCES_DIR);
-    const outDir = arg("--outDir", DEFAULT_STATES_OUT_DIR);
-    const host = arg("--host", DEFAULT_SITEMAPS_HOST);
-    const debug = arg("--debug", "off") === "on";
+    const stateArgRaw = argValue("state", "all");
+    const state = slugify(stateArgRaw || "all");
+    const host = String(argValue("host", DEFAULT_SITEMAPS_HOST) || DEFAULT_SITEMAPS_HOST).trim();
+    const debug = argBool("debug", false);
 
     const lastmod = todayYMD();
 
-    logHeader(`BUILD STATE SITEMAPS • state="${stateArg}" • host="${host}"`);
-    logKV({ resourcesDir, outDir, lastmod, debug });
+    log("------------------------------------------------");
+    log(`BUILD STATE SITEMAPS • state="${state}" • host="${host}"`);
+    log(`• resourcesDir: ${RESOURCES_DIR}`);
+    log(`• outDir: ${STATES_OUT_DIR}`);
+    log(`• lastmod: ${lastmod}`);
+    log(`• debug: ${debug}`);
+    log("------------------------------------------------");
 
-    const stateFiles = await listStateFiles(resourcesDir);
+    const stateFiles = await listStateFiles();
     if (!stateFiles.length) {
-        console.error("❌ No JSON files found in:", resourcesDir);
+        log(`❌ No JSON files found in: ${RESOURCES_DIR}`);
         process.exit(1);
     }
 
-    const batch = parseSelection(stateArg, stateFiles);
-    if (!batch.length) {
-        console.error(`❌ No matches for --state="${stateArg}". Available: ${stateFiles.length} files.`);
-        process.exit(1);
+    let batch = [];
+
+    if (state === "all" || state === "*") {
+        batch = stateFiles;
+    } else {
+        const found =
+            stateFiles.find((s) => s.slug === state) ||
+            stateFiles.find((s) => s.slug === slugify(state));
+
+        if (!found) {
+            log(`❌ State not found: "${stateArgRaw}". Expected a slug like "alabama".`);
+            process.exit(1);
+        }
+
+        batch = [found];
     }
 
-    // Load JSONs upfront (so totals are accurate and no partial progress)
-    const jsonMap = new Map();
-    for (const chosen of batch) {
-        const raw = await fs.readFile(chosen.fullPath, "utf8");
-        jsonMap.set(chosen.slug, JSON.parse(raw));
-    }
-
-    const totals = calcTotalsForBatch(batch, jsonMap);
-    emitProgressInit({
-        totals: { all: totals.all, counties: totals.divisions, cities: totals.cities },
-        job,
-        state: stateArg,
-    });
-
-    let doneDivisions = 0;
-    let doneCities = 0;
-    let okStates = 0;
-    let failedStates = 0;
-
-    const onDivisionDone = (info) => {
-        doneDivisions++;
-
-        emitProgress({
-            totals: { all: totals.all, counties: totals.divisions, cities: totals.cities },
-            done: { all: doneDivisions + doneCities, counties: doneDivisions, cities: doneCities },
-            last: {
-                kind: info.kind === "pr-city" ? "city" : "county",
-                state: info.stateSlug,
-                action: `sitemap_written`,
-                name: info.divisionName,
-            },
-        });
-
-        if (debug) console.log(`✅ Division: ${info.divisionName} (${doneDivisions}/${totals.divisions})`);
-    };
-
-    const onCityDone = (info) => {
-        doneCities++;
-
-        // Opcional: no spamear tanto si hay miles de ciudades.
-        // Puedes throttle aquí, pero por ahora lo dejamos.
-        emitProgress({
-            totals: { all: totals.all, counties: totals.divisions, cities: totals.cities },
-            done: { all: doneDivisions + doneCities, counties: doneDivisions, cities: doneCities },
-            last: {
-                kind: "city",
-                state: info.stateSlug,
-                county: info.countyName,
-                action: `city_sitemap_written`,
-                name: info.cityName,
-            },
-        });
-
-        if (debug) console.log(`🏙️ City: ${info.cityName} (${doneCities}/${totals.cities})`);
-    };
-
-    // Build sequentially (safe)
+    // sequential build
     for (const chosen of batch) {
         try {
-            const stateJson = jsonMap.get(chosen.slug);
-            await buildOneState({
-                chosen,
-                lastmod,
-                host,
-                outDir,
-                stateJson,
-                onDivisionDone,
-                onCityDone,
-            });
-            okStates++;
+            await buildOneState(chosen, lastmod, host, debug);
         } catch (e) {
-            failedStates++;
-            console.error(`❌ Fatal building "${chosen.slug}":`, e?.message || e);
+            log(`❌ Fatal building "${chosen.slug}": ${e?.message || e}`);
         }
     }
 
-    const ok = failedStates === 0;
-    emitProgressEnd({
-        totals: { all: totals.all, counties: totals.divisions, cities: totals.cities },
-        done: { all: doneDivisions + doneCities, counties: doneDivisions, cities: doneCities },
-        ok,
-    });
-
-    console.log(`\n🏁 ${job} finished • states_ok=${okStates} • states_fail=${failedStates}\n`);
-    process.exit(ok ? 0 : 1);
+    log(`🏁 DONE batch (${batch.length} state(s))`);
 }
 
 main().catch((e) => {
-    console.error("❌ Fatal:", e?.message || e);
-    try {
-        emitProgressEnd({
-            totals: { all: 0, counties: 0, cities: 0 },
-            done: { all: 0, counties: 0, cities: 0 },
-            ok: false,
-        });
-    } catch { }
+    console.error(`${ts()} ❌ Fatal:`, e?.message || e);
     process.exit(1);
 });
