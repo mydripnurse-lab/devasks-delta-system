@@ -252,7 +252,9 @@ async function requestDiscoveryForUnknown(
   };
 }
 
-async function inspectGoogleDomain(domainUrl: string) {
+type GoogleSubmitMode = "inspect" | "discovery" | "auto";
+
+async function inspectGoogleDomain(domainUrl: string, mode: GoogleSubmitMode = "auto") {
   const enabled = s(process.env.INDEX_GOOGLE_ENABLED || "true").toLowerCase();
   if (enabled === "false" || enabled === "0" || enabled === "no") {
     return { ok: false, error: "Google indexing disabled by env (INDEX_GOOGLE_ENABLED=false)." };
@@ -288,7 +290,7 @@ async function inspectGoogleDomain(domainUrl: string) {
   if (!authCandidates.length) {
     return {
       ok: false,
-      mode: "inspection" as const,
+      mode: "inspect" as const,
       status: 500,
       siteUrl: target,
       fetch: {
@@ -307,11 +309,39 @@ async function inspectGoogleDomain(domainUrl: string) {
   const configuredSiteUrl = s(process.env.GSC_SITE_URL);
   const siteUrlForInspection =
     configuredSiteUrl || `sc-domain:${apexFromHost(host)}`;
+  if (mode === "discovery") {
+    const discovery = await requestDiscoveryForUnknown(
+      authCandidates,
+      "",
+      siteUrlForInspection,
+      target,
+    );
+    const discoveryOk = !!discovery?.submitted;
+    return {
+      ok: discoveryOk,
+      mode: "discovery" as const,
+      status: 200,
+      siteUrl: target,
+      siteProperty: siteUrlForInspection,
+      fetch: {
+        status: fetchStatus || undefined,
+        finalUrl: fetchFinalUrl || target,
+        contentType: fetchContentType || undefined,
+        error: fetchError || undefined,
+      },
+      inspection: {},
+      discovery,
+      error: discoveryOk
+        ? undefined
+        : `Sitemap discovery submit failed${discovery?.submitError ? ` (${discovery.submitError})` : "."}`,
+    };
+  }
+
   const firstInspection = await inspectWithCandidates(authCandidates, target, siteUrlForInspection);
   if (!firstInspection.ok) {
     return {
       ok: false,
-      mode: "inspection" as const,
+      mode: "inspect" as const,
       status: 500,
       siteUrl: target,
       fetch: {
@@ -356,7 +386,7 @@ async function inspectGoogleDomain(domainUrl: string) {
       }
     | undefined;
 
-  if (unknownToGoogle) {
+  if (unknownToGoogle && mode === "auto") {
     discovery = await requestDiscoveryForUnknown(
       authCandidates,
       firstInspection.winnerAuthName,
@@ -376,7 +406,7 @@ async function inspectGoogleDomain(domainUrl: string) {
 
   return {
     ok: effectivelyIndexed,
-    mode: "inspection" as const,
+    mode: "inspect" as const,
     status: 200,
     siteUrl: target,
     siteProperty: siteUrlForInspection,
@@ -410,6 +440,9 @@ export async function POST(req: Request) {
     const body = await req.json().catch(() => ({} as any));
     const target = s(body?.target || "google").toLowerCase();
     const domainUrl = toOriginUrlMaybe(s(body?.domainUrl));
+    const modeRaw = s(body?.mode || "auto").toLowerCase();
+    const mode: GoogleSubmitMode =
+      modeRaw === "inspect" || modeRaw === "discovery" ? (modeRaw as GoogleSubmitMode) : "auto";
     if (target !== "google") {
       return NextResponse.json(
         { ok: false, error: 'Only target="google" is supported.' },
@@ -428,7 +461,7 @@ export async function POST(req: Request) {
       host: string;
       google?: {
         ok: boolean;
-        mode?: "inspection";
+        mode?: "inspect" | "discovery";
         status?: number;
         siteUrl?: string;
         siteProperty?: string;
@@ -464,7 +497,7 @@ export async function POST(req: Request) {
     };
 
     try {
-      out.google = await inspectGoogleDomain(domainUrl);
+      out.google = await inspectGoogleDomain(domainUrl, mode);
     } catch (e: any) {
       out.google = { ok: false, error: s(e?.message) || "Google index submit failed." };
     }

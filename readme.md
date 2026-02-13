@@ -1,423 +1,46 @@
-# 📦 Delta System – Automated GHL Subaccount & Sitemap Infrastructure
-*(Counties & Cities · Multi‑Industry Ready)*
+# Delta System - My Drip Nurse
 
----
+Repositorio principal de automatizacion + dashboards para Delta System.
 
-## 📌 Overview (English)
+## Que incluye este repo
 
-This repository provides a **scalable automation framework** to:
+- Generacion y manejo de data por `State / County / City`
+- Integracion con GoHighLevel (GHL)
+- Integracion con Google Sheets
+- Control Tower (UI principal) en Next.js
+- Dashboards operativos y ejecutivos (Calls, Leads, Conversations, Transactions, Appointments, Search, GA, Ads)
 
-- Generate **SEO sitemaps** for **all U.S. states**, their **counties**, and **cities**
-- Automatically create **GoHighLevel (GHL) subaccounts (locations)** from structured JSON
-- Integrate with **Twilio** to manage auto‑generated subaccounts
-- Prepare structured data to be synced into **Google Sheets**
-- Serve as a **reusable blueprint for any industry**, not just healthcare
+## Carpetas clave
 
-Although branded as *MyDripNurse*, this project is **industry‑agnostic**.  
-You can reuse it for **Solar, IV Therapy, Construction, Legal, Real Estate, or any local service** by changing environment variables and business data.
+- `control-tower/` -> App principal (Next.js)
+- `resources/` -> Configs, estados, archivos base
+- `scripts/` -> Automatizaciones y builders
+- `services/` -> Clientes y utilidades de integracion (Sheets, etc.)
 
----
+## Arranque rapido
 
-## 📌 Visión General (Español)
-
-Este repositorio provee una **infraestructura de automatización escalable** para:
-
-- Generar **sitemaps SEO** de **todos los estados**, sus **counties** y **ciudades**
-- Crear automáticamente **subcuentas (locations) en GoHighLevel**
-- Integrarse con **Twilio** para manejar subcuentas generadas
-- Preparar la data para **Google Sheets**
-- Servir como **plantilla reutilizable para cualquier industria**
-
-Aunque el proyecto se llama *MyDripNurse*, es **agnóstico a la industria**.  
-Puede reutilizarse para **Solar, IV Therapy, Construcción, Legal, Bienes Raíces**, etc.
-
----
-
-## 🗂️ Project Structure / Estructura del Proyecto
-
-```
-delta-system/
-├── resources/
-│   ├── statesFiles/                    # Raw state JSON (counties + cities)
-│   ├── customValues/                   # GHL custom values templates
-│
-├── scripts/
-│   ├── src/
-│   │   ├── builds/
-│   │   │   ├── build-counties.js
-│   │   │   ├── build-state-sitemaps.js
-│   │   │   └── build-states-index.js
-│   │   │
-│   │   ├── tests/
-│   │   │   ├── test-create-county-subaccount.js
-│   │   │   ├── test-location-token.js
-│   │   │   ├── test-oauth-token.js
-│   │   │   ├── test-oauth.js
-│   │   │   └── test-sheets-read.js
-│   │   │
-│   │   └── run-delta-system.js
-│   │
-│   └── out/
-│       ├── <state>/                    # Generated sitemap + payload outputs
-│       ├── checkpoints/                # Anti-duplication checkpoints
-│
-├── server.js                           # Local server for OAuth callback
-├── .env
-├── package.json
-└── README.md
-```
-
----
-
-## 🌐 Sitemaps Scope (Important)
-
-### English
-
-This project already includes or generates:
-
-- **State-level sitemaps**
-- **County-level sitemaps**
-- **City-level sitemaps per county**
-
-Each sitemap can be:
-- Indexed in Google Search Console
-- Used for internal linking
-- Reused across industries by domain replacement
-
-### Español
-
-Este proyecto incluye/genera:
-
-- Sitemaps por **estado**
-- Sitemaps por **county**
-- Sitemaps por **ciudad dentro de cada county**
-
-## ☁️ Google Cloud Setup – Google Sheets Integration
-
----
-
-### 📌 Google Cloud Setup (English)
-
-To allow this project to **read and write data to Google Sheets**, you must configure a Google Cloud project and enable the required APIs.
-
-This setup is done **once per Google account**.
-
----
-
-### 1️⃣ Create a Google Cloud Project
-
-1. Go to **Google Cloud Console**  
-   https://console.cloud.google.com/
-
-2. Click **Select a project → New Project**
-
-3. Set:
-   - **Project Name:** e.g. `mydripnurse-sheets`
-   - **Organization:** (optional)
-   - **Location:** default
-
-4. Click **Create**
-
----
-
-### 2️⃣ Enable Required APIs
-
-Inside the project:
-
-1. Go to **APIs & Services → Library**
-2. Enable:
-   - ✅ **Google Sheets API**
-   - ✅ **Google Drive API**
-
----
-
-### 3️⃣ Create a Service Account (Recommended)
-
-1. Go to **APIs & Services → Credentials**
-2. Click **Create Credentials → Service Account**
-3. Fill:
-   - **Name:** `sheets-writer`
-   - **Role:** Editor (can be restricted later)
-4. Click **Done**
-
----
-
-### 4️⃣ Generate Service Account Key (JSON)
-
-1. Open the Service Account
-2. Go to **Keys → Add Key → Create new key**
-3. Select **JSON**
-4. Download the file
-
-⚠️ This file is **secret** and must never be committed to GitHub.
-
----
-
-### 5️⃣ Share the Google Sheet with the Service Account
-
-1. Open your Google Sheet
-2. Click **Share**
-3. Add the service account email:
-   ```
-   sheets-writer@your-project-id.iam.gserviceaccount.com
-   ```
-4. Permission: **Editor**
-
----
-
-## ☁️ Configuración de Google Cloud – Google Sheets (Español)
-
----
-
-### 1️⃣ Crear un Proyecto en Google Cloud
-
-1. Ir a **Google Cloud Console**  
-   https://console.cloud.google.com/
-
-2. Crear un **Nuevo Proyecto**
-
-3. Asignar nombre y crear
-
----
-
-### 2️⃣ Habilitar APIs Necesarias
-
-Habilitar:
-- **Google Sheets API**
-- **Google Drive API**
-
----
-
-### 3️⃣ Crear una Cuenta de Servicio
-
-1. **APIs y Servicios → Credenciales**
-2. **Crear cuenta de servicio**
-3. Rol: **Editor**
-
----
-
-### 4️⃣ Generar Key JSON
-
-Descargar la key en formato **JSON**  
-⚠️ No subir a GitHub
-
----
-
-### 5️⃣ Compartir el Google Sheet
-
-Compartir el sheet con:
-```
-sheets-writer@tu-proyecto.iam.gserviceaccount.com
-```
-
-Permiso: **Editor**
-
----
-
-## 🔐 Environment Variables (.env)
-
-```env
-# Mailgun Credentials
-MAILGUN_API_KEY=xxxxxxxxxxxxxx-xxxxxxxxxx
-MAILGUN_DOMAIN=xxxxxxxxxxxxxxxxxxxxxxxx
-
-# GHL Business Account Credentials
-SNAPSHOT_ID=xxxxxxxxxxxxxxxxxxxxxxxx
-COMPANY_ID=xxxxxxxxxxxxxxxxxxxxxxxx
-
-# Facebook Pixel & Token Credentials
-FACEBOOK_PIXEL=xxxxxxxxxxxxxxxxxxxxxxxx
-FACEBOOK_ACCESS_TOKEN=xxxxxxxxxxxxxxxxxxxxxxxx
-
-# General Company & Owner Information
-DEFAULT_PHONE=xxx-xxx-xxxx
-COMPANY_NAME=
-COMPANY_URL=
-OWNER_FIRST_NAME=
-OWNER_LAST_NAME=
-OWNER_EMAIL=xxxxxxxxxxxxxxxxx
-OWNER_PHONE=xxx-xxx-xxxx
-STATE=
-CITY=
-ADDRESS=
-POSTAL_CODE=
-
-# GHL OAuth (Marketplace App)
-GHL_CLIENT_ID=your_marketplace_client_id
-GHL_CLIENT_SECRET=your_marketplace_client_secret
-GHL_REDIRECT_URI=http://localhost:3000/callback
-GHL_SCOPES=
-GHL_USER_TYPE=
-GHL_INSTALLATION_URL=
-
-# Twilio Credentials
-TWILIO_SID=ACxxxxxxxxxxxxxxxxxxxxxxxx
-TWILIO_AUTH_TOKEN=xxxxxxxxxxxxxxxxxxxxxxxx
-
-# Business / Domain
-BASE_DOMAIN=mydripnurse.com
-COMPANY_NAME=My Drip Nurse
-
-#Google Cloud 
-GOOGLE_SERVICE_ACCOUNT_KEYFILE=./secrets/google-service-account.json
-GOOGLE_SHEET_ID=your_sheet_id
-GOOGLE_SHEET_TAB=your_sheet_name -> example: sheet1
-
-# Sitemap Configuration
-SITEMAPS_BASE_URL=https://sitemaps.yourdomain.com
-
-```
-
----
-
-## 🖥️ Running the Local Server (OAuth)
-
-### English
-
-The local server is required **only for OAuth authorization**.
-
-1. Install dependencies:
 ```bash
+cd control-tower
 npm install
-```
-
-2. Run the server:
-```bash
+cp .env.example .env.local
 npm run dev
 ```
 
-3. Open browser and authorize the app:
-```
-http://localhost:3000/connect/ghl
-```
+Abrir: [http://localhost:3001](http://localhost:3001)
 
-4. GHL will redirect back with the authorization code.
-5. Tokens are stored automatically.
+## Documentacion completa de setup
 
-### Español
+La guia profesional paso a paso (API keys, Google Cloud, GSC, GHL, troubleshooting) esta aqui:
 
-El servidor local se usa **solo para OAuth**.
+- [`control-tower/README.md`](control-tower/README.md)
 
-1. Instalar dependencias
-2. Correr:
-```bash
-npm run dev
-```
-3. Abrir:
-```
-http://localhost:3000/connect/ghl
-```
+## Nota importante
 
----
+Si ves errores `403` en Sheets o Search Console, normalmente es tema de:
 
-## 🏗️ Step 1 – Build Counties / Construir Counties
+1. API no habilitada en Google Cloud
+2. Service account sin permisos en el recurso (Sheet/propiedad GSC)
+3. Keyfile equivocado en `.env.local`
 
-```bash
-node scripts/src/build-counties.js
-```
+La solucion exacta esta documentada en `control-tower/README.md`.
 
-Creates:
-- Sitemap files
-- GHL payload JSON
-- Google Sheets row previews
-
-⚠️ No API calls at this stage.
-
----
-
-## 🚀 Step 2 – Create GHL Subaccounts
-
-```bash
-node scripts/run-create-subaccounts.js scripts/out/<state>/ghl-create-counties-XXXX.json
-```
-
-Dry run:
-```bash
-node scripts/run-create-subaccounts.js scripts/out/<state>/ghl-create-counties-XXXX.json --dry-run
-```
-
----
-
-## 🔁 Execution Flow (Per County)
-
-1. Create GHL Location
-2. Save checkpoint immediately
-3. Twilio lookup + optional close
-4. (Next) Custom values update
-5. (Next) Google Sheets sync
-
----
-
-## 🧠 Anti‑Duplication System
-
-Checkpoints stored in:
-```
-scripts/out/checkpoints/<state>.json
-```
-
-Safe to re-run.
-
----
-
-## ⏱️ Performance Metrics
-
-- Time per county
-- Total execution time
-
----
-
-## 🔄 Reusing This Project for Any Industry
-
-### English
-
-To reuse this project:
-1. Update `.env` business variables
-2. Replace domain references
-3. Replace business name and branding
-4. Update sitemap base URLs
-5. Adjust custom values JSON
-
-Recommended:
-- Use **VS Code Find & Replace**
-- Keep structure unchanged
-
-### Español
-
-Este proyecto puede reutilizarse para cualquier industria:
-- Solo cambia variables de entorno
-- Reemplaza dominio e información del negocio
-- Mantén la estructura intacta
-
----
-
-## 🧱 Current Status
-
-### ✅ Completed
-- Sitemap generation (states, counties, cities)
-- GHL subaccount creation
-- Twilio integration
-- Checkpoint system
-- Timing logs
-
-### 🔜 Next
-- Google Sheets API
-- City‑level subaccounts
-- Parallel execution
-- Reporting dashboards
-
----
-
-## 🧠 Design Principles
-
-- Deterministic builds
-- Idempotent execution
-- State isolation
-- Auditability
-- No blind retries
-
----
-
-## 👤 Maintainer
-
-Built by **Axel Castro - Devasks Agency**  
-Automation · SEO · GHL · Scaling

@@ -214,7 +214,7 @@ type IndexSubmitResponse = {
   host?: string;
   google?: {
     ok: boolean;
-    mode?: "inspection";
+    mode?: "inspect" | "discovery";
     status?: number;
     siteUrl?: string;
     siteProperty?: string;
@@ -243,6 +243,35 @@ type IndexSubmitResponse = {
   };
   error?: string;
 };
+
+type TabSitemapResultItem = {
+  key: string;
+  rowName: string;
+  domainUrl: string;
+  ok: boolean;
+  error?: string;
+};
+
+type TabSitemapReport = {
+  kind: "counties" | "cities";
+  action: "inspect" | "discovery";
+  total: number;
+  success: number;
+  failed: number;
+  mode: "all" | "retry";
+  items: TabSitemapResultItem[];
+  updatedAt: string;
+};
+
+type TabSitemapRunItem = {
+  key: string;
+  rowName: string;
+  domainUrl: string;
+  status: "pending" | "running" | "done" | "failed";
+  error?: string;
+};
+
+type TabGoogleAction = "inspect" | "discovery";
 
 /** ---- Progress / Runner UX (client-only) ---- */
 type RunnerTotals = {
@@ -326,6 +355,32 @@ export default function Home() {
   const [detailTab, setDetailTab] = useState<"counties" | "cities">("counties");
   const [countyFilter, setCountyFilter] = useState<string>("all");
   const [detailSearch, setDetailSearch] = useState("");
+  const [tabSitemapSubmitting, setTabSitemapSubmitting] = useState("");
+  const [tabSitemapStatus, setTabSitemapStatus] = useState<{
+    kind: "counties" | "cities";
+    ok: boolean;
+    message: string;
+  } | null>(null);
+  const [tabSitemapReports, setTabSitemapReports] = useState<
+    Record<string, TabSitemapReport>
+  >({});
+  const [tabSitemapShowDetails, setTabSitemapShowDetails] = useState<
+    Record<string, boolean>
+  >({});
+  const [tabSitemapRunOpen, setTabSitemapRunOpen] = useState(false);
+  const [tabSitemapRunKind, setTabSitemapRunKind] = useState<
+    "counties" | "cities"
+  >("counties");
+  const [tabSitemapRunAction, setTabSitemapRunAction] =
+    useState<TabGoogleAction>("inspect");
+  const [tabSitemapRunMode, setTabSitemapRunMode] = useState<"all" | "retry">(
+    "all",
+  );
+  const [tabSitemapRunItems, setTabSitemapRunItems] = useState<
+    TabSitemapRunItem[]
+  >([]);
+  const [tabSitemapRunDone, setTabSitemapRunDone] = useState(false);
+  const [tabSitemapRunStartedAt, setTabSitemapRunStartedAt] = useState("");
 
   const [actOpen, setActOpen] = useState(false);
   const [actTitle, setActTitle] = useState("");
@@ -657,6 +712,34 @@ export default function Home() {
     if (!mapSelected) return null;
     return stateMetrics[mapSelected] || null;
   }, [mapSelected, stateMetrics]);
+
+  const tabRunKey = (
+    kind: "counties" | "cities",
+    action: TabGoogleAction,
+  ) => `${kind}:${action}`;
+  const currentTabRunKey = tabRunKey(detailTab, tabSitemapRunAction);
+
+  const currentTabSitemapReport = useMemo(
+    () => tabSitemapReports[currentTabRunKey],
+    [tabSitemapReports, currentTabRunKey],
+  );
+
+  const tabSitemapRunCounts = useMemo(() => {
+    let pending = 0;
+    let running = 0;
+    let done = 0;
+    let failed = 0;
+    for (const it of tabSitemapRunItems) {
+      if (it.status === "pending") pending += 1;
+      else if (it.status === "running") running += 1;
+      else if (it.status === "done") done += 1;
+      else if (it.status === "failed") failed += 1;
+    }
+    const total = tabSitemapRunItems.length;
+    const completed = done + failed;
+    const pct = total > 0 ? Math.round((completed / total) * 100) : 0;
+    return { pending, running, done, failed, total, completed, pct };
+  }, [tabSitemapRunItems]);
 
   // ✅ Puerto Rico metrics (separado)
   const prMetrics = useMemo(() => {
@@ -1033,6 +1116,14 @@ export default function Home() {
     setOpenState(stateName);
     setDetail(null);
     setDetailErr("");
+    setTabSitemapSubmitting("");
+    setTabSitemapStatus(null);
+    setTabSitemapReports({});
+    setTabSitemapShowDetails({});
+    setTabSitemapRunOpen(false);
+    setTabSitemapRunAction("inspect");
+    setTabSitemapRunItems([]);
+    setTabSitemapRunDone(false);
     setCountyFilter("all");
     setDetailSearch("");
     setDetailTab("counties");
@@ -1060,6 +1151,14 @@ export default function Home() {
     setOpenState("");
     setDetail(null);
     setDetailErr("");
+    setTabSitemapSubmitting("");
+    setTabSitemapStatus(null);
+    setTabSitemapReports({});
+    setTabSitemapShowDetails({});
+    setTabSitemapRunOpen(false);
+    setTabSitemapRunAction("inspect");
+    setTabSitemapRunItems([]);
+    setTabSitemapRunDone(false);
   }
 
   function openActivationHelper(opts: {
@@ -1170,6 +1269,7 @@ export default function Home() {
         body: JSON.stringify({
           target: "google",
           domainUrl,
+          mode: "inspect",
         }),
       });
       const data = (await safeJson(res)) as IndexSubmitResponse | null;
@@ -1191,6 +1291,230 @@ export default function Home() {
     } finally {
       setActIndexing(false);
     }
+  }
+
+  function getActiveRowsForTab(kind: "counties" | "cities"): any[] {
+    if (!detail) return [];
+    const rows =
+      kind === "counties"
+        ? (detail.counties.rows || [])
+        : (detail.cities.rows || []);
+
+    return rows.filter((r) => {
+      const eligible = !!r.__eligible;
+      const isActive = isTrue(r["Domain Created"]);
+      const domainToPaste =
+        kind === "cities"
+          ? s(r["City Domain"]) || s(r["city domain"])
+          : s(r["Domain"]) || s(r["County Domain"]);
+      const locId = s(r["Location Id"]);
+      return eligible && isActive && !!domainToPaste && !!locId;
+    });
+  }
+
+  function getTabRowName(kind: "counties" | "cities", r: any) {
+    return kind === "cities" ? s(r["City"]) || s(r["County"]) : s(r["County"]);
+  }
+
+  function getTabRowDomainUrl(kind: "counties" | "cities", r: any) {
+    const domainToPaste =
+      kind === "cities"
+        ? s(r["City Domain"]) || s(r["city domain"])
+        : s(r["Domain"]) || s(r["County Domain"]);
+    return s(toUrlMaybe(domainToPaste));
+  }
+
+  async function runTabSitemaps(
+    kind: "counties" | "cities",
+    action: TabGoogleAction,
+    rowsToRun: any[],
+    mode: "all" | "retry",
+  ) {
+    const runKey = tabRunKey(kind, action);
+    setTabSitemapSubmitting(runKey);
+    setTabSitemapStatus(null);
+    setTabSitemapRunKind(kind);
+    setTabSitemapRunAction(action);
+    setTabSitemapRunMode(mode);
+    setTabSitemapRunDone(false);
+    setTabSitemapRunStartedAt(new Date().toISOString());
+
+    if (rowsToRun.length === 0) {
+      setTabSitemapRunItems([]);
+      setTabSitemapRunOpen(true);
+      setTabSitemapRunDone(true);
+      setTabSitemapStatus({
+        kind,
+        ok: false,
+        message:
+          mode === "retry"
+            ? "No hay filas fallidas para reintentar."
+            : "No hay filas activas con domain válido en este tab.",
+      });
+      setTabSitemapSubmitting("");
+      return;
+    }
+
+    let okCount = 0;
+    const items: TabSitemapResultItem[] = [];
+    const runItemsSeed: TabSitemapRunItem[] = rowsToRun.map((r) => {
+      const rowName = getTabRowName(kind, r) || "row";
+      const domainUrl = getTabRowDomainUrl(kind, r);
+      const key = `${kind}:${s(r["Location Id"])}:${rowName}:${domainUrl}`;
+      return {
+        key,
+        rowName,
+        domainUrl,
+        status: "pending",
+      };
+    });
+    setTabSitemapRunItems(runItemsSeed);
+    setTabSitemapRunOpen(true);
+
+    const updateRunItem = (
+      key: string,
+      status: TabSitemapRunItem["status"],
+      error?: string,
+    ) => {
+      setTabSitemapRunItems((prev) =>
+        prev.map((it) =>
+          it.key === key ? { ...it, status, error: error || undefined } : it,
+        ),
+      );
+    };
+
+    for (const r of rowsToRun) {
+      const domainUrl = getTabRowDomainUrl(kind, r);
+      const rowName = getTabRowName(kind, r);
+      const key = `${kind}:${s(r["Location Id"])}:${rowName}:${domainUrl}`;
+      updateRunItem(key, "running");
+
+      if (!domainUrl) {
+        items.push({
+          key,
+          rowName: rowName || "row",
+          domainUrl: "",
+          ok: false,
+          error: "missing domain URL",
+        });
+        updateRunItem(key, "failed", "missing domain URL");
+        continue;
+      }
+
+      try {
+        const res = await fetch("/api/tools/index-submit", {
+          method: "POST",
+          headers: { "content-type": "application/json" },
+          body: JSON.stringify({ target: "google", domainUrl, mode: action }),
+        });
+        const data = (await safeJson(res)) as IndexSubmitResponse | null;
+        const submitted = !!data?.google?.discovery?.submitted;
+        const indexable = !!data?.ok;
+        const actionOk = action === "discovery" ? submitted : indexable;
+        if (res.ok && data && actionOk) {
+          okCount += 1;
+          items.push({
+            key,
+            rowName: rowName || domainUrl,
+            domainUrl,
+            ok: true,
+          });
+          updateRunItem(key, "done");
+        } else {
+          const errMsg = data?.error || data?.google?.error || `HTTP ${res.status}`;
+          items.push({
+            key,
+            rowName: rowName || domainUrl,
+            domainUrl,
+            ok: false,
+            error: errMsg,
+          });
+          updateRunItem(key, "failed", errMsg);
+        }
+      } catch (e: any) {
+        const errMsg = e?.message || "request failed";
+        items.push({
+          key,
+          rowName: rowName || domainUrl,
+          domainUrl,
+          ok: false,
+          error: errMsg,
+        });
+        updateRunItem(key, "failed", errMsg);
+      }
+
+      await new Promise((resolve) => setTimeout(resolve, 120));
+    }
+
+    const failCount = rowsToRun.length - okCount;
+    setTabSitemapStatus({
+      kind,
+      ok: failCount === 0,
+      message:
+        failCount === 0
+          ? action === "inspect"
+            ? `URL inspection completado para ${okCount}/${rowsToRun.length} ${kind}.`
+            : `Sitemap discovery enviado para ${okCount}/${rowsToRun.length} ${kind}.`
+          : action === "inspect"
+            ? `URL inspection completado ${okCount}/${rowsToRun.length}. Fallos: ${failCount}.`
+            : `Sitemap discovery enviado ${okCount}/${rowsToRun.length}. Fallos: ${failCount}.`,
+    });
+
+    setTabSitemapReports((prev) => ({
+      ...prev,
+      [runKey]: {
+        kind,
+        action,
+        total: rowsToRun.length,
+        success: okCount,
+        failed: failCount,
+        mode,
+        items,
+        updatedAt: new Date().toISOString(),
+      },
+    }));
+
+    setTabSitemapRunDone(true);
+    setTabSitemapSubmitting("");
+  }
+
+  async function submitTabAction(
+    kind: "counties" | "cities",
+    action: TabGoogleAction,
+  ) {
+    await runTabSitemaps(kind, action, getActiveRowsForTab(kind), "all");
+  }
+
+  async function retryFailedTabSitemaps(
+    kind: "counties" | "cities",
+    action: TabGoogleAction,
+  ) {
+    const runKey = tabRunKey(kind, action);
+    const last = tabSitemapReports[runKey];
+    if (!last) {
+      setTabSitemapStatus({
+        kind,
+        ok: false,
+        message: "No hay ejecución previa para reintentar.",
+      });
+      return;
+    }
+    const failedSet = new Set(last.items.filter((it) => !it.ok).map((it) => it.key));
+    if (failedSet.size === 0) {
+      setTabSitemapStatus({
+        kind,
+        ok: true,
+        message: "No hay fallos pendientes.",
+      });
+      return;
+    }
+    const rowsToRetry = getActiveRowsForTab(kind).filter((r) => {
+      const rowName = getTabRowName(kind, r);
+      const domainUrl = getTabRowDomainUrl(kind, r);
+      const key = `${kind}:${s(r["Location Id"])}:${rowName}:${domainUrl}`;
+      return failedSet.has(key);
+    });
+    await runTabSitemaps(kind, action, rowsToRetry, "retry");
   }
 
   function closeActivationHelper() {
@@ -1815,6 +2139,79 @@ export default function Home() {
                     Cities
                   </button>
                 </div>
+                <div className="tabs" style={{ marginTop: 8 }}>
+                  <button
+                    className="smallBtn"
+                    onClick={() => submitTabAction("counties", "inspect")}
+                    disabled={tabSitemapSubmitting !== ""}
+                    title="Run URL Inspection para todos los counties activos."
+                  >
+                    {tabSitemapSubmitting === tabRunKey("counties", "inspect")
+                      ? "Inspect Counties..."
+                      : "Inspect Counties"}
+                  </button>
+                  <button
+                    className="smallBtn"
+                    onClick={() => submitTabAction("cities", "inspect")}
+                    disabled={tabSitemapSubmitting !== ""}
+                    title="Run URL Inspection para todas las cities activas."
+                  >
+                    {tabSitemapSubmitting === tabRunKey("cities", "inspect")
+                      ? "Inspect Cities..."
+                      : "Inspect Cities"}
+                  </button>
+                  <button
+                    className="smallBtn"
+                    onClick={() => submitTabAction("counties", "discovery")}
+                    disabled={tabSitemapSubmitting !== ""}
+                    title="Enviar sitemap.xml a Google Search Console para todos los counties activos."
+                  >
+                    {tabSitemapSubmitting === tabRunKey("counties", "discovery")
+                      ? "Sitemap Counties..."
+                      : "Sitemap Counties"}
+                  </button>
+                  <button
+                    className="smallBtn"
+                    onClick={() => submitTabAction("cities", "discovery")}
+                    disabled={tabSitemapSubmitting !== ""}
+                    title="Enviar sitemap.xml a Google Search Console para todas las cities activas."
+                  >
+                    {tabSitemapSubmitting === tabRunKey("cities", "discovery")
+                      ? "Sitemap Cities..."
+                      : "Sitemap Cities"}
+                  </button>
+                  <button
+                    className="smallBtn"
+                    onClick={() =>
+                      retryFailedTabSitemaps(detailTab, tabSitemapRunAction)
+                    }
+                    disabled={
+                      tabSitemapSubmitting !== "" ||
+                      !tabSitemapReports[currentTabRunKey] ||
+                      (tabSitemapReports[currentTabRunKey]?.failed || 0) === 0
+                    }
+                    title="Reintenta solo los fallidos del tab actual."
+                  >
+                    {tabSitemapSubmitting === currentTabRunKey
+                      ? "Retry failed..."
+                      : `Retry failed (${tabSitemapReports[currentTabRunKey]?.failed || 0})`}
+                  </button>
+                  <button
+                    className="smallBtn"
+                    onClick={() =>
+                      setTabSitemapShowDetails((p) => ({
+                        ...p,
+                        [currentTabRunKey]: !p[currentTabRunKey],
+                      }))
+                    }
+                    disabled={!currentTabSitemapReport}
+                    title="Ver detalle de resultados por fila."
+                  >
+                    {tabSitemapShowDetails[currentTabRunKey]
+                      ? "Hide details"
+                      : "View details"}
+                  </button>
+                </div>
               </div>
 
               <div style={{ display: "flex", gap: 10, alignItems: "center" }}>
@@ -1914,6 +2311,98 @@ export default function Home() {
                       onChange={(e) => setDetailSearch(e.target.value)}
                     />
                   </div>
+
+                  {tabSitemapStatus && (
+                    <div
+                      className="mini"
+                      style={{
+                        marginTop: 10,
+                        color: tabSitemapStatus.ok
+                          ? "var(--ok)"
+                          : "var(--danger)",
+                      }}
+                    >
+                      {tabSitemapStatus.ok ? "✅ " : "❌ "}
+                      {tabSitemapStatus.kind === "counties"
+                        ? "Counties:"
+                        : "Cities:"}{" "}
+                      {tabSitemapStatus.message}
+                    </div>
+                  )}
+
+                  {currentTabSitemapReport &&
+                    tabSitemapShowDetails[currentTabRunKey] && (
+                    <div
+                      className="card"
+                      style={{
+                        marginTop: 10,
+                        borderColor: "rgba(255,255,255,0.14)",
+                      }}
+                    >
+                      <div className="cardBody" style={{ padding: 10 }}>
+                        <div
+                          className="mini"
+                          style={{
+                            display: "flex",
+                            gap: 10,
+                            alignItems: "center",
+                            justifyContent: "space-between",
+                            flexWrap: "wrap",
+                          }}
+                        >
+                          <span>
+                            <b>{detailTab === "counties" ? "Counties" : "Cities"}</b>{" "}
+                            {currentTabSitemapReport.action === "inspect"
+                              ? "inspect"
+                              : "sitemap"}{" "}
+                            run ({currentTabSitemapReport.mode}) •{" "}
+                            {currentTabSitemapReport.success}/{currentTabSitemapReport.total} ok •{" "}
+                            {currentTabSitemapReport.failed} failed
+                          </span>
+                          <span>
+                            {new Date(currentTabSitemapReport.updatedAt).toLocaleString()}
+                          </span>
+                        </div>
+
+                        <div
+                          className="tableWrap tableScrollX"
+                          style={{ marginTop: 8, maxHeight: 220 }}
+                        >
+                          <table className="table">
+                            <thead>
+                              <tr>
+                                <th className="th">Status</th>
+                                <th className="th">
+                                  {detailTab === "counties" ? "County" : "City"}
+                                </th>
+                                <th className="th">Domain</th>
+                                <th className="th">Error</th>
+                              </tr>
+                            </thead>
+                            <tbody>
+                              {currentTabSitemapReport.items.map((it) => (
+                                <tr key={it.key} className="tr">
+                                  <td
+                                    className="td"
+                                    style={{ color: it.ok ? "var(--ok)" : "var(--danger)" }}
+                                  >
+                                    {it.ok ? "OK" : "FAIL"}
+                                  </td>
+                                  <td className="td">{it.rowName || "—"}</td>
+                                  <td className="td">
+                                    <span className="mini">{it.domainUrl || "—"}</span>
+                                  </td>
+                                  <td className="td">
+                                    <span className="mini">{it.error || "—"}</span>
+                                  </td>
+                                </tr>
+                              ))}
+                            </tbody>
+                          </table>
+                        </div>
+                      </div>
+                    </div>
+                  )}
 
                   <div
                     className="tableWrap tableScrollX detailTableWrap"
@@ -2053,6 +2542,152 @@ export default function Home() {
                   </div>
                 </>
               )}
+            </div>
+          </div>
+        </>
+      )}
+
+      {tabSitemapRunOpen && (
+        <>
+          <div
+            className="modalBackdrop"
+            onClick={() => {
+              if (!tabSitemapSubmitting) setTabSitemapRunOpen(false);
+            }}
+          />
+          <div
+            className="modal"
+            role="dialog"
+            aria-modal="true"
+            style={{
+              width: "min(980px, calc(100vw - 24px))",
+              height: "min(620px, calc(100vh - 24px))",
+            }}
+          >
+            <div className="modalHeader">
+              <div>
+                <div className="badge">
+                  {tabSitemapRunAction === "inspect"
+                    ? "GOOGLE URL INSPECTION RUN"
+                    : "GOOGLE SITEMAP DISCOVERY RUN"}
+                </div>
+                <h3 className="modalTitle" style={{ marginTop: 8 }}>
+                  {openState} •{" "}
+                  {tabSitemapRunKind === "counties" ? "Counties" : "Cities"} •{" "}
+                  {tabSitemapRunAction === "inspect" ? "URL Inspect" : "Sitemap Discovery"} •{" "}
+                  {tabSitemapRunMode === "retry" ? "Retry Failed" : "Full Run"}
+                </h3>
+                <div className="mini" style={{ marginTop: 6 }}>
+                  Started:{" "}
+                  {tabSitemapRunStartedAt
+                    ? new Date(tabSitemapRunStartedAt).toLocaleString()
+                    : "—"}
+                </div>
+              </div>
+
+              <div style={{ display: "flex", gap: 8, alignItems: "center" }}>
+                <span className="badge">{tabSitemapRunCounts.pct}%</span>
+                <span className="badge">
+                  Done {tabSitemapRunCounts.done}/{tabSitemapRunCounts.total}
+                </span>
+                <span className="badge" style={{ color: "var(--danger)" }}>
+                  Failed {tabSitemapRunCounts.failed}
+                </span>
+                <button
+                  className="smallBtn"
+                  onClick={() => setTabSitemapRunOpen(false)}
+                  disabled={!!tabSitemapSubmitting}
+                >
+                  {tabSitemapSubmitting ? "Running..." : "Close"}
+                </button>
+              </div>
+            </div>
+
+            <div className="modalBody" style={{ padding: 14 }}>
+              <div className="card" style={{ marginBottom: 10 }}>
+                <div className="cardBody" style={{ padding: 10 }}>
+                  <div className="mini" style={{ marginBottom: 8 }}>
+                    {tabSitemapRunDone ? "Run completed." : "Processing..."}
+                  </div>
+                  <div
+                    className="progressWrap"
+                    style={{
+                      width: "100%",
+                      height: 10,
+                      borderRadius: 999,
+                      border: "1px solid rgba(255,255,255,0.12)",
+                      background: "rgba(255,255,255,0.05)",
+                      overflow: "hidden",
+                    }}
+                  >
+                    <div
+                      className="progressBar"
+                      style={{
+                        width: `${tabSitemapRunCounts.pct}%`,
+                        height: "100%",
+                        background:
+                          "linear-gradient(90deg, rgba(96,165,250,0.95), rgba(74,222,128,0.92))",
+                        transition: "width 180ms ease",
+                      }}
+                    />
+                  </div>
+                  <div
+                    className="chips"
+                    style={{ marginTop: 8, display: "flex", gap: 8 }}
+                  >
+                    <span className="badge">Pending {tabSitemapRunCounts.pending}</span>
+                    <span className="badge">Running {tabSitemapRunCounts.running}</span>
+                    <span className="badge" style={{ color: "var(--ok)" }}>
+                      Done {tabSitemapRunCounts.done}
+                    </span>
+                    <span className="badge" style={{ color: "var(--danger)" }}>
+                      Failed {tabSitemapRunCounts.failed}
+                    </span>
+                  </div>
+                </div>
+              </div>
+
+              <div className="tableWrap tableScrollX" style={{ maxHeight: 390 }}>
+                <table className="table">
+                  <thead>
+                    <tr>
+                      <th className="th">Status</th>
+                      <th className="th">
+                        {tabSitemapRunKind === "counties" ? "County" : "City"}
+                      </th>
+                      <th className="th">Domain</th>
+                      <th className="th">Error</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    {tabSitemapRunItems.map((it) => (
+                      <tr key={it.key} className="tr">
+                        <td className="td">
+                          {it.status === "done" && (
+                            <span className="pillOk">Done</span>
+                          )}
+                          {it.status === "failed" && (
+                            <span className="pillOff">Failed</span>
+                          )}
+                          {it.status === "running" && (
+                            <span className="pillWarn">Running</span>
+                          )}
+                          {it.status === "pending" && (
+                            <span className="badge">Pending</span>
+                          )}
+                        </td>
+                        <td className="td">{it.rowName}</td>
+                        <td className="td">
+                          <span className="mini">{it.domainUrl || "—"}</span>
+                        </td>
+                        <td className="td">
+                          <span className="mini">{it.error || "—"}</span>
+                        </td>
+                      </tr>
+                    ))}
+                  </tbody>
+                </table>
+              </div>
             </div>
           </div>
         </>
