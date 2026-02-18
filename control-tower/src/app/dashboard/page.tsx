@@ -2433,14 +2433,14 @@ export default function DashboardHome() {
                   <div className="mini moduleStatLabel">Show rate</div>
                   <div className="moduleStatValue">{fmtInt(m?.appointments?.showRate)}%</div>
                 </div>
-                <div className="moduleStat">
+                {/* <div className="moduleStat">
                   <div className="mini moduleStatLabel">Cancel rate</div>
                   <div className="moduleStatValue">{fmtInt(m?.appointments?.cancellationRate)}%</div>
-                </div>
-                <div className="moduleStat">
+                </div> */}
+                {/* <div className="moduleStat">
                   <div className="mini moduleStatLabel">No-show rate</div>
                   <div className="moduleStatValue">{fmtInt(m?.appointments?.noShowRate)}%</div>
-                </div>
+                </div> */}
                 <div className="moduleStat">
                   <div className="mini moduleStatLabel">Lost qualified bookings</div>
                   <div className="moduleStatValue">{fmtInt(m?.appointments?.lostQualified)}</div>

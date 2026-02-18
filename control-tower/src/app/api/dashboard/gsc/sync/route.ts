@@ -58,6 +58,16 @@ function parseRange(preset: string, start?: string, end?: string) {
     const prevYearStart = `${prevYear}-01-01`;
     const prevYearEnd = `${prevYear}-12-31`;
 
+    const explicitStart = s(start);
+    const explicitEnd = s(end);
+    if (explicitStart && explicitEnd) {
+        return {
+            startDate: explicitStart,
+            endDate: explicitEnd,
+            range: preset || "custom",
+        };
+    }
+
     if (preset === "custom") {
         return {
             startDate: s(start) || daysAgoISO(28),
@@ -68,9 +78,9 @@ function parseRange(preset: string, start?: string, end?: string) {
 
     switch (preset) {
         case "last_7_days":
-            return { startDate: daysAgoISO(7), endDate: today, range: "last_7_days" };
+            return { startDate: daysAgoISO(6), endDate: today, range: "last_7_days" };
         case "last_28_days":
-            return { startDate: daysAgoISO(28), endDate: today, range: "last_28_days" };
+            return { startDate: daysAgoISO(27), endDate: today, range: "last_28_days" };
         case "last_month":
             return { startDate: monthsAgoISO(1), endDate: today, range: "last_month" };
         case "last_quarter":
@@ -211,6 +221,12 @@ function isStale(meta: any, staleMinutes: number) {
 }
 
 export async function GET(req: Request) {
+    const cacheDir = path.join(process.cwd(), "data", "cache", "gsc");
+    const metaPath = path.join(cacheDir, "meta.json");
+    const pagesPath = path.join(cacheDir, "pages.json");
+    const queriesPath = path.join(cacheDir, "queries.json");
+    const qpPath = path.join(cacheDir, "qp.json");
+    const trendPath = path.join(cacheDir, "trend.json");
     try {
         const u = new URL(req.url);
         const preset = s(u.searchParams.get("range") || "last_28_days");
@@ -222,9 +238,6 @@ export async function GET(req: Request) {
         const compare = s(u.searchParams.get("compare")) === "1";
 
         const { startDate, endDate, range } = parseRange(preset, start, end);
-
-        const cacheDir = path.join(process.cwd(), "data", "cache", "gsc");
-        const metaPath = path.join(cacheDir, "meta.json");
 
         await ensureDir(cacheDir);
 
@@ -342,6 +355,33 @@ export async function GET(req: Request) {
             cache: { refreshed: true },
         });
     } catch (e: any) {
-        return NextResponse.json({ ok: false, error: e?.message || "GSC sync failed" }, { status: 500 });
+        const rootErr = e?.message || "GSC sync failed";
+        try {
+            await Promise.all([
+                fs.access(metaPath),
+                fs.access(pagesPath),
+                fs.access(queriesPath),
+                fs.access(qpPath),
+                fs.access(trendPath),
+            ]);
+            let snapshotAgeMs: number | null = null;
+            try {
+                const st = await fs.stat(metaPath);
+                snapshotAgeMs = Math.max(0, Date.now() - st.mtimeMs);
+            } catch {
+                snapshotAgeMs = null;
+            }
+            return NextResponse.json({
+                ok: true,
+                cached: true,
+                stale: true,
+                usedSnapshot: true,
+                warning: rootErr,
+                snapshotAgeMs,
+                message: "GSC sync failed; using cached snapshot",
+            });
+        } catch {
+            return NextResponse.json({ ok: false, error: rootErr }, { status: 500 });
+        }
     }
 }

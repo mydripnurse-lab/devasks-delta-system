@@ -47,6 +47,64 @@ function fmtDeltaPct(x: any) {
   return `${sign}${(n * 100).toFixed(1)}%`;
 }
 
+function isoDateLocal(d: Date) {
+  const y = d.getFullYear();
+  const m = String(d.getMonth() + 1).padStart(2, "0");
+  const da = String(d.getDate()).padStart(2, "0");
+  return `${y}-${m}-${da}`;
+}
+
+function addDaysLocal(base: Date, days: number) {
+  const d = new Date(base);
+  d.setDate(d.getDate() + days);
+  return d;
+}
+
+function resolveRangeDates(
+  preset: RangePreset,
+  customStart: string,
+  customEnd: string,
+) {
+  const now = new Date();
+  const today = isoDateLocal(now);
+
+  if (preset === "custom") {
+    return {
+      startDate: customStart || today,
+      endDate: customEnd || today,
+    };
+  }
+
+  if (preset === "last_year") {
+    const prevYear = now.getFullYear() - 1;
+    return {
+      startDate: `${prevYear}-01-01`,
+      endDate: `${prevYear}-12-31`,
+    };
+  }
+
+  if (preset === "last_7_days") {
+    return { startDate: isoDateLocal(addDaysLocal(now, -6)), endDate: today };
+  }
+  if (preset === "last_28_days") {
+    return { startDate: isoDateLocal(addDaysLocal(now, -27)), endDate: today };
+  }
+  if (preset === "last_month") {
+    const d = new Date(now);
+    d.setMonth(d.getMonth() - 1);
+    return { startDate: isoDateLocal(d), endDate: today };
+  }
+  if (preset === "last_quarter") {
+    const d = new Date(now);
+    d.setMonth(d.getMonth() - 3);
+    return { startDate: isoDateLocal(d), endDate: today };
+  }
+
+  const d = new Date(now);
+  d.setMonth(d.getMonth() - 6);
+  return { startDate: isoDateLocal(d), endDate: today };
+}
+
 // For pills: allow "invert" semantics (lower is better: avg position)
 function deltaClass(pct: any, opts?: { invert?: boolean }) {
   const n = Number(pct);
@@ -61,6 +119,7 @@ export default function GscDashboardPage() {
   const [loading, setLoading] = useState(false);
   const [hardRefreshing, setHardRefreshing] = useState(false);
   const [err, setErr] = useState("");
+  const [warn, setWarn] = useState("");
 
   const [preset, setPreset] = useState<RangePreset>("last_28_days");
   const [customStart, setCustomStart] = useState("");
@@ -86,10 +145,9 @@ export default function GscDashboardPage() {
   function qs() {
     const p = new URLSearchParams();
     p.set("range", preset);
-    if (preset === "custom") {
-      if (customStart) p.set("start", customStart);
-      if (customEnd) p.set("end", customEnd);
-    }
+    const resolved = resolveRangeDates(preset, customStart, customEnd);
+    p.set("start", resolved.startDate);
+    p.set("end", resolved.endDate);
     if (mapSelected) p.set("state", mapSelected);
     if (compareOn) p.set("compare", "1");
     return p.toString();
@@ -98,10 +156,9 @@ export default function GscDashboardPage() {
   function buildSyncParams(force: boolean) {
     const p = new URLSearchParams();
     p.set("range", preset);
-    if (preset === "custom") {
-      if (customStart) p.set("start", customStart);
-      if (customEnd) p.set("end", customEnd);
-    }
+    const resolved = resolveRangeDates(preset, customStart, customEnd);
+    p.set("start", resolved.startDate);
+    p.set("end", resolved.endDate);
     if (force) p.set("force", "1");
 
     // ✅ IMPORTANT: tell sync we need previous-window trend when compare is on
@@ -126,11 +183,13 @@ export default function GscDashboardPage() {
     const force = !!opts?.force || preset === "custom";
 
     setErr("");
+    setWarn("");
     setLoading(true);
     setAiErr("");
     setAiInsights(null);
 
     try {
+      const syncWarnings: string[] = [];
       const syncTargets =
         searchTab === "all"
           ? ["/api/dashboard/gsc/sync", "/api/dashboard/bing/sync"]
@@ -145,7 +204,11 @@ export default function GscDashboardPage() {
         );
         const syncJson = await syncRes.json();
         if (!syncRes.ok || !syncJson?.ok) {
-          throw new Error(syncJson?.error || `SYNC HTTP ${syncRes.status}`);
+          syncWarnings.push(syncJson?.error || `SYNC HTTP ${syncRes.status}`);
+        } else if (syncJson?.stale || syncJson?.warning) {
+          syncWarnings.push(
+            `${syncTarget.includes("/bing/") ? "Bing" : "GSC"} stale snapshot: ${syncJson?.warning || "provider unavailable"}`,
+          );
         }
       }
 
@@ -155,9 +218,14 @@ export default function GscDashboardPage() {
         throw new Error(json?.error || `JOIN HTTP ${res.status}`);
 
       setData(json);
+      if (syncWarnings.length) {
+        console.warn("Search Performance sync warnings:", syncWarnings);
+        setWarn(syncWarnings.join(" | "));
+      }
     } catch (e: any) {
       setData(null);
       setErr(e?.message || "Failed to load GSC dashboard");
+      setWarn("");
     } finally {
       setLoading(false);
       setHardRefreshing(false);
@@ -414,7 +482,12 @@ export default function GscDashboardPage() {
           </div>
         </div>
 
-        <div className="cardBody">
+          <div className="cardBody">
+          {warn && !err ? (
+            <div style={{ color: "#f8c15c", marginBottom: 10 }}>
+              ⚠ {warn}
+            </div>
+          ) : null}
           <div style={{ display: "flex", gap: 8, marginBottom: 12, flexWrap: "wrap" }}>
             <button
               className={`smallBtn ${searchTab === "gsc" ? "smallBtnOn" : ""}`}

@@ -62,6 +62,12 @@ function rangeFromPreset(preset: RangePreset, startRaw: string, endRaw: string) 
   const end = new Date(now);
   const start = new Date(now);
 
+  const explicitStart = s(startRaw);
+  const explicitEnd = s(endRaw);
+  if (explicitStart && explicitEnd) {
+    return { startDate: explicitStart, endDate: explicitEnd };
+  }
+
   if (preset === "custom") {
     const cs = new Date(startRaw || now);
     const ce = new Date(endRaw || now);
@@ -71,8 +77,8 @@ function rangeFromPreset(preset: RangePreset, startRaw: string, endRaw: string) 
     };
   }
 
-  if (preset === "last_7_days") start.setDate(start.getDate() - 7);
-  else if (preset === "last_28_days") start.setDate(start.getDate() - 28);
+  if (preset === "last_7_days") start.setDate(start.getDate() - 6);
+  else if (preset === "last_28_days") start.setDate(start.getDate() - 27);
   else if (preset === "last_month") start.setMonth(start.getMonth() - 1);
   else if (preset === "last_quarter") start.setMonth(start.getMonth() - 3);
   else if (preset === "last_6_months") start.setMonth(start.getMonth() - 6);
@@ -308,6 +314,11 @@ function aggregateTrendFromNormalizedRows(
 }
 
 export async function GET(req: Request) {
+  const cacheDir = path.join(process.cwd(), "data", "cache", "bing");
+  const metaPath = path.join(cacheDir, "meta.json");
+  const queriesPath = path.join(cacheDir, "queries.json");
+  const pagesPath = path.join(cacheDir, "pages.json");
+  const trendPath = path.join(cacheDir, "trend.json");
   try {
     const { searchParams } = new URL(req.url);
     const preset = (s(searchParams.get("range")) || "last_28_days") as RangePreset;
@@ -334,8 +345,6 @@ export async function GET(req: Request) {
     }
 
     const range = rangeFromPreset(preset, start, end);
-    const cacheDir = path.join(process.cwd(), "data", "cache", "bing");
-    const metaPath = path.join(cacheDir, "meta.json");
     const freshnessMs = Math.max(60_000, Number(process.env.BING_SYNC_MAX_AGE_MS || 10 * 60_000));
 
     if (!force) {
@@ -436,7 +445,7 @@ export async function GET(req: Request) {
         ? trendRowsFromPages
         : trendRowsFromQueries.length > 0
           ? trendRowsFromQueries
-          : aggregateTrendRows(queriesRes.rows);
+          : aggregateTrendRows(rawQueryRows);
 
     const meta = {
       ok: true,
@@ -453,9 +462,9 @@ export async function GET(req: Request) {
 
     await fs.mkdir(cacheDir, { recursive: true });
     await fs.writeFile(path.join(cacheDir, "meta.json"), JSON.stringify(meta, null, 2), "utf8");
-    await fs.writeFile(path.join(cacheDir, "queries.json"), JSON.stringify({ rows: queryRows }, null, 2), "utf8");
-    await fs.writeFile(path.join(cacheDir, "pages.json"), JSON.stringify({ rows: pageRows }, null, 2), "utf8");
-    await fs.writeFile(path.join(cacheDir, "trend.json"), JSON.stringify({ rows: trendRows }, null, 2), "utf8");
+    await fs.writeFile(queriesPath, JSON.stringify({ rows: queryRows }, null, 2), "utf8");
+    await fs.writeFile(pagesPath, JSON.stringify({ rows: pageRows }, null, 2), "utf8");
+    await fs.writeFile(trendPath, JSON.stringify({ rows: trendRows }, null, 2), "utf8");
 
     return Response.json({
       ok: true,
@@ -480,6 +489,32 @@ export async function GET(req: Request) {
       },
     });
   } catch (e: unknown) {
-    return Response.json({ ok: false, error: e instanceof Error ? e.message : "bing sync failed" }, { status: 500 });
+    const rootErr = e instanceof Error ? e.message : "bing sync failed";
+    try {
+      await Promise.all([
+        fs.access(metaPath),
+        fs.access(queriesPath),
+        fs.access(pagesPath),
+        fs.access(trendPath),
+      ]);
+      let snapshotAgeMs: number | null = null;
+      try {
+        const st = await fs.stat(metaPath);
+        snapshotAgeMs = Math.max(0, Date.now() - st.mtimeMs);
+      } catch {
+        snapshotAgeMs = null;
+      }
+      return Response.json({
+        ok: true,
+        cached: true,
+        stale: true,
+        usedSnapshot: true,
+        warning: rootErr,
+        snapshotAgeMs,
+        message: "Bing sync failed; using cached snapshot",
+      });
+    } catch {
+      return Response.json({ ok: false, error: rootErr }, { status: 500 });
+    }
   }
 }

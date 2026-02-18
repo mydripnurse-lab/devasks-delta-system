@@ -1,0 +1,2564 @@
+{
+    "counties": [
+        {
+            "countyName": "Adams",
+            "cities": [
+                {
+                    "cityName": "Hettinger",
+                    "cityDomain": "https://hettinger-city-nd.mynewbrand.com",
+                    "citySitemap": "https://hettinger-city-nd.mynewbrand.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Reeder",
+                    "cityDomain": "https://reeder-city-nd.mynewbrand.com",
+                    "citySitemap": "https://reeder-city-nd.mynewbrand.com/sitemap.xml"
+                }
+            ],
+            "Timezone": {
+                "Name": "Central",
+                "Zone": "US/Central",
+                "UTC_Offset": "-06:00"
+            },
+            "countyDomain": "https://adams-county-nd.mynewbrand.com",
+            "countySitemap": "https://adams-county-nd.mynewbrand.com/sitemap.xml",
+            "embeddedSitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\\n  <sitemap>\\n    <loc>https://adams-county-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://hettinger-city-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://reeder-city-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n</sitemapindex>"
+        },
+        {
+            "countyName": "Barnes",
+            "cities": [
+                {
+                    "cityName": "Dazey",
+                    "cityDomain": "https://dazey-city-nd.mynewbrand.com",
+                    "citySitemap": "https://dazey-city-nd.mynewbrand.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Fingal",
+                    "cityDomain": "https://fingal-city-nd.mynewbrand.com",
+                    "citySitemap": "https://fingal-city-nd.mynewbrand.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Kathryn",
+                    "cityDomain": "https://kathryn-city-nd.mynewbrand.com",
+                    "citySitemap": "https://kathryn-city-nd.mynewbrand.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Litchville",
+                    "cityDomain": "https://litchville-city-nd.mynewbrand.com",
+                    "citySitemap": "https://litchville-city-nd.mynewbrand.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Nome",
+                    "cityDomain": "https://nome-city-nd.mynewbrand.com",
+                    "citySitemap": "https://nome-city-nd.mynewbrand.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Oriska",
+                    "cityDomain": "https://oriska-city-nd.mynewbrand.com",
+                    "citySitemap": "https://oriska-city-nd.mynewbrand.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Pillsbury",
+                    "cityDomain": "https://pillsbury-city-nd.mynewbrand.com",
+                    "citySitemap": "https://pillsbury-city-nd.mynewbrand.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Rogers",
+                    "cityDomain": "https://rogers-city-nd.mynewbrand.com",
+                    "citySitemap": "https://rogers-city-nd.mynewbrand.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Sanborn",
+                    "cityDomain": "https://sanborn-city-nd.mynewbrand.com",
+                    "citySitemap": "https://sanborn-city-nd.mynewbrand.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Spiritwood",
+                    "cityDomain": "https://spiritwood-city-nd.mynewbrand.com",
+                    "citySitemap": "https://spiritwood-city-nd.mynewbrand.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Valley City",
+                    "cityDomain": "https://valley-city-city-nd.mynewbrand.com",
+                    "citySitemap": "https://valley-city-city-nd.mynewbrand.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Wimbledon",
+                    "cityDomain": "https://wimbledon-city-nd.mynewbrand.com",
+                    "citySitemap": "https://wimbledon-city-nd.mynewbrand.com/sitemap.xml"
+                }
+            ],
+            "Timezone": {
+                "Name": "Central",
+                "Zone": "US/Central",
+                "UTC_Offset": "-06:00"
+            },
+            "countyDomain": "https://barnes-county-nd.mynewbrand.com",
+            "countySitemap": "https://barnes-county-nd.mynewbrand.com/sitemap.xml",
+            "embeddedSitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\\n  <sitemap>\\n    <loc>https://barnes-county-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://dazey-city-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://fingal-city-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://kathryn-city-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://litchville-city-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://nome-city-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://oriska-city-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://pillsbury-city-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://rogers-city-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://sanborn-city-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://spiritwood-city-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://valley-city-city-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://wimbledon-city-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n</sitemapindex>"
+        },
+        {
+            "countyName": "Benson",
+            "cities": [
+                {
+                    "cityName": "Esmond",
+                    "cityDomain": "https://esmond-city-nd.mynewbrand.com",
+                    "citySitemap": "https://esmond-city-nd.mynewbrand.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Fort Totten",
+                    "cityDomain": "https://fort-totten-city-nd.mynewbrand.com",
+                    "citySitemap": "https://fort-totten-city-nd.mynewbrand.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Knox",
+                    "cityDomain": "https://knox-city-nd.mynewbrand.com",
+                    "citySitemap": "https://knox-city-nd.mynewbrand.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Leeds",
+                    "cityDomain": "https://leeds-city-nd.mynewbrand.com",
+                    "citySitemap": "https://leeds-city-nd.mynewbrand.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Maddock",
+                    "cityDomain": "https://maddock-city-nd.mynewbrand.com",
+                    "citySitemap": "https://maddock-city-nd.mynewbrand.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Minnewaukan",
+                    "cityDomain": "https://minnewaukan-city-nd.mynewbrand.com",
+                    "citySitemap": "https://minnewaukan-city-nd.mynewbrand.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Oberon",
+                    "cityDomain": "https://oberon-city-nd.mynewbrand.com",
+                    "citySitemap": "https://oberon-city-nd.mynewbrand.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Saint Michael",
+                    "cityDomain": "https://saint-michael-city-nd.mynewbrand.com",
+                    "citySitemap": "https://saint-michael-city-nd.mynewbrand.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Tokio",
+                    "cityDomain": "https://tokio-city-nd.mynewbrand.com",
+                    "citySitemap": "https://tokio-city-nd.mynewbrand.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Warwick",
+                    "cityDomain": "https://warwick-city-nd.mynewbrand.com",
+                    "citySitemap": "https://warwick-city-nd.mynewbrand.com/sitemap.xml"
+                },
+                {
+                    "cityName": "York",
+                    "cityDomain": "https://york-city-nd.mynewbrand.com",
+                    "citySitemap": "https://york-city-nd.mynewbrand.com/sitemap.xml"
+                }
+            ],
+            "Timezone": {
+                "Name": "Central",
+                "Zone": "US/Central",
+                "UTC_Offset": "-06:00"
+            },
+            "countyDomain": "https://benson-county-nd.mynewbrand.com",
+            "countySitemap": "https://benson-county-nd.mynewbrand.com/sitemap.xml",
+            "embeddedSitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\\n  <sitemap>\\n    <loc>https://benson-county-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://esmond-city-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://fort-totten-city-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://knox-city-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://leeds-city-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://maddock-city-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://minnewaukan-city-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://oberon-city-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://saint-michael-city-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://tokio-city-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://warwick-city-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://york-city-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n</sitemapindex>"
+        },
+        {
+            "countyName": "Billings",
+            "cities": [
+                {
+                    "cityName": "Fairfield",
+                    "cityDomain": "https://fairfield-city-nd.mynewbrand.com",
+                    "citySitemap": "https://fairfield-city-nd.mynewbrand.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Medora",
+                    "cityDomain": "https://medora-city-nd.mynewbrand.com",
+                    "citySitemap": "https://medora-city-nd.mynewbrand.com/sitemap.xml"
+                }
+            ],
+            "Timezone": {
+                "Name": "Central",
+                "Zone": "US/Central",
+                "UTC_Offset": "-06:00"
+            },
+            "countyDomain": "https://billings-county-nd.mynewbrand.com",
+            "countySitemap": "https://billings-county-nd.mynewbrand.com/sitemap.xml",
+            "embeddedSitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\\n  <sitemap>\\n    <loc>https://billings-county-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://fairfield-city-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://medora-city-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n</sitemapindex>"
+        },
+        {
+            "countyName": "Bottineau",
+            "cities": [
+                {
+                    "cityName": "Antler",
+                    "cityDomain": "https://antler-city-nd.mynewbrand.com",
+                    "citySitemap": "https://antler-city-nd.mynewbrand.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Bottineau",
+                    "cityDomain": "https://bottineau-city-nd.mynewbrand.com",
+                    "citySitemap": "https://bottineau-city-nd.mynewbrand.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Kramer",
+                    "cityDomain": "https://kramer-city-nd.mynewbrand.com",
+                    "citySitemap": "https://kramer-city-nd.mynewbrand.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Lansford",
+                    "cityDomain": "https://lansford-city-nd.mynewbrand.com",
+                    "citySitemap": "https://lansford-city-nd.mynewbrand.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Maxbass",
+                    "cityDomain": "https://maxbass-city-nd.mynewbrand.com",
+                    "citySitemap": "https://maxbass-city-nd.mynewbrand.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Newburg",
+                    "cityDomain": "https://newburg-city-nd.mynewbrand.com",
+                    "citySitemap": "https://newburg-city-nd.mynewbrand.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Souris",
+                    "cityDomain": "https://souris-city-nd.mynewbrand.com",
+                    "citySitemap": "https://souris-city-nd.mynewbrand.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Westhope",
+                    "cityDomain": "https://westhope-city-nd.mynewbrand.com",
+                    "citySitemap": "https://westhope-city-nd.mynewbrand.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Willow City",
+                    "cityDomain": "https://willow-city-city-nd.mynewbrand.com",
+                    "citySitemap": "https://willow-city-city-nd.mynewbrand.com/sitemap.xml"
+                }
+            ],
+            "Timezone": {
+                "Name": "Central",
+                "Zone": "US/Central",
+                "UTC_Offset": "-06:00"
+            },
+            "countyDomain": "https://bottineau-county-nd.mynewbrand.com",
+            "countySitemap": "https://bottineau-county-nd.mynewbrand.com/sitemap.xml",
+            "embeddedSitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\\n  <sitemap>\\n    <loc>https://bottineau-county-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://antler-city-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://bottineau-city-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://kramer-city-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://lansford-city-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://maxbass-city-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://newburg-city-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://souris-city-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://westhope-city-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://willow-city-city-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n</sitemapindex>"
+        },
+        {
+            "countyName": "Bowman",
+            "cities": [
+                {
+                    "cityName": "Bowman",
+                    "cityDomain": "https://bowman-city-nd.mynewbrand.com",
+                    "citySitemap": "https://bowman-city-nd.mynewbrand.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Rhame",
+                    "cityDomain": "https://rhame-city-nd.mynewbrand.com",
+                    "citySitemap": "https://rhame-city-nd.mynewbrand.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Scranton",
+                    "cityDomain": "https://scranton-city-nd.mynewbrand.com",
+                    "citySitemap": "https://scranton-city-nd.mynewbrand.com/sitemap.xml"
+                }
+            ],
+            "Timezone": {
+                "Name": "Central",
+                "Zone": "US/Central",
+                "UTC_Offset": "-06:00"
+            },
+            "countyDomain": "https://bowman-county-nd.mynewbrand.com",
+            "countySitemap": "https://bowman-county-nd.mynewbrand.com/sitemap.xml",
+            "embeddedSitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\\n  <sitemap>\\n    <loc>https://bowman-county-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://bowman-city-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://rhame-city-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://scranton-city-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n</sitemapindex>"
+        },
+        {
+            "countyName": "Burke",
+            "cities": [
+                {
+                    "cityName": "Bowbells",
+                    "cityDomain": "https://bowbells-city-nd.mynewbrand.com",
+                    "citySitemap": "https://bowbells-city-nd.mynewbrand.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Columbus",
+                    "cityDomain": "https://columbus-city-nd.mynewbrand.com",
+                    "citySitemap": "https://columbus-city-nd.mynewbrand.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Flaxton",
+                    "cityDomain": "https://flaxton-city-nd.mynewbrand.com",
+                    "citySitemap": "https://flaxton-city-nd.mynewbrand.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Lignite",
+                    "cityDomain": "https://lignite-city-nd.mynewbrand.com",
+                    "citySitemap": "https://lignite-city-nd.mynewbrand.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Portal",
+                    "cityDomain": "https://portal-city-nd.mynewbrand.com",
+                    "citySitemap": "https://portal-city-nd.mynewbrand.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Powers Lake",
+                    "cityDomain": "https://powers-lake-city-nd.mynewbrand.com",
+                    "citySitemap": "https://powers-lake-city-nd.mynewbrand.com/sitemap.xml"
+                }
+            ],
+            "Timezone": {
+                "Name": "Central",
+                "Zone": "US/Central",
+                "UTC_Offset": "-06:00"
+            },
+            "countyDomain": "https://burke-county-nd.mynewbrand.com",
+            "countySitemap": "https://burke-county-nd.mynewbrand.com/sitemap.xml",
+            "embeddedSitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\\n  <sitemap>\\n    <loc>https://burke-county-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://bowbells-city-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://columbus-city-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://flaxton-city-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://lignite-city-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://portal-city-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://powers-lake-city-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n</sitemapindex>"
+        },
+        {
+            "countyName": "Burleigh",
+            "cities": [
+                {
+                    "cityName": "Baldwin",
+                    "cityDomain": "https://baldwin-city-nd.mynewbrand.com",
+                    "citySitemap": "https://baldwin-city-nd.mynewbrand.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Bismarck",
+                    "cityDomain": "https://bismarck-city-nd.mynewbrand.com",
+                    "citySitemap": "https://bismarck-city-nd.mynewbrand.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Driscoll",
+                    "cityDomain": "https://driscoll-city-nd.mynewbrand.com",
+                    "citySitemap": "https://driscoll-city-nd.mynewbrand.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Menoken",
+                    "cityDomain": "https://menoken-city-nd.mynewbrand.com",
+                    "citySitemap": "https://menoken-city-nd.mynewbrand.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Moffit",
+                    "cityDomain": "https://moffit-city-nd.mynewbrand.com",
+                    "citySitemap": "https://moffit-city-nd.mynewbrand.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Regan",
+                    "cityDomain": "https://regan-city-nd.mynewbrand.com",
+                    "citySitemap": "https://regan-city-nd.mynewbrand.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Sterling",
+                    "cityDomain": "https://sterling-city-nd.mynewbrand.com",
+                    "citySitemap": "https://sterling-city-nd.mynewbrand.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Wing",
+                    "cityDomain": "https://wing-city-nd.mynewbrand.com",
+                    "citySitemap": "https://wing-city-nd.mynewbrand.com/sitemap.xml"
+                }
+            ],
+            "Timezone": {
+                "Name": "Central",
+                "Zone": "US/Central",
+                "UTC_Offset": "-06:00"
+            },
+            "countyDomain": "https://burleigh-county-nd.mynewbrand.com",
+            "countySitemap": "https://burleigh-county-nd.mynewbrand.com/sitemap.xml",
+            "embeddedSitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\\n  <sitemap>\\n    <loc>https://burleigh-county-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://baldwin-city-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://bismarck-city-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://driscoll-city-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://menoken-city-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://moffit-city-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://regan-city-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://sterling-city-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://wing-city-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n</sitemapindex>"
+        },
+        {
+            "countyName": "Cass",
+            "cities": [
+                {
+                    "cityName": "Absaraka",
+                    "cityDomain": "https://absaraka-city-nd.mynewbrand.com",
+                    "citySitemap": "https://absaraka-city-nd.mynewbrand.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Amenia",
+                    "cityDomain": "https://amenia-city-nd.mynewbrand.com",
+                    "citySitemap": "https://amenia-city-nd.mynewbrand.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Argusville",
+                    "cityDomain": "https://argusville-city-nd.mynewbrand.com",
+                    "citySitemap": "https://argusville-city-nd.mynewbrand.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Arthur",
+                    "cityDomain": "https://arthur-city-nd.mynewbrand.com",
+                    "citySitemap": "https://arthur-city-nd.mynewbrand.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Ayr",
+                    "cityDomain": "https://ayr-city-nd.mynewbrand.com",
+                    "citySitemap": "https://ayr-city-nd.mynewbrand.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Buffalo",
+                    "cityDomain": "https://buffalo-city-nd.mynewbrand.com",
+                    "citySitemap": "https://buffalo-city-nd.mynewbrand.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Casselton",
+                    "cityDomain": "https://casselton-city-nd.mynewbrand.com",
+                    "citySitemap": "https://casselton-city-nd.mynewbrand.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Davenport",
+                    "cityDomain": "https://davenport-city-nd.mynewbrand.com",
+                    "citySitemap": "https://davenport-city-nd.mynewbrand.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Erie",
+                    "cityDomain": "https://erie-city-nd.mynewbrand.com",
+                    "citySitemap": "https://erie-city-nd.mynewbrand.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Fargo",
+                    "cityDomain": "https://fargo-city-nd.mynewbrand.com",
+                    "citySitemap": "https://fargo-city-nd.mynewbrand.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Gardner",
+                    "cityDomain": "https://gardner-city-nd.mynewbrand.com",
+                    "citySitemap": "https://gardner-city-nd.mynewbrand.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Grandin",
+                    "cityDomain": "https://grandin-city-nd.mynewbrand.com",
+                    "citySitemap": "https://grandin-city-nd.mynewbrand.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Harwood",
+                    "cityDomain": "https://harwood-city-nd.mynewbrand.com",
+                    "citySitemap": "https://harwood-city-nd.mynewbrand.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Horace",
+                    "cityDomain": "https://horace-city-nd.mynewbrand.com",
+                    "citySitemap": "https://horace-city-nd.mynewbrand.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Hunter",
+                    "cityDomain": "https://hunter-city-nd.mynewbrand.com",
+                    "citySitemap": "https://hunter-city-nd.mynewbrand.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Kindred",
+                    "cityDomain": "https://kindred-city-nd.mynewbrand.com",
+                    "citySitemap": "https://kindred-city-nd.mynewbrand.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Leonard",
+                    "cityDomain": "https://leonard-city-nd.mynewbrand.com",
+                    "citySitemap": "https://leonard-city-nd.mynewbrand.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Mapleton",
+                    "cityDomain": "https://mapleton-city-nd.mynewbrand.com",
+                    "citySitemap": "https://mapleton-city-nd.mynewbrand.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Page",
+                    "cityDomain": "https://page-city-nd.mynewbrand.com",
+                    "citySitemap": "https://page-city-nd.mynewbrand.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Tower City",
+                    "cityDomain": "https://tower-city-city-nd.mynewbrand.com",
+                    "citySitemap": "https://tower-city-city-nd.mynewbrand.com/sitemap.xml"
+                },
+                {
+                    "cityName": "West Fargo",
+                    "cityDomain": "https://west-fargo-city-nd.mynewbrand.com",
+                    "citySitemap": "https://west-fargo-city-nd.mynewbrand.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Wheatland",
+                    "cityDomain": "https://wheatland-city-nd.mynewbrand.com",
+                    "citySitemap": "https://wheatland-city-nd.mynewbrand.com/sitemap.xml"
+                }
+            ],
+            "Timezone": {
+                "Name": "Central",
+                "Zone": "US/Central",
+                "UTC_Offset": "-06:00"
+            },
+            "countyDomain": "https://cass-county-nd.mynewbrand.com",
+            "countySitemap": "https://cass-county-nd.mynewbrand.com/sitemap.xml",
+            "embeddedSitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\\n  <sitemap>\\n    <loc>https://cass-county-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://absaraka-city-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://amenia-city-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://argusville-city-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://arthur-city-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://ayr-city-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://buffalo-city-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://casselton-city-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://davenport-city-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://erie-city-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://fargo-city-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://gardner-city-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://grandin-city-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://harwood-city-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://horace-city-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://hunter-city-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://kindred-city-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://leonard-city-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://mapleton-city-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://page-city-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://tower-city-city-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://west-fargo-city-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://wheatland-city-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n</sitemapindex>"
+        },
+        {
+            "countyName": "Cavalier",
+            "cities": [
+                {
+                    "cityName": "Alsen",
+                    "cityDomain": "https://alsen-city-nd.mynewbrand.com",
+                    "citySitemap": "https://alsen-city-nd.mynewbrand.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Calvin",
+                    "cityDomain": "https://calvin-city-nd.mynewbrand.com",
+                    "citySitemap": "https://calvin-city-nd.mynewbrand.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Hannah",
+                    "cityDomain": "https://hannah-city-nd.mynewbrand.com",
+                    "citySitemap": "https://hannah-city-nd.mynewbrand.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Langdon",
+                    "cityDomain": "https://langdon-city-nd.mynewbrand.com",
+                    "citySitemap": "https://langdon-city-nd.mynewbrand.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Maida",
+                    "cityDomain": "https://maida-city-nd.mynewbrand.com",
+                    "citySitemap": "https://maida-city-nd.mynewbrand.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Milton",
+                    "cityDomain": "https://milton-city-nd.mynewbrand.com",
+                    "citySitemap": "https://milton-city-nd.mynewbrand.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Munich",
+                    "cityDomain": "https://munich-city-nd.mynewbrand.com",
+                    "citySitemap": "https://munich-city-nd.mynewbrand.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Nekoma",
+                    "cityDomain": "https://nekoma-city-nd.mynewbrand.com",
+                    "citySitemap": "https://nekoma-city-nd.mynewbrand.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Osnabrock",
+                    "cityDomain": "https://osnabrock-city-nd.mynewbrand.com",
+                    "citySitemap": "https://osnabrock-city-nd.mynewbrand.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Sarles",
+                    "cityDomain": "https://sarles-city-nd.mynewbrand.com",
+                    "citySitemap": "https://sarles-city-nd.mynewbrand.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Wales",
+                    "cityDomain": "https://wales-city-nd.mynewbrand.com",
+                    "citySitemap": "https://wales-city-nd.mynewbrand.com/sitemap.xml"
+                }
+            ],
+            "Timezone": {
+                "Name": "Central",
+                "Zone": "US/Central",
+                "UTC_Offset": "-06:00"
+            },
+            "countyDomain": "https://cavalier-county-nd.mynewbrand.com",
+            "countySitemap": "https://cavalier-county-nd.mynewbrand.com/sitemap.xml",
+            "embeddedSitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\\n  <sitemap>\\n    <loc>https://cavalier-county-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://alsen-city-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://calvin-city-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://hannah-city-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://langdon-city-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://maida-city-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://milton-city-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://munich-city-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://nekoma-city-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://osnabrock-city-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://sarles-city-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://wales-city-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n</sitemapindex>"
+        },
+        {
+            "countyName": "Dickey",
+            "cities": [
+                {
+                    "cityName": "Ellendale",
+                    "cityDomain": "https://ellendale-city-nd.mynewbrand.com",
+                    "citySitemap": "https://ellendale-city-nd.mynewbrand.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Forbes",
+                    "cityDomain": "https://forbes-city-nd.mynewbrand.com",
+                    "citySitemap": "https://forbes-city-nd.mynewbrand.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Fullerton",
+                    "cityDomain": "https://fullerton-city-nd.mynewbrand.com",
+                    "citySitemap": "https://fullerton-city-nd.mynewbrand.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Oakes",
+                    "cityDomain": "https://oakes-city-nd.mynewbrand.com",
+                    "citySitemap": "https://oakes-city-nd.mynewbrand.com/sitemap.xml"
+                }
+            ],
+            "Timezone": {
+                "Name": "Central",
+                "Zone": "US/Central",
+                "UTC_Offset": "-06:00"
+            },
+            "countyDomain": "https://dickey-county-nd.mynewbrand.com",
+            "countySitemap": "https://dickey-county-nd.mynewbrand.com/sitemap.xml",
+            "embeddedSitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\\n  <sitemap>\\n    <loc>https://dickey-county-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://ellendale-city-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://forbes-city-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://fullerton-city-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://oakes-city-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n</sitemapindex>"
+        },
+        {
+            "countyName": "Divide",
+            "cities": [
+                {
+                    "cityName": "Ambrose",
+                    "cityDomain": "https://ambrose-city-nd.mynewbrand.com",
+                    "citySitemap": "https://ambrose-city-nd.mynewbrand.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Crosby",
+                    "cityDomain": "https://crosby-city-nd.mynewbrand.com",
+                    "citySitemap": "https://crosby-city-nd.mynewbrand.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Fortuna",
+                    "cityDomain": "https://fortuna-city-nd.mynewbrand.com",
+                    "citySitemap": "https://fortuna-city-nd.mynewbrand.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Noonan",
+                    "cityDomain": "https://noonan-city-nd.mynewbrand.com",
+                    "citySitemap": "https://noonan-city-nd.mynewbrand.com/sitemap.xml"
+                }
+            ],
+            "Timezone": {
+                "Name": "Central",
+                "Zone": "US/Central",
+                "UTC_Offset": "-06:00"
+            },
+            "countyDomain": "https://divide-county-nd.mynewbrand.com",
+            "countySitemap": "https://divide-county-nd.mynewbrand.com/sitemap.xml",
+            "embeddedSitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\\n  <sitemap>\\n    <loc>https://divide-county-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://ambrose-city-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://crosby-city-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://fortuna-city-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://noonan-city-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n</sitemapindex>"
+        },
+        {
+            "countyName": "Dunn",
+            "cities": [
+                {
+                    "cityName": "Dodge",
+                    "cityDomain": "https://dodge-city-nd.mynewbrand.com",
+                    "citySitemap": "https://dodge-city-nd.mynewbrand.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Dunn Center",
+                    "cityDomain": "https://dunn-center-city-nd.mynewbrand.com",
+                    "citySitemap": "https://dunn-center-city-nd.mynewbrand.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Halliday",
+                    "cityDomain": "https://halliday-city-nd.mynewbrand.com",
+                    "citySitemap": "https://halliday-city-nd.mynewbrand.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Killdeer",
+                    "cityDomain": "https://killdeer-city-nd.mynewbrand.com",
+                    "citySitemap": "https://killdeer-city-nd.mynewbrand.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Manning",
+                    "cityDomain": "https://manning-city-nd.mynewbrand.com",
+                    "citySitemap": "https://manning-city-nd.mynewbrand.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Marshall",
+                    "cityDomain": "https://marshall-city-nd.mynewbrand.com",
+                    "citySitemap": "https://marshall-city-nd.mynewbrand.com/sitemap.xml"
+                }
+            ],
+            "Timezone": {
+                "Name": "Central",
+                "Zone": "US/Central",
+                "UTC_Offset": "-06:00"
+            },
+            "countyDomain": "https://dunn-county-nd.mynewbrand.com",
+            "countySitemap": "https://dunn-county-nd.mynewbrand.com/sitemap.xml",
+            "embeddedSitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\\n  <sitemap>\\n    <loc>https://dunn-county-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://dodge-city-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://dunn-center-city-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://halliday-city-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://killdeer-city-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://manning-city-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://marshall-city-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n</sitemapindex>"
+        },
+        {
+            "countyName": "Eddy",
+            "cities": [
+                {
+                    "cityName": "New Rockford",
+                    "cityDomain": "https://new-rockford-city-nd.mynewbrand.com",
+                    "citySitemap": "https://new-rockford-city-nd.mynewbrand.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Sheyenne",
+                    "cityDomain": "https://sheyenne-city-nd.mynewbrand.com",
+                    "citySitemap": "https://sheyenne-city-nd.mynewbrand.com/sitemap.xml"
+                }
+            ],
+            "Timezone": {
+                "Name": "Central",
+                "Zone": "US/Central",
+                "UTC_Offset": "-06:00"
+            },
+            "countyDomain": "https://eddy-county-nd.mynewbrand.com",
+            "countySitemap": "https://eddy-county-nd.mynewbrand.com/sitemap.xml",
+            "embeddedSitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\\n  <sitemap>\\n    <loc>https://eddy-county-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://new-rockford-city-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://sheyenne-city-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n</sitemapindex>"
+        },
+        {
+            "countyName": "Emmons",
+            "cities": [
+                {
+                    "cityName": "Braddock",
+                    "cityDomain": "https://braddock-city-nd.mynewbrand.com",
+                    "citySitemap": "https://braddock-city-nd.mynewbrand.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Hague",
+                    "cityDomain": "https://hague-city-nd.mynewbrand.com",
+                    "citySitemap": "https://hague-city-nd.mynewbrand.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Hazelton",
+                    "cityDomain": "https://hazelton-city-nd.mynewbrand.com",
+                    "citySitemap": "https://hazelton-city-nd.mynewbrand.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Kintyre",
+                    "cityDomain": "https://kintyre-city-nd.mynewbrand.com",
+                    "citySitemap": "https://kintyre-city-nd.mynewbrand.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Linton",
+                    "cityDomain": "https://linton-city-nd.mynewbrand.com",
+                    "citySitemap": "https://linton-city-nd.mynewbrand.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Strasburg",
+                    "cityDomain": "https://strasburg-city-nd.mynewbrand.com",
+                    "citySitemap": "https://strasburg-city-nd.mynewbrand.com/sitemap.xml"
+                }
+            ],
+            "Timezone": {
+                "Name": "Central",
+                "Zone": "US/Central",
+                "UTC_Offset": "-06:00"
+            },
+            "countyDomain": "https://emmons-county-nd.mynewbrand.com",
+            "countySitemap": "https://emmons-county-nd.mynewbrand.com/sitemap.xml",
+            "embeddedSitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\\n  <sitemap>\\n    <loc>https://emmons-county-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://braddock-city-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://hague-city-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://hazelton-city-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://kintyre-city-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://linton-city-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://strasburg-city-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n</sitemapindex>"
+        },
+        {
+            "countyName": "Foster",
+            "cities": [
+                {
+                    "cityName": "Carrington",
+                    "cityDomain": "https://carrington-city-nd.mynewbrand.com",
+                    "citySitemap": "https://carrington-city-nd.mynewbrand.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Glenfield",
+                    "cityDomain": "https://glenfield-city-nd.mynewbrand.com",
+                    "citySitemap": "https://glenfield-city-nd.mynewbrand.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Grace City",
+                    "cityDomain": "https://grace-city-city-nd.mynewbrand.com",
+                    "citySitemap": "https://grace-city-city-nd.mynewbrand.com/sitemap.xml"
+                },
+                {
+                    "cityName": "McHenry",
+                    "cityDomain": "https://mchenry-city-nd.mynewbrand.com",
+                    "citySitemap": "https://mchenry-city-nd.mynewbrand.com/sitemap.xml"
+                }
+            ],
+            "Timezone": {
+                "Name": "Central",
+                "Zone": "US/Central",
+                "UTC_Offset": "-06:00"
+            },
+            "countyDomain": "https://foster-county-nd.mynewbrand.com",
+            "countySitemap": "https://foster-county-nd.mynewbrand.com/sitemap.xml",
+            "embeddedSitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\\n  <sitemap>\\n    <loc>https://foster-county-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://carrington-city-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://glenfield-city-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://grace-city-city-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://mchenry-city-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n</sitemapindex>"
+        },
+        {
+            "countyName": "Golden Valley",
+            "cities": [
+                {
+                    "cityName": "Beach",
+                    "cityDomain": "https://beach-city-nd.mynewbrand.com",
+                    "citySitemap": "https://beach-city-nd.mynewbrand.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Golva",
+                    "cityDomain": "https://golva-city-nd.mynewbrand.com",
+                    "citySitemap": "https://golva-city-nd.mynewbrand.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Sentinel Butte",
+                    "cityDomain": "https://sentinel-butte-city-nd.mynewbrand.com",
+                    "citySitemap": "https://sentinel-butte-city-nd.mynewbrand.com/sitemap.xml"
+                }
+            ],
+            "Timezone": {
+                "Name": "Central",
+                "Zone": "US/Central",
+                "UTC_Offset": "-06:00"
+            },
+            "countyDomain": "https://golden-valley-county-nd.mynewbrand.com",
+            "countySitemap": "https://golden-valley-county-nd.mynewbrand.com/sitemap.xml",
+            "embeddedSitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\\n  <sitemap>\\n    <loc>https://golden-valley-county-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://beach-city-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://golva-city-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://sentinel-butte-city-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n</sitemapindex>"
+        },
+        {
+            "countyName": "Grand Forks",
+            "cities": [
+                {
+                    "cityName": "Arvilla",
+                    "cityDomain": "https://arvilla-city-nd.mynewbrand.com",
+                    "citySitemap": "https://arvilla-city-nd.mynewbrand.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Emerado",
+                    "cityDomain": "https://emerado-city-nd.mynewbrand.com",
+                    "citySitemap": "https://emerado-city-nd.mynewbrand.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Gfafb",
+                    "cityDomain": "https://gfafb-city-nd.mynewbrand.com",
+                    "citySitemap": "https://gfafb-city-nd.mynewbrand.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Gilby",
+                    "cityDomain": "https://gilby-city-nd.mynewbrand.com",
+                    "citySitemap": "https://gilby-city-nd.mynewbrand.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Grand Forks",
+                    "cityDomain": "https://grand-forks-city-nd.mynewbrand.com",
+                    "citySitemap": "https://grand-forks-city-nd.mynewbrand.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Grand Forks Afb",
+                    "cityDomain": "https://grand-forks-afb-city-nd.mynewbrand.com",
+                    "citySitemap": "https://grand-forks-afb-city-nd.mynewbrand.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Inkster",
+                    "cityDomain": "https://inkster-city-nd.mynewbrand.com",
+                    "citySitemap": "https://inkster-city-nd.mynewbrand.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Larimore",
+                    "cityDomain": "https://larimore-city-nd.mynewbrand.com",
+                    "citySitemap": "https://larimore-city-nd.mynewbrand.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Manvel",
+                    "cityDomain": "https://manvel-city-nd.mynewbrand.com",
+                    "citySitemap": "https://manvel-city-nd.mynewbrand.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Mekinock",
+                    "cityDomain": "https://mekinock-city-nd.mynewbrand.com",
+                    "citySitemap": "https://mekinock-city-nd.mynewbrand.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Niagara",
+                    "cityDomain": "https://niagara-city-nd.mynewbrand.com",
+                    "citySitemap": "https://niagara-city-nd.mynewbrand.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Northwood",
+                    "cityDomain": "https://northwood-city-nd.mynewbrand.com",
+                    "citySitemap": "https://northwood-city-nd.mynewbrand.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Reynolds",
+                    "cityDomain": "https://reynolds-city-nd.mynewbrand.com",
+                    "citySitemap": "https://reynolds-city-nd.mynewbrand.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Thompson",
+                    "cityDomain": "https://thompson-city-nd.mynewbrand.com",
+                    "citySitemap": "https://thompson-city-nd.mynewbrand.com/sitemap.xml"
+                }
+            ],
+            "Timezone": {
+                "Name": "Central",
+                "Zone": "US/Central",
+                "UTC_Offset": "-06:00"
+            },
+            "countyDomain": "https://grand-forks-county-nd.mynewbrand.com",
+            "countySitemap": "https://grand-forks-county-nd.mynewbrand.com/sitemap.xml",
+            "embeddedSitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\\n  <sitemap>\\n    <loc>https://grand-forks-county-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://arvilla-city-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://emerado-city-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://gfafb-city-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://gilby-city-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://grand-forks-city-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://grand-forks-afb-city-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://inkster-city-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://larimore-city-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://manvel-city-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://mekinock-city-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://niagara-city-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://northwood-city-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://reynolds-city-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://thompson-city-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n</sitemapindex>"
+        },
+        {
+            "countyName": "Grant",
+            "cities": [
+                {
+                    "cityName": "Carson",
+                    "cityDomain": "https://carson-city-nd.mynewbrand.com",
+                    "citySitemap": "https://carson-city-nd.mynewbrand.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Elgin",
+                    "cityDomain": "https://elgin-city-nd.mynewbrand.com",
+                    "citySitemap": "https://elgin-city-nd.mynewbrand.com/sitemap.xml"
+                },
+                {
+                    "cityName": "New Leipzig",
+                    "cityDomain": "https://new-leipzig-city-nd.mynewbrand.com",
+                    "citySitemap": "https://new-leipzig-city-nd.mynewbrand.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Raleigh",
+                    "cityDomain": "https://raleigh-city-nd.mynewbrand.com",
+                    "citySitemap": "https://raleigh-city-nd.mynewbrand.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Shields",
+                    "cityDomain": "https://shields-city-nd.mynewbrand.com",
+                    "citySitemap": "https://shields-city-nd.mynewbrand.com/sitemap.xml"
+                }
+            ],
+            "Timezone": {
+                "Name": "Central",
+                "Zone": "US/Central",
+                "UTC_Offset": "-06:00"
+            },
+            "countyDomain": "https://grant-county-nd.mynewbrand.com",
+            "countySitemap": "https://grant-county-nd.mynewbrand.com/sitemap.xml",
+            "embeddedSitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\\n  <sitemap>\\n    <loc>https://grant-county-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://carson-city-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://elgin-city-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://new-leipzig-city-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://raleigh-city-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://shields-city-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n</sitemapindex>"
+        },
+        {
+            "countyName": "Griggs",
+            "cities": [
+                {
+                    "cityName": "Binford",
+                    "cityDomain": "https://binford-city-nd.mynewbrand.com",
+                    "citySitemap": "https://binford-city-nd.mynewbrand.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Cooperstown",
+                    "cityDomain": "https://cooperstown-city-nd.mynewbrand.com",
+                    "citySitemap": "https://cooperstown-city-nd.mynewbrand.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Hannaford",
+                    "cityDomain": "https://hannaford-city-nd.mynewbrand.com",
+                    "citySitemap": "https://hannaford-city-nd.mynewbrand.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Jessie",
+                    "cityDomain": "https://jessie-city-nd.mynewbrand.com",
+                    "citySitemap": "https://jessie-city-nd.mynewbrand.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Sutton",
+                    "cityDomain": "https://sutton-city-nd.mynewbrand.com",
+                    "citySitemap": "https://sutton-city-nd.mynewbrand.com/sitemap.xml"
+                }
+            ],
+            "Timezone": {
+                "Name": "Central",
+                "Zone": "US/Central",
+                "UTC_Offset": "-06:00"
+            },
+            "countyDomain": "https://griggs-county-nd.mynewbrand.com",
+            "countySitemap": "https://griggs-county-nd.mynewbrand.com/sitemap.xml",
+            "embeddedSitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\\n  <sitemap>\\n    <loc>https://griggs-county-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://binford-city-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://cooperstown-city-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://hannaford-city-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://jessie-city-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://sutton-city-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n</sitemapindex>"
+        },
+        {
+            "countyName": "Hettinger",
+            "cities": [
+                {
+                    "cityName": "Mott",
+                    "cityDomain": "https://mott-city-nd.mynewbrand.com",
+                    "citySitemap": "https://mott-city-nd.mynewbrand.com/sitemap.xml"
+                },
+                {
+                    "cityName": "New England",
+                    "cityDomain": "https://new-england-city-nd.mynewbrand.com",
+                    "citySitemap": "https://new-england-city-nd.mynewbrand.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Regent",
+                    "cityDomain": "https://regent-city-nd.mynewbrand.com",
+                    "citySitemap": "https://regent-city-nd.mynewbrand.com/sitemap.xml"
+                }
+            ],
+            "Timezone": {
+                "Name": "Central",
+                "Zone": "US/Central",
+                "UTC_Offset": "-06:00"
+            },
+            "countyDomain": "https://hettinger-county-nd.mynewbrand.com",
+            "countySitemap": "https://hettinger-county-nd.mynewbrand.com/sitemap.xml",
+            "embeddedSitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\\n  <sitemap>\\n    <loc>https://hettinger-county-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://mott-city-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://new-england-city-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://regent-city-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n</sitemapindex>"
+        },
+        {
+            "countyName": "Kidder",
+            "cities": [
+                {
+                    "cityName": "Dawson",
+                    "cityDomain": "https://dawson-city-nd.mynewbrand.com",
+                    "citySitemap": "https://dawson-city-nd.mynewbrand.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Pettibone",
+                    "cityDomain": "https://pettibone-city-nd.mynewbrand.com",
+                    "citySitemap": "https://pettibone-city-nd.mynewbrand.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Robinson",
+                    "cityDomain": "https://robinson-city-nd.mynewbrand.com",
+                    "citySitemap": "https://robinson-city-nd.mynewbrand.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Steele",
+                    "cityDomain": "https://steele-city-nd.mynewbrand.com",
+                    "citySitemap": "https://steele-city-nd.mynewbrand.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Tappen",
+                    "cityDomain": "https://tappen-city-nd.mynewbrand.com",
+                    "citySitemap": "https://tappen-city-nd.mynewbrand.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Tuttle",
+                    "cityDomain": "https://tuttle-city-nd.mynewbrand.com",
+                    "citySitemap": "https://tuttle-city-nd.mynewbrand.com/sitemap.xml"
+                }
+            ],
+            "Timezone": {
+                "Name": "Central",
+                "Zone": "US/Central",
+                "UTC_Offset": "-06:00"
+            },
+            "countyDomain": "https://kidder-county-nd.mynewbrand.com",
+            "countySitemap": "https://kidder-county-nd.mynewbrand.com/sitemap.xml",
+            "embeddedSitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\\n  <sitemap>\\n    <loc>https://kidder-county-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://dawson-city-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://pettibone-city-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://robinson-city-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://steele-city-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://tappen-city-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://tuttle-city-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n</sitemapindex>"
+        },
+        {
+            "countyName": "Lamoure",
+            "cities": [
+                {
+                    "cityName": "Berlin",
+                    "cityDomain": "https://berlin-city-nd.mynewbrand.com",
+                    "citySitemap": "https://berlin-city-nd.mynewbrand.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Dickey",
+                    "cityDomain": "https://dickey-city-nd.mynewbrand.com",
+                    "citySitemap": "https://dickey-city-nd.mynewbrand.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Edgeley",
+                    "cityDomain": "https://edgeley-city-nd.mynewbrand.com",
+                    "citySitemap": "https://edgeley-city-nd.mynewbrand.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Jud",
+                    "cityDomain": "https://jud-city-nd.mynewbrand.com",
+                    "citySitemap": "https://jud-city-nd.mynewbrand.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Kulm",
+                    "cityDomain": "https://kulm-city-nd.mynewbrand.com",
+                    "citySitemap": "https://kulm-city-nd.mynewbrand.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Lamoure",
+                    "cityDomain": "https://lamoure-city-nd.mynewbrand.com",
+                    "citySitemap": "https://lamoure-city-nd.mynewbrand.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Marion",
+                    "cityDomain": "https://marion-city-nd.mynewbrand.com",
+                    "citySitemap": "https://marion-city-nd.mynewbrand.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Verona",
+                    "cityDomain": "https://verona-city-nd.mynewbrand.com",
+                    "citySitemap": "https://verona-city-nd.mynewbrand.com/sitemap.xml"
+                }
+            ],
+            "Timezone": {
+                "Name": "Central",
+                "Zone": "US/Central",
+                "UTC_Offset": "-06:00"
+            },
+            "countyDomain": "https://lamoure-county-nd.mynewbrand.com",
+            "countySitemap": "https://lamoure-county-nd.mynewbrand.com/sitemap.xml",
+            "embeddedSitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\\n  <sitemap>\\n    <loc>https://lamoure-county-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://berlin-city-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://dickey-city-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://edgeley-city-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://jud-city-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://kulm-city-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://lamoure-city-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://marion-city-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://verona-city-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n</sitemapindex>"
+        },
+        {
+            "countyName": "Logan",
+            "cities": [
+                {
+                    "cityName": "Fredonia",
+                    "cityDomain": "https://fredonia-city-nd.mynewbrand.com",
+                    "citySitemap": "https://fredonia-city-nd.mynewbrand.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Gackle",
+                    "cityDomain": "https://gackle-city-nd.mynewbrand.com",
+                    "citySitemap": "https://gackle-city-nd.mynewbrand.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Napoleon",
+                    "cityDomain": "https://napoleon-city-nd.mynewbrand.com",
+                    "citySitemap": "https://napoleon-city-nd.mynewbrand.com/sitemap.xml"
+                }
+            ],
+            "Timezone": {
+                "Name": "Central",
+                "Zone": "US/Central",
+                "UTC_Offset": "-06:00"
+            },
+            "countyDomain": "https://logan-county-nd.mynewbrand.com",
+            "countySitemap": "https://logan-county-nd.mynewbrand.com/sitemap.xml",
+            "embeddedSitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\\n  <sitemap>\\n    <loc>https://logan-county-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://fredonia-city-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://gackle-city-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://napoleon-city-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n</sitemapindex>"
+        },
+        {
+            "countyName": "McHenry",
+            "cities": [
+                {
+                    "cityName": "Anamoose",
+                    "cityDomain": "https://anamoose-city-nd.mynewbrand.com",
+                    "citySitemap": "https://anamoose-city-nd.mynewbrand.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Balfour",
+                    "cityDomain": "https://balfour-city-nd.mynewbrand.com",
+                    "citySitemap": "https://balfour-city-nd.mynewbrand.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Bantry",
+                    "cityDomain": "https://bantry-city-nd.mynewbrand.com",
+                    "citySitemap": "https://bantry-city-nd.mynewbrand.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Deering",
+                    "cityDomain": "https://deering-city-nd.mynewbrand.com",
+                    "citySitemap": "https://deering-city-nd.mynewbrand.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Drake",
+                    "cityDomain": "https://drake-city-nd.mynewbrand.com",
+                    "citySitemap": "https://drake-city-nd.mynewbrand.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Granville",
+                    "cityDomain": "https://granville-city-nd.mynewbrand.com",
+                    "citySitemap": "https://granville-city-nd.mynewbrand.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Karlsruhe",
+                    "cityDomain": "https://karlsruhe-city-nd.mynewbrand.com",
+                    "citySitemap": "https://karlsruhe-city-nd.mynewbrand.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Norwich",
+                    "cityDomain": "https://norwich-city-nd.mynewbrand.com",
+                    "citySitemap": "https://norwich-city-nd.mynewbrand.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Towner",
+                    "cityDomain": "https://towner-city-nd.mynewbrand.com",
+                    "citySitemap": "https://towner-city-nd.mynewbrand.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Upham",
+                    "cityDomain": "https://upham-city-nd.mynewbrand.com",
+                    "citySitemap": "https://upham-city-nd.mynewbrand.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Velva",
+                    "cityDomain": "https://velva-city-nd.mynewbrand.com",
+                    "citySitemap": "https://velva-city-nd.mynewbrand.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Voltaire",
+                    "cityDomain": "https://voltaire-city-nd.mynewbrand.com",
+                    "citySitemap": "https://voltaire-city-nd.mynewbrand.com/sitemap.xml"
+                }
+            ],
+            "Timezone": {
+                "Name": "Central",
+                "Zone": "US/Central",
+                "UTC_Offset": "-06:00"
+            },
+            "countyDomain": "https://mchenry-county-nd.mynewbrand.com",
+            "countySitemap": "https://mchenry-county-nd.mynewbrand.com/sitemap.xml",
+            "embeddedSitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\\n  <sitemap>\\n    <loc>https://mchenry-county-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://anamoose-city-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://balfour-city-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://bantry-city-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://deering-city-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://drake-city-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://granville-city-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://karlsruhe-city-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://norwich-city-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://towner-city-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://upham-city-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://velva-city-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://voltaire-city-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n</sitemapindex>"
+        },
+        {
+            "countyName": "McIntosh",
+            "cities": [
+                {
+                    "cityName": "Ashley",
+                    "cityDomain": "https://ashley-city-nd.mynewbrand.com",
+                    "citySitemap": "https://ashley-city-nd.mynewbrand.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Lehr",
+                    "cityDomain": "https://lehr-city-nd.mynewbrand.com",
+                    "citySitemap": "https://lehr-city-nd.mynewbrand.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Wishek",
+                    "cityDomain": "https://wishek-city-nd.mynewbrand.com",
+                    "citySitemap": "https://wishek-city-nd.mynewbrand.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Zeeland",
+                    "cityDomain": "https://zeeland-city-nd.mynewbrand.com",
+                    "citySitemap": "https://zeeland-city-nd.mynewbrand.com/sitemap.xml"
+                }
+            ],
+            "Timezone": {
+                "Name": "Central",
+                "Zone": "US/Central",
+                "UTC_Offset": "-06:00"
+            },
+            "countyDomain": "https://mcintosh-county-nd.mynewbrand.com",
+            "countySitemap": "https://mcintosh-county-nd.mynewbrand.com/sitemap.xml",
+            "embeddedSitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\\n  <sitemap>\\n    <loc>https://mcintosh-county-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://ashley-city-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://lehr-city-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://wishek-city-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://zeeland-city-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n</sitemapindex>"
+        },
+        {
+            "countyName": "McKenzie",
+            "cities": [
+                {
+                    "cityName": "Alexander",
+                    "cityDomain": "https://alexander-city-nd.mynewbrand.com",
+                    "citySitemap": "https://alexander-city-nd.mynewbrand.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Arnegard",
+                    "cityDomain": "https://arnegard-city-nd.mynewbrand.com",
+                    "citySitemap": "https://arnegard-city-nd.mynewbrand.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Cartwright",
+                    "cityDomain": "https://cartwright-city-nd.mynewbrand.com",
+                    "citySitemap": "https://cartwright-city-nd.mynewbrand.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Grassy Butte",
+                    "cityDomain": "https://grassy-butte-city-nd.mynewbrand.com",
+                    "citySitemap": "https://grassy-butte-city-nd.mynewbrand.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Keene",
+                    "cityDomain": "https://keene-city-nd.mynewbrand.com",
+                    "citySitemap": "https://keene-city-nd.mynewbrand.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Mandaree",
+                    "cityDomain": "https://mandaree-city-nd.mynewbrand.com",
+                    "citySitemap": "https://mandaree-city-nd.mynewbrand.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Watford City",
+                    "cityDomain": "https://watford-city-city-nd.mynewbrand.com",
+                    "citySitemap": "https://watford-city-city-nd.mynewbrand.com/sitemap.xml"
+                }
+            ],
+            "Timezone": {
+                "Name": "Central",
+                "Zone": "US/Central",
+                "UTC_Offset": "-06:00"
+            },
+            "countyDomain": "https://mckenzie-county-nd.mynewbrand.com",
+            "countySitemap": "https://mckenzie-county-nd.mynewbrand.com/sitemap.xml",
+            "embeddedSitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\\n  <sitemap>\\n    <loc>https://mckenzie-county-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://alexander-city-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://arnegard-city-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://cartwright-city-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://grassy-butte-city-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://keene-city-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://mandaree-city-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://watford-city-city-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n</sitemapindex>"
+        },
+        {
+            "countyName": "McLean",
+            "cities": [
+                {
+                    "cityName": "Benedict",
+                    "cityDomain": "https://benedict-city-nd.mynewbrand.com",
+                    "citySitemap": "https://benedict-city-nd.mynewbrand.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Butte",
+                    "cityDomain": "https://butte-city-nd.mynewbrand.com",
+                    "citySitemap": "https://butte-city-nd.mynewbrand.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Coleharbor",
+                    "cityDomain": "https://coleharbor-city-nd.mynewbrand.com",
+                    "citySitemap": "https://coleharbor-city-nd.mynewbrand.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Garrison",
+                    "cityDomain": "https://garrison-city-nd.mynewbrand.com",
+                    "citySitemap": "https://garrison-city-nd.mynewbrand.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Max",
+                    "cityDomain": "https://max-city-nd.mynewbrand.com",
+                    "citySitemap": "https://max-city-nd.mynewbrand.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Mercer",
+                    "cityDomain": "https://mercer-city-nd.mynewbrand.com",
+                    "citySitemap": "https://mercer-city-nd.mynewbrand.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Riverdale",
+                    "cityDomain": "https://riverdale-city-nd.mynewbrand.com",
+                    "citySitemap": "https://riverdale-city-nd.mynewbrand.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Roseglen",
+                    "cityDomain": "https://roseglen-city-nd.mynewbrand.com",
+                    "citySitemap": "https://roseglen-city-nd.mynewbrand.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Ruso",
+                    "cityDomain": "https://ruso-city-nd.mynewbrand.com",
+                    "citySitemap": "https://ruso-city-nd.mynewbrand.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Turtle Lake",
+                    "cityDomain": "https://turtle-lake-city-nd.mynewbrand.com",
+                    "citySitemap": "https://turtle-lake-city-nd.mynewbrand.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Underwood",
+                    "cityDomain": "https://underwood-city-nd.mynewbrand.com",
+                    "citySitemap": "https://underwood-city-nd.mynewbrand.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Washburn",
+                    "cityDomain": "https://washburn-city-nd.mynewbrand.com",
+                    "citySitemap": "https://washburn-city-nd.mynewbrand.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Wilton",
+                    "cityDomain": "https://wilton-city-nd.mynewbrand.com",
+                    "citySitemap": "https://wilton-city-nd.mynewbrand.com/sitemap.xml"
+                }
+            ],
+            "Timezone": {
+                "Name": "Central",
+                "Zone": "US/Central",
+                "UTC_Offset": "-06:00"
+            },
+            "countyDomain": "https://mclean-county-nd.mynewbrand.com",
+            "countySitemap": "https://mclean-county-nd.mynewbrand.com/sitemap.xml",
+            "embeddedSitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\\n  <sitemap>\\n    <loc>https://mclean-county-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://benedict-city-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://butte-city-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://coleharbor-city-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://garrison-city-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://max-city-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://mercer-city-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://riverdale-city-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://roseglen-city-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://ruso-city-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://turtle-lake-city-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://underwood-city-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://washburn-city-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://wilton-city-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n</sitemapindex>"
+        },
+        {
+            "countyName": "Mercer",
+            "cities": [
+                {
+                    "cityName": "Beulah",
+                    "cityDomain": "https://beulah-city-nd.mynewbrand.com",
+                    "citySitemap": "https://beulah-city-nd.mynewbrand.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Golden Valley",
+                    "cityDomain": "https://golden-valley-city-nd.mynewbrand.com",
+                    "citySitemap": "https://golden-valley-city-nd.mynewbrand.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Hazen",
+                    "cityDomain": "https://hazen-city-nd.mynewbrand.com",
+                    "citySitemap": "https://hazen-city-nd.mynewbrand.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Stanton",
+                    "cityDomain": "https://stanton-city-nd.mynewbrand.com",
+                    "citySitemap": "https://stanton-city-nd.mynewbrand.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Zap",
+                    "cityDomain": "https://zap-city-nd.mynewbrand.com",
+                    "citySitemap": "https://zap-city-nd.mynewbrand.com/sitemap.xml"
+                }
+            ],
+            "Timezone": {
+                "Name": "Central",
+                "Zone": "US/Central",
+                "UTC_Offset": "-06:00"
+            },
+            "countyDomain": "https://mercer-county-nd.mynewbrand.com",
+            "countySitemap": "https://mercer-county-nd.mynewbrand.com/sitemap.xml",
+            "embeddedSitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\\n  <sitemap>\\n    <loc>https://mercer-county-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://beulah-city-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://golden-valley-city-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://hazen-city-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://stanton-city-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://zap-city-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n</sitemapindex>"
+        },
+        {
+            "countyName": "Morton",
+            "cities": [
+                {
+                    "cityName": "Almont",
+                    "cityDomain": "https://almont-city-nd.mynewbrand.com",
+                    "citySitemap": "https://almont-city-nd.mynewbrand.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Flasher",
+                    "cityDomain": "https://flasher-city-nd.mynewbrand.com",
+                    "citySitemap": "https://flasher-city-nd.mynewbrand.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Glen Ullin",
+                    "cityDomain": "https://glen-ullin-city-nd.mynewbrand.com",
+                    "citySitemap": "https://glen-ullin-city-nd.mynewbrand.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Hebron",
+                    "cityDomain": "https://hebron-city-nd.mynewbrand.com",
+                    "citySitemap": "https://hebron-city-nd.mynewbrand.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Mandan",
+                    "cityDomain": "https://mandan-city-nd.mynewbrand.com",
+                    "citySitemap": "https://mandan-city-nd.mynewbrand.com/sitemap.xml"
+                },
+                {
+                    "cityName": "New Salem",
+                    "cityDomain": "https://new-salem-city-nd.mynewbrand.com",
+                    "citySitemap": "https://new-salem-city-nd.mynewbrand.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Saint Anthony",
+                    "cityDomain": "https://saint-anthony-city-nd.mynewbrand.com",
+                    "citySitemap": "https://saint-anthony-city-nd.mynewbrand.com/sitemap.xml"
+                }
+            ],
+            "Timezone": {
+                "Name": "Central",
+                "Zone": "US/Central",
+                "UTC_Offset": "-06:00"
+            },
+            "countyDomain": "https://morton-county-nd.mynewbrand.com",
+            "countySitemap": "https://morton-county-nd.mynewbrand.com/sitemap.xml",
+            "embeddedSitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\\n  <sitemap>\\n    <loc>https://morton-county-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://almont-city-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://flasher-city-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://glen-ullin-city-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://hebron-city-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://mandan-city-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://new-salem-city-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://saint-anthony-city-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n</sitemapindex>"
+        },
+        {
+            "countyName": "Mountrail",
+            "cities": [
+                {
+                    "cityName": "New Town",
+                    "cityDomain": "https://new-town-city-nd.mynewbrand.com",
+                    "citySitemap": "https://new-town-city-nd.mynewbrand.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Palermo",
+                    "cityDomain": "https://palermo-city-nd.mynewbrand.com",
+                    "citySitemap": "https://palermo-city-nd.mynewbrand.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Parshall",
+                    "cityDomain": "https://parshall-city-nd.mynewbrand.com",
+                    "citySitemap": "https://parshall-city-nd.mynewbrand.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Plaza",
+                    "cityDomain": "https://plaza-city-nd.mynewbrand.com",
+                    "citySitemap": "https://plaza-city-nd.mynewbrand.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Ross",
+                    "cityDomain": "https://ross-city-nd.mynewbrand.com",
+                    "citySitemap": "https://ross-city-nd.mynewbrand.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Stanley",
+                    "cityDomain": "https://stanley-city-nd.mynewbrand.com",
+                    "citySitemap": "https://stanley-city-nd.mynewbrand.com/sitemap.xml"
+                },
+                {
+                    "cityName": "White Earth",
+                    "cityDomain": "https://white-earth-city-nd.mynewbrand.com",
+                    "citySitemap": "https://white-earth-city-nd.mynewbrand.com/sitemap.xml"
+                }
+            ],
+            "Timezone": {
+                "Name": "Central",
+                "Zone": "US/Central",
+                "UTC_Offset": "-06:00"
+            },
+            "countyDomain": "https://mountrail-county-nd.mynewbrand.com",
+            "countySitemap": "https://mountrail-county-nd.mynewbrand.com/sitemap.xml",
+            "embeddedSitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\\n  <sitemap>\\n    <loc>https://mountrail-county-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://new-town-city-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://palermo-city-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://parshall-city-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://plaza-city-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://ross-city-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://stanley-city-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://white-earth-city-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n</sitemapindex>"
+        },
+        {
+            "countyName": "Nelson",
+            "cities": [
+                {
+                    "cityName": "Aneta",
+                    "cityDomain": "https://aneta-city-nd.mynewbrand.com",
+                    "citySitemap": "https://aneta-city-nd.mynewbrand.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Dahlen",
+                    "cityDomain": "https://dahlen-city-nd.mynewbrand.com",
+                    "citySitemap": "https://dahlen-city-nd.mynewbrand.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Lakota",
+                    "cityDomain": "https://lakota-city-nd.mynewbrand.com",
+                    "citySitemap": "https://lakota-city-nd.mynewbrand.com/sitemap.xml"
+                },
+                {
+                    "cityName": "McVille",
+                    "cityDomain": "https://mcville-city-nd.mynewbrand.com",
+                    "citySitemap": "https://mcville-city-nd.mynewbrand.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Michigan",
+                    "cityDomain": "https://michigan-city-nd.mynewbrand.com",
+                    "citySitemap": "https://michigan-city-nd.mynewbrand.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Pekin",
+                    "cityDomain": "https://pekin-city-nd.mynewbrand.com",
+                    "citySitemap": "https://pekin-city-nd.mynewbrand.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Petersburg",
+                    "cityDomain": "https://petersburg-city-nd.mynewbrand.com",
+                    "citySitemap": "https://petersburg-city-nd.mynewbrand.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Tolna",
+                    "cityDomain": "https://tolna-city-nd.mynewbrand.com",
+                    "citySitemap": "https://tolna-city-nd.mynewbrand.com/sitemap.xml"
+                }
+            ],
+            "Timezone": {
+                "Name": "Central",
+                "Zone": "US/Central",
+                "UTC_Offset": "-06:00"
+            },
+            "countyDomain": "https://nelson-county-nd.mynewbrand.com",
+            "countySitemap": "https://nelson-county-nd.mynewbrand.com/sitemap.xml",
+            "embeddedSitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\\n  <sitemap>\\n    <loc>https://nelson-county-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://aneta-city-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://dahlen-city-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://lakota-city-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://mcville-city-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://michigan-city-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://pekin-city-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://petersburg-city-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://tolna-city-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n</sitemapindex>"
+        },
+        {
+            "countyName": "Oliver",
+            "cities": [
+                {
+                    "cityName": "Center",
+                    "cityDomain": "https://center-city-nd.mynewbrand.com",
+                    "citySitemap": "https://center-city-nd.mynewbrand.com/sitemap.xml"
+                }
+            ],
+            "Timezone": {
+                "Name": "Central",
+                "Zone": "US/Central",
+                "UTC_Offset": "-06:00"
+            },
+            "countyDomain": "https://oliver-county-nd.mynewbrand.com",
+            "countySitemap": "https://oliver-county-nd.mynewbrand.com/sitemap.xml",
+            "embeddedSitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\\n  <sitemap>\\n    <loc>https://oliver-county-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://center-city-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n</sitemapindex>"
+        },
+        {
+            "countyName": "Pembina",
+            "cities": [
+                {
+                    "cityName": "Bathgate",
+                    "cityDomain": "https://bathgate-city-nd.mynewbrand.com",
+                    "citySitemap": "https://bathgate-city-nd.mynewbrand.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Cavalier",
+                    "cityDomain": "https://cavalier-city-nd.mynewbrand.com",
+                    "citySitemap": "https://cavalier-city-nd.mynewbrand.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Crystal",
+                    "cityDomain": "https://crystal-city-nd.mynewbrand.com",
+                    "citySitemap": "https://crystal-city-nd.mynewbrand.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Drayton",
+                    "cityDomain": "https://drayton-city-nd.mynewbrand.com",
+                    "citySitemap": "https://drayton-city-nd.mynewbrand.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Glasston",
+                    "cityDomain": "https://glasston-city-nd.mynewbrand.com",
+                    "citySitemap": "https://glasston-city-nd.mynewbrand.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Hamilton",
+                    "cityDomain": "https://hamilton-city-nd.mynewbrand.com",
+                    "citySitemap": "https://hamilton-city-nd.mynewbrand.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Hensel",
+                    "cityDomain": "https://hensel-city-nd.mynewbrand.com",
+                    "citySitemap": "https://hensel-city-nd.mynewbrand.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Mountain",
+                    "cityDomain": "https://mountain-city-nd.mynewbrand.com",
+                    "citySitemap": "https://mountain-city-nd.mynewbrand.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Neche",
+                    "cityDomain": "https://neche-city-nd.mynewbrand.com",
+                    "citySitemap": "https://neche-city-nd.mynewbrand.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Pembina",
+                    "cityDomain": "https://pembina-city-nd.mynewbrand.com",
+                    "citySitemap": "https://pembina-city-nd.mynewbrand.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Saint Thomas",
+                    "cityDomain": "https://saint-thomas-city-nd.mynewbrand.com",
+                    "citySitemap": "https://saint-thomas-city-nd.mynewbrand.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Walhalla",
+                    "cityDomain": "https://walhalla-city-nd.mynewbrand.com",
+                    "citySitemap": "https://walhalla-city-nd.mynewbrand.com/sitemap.xml"
+                }
+            ],
+            "Timezone": {
+                "Name": "Central",
+                "Zone": "US/Central",
+                "UTC_Offset": "-06:00"
+            },
+            "countyDomain": "https://pembina-county-nd.mynewbrand.com",
+            "countySitemap": "https://pembina-county-nd.mynewbrand.com/sitemap.xml",
+            "embeddedSitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\\n  <sitemap>\\n    <loc>https://pembina-county-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://bathgate-city-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://cavalier-city-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://crystal-city-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://drayton-city-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://glasston-city-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://hamilton-city-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://hensel-city-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://mountain-city-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://neche-city-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://pembina-city-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://saint-thomas-city-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://walhalla-city-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n</sitemapindex>"
+        },
+        {
+            "countyName": "Pierce",
+            "cities": [
+                {
+                    "cityName": "Balta",
+                    "cityDomain": "https://balta-city-nd.mynewbrand.com",
+                    "citySitemap": "https://balta-city-nd.mynewbrand.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Rugby",
+                    "cityDomain": "https://rugby-city-nd.mynewbrand.com",
+                    "citySitemap": "https://rugby-city-nd.mynewbrand.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Wolford",
+                    "cityDomain": "https://wolford-city-nd.mynewbrand.com",
+                    "citySitemap": "https://wolford-city-nd.mynewbrand.com/sitemap.xml"
+                }
+            ],
+            "Timezone": {
+                "Name": "Central",
+                "Zone": "US/Central",
+                "UTC_Offset": "-06:00"
+            },
+            "countyDomain": "https://pierce-county-nd.mynewbrand.com",
+            "countySitemap": "https://pierce-county-nd.mynewbrand.com/sitemap.xml",
+            "embeddedSitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\\n  <sitemap>\\n    <loc>https://pierce-county-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://balta-city-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://rugby-city-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://wolford-city-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n</sitemapindex>"
+        },
+        {
+            "countyName": "Ramsey",
+            "cities": [
+                {
+                    "cityName": "Brocket",
+                    "cityDomain": "https://brocket-city-nd.mynewbrand.com",
+                    "citySitemap": "https://brocket-city-nd.mynewbrand.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Churchs Ferry",
+                    "cityDomain": "https://churchs-ferry-city-nd.mynewbrand.com",
+                    "citySitemap": "https://churchs-ferry-city-nd.mynewbrand.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Crary",
+                    "cityDomain": "https://crary-city-nd.mynewbrand.com",
+                    "citySitemap": "https://crary-city-nd.mynewbrand.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Devils Lake",
+                    "cityDomain": "https://devils-lake-city-nd.mynewbrand.com",
+                    "citySitemap": "https://devils-lake-city-nd.mynewbrand.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Edmore",
+                    "cityDomain": "https://edmore-city-nd.mynewbrand.com",
+                    "citySitemap": "https://edmore-city-nd.mynewbrand.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Hampden",
+                    "cityDomain": "https://hampden-city-nd.mynewbrand.com",
+                    "citySitemap": "https://hampden-city-nd.mynewbrand.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Lawton",
+                    "cityDomain": "https://lawton-city-nd.mynewbrand.com",
+                    "citySitemap": "https://lawton-city-nd.mynewbrand.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Penn",
+                    "cityDomain": "https://penn-city-nd.mynewbrand.com",
+                    "citySitemap": "https://penn-city-nd.mynewbrand.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Starkweather",
+                    "cityDomain": "https://starkweather-city-nd.mynewbrand.com",
+                    "citySitemap": "https://starkweather-city-nd.mynewbrand.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Webster",
+                    "cityDomain": "https://webster-city-nd.mynewbrand.com",
+                    "citySitemap": "https://webster-city-nd.mynewbrand.com/sitemap.xml"
+                }
+            ],
+            "Timezone": {
+                "Name": "Central",
+                "Zone": "US/Central",
+                "UTC_Offset": "-06:00"
+            },
+            "countyDomain": "https://ramsey-county-nd.mynewbrand.com",
+            "countySitemap": "https://ramsey-county-nd.mynewbrand.com/sitemap.xml",
+            "embeddedSitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\\n  <sitemap>\\n    <loc>https://ramsey-county-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://brocket-city-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://churchs-ferry-city-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://crary-city-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://devils-lake-city-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://edmore-city-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://hampden-city-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://lawton-city-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://penn-city-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://starkweather-city-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://webster-city-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n</sitemapindex>"
+        },
+        {
+            "countyName": "Ransom",
+            "cities": [
+                {
+                    "cityName": "Enderlin",
+                    "cityDomain": "https://enderlin-city-nd.mynewbrand.com",
+                    "citySitemap": "https://enderlin-city-nd.mynewbrand.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Fort Ransom",
+                    "cityDomain": "https://fort-ransom-city-nd.mynewbrand.com",
+                    "citySitemap": "https://fort-ransom-city-nd.mynewbrand.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Lisbon",
+                    "cityDomain": "https://lisbon-city-nd.mynewbrand.com",
+                    "citySitemap": "https://lisbon-city-nd.mynewbrand.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Sheldon",
+                    "cityDomain": "https://sheldon-city-nd.mynewbrand.com",
+                    "citySitemap": "https://sheldon-city-nd.mynewbrand.com/sitemap.xml"
+                }
+            ],
+            "Timezone": {
+                "Name": "Central",
+                "Zone": "US/Central",
+                "UTC_Offset": "-06:00"
+            },
+            "countyDomain": "https://ransom-county-nd.mynewbrand.com",
+            "countySitemap": "https://ransom-county-nd.mynewbrand.com/sitemap.xml",
+            "embeddedSitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\\n  <sitemap>\\n    <loc>https://ransom-county-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://enderlin-city-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://fort-ransom-city-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://lisbon-city-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://sheldon-city-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n</sitemapindex>"
+        },
+        {
+            "countyName": "Renville",
+            "cities": [
+                {
+                    "cityName": "Glenburn",
+                    "cityDomain": "https://glenburn-city-nd.mynewbrand.com",
+                    "citySitemap": "https://glenburn-city-nd.mynewbrand.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Mohall",
+                    "cityDomain": "https://mohall-city-nd.mynewbrand.com",
+                    "citySitemap": "https://mohall-city-nd.mynewbrand.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Sherwood",
+                    "cityDomain": "https://sherwood-city-nd.mynewbrand.com",
+                    "citySitemap": "https://sherwood-city-nd.mynewbrand.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Tolley",
+                    "cityDomain": "https://tolley-city-nd.mynewbrand.com",
+                    "citySitemap": "https://tolley-city-nd.mynewbrand.com/sitemap.xml"
+                }
+            ],
+            "Timezone": {
+                "Name": "Central",
+                "Zone": "US/Central",
+                "UTC_Offset": "-06:00"
+            },
+            "countyDomain": "https://renville-county-nd.mynewbrand.com",
+            "countySitemap": "https://renville-county-nd.mynewbrand.com/sitemap.xml",
+            "embeddedSitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\\n  <sitemap>\\n    <loc>https://renville-county-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://glenburn-city-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://mohall-city-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://sherwood-city-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://tolley-city-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n</sitemapindex>"
+        },
+        {
+            "countyName": "Richland",
+            "cities": [
+                {
+                    "cityName": "Abercrombie",
+                    "cityDomain": "https://abercrombie-city-nd.mynewbrand.com",
+                    "citySitemap": "https://abercrombie-city-nd.mynewbrand.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Barney",
+                    "cityDomain": "https://barney-city-nd.mynewbrand.com",
+                    "citySitemap": "https://barney-city-nd.mynewbrand.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Christine",
+                    "cityDomain": "https://christine-city-nd.mynewbrand.com",
+                    "citySitemap": "https://christine-city-nd.mynewbrand.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Colfax",
+                    "cityDomain": "https://colfax-city-nd.mynewbrand.com",
+                    "citySitemap": "https://colfax-city-nd.mynewbrand.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Fairmount",
+                    "cityDomain": "https://fairmount-city-nd.mynewbrand.com",
+                    "citySitemap": "https://fairmount-city-nd.mynewbrand.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Hankinson",
+                    "cityDomain": "https://hankinson-city-nd.mynewbrand.com",
+                    "citySitemap": "https://hankinson-city-nd.mynewbrand.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Lidgerwood",
+                    "cityDomain": "https://lidgerwood-city-nd.mynewbrand.com",
+                    "citySitemap": "https://lidgerwood-city-nd.mynewbrand.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Mantador",
+                    "cityDomain": "https://mantador-city-nd.mynewbrand.com",
+                    "citySitemap": "https://mantador-city-nd.mynewbrand.com/sitemap.xml"
+                },
+                {
+                    "cityName": "McLeod",
+                    "cityDomain": "https://mcleod-city-nd.mynewbrand.com",
+                    "citySitemap": "https://mcleod-city-nd.mynewbrand.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Mooreton",
+                    "cityDomain": "https://mooreton-city-nd.mynewbrand.com",
+                    "citySitemap": "https://mooreton-city-nd.mynewbrand.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Wahpeton",
+                    "cityDomain": "https://wahpeton-city-nd.mynewbrand.com",
+                    "citySitemap": "https://wahpeton-city-nd.mynewbrand.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Walcott",
+                    "cityDomain": "https://walcott-city-nd.mynewbrand.com",
+                    "citySitemap": "https://walcott-city-nd.mynewbrand.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Wyndmere",
+                    "cityDomain": "https://wyndmere-city-nd.mynewbrand.com",
+                    "citySitemap": "https://wyndmere-city-nd.mynewbrand.com/sitemap.xml"
+                }
+            ],
+            "Timezone": {
+                "Name": "Central",
+                "Zone": "US/Central",
+                "UTC_Offset": "-06:00"
+            },
+            "countyDomain": "https://richland-county-nd.mynewbrand.com",
+            "countySitemap": "https://richland-county-nd.mynewbrand.com/sitemap.xml",
+            "embeddedSitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\\n  <sitemap>\\n    <loc>https://richland-county-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://abercrombie-city-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://barney-city-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://christine-city-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://colfax-city-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://fairmount-city-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://hankinson-city-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://lidgerwood-city-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://mantador-city-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://mcleod-city-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://mooreton-city-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://wahpeton-city-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://walcott-city-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://wyndmere-city-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n</sitemapindex>"
+        },
+        {
+            "countyName": "Rolette",
+            "cities": [
+                {
+                    "cityName": "Agate",
+                    "cityDomain": "https://agate-city-nd.mynewbrand.com",
+                    "citySitemap": "https://agate-city-nd.mynewbrand.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Belcourt",
+                    "cityDomain": "https://belcourt-city-nd.mynewbrand.com",
+                    "citySitemap": "https://belcourt-city-nd.mynewbrand.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Dunseith",
+                    "cityDomain": "https://dunseith-city-nd.mynewbrand.com",
+                    "citySitemap": "https://dunseith-city-nd.mynewbrand.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Mylo",
+                    "cityDomain": "https://mylo-city-nd.mynewbrand.com",
+                    "citySitemap": "https://mylo-city-nd.mynewbrand.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Rolette",
+                    "cityDomain": "https://rolette-city-nd.mynewbrand.com",
+                    "citySitemap": "https://rolette-city-nd.mynewbrand.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Rolla",
+                    "cityDomain": "https://rolla-city-nd.mynewbrand.com",
+                    "citySitemap": "https://rolla-city-nd.mynewbrand.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Saint John",
+                    "cityDomain": "https://saint-john-city-nd.mynewbrand.com",
+                    "citySitemap": "https://saint-john-city-nd.mynewbrand.com/sitemap.xml"
+                }
+            ],
+            "Timezone": {
+                "Name": "Central",
+                "Zone": "US/Central",
+                "UTC_Offset": "-06:00"
+            },
+            "countyDomain": "https://rolette-county-nd.mynewbrand.com",
+            "countySitemap": "https://rolette-county-nd.mynewbrand.com/sitemap.xml",
+            "embeddedSitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\\n  <sitemap>\\n    <loc>https://rolette-county-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://agate-city-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://belcourt-city-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://dunseith-city-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://mylo-city-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://rolette-city-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://rolla-city-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://saint-john-city-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n</sitemapindex>"
+        },
+        {
+            "countyName": "Sargent",
+            "cities": [
+                {
+                    "cityName": "Cayuga",
+                    "cityDomain": "https://cayuga-city-nd.mynewbrand.com",
+                    "citySitemap": "https://cayuga-city-nd.mynewbrand.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Cogswell",
+                    "cityDomain": "https://cogswell-city-nd.mynewbrand.com",
+                    "citySitemap": "https://cogswell-city-nd.mynewbrand.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Forman",
+                    "cityDomain": "https://forman-city-nd.mynewbrand.com",
+                    "citySitemap": "https://forman-city-nd.mynewbrand.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Gwinner",
+                    "cityDomain": "https://gwinner-city-nd.mynewbrand.com",
+                    "citySitemap": "https://gwinner-city-nd.mynewbrand.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Havana",
+                    "cityDomain": "https://havana-city-nd.mynewbrand.com",
+                    "citySitemap": "https://havana-city-nd.mynewbrand.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Milnor",
+                    "cityDomain": "https://milnor-city-nd.mynewbrand.com",
+                    "citySitemap": "https://milnor-city-nd.mynewbrand.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Rutland",
+                    "cityDomain": "https://rutland-city-nd.mynewbrand.com",
+                    "citySitemap": "https://rutland-city-nd.mynewbrand.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Stirum",
+                    "cityDomain": "https://stirum-city-nd.mynewbrand.com",
+                    "citySitemap": "https://stirum-city-nd.mynewbrand.com/sitemap.xml"
+                }
+            ],
+            "Timezone": {
+                "Name": "Central",
+                "Zone": "US/Central",
+                "UTC_Offset": "-06:00"
+            },
+            "countyDomain": "https://sargent-county-nd.mynewbrand.com",
+            "countySitemap": "https://sargent-county-nd.mynewbrand.com/sitemap.xml",
+            "embeddedSitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\\n  <sitemap>\\n    <loc>https://sargent-county-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://cayuga-city-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://cogswell-city-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://forman-city-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://gwinner-city-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://havana-city-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://milnor-city-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://rutland-city-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://stirum-city-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n</sitemapindex>"
+        },
+        {
+            "countyName": "Sheridan",
+            "cities": [
+                {
+                    "cityName": "Denhoff",
+                    "cityDomain": "https://denhoff-city-nd.mynewbrand.com",
+                    "citySitemap": "https://denhoff-city-nd.mynewbrand.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Goodrich",
+                    "cityDomain": "https://goodrich-city-nd.mynewbrand.com",
+                    "citySitemap": "https://goodrich-city-nd.mynewbrand.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Martin",
+                    "cityDomain": "https://martin-city-nd.mynewbrand.com",
+                    "citySitemap": "https://martin-city-nd.mynewbrand.com/sitemap.xml"
+                },
+                {
+                    "cityName": "McClusky",
+                    "cityDomain": "https://mcclusky-city-nd.mynewbrand.com",
+                    "citySitemap": "https://mcclusky-city-nd.mynewbrand.com/sitemap.xml"
+                }
+            ],
+            "Timezone": {
+                "Name": "Central",
+                "Zone": "US/Central",
+                "UTC_Offset": "-06:00"
+            },
+            "countyDomain": "https://sheridan-county-nd.mynewbrand.com",
+            "countySitemap": "https://sheridan-county-nd.mynewbrand.com/sitemap.xml",
+            "embeddedSitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\\n  <sitemap>\\n    <loc>https://sheridan-county-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://denhoff-city-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://goodrich-city-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://martin-city-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://mcclusky-city-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n</sitemapindex>"
+        },
+        {
+            "countyName": "Sioux",
+            "cities": [
+                {
+                    "cityName": "Cannon Ball",
+                    "cityDomain": "https://cannon-ball-city-nd.mynewbrand.com",
+                    "citySitemap": "https://cannon-ball-city-nd.mynewbrand.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Fort Yates",
+                    "cityDomain": "https://fort-yates-city-nd.mynewbrand.com",
+                    "citySitemap": "https://fort-yates-city-nd.mynewbrand.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Selfridge",
+                    "cityDomain": "https://selfridge-city-nd.mynewbrand.com",
+                    "citySitemap": "https://selfridge-city-nd.mynewbrand.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Solen",
+                    "cityDomain": "https://solen-city-nd.mynewbrand.com",
+                    "citySitemap": "https://solen-city-nd.mynewbrand.com/sitemap.xml"
+                }
+            ],
+            "Timezone": {
+                "Name": "Central",
+                "Zone": "US/Central",
+                "UTC_Offset": "-06:00"
+            },
+            "countyDomain": "https://sioux-county-nd.mynewbrand.com",
+            "countySitemap": "https://sioux-county-nd.mynewbrand.com/sitemap.xml",
+            "embeddedSitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\\n  <sitemap>\\n    <loc>https://sioux-county-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://cannon-ball-city-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://fort-yates-city-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://selfridge-city-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://solen-city-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n</sitemapindex>"
+        },
+        {
+            "countyName": "Slope",
+            "cities": [
+                {
+                    "cityName": "Amidon",
+                    "cityDomain": "https://amidon-city-nd.mynewbrand.com",
+                    "citySitemap": "https://amidon-city-nd.mynewbrand.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Marmarth",
+                    "cityDomain": "https://marmarth-city-nd.mynewbrand.com",
+                    "citySitemap": "https://marmarth-city-nd.mynewbrand.com/sitemap.xml"
+                }
+            ],
+            "Timezone": {
+                "Name": "Central",
+                "Zone": "US/Central",
+                "UTC_Offset": "-06:00"
+            },
+            "countyDomain": "https://slope-county-nd.mynewbrand.com",
+            "countySitemap": "https://slope-county-nd.mynewbrand.com/sitemap.xml",
+            "embeddedSitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\\n  <sitemap>\\n    <loc>https://slope-county-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://amidon-city-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://marmarth-city-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n</sitemapindex>"
+        },
+        {
+            "countyName": "Stark",
+            "cities": [
+                {
+                    "cityName": "Belfield",
+                    "cityDomain": "https://belfield-city-nd.mynewbrand.com",
+                    "citySitemap": "https://belfield-city-nd.mynewbrand.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Dickinson",
+                    "cityDomain": "https://dickinson-city-nd.mynewbrand.com",
+                    "citySitemap": "https://dickinson-city-nd.mynewbrand.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Gladstone",
+                    "cityDomain": "https://gladstone-city-nd.mynewbrand.com",
+                    "citySitemap": "https://gladstone-city-nd.mynewbrand.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Lefor",
+                    "cityDomain": "https://lefor-city-nd.mynewbrand.com",
+                    "citySitemap": "https://lefor-city-nd.mynewbrand.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Richardton",
+                    "cityDomain": "https://richardton-city-nd.mynewbrand.com",
+                    "citySitemap": "https://richardton-city-nd.mynewbrand.com/sitemap.xml"
+                },
+                {
+                    "cityName": "South Heart",
+                    "cityDomain": "https://south-heart-city-nd.mynewbrand.com",
+                    "citySitemap": "https://south-heart-city-nd.mynewbrand.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Taylor",
+                    "cityDomain": "https://taylor-city-nd.mynewbrand.com",
+                    "citySitemap": "https://taylor-city-nd.mynewbrand.com/sitemap.xml"
+                }
+            ],
+            "Timezone": {
+                "Name": "Central",
+                "Zone": "US/Central",
+                "UTC_Offset": "-06:00"
+            },
+            "countyDomain": "https://stark-county-nd.mynewbrand.com",
+            "countySitemap": "https://stark-county-nd.mynewbrand.com/sitemap.xml",
+            "embeddedSitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\\n  <sitemap>\\n    <loc>https://stark-county-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://belfield-city-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://dickinson-city-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://gladstone-city-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://lefor-city-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://richardton-city-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://south-heart-city-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://taylor-city-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n</sitemapindex>"
+        },
+        {
+            "countyName": "Steele",
+            "cities": [
+                {
+                    "cityName": "Finley",
+                    "cityDomain": "https://finley-city-nd.mynewbrand.com",
+                    "citySitemap": "https://finley-city-nd.mynewbrand.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Hope",
+                    "cityDomain": "https://hope-city-nd.mynewbrand.com",
+                    "citySitemap": "https://hope-city-nd.mynewbrand.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Luverne",
+                    "cityDomain": "https://luverne-city-nd.mynewbrand.com",
+                    "citySitemap": "https://luverne-city-nd.mynewbrand.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Sharon",
+                    "cityDomain": "https://sharon-city-nd.mynewbrand.com",
+                    "citySitemap": "https://sharon-city-nd.mynewbrand.com/sitemap.xml"
+                }
+            ],
+            "Timezone": {
+                "Name": "Central",
+                "Zone": "US/Central",
+                "UTC_Offset": "-06:00"
+            },
+            "countyDomain": "https://steele-county-nd.mynewbrand.com",
+            "countySitemap": "https://steele-county-nd.mynewbrand.com/sitemap.xml",
+            "embeddedSitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\\n  <sitemap>\\n    <loc>https://steele-county-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://finley-city-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://hope-city-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://luverne-city-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://sharon-city-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n</sitemapindex>"
+        },
+        {
+            "countyName": "Stutsman",
+            "cities": [
+                {
+                    "cityName": "Buchanan",
+                    "cityDomain": "https://buchanan-city-nd.mynewbrand.com",
+                    "citySitemap": "https://buchanan-city-nd.mynewbrand.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Cleveland",
+                    "cityDomain": "https://cleveland-city-nd.mynewbrand.com",
+                    "citySitemap": "https://cleveland-city-nd.mynewbrand.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Courtenay",
+                    "cityDomain": "https://courtenay-city-nd.mynewbrand.com",
+                    "citySitemap": "https://courtenay-city-nd.mynewbrand.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Jamestown",
+                    "cityDomain": "https://jamestown-city-nd.mynewbrand.com",
+                    "citySitemap": "https://jamestown-city-nd.mynewbrand.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Kensal",
+                    "cityDomain": "https://kensal-city-nd.mynewbrand.com",
+                    "citySitemap": "https://kensal-city-nd.mynewbrand.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Medina",
+                    "cityDomain": "https://medina-city-nd.mynewbrand.com",
+                    "citySitemap": "https://medina-city-nd.mynewbrand.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Montpelier",
+                    "cityDomain": "https://montpelier-city-nd.mynewbrand.com",
+                    "citySitemap": "https://montpelier-city-nd.mynewbrand.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Pingree",
+                    "cityDomain": "https://pingree-city-nd.mynewbrand.com",
+                    "citySitemap": "https://pingree-city-nd.mynewbrand.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Streeter",
+                    "cityDomain": "https://streeter-city-nd.mynewbrand.com",
+                    "citySitemap": "https://streeter-city-nd.mynewbrand.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Woodworth",
+                    "cityDomain": "https://woodworth-city-nd.mynewbrand.com",
+                    "citySitemap": "https://woodworth-city-nd.mynewbrand.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Ypsilanti",
+                    "cityDomain": "https://ypsilanti-city-nd.mynewbrand.com",
+                    "citySitemap": "https://ypsilanti-city-nd.mynewbrand.com/sitemap.xml"
+                }
+            ],
+            "Timezone": {
+                "Name": "Central",
+                "Zone": "US/Central",
+                "UTC_Offset": "-06:00"
+            },
+            "countyDomain": "https://stutsman-county-nd.mynewbrand.com",
+            "countySitemap": "https://stutsman-county-nd.mynewbrand.com/sitemap.xml",
+            "embeddedSitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\\n  <sitemap>\\n    <loc>https://stutsman-county-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://buchanan-city-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://cleveland-city-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://courtenay-city-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://jamestown-city-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://kensal-city-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://medina-city-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://montpelier-city-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://pingree-city-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://streeter-city-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://woodworth-city-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://ypsilanti-city-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n</sitemapindex>"
+        },
+        {
+            "countyName": "Towner",
+            "cities": [
+                {
+                    "cityName": "Bisbee",
+                    "cityDomain": "https://bisbee-city-nd.mynewbrand.com",
+                    "citySitemap": "https://bisbee-city-nd.mynewbrand.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Cando",
+                    "cityDomain": "https://cando-city-nd.mynewbrand.com",
+                    "citySitemap": "https://cando-city-nd.mynewbrand.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Egeland",
+                    "cityDomain": "https://egeland-city-nd.mynewbrand.com",
+                    "citySitemap": "https://egeland-city-nd.mynewbrand.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Hansboro",
+                    "cityDomain": "https://hansboro-city-nd.mynewbrand.com",
+                    "citySitemap": "https://hansboro-city-nd.mynewbrand.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Perth",
+                    "cityDomain": "https://perth-city-nd.mynewbrand.com",
+                    "citySitemap": "https://perth-city-nd.mynewbrand.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Rocklake",
+                    "cityDomain": "https://rocklake-city-nd.mynewbrand.com",
+                    "citySitemap": "https://rocklake-city-nd.mynewbrand.com/sitemap.xml"
+                }
+            ],
+            "Timezone": {
+                "Name": "Central",
+                "Zone": "US/Central",
+                "UTC_Offset": "-06:00"
+            },
+            "countyDomain": "https://towner-county-nd.mynewbrand.com",
+            "countySitemap": "https://towner-county-nd.mynewbrand.com/sitemap.xml",
+            "embeddedSitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\\n  <sitemap>\\n    <loc>https://towner-county-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://bisbee-city-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://cando-city-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://egeland-city-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://hansboro-city-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://perth-city-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://rocklake-city-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n</sitemapindex>"
+        },
+        {
+            "countyName": "Traill",
+            "cities": [
+                {
+                    "cityName": "Blanchard",
+                    "cityDomain": "https://blanchard-city-nd.mynewbrand.com",
+                    "citySitemap": "https://blanchard-city-nd.mynewbrand.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Buxton",
+                    "cityDomain": "https://buxton-city-nd.mynewbrand.com",
+                    "citySitemap": "https://buxton-city-nd.mynewbrand.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Caledonia",
+                    "cityDomain": "https://caledonia-city-nd.mynewbrand.com",
+                    "citySitemap": "https://caledonia-city-nd.mynewbrand.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Clifford",
+                    "cityDomain": "https://clifford-city-nd.mynewbrand.com",
+                    "citySitemap": "https://clifford-city-nd.mynewbrand.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Cummings",
+                    "cityDomain": "https://cummings-city-nd.mynewbrand.com",
+                    "citySitemap": "https://cummings-city-nd.mynewbrand.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Galesburg",
+                    "cityDomain": "https://galesburg-city-nd.mynewbrand.com",
+                    "citySitemap": "https://galesburg-city-nd.mynewbrand.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Hatton",
+                    "cityDomain": "https://hatton-city-nd.mynewbrand.com",
+                    "citySitemap": "https://hatton-city-nd.mynewbrand.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Hillsboro",
+                    "cityDomain": "https://hillsboro-city-nd.mynewbrand.com",
+                    "citySitemap": "https://hillsboro-city-nd.mynewbrand.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Mayville",
+                    "cityDomain": "https://mayville-city-nd.mynewbrand.com",
+                    "citySitemap": "https://mayville-city-nd.mynewbrand.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Portland",
+                    "cityDomain": "https://portland-city-nd.mynewbrand.com",
+                    "citySitemap": "https://portland-city-nd.mynewbrand.com/sitemap.xml"
+                }
+            ],
+            "Timezone": {
+                "Name": "Central",
+                "Zone": "US/Central",
+                "UTC_Offset": "-06:00"
+            },
+            "countyDomain": "https://traill-county-nd.mynewbrand.com",
+            "countySitemap": "https://traill-county-nd.mynewbrand.com/sitemap.xml",
+            "embeddedSitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\\n  <sitemap>\\n    <loc>https://traill-county-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://blanchard-city-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://buxton-city-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://caledonia-city-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://clifford-city-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://cummings-city-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://galesburg-city-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://hatton-city-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://hillsboro-city-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://mayville-city-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://portland-city-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n</sitemapindex>"
+        },
+        {
+            "countyName": "Walsh",
+            "cities": [
+                {
+                    "cityName": "Adams",
+                    "cityDomain": "https://adams-city-nd.mynewbrand.com",
+                    "citySitemap": "https://adams-city-nd.mynewbrand.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Edinburg",
+                    "cityDomain": "https://edinburg-city-nd.mynewbrand.com",
+                    "citySitemap": "https://edinburg-city-nd.mynewbrand.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Fairdale",
+                    "cityDomain": "https://fairdale-city-nd.mynewbrand.com",
+                    "citySitemap": "https://fairdale-city-nd.mynewbrand.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Fordville",
+                    "cityDomain": "https://fordville-city-nd.mynewbrand.com",
+                    "citySitemap": "https://fordville-city-nd.mynewbrand.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Forest River",
+                    "cityDomain": "https://forest-river-city-nd.mynewbrand.com",
+                    "citySitemap": "https://forest-river-city-nd.mynewbrand.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Grafton",
+                    "cityDomain": "https://grafton-city-nd.mynewbrand.com",
+                    "citySitemap": "https://grafton-city-nd.mynewbrand.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Hoople",
+                    "cityDomain": "https://hoople-city-nd.mynewbrand.com",
+                    "citySitemap": "https://hoople-city-nd.mynewbrand.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Lankin",
+                    "cityDomain": "https://lankin-city-nd.mynewbrand.com",
+                    "citySitemap": "https://lankin-city-nd.mynewbrand.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Minto",
+                    "cityDomain": "https://minto-city-nd.mynewbrand.com",
+                    "citySitemap": "https://minto-city-nd.mynewbrand.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Park River",
+                    "cityDomain": "https://park-river-city-nd.mynewbrand.com",
+                    "citySitemap": "https://park-river-city-nd.mynewbrand.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Pisek",
+                    "cityDomain": "https://pisek-city-nd.mynewbrand.com",
+                    "citySitemap": "https://pisek-city-nd.mynewbrand.com/sitemap.xml"
+                }
+            ],
+            "Timezone": {
+                "Name": "Central",
+                "Zone": "US/Central",
+                "UTC_Offset": "-06:00"
+            },
+            "countyDomain": "https://walsh-county-nd.mynewbrand.com",
+            "countySitemap": "https://walsh-county-nd.mynewbrand.com/sitemap.xml",
+            "embeddedSitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\\n  <sitemap>\\n    <loc>https://walsh-county-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://adams-city-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://edinburg-city-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://fairdale-city-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://fordville-city-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://forest-river-city-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://grafton-city-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://hoople-city-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://lankin-city-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://minto-city-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://park-river-city-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://pisek-city-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n</sitemapindex>"
+        },
+        {
+            "countyName": "Ward",
+            "cities": [
+                {
+                    "cityName": "Berthold",
+                    "cityDomain": "https://berthold-city-nd.mynewbrand.com",
+                    "citySitemap": "https://berthold-city-nd.mynewbrand.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Burlington",
+                    "cityDomain": "https://burlington-city-nd.mynewbrand.com",
+                    "citySitemap": "https://burlington-city-nd.mynewbrand.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Carpio",
+                    "cityDomain": "https://carpio-city-nd.mynewbrand.com",
+                    "citySitemap": "https://carpio-city-nd.mynewbrand.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Des Lacs",
+                    "cityDomain": "https://des-lacs-city-nd.mynewbrand.com",
+                    "citySitemap": "https://des-lacs-city-nd.mynewbrand.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Donnybrook",
+                    "cityDomain": "https://donnybrook-city-nd.mynewbrand.com",
+                    "citySitemap": "https://donnybrook-city-nd.mynewbrand.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Douglas",
+                    "cityDomain": "https://douglas-city-nd.mynewbrand.com",
+                    "citySitemap": "https://douglas-city-nd.mynewbrand.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Kenmare",
+                    "cityDomain": "https://kenmare-city-nd.mynewbrand.com",
+                    "citySitemap": "https://kenmare-city-nd.mynewbrand.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Mafb",
+                    "cityDomain": "https://mafb-city-nd.mynewbrand.com",
+                    "citySitemap": "https://mafb-city-nd.mynewbrand.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Makoti",
+                    "cityDomain": "https://makoti-city-nd.mynewbrand.com",
+                    "citySitemap": "https://makoti-city-nd.mynewbrand.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Minot",
+                    "cityDomain": "https://minot-city-nd.mynewbrand.com",
+                    "citySitemap": "https://minot-city-nd.mynewbrand.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Minot Afb",
+                    "cityDomain": "https://minot-afb-city-nd.mynewbrand.com",
+                    "citySitemap": "https://minot-afb-city-nd.mynewbrand.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Ryder",
+                    "cityDomain": "https://ryder-city-nd.mynewbrand.com",
+                    "citySitemap": "https://ryder-city-nd.mynewbrand.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Sawyer",
+                    "cityDomain": "https://sawyer-city-nd.mynewbrand.com",
+                    "citySitemap": "https://sawyer-city-nd.mynewbrand.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Surrey",
+                    "cityDomain": "https://surrey-city-nd.mynewbrand.com",
+                    "citySitemap": "https://surrey-city-nd.mynewbrand.com/sitemap.xml"
+                }
+            ],
+            "Timezone": {
+                "Name": "Central",
+                "Zone": "US/Central",
+                "UTC_Offset": "-06:00"
+            },
+            "countyDomain": "https://ward-county-nd.mynewbrand.com",
+            "countySitemap": "https://ward-county-nd.mynewbrand.com/sitemap.xml",
+            "embeddedSitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\\n  <sitemap>\\n    <loc>https://ward-county-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://berthold-city-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://burlington-city-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://carpio-city-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://des-lacs-city-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://donnybrook-city-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://douglas-city-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://kenmare-city-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://mafb-city-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://makoti-city-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://minot-city-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://minot-afb-city-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://ryder-city-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://sawyer-city-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://surrey-city-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n</sitemapindex>"
+        },
+        {
+            "countyName": "Wells",
+            "cities": [
+                {
+                    "cityName": "Bowdon",
+                    "cityDomain": "https://bowdon-city-nd.mynewbrand.com",
+                    "citySitemap": "https://bowdon-city-nd.mynewbrand.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Cathay",
+                    "cityDomain": "https://cathay-city-nd.mynewbrand.com",
+                    "citySitemap": "https://cathay-city-nd.mynewbrand.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Chaseley",
+                    "cityDomain": "https://chaseley-city-nd.mynewbrand.com",
+                    "citySitemap": "https://chaseley-city-nd.mynewbrand.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Fessenden",
+                    "cityDomain": "https://fessenden-city-nd.mynewbrand.com",
+                    "citySitemap": "https://fessenden-city-nd.mynewbrand.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Harvey",
+                    "cityDomain": "https://harvey-city-nd.mynewbrand.com",
+                    "citySitemap": "https://harvey-city-nd.mynewbrand.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Hurdsfield",
+                    "cityDomain": "https://hurdsfield-city-nd.mynewbrand.com",
+                    "citySitemap": "https://hurdsfield-city-nd.mynewbrand.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Sykeston",
+                    "cityDomain": "https://sykeston-city-nd.mynewbrand.com",
+                    "citySitemap": "https://sykeston-city-nd.mynewbrand.com/sitemap.xml"
+                }
+            ],
+            "Timezone": {
+                "Name": "Central",
+                "Zone": "US/Central",
+                "UTC_Offset": "-06:00"
+            },
+            "countyDomain": "https://wells-county-nd.mynewbrand.com",
+            "countySitemap": "https://wells-county-nd.mynewbrand.com/sitemap.xml",
+            "embeddedSitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\\n  <sitemap>\\n    <loc>https://wells-county-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://bowdon-city-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://cathay-city-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://chaseley-city-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://fessenden-city-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://harvey-city-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://hurdsfield-city-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://sykeston-city-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n</sitemapindex>"
+        },
+        {
+            "countyName": "Williams",
+            "cities": [
+                {
+                    "cityName": "Alamo",
+                    "cityDomain": "https://alamo-city-nd.mynewbrand.com",
+                    "citySitemap": "https://alamo-city-nd.mynewbrand.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Epping",
+                    "cityDomain": "https://epping-city-nd.mynewbrand.com",
+                    "citySitemap": "https://epping-city-nd.mynewbrand.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Grenora",
+                    "cityDomain": "https://grenora-city-nd.mynewbrand.com",
+                    "citySitemap": "https://grenora-city-nd.mynewbrand.com/sitemap.xml"
+                },
+                {
+                    "cityName": "McGregor",
+                    "cityDomain": "https://mcgregor-city-nd.mynewbrand.com",
+                    "citySitemap": "https://mcgregor-city-nd.mynewbrand.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Ray",
+                    "cityDomain": "https://ray-city-nd.mynewbrand.com",
+                    "citySitemap": "https://ray-city-nd.mynewbrand.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Tioga",
+                    "cityDomain": "https://tioga-city-nd.mynewbrand.com",
+                    "citySitemap": "https://tioga-city-nd.mynewbrand.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Trenton",
+                    "cityDomain": "https://trenton-city-nd.mynewbrand.com",
+                    "citySitemap": "https://trenton-city-nd.mynewbrand.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Wildrose",
+                    "cityDomain": "https://wildrose-city-nd.mynewbrand.com",
+                    "citySitemap": "https://wildrose-city-nd.mynewbrand.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Williston",
+                    "cityDomain": "https://williston-city-nd.mynewbrand.com",
+                    "citySitemap": "https://williston-city-nd.mynewbrand.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Zahl",
+                    "cityDomain": "https://zahl-city-nd.mynewbrand.com",
+                    "citySitemap": "https://zahl-city-nd.mynewbrand.com/sitemap.xml"
+                }
+            ],
+            "Timezone": {
+                "Name": "Central",
+                "Zone": "US/Central",
+                "UTC_Offset": "-06:00"
+            },
+            "countyDomain": "https://williams-county-nd.mynewbrand.com",
+            "countySitemap": "https://williams-county-nd.mynewbrand.com/sitemap.xml",
+            "embeddedSitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\\n  <sitemap>\\n    <loc>https://williams-county-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://alamo-city-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://epping-city-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://grenora-city-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://mcgregor-city-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://ray-city-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://tioga-city-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://trenton-city-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://wildrose-city-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://williston-city-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n  <sitemap>\\n    <loc>https://zahl-city-nd.mynewbrand.com/sitemap.xml</loc>\\n    <lastmod>2026-02-14</lastmod>\\n  </sitemap>\\n</sitemapindex>"
+        }
+    ],
+    "stateName": "North Dakota"
+}
